@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action="/email-signup" method="post">
+<input name="authenticity_token" type="hidden" value="GyV2U9GJwfhe1Zlfi9baxcJoAu8FkDDIZ6u737GZc4HsunqAx8PyAu4UK6VVhEU2snbEjlsZMQGrGeYGmy+2tQ=="/>
+<input id="link" name="link" type="hidden" value="/topic/health-protection/radiation"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" data-module="track-click" data-track-action="new_frequency" data-track-category="email_subscriptions" data-track-label="Radiation" type="submit">Continue</button>
+</form>

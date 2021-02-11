@@ -1,0 +1,54 @@
+<form action="/services/hospital/kings-college-hospital/X1214/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Eye treatment for Branch Retinal Vein Occlusion&lt;/Title&gt;
+    &lt;ScreenName&gt;John Hatcher&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Following an eye problem with my left eye, I went to a local chemists which had an opthalmologist who was concerned enough to send me to King's College Hospital opthalmology department where I was able to see a consultant after having a number of tests.  Follow up visits were arranged and I was impressed by not having to wait beyond my appointment time for all but one of my visits when I was kept waiting a few minutes.  During those visits I saw two consultants who made a recommendation for me to have injections in my left eye and to reduce my high blood pressure with approriate tablets. After the first injection, my poor vision cleared in 48 hours. I had a follow up injection a month later and my eyesight is back to normal.  It was also arranged that I went to Moorfields eye hospital for a glaucoma check as a precautionary measure. I thought the service was exceptionally good from administrative, nursing and senior professionals who showed a great deal of care and attention to my needs.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-06-21T01:38:37.45Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;3&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;King's College Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;918bb42c-46d5-e911-a812-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1214&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamEVAz8fdv7_vppbmf708fwA7UsvZir_ByjhZkH53ABkb-a4u8a1_nfie6OndipF-hQ4k1mHQLoiVqweVXpRkQWDECn24pMDzH87Yto3gGKj9tfdeqN--nnSJWBCfuWrcMY"/></form>

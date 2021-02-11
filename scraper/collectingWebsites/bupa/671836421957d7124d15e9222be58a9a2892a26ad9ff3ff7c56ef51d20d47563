@@ -1,0 +1,153 @@
+<form action="/health-assessments/postFormsData" autocomplete="off" class="form" data-isajax="true" id="clinic-centre-contact" method="post">
+<input name="__RequestVerificationToken" type="hidden" value="UQQrKMzn2YC6SA9GwA1vBFZPi-YUm720D7FbS4zsFzfOd54gS6gwT5gITd8fHH3YvDkd56rYKWVOe2qH7gqsPhwjl_omZ9ddHmiIetSvNmQ1"/>
+<input id="formTitle" type="hidden" value="clinic-centre-contact"/>
+<input class="field forminput hidden-field multi-field-validator" id="hidEnquirySource" name="EnquirySource" type="hidden" value="Health Assessment Portal"/>
+<input class="field forminput hidden-field multi-field-validator" id="hidEnquiryType" name="EnquiryTypeName" type="hidden" value="Contact Us"/>
+<input class="field forminput hidden-field multi-field-validator" id="hidEnquiryPageName" name="EnquiryPageName" type="hidden" value="London Canary Wharf Crossrail Place Health Centre"/>
+<input class="field forminput hidden-field multi-field-validator" id="hidProviderID" name="ProviderID" type="hidden" value=""/>
+<div class="form-table">
+<div class="table-heading">
+<h3>Personal details</h3>
+</div>
+<div class="row no-error">
+<label for="Title"> Title *</label>
+<div class="field-container">
+<div class="dd-container">
+<input class="field forminput hidden-field" data-invalid="Please select a title from the drop down list" data-regex="" data-required="Please select a title from the drop down list" id="Title" name="Title" type="text" value=""/>
+<div class="dropdown dropdown-container" id="ddTitle">
+<button class="dropdown-toggle form-dropdown search-filter-dropdown form-button select-desktop" data-input-id="Title" data-toggle="dropdown" id="titleMenu" type="button">
+<span class="selected-text">Title</span>
+<span class="caret"></span>
+</button>
+<ul aria-labelledby="dLabel" class="dropdown-menu select-desktop" data-native-menu="true" role="menu">
+<li value="Mr"><a option-value="1" role="menuitem" tabindex="-1">Mr</a></li>
+<li value="Mrs"><a option-value="2" role="menuitem" tabindex="-1">Mrs</a></li>
+<li value="Ms"><a option-value="3" role="menuitem" tabindex="-1">Ms</a></li>
+<li value="Miss"><a option-value="4" role="menuitem" tabindex="-1">Miss</a></li>
+<li value="Dr"><a option-value="5" role="menuitem" tabindex="-1">Dr</a></li>
+<li value="Other"><a option-value="6" role="menuitem" tabindex="-1">Other</a></li>
+</ul>
+<select class="dropdown-toggle form-dropdown search-filter-dropdown form-button select-mobile" data-input-id="Title" data-toggle="dropdown" id="titleMenu">
+<option disabled="" selected="" value="">Title</option>
+<option value="Mr"><a option-value="7" role="menuitem" tabindex="-1">Mr</a></option>
+<option value="Mrs"><a option-value="8" role="menuitem" tabindex="-1">Mrs</a></option>
+<option value="Ms"><a option-value="9" role="menuitem" tabindex="-1">Ms</a></option>
+<option value="Miss"><a option-value="10" role="menuitem" tabindex="-1">Miss</a></option>
+<option value="Dr"><a option-value="11" role="menuitem" tabindex="-1">Dr</a></option>
+<option value="Other"><a option-value="12" role="menuitem" tabindex="-1">Other</a></option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<label for="FirstName">First name *</label>
+<div class="field-container">
+<input class="field forminput md xlrg" data-invalid="Please enter a valid name." data-regex="^[a-zA-Z-,'&amp; ]*$" data-required="Please enter your first name" data-val="true" data-val-regex="Please enter a valid name. ^[a-zA-Z-,'&amp; ]*$" data-val-regex-pattern="^[a-zA-Z-,'&amp; ]*$" data-val-required="Please enter your first name" id="FirstName" maxlength="50" name="FirstName" placeholder="eg: John" type="text" value=""/>
+</div>
+</div>
+<div class="row">
+<label for="LastName">Last name *</label>
+<div class="field-container">
+<input class="field forminput md xlrg" data-invalid="Please enter a valid last name." data-regex="^[a-zA-Z-,'&amp; ]*$" data-required="Please enter your last name" data-val="true" data-val-regex="Please enter a valid last name. ^[a-zA-Z-,'&amp; ]*$" data-val-regex-pattern="^[a-zA-Z-,'&amp; ]*$" data-val-required="Please enter your last name" id="LastName" maxlength="50" name="LastName" placeholder="eg: Smith" type="text" value=""/>
+</div>
+</div>
+<div class="row">
+<label for="email1">Email address *</label>
+<div class="field-container">
+<input class="field forminput xlrg" data-invalid="Email address not valid or does not match" data-regex="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-required="Email address not valid or does not match" data-val="true" data-val-regex="Email address not valid or does not match" data-val-regex-pattern="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-val-required="Email address not valid or does not match" id="email1" maxlength="" name="EmailAddress" placeholder="johnsmith@example.com" type="text" value=""/>
+</div>
+</div>
+<div class="row">
+<label for="email2">Confirm email address *</label>
+<div class="field-container">
+<input class="field forminput xlrg" data-alt-validate="compareEmail" data-compareto-id="email1" data-invalid="Email address not valid or does not match" data-required="Email address not valid or does not match" data-val="true" data-val-required="Email address not valid or does not match" id="email2" maxlength="" placeholder="johnsmith@example.com" type="text" value=""/>
+</div>
+</div>
+<div class="row">
+<label for="TelephoneNo">Telephone *</label>
+<div class="field-container">
+<input class="field forminput md xlrg" data-invalid="Please enter a valid phone number" data-regex="^\(?0( *\d\)?){9,10}$" data-required="Please enter a valid phone number" data-val="true" data-val-regex="Please enter a valid phone number ^\(?0( *\d\)?){9,10}$" data-val-regex-pattern="^\(?0( *\d\)?){9,10}$" data-val-required="Please enter a valid phone number" id="TelephoneNo" maxlength="50" name="TelephoneNumber" placeholder="Mobile or landline number" type="text" value=""/>
+</div>
+</div>
+<div class="row">
+<label for="DateOfbirth">Date of birth *</label>
+<div class="field-container">
+<div class="multi-field-container">
+<div class="input-container">
+<input class="field forminput hidden-field multi-field-validator" data-alt-validate="validateDoB" data-invalid="Please enter a valid date of birth" data-required="Please enter a valid date of birth" id="dobComplete" maxlength="4" name="DateOfBirth" text="0" type="text" value=""/>
+<input class="field forminput sml" data-alt-validate="validateDoB" data-invalid="Please enter a valid date of birth" data-multi-validator-id="dobComplete" data-no-validate="true" data-required="Please enter a valid date of birth" id="dobDD" maxlength="2" name="dobDD" placeholder="DD" type="text" value=""/>
+<input class="field forminput sml" data-alt-validate="validateDoB" data-invalid="Please enter a valid date of birth" data-multi-validator-id="dobComplete" data-no-validate="true" data-required="Please enter a valid date of birth" id="dobMM" maxlength="2" name="dobMM" placeholder="MM" type="text" value=""/>
+<input class="field forminput sml" data-alt-validate="validateDoB" data-invalid="Please enter a valid date of birth" data-multi-validator-id="dobComplete" data-no-validate="true" data-required="Please enter a valid date of birth" id="dobYY" maxlength="4" name="dobYY" placeholder="YYYY" type="text" value=""/>
+</div>
+</div>
+</div>
+</div>
+<div class="row with-disclaimer">
+<label for="Postcode">Postcode *</label>
+<div class="field-container">
+<input class="field forminput md xlrg postcode" data-invalid="Please enter a valid postcode" data-regex="^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) {0,1}[0-9][A-Za-z]{2})$" data-required="Please enter a valid postcode" data-val="true" data-val-regex="Please enter a valid postcode ^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) {0,1}[0-9][A-Za-z]{2})$" data-val-regex-pattern="^([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) {0,1}[0-9][A-Za-z]{2})$" data-val-required="Please enter a valid postcode" id="Postcode" maxlength="8" name="PostCode" placeholder="Postcode" type="text" value=""/>
+</div>
+</div>
+<div class="row disclaimer-row">
+<div class="table-cell"></div>
+<div class="table-cell">
+<p class="disclaimer-copy">
+                                                        This is to help us direct your enquiry to your nearest centre
+                                                    </p>
+</div>
+</div>
+<div class="row">
+<label class="textarea" for="NatureOfAppointmentRequired"> Enquiry *</label>
+<div class="field-container">
+<textarea class="field forminput xlrg" cols="10" data-invalid="^[\s\S]{0,1000}$" data-required="Please enter details of your enquiry" data-val="true" data-val-regex="^[\s\S]{0,1000}$ Please enter details of your enquiry" data-val-regex-pattern="Please enter details of your enquiry" data-val-required="Please enter details of your enquiry" id="NatureOfAppointmentRequired" maxlength="1000" name="TreatmentRequired" placeholder="Tell us about your enquiry (max 1000 characters)" rows="10"></textarea>
+</div>
+</div>
+</div>
+<hr class="dotted-rule"/>
+<div class="row free-row">
+<h3></h3>
+</div>
+<div class="row">
+<div class="marketing-text">
+<p>We recognise that when you give us personal information (which includes health information) you’re trusting us to take good care of it. Please see  our <a href="https://www.bupa.co.uk/legal-notices/privacy-and-cookies" target="_blank" title="Opens in a new window">privacy notice</a> for more information about how we collect, use and protect your data.</p>
+<p>If you <strong>don’t</strong> want to receive marketing about Bupa products and services that we think are relevant to you, please contact us at <a href="mailto:optmeout@bupa.com" target="_blank" title="Opens in new window">optmeout@bupa.com</a></p>
+</div>
+</div>
+<div class="row free-row controls">
+<a class="btn-form-submit" href="javascript:void(0)">
+<span>Submit</span>
+</a>
+<a class="btn-form-cancel">Cancel</a>
+</div>
+<script type="text/javascript">
+
+                var device_Type = 'desktop';
+                var form_Name = 'Contact-us';
+
+                document.getElementById("returnback").innerHTML = "Return back to " + "London Canary Wharf Crossrail Place Health Centre";
+
+                var a = "";
+
+                if (device_Type == "mobile") {
+                    a = document.referrer;
+                }
+                else {
+                    a = window.location.href.split(location.search || location.hash || /[?#]/)[0];
+                    analyticsClickHandlerForForms("start");
+                    if ($(".dialog-content .section-footer").length) {
+                        $(".dialog-content .section-footer").hide();
+                    }
+                }
+                var b = document.getElementById("returnback");
+
+                b.setAttribute("href", a);
+
+                document.getElementById("returnbacksorry").innerHTML = "Return back to " + "London Canary Wharf Crossrail Place Health Centre";
+
+                var c = document.getElementById("returnbacksorry");
+
+                c.setAttribute("href", c);
+
+            </script>
+</form>

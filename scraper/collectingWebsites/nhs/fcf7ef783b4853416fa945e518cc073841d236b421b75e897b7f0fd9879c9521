@@ -1,0 +1,54 @@
+<form action="/services/hospital/russells-hall-hospital/X882/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Care of my nan on ward C3.&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;My nan was taken to your hospital due to a slight fall she was fine &amp;amp;amp; they said she would be sent home the same day but , she was not &amp;amp;amp; she was put on a ward &amp;amp;amp; no one would tell you anything the communication was really poor. She then came down with a virus which our family caught but , the nurses said there was nothing wrong with her even though your staff were coughing too. We were all very illegal with it it was similar to swine flu I think I had over 10 years ago. You kept moving her from ward to ward &amp;amp;amp; ended up on C3 &amp;amp;amp; the treatment she received was disgusting we was told she had chest infection &amp;amp;amp; water infection but , she wasn't allowed a drink she was very dehydrated &amp;amp;amp; confused &amp;amp;amp; frightened her arms were black &amp;amp;amp; blue she had bruises on her head she was given antibiotics she was allergic to when we informed you that she was not to have them. She was helped to eat infact no meals were hardly given to her. They took her drip out her arm &amp;amp;amp; stopped all her medication she was slowly dying they even let some scared dementia patient get in her room all the staff did was stand about doing nothing.The day she died on my aunties 70th birthday they told us she had a comfortable night but , was very tired &amp;amp;amp; would probably wake when we got there but , no one was taking care of her &amp;amp;amp; when my mum got there her head was right back her neck sunk in you couldn't open her eyes , she had hardly any pulse or heart beat &amp;amp;amp; her hands had turned dark blue it was horrendous &amp;amp;amp; the staff weren't very sympathetic just patronising &amp;amp;amp; rude the place is a disgrace.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-05-24T01:45:14.343Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;5&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Russells Hall Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;e211a2c7-45d5-e911-a812-000d3a7ed2f2&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X882&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGxikMJn2-di1UBByNDqDMQktMjABvemkhia65jFmlhcBv70e2CXkJqJzlx_H70eMbFLPd3PJQbmdTA9suSAYV-T-CrT7gSxf_gfVtgUPC7wOnyzLu6_TflkcljOj-fkuE"/></form>

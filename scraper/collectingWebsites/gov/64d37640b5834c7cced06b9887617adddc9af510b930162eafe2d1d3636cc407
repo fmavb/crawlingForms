@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action="/email-signup" method="post">
+<input name="authenticity_token" type="hidden" value="L8hFPx1mmWH92B9WX2258isaP6cHEuxsoYkzIT1LGgnYV0nsCyyqm00ZrayBPyYBWwT5xlmb7aVtO274F/3fPQ=="/>
+<input id="link" name="link" type="hidden" value="/transport/smart-motorways"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" data-module="track-click" data-track-action="new_frequency" data-track-category="email_subscriptions" data-track-label="Smart motorways" type="submit">Continue</button>
+</form>

@@ -1,0 +1,56 @@
+<form action="/services/hospital/queen-elizabeth-hospital-birmingham/X1655/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;CommentText&gt;Thank you for taking the time to provide feedback about the Queen Elizabeth Hospital Birmingham. I am pleased that some aspects of your experience were positive but also sorry to hear the concerns you have regarding your recent attendance for a bone scan. Your feedback has been shared with senior colleagues who lead the department you attended and they are keen to use it make any necessary improvements to the service they deliver.  
+Lucy Hodgkiss Chief Technologist has provided a response below:  
+'We take the feedback very seriously and if there is an area that we can improve the patient experience then we are glad to have this highlighted.  
+Cleaning during the COVID pandemic is especially important and we have an intense cleaning programme in place. Social distancing and safety of patients and staff is also paramount at present to keep an active service. Staff, patients and visitors should all be wearing PPE as per Trust policy and government guidelines. It is not expected to encourage removal however in this circumstance removing the mask to ensure a diagnostic image was acquired was a sensible option.  
+It is unfortunate that the scanning team were unaware of the mild claustrophobia prior to positioning, had this been discussed sooner an alternative positioning technique could have been implemented, but it is appreciated that you initially felt you would be ok during the scan. It is not usual for a team member to remain with the patient throughout the scan as the staff member receives a radiation dose from this, however I understand that in this instance, in order for the patient to feel more comfortable, they did stay and talked through the process.  
+There is a DVD player attached to the system but we have no access to music DVD’s. However, there would have been no issue for you to wear your own earphones (small plugs but not large head set) attached to a personal media player and this could have been set up prior to the start of the scan.  
+If you still have any concerns I am happy for a face to face meeting as a process to enhance our services and improve patient experience'  
+Additional Response from Nicky Beecher - Patient Experience Manager  
+I hope that information is helpful; I also wanted to let you know that I am meeting with senior colleagues from this department to go through your feedback and helpful suggestions in more detail. I will also be walking through the department to have a look at the patient journey to see if there is anything that can be improved. If you would like me to feedback to you directly following this please get in touch and provide your contact details. My email address is Nicky.Beecher@uhb.nhs.uk  
+Thank you again for taking the time to share your experience with us, we do value it very much and hope that we can use it to benefit future patients.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-10-09T14:20:03Z&lt;/DateSubmitted&gt;
+    &lt;IsResponse&gt;true&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Queen Elizabeth Hospital Birmingham&lt;/OrganisationName&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;f5269a83-3a0a-eb11-a813-0022483ee631&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1655&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFAnRMKahhPOdKKCrJIKt54aaeZSTpCWPWXFqjtqZM5U5-Qymbze51YAOkGxS9oA2v8A6lLIuQ7TkafOUQMDtVRMyWZ3tjrIlMRmCUupeKzCijcn7yQwaZjqQ9ryAAxAAE"/></form>

@@ -1,0 +1,245 @@
+<form action="/quote/Direct/Motor/Company" class="updateTarget" method="post" name="frm"> <input id="ModelGoogleReg" type="hidden" value=""/>
+<p class="gdpr_link">Find out how we use your data <a class="yourDataLightbox" data-module="o-modal" href="#yourDataLightbox">here</a></p>
+<h1 class="a-heading a-heading--1">About your business</h1>
+<fieldset class="m-form-row m-form-row--full-width m-form-row--light">
+<legend class="a-label">What type of quote would you like?</legend>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--pictorial m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item single-vehicle-company">
+<label class="a-radio">
+<input checked="checked" class="coverTypeRadio a-radio__input" id="MultiVehicleJourney" name="MultiVehicleJourney" type="radio" value="false"/>
+<span class="a-radio__label">
+<span class="a-radio__label-image">
+</span>
+<span class="a-radio__label-inner">I would like a quote for one vehicle</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item multi-vehicle-company">
+<label class="a-radio">
+<input class="coverTypeRadio a-radio__input" id="MultiVehicleJourney" name="MultiVehicleJourney" type="radio" value="true"/>
+<span class="a-radio__label">
+<span class="a-radio__label-image">
+</span>
+<span class="a-radio__label-inner">I would like a quote for more than one vehicle</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+<ul class="a-list-unordered multiVehicleBenefits">
+<li class="a-list-unordered__item--tick">You can quote for a vehicle you want to add later </li>
+<li class="a-list-unordered__item--tick">We'll keep your no claim discount and excesses separate</li>
+<li class="a-list-unordered__item--tick">You can add up to 4 drivers</li>
+</ul>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width m-form-row--light">
+<label class="a-label" for="BusinessCompanyName">What is your company name?</label>
+<div class="m-show-more" data-contract="Less info" data-expand="More info" data-module="m-show-more">
+<div>
+<div class="helpText"><p>A business which is registered under the Companies Act</p></div>
+</div>
+</div>
+<div class="m-form-row__content">
+<input class="a-textbox businessCompanyName" id="BusinessCompanyName" name="BusinessCompanyName" type="text" value=""/>
+</div>
+</fieldset>
+<div id="addressLookupWrapper">
+<div class="addressContainer">
+<fieldset class="m-form-row lookupContainer m-form-row--light">
+<label class="a-label" for="PrincipalPolicyHolder_EmploymentOccupationDescription"><label for="PrincipalPolicyHolder_PostCode">What is your postcode?</label></label>
+<div class="m-form-row__content">
+<div class="m-show-more" data-contract="Less info" data-expand="More info" data-module="m-show-more">
+<div>
+<p>Your postcode should be in Great Britain, Northern Ireland, Isle of Man or Channel Islands</p>
+</div>
+</div>
+<div class="addressInput">
+<input autocomplete="off" class="a-textbox a-textbox--9-character toupper" id="PrincipalPolicyHolder_PostCode" maxlength="9" name="PrincipalPolicyHolder.PostCode" type="text" value=""/>
+</div>
+<div class="addressConfirm smallTick">
+<span class="a-button a-button--input">
+<input class="a-button__inner findAddress" id="addressLookup" name="addressButton" type="submit" value="Find my address"/>
+</span>
+<div aria-role="alert" class="a-loading-indicator a-loading-indicator--small" id="addressLoader" style="display: none"><span class="a-loading-indicator__message"></span></div>
+</div>
+<div class="clearFix clear"></div>
+</div>
+</fieldset>
+<input id="SelectAddress" name="SelectAddress" type="hidden" value=""/>
+<input id="PrincipalPolicyHolder_MultiplePostCode" name="PrincipalPolicyHolder.MultiplePostCode" type="hidden" value=""/>
+<input id="PrincipalPolicyHolder_HouseNumberOrName" name="PrincipalPolicyHolder.HouseNumberOrName" type="hidden" value=""/>
+</div>
+</div>
+<div aria-role="alert" class="a-loading-indicator a-loading-indicator--small addressLoadingIndicator hidden"><span class="a-loading-indicator__message">Please Wait</span></div>
+<fieldset class="m-form-row pod-top--margin" role="radiogroup">
+<legend class="a-label"><label for="NumberOfVehiclesAtAddress">How many cars or vans are there at this address?</label></legend>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--5" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input" id="NumberOfVehiclesAtAddress" name="NumberOfVehiclesAtAddress" type="radio" value="1"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">1</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input" id="NumberOfVehiclesAtAddress" name="NumberOfVehiclesAtAddress" type="radio" value="2"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">2</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input" id="NumberOfVehiclesAtAddress" name="NumberOfVehiclesAtAddress" type="radio" value="3"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">3</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input" id="NumberOfVehiclesAtAddress" name="NumberOfVehiclesAtAddress" type="radio" value="4"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">4</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input" id="NumberOfVehiclesAtAddress" name="NumberOfVehiclesAtAddress" type="radio" value="5"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">5+</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row">
+<h2>Contact details</h2>
+<div class="m-form-row__content">
+<p>
+Please add the contact details of the person who will be looking after your business motor insurance.                </p>
+</div>
+</fieldset>
+<fieldset class="m-form-row" role="radiogroup">
+<legend class="a-label">
+Title            </legend>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--5" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input titleRadio" id="MR" name="AuthorisedPerson.Title" type="radio" value="MR"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Mr</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input titleRadio" id="MRS" name="AuthorisedPerson.Title" type="radio" value="MRS"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Mrs</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input titleRadio" id="MISS" name="AuthorisedPerson.Title" type="radio" value="MISS"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Miss</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input titleRadio" id="MS" name="AuthorisedPerson.Title" type="radio" value="MS"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Ms</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input titleRadio" id="DR" name="AuthorisedPerson.Title" type="radio" value="DR"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Dr</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row genderRadioSection" role="radiogroup">
+<legend class="a-label"><label for="AuthorisedPerson_Gender">Gender</label></legend>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input genderRadio" id="AuthorisedPerson_Gender" name="AuthorisedPerson.Gender" type="radio" value="M"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Male</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio">
+<input class="a-radio__input genderRadio" id="AuthorisedPerson_Gender" name="AuthorisedPerson.Gender" type="radio" value="F"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Female</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row">
+<label class="a-label" for="AuthorisedPerson_FirstName">First name</label>
+<div class="m-form-row__content">
+<input class="a-textbox toUpperCase" id="AuthorisedPerson_FirstName" maxlength="32" name="AuthorisedPerson.FirstName" type="text" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row">
+<label class="a-label" for="AuthorisedPerson_LastName">Last name</label>
+<div class="m-form-row__content">
+<input class="a-textbox toUpperCase" id="AuthorisedPerson_LastName" maxlength="32" name="AuthorisedPerson.LastName" type="text" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row" role="group">
+<legend class="a-label"><label for="AuthorisedPerson_DateOfBirth">Date of birth</label></legend>
+<div class="m-form-row__content">
+<ul class="m-textbox-group">
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--2-character" id="AuthorisedPerson_DateOfBirthDay" maxlength="2" name="AuthorisedPerson.DateOfBirthDay" pattern="[0-9]*" placeholder="DD" size="2" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--2-character" id="AuthorisedPerson_DateOfBirthMonth" maxlength="2" name="AuthorisedPerson.DateOfBirthMonth" pattern="[0-9]*" placeholder="MM" size="2" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--4-character" id="AuthorisedPerson_DateOfBirthYear" maxlength="4" name="AuthorisedPerson.DateOfBirthYear" pattern="[0-9]*" placeholder="YYYY" size="4" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label"><label for="PrincipalPolicyHolder_EmailAddress">Email address</label></label>
+<div class="m-show-more" data-contract="Less info" data-expand="More info" data-module="m-show-more">
+<div>
+<p>Please enter your preferred email address. We need your email address to allow you access to retrieve your quote. See the <a href="https://www.aviva.co.uk/documents/business/idd/business-vehicle-insurance/" target="_blank">Privacy Notice section</a> in the Important Information for this product, for more details.</p>
+</div>
+</div>
+<div class="m-form-row__content">
+<input class="a-textbox" id="PrincipalPolicyHolder_EmailAddress" name="PrincipalPolicyHolder.EmailAddress" type="email" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label"><label for="PrincipalPolicyHolder_TelephoneNumber">Preferred telephone number</label></label>
+<div class="m-form-row__content">
+<div class="m-show-more" data-contract="Less info" data-expand="More info" data-module="m-show-more">
+<div>
+<p>Please give us your preferred telephone number. We will use this to contact you about your policy if we need to. We may send you a text when you buy a policy.</p>
+</div>
+</div>
+<input class="a-textbox" id="PrincipalPolicyHolder_TelephoneNumber" maxlength="21" name="PrincipalPolicyHolder.TelephoneNumber" type="tel" value=""/>
+</div>
+</fieldset>
+<div class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<input class="a-button a-button--primary" name="nextButton" type="submit" value="Continue"/>
+</div>
+</div>
+</form>

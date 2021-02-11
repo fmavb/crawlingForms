@@ -1,0 +1,26 @@
+<form autocomplete="off" class="form-wrapper" id="userDataForm">
+<div class="input-wrap">
+<label>First Name</label>
+<input class="input-field" data-regex-message="Enter valid value for Firstname" data-valid="Please Enter your first name" id="firstName" placeholder="Enter First Name" type="text"/>
+<p class="errorMsg" id="firstNameError"></p>
+</div>
+<div class="input-wrap">
+<label>Last Name</label>
+<input class="input-field" data-regex-message="Enter the Valid Value for Lastname" data-valid="Please Enter your last name" id="lastName" placeholder="Enter Last Name" type="text"/>
+<p class="errorMsg" id="lastNameError"></p>
+</div>
+<div class="input-wrap">
+<label>Email</label>
+<input class="input-field" data-regex-message="Please provide valid email address" data-valid="Please provide valid email address" id="emailId" placeholder="Enter Email" type="text"/>
+<p class="errorMsg" id="emailError"></p>
+</div>
+<div class="input-wrap">
+<label>Phone number</label>
+<input class="input-field" data-regex-message="Please enter valid phone number" data-valid="Please enter valid phone number" id="phoneNo" placeholder="Enter Phone Number" type="text"/>
+<p class="errorMsg" id="phoneError"></p>
+</div>
+<div class="button-wrap">
+<button class="btn-back control_prev btn-secondary">Back</button>
+<button class="btn-download btn" type="submit">Download now</button>
+</div>
+</form>

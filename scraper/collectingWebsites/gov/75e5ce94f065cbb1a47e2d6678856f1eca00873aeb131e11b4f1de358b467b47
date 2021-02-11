@@ -1,0 +1,35 @@
+<form accept-charset="UTF-8" action="/email-signup/confirm" data-module="track-email-alert-signup-choices" data-track-action="new_topic" data-track-category="email_subscriptions" method="get">
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-0" name="topic" type="radio" value="/defence/defence-armed-forces-ministry-of-defence-estate-military-crash-sites"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-0">Military crash sites</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-1" name="topic" type="radio" value="/defence/defence-armed-forces-ministry-of-defence-estate-sale-of-land"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-1">Sale of land</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-2" name="topic" type="radio" value="/defence/defence-armed-forces-ministry-of-defence-estate-art-collection"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-2">Art collection</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-3" name="topic" type="radio" value="/defence/defence-armed-forces-ministry-of-defence-estate-film-locations"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-3">Film locations</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-4" name="topic" type="radio" value="/defence/defence-armed-forces-ministry-of-defence-estate-public-access"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-4">Public access</label>
+</div>
+<div class="govuk-radios__divider">or</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-6" name="topic" type="radio" value="/defence/ministry-of-defence-estate"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-6">Ministry of Defence estate (all topics)</label>
+</div>
+</div>
+</fieldset>
+</div>
+<input id="link" name="link" type="hidden" value="/defence/ministry-of-defence-estate"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

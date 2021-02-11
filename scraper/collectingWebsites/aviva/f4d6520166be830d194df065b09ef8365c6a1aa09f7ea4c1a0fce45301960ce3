@@ -1,0 +1,21 @@
+<form action="/myfuture/RetirementSpending" method="post"><input name="__RequestVerificationToken" type="hidden" value="ETLJAwmDhUpp-4EKXEZTEHcVoErMPI7qKIUV-EkW-4VH4MLtSIEsQfx2IFVw3JNOFS2q305_2xZfpuj3bJ2C6-n6YYw1"/> <h2 class="a-heading a-heading--2 a-heading--semibold">Current income</h2>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<div class="m-form-row m-form-row--full-width">
+<span class="a-label" for="incomeAmount">What's your monthly take home pay? </span>
+<p class="m-form-row__explanatory-text">(after tax, N.I., pension contributions and any other deductions)</p>
+<div class="m-form-row__content">
+<p class="m-form-row__error-message u-hidden"><span class="field-validation-valid" data-valmsg-for="MonthlyTakeHomePay" data-valmsg-replace="true"></span></p>
+<input class="a-textbox a-textbox--6-character a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Monthly take home pay must be a number." data-val-required="The Monthly take home pay field is required." id="incomeAmount" maxlength="6" name="MonthlyTakeHomePay" type="tel" value=""/>
+</div>
+<span class="field-validation-valid" data-valmsg-for="FutureEssentials[2].Amount" data-valmsg-replace="true"></span>
+</div>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid-light a-keyline-divider--30-all"/>
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<button class="a-button a-button--add" data-qa-button="submitForm" name="AddAnotherIncome" type="submit" value="Add another income">Add another income</button>
+</li>
+<li class="m-button-group__item m-button-group__item--previous">
+<button class="a-button a-button--primary a-button--next" data-qa-button="submitForm" type="submit" value="Continue">Continue</button>
+</li>
+</ul>
+</form>

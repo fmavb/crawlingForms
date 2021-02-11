@@ -1,0 +1,54 @@
+<form action="/services/hospital/milton-keynes-hospital/X339/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Awful!&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Awful awful place! The rheumatologist i saw today came across as very  uncaring, didn't seem like she believed me at all and the assessment was pretty much non existent (i have been in pain with my joints for years) and was actually really rude leaving me feeling rather embarrassed! Total waste of time and i definitely won't be coming back to this hospital!&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-03-04T13:39:04.433Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;3&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Milton Keynes Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;b572e686-44d5-e911-a812-000d3a7ed588&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X339&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamG2O9An50pHBS2W15D1uz2UplD6658ZNp1_mMLv9EiIg0JpHfpfh9-xv8-dZLSm_zceEnlZWXPEULD0dpw0L7s_TNfXeoH1tHCvglAkfnrv5PtJIOadMhwedghiVGTjkMg"/></form>

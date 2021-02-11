@@ -1,0 +1,25 @@
+<form action="/aviva-essentials/auth/login" class="new-design" form-inputs="form-inputs" method="post" name="form" ng-if="!vm.resetPassword">
+<div class="displayTable width100 allBorSolid allBorderRadius left botGap">
+<div class="form-container noBorder content-main-help-left displayTableCell">
+<div class="details noBottomMargin noBottomBorder">
+<h1>Essentials - Log in</h1>
+</div>
+<div class="form-area noPadding width100">
+<div class="single-field noTopBorder pl15" ng-hide="vm.hasResetPassword">Welcome to Essentials. To access your policy information please provide the following details:</div>
+<div class="single-field noTopBorder pl15" ng-show="vm.hasResetPassword">Your password has been reset. Please login using your new password!!!.</div>
+<input container-class="noTopBorder noRightBorder" error-field-name="Email address" id="username" label="Email address" name="username" ng-show="vm.hasResetPassword != true" type="email" value=""/>
+<input container-class="noRightBorder" container-ng-class="'noTopBorder last-field': vm.hasResetPassword" maxlength="30" ng-maxlength="30" ng-minlength="8" ng-pattern="vm.regex.passwordAviva" type="password"/>
+<input id="department" name="department" type="hidden" value="customer"/>
+<div ng-hide="vm.hasResetPassword" style="padding:5px 15px 15px">
+<a ng-click="vm.reset()" title="Forgotten your password?">Forgotten your password?</a>
+</div>
+</div>
+</div>
+</div>
+<div class="buttonContainer clear">
+<div id="login-help">If you have problems logging into the Essentials portal please contact our service provider Wessex at <a href="mailto:aviva-essentials@wessex-group.co.uk" title="Contact us">aviva-essentials@wessex-group.co.uk</a>.</div>
+<div class="submitBtn continueBtn right">
+<input class="button yellow-continue buttonClick" ng-click="vm.submit(form)" style="continueBtn" type="submit" value="Submit"/>
+</div>
+</div>
+</form>

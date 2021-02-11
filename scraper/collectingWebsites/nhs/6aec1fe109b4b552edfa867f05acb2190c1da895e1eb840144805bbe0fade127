@@ -1,0 +1,56 @@
+<form action="/services/hospital/north-devon-district-hospital/X379/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Very welcomed by the Fern team&lt;/Title&gt;
+    &lt;ScreenName&gt;GeorgeK0806&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I recently participated in a new initiative organised by The Fern Centre – a resource based at the Northern Devon District Hospital – supporting both those living with cancer and their families.  
+An e-mail arrived in my in-box inviting those known to be living with cancer to a virtual coffee morning. Being, an elderly male, I was not sure this was for me. However, I decided to give it a try and followed the on-screen instructions to register my interest. This resulted in a very welcoming e-mail with full instructions on how to log-on with additional practice.  
+Come the day and time I logged-on and was made very welcome by the Fern team and other participants even though I was the only male present. I am so pleased that I decided to opt in as what followed was a wonderful hour on conversation, a mix of personal stories, humour and non-judgemental chat. It was an opportunity to talk openly about our individual cancer journeys without embarrassment with others who understood the highs and lows – something not always easy to do with those who sere not travelling a similar journey. It is anticipated that this will become a regular fortnightly event which I would strongly support as it helps our feeling of well being, provides an opportunity to make new friends travelling the same journey and combats loneliness.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2021-01-14T13:00:05Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;1&lt;/Month&gt;
+      &lt;Year&gt;2021&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;North Devon District Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;c395b166-6856-eb11-a812-00224840f606&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X379&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHkKyD9xJGguMVo2Nn1C8-PefuUtcvctBLTRZ7oXiunXwoyadi0eEMzbz5jX7Sy0x0M2nBk7NZoV3509xJoI7bK0Xbj1_cbh_g5FQmPtXAriIFjLYqOolB3B9JkCzh4OP8"/></form>

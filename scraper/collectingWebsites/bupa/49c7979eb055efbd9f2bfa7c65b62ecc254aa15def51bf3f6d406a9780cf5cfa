@@ -1,0 +1,5 @@
+<form action="/search-results" class="header__search" method="get">
+<label class="header__search-label" for="headerSearch"></label>
+<input class="st-default-search-input header__search-input" id="q" name="q" placeholder="Search" type="text"/>
+<button class="header__search-button" type="submit"><span>Search</span></button>
+</form>

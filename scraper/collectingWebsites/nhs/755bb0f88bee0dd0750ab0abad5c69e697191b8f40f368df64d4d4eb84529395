@@ -1,0 +1,54 @@
+<form action="/services/hospital/solihull-hospital/X147392/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Kidney Stone Surgery and Aftercare - Ward 14&lt;/Title&gt;
+    &lt;ScreenName&gt;PaulS&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I have just returned from a 3 day stay at this ward following Kidney Stone surgery. &amp;amp;#160; I have to say that the staff and facilities her was exemplary from the moment of arrival. &amp;amp;#160; Special thanks go to all staff for their friendly, thoughtful and professional care at all times, even when obviously very pushed. &amp;amp;#160; Particular credit goes to Kelly, Bless, Donna, Debbie. &amp;amp;#160;&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-03-21T16:48:26Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;3&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Solihull Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;dcdbb2d1-44d5-e911-a812-000d3a7ed2f2&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X147392&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHLqF0hQZ6pGCE9NgSWN6hmCd8E94EKa2ZJCwmJ5NmcBvFS48ZQx9p5km_c7yWvZvcHWdSY4t0PT29UzrC5bTlWcoRhTDWyUWEPXGALHC6JU2VUDaWQg20guHJNVDEoNkI"/></form>

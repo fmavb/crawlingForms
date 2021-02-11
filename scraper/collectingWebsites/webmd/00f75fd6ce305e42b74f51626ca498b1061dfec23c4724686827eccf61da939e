@@ -1,0 +1,900 @@
+<form class="mainContainer" data-metrics-module="pd-filter" name="filters">
+<div class="parent-container">
+<div class="flex-parent">
+<div class="flex-items">
+<div class="header">
+<h4>ALL FILTERS</h4><button class="flex-items closeButton" data-metrics-link="cls" data-metrics-type="ad-hoc" type="button"></button></div>
+</div>
+</div>
+<div class="form-row"><label class="srch-filter-lbl">Specialty</label><div class="pd-form-srch-filter-overlay-tag"><span class="pd-srch-filter-overlay-tag"><span>General Practice</span><a class="pd-srch-filter-overlay-tag-exclude" data-param="sd" data-value="29264" href="#"></a></span></div>
+</div>
+<div class="form-row"><label class="srch-filter-lbl">Insurance</label><div class="form-dropdown"><select class="pd-dd-srch-filter" name="hp"><option value="">Any</option>
+<option data-count="1" value="2678">Advantage EPO</option>
+<option data-count="111" value="120">Aetna Choice POS II</option>
+<option data-count="1" value="6045">Aetna Coastal VA Managed Choice Open Access</option>
+<option data-count="1" value="8533">Aetna CT AWH MC OA w/Pediatric Dental</option>
+<option data-count="1" value="6654">Aetna Elect Choice EPO</option>
+<option data-count="105" value="122">Aetna HMO</option>
+<option data-count="1" value="4541">Aetna HMO Deductible Plan CA only</option>
+<option data-count="25" value="8885">Aetna Innovation Health Leap</option>
+<option data-count="111" value="3084">Aetna Managed Choice POS Open Access</option>
+<option data-count="1" value="8564">Aetna NYC Community Plan</option>
+<option data-count="94" value="4100">Aetna Select</option>
+<option data-count="105" value="2258">Aetna Signature Administrators PPO</option>
+<option data-count="27" value="8824">Aetna VA Signature Gold HMO</option>
+<option data-count="35" value="42576">Aexcel PPO</option>
+<option data-count="1" value="8157">Ambetter from CelticCare Health MRF</option>
+<option data-count="1" value="8166">Ambetter from MHS HIX</option>
+<option data-count="1" value="8174">Ambetter Sunshine Balanced MRF</option>
+<option data-count="2" value="4549">Ambetter Superior Health Plan</option>
+<option data-count="2" value="10787">AmeriHealth Advantage</option>
+<option data-count="1" value="11258">AmeriHealth HMO, POS, DPOS</option>
+<option data-count="1" value="51694">Amerihealth Hospital Advantage</option>
+<option data-count="1" value="8804">Amerihealth Local Value Network - EPO - PPO MRF</option>
+<option data-count="1" value="4390">Amerihealth Local Value Network EPO POS + PPO</option>
+<option data-count="1" value="4391">Amerihealth Local Value Network HMO HMO + POS</option>
+<option data-count="1" value="4397">Amerihealth Regional Pref Ntwk EPO POS + PPO</option>
+<option data-count="1" value="4398">Amerihealth Regional Pref Ntwk HMO HMO + POS</option>
+<option data-count="1" value="8806">Amerihealth Regional Preferred Network HMO, HMO+, POS, POS+ MRF</option>
+<option data-count="1" value="491">Anthem Blue Access PPO</option>
+<option data-count="1" value="3874">Anthem Blue Open Access POS Alternate Network</option>
+<option data-count="1" value="492">Anthem Blue Preferred HMO</option>
+<option data-count="1" value="3166">Anthem Blue Preferred Plus POS</option>
+<option data-count="1" value="4553">Anthem Bronze Pathway X - KY</option>
+<option data-count="1" value="6607">Anthem CT HMO BlueCare</option>
+<option data-count="1" value="6608">Anthem CT Pathway X Enhanced Ind HMO</option>
+<option data-count="48" value="402">Anthem HealthKeepers HMO POS</option>
+<option data-count="98" value="546">Anthem KeyCare PPO</option>
+<option data-count="1" value="5856">Anthem Pathway X Enhanced Ind Direct Access NH</option>
+<option data-count="1" value="5851">Anthem Pathway X Ind PPO Direct Access CT</option>
+<option data-count="31" value="5859">Anthem Pathway X Tier Hosp HealthKeepers DirectAccess VA</option>
+<option data-count="45" value="8812">Anthem Pathway X Tiered Hospital and Dental Prime MRF</option>
+<option data-count="2" value="6609">Anthem PPO Century Preferred CT</option>
+<option data-count="1" value="3196">Avmed Choice</option>
+<option data-count="1" value="9499">AvMed Empower</option>
+<option data-count="129" value="251">BCBS Blue Card PPO</option>
+<option data-count="1" value="835">BCBS GA Blue Choice PPO</option>
+<option data-count="1" value="3595">BCBS GA Blue Open Access POS</option>
+<option data-count="2" value="371">BCBS IL PPO</option>
+<option data-count="3" value="474">BCBS MA Blue Care Elect PPO</option>
+<option data-count="1" value="51358">BCBS MA PPO or EPO</option>
+<option data-count="2" value="2653">BCBS MA Preferred Blue PPO</option>
+<option data-count="1" value="539">BCBS MI PPO Plans Group Enrollees</option>
+<option data-count="1" value="7523">BCBS NC Blue Select</option>
+<option data-count="1" value="7524">BCBS NC Blue Value</option>
+<option data-count="1" value="363">BCBS NC BlueOptions</option>
+<option data-count="11" value="39468">BCBS PPO</option>
+<option data-count="1" value="66573">Blue Choice Preferred PPO</option>
+<option data-count="1" value="51754">Blue Choice Select PPO</option>
+<option data-count="1" value="9746">Blue Cross BlueConnect</option>
+<option data-count="1" value="4104">Blue Cross CA  PPO Prudent Buyer Small Group</option>
+<option data-count="1" value="5896">Blue Cross CA Advantage PPO Preferred DirectAccess Plus</option>
+<option data-count="1" value="4102">Blue Cross CA PPO Prudent Buyer Individual</option>
+<option data-count="1" value="136">Blue Cross CA PPO Prudent Buyer Large Group</option>
+<option data-count="1" value="888">Blue Cross CA Select PPO</option>
+<option data-count="1" value="5721">Blue Cross Premier PPO</option>
+<option data-count="2" value="42730">Blue Select</option>
+<option data-count="1" value="6563">Blue Shield CA Bronze Full PPO 4500</option>
+<option data-count="1" value="386">Blue Shield CA PPO</option>
+<option data-count="1" value="9443">BlueEssentials Individual and Family</option>
+<option data-count="1" value="508">Capital BC PPO</option>
+<option data-count="126" value="3014">CareFirst BlueChoice Advantage</option>
+<option data-count="16" value="8706">CareFirst BlueChoice HMO</option>
+<option data-count="124" value="860">CareFirst BluePreferred PPO</option>
+<option data-count="84" value="3130">CareFirst Maryland POS</option>
+<option data-count="1" value="10668">CareSource Mrktplace WV</option>
+<option data-count="1" value="6389">CareSource Ohio</option>
+<option data-count="1" value="178">CDPHP HMO</option>
+<option data-count="1" value="5954">CDPHP New York State of Health - Individuals &amp; Families</option>
+<option data-count="1" value="5977">CDPHP New York State of Health - Small Business</option>
+<option data-count="2" value="584">CDPHP PPO</option>
+<option data-count="108" value="118">CIGNA HMO</option>
+<option data-count="5" value="3792">CIGNA LocalPlus</option>
+<option data-count="115" value="117">CIGNA Open Access Plus</option>
+<option data-count="114" value="116">CIGNA PPO</option>
+<option data-count="1" value="4387">CIGNA Radius Network</option>
+<option data-count="1" value="8840">Cigna Southern CA Select</option>
+<option data-count="1" value="7118">CIGNA Southern CA Value</option>
+<option data-count="1" value="6684">CIGNA Total DPPO</option>
+<option data-count="36" value="5929">Community Blue PPO</option>
+<option data-count="1" value="2290">CompBenefits PPO</option>
+<option data-count="1" value="10636">Connecticare Choice</option>
+<option data-count="1" value="10610">Connecticare Flex Connecticut</option>
+<option data-count="1" value="10614">Connecticare Passage</option>
+<option data-count="11" value="4581">Coventry - Bon Secours Tier 2</option>
+<option data-count="11" value="37353">Coventry - Southside Tier 2</option>
+<option data-count="1" value="4590">Coventry Carelink - Carolinas HealthCare System Tier 2</option>
+<option data-count="51" value="3913">Coventry DE PPO</option>
+<option data-count="1" value="1922">Coventry HealthAmerica HMO</option>
+<option data-count="3" value="488">Coventry HealthAmerica PPO</option>
+<option data-count="1" value="3916">Coventry IA PPO</option>
+<option data-count="1" value="3917">Coventry NE PPO</option>
+<option data-count="62" value="3921">Coventry Southern Health PPO</option>
+<option data-count="12" value="3140">Coventry Virginia - HMO</option>
+<option data-count="1" value="441">Emblem HIP Select PPO</option>
+<option data-count="1" value="43627">Empire Blue Priority NY</option>
+<option data-count="2" value="4656">Empire HMO Bronze Individual via Exchange</option>
+<option data-count="1" value="235">Empire PPO</option>
+<option data-count="1" value="4333">Empire Prism EPO Blue Priority</option>
+<option data-count="1" value="3824">Encore Health Network</option>
+<option data-count="1" value="4640">Fidelis Care NY State of Health HBX</option>
+<option data-count="1" value="10816">Fidelis Mrktplace</option>
+<option data-count="95" value="613">First Health PPO</option>
+<option data-count="1" value="163">Florida Blue BlueCare HMO</option>
+<option data-count="1" value="4285">Florida Blue BlueOptions</option>
+<option data-count="1" value="1860">Florida Blue BlueSelect</option>
+<option data-count="1" value="3772">FrontPath Health Coalition</option>
+<option data-count="2" value="639">Geisinger Health Plan</option>
+<option data-count="1" value="9587">Harvard Pilgrim ChoiceNet HMO</option>
+<option data-count="1" value="3112">Harvard Pilgrim HMO</option>
+<option data-count="1" value="477">Harvard Pilgrim PPO</option>
+<option data-count="1" value="6627">Health Alliance HMO/POS</option>
+<option data-count="1" value="3202">Health Alliance PPO</option>
+<option data-count="1" value="6597">Health Net CA Individual and Family PPO</option>
+<option data-count="1" value="392">Health Net CA PPO</option>
+<option data-count="1" value="456">Health Net OR PPO</option>
+<option data-count="1" value="65640">HealthSync Options POS</option>
+<option data-count="2" value="8973">Highmark Alliance Flex Blue</option>
+<option data-count="2" value="9184">Highmark Blue Cross Blue Shield Shared Cost 1500, a Multi-State Plan</option>
+<option data-count="2" value="7350">Highmark Community Blue Flex EPO</option>
+<option data-count="2" value="9185">Highmark Comprehensive Care Blue PPO 1500 MRF</option>
+<option data-count="2" value="9186">Highmark Comprehensive Care Flex Blue PPO 500 MRF</option>
+<option data-count="2" value="9187">Highmark Health Savings Blue PPO 1400 MRF</option>
+<option data-count="2" value="9188">Highmark Shared Cost Blue PPO 6000 MRF</option>
+<option data-count="2" value="51324">HMO Local Value</option>
+<option data-count="2" value="51380">HMO Preferred</option>
+<option data-count="1" value="37359">Horizon BCBS OMNIA - TIER2</option>
+<option data-count="1" value="2720">Horizon Direct Access</option>
+<option data-count="1" value="144">Horizon HMO</option>
+<option data-count="1" value="8506">Horizon OMNIA</option>
+<option data-count="1" value="2214">Horizon POS</option>
+<option data-count="1" value="145">Horizon PPO</option>
+<option data-count="54" value="4133">Humana Choice POS</option>
+<option data-count="53" value="60">Humana ChoiceCare Network PPO</option>
+<option data-count="1" value="495">Humana HMO</option>
+<option data-count="1" value="1800">Humana HMO Premier</option>
+<option data-count="1" value="4655">Humana HMO Select</option>
+<option data-count="3" value="1149">Humana National POS</option>
+<option data-count="1" value="4396">Humana Preferred PPO</option>
+<option data-count="1" value="507">IBC Keystone HMO POS</option>
+<option data-count="1" value="565">IBC Personal Choice PPO</option>
+<option data-count="1" value="2263">Kaiser Permanente MidAtlantic</option>
+<option data-count="1" value="9481">Keystone HMO Proactive</option>
+<option data-count="1" value="7420">KeystoneBlue</option>
+<option data-count="2" value="45075">Local Value</option>
+<option data-count="1" value="51480">Local Value Network POS+</option>
+<option data-count="1" value="44299">McLaren Health Plan Community</option>
+<option data-count="39" value="44357">MD IPA/Optimum Choice HMO/Preferred POS</option>
+<option data-count="44" value="44358">MEDICA CHOICE WITH UNITEDHEALTHC</option>
+<option data-count="1" value="8512">Moda Health Beacon</option>
+<option data-count="1" value="6603">Moda Health Community Care Network</option>
+<option data-count="1" value="6605">Moda Health Connexus</option>
+<option data-count="2" value="6606">Moda Health First Choice Network</option>
+<option data-count="1" value="6626">Moda Health Summit</option>
+<option data-count="1" value="6602">Moda Health Synergy Network</option>
+<option data-count="1" value="5725">Molina Mrktplace FL</option>
+<option data-count="1" value="5848">Molina place OH</option>
+<option data-count="1" value="68824">Molina place SC</option>
+<option data-count="2" value="4155">Molina place TX</option>
+<option data-count="73" value="401">Multiplan PPO</option>
+<option data-count="1" value="45063">MVP EPO/PPO</option>
+<option data-count="1" value="44113">MVP Health Plan Essential Plan</option>
+<option data-count="1" value="175">MVP HMO</option>
+<option data-count="1" value="8567">MVP Liberty EPO/PPO</option>
+<option data-count="8" value="8455">Optima Health OptimaFit Direct HMO</option>
+<option data-count="11" value="3153">Optima Vantage HMO</option>
+<option data-count="1" value="51203">Oscar Circle</option>
+<option data-count="1" value="51204">Oscar Circle Plus</option>
+<option data-count="3" value="275">Oxford Freedom</option>
+<option data-count="1" value="44818">Oxford Garden State</option>
+<option data-count="1" value="5930">Oxford Health Garden State</option>
+<option data-count="3" value="258">Oxford Liberty</option>
+<option data-count="1" value="8030">Oxford Metro</option>
+<option data-count="1" value="7817">PacificSource PSN</option>
+<option data-count="1" value="8150">PacificSource SCN MRF</option>
+<option data-count="1" value="6537">PacificSource SmartChoice</option>
+<option data-count="1" value="8151">Pacificsource SmartChoice OR MRF</option>
+<option data-count="1" value="7272">PacificSource SmartHealth Oregon Members</option>
+<option data-count="1" value="8152">PacificSource SmartHealth Standard MRF</option>
+<option data-count="17" value="51918">Pathway X Tiered Hospital and Dental Prime</option>
+<option data-count="1" value="66865">Personal Choice EPO</option>
+<option data-count="67" value="1137">PHCS PPO</option>
+<option data-count="1" value="2034">PHCS PPO Kaiser</option>
+<option data-count="1" value="9644">PHP Select with Encircle</option>
+<option data-count="1" value="43717">PPO</option>
+<option data-count="1" value="45074">PPO 6000 Series</option>
+<option data-count="1" value="44862">PPO Plans - Group Enrollees</option>
+<option data-count="2" value="393">PPOBlue</option>
+<option data-count="1" value="3080">Preferred Provider Network - WA</option>
+<option data-count="1" value="356">Premera Heritage and Heritage Plus 1</option>
+<option data-count="1" value="4271">Premera Heritage Signature</option>
+<option data-count="1" value="862">Priority Health HMO</option>
+<option data-count="1" value="1993">PriorityHealth Priority PPO</option>
+<option data-count="1" value="406">Providence PPO</option>
+<option data-count="1" value="3475">QualCare HMO</option>
+<option data-count="1" value="1883">QualCare PPO</option>
+<option data-count="2" value="51257">Regional Preferred</option>
+<option data-count="1" value="51580">Regional Preferred POS+</option>
+<option data-count="1" value="537">Sagamore Plus</option>
+<option data-count="1" value="7215">SIHO Network</option>
+<option data-count="2" value="861">Tufts PPO</option>
+<option data-count="121" value="630">UHC Choice Plus POS</option>
+<option data-count="73" value="4148">UHC Compass HMO</option>
+<option data-count="104" value="3702">UHC Navigate HMO</option>
+<option data-count="38" value="44352">UHC NAVIGATE PLUS POS</option>
+<option data-count="91" value="3190">UHC Navigate POS</option>
+<option data-count="1" value="51239">UHC Nexus Open Access</option>
+<option data-count="98" value="7131">UHC Optimum Choice Preferred POS</option>
+<option data-count="122" value="631">UHC Options PPO</option>
+<option data-count="1" value="286">UHC West SignatureValue HMO</option>
+<option data-count="5" value="6932">UMMS Choice</option>
+<option data-count="1" value="1229">United Healthcare Dental PPO</option>
+<option data-count="1" value="485">UPMC PPO</option>
+<option data-count="1" value="9489">UPMC Premium Network Plans</option>
+<option data-count="1" value="859">Wellmark Alliance Select</option>
+<option data-count="1" value="51117">Wellmark Blue PPO</option></select></div>
+</div>
+<div class="form-row"><label class="lbl-chkbox" for="medicareChkBox"><span class="filterCheckboxSpan">Medicare</span><input class="actualChkBox" id="medicareChkBox" name="medicare" type="checkbox" value="true"/><span class="checkmark"></span></label><label class="lbl-chkbox" for="medicaidChkBox"><span class="filterCheckboxSpan">Medicaid</span><input class="actualChkBox" id="medicaidChkBox" name="medicaid" type="checkbox" value="true"/><span class="checkmark"></span></label></div>
+<div class="form-row form-two-controls">
+<div class="dd-wrap pd-srch-overlay-yrsexp-wrap"><label class="srch-filter-lbl">Years Experience</label><div class="form-subcontainer"><select class="pd-dd-srch-filter" name="years"><option data-count="nm" value="nm">No minimum</option>
+<option data-count="788" value="5">At least 5 years</option>
+<option data-count="717" value="10">At least 10 years</option>
+<option data-count="652" value="15">At least 15 years</option>
+<option data-count="573" value="20">At least 20 years</option>
+<option data-count="501" value="25">At least 25 years</option>
+<option data-count="423" value="30">At least 30 years</option></select></div>
+</div>
+<div class="dd-wrap"><label class="srch-filter-lbl">Distance</label><div class="form-subcontainer"><select class="pd-dd-srch-filter" name="distance"><option selected="" value="25">Within 25 miles</option>
+<option value="50">Within 50 miles</option>
+<option value="75">Within 75 miles</option></select></div>
+</div>
+</div>
+<div class="form-row form-two-controls">
+<div class="dd-wrap"><label class="srch-filter-lbl">Conditions Treated</label><div class="form-subcontainer"><select class="pd-dd-srch-filter" name="cond"><option value="">Any</option>
+<option data-count="12" value="36456">Abdominal Aortic Aneurysm</option>
+<option data-count="29" value="3">Abdominal Hernia</option>
+<option data-count="44" value="5">Abnormal Vaginal Bleeding</option>
+<option data-count="38" value="7">Acne</option>
+<option data-count="47" value="9">Acute Bronchitis</option>
+<option data-count="38" value="11">Acute Conjunctivitis</option>
+<option data-count="5" value="15">Acute Myocardial Infarction (AMI)</option>
+<option data-count="7" value="17">Acute Otitis Externa</option>
+<option data-count="19" value="19">Acute Pancreatitis</option>
+<option data-count="48" value="21">Acute Pharyngitis</option>
+<option data-count="12" value="23">Acute Renal Failure</option>
+<option data-count="54" value="25">Acute Sinusitis</option>
+<option data-count="59" value="27">Acute Upper Respiratory Tract Infections</option>
+<option data-count="15" value="29">Alcohol Dependence</option>
+<option data-count="29" value="31">Allergic Rhinitis</option>
+<option data-count="11" value="35">Alzheimer's Disease</option>
+<option data-count="10" value="37">Anal Fissure</option>
+<option data-count="10" value="39">Anal or Rectal Abscess</option>
+<option data-count="41" value="41">Anemia</option>
+<option data-count="10" value="43">Angina Pectoris</option>
+<option data-count="2" value="45">Ankylosing Spondylitis (AS)</option>
+<option data-count="5" value="47">Anorexia Nervosa</option>
+<option data-count="27" value="53">Anxiety Dissociative and Somatoform Disorders</option>
+<option data-count="52" value="51">Anxiety Phobic Disorders</option>
+<option data-count="6" value="55">Aortic Aneurysm</option>
+<option data-count="1" value="57">Aortic Regurgitation</option>
+<option data-count="6" value="61">Aortic Valvular Disease</option>
+<option data-count="6" value="63">Appendicitis</option>
+<option data-count="6" value="65">Arterial Thromboembolic Disease</option>
+<option data-count="17" value="67">Atherosclerosis</option>
+<option data-count="19" value="487">Athlete's Foot</option>
+<option data-count="30" value="71">Atrial Fibrillation and Atrial Flutter</option>
+<option data-count="45" value="73">Attention Deficit Disorder (ADD)</option>
+<option data-count="12" value="75">Autism</option>
+<option data-count="8" value="77">Bacterial Food Poisoning</option>
+<option data-count="15" value="79">Bacterial Pneumonia</option>
+<option data-count="17" value="81">Bell's Palsy</option>
+<option data-count="5" value="83">Benign Neoplasm of Breast</option>
+<option data-count="25" value="85">Benign Paroxysmal Positional Vertigo</option>
+<option data-count="20" value="87">Benign Polyps of the Colon</option>
+<option data-count="45" value="89">Benign Prostatic Hypertrophy (BPH)</option>
+<option data-count="20" value="91">Benign Thyroid Diseases</option>
+<option data-count="33" value="93">Bipolar Disorder</option>
+<option data-count="1" value="95">Bladder Cancer</option>
+<option data-count="24" value="97">Breast Disorders</option>
+<option data-count="1" value="99">Breast Neoplasm, Malignant</option>
+<option data-count="57" value="101">Bronchial Asthma</option>
+<option data-count="3" value="103">Bulimia Nervosa</option>
+<option data-count="17" value="231">Bunions</option>
+<option data-count="23" value="105">Burns</option>
+<option data-count="33" value="107">Calculus of the Urinary System</option>
+<option data-count="32" value="109">Candidiasis</option>
+<option data-count="25" value="111">Candidiasis of Vulva and Vagina</option>
+<option data-count="31" value="113">Cardiac Arrhythmia</option>
+<option data-count="18" value="115">Cardiomyopathy</option>
+<option data-count="34" value="119">Carpal Tunnel Syndrome</option>
+<option data-count="25" value="121">Cataract</option>
+<option data-count="4" value="123">Celiac Disease</option>
+<option data-count="1" value="127">Chancroid</option>
+<option data-count="6" value="129">Chickenpox</option>
+<option data-count="24" value="131">Cholelethiasis or Cholecystitis</option>
+<option data-count="39" value="133">Chronic Bronchitis</option>
+<option data-count="22" value="135">Chronic Fatigue Syndrome</option>
+<option data-count="46" value="343">Chronic Headache</option>
+<option data-count="9" value="137">Chronic Pancreatitis</option>
+<option data-count="35" value="139">Chronic Renal Disease</option>
+<option data-count="19" value="141">Chronic Sinusitis</option>
+<option data-count="13" value="143">Cirrhosis</option>
+<option data-count="1" value="147">Complicating Pregnancy or Childbirth</option>
+<option data-count="2" value="149">Conditions of Pregnancy and Delivery</option>
+<option data-count="5" value="151">Conduction Disorders</option>
+<option data-count="12" value="153">Congenital Anomalies of the Heart</option>
+<option data-count="40" value="155">Constipation</option>
+<option data-count="51" value="157">Contact Dermatitis</option>
+<option data-count="4" value="159">Croup</option>
+<option data-count="1" value="161">Cystic Fibrosis (CF)</option>
+<option data-count="18" value="163">Dehydration</option>
+<option data-count="17" value="165">Dementia</option>
+<option data-count="34" value="167">Depressive Disorders</option>
+<option data-count="3" value="171">Deviated Nasal Septum</option>
+<option data-count="60" value="173">Diabetes Mellitus (DM)</option>
+<option data-count="5" value="179">Diabetic Peripheral Neuropathy</option>
+<option data-count="10" value="181">Diabetic Retinopathy</option>
+<option data-count="52" value="183">Disorders of Lipoid Metabolism</option>
+<option data-count="29" value="185">Diverticulitis</option>
+<option data-count="10" value="187">Diverticulosis</option>
+<option data-count="10" value="189">Eating Disorders</option>
+<option data-count="1" value="191">Ectopic Pregnancy</option>
+<option data-count="33" value="69">Eczema</option>
+<option data-count="15" value="193">Emphysema</option>
+<option data-count="4" value="195">Endocarditis</option>
+<option data-count="20" value="197">Endometriosis</option>
+<option data-count="33" value="199">Epilepsy</option>
+<option data-count="47" value="201">Erectile Dysfunction (ED)</option>
+<option data-count="24" value="203">Esophagitis</option>
+<option data-count="22" value="205">Female Infertility</option>
+<option data-count="1" value="207">Femoral Hernia</option>
+<option data-count="1" value="209">Follicular Cyst of the Ovary</option>
+<option data-count="45" value="211">Fractures, Dislocations, Derangement, and Sprains</option>
+<option data-count="1" value="213">Gastric Cancer</option>
+<option data-count="38" value="215">Gastritis and Duodenitis</option>
+<option data-count="36" value="217">Gastroesophageal Reflux Disease (GERD)</option>
+<option data-count="36" value="219">Gastrointestinal Hemorrhage</option>
+<option data-count="27" value="221">Genital HPV</option>
+<option data-count="20" value="223">Gingival and Periodontal Diseases</option>
+<option data-count="24" value="225">Glaucoma</option>
+<option data-count="12" value="227">Gonorrhea</option>
+<option data-count="43" value="229">Gout</option>
+<option data-count="28" value="33">Hair Loss</option>
+<option data-count="31" value="233">Hearing Loss</option>
+<option data-count="28" value="235">Heart Failure</option>
+<option data-count="14" value="237">Hemolytic Anemia</option>
+<option data-count="2" value="239">Hemophilia A or B</option>
+<option data-count="3" value="241">Hemorrhagic stroke</option>
+<option data-count="44" value="243">Hemorrhoids</option>
+<option data-count="36" value="245">Herpes Genitalis</option>
+<option data-count="37" value="247">Herpes Simplex</option>
+<option data-count="42" value="249">Herpes Zoster</option>
+<option data-count="19" value="253">HIV Infection</option>
+<option data-count="57" value="257">Hypertension (HTN)</option>
+<option data-count="32" value="259">Hyperthyroidism</option>
+<option data-count="3" value="263">Hypoparathyroidism</option>
+<option data-count="45" value="265">Hypothyroidism</option>
+<option data-count="3" value="267">Infectious Diseases of the Brain or Spinal Cord</option>
+<option data-count="32" value="269">Infectious Liver Disease</option>
+<option data-count="17" value="271">Infectious Mononucleosis</option>
+<option data-count="27" value="273">Inflammatory Bowel Disease (IBD)</option>
+<option data-count="4" value="275">Influenza</option>
+<option data-count="28" value="277">Inguinal Hernia</option>
+<option data-count="18" value="279">Insomnia</option>
+<option data-count="17" value="281">Internal Derangement of Knee</option>
+<option data-count="13" value="283">Internal Derangement of Knee Cartilage</option>
+<option data-count="1" value="285">Internal Derangement of Knee Ligaments</option>
+<option data-count="31" value="287">Intervertebral Disc Degeneration</option>
+<option data-count="7" value="289">Intestinal Obstruction</option>
+<option data-count="6" value="291">Intracranial Injury</option>
+<option data-count="43" value="295">Iron Deficiency Anemia</option>
+<option data-count="24" value="297">Irritable Bowel Syndrome (IBS)</option>
+<option data-count="1" value="299">Ischemic Bowel Disease</option>
+<option data-count="18" value="301">Ischemic Heart Disease</option>
+<option data-count="22" value="303">Ischemic Stroke</option>
+<option data-count="11" value="305">Keratitis</option>
+<option data-count="8" value="309">Labyrinthitis</option>
+<option data-count="18" value="313">Lateral Epicondylitis</option>
+<option data-count="1" value="317">Liver Cancer</option>
+<option data-count="18" value="321">Lyme Disease</option>
+<option data-count="6" value="323">Macular Degeneration</option>
+<option data-count="8" value="325">Male Infertility</option>
+<option data-count="5" value="327">Malignant Neoplasm of Colon</option>
+<option data-count="18" value="331">Malignant Neoplasm of Female Breast</option>
+<option data-count="5" value="335">Melanoma</option>
+<option data-count="6" value="337">Meningitis</option>
+<option data-count="39" value="339">Menopausal and Postmenopausal Disorders</option>
+<option data-count="11" value="341">Metabolic Syndrome</option>
+<option data-count="14" value="349">Mitral Valvular Disease</option>
+<option data-count="28" value="353">Multiple Sclerosis (MS)</option>
+<option data-count="4" value="355">Myasthenia Gravis (MG)</option>
+<option data-count="1" value="357">Nephrotic Syndrome</option>
+<option data-count="32" value="361">Non-Toxic Goiter</option>
+<option data-count="11" value="363">Obsessive-Compulsive Disorder (OCD)</option>
+<option data-count="22" value="365">Obstructive Sleep Apnea</option>
+<option data-count="9" value="367">Orbital Infection</option>
+<option data-count="42" value="369">Osteoarthritis</option>
+<option data-count="4" value="371">Osteomyelitis</option>
+<option data-count="28" value="373">Osteoporosis</option>
+<option data-count="41" value="375">Otitis Media</option>
+<option data-count="10" value="379">Ovarian Dysfunction</option>
+<option data-count="40" value="381">Overweight and Obesity</option>
+<option data-count="1" value="383">Pancreatic Cancer</option>
+<option data-count="15" value="385">Parkinson's Disease</option>
+<option data-count="11" value="387">Paroxysmal Supraventricular Tachycardia (PSVT)</option>
+<option data-count="7" value="389">Pelvic Inflammatory Disease (PID)</option>
+<option data-count="18" value="391">Peptic Ulcer Disease</option>
+<option data-count="7" value="36669">Pericarditis</option>
+<option data-count="32" value="395">Peripheral Nerve Disorders</option>
+<option data-count="5" value="399">Phlebitis and Thrombophlebitis</option>
+<option data-count="30" value="36671">Plantar Fasciitis</option>
+<option data-count="34" value="403">Plantar Warts</option>
+<option data-count="39" value="405">Pneumonia</option>
+<option data-count="10" value="407">Poisoning by Drugs, Meds, or Biological Substances</option>
+<option data-count="28" value="409">Polycystic Ovarian Syndrome (PCOS)</option>
+<option data-count="17" value="411">Post Traumatic Stress Disorder (PTSD)</option>
+<option data-count="14" value="415">Premenstrual Syndrome (PMS)</option>
+<option data-count="1" value="417">Primary Angle-Closure Glaucoma</option>
+<option data-count="1" value="419">Prostate Cancer</option>
+<option data-count="17" value="421">Prostatitis</option>
+<option data-count="35" value="423">Psoriasis</option>
+<option data-count="24" value="425">Pulmonary Embolism</option>
+<option data-count="5" value="427">Pulmonary Tuberculosis (TB)</option>
+<option data-count="7" value="429">Raynaud's Disease</option>
+<option data-count="1" value="431">Rectal, Abdomen, Small Intestines, or Colon Cancer</option>
+<option data-count="16" value="433">Restless Leg Syndrome</option>
+<option data-count="3" value="435">Retinal Detachments</option>
+<option data-count="25" value="437">Rheumatoid Arthritis</option>
+<option data-count="19" value="439">Rosacea</option>
+<option data-count="22" value="441">Rotator Cuff Syndrome and Allied Disorders</option>
+<option data-count="1" value="443">Rubella or Measles</option>
+<option data-count="14" value="445">Sarcoidosis</option>
+<option data-count="16" value="447">Schizophrenia</option>
+<option data-count="28" value="449">Sciatica</option>
+<option data-count="18" value="451">Scoliosis or Kyphoscoliosis</option>
+<option data-count="11" value="453">Septicemia</option>
+<option data-count="19" value="455">Sexually Transmitted Diseases (STDs)</option>
+<option data-count="16" value="459">Sickle-Cell Disease</option>
+<option data-count="51" value="461">Skin and Subcutaneous Infections</option>
+<option data-count="13" value="463">Skin Cancer</option>
+<option data-count="38" value="169">Skin Rash</option>
+<option data-count="32" value="465">Spinal Stenosis</option>
+<option data-count="31" value="469">Substance Use/Substance Abuse and/or Dependency</option>
+<option data-count="10" value="471">Sunburn</option>
+<option data-count="26" value="473">Systemic Lupus Erythematosus</option>
+<option data-count="25" value="475">Temporomandibular Joint Disorders (TMJ)</option>
+<option data-count="36" value="477">Tension Headache</option>
+<option data-count="5" value="481">Thoracic Aortic Aneurysm</option>
+<option data-count="13" value="483">Thyroid Cancer</option>
+<option data-count="19" value="485">Thyroiditis</option>
+<option data-count="43" value="489">Tinea Unguium</option>
+<option data-count="17" value="493">Transient Cerebral Ischemia</option>
+<option data-count="1" value="495">Uncomplicated or Low Risk Pregnancy and Delivery</option>
+<option data-count="3" value="497">Undescended and Retractile Testicle</option>
+<option data-count="36" value="499">Urinary Incontinence</option>
+<option data-count="33" value="501">Urinary Tract Infection (UT)</option>
+<option data-count="23" value="505">Uterine Leiomyoma</option>
+<option data-count="3" value="507">Valvular Heart Disease</option>
+<option data-count="30" value="509">Varicose Veins</option>
+<option data-count="23" value="511">Venous Embolism and Thrombosis</option>
+<option data-count="17" value="513">Ventral Hernia</option>
+<option data-count="1" value="515">Viral Meningitis</option>
+<option data-count="1" value="517">Viral Pneumonia</option>
+<option data-count="9" value="519">Vitamin B12 Deficiency Anemia</option>
+<option data-count="41" value="521">Vitamin D Deficiency</option></select></div>
+</div>
+<div class="dd-wrap"><label class="srch-filter-lbl">Procedures Performed</label><div class="form-subcontainer"><select class="pd-dd-srch-filter" name="proc"><option value="">Any</option>
+<option data-count="2" value="36835">Abdominal aortic aneurysm repair</option>
+<option data-count="3" value="36723">Acupuncture</option>
+<option data-count="23" value="7">Allergen Immunotherapy</option>
+<option data-count="9" value="9">Allergy Testing</option>
+<option data-count="3" value="17">Appendectomy</option>
+<option data-count="22" value="19">Arthrocentesis</option>
+<option data-count="3" value="29">Bariatric Surgery</option>
+<option data-count="2" value="211">Bladder Repair</option>
+<option data-count="10" value="282">Blood transfusion</option>
+<option data-count="1" value="35">Breast Biopsy</option>
+<option data-count="1" value="39">Breast Reconstruction</option>
+<option data-count="2" value="41">Breast Reduction</option>
+<option data-count="2" value="213">Bunion Surgery</option>
+<option data-count="3" value="45">Cardiac Rehabilitation</option>
+<option data-count="12" value="47">Cardiac Stress Test</option>
+<option data-count="1" value="49">Cardioversion</option>
+<option data-count="2" value="57">Chiropractic Manipulative Treatment</option>
+<option data-count="2" value="284">Cholecystectomy</option>
+<option data-count="4" value="59">Circumcision</option>
+<option data-count="2" value="61">Colonoscopy</option>
+<option data-count="1" value="65">Coronary Artery Bypass</option>
+<option data-count="1" value="67">Craniotomy</option>
+<option data-count="2" value="69">Cystoscopy</option>
+<option data-count="28" value="75">Destruction of Benign/Premalignant Skin Lesions</option>
+<option data-count="2" value="79">Destruction of Lesions on the Anus</option>
+<option data-count="3" value="81">Destruction of Skin Lesions</option>
+<option data-count="34" value="87">Echocardiogram</option>
+<option data-count="1" value="91">Electrocardiogram (EKG or ECG)</option>
+<option data-count="2" value="97">Endoscopic Retrograde Cholangiopancreatography (ERCP)</option>
+<option data-count="2" value="161">Gallbladder Removal</option>
+<option data-count="29" value="27">Hearing Evaluation</option>
+<option data-count="1" value="107">Heart Valve Procedures</option>
+<option data-count="3" value="111">Hemorrhoid Procedures</option>
+<option data-count="2" value="113">Hernia Repair</option>
+<option data-count="3" value="117">Hysterectomy</option>
+<option data-count="4" value="281">Inner Ear Tests</option>
+<option data-count="1" value="125">Kidney Transplant</option>
+<option data-count="2" value="129">Laparoscopic Appendectomy</option>
+<option data-count="2" value="131">Laparoscopic Gallbladder Removal</option>
+<option data-count="3" value="41035">Lasik Surgery</option>
+<option data-count="2" value="133">Lens and Cataract Procedures</option>
+<option data-count="2" value="137">Liver Biopsy</option>
+<option data-count="1" value="139">Liver Transplant</option>
+<option data-count="1" value="141">Lumbar Puncture</option>
+<option data-count="2" value="145">Mastectomy</option>
+<option data-count="2" value="147">Myomectomy</option>
+<option data-count="4" value="153">Neurological Testing</option>
+<option data-count="10" value="155">Nutrition Therapy</option>
+<option data-count="8" value="157">Occupational Therapy Evaluation</option>
+<option data-count="1" value="159">Oophorectomy</option>
+<option data-count="5" value="163">Ophthalmological Exam</option>
+<option data-count="3" value="167">Osteopathic Manipulative Treatment</option>
+<option data-count="2" value="233">Ovarian Surgery</option>
+<option data-count="3" value="175">Peripheral Vascular Bypass</option>
+<option data-count="3" value="179">Physical Therapy</option>
+<option data-count="21" value="181">Physical Therapy Evaluation</option>
+<option data-count="2" value="183">Pilonidal Cyst Excision</option>
+<option data-count="3" value="187">Proctosigmoidoscopy</option>
+<option data-count="3" value="195">Psychiatric Diagnosis or Evaluation</option>
+<option data-count="2" value="197">Psychiatric Therapeutic Procedures</option>
+<option data-count="12" value="199">Psychological and Neuropsychological Tests</option>
+<option data-count="1" value="219">Septal Defect Repair</option>
+<option data-count="3" value="221">Sigmoidoscopy</option>
+<option data-count="4" value="239">Skin Surgery</option>
+<option data-count="17" value="203">Skin Tags Removal</option>
+<option data-count="15" value="223">Sleep and EEG Testing</option>
+<option data-count="3" value="225">Small Bowel Resection</option>
+<option data-count="1" value="237">Spinal Cord Surgery</option>
+<option data-count="1" value="21">Spinal Fusion</option>
+<option data-count="1" value="245">Thoracic Aortic Aneurysm Repair</option>
+<option data-count="1" value="249">Thromboendarterectomy of the Peripheral Arteries</option>
+<option data-count="4" value="251">Thyroid Biopsy</option>
+<option data-count="1" value="253">Thyroid Gland Removal</option>
+<option data-count="2" value="257">Tracheostomy</option>
+<option data-count="3" value="269">Tubal Surgery</option>
+<option data-count="3" value="99">Upper Gastrointestinal Endoscopy</option>
+<option data-count="1" value="241">Urinary Flow Tests</option>
+<option data-count="3" value="275">Vaginal Repair</option>
+<option data-count="79" value="289">Venipuncture</option>
+<option data-count="9" value="3">Wound Care</option></select></div>
+</div>
+</div>
+<div class="form-row"><label class="srch-filter-lbl">Hospital Affiliations</label><div class="pd-form-srch-filter-hospitals-wrap">
+<ul class="pd-form-srch-filter-hospitals-list">
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox1"><span class="filterCheckboxSpan">adventist healthcare shady grove medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="10" data-hospital-id="5517" data-hospital-name="adventist healthcare shady grove medical center" id="hospChkBox1" name="h" type="checkbox" value="5517"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox2"><span class="filterCheckboxSpan">anne arundel medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="9" data-hospital-id="2019" data-hospital-name="anne arundel medical center" id="hospChkBox2" name="h" type="checkbox" value="2019"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox3"><span class="filterCheckboxSpan">baltimore va medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="5487" data-hospital-name="baltimore va medical center" id="hospChkBox3" name="h" type="checkbox" value="5487"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox4"><span class="filterCheckboxSpan">blanchfield army community hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="5263" data-hospital-name="blanchfield army community hospital" id="hospChkBox4" name="h" type="checkbox" value="5263"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox5"><span class="filterCheckboxSpan">bon secours baltimore hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="5473" data-hospital-name="bon secours baltimore hospital" id="hospChkBox5" name="h" type="checkbox" value="5473"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox6"><span class="filterCheckboxSpan">bon secours mary immaculate hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="7690" data-hospital-name="bon secours mary immaculate hospital" id="hospChkBox6" name="h" type="checkbox" value="7690"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox7"><span class="filterCheckboxSpan">bon secours st mary's hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2884" data-hospital-name="bon secours st mary's hospital" id="hospChkBox7" name="h" type="checkbox" value="2884"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox8"><span class="filterCheckboxSpan">brooke army medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="7" data-hospital-id="2819" data-hospital-name="brooke army medical center" id="hospChkBox8" name="h" type="checkbox" value="2819"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox9"><span class="filterCheckboxSpan">cape fear valley medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2537" data-hospital-name="cape fear valley medical center" id="hospChkBox9" name="h" type="checkbox" value="2537"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox10"><span class="filterCheckboxSpan">carl r darnall army medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="3" data-hospital-id="7408" data-hospital-name="carl r darnall army medical center" id="hospChkBox10" name="h" type="checkbox" value="7408"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox11"><span class="filterCheckboxSpan">carroll hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="5519" data-hospital-name="carroll hospital" id="hospChkBox11" name="h" type="checkbox" value="5519"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox12"><span class="filterCheckboxSpan">children's national health system</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="1534" data-hospital-name="children's national health system" id="hospChkBox12" name="h" type="checkbox" value="1534"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox13"><span class="filterCheckboxSpan">detroit medical center hutzel womens hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2069" data-hospital-name="detroit medical center hutzel womens hospital" id="hospChkBox13" name="h" type="checkbox" value="2069"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox14"><span class="filterCheckboxSpan">doctors community hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="8" data-hospital-id="5509" data-hospital-name="doctors community hospital" id="hospChkBox14" name="h" type="checkbox" value="5509"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox15"><span class="filterCheckboxSpan">dominion hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="7665" data-hospital-name="dominion hospital" id="hospChkBox15" name="h" type="checkbox" value="7665"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox16"><span class="filterCheckboxSpan">fauquier hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="7725" data-hospital-name="fauquier hospital" id="hospChkBox16" name="h" type="checkbox" value="7725"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox17"><span class="filterCheckboxSpan">florida hospital orlando</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="1688" data-hospital-name="florida hospital orlando" id="hospChkBox17" name="h" type="checkbox" value="1688"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox18"><span class="filterCheckboxSpan">fort belvoir community hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="9" data-hospital-id="7668" data-hospital-name="fort belvoir community hospital" id="hospChkBox18" name="h" type="checkbox" value="7668"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox19"><span class="filterCheckboxSpan">fort washington medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="9697" data-hospital-name="fort washington medical center" id="hospChkBox19" name="h" type="checkbox" value="9697"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox20"><span class="filterCheckboxSpan">frederick memorial hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="5503" data-hospital-name="frederick memorial hospital" id="hospChkBox20" name="h" type="checkbox" value="5503"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox21"><span class="filterCheckboxSpan">george washington university hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="12" data-hospital-id="268" data-hospital-name="george washington university hospital" id="hospChkBox21" name="h" type="checkbox" value="268"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox22"><span class="filterCheckboxSpan">greater baltimore medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="2021" data-hospital-name="greater baltimore medical center" id="hospChkBox22" name="h" type="checkbox" value="2021"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox23"><span class="filterCheckboxSpan">halifax health medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="1653" data-hospital-name="halifax health medical center" id="hospChkBox23" name="h" type="checkbox" value="1653"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox24"><span class="filterCheckboxSpan">hollywood presbyterian medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="1578" data-hospital-name="hollywood presbyterian medical center" id="hospChkBox24" name="h" type="checkbox" value="1578"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox25"><span class="filterCheckboxSpan">holy cross hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="11" data-hospital-id="2033" data-hospital-name="holy cross hospital" id="hospChkBox25" name="h" type="checkbox" value="2033"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox26"><span class="filterCheckboxSpan">howard county general hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="4" data-hospital-id="5493" data-hospital-name="howard county general hospital" id="hospChkBox26" name="h" type="checkbox" value="5493"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox27"><span class="filterCheckboxSpan">howard university hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="4" data-hospital-id="267" data-hospital-name="howard university hospital" id="hospChkBox27" name="h" type="checkbox" value="267"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox28"><span class="filterCheckboxSpan">inova alexandria hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="23" data-hospital-id="2864" data-hospital-name="inova alexandria hospital" id="hospChkBox28" name="h" type="checkbox" value="2864"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox29"><span class="filterCheckboxSpan">inova fair oaks hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="18" data-hospital-id="8058" data-hospital-name="inova fair oaks hospital" id="hospChkBox29" name="h" type="checkbox" value="8058"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox30"><span class="filterCheckboxSpan">inova fairfax medical campus</span><input class="actualChkBox hospChkBox" data-hospital-count="31" data-hospital-id="42" data-hospital-name="inova fairfax medical campus" id="hospChkBox30" name="h" type="checkbox" value="42"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox31"><span class="filterCheckboxSpan">inova loudoun hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="4" data-hospital-id="7682" data-hospital-name="inova loudoun hospital" id="hospChkBox31" name="h" type="checkbox" value="7682"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox32"><span class="filterCheckboxSpan">inova mount vernon hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="5" data-hospital-id="7652" data-hospital-name="inova mount vernon hospital" id="hospChkBox32" name="h" type="checkbox" value="7652"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox33"><span class="filterCheckboxSpan">johns hopkins bayview medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2020" data-hospital-name="johns hopkins bayview medical center" id="hospChkBox33" name="h" type="checkbox" value="2020"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox34"><span class="filterCheckboxSpan">laurel regional hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="9" data-hospital-id="5510" data-hospital-name="laurel regional hospital" id="hospChkBox34" name="h" type="checkbox" value="5510"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox35"><span class="filterCheckboxSpan">madigan army medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="5" data-hospital-id="7790" data-hospital-name="madigan army medical center" id="hospChkBox35" name="h" type="checkbox" value="7790"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox36"><span class="filterCheckboxSpan">maimonides medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2466" data-hospital-name="maimonides medical center" id="hospChkBox36" name="h" type="checkbox" value="2466"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox37"><span class="filterCheckboxSpan">mary washington hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2868" data-hospital-name="mary washington hospital" id="hospChkBox37" name="h" type="checkbox" value="2868"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox38"><span class="filterCheckboxSpan">medstar franklin square medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="45" data-hospital-name="medstar franklin square medical center" id="hospChkBox38" name="h" type="checkbox" value="45"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox39"><span class="filterCheckboxSpan">medstar georgetown university hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="8" data-hospital-id="1635" data-hospital-name="medstar georgetown university hospital" id="hospChkBox39" name="h" type="checkbox" value="1635"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox40"><span class="filterCheckboxSpan">medstar good samaritan hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="5477" data-hospital-name="medstar good samaritan hospital" id="hospChkBox40" name="h" type="checkbox" value="5477"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox41"><span class="filterCheckboxSpan">medstar montgomery medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="6" data-hospital-id="5513" data-hospital-name="medstar montgomery medical center" id="hospChkBox41" name="h" type="checkbox" value="5513"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox42"><span class="filterCheckboxSpan">medstar national rehabilitation hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="7994" data-hospital-name="medstar national rehabilitation hospital" id="hospChkBox42" name="h" type="checkbox" value="7994"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox43"><span class="filterCheckboxSpan">medstar southern maryland hospital center</span><input class="actualChkBox hospChkBox" data-hospital-count="11" data-hospital-id="1349" data-hospital-name="medstar southern maryland hospital center" id="hospChkBox43" name="h" type="checkbox" value="1349"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox44"><span class="filterCheckboxSpan">medstar st mary's hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="5511" data-hospital-name="medstar st mary's hospital" id="hospChkBox44" name="h" type="checkbox" value="5511"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox45"><span class="filterCheckboxSpan">medstar union memorial hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="3" data-hospital-id="523" data-hospital-name="medstar union memorial hospital" id="hospChkBox45" name="h" type="checkbox" value="523"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox46"><span class="filterCheckboxSpan">medstar washington hospital center</span><input class="actualChkBox hospChkBox" data-hospital-count="10" data-hospital-id="1643" data-hospital-name="medstar washington hospital center" id="hospChkBox46" name="h" type="checkbox" value="1643"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox47"><span class="filterCheckboxSpan">mercy medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="425" data-hospital-name="mercy medical center" id="hospChkBox47" name="h" type="checkbox" value="425"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox48"><span class="filterCheckboxSpan">meritus medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2030" data-hospital-name="meritus medical center" id="hospChkBox48" name="h" type="checkbox" value="2030"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox49"><span class="filterCheckboxSpan">miami valley hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="1203" data-hospital-name="miami valley hospital" id="hospChkBox49" name="h" type="checkbox" value="1203"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox50"><span class="filterCheckboxSpan">naval medical center portsmouth</span><input class="actualChkBox hospChkBox" data-hospital-count="3" data-hospital-id="2880" data-hospital-name="naval medical center portsmouth" id="hospChkBox50" name="h" type="checkbox" value="2880"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox51"><span class="filterCheckboxSpan">northern virginia mental health institute</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="9858" data-hospital-name="northern virginia mental health institute" id="hospChkBox51" name="h" type="checkbox" value="9858"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox52"><span class="filterCheckboxSpan">northwest hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="5515" data-hospital-name="northwest hospital" id="hospChkBox52" name="h" type="checkbox" value="5515"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox53"><span class="filterCheckboxSpan">novant health haymarket medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="11596" data-hospital-name="novant health haymarket medical center" id="hospChkBox53" name="h" type="checkbox" value="11596"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox54"><span class="filterCheckboxSpan">novant health uva health system prince william medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="2874" data-hospital-name="novant health uva health system prince william medical center" id="hospChkBox54" name="h" type="checkbox" value="2874"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox55"><span class="filterCheckboxSpan">oregon health science university hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2642" data-hospital-name="oregon health science university hospital" id="hospChkBox55" name="h" type="checkbox" value="2642"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox56"><span class="filterCheckboxSpan">orthopaedic hospital at sentara careplex</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="12836" data-hospital-name="orthopaedic hospital at sentara careplex" id="hospChkBox56" name="h" type="checkbox" value="12836"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox57"><span class="filterCheckboxSpan">peninsula regional medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2032" data-hospital-name="peninsula regional medical center" id="hospChkBox57" name="h" type="checkbox" value="2032"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox58"><span class="filterCheckboxSpan">pocahontas community hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="5084" data-hospital-name="pocahontas community hospital" id="hospChkBox58" name="h" type="checkbox" value="5084"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox59"><span class="filterCheckboxSpan">presbyterian hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2405" data-hospital-name="presbyterian hospital" id="hospChkBox59" name="h" type="checkbox" value="2405"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox60"><span class="filterCheckboxSpan">prince george's hospital center</span><input class="actualChkBox hospChkBox" data-hospital-count="6" data-hospital-id="234" data-hospital-name="prince george's hospital center" id="hospChkBox60" name="h" type="checkbox" value="234"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox61"><span class="filterCheckboxSpan">providence hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="6" data-hospital-id="1638" data-hospital-name="providence hospital" id="hospChkBox61" name="h" type="checkbox" value="1638"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox62"><span class="filterCheckboxSpan">psychiatric institute of washington</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="8924" data-hospital-name="psychiatric institute of washington" id="hospChkBox62" name="h" type="checkbox" value="8924"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox63"><span class="filterCheckboxSpan">reston hospital center</span><input class="actualChkBox hospChkBox" data-hospital-count="9" data-hospital-id="8307" data-hospital-name="reston hospital center" id="hospChkBox63" name="h" type="checkbox" value="8307"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox64"><span class="filterCheckboxSpan">reynolds army community hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="6774" data-hospital-name="reynolds army community hospital" id="hospChkBox64" name="h" type="checkbox" value="6774"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox65"><span class="filterCheckboxSpan">riverside shore memorial hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="7688" data-hospital-name="riverside shore memorial hospital" id="hospChkBox65" name="h" type="checkbox" value="7688"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox66"><span class="filterCheckboxSpan">saint agnes hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="513" data-hospital-name="saint agnes hospital" id="hospChkBox66" name="h" type="checkbox" value="513"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox67"><span class="filterCheckboxSpan">saint elizabeths hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="1639" data-hospital-name="saint elizabeths hospital" id="hospChkBox67" name="h" type="checkbox" value="1639"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox68"><span class="filterCheckboxSpan">sentara careplex hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2869" data-hospital-name="sentara careplex hospital" id="hospChkBox68" name="h" type="checkbox" value="2869"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox69"><span class="filterCheckboxSpan">sentara leigh hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="7693" data-hospital-name="sentara leigh hospital" id="hospChkBox69" name="h" type="checkbox" value="7693"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox70"><span class="filterCheckboxSpan">sentara northern virginia medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="3" data-hospital-id="7729" data-hospital-name="sentara northern virginia medical center" id="hospChkBox70" name="h" type="checkbox" value="7729"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox71"><span class="filterCheckboxSpan">shenandoah memorial hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="7730" data-hospital-name="shenandoah memorial hospital" id="hospChkBox71" name="h" type="checkbox" value="7730"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox72"><span class="filterCheckboxSpan">sibley memorial hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="4" data-hospital-id="1640" data-hospital-name="sibley memorial hospital" id="hospChkBox72" name="h" type="checkbox" value="1640"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox73"><span class="filterCheckboxSpan">sinai hospital of baltimore</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="521" data-hospital-name="sinai hospital of baltimore" id="hospChkBox73" name="h" type="checkbox" value="521"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox74"><span class="filterCheckboxSpan">st francis hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="9500" data-hospital-name="st francis hospital" id="hospChkBox74" name="h" type="checkbox" value="9500"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox75"><span class="filterCheckboxSpan">stanford hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="1458" data-hospital-name="stanford hospital" id="hospChkBox75" name="h" type="checkbox" value="1458"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox76"><span class="filterCheckboxSpan">suburban hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="3" data-hospital-id="2026" data-hospital-name="suburban hospital" id="hospChkBox76" name="h" type="checkbox" value="2026"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox77"><span class="filterCheckboxSpan">the johns hopkins hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="4" data-hospital-id="747" data-hospital-name="the johns hopkins hospital" id="hospChkBox77" name="h" type="checkbox" value="747"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox78"><span class="filterCheckboxSpan">tripler army medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="4" data-hospital-id="4512" data-hospital-name="tripler army medical center" id="hospChkBox78" name="h" type="checkbox" value="4512"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox79"><span class="filterCheckboxSpan">united medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="506" data-hospital-name="united medical center" id="hospChkBox79" name="h" type="checkbox" value="506"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox80"><span class="filterCheckboxSpan">university hospitals cleveland medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="1709" data-hospital-name="university hospitals cleveland medical center" id="hospChkBox80" name="h" type="checkbox" value="1709"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox81"><span class="filterCheckboxSpan">university of maryland baltimore washington medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="2" data-hospital-id="2029" data-hospital-name="university of maryland baltimore washington medical center" id="hospChkBox81" name="h" type="checkbox" value="2029"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox82"><span class="filterCheckboxSpan">university of maryland charles regional medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="9" data-hospital-id="5508" data-hospital-name="university of maryland charles regional medical center" id="hospChkBox82" name="h" type="checkbox" value="5508"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox83"><span class="filterCheckboxSpan">university of maryland medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="4" data-hospital-id="9975" data-hospital-name="university of maryland medical center" id="hospChkBox83" name="h" type="checkbox" value="9975"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox84"><span class="filterCheckboxSpan">university of maryland medical center midtown campus</span><input class="actualChkBox hospChkBox" data-hospital-count="3" data-hospital-id="232" data-hospital-name="university of maryland medical center midtown campus" id="hospChkBox84" name="h" type="checkbox" value="232"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox85"><span class="filterCheckboxSpan">university of maryland rehabilitation &amp; orthopedic institute</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="5479" data-hospital-name="university of maryland rehabilitation &amp; orthopedic institute" id="hospChkBox85" name="h" type="checkbox" value="5479"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox86"><span class="filterCheckboxSpan">virginia hospital center</span><input class="actualChkBox hospChkBox" data-hospital-count="21" data-hospital-id="2865" data-hospital-name="virginia hospital center" id="hospChkBox86" name="h" type="checkbox" value="2865"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox87"><span class="filterCheckboxSpan">walter reed national military medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="40" data-hospital-id="2025" data-hospital-name="walter reed national military medical center" id="hospChkBox87" name="h" type="checkbox" value="2025"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox88"><span class="filterCheckboxSpan">washington adventist hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="18" data-hospital-id="20" data-hospital-name="washington adventist hospital" id="hospChkBox88" name="h" type="checkbox" value="20"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox89"><span class="filterCheckboxSpan">washington dc va medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="4" data-hospital-id="1641" data-hospital-name="washington dc va medical center" id="hospChkBox89" name="h" type="checkbox" value="1641"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox90"><span class="filterCheckboxSpan">western maryland regional medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="3099" data-hospital-name="western maryland regional medical center" id="hospChkBox90" name="h" type="checkbox" value="3099"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox91"><span class="filterCheckboxSpan">williamsport regional medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2730" data-hospital-name="williamsport regional medical center" id="hospChkBox91" name="h" type="checkbox" value="2730"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox92"><span class="filterCheckboxSpan">winchester medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="2890" data-hospital-name="winchester medical center" id="hospChkBox92" name="h" type="checkbox" value="2890"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox93"><span class="filterCheckboxSpan">winn army community hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="4427" data-hospital-name="winn army community hospital" id="hospChkBox93" name="h" type="checkbox" value="4427"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox94"><span class="filterCheckboxSpan">yale new haven hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="1477" data-hospital-name="yale new haven hospital" id="hospChkBox94" name="h" type="checkbox" value="1477"/><span class="checkmark"></span></label></li>
+</ul>
+</div>
+</div>
+<ul class="seo-insurance-list-inside-overlay">
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="2678" data-insurance-name="Advantage EPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/advantage-epo">Advantage EPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="111" data-insurance-id="120" data-insurance-name="Aetna Choice POS II"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-choice-pos-ii">Aetna Choice POS II</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6045" data-insurance-name="Aetna Coastal VA Managed Choice Open Access"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-coastal-va-managed-choice-open-access">Aetna Coastal VA Managed Choice Open Access</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8533" data-insurance-name="Aetna CT AWH MC OA w/Pediatric Dental"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-ct-awh-mc-oa-wpediatric-dental">Aetna CT AWH MC OA w/Pediatric Dental</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6654" data-insurance-name="Aetna Elect Choice EPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-elect-choice-epo">Aetna Elect Choice EPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="105" data-insurance-id="122" data-insurance-name="Aetna HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-hmo">Aetna HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4541" data-insurance-name="Aetna HMO Deductible Plan CA only"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-hmo-deductible-plan-ca-only">Aetna HMO Deductible Plan CA only</a></li>
+<li class="seo-insurance-li" data-insurance-count="25" data-insurance-id="8885" data-insurance-name="Aetna Innovation Health Leap"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-innovation-health-leap">Aetna Innovation Health Leap</a></li>
+<li class="seo-insurance-li" data-insurance-count="111" data-insurance-id="3084" data-insurance-name="Aetna Managed Choice POS Open Access"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-managed-choice-pos-open-access">Aetna Managed Choice POS Open Access</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8564" data-insurance-name="Aetna NYC Community Plan"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-nyc-community-plan">Aetna NYC Community Plan</a></li>
+<li class="seo-insurance-li" data-insurance-count="94" data-insurance-id="4100" data-insurance-name="Aetna Select"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-select">Aetna Select</a></li>
+<li class="seo-insurance-li" data-insurance-count="105" data-insurance-id="2258" data-insurance-name="Aetna Signature Administrators PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-signature-administrators-ppo">Aetna Signature Administrators PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="27" data-insurance-id="8824" data-insurance-name="Aetna VA Signature Gold HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aetna-va-signature-gold-hmo">Aetna VA Signature Gold HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="35" data-insurance-id="42576" data-insurance-name="Aexcel PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/aexcel-ppo">Aexcel PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8157" data-insurance-name="Ambetter from CelticCare Health MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ambetter-from-celticcare-health-mrf">Ambetter from CelticCare Health MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8166" data-insurance-name="Ambetter from MHS HIX"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ambetter-from-mhs-hix">Ambetter from MHS HIX</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8174" data-insurance-name="Ambetter Sunshine Balanced MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ambetter-sunshine-balanced-mrf">Ambetter Sunshine Balanced MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="4549" data-insurance-name="Ambetter Superior Health Plan"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ambetter-superior-health-plan">Ambetter Superior Health Plan</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="10787" data-insurance-name="AmeriHealth Advantage"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/amerihealth-advantage">AmeriHealth Advantage</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="11258" data-insurance-name="AmeriHealth HMO, POS, DPOS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/amerihealth-hmo-pos-dpos">AmeriHealth HMO, POS, DPOS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="51694" data-insurance-name="Amerihealth Hospital Advantage"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/amerihealth-hospital-advantage">Amerihealth Hospital Advantage</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8804" data-insurance-name="Amerihealth Local Value Network - EPO - PPO MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/amerihealth-local-value-network-epo-ppo-mrf">Amerihealth Local Value Network - EPO - PPO MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4390" data-insurance-name="Amerihealth Local Value Network EPO POS + PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/amerihealth-local-value-network-epo-pos-ppo">Amerihealth Local Value Network EPO POS + PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4391" data-insurance-name="Amerihealth Local Value Network HMO HMO + POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/amerihealth-local-value-network-hmo-hmo-pos">Amerihealth Local Value Network HMO HMO + POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4397" data-insurance-name="Amerihealth Regional Pref Ntwk EPO POS + PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/amerihealth-regional-pref-ntwk-epo-pos-ppo">Amerihealth Regional Pref Ntwk EPO POS + PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4398" data-insurance-name="Amerihealth Regional Pref Ntwk HMO HMO + POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/amerihealth-regional-pref-ntwk-hmo-hmo-pos">Amerihealth Regional Pref Ntwk HMO HMO + POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8806" data-insurance-name="Amerihealth Regional Preferred Network HMO, HMO+, POS, POS+ MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/amerihealth-regional-preferred-network-hmo-hmo-pos-pos-mrf">Amerihealth Regional Preferred Network HMO, HMO+, POS, POS+ MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="491" data-insurance-name="Anthem Blue Access PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-blue-access-ppo">Anthem Blue Access PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3874" data-insurance-name="Anthem Blue Open Access POS Alternate Network"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-blue-open-access-pos-alternate-network">Anthem Blue Open Access POS Alternate Network</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="492" data-insurance-name="Anthem Blue Preferred HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-blue-preferred-hmo">Anthem Blue Preferred HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3166" data-insurance-name="Anthem Blue Preferred Plus POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-blue-preferred-plus-pos">Anthem Blue Preferred Plus POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4553" data-insurance-name="Anthem Bronze Pathway X - KY"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-bronze-pathway-x-ky">Anthem Bronze Pathway X - KY</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6607" data-insurance-name="Anthem CT HMO BlueCare"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-ct-hmo-bluecare">Anthem CT HMO BlueCare</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6608" data-insurance-name="Anthem CT Pathway X Enhanced Ind HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-ct-pathway-x-enhanced-ind-hmo">Anthem CT Pathway X Enhanced Ind HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="48" data-insurance-id="402" data-insurance-name="Anthem HealthKeepers HMO POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-healthkeepers-hmo-pos">Anthem HealthKeepers HMO POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="98" data-insurance-id="546" data-insurance-name="Anthem KeyCare PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-keycare-ppo">Anthem KeyCare PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="5856" data-insurance-name="Anthem Pathway X Enhanced Ind Direct Access NH"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-pathway-x-enhanced-ind-direct-access-nh">Anthem Pathway X Enhanced Ind Direct Access NH</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="5851" data-insurance-name="Anthem Pathway X Ind PPO Direct Access CT"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-pathway-x-ind-ppo-direct-access-ct">Anthem Pathway X Ind PPO Direct Access CT</a></li>
+<li class="seo-insurance-li" data-insurance-count="31" data-insurance-id="5859" data-insurance-name="Anthem Pathway X Tier Hosp HealthKeepers DirectAccess VA"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-pathway-x-tier-hosp-healthkeepers-directaccess-va">Anthem Pathway X Tier Hosp HealthKeepers DirectAccess VA</a></li>
+<li class="seo-insurance-li" data-insurance-count="45" data-insurance-id="8812" data-insurance-name="Anthem Pathway X Tiered Hospital and Dental Prime MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-pathway-x-tiered-hospital-and-dental-prime-mrf">Anthem Pathway X Tiered Hospital and Dental Prime MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="6609" data-insurance-name="Anthem PPO Century Preferred CT"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/anthem-ppo-century-preferred-ct">Anthem PPO Century Preferred CT</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3196" data-insurance-name="Avmed Choice"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/avmed-choice">Avmed Choice</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="9499" data-insurance-name="AvMed Empower"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/avmed-empower">AvMed Empower</a></li>
+<li class="seo-insurance-li" data-insurance-count="129" data-insurance-id="251" data-insurance-name="BCBS Blue Card PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-blue-card-ppo">BCBS Blue Card PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="835" data-insurance-name="BCBS GA Blue Choice PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-ga-blue-choice-ppo">BCBS GA Blue Choice PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3595" data-insurance-name="BCBS GA Blue Open Access POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-ga-blue-open-access-pos">BCBS GA Blue Open Access POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="371" data-insurance-name="BCBS IL PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-il-ppo">BCBS IL PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="3" data-insurance-id="474" data-insurance-name="BCBS MA Blue Care Elect PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-ma-blue-care-elect-ppo">BCBS MA Blue Care Elect PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="51358" data-insurance-name="BCBS MA PPO or EPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-ma-ppo-or-epo">BCBS MA PPO or EPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="2653" data-insurance-name="BCBS MA Preferred Blue PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-ma-preferred-blue-ppo">BCBS MA Preferred Blue PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="539" data-insurance-name="BCBS MI PPO Plans Group Enrollees"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-mi-ppo-plans-group-enrollees">BCBS MI PPO Plans Group Enrollees</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="7523" data-insurance-name="BCBS NC Blue Select"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-nc-blue-select">BCBS NC Blue Select</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="7524" data-insurance-name="BCBS NC Blue Value"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-nc-blue-value">BCBS NC Blue Value</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="363" data-insurance-name="BCBS NC BlueOptions"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-nc-blueoptions">BCBS NC BlueOptions</a></li>
+<li class="seo-insurance-li" data-insurance-count="11" data-insurance-id="39468" data-insurance-name="BCBS PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/bcbs-ppo">BCBS PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="66573" data-insurance-name="Blue Choice Preferred PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-choice-preferred-ppo">Blue Choice Preferred PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="51754" data-insurance-name="Blue Choice Select PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-choice-select-ppo">Blue Choice Select PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="9746" data-insurance-name="Blue Cross BlueConnect"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-cross-blueconnect">Blue Cross BlueConnect</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4104" data-insurance-name="Blue Cross CA  PPO Prudent Buyer Small Group"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-cross-ca-ppo-prudent-buyer-small-group">Blue Cross CA  PPO Prudent Buyer Small Group</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="5896" data-insurance-name="Blue Cross CA Advantage PPO Preferred DirectAccess Plus"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-cross-ca-advantage-ppo-preferred-directaccess-plus">Blue Cross CA Advantage PPO Preferred DirectAccess Plus</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4102" data-insurance-name="Blue Cross CA PPO Prudent Buyer Individual"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-cross-ca-ppo-prudent-buyer-individual">Blue Cross CA PPO Prudent Buyer Individual</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="136" data-insurance-name="Blue Cross CA PPO Prudent Buyer Large Group"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-cross-ca-ppo-prudent-buyer-large-group">Blue Cross CA PPO Prudent Buyer Large Group</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="888" data-insurance-name="Blue Cross CA Select PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-cross-ca-select-ppo">Blue Cross CA Select PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="5721" data-insurance-name="Blue Cross Premier PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-cross-premier-ppo">Blue Cross Premier PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="42730" data-insurance-name="Blue Select"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-select">Blue Select</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6563" data-insurance-name="Blue Shield CA Bronze Full PPO 4500"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-shield-ca-bronze-full-ppo-4500">Blue Shield CA Bronze Full PPO 4500</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="386" data-insurance-name="Blue Shield CA PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blue-shield-ca-ppo">Blue Shield CA PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="9443" data-insurance-name="BlueEssentials Individual and Family"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/blueessentials-individual-and-family">BlueEssentials Individual and Family</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="508" data-insurance-name="Capital BC PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/capital-bc-ppo">Capital BC PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="126" data-insurance-id="3014" data-insurance-name="CareFirst BlueChoice Advantage"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/carefirst-bluechoice-advantage">CareFirst BlueChoice Advantage</a></li>
+<li class="seo-insurance-li" data-insurance-count="16" data-insurance-id="8706" data-insurance-name="CareFirst BlueChoice HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/carefirst-bluechoice-hmo">CareFirst BlueChoice HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="124" data-insurance-id="860" data-insurance-name="CareFirst BluePreferred PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/carefirst-bluepreferred-ppo">CareFirst BluePreferred PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="84" data-insurance-id="3130" data-insurance-name="CareFirst Maryland POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/carefirst-maryland-pos">CareFirst Maryland POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="10668" data-insurance-name="CareSource Mrktplace WV"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/caresource-mrktplace-wv">CareSource Mrktplace WV</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6389" data-insurance-name="CareSource Ohio"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/caresource-ohio">CareSource Ohio</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="178" data-insurance-name="CDPHP HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cdphp-hmo">CDPHP HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="5954" data-insurance-name="CDPHP New York State of Health - Individuals &amp; Families"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cdphp-new-york-state-of-health-individuals-families">CDPHP New York State of Health - Individuals &amp; Families</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="5977" data-insurance-name="CDPHP New York State of Health - Small Business"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cdphp-new-york-state-of-health-small-business">CDPHP New York State of Health - Small Business</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="584" data-insurance-name="CDPHP PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cdphp-ppo">CDPHP PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="108" data-insurance-id="118" data-insurance-name="CIGNA HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cigna-hmo">CIGNA HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="5" data-insurance-id="3792" data-insurance-name="CIGNA LocalPlus"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cigna-localplus">CIGNA LocalPlus</a></li>
+<li class="seo-insurance-li" data-insurance-count="115" data-insurance-id="117" data-insurance-name="CIGNA Open Access Plus"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cigna-open-access-plus">CIGNA Open Access Plus</a></li>
+<li class="seo-insurance-li" data-insurance-count="114" data-insurance-id="116" data-insurance-name="CIGNA PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cigna-ppo">CIGNA PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4387" data-insurance-name="CIGNA Radius Network"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cigna-radius-network">CIGNA Radius Network</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8840" data-insurance-name="Cigna Southern CA Select"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cigna-southern-ca-select">Cigna Southern CA Select</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="7118" data-insurance-name="CIGNA Southern CA Value"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cigna-southern-ca-value">CIGNA Southern CA Value</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6684" data-insurance-name="CIGNA Total DPPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/cigna-total-dppo">CIGNA Total DPPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="36" data-insurance-id="5929" data-insurance-name="Community Blue PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/community-blue-ppo">Community Blue PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="2290" data-insurance-name="CompBenefits PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/compbenefits-ppo">CompBenefits PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="10636" data-insurance-name="Connecticare Choice"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/connecticare-choice">Connecticare Choice</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="10610" data-insurance-name="Connecticare Flex Connecticut"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/connecticare-flex-connecticut">Connecticare Flex Connecticut</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="10614" data-insurance-name="Connecticare Passage"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/connecticare-passage">Connecticare Passage</a></li>
+<li class="seo-insurance-li" data-insurance-count="11" data-insurance-id="4581" data-insurance-name="Coventry - Bon Secours Tier 2"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-bon-secours-tier-2">Coventry - Bon Secours Tier 2</a></li>
+<li class="seo-insurance-li" data-insurance-count="11" data-insurance-id="37353" data-insurance-name="Coventry - Southside Tier 2"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-southside-tier-2">Coventry - Southside Tier 2</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4590" data-insurance-name="Coventry Carelink - Carolinas HealthCare System Tier 2"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-carelink-carolinas-healthcare-system-tier-2">Coventry Carelink - Carolinas HealthCare System Tier 2</a></li>
+<li class="seo-insurance-li" data-insurance-count="51" data-insurance-id="3913" data-insurance-name="Coventry DE PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-de-ppo">Coventry DE PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="1922" data-insurance-name="Coventry HealthAmerica HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-healthamerica-hmo">Coventry HealthAmerica HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="3" data-insurance-id="488" data-insurance-name="Coventry HealthAmerica PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-healthamerica-ppo">Coventry HealthAmerica PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3916" data-insurance-name="Coventry IA PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-ia-ppo">Coventry IA PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3917" data-insurance-name="Coventry NE PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-ne-ppo">Coventry NE PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="62" data-insurance-id="3921" data-insurance-name="Coventry Southern Health PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-southern-health-ppo">Coventry Southern Health PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="12" data-insurance-id="3140" data-insurance-name="Coventry Virginia - HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/coventry-virginia-hmo">Coventry Virginia - HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="441" data-insurance-name="Emblem HIP Select PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/emblem-hip-select-ppo">Emblem HIP Select PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="43627" data-insurance-name="Empire Blue Priority NY"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/empire-blue-priority-ny">Empire Blue Priority NY</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="4656" data-insurance-name="Empire HMO Bronze Individual via Exchange"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/empire-hmo-bronze-individual-via-exchange">Empire HMO Bronze Individual via Exchange</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="235" data-insurance-name="Empire PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/empire-ppo">Empire PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4333" data-insurance-name="Empire Prism EPO Blue Priority"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/empire-prism-epo-blue-priority">Empire Prism EPO Blue Priority</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3824" data-insurance-name="Encore Health Network"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/encore-health-network">Encore Health Network</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4640" data-insurance-name="Fidelis Care NY State of Health HBX"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/fidelis-care-ny-state-of-health-hbx">Fidelis Care NY State of Health HBX</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="10816" data-insurance-name="Fidelis Mrktplace"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/fidelis-mrktplace">Fidelis Mrktplace</a></li>
+<li class="seo-insurance-li" data-insurance-count="95" data-insurance-id="613" data-insurance-name="First Health PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/first-health-ppo">First Health PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="163" data-insurance-name="Florida Blue BlueCare HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/florida-blue-bluecare-hmo">Florida Blue BlueCare HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4285" data-insurance-name="Florida Blue BlueOptions"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/florida-blue-blueoptions">Florida Blue BlueOptions</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="1860" data-insurance-name="Florida Blue BlueSelect"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/florida-blue-blueselect">Florida Blue BlueSelect</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3772" data-insurance-name="FrontPath Health Coalition"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/frontpath-health-coalition">FrontPath Health Coalition</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="639" data-insurance-name="Geisinger Health Plan"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/geisinger-health-plan">Geisinger Health Plan</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="9587" data-insurance-name="Harvard Pilgrim ChoiceNet HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/harvard-pilgrim-choicenet-hmo">Harvard Pilgrim ChoiceNet HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3112" data-insurance-name="Harvard Pilgrim HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/harvard-pilgrim-hmo">Harvard Pilgrim HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="477" data-insurance-name="Harvard Pilgrim PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/harvard-pilgrim-ppo">Harvard Pilgrim PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6627" data-insurance-name="Health Alliance HMO/POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/health-alliance-hmopos">Health Alliance HMO/POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3202" data-insurance-name="Health Alliance PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/health-alliance-ppo">Health Alliance PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6597" data-insurance-name="Health Net CA Individual and Family PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/health-net-ca-individual-and-family-ppo">Health Net CA Individual and Family PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="392" data-insurance-name="Health Net CA PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/health-net-ca-ppo">Health Net CA PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="456" data-insurance-name="Health Net OR PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/health-net-or-ppo">Health Net OR PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="65640" data-insurance-name="HealthSync Options POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/healthsync-options-pos">HealthSync Options POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="8973" data-insurance-name="Highmark Alliance Flex Blue"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/highmark-alliance-flex-blue">Highmark Alliance Flex Blue</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="9184" data-insurance-name="Highmark Blue Cross Blue Shield Shared Cost 1500, a Multi-State Plan"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/highmark-blue-cross-blue-shield-shared-cost-1500-a-multi-state-plan">Highmark Blue Cross Blue Shield Shared Cost 1500, a Multi-State Plan</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="7350" data-insurance-name="Highmark Community Blue Flex EPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/highmark-community-blue-flex-epo">Highmark Community Blue Flex EPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="9185" data-insurance-name="Highmark Comprehensive Care Blue PPO 1500 MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/highmark-comprehensive-care-blue-ppo-1500-mrf">Highmark Comprehensive Care Blue PPO 1500 MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="9186" data-insurance-name="Highmark Comprehensive Care Flex Blue PPO 500 MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/highmark-comprehensive-care-flex-blue-ppo-500-mrf">Highmark Comprehensive Care Flex Blue PPO 500 MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="9187" data-insurance-name="Highmark Health Savings Blue PPO 1400 MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/highmark-health-savings-blue-ppo-1400-mrf">Highmark Health Savings Blue PPO 1400 MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="9188" data-insurance-name="Highmark Shared Cost Blue PPO 6000 MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/highmark-shared-cost-blue-ppo-6000-mrf">Highmark Shared Cost Blue PPO 6000 MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="51324" data-insurance-name="HMO Local Value"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/hmo-local-value">HMO Local Value</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="51380" data-insurance-name="HMO Preferred"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/hmo-preferred">HMO Preferred</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="37359" data-insurance-name="Horizon BCBS OMNIA - TIER2"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/horizon-bcbs-omnia-tier2">Horizon BCBS OMNIA - TIER2</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="2720" data-insurance-name="Horizon Direct Access"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/horizon-direct-access">Horizon Direct Access</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="144" data-insurance-name="Horizon HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/horizon-hmo">Horizon HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8506" data-insurance-name="Horizon OMNIA"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/horizon-omnia">Horizon OMNIA</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="2214" data-insurance-name="Horizon POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/horizon-pos">Horizon POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="145" data-insurance-name="Horizon PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/horizon-ppo">Horizon PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="54" data-insurance-id="4133" data-insurance-name="Humana Choice POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/humana-choice-pos">Humana Choice POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="53" data-insurance-id="60" data-insurance-name="Humana ChoiceCare Network PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/humana-choicecare-network-ppo">Humana ChoiceCare Network PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="495" data-insurance-name="Humana HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/humana-hmo">Humana HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="1800" data-insurance-name="Humana HMO Premier"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/humana-hmo-premier">Humana HMO Premier</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4655" data-insurance-name="Humana HMO Select"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/humana-hmo-select">Humana HMO Select</a></li>
+<li class="seo-insurance-li" data-insurance-count="3" data-insurance-id="1149" data-insurance-name="Humana National POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/humana-national-pos">Humana National POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4396" data-insurance-name="Humana Preferred PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/humana-preferred-ppo">Humana Preferred PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="507" data-insurance-name="IBC Keystone HMO POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ibc-keystone-hmo-pos">IBC Keystone HMO POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="565" data-insurance-name="IBC Personal Choice PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ibc-personal-choice-ppo">IBC Personal Choice PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="2263" data-insurance-name="Kaiser Permanente MidAtlantic"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/kaiser-permanente-midatlantic">Kaiser Permanente MidAtlantic</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="9481" data-insurance-name="Keystone HMO Proactive"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/keystone-hmo-proactive">Keystone HMO Proactive</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="7420" data-insurance-name="KeystoneBlue"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/keystoneblue">KeystoneBlue</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="45075" data-insurance-name="Local Value"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/local-value">Local Value</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="51480" data-insurance-name="Local Value Network POS+"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/local-value-network-pos">Local Value Network POS+</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="44299" data-insurance-name="McLaren Health Plan Community"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/mclaren-health-plan-community">McLaren Health Plan Community</a></li>
+<li class="seo-insurance-li" data-insurance-count="39" data-insurance-id="44357" data-insurance-name="MD IPA/Optimum Choice HMO/Preferred POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/md-ipaoptimum-choice-hmopreferred-pos">MD IPA/Optimum Choice HMO/Preferred POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="44" data-insurance-id="44358" data-insurance-name="MEDICA CHOICE WITH UNITEDHEALTHC"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/medica-choice-with-unitedhealthc">MEDICA CHOICE WITH UNITEDHEALTHC</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8512" data-insurance-name="Moda Health Beacon"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/moda-health-beacon">Moda Health Beacon</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6603" data-insurance-name="Moda Health Community Care Network"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/moda-health-community-care-network">Moda Health Community Care Network</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6605" data-insurance-name="Moda Health Connexus"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/moda-health-connexus">Moda Health Connexus</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="6606" data-insurance-name="Moda Health First Choice Network"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/moda-health-first-choice-network">Moda Health First Choice Network</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6626" data-insurance-name="Moda Health Summit"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/moda-health-summit">Moda Health Summit</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6602" data-insurance-name="Moda Health Synergy Network"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/moda-health-synergy-network">Moda Health Synergy Network</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="5725" data-insurance-name="Molina Mrktplace FL"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/molina-mrktplace-fl">Molina Mrktplace FL</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="5848" data-insurance-name="Molina place OH"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/molina-place-oh">Molina place OH</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="68824" data-insurance-name="Molina place SC"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/molina-place-sc">Molina place SC</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="4155" data-insurance-name="Molina place TX"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/molina-place-tx">Molina place TX</a></li>
+<li class="seo-insurance-li" data-insurance-count="73" data-insurance-id="401" data-insurance-name="Multiplan PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/multiplan-ppo">Multiplan PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="45063" data-insurance-name="MVP EPO/PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/mvp-epoppo">MVP EPO/PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="44113" data-insurance-name="MVP Health Plan Essential Plan"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/mvp-health-plan-essential-plan">MVP Health Plan Essential Plan</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="175" data-insurance-name="MVP HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/mvp-hmo">MVP HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8567" data-insurance-name="MVP Liberty EPO/PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/mvp-liberty-epoppo">MVP Liberty EPO/PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="8" data-insurance-id="8455" data-insurance-name="Optima Health OptimaFit Direct HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/optima-health-optimafit-direct-hmo">Optima Health OptimaFit Direct HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="11" data-insurance-id="3153" data-insurance-name="Optima Vantage HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/optima-vantage-hmo">Optima Vantage HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="51203" data-insurance-name="Oscar Circle"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/oscar-circle">Oscar Circle</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="51204" data-insurance-name="Oscar Circle Plus"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/oscar-circle-plus">Oscar Circle Plus</a></li>
+<li class="seo-insurance-li" data-insurance-count="3" data-insurance-id="275" data-insurance-name="Oxford Freedom"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/oxford-freedom">Oxford Freedom</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="44818" data-insurance-name="Oxford Garden State"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/oxford-garden-state">Oxford Garden State</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="5930" data-insurance-name="Oxford Health Garden State"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/oxford-health-garden-state">Oxford Health Garden State</a></li>
+<li class="seo-insurance-li" data-insurance-count="3" data-insurance-id="258" data-insurance-name="Oxford Liberty"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/oxford-liberty">Oxford Liberty</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8030" data-insurance-name="Oxford Metro"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/oxford-metro">Oxford Metro</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="7817" data-insurance-name="PacificSource PSN"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/pacificsource-psn">PacificSource PSN</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8150" data-insurance-name="PacificSource SCN MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/pacificsource-scn-mrf">PacificSource SCN MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="6537" data-insurance-name="PacificSource SmartChoice"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/pacificsource-smartchoice">PacificSource SmartChoice</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8151" data-insurance-name="Pacificsource SmartChoice OR MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/pacificsource-smartchoice-or-mrf">Pacificsource SmartChoice OR MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="7272" data-insurance-name="PacificSource SmartHealth Oregon Members"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/pacificsource-smarthealth-oregon-members">PacificSource SmartHealth Oregon Members</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="8152" data-insurance-name="PacificSource SmartHealth Standard MRF"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/pacificsource-smarthealth-standard-mrf">PacificSource SmartHealth Standard MRF</a></li>
+<li class="seo-insurance-li" data-insurance-count="17" data-insurance-id="51918" data-insurance-name="Pathway X Tiered Hospital and Dental Prime"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/pathway-x-tiered-hospital-and-dental-prime">Pathway X Tiered Hospital and Dental Prime</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="66865" data-insurance-name="Personal Choice EPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/personal-choice-epo">Personal Choice EPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="67" data-insurance-id="1137" data-insurance-name="PHCS PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/phcs-ppo">PHCS PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="2034" data-insurance-name="PHCS PPO Kaiser"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/phcs-ppo-kaiser">PHCS PPO Kaiser</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="9644" data-insurance-name="PHP Select with Encircle"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/php-select-with-encircle">PHP Select with Encircle</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="43717" data-insurance-name="PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ppo">PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="45074" data-insurance-name="PPO 6000 Series"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ppo-6000-series">PPO 6000 Series</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="44862" data-insurance-name="PPO Plans - Group Enrollees"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ppo-plans-group-enrollees">PPO Plans - Group Enrollees</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="393" data-insurance-name="PPOBlue"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/ppoblue">PPOBlue</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3080" data-insurance-name="Preferred Provider Network - WA"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/preferred-provider-network-wa">Preferred Provider Network - WA</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="356" data-insurance-name="Premera Heritage and Heritage Plus 1"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/premera-heritage-and-heritage-plus-1">Premera Heritage and Heritage Plus 1</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="4271" data-insurance-name="Premera Heritage Signature"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/premera-heritage-signature">Premera Heritage Signature</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="862" data-insurance-name="Priority Health HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/priority-health-hmo">Priority Health HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="1993" data-insurance-name="PriorityHealth Priority PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/priorityhealth-priority-ppo">PriorityHealth Priority PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="406" data-insurance-name="Providence PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/providence-ppo">Providence PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="3475" data-insurance-name="QualCare HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/qualcare-hmo">QualCare HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="1883" data-insurance-name="QualCare PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/qualcare-ppo">QualCare PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="51257" data-insurance-name="Regional Preferred"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/regional-preferred">Regional Preferred</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="51580" data-insurance-name="Regional Preferred POS+"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/regional-preferred-pos">Regional Preferred POS+</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="537" data-insurance-name="Sagamore Plus"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/sagamore-plus">Sagamore Plus</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="7215" data-insurance-name="SIHO Network"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/siho-network">SIHO Network</a></li>
+<li class="seo-insurance-li" data-insurance-count="2" data-insurance-id="861" data-insurance-name="Tufts PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/tufts-ppo">Tufts PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="121" data-insurance-id="630" data-insurance-name="UHC Choice Plus POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/uhc-choice-plus-pos">UHC Choice Plus POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="73" data-insurance-id="4148" data-insurance-name="UHC Compass HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/uhc-compass-hmo">UHC Compass HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="104" data-insurance-id="3702" data-insurance-name="UHC Navigate HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/uhc-navigate-hmo">UHC Navigate HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="38" data-insurance-id="44352" data-insurance-name="UHC NAVIGATE PLUS POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/uhc-navigate-plus-pos">UHC NAVIGATE PLUS POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="91" data-insurance-id="3190" data-insurance-name="UHC Navigate POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/uhc-navigate-pos">UHC Navigate POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="51239" data-insurance-name="UHC Nexus Open Access"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/uhc-nexus-open-access">UHC Nexus Open Access</a></li>
+<li class="seo-insurance-li" data-insurance-count="98" data-insurance-id="7131" data-insurance-name="UHC Optimum Choice Preferred POS"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/uhc-optimum-choice-preferred-pos">UHC Optimum Choice Preferred POS</a></li>
+<li class="seo-insurance-li" data-insurance-count="122" data-insurance-id="631" data-insurance-name="UHC Options PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/uhc-options-ppo">UHC Options PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="286" data-insurance-name="UHC West SignatureValue HMO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/uhc-west-signaturevalue-hmo">UHC West SignatureValue HMO</a></li>
+<li class="seo-insurance-li" data-insurance-count="5" data-insurance-id="6932" data-insurance-name="UMMS Choice"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/umms-choice">UMMS Choice</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="1229" data-insurance-name="United Healthcare Dental PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/united-healthcare-dental-ppo">United Healthcare Dental PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="485" data-insurance-name="UPMC PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/upmc-ppo">UPMC PPO</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="9489" data-insurance-name="UPMC Premium Network Plans"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/upmc-premium-network-plans">UPMC Premium Network Plans</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="859" data-insurance-name="Wellmark Alliance Select"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/wellmark-alliance-select">Wellmark Alliance Select</a></li>
+<li class="seo-insurance-li" data-insurance-count="1" data-insurance-id="51117" data-insurance-name="Wellmark Blue PPO"><a class="seo-insurance-li-link" href="/find-a-doctor/specialty/general-practice/district-of-columbia/washington/wellmark-blue-ppo">Wellmark Blue PPO</a></li>
+</ul>
+<div class="form-row">
+<div class="dd-wrap pd-srch-overlay-newpat-wrap"><label class="lbl-chkbox" for="newpatChkBox"><span class="filterCheckboxSpan">Accepting New Patients</span><input class="actualChkBox" id="newpatChkBox" name="newpat" type="checkbox" value="true"/><span class="checkmark"></span></label></div>
+</div>
+<div class="mobile-div"></div>
+</div>
+<div class="form-row" data-city="Washington" data-state="DC" id="buttonRow"><button class="clearAll" data-metrics-link="clr" data-metrics-type="" name="clearAll" type="button">Clear All</button><button class="cancel" data-metrics-link="cls" data-metrics-type="ad-hoc" name="cancel" type="button">Cancel</button><button class="apply" data-metrics-link="apl" data-metrics-type="" name="apply" type="button">Apply</button></div>
+</form>

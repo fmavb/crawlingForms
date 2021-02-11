@@ -1,0 +1,25 @@
+<form action="/health-information/GetQuizDataAjax" class="mod-quiz" id="quiz" method="post">
+<!-- START: quiz-intro -->
+<input name="contextItemId" type="hidden" value="WfUFY0E94aznMxoqJdWyqPimVdCfTT8dHMmbRj+qkUgI70g9UlB0cw=="/>
+<input name="id" type="hidden" value="start"/>
+<input name="count" type="hidden" value="0"/>
+<input name="result" type="hidden" value="0"/>
+<div class="quiz-box quiz-intro">
+<div class="backdrop">
+<img alt="bottles in a kitchen" src="https://assets.bupa.co.uk/~/media/images/healthmanagement/blogs/700-350/2020/bottle-caps-700-350.jpg"/>
+</div>
+<div class="body">
+<div class="icon">
+<i class="i-quiz-intro"></i>
+</div>
+<h2 class="title"></h2>
+<p class="impact"></p>
+<p>
+</p>
+<div class="controls">
+<button class="btn btn-cta" data-analytics-category="BupaQuizStart" type="submit">Start the quiz</button>
+</div>
+</div>
+</div>
+<!-- END: quiz-intro -->
+</form>

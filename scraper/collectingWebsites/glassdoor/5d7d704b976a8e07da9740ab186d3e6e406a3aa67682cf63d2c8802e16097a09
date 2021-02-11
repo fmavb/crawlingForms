@@ -1,0 +1,7 @@
+<form action="/blog/search/" class="search-form js-search-form" method="get" role="search">
+<label class="offScreen" for="s">
+            Search        </label>
+<input class="search-input js-search-input std lg" name="s" placeholder="Search Blog" type="text" value=""/>
+<button class="srch-btn gd-btn gd-btn-1 gd-btn-lg" type="submit" value="Search"></button>
+        Search        
+    </form>

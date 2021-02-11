@@ -1,0 +1,56 @@
+<form action="/services/hospital/royal-preston-hospital/X907/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Wonderful Staff &amp;amp; Treatment&lt;/Title&gt;
+    &lt;ScreenName&gt;Paul Beavan&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I recently spent 45 days in the Royal Preston Hospital mainly on ward 18. My original problem was cancer in my kidney,this was removed. Along with necrotising paraneoplastic myopathy, then a low heart beat was spotted and a pace maker was fitted when a chest infection was cleared. My medical treatment was brilliant, all the staff from the Doctors, Nurses, Carers, Physiotherapist,Cleaners were fantastic, friendly, helpful, great personalities that could cheer you up when you were at a low ebb.
+Hospital food is not my favourite, but Preston Royal has a multi cultural menu and I do like Indian food, they also have a selection of tasty local yogurts.
+My only criticism is that the NHS seems to be the emergency dementia fall back, when social services fail. It is a shame that a general ward is expected to cater for this event, when it does not have the facilities to cater for the dementia patients needs, it is an expensive waste of staff time and can be dangerous to a staff member, when the patient has only one focus to leave the ward. I would suggest a re appraisal of the health and safety policy is needed to ensure staff safety.  &lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-08-06T06:45:00Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;6&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Royal Preston Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Cardiology&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;ec180d55-b0d7-ea11-a813-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X907&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamEDAyxAWlcvtwwiGZ5_T13cnLqdWhO00X7cBVCDu4Gevy2L7S_ov-xJ4oGamcKWMICCStuZ8LYf3d5BA31l_bJ6sdGg8U6vhIA9TH4wUCcjKQRI7VJOoeiCGheK0ct-1yM"/></form>

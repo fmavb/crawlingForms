@@ -1,0 +1,55 @@
+<form action="/services/hospital/goole-and-district-hospital/X132585/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Unprofessional, traumatic&lt;/Title&gt;
+    &lt;ScreenName&gt;Lucy kirk&lt;/ScreenName&gt;
+    &lt;CommentText&gt;After a nasty car crash, myself and children came to get checked out at Goole minor injuries, I was unsure whether necessary but after advice of other health professionals, I decided better to be safe than sorry, I was assured any practice as such would reassure me that it was the right decision. This certainly was not the case, from the minute I walked in I felt I was disbelieved, ridiculed at our symptoms, being told abdominal pains are unheard off after a car accident. I felt I was being judged that I was only there for a claim, which couldn’t have been further from the truth, I was there to ensure my children’s injuries were nothing to worry about and to be reassured that if there were any repercussions at a later date, at least I had them checked over.
+I can safely say I will never return to this unit, I would travel to the other end of the country before doing so and most certainly the most traumatic part of this car accident was attending Goole minor injuries. &lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-02-26T08:47:08Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;2&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Goole &amp;amp; District Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Urgent Treatment Centre&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;ca3b3390-7458-ea11-a811-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X132585&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFjDlH6oaLiKkxkDTPz0FhfoYAlDSBEUynABvQII5ixdYrc-_oeFUljL1A9GMsf-JOQypqdiqxTqSRaSfvK7-x0qbeih9khllyVYcZvQieFOe7iAyLEMNauFwXHExKEszc"/></form>

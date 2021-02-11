@@ -1,0 +1,10 @@
+<form accept-charset="UTF-8" action="/venues" id="ys-search-block-form--3" method="get">
+<div class="form-item js-form-item form-type-search js-form-type-search form-item-title js-form-item-title form-no-label form-group">
+<label class="control-label sr-only js-form-required form-required" for="edit-title">Search venue by name</label>
+<div class="input-group"><input aria-describedby="edit-title--description" aria-required="true" class="form-search required form-control" data-drupal-selector="edit-title" id="edit-title" maxlength="128" name="title" placeholder="Search venue by name" required="required" size="20" title="Enter the venue name or part of the name" type="search" value=""/><span class="input-group-btn"><button class="button js-form-submit form-submit btn-primary btn icon-only" name="" type="submit" value="Search"><span class="sr-only">Search</span><span aria-hidden="true" class="icon glyphicon glyphicon-search"></span></button></span></div>
+<div class="description help-block" id="edit-title--description">
+      Enter the venue name or part of the name
+    </div>
+</div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions--3"></div>
+</form>

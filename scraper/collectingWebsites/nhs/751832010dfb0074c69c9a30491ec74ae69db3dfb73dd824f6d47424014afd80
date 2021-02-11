@@ -1,0 +1,56 @@
+<form action="/services/hospital/rotherham-hospital/X272/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Had  burns to upper thighs and genitalia.&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Had burns to upper thighs and genitalia, had dripping wet towels between legs to ease the pain, was not given pain relief, triage did not review due to the nature and location of injury, was asked to sit in waiting area with 4 hour wait, this was not practical as I needed a degree of privacy due to the location of burns and the stance I had to take, this was neither offered or given when requested. A shrug of the shoulder by staff was inappropriate and I found them a little condescending. 
+I left as no care was offered or given, on returning home I rang 111 who sent an ambulance immediately where the paramedics tended to me for 2.5 hours I cannot speak highly enough of these individuals. 
+An absolute ineffective way to manage and control costs given the current financial constraints the NHS are under. This makes me question whether the NHS is under funded are plainly poorly managed?&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-02-25T21:36:14.483Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;2&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Rotherham Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;e1799161-44d5-e911-a812-000d3a7ed30d&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X272&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGemXShfh6GpfEKt55t5ghuPdRymY3geiuMemKDGod3e2--9M_m_3USxo0kk2lV5phi3hcbwVmG1BlOhhpuNCLE5YIAcVrbSR3s8c1udTdAodnkLq7A9lAkETTXmFWixQw"/></form>

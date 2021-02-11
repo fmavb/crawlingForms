@@ -1,0 +1,59 @@
+<form action="/services/hospital/manchester-royal-infirmary/X134557/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;CommentText&gt;Thank you for your comments regarding your experience at the Walk in Centre at Manchester Royal Infirmary. 
+
+Mrs Kathryn Mitchell, Site Director of Estates &amp;amp; Facilities (Oxford Road Campus) would like to apologise to you on behalf of the Trust regarding the attitude of the security guard at the walk in centre door, which you feel was disrespectful and lacked empathy and would like to reassure you that this is not in line with our Trust Values. 
+ 
+To ensure the safety of our patients, public and staff, it has been necessary to restrict access to the hospitals to reduce footfall and security guards are at every main entrance to the hospital.  
+ 
+Mrs Mitchell confirms that additional training and support will be provided for security guards to support them deliver the best customer care, whilst maintaining control of the areas that they are responsible for and this will continue to be monitored.
+
+We would also like to apologise that when you attended the Walk in Centre the care you received did not meet your expectations and you felt the doctor who saw you was uncaring about your condition. Unfortunately the Walk in Centre is unable to provide a waiting room for relatives of patients who are attending as this may present a problem with social distancing and hospitals are requesting wherever possible people attending should do so on their own with exceptions in certain circumstances. 
+
+If you would like to discuss your experience in more detail please contact our Patient Advice and Liaison Service on 0161 276 8686 or by e-mailing pals@mft.nhs.uk quoting reference number PO20/0057 and they will be able to discuss this with you.
+
+Patient Experience Team&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-12-01T15:31:09Z&lt;/DateSubmitted&gt;
+    &lt;IsResponse&gt;true&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Manchester Royal Infirmary&lt;/OrganisationName&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;4b32d336-ea33-eb11-a813-0022483ee631&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X134557&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGh-IizxA5fodpS2xD1GdV7ddOd5zyfD6tt7jR-s4ZWrMLT6-lEIMrvCEAh6Jgrl51IFGGhxclC31O-PoZzvqNg7IbQkgLRQHy3xiwcjzVFtdbv6-GPUOC2MyFC7MlaSzk"/></form>

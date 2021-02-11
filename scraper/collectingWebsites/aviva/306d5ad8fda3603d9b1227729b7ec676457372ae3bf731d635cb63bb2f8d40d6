@@ -1,0 +1,348 @@
+<form action="/MyAccount/Registration/CheckDetails?id=checkDetails&amp;data_val=true" method="post"> <fieldset>
+<legend>Not sure if you've registered?</legend>
+<div class="l-content-container">
+<div class="m-form-row">
+<label class="a-label" for="FirstName">First name</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+<input aria-required="True" class="a-textbox" data-val="true" data-val-regex="Please don't include any numbers or special characters other than hyphens ( - ) or apostrophes ( ' ) in your first name" data-val-regex-pattern="([A-Z]|[a-z]|-|'| )*" data-val-required="Please enter your first name" id="FirstName" name="FirstName" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="LastName">Last name</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+<input aria-required="True" class="a-textbox" data-val="true" data-val-regex="Please don't include any numbers or special characters other than hyphens ( - ) or apostrophes ( ' ) in your last name" data-val-regex-pattern="([A-Z]|[a-z]|-|'| )*" data-val-required="Please enter your last name" id="LastName" name="LastName" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row ukAddress u-hidden">
+<label class="a-label" for="Postcode">Postcode</label>
+<div class="m-form-row__content u-hidden">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="Postcode" data-valmsg-replace="true"></span>
+<input class="a-textbox" data-val="true" data-val-regex="The postcode you have entered is not recognised. Please correct and try again" data-val-regex-pattern="^[ ]*[A-Za-z]{1,2}([0-9]{1}[A-Za-z]?|[0-9]{2})[ ]*[0-9][A-Za-z][A-Za-z][\s]*$" id="Postcode" name="Postcode" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row ukAddress u-hidden">
+<p><a class="showAltAddress" href="/MyAccount/Registration/CheckDetails?altAddress=True" tabindex="0">I don't live in the UK or there is a problem with my postcode</a></p>
+</div>
+<div class="altAddress">
+<input id="AlternativeAddress_Enabled" name="AlternativeAddress.Enabled" type="hidden" value="True"/>
+<div class="m-form-row">
+<label class="a-label" for="AlternativeAddress_CountryCode">Your country</label>
+<p class="m-form-row__explanatory-text"><span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="AlternativeAddress.CountryCode" data-valmsg-replace="true"></span></p>
+<div class="m-form-row__content">
+<span class="a-dropdown">
+<select aria-required="True" class="a-dropdown__select" data-di-unmask-field="" data-val="true" data-val-required="Please select the country you live in" id="AlternativeAddress_CountryCode" name="AlternativeAddress.CountryCode"><option value="">Please Select</option>
+<option value="AFG">Afghanistan</option>
+<option value="ALA">Aland Islands</option>
+<option value="ALB">Albania</option>
+<option value="DZA">Algeria</option>
+<option value="ASM">American Samoa</option>
+<option value="AND">Andorra</option>
+<option value="AGO">Angola</option>
+<option value="AIA">Anguilla</option>
+<option value="ATA">Antarctica</option>
+<option value="ATG">Antigua and Barbuda</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armenia</option>
+<option value="ABW">Aruba</option>
+<option value="AUS">Australia</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijan</option>
+<option value="BHS">Bahamas</option>
+<option value="BHR">Bahrain</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BRL">Belarus</option>
+<option value="BEL">Belgium</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BMU">Bermuda</option>
+<option value="BTN">Bhutan</option>
+<option value="BOL">Bolivia</option>
+<option value="BES">Bonaire, Sint Eustatius And Saba</option>
+<option value="BIH">Bosnia And Herzegovina</option>
+<option value="BWA">Botswana</option>
+<option value="BVT">Bouvet Island</option>
+<option value="BRA">Brazil</option>
+<option value="IOT">British Indian Ocean Territory</option>
+<option value="BRN">Brunei Darussalam</option>
+<option value="BGR">Bulgaria</option>
+<option value="BFA">Burkina Faso</option>
+<option value="BDI">Burundi</option>
+<option value="KHM">Cambodia</option>
+<option value="CMR">Cameroon</option>
+<option value="CAN">Canada</option>
+<option value="CPV">Cape Verde</option>
+<option value="CYM">Cayman Islands</option>
+<option value="CAF">Central African Republic</option>
+<option value="TCD">Chad</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CXR">Christmas Island</option>
+<option value="CCK">Cocos (Keeling) Islands</option>
+<option value="COL">Colombia</option>
+<option value="COM">Comoros</option>
+<option value="COG">Congo</option>
+<option value="COK">Cook Islands</option>
+<option value="CRI">Costa Rica</option>
+<option value="CIV">Cote D'Ivoire</option>
+<option value="HRV">Croatia</option>
+<option value="CUB">Cuba</option>
+<option value="CUW">Curaçao</option>
+<option value="CYP">Cyprus</option>
+<option value="CZE">Czech Republic</option>
+<option value="COD">Democratic Republic of Congo</option>
+<option value="DNK">Denmark</option>
+<option value="DMA">Dominica</option>
+<option value="DOM">Dominican Republic</option>
+<option value="ECU">Ecuador</option>
+<option value="EGY">Egypt</option>
+<option value="SLV">El Salvador</option>
+<option value="GNQ">Equatorial Guinea</option>
+<option value="ERI">Eritrea</option>
+<option value="EST">Estonia</option>
+<option value="ETH">Ethiopia</option>
+<option value="FLK">Falkland Islands (Malvinas)</option>
+<option value="FRO">Faroe Islands</option>
+<option value="FSM">Federated States of Micronesia</option>
+<option value="FJI">Fiji</option>
+<option value="FIN">Finland</option>
+<option value="FRA">France</option>
+<option value="GUF">French Guiana</option>
+<option value="PYF">French Polynesia</option>
+<option value="ATF">French Southern Territories</option>
+<option value="GAB">Gabon</option>
+<option value="GMB">Gambia</option>
+<option value="GEO">Georgia</option>
+<option value="DEU">Germany</option>
+<option value="GHA">Ghana</option>
+<option value="GIB">Gibraltar</option>
+<option value="GRC">Greece</option>
+<option value="GRL">Greenland</option>
+<option value="GRD">Grenada</option>
+<option value="GLP">Guadeloupe</option>
+<option value="GUM">Guam</option>
+<option value="GTM">Guatemala</option>
+<option value="GIN">Guinea</option>
+<option value="GNB">Guinea-Bissau</option>
+<option value="GUY">Guyana</option>
+<option value="HTI">Haiti</option>
+<option value="HMD">Heard Island And Mcdonald Islands</option>
+<option value="HND">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungary</option>
+<option value="ISL">Iceland</option>
+<option value="IND">India</option>
+<option value="IDN">Indonesia</option>
+<option value="IRQ">Iraq</option>
+<option value="IRL">Ireland</option>
+<option value="IRN">Islamic Republic of Iran</option>
+<option value="IMN">Isle of Man</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Italy</option>
+<option value="JAM">Jamaica</option>
+<option value="JPN">Japan</option>
+<option value="JOR">Jordan</option>
+<option value="KAZ">Kazakhstan</option>
+<option value="KEN">Kenya</option>
+<option value="KIR">Kiribati</option>
+<option value="KWT">Kuwait</option>
+<option value="KGZ">Kyrgyzstan</option>
+<option value="LAO">Lao People's Democratic Rep</option>
+<option value="LVA">Latvia</option>
+<option value="LBN">Lebanon</option>
+<option value="LSO">Lesotho</option>
+<option value="LBR">Liberia</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LTU">Lithuania</option>
+<option value="LUX">Luxembourg</option>
+<option value="MAC">Macao</option>
+<option value="MKD">Macedonia</option>
+<option value="MDG">Madagascar</option>
+<option value="MWI">Malawi</option>
+<option value="MYS">Malaysia</option>
+<option value="MDV">Maldives</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MHL">Marshall Islands</option>
+<option value="MTQ">Martinique</option>
+<option value="MRT">Mauritania</option>
+<option value="MUS">Mauritius</option>
+<option value="MYT">Mayotte</option>
+<option value="MEX">Mexico</option>
+<option value="MCO">Monaco</option>
+<option value="MNG">Mongolia</option>
+<option value="MNE">Montenegro</option>
+<option value="MSR">Montserrat</option>
+<option value="MAR">Morocco</option>
+<option value="MOZ">Mozambique</option>
+<option value="MMR">Myanmar</option>
+<option value="NAM">Namibia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NLD">Netherlands</option>
+<option value="ANT">Netherlands Antilles</option>
+<option value="NCL">New Caledonia</option>
+<option value="NZL">New Zealand</option>
+<option value="NIC">Nicaragua</option>
+<option value="NER">Niger</option>
+<option value="NGA">Nigeria</option>
+<option value="NIU">Niue</option>
+<option value="NFK">Norfolk Island</option>
+<option value="MNP">Northern Mariana Islands</option>
+<option value="NOR">Norway</option>
+<option value="OMN">Oman</option>
+<option value="PAK">Pakistan</option>
+<option value="PLW">Palau</option>
+<option value="PSE">Palestine, State of</option>
+<option value="PAN">Panama</option>
+<option value="PNG">Papua New Guinea</option>
+<option value="PRY">Paraguay</option>
+<option value="PER">Peru</option>
+<option value="PHL">Philippines</option>
+<option value="PCN">Pitcairn</option>
+<option value="POL">Poland</option>
+<option value="PRT">Portugal</option>
+<option value="PRI">Puerto Rico</option>
+<option value="QAT">Qatar</option>
+<option value="KOR">Republic of Korea</option>
+<option value="MDA">Republic of Moldova</option>
+<option value="REU">Réunion</option>
+<option value="ROM">Romania</option>
+<option value="RUS">Russian Federation</option>
+<option value="RWA">Rwanda</option>
+<option value="BLM">Saint Barthélemy</option>
+<option value="LCA">Saint Lucia</option>
+<option value="MAF">Saint Martin (French Part)</option>
+<option value="SPM">Saint Pierre And Miquelon</option>
+<option value="VCT">Saint Vincent And The Grenadines</option>
+<option value="WSM">Samoa</option>
+<option value="SMR">San Marino</option>
+<option value="STP">Sao Tome And Principe</option>
+<option value="SAU">Saudi Arabia</option>
+<option value="SEN">Senegal</option>
+<option value="SRB">Serbia and Montenegro</option>
+<option value="SYC">Seychelles</option>
+<option value="SLE">Sierra Leone</option>
+<option value="SGP">Singapore</option>
+<option value="SXM">Sint Maarten (Dutch Part)</option>
+<option value="SVK">Slovakia</option>
+<option value="SVN">Slovenia</option>
+<option value="SLB">Solomon Islands</option>
+<option value="SOM">Somalia</option>
+<option value="ZAF">South Africa</option>
+<option value="SGS">South Georgia And The South Sandwich Islands</option>
+<option value="SSD">South Sudan</option>
+<option value="ESP">Spain</option>
+<option value="LKA">Sri Lanka</option>
+<option value="KNA">St Kitts and Nevis</option>
+<option value="SDN">Sudan</option>
+<option value="SUR">Suriname</option>
+<option value="SJM">Svalbard and Jan Mayen Islands</option>
+<option value="SWZ">Swaziland</option>
+<option value="SWE">Sweden</option>
+<option value="CHE">Switzerland</option>
+<option value="SYR">Syrian Arab Republic</option>
+<option value="TWN">Taiwan, Province of China</option>
+<option value="TJK">Tajikistan</option>
+<option value="THA">Thailand</option>
+<option value="TLS">Timor-Leste</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TTO">Trinidad and Tobago</option>
+<option value="TUN">Tunisia</option>
+<option value="TUR">Turkey</option>
+<option value="TKM">Turkmenistan</option>
+<option value="TCA">Turks and Caicos Islands</option>
+<option value="TUV">Tuvalu</option>
+<option value="UGA">Uganda</option>
+<option value="UKR">Ukraine</option>
+<option value="ARE">United Arab Emirates</option>
+<option value="GBR">United Kingdom</option>
+<option value="TZA">United Republic of Tanzania</option>
+<option value="UMI">United States Minor Outlying Islands</option>
+<option value="USA">United States of America</option>
+<option value="URY">Uruguay</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VEN">Venezuela</option>
+<option value="VNM">Viet Nam</option>
+<option value="VGB">Virgin Islands (British)</option>
+<option value="VIR">Virgin Islands (U.S.)</option>
+<option value="WLF">Wallis And Futuna</option>
+<option value="ESH">Western Sahara</option>
+<option value="YEM">Yemen</option>
+<option value="ZMB">Zambia</option>
+<option value="ZWE">Zimbabwe</option>
+</select>
+<span class="a-dropdown__ui"></span>
+</span>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="AlternativeAddress_AddressLine1">Address line 1</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="AlternativeAddress.AddressLine1" data-valmsg-replace="true"></span>
+<input aria-required="True" class="a-textbox" data-di-unmask-field="" data-val="true" data-val-required="Please enter an address" id="AddressLine1" maxlength="50" name="AlternativeAddress.AddressLine1" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="AlternativeAddress_AddressLine2">Address line 2 (optional)</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="AlternativeAddress.AddressLine2" data-valmsg-replace="true"></span>
+<input aria-required="True" class="a-textbox" data-di-unmask-field="" id="AddressLine2" maxlength="50" name="AlternativeAddress.AddressLine2" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="AlternativeAddress_AddressLine3">Town or City</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="AlternativeAddress.AddressLine3" data-valmsg-replace="true"></span>
+<input aria-required="True" class="a-textbox" data-di-unmask-field="" data-val="true" data-val-required="Please enter a town or city" id="AddressLine3" maxlength="50" name="AlternativeAddress.AddressLine3" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="AlternativeAddress_AddressLine4">Postal code (optional)</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="AlternativeAddress.AddressLine4" data-valmsg-replace="true"></span>
+<input class="a-textbox" data-di-unmask-field="" id="AddressLine4" maxlength="50" name="AlternativeAddress.AddressLine4" type="text" value=""/>
+</div>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="DateOfBirth">Date of birth</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="DateOfBirth" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group">
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="DateOfBirth_Day" id="aria-day">Day</label>
+<input aria-describedby="date_validation_message" aria-labelledby="aria-day" aria-required="True" class="a-textbox a-textbox--2-character" data-di-unmask-field="" id="DateOfBirth_Day" maxlength="2" name="DateOfBirth.Day" placeholder="DD" role="textbox" type="text" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="DateOfBirth_Month" id="aria-month">Month</label>
+<input aria-describedby="date_validation_message" aria-labelledby="aria-month" aria-required="True" class="a-textbox a-textbox--2-character" data-di-unmask-field="" id="DateOfBirth_Month" maxlength="2" name="DateOfBirth.Month" placeholder="MM" role="textbox" type="text" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="DateOfBirth_Year" id="aria-year">Year</label>
+<input aria-describedby="date_validation_message" aria-labelledby="aria-year" aria-required="True" class="a-textbox a-textbox--4-character" data-di-unmask-field="" id="DateOfBirth_Year" maxlength="4" name="DateOfBirth.Year" placeholder="YYYY" role="textbox" type="text" value=""/>
+</li>
+</ul>
+</div>
+</div>
+<input name="__RequestVerificationToken" type="hidden" value="aTu2umuCzGxP8xMm_qj9duypNZq1pV30c0tCHmKcxk8yjrgeLdQHz37Zc_Ox_XvaSW5zdcURpdVobNp5UcsbF9HioSk1"/>
+<div class="m-form-row">
+<div class="m-form-row__content">
+<input class="a-button a-button--primary" name="SubmitButton" type="submit" value="Continue"/>
+</div>
+</div>
+<div class="m-form-row">
+<div class="m-form-row__content">
+<hr class="a-keyline-divider a-keyline-divider--20-all a-keyline-divider--horizontal-solid"/>
+<h2 class="a-heading a-heading--2 u-margin--top-none">Don't think you've registered before?</h2>
+<p class="a-heading a-heading--3 a-heading--light"><a href="/MyAccount/Create/Step1">Create a MyAviva account</a> or check with <a href="/MyAccount/Registration/CheckEmail">your email</a> instead.</p>
+</div>
+</div>
+</div>
+</fieldset>
+</form>

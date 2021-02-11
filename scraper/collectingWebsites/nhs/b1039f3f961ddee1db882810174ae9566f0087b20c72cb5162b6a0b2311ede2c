@@ -1,0 +1,61 @@
+<form action="/services/hospital/kings-college-hospital/X1214/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Antenatal care at Kings&lt;/Title&gt;
+    &lt;ScreenName&gt;ScreenName9876&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Unfortunately at five weeks I had a small bleed and was referred to the Early Pregnancy Assessment Unit. Overall it was a bad experience and a horrible way to start a pregnancy, which should have been a happier time.  
+No appointments are given, so when we arrived we had to wait for hours to be seen, which is not what you want when you think there could be something seriously wrong. When we were finally seen and I was scanned, I was given a “diagnosis” of pregnancy of unknown location which could have been either because something had gone wrong or it was too early to see the pregnancy developing. I wasn’t given any reassurance or information on the likelihood of things being ok. The only positive was that the health care assistant did try and encourage us to take a break and comfort us. I was given a blood test which was followed up that day, indicating my hormone levels suggested the pregnancy was ok, but I was so distressed by the experience I couldn’t really take this information on board or be reassured. I was asked to come back in a week.  
+When we came back, again, we had to wait hours to be seen, and when we were, luckily we were told the pregnancy was developing normally. What I don’t understand is why you would give someone a “diagnosis” of pregnancy of unknown location when it is too early to be seen anyway. We were then asked if we wanted to participate in some research, which I was ok to do, but it really wasn’t appropriate to be asked this question, while someone has a scanner up in your parts.... Once they’d done the scans for the research I was hurried out of the room to do more measurements for the research and I was told to come back again in two weeks so they could see the heartbeat. This being my first pregnancy, I didn’t know why I was being asked to come back if everything looked normal now. I had to try and fit my questions in when they were more concerned about collecting information for their research, which felt like it was being prioritised over my care.  
+When we came back for the third time, again we waited for hours and luckily the scan showed all was well. The whole experience was a horrible way to start what should be a happy occasion. Instead it was filled with unnecessary stress by a “diagnosis” that didn’t make any sense, a stressful waiting “system” and having the doctor’s research prioritised over my own care.  
+I then started seeing the midwives for appointments at Midwives House which were all good. They took time to explain things to me and were sympathetic about the treatment I’d had at the Early Pregnancy Unit. I also attended the MAU one one occasion, and was cared for well by the midwife there.  
+The scans at the Fetal Medicine Unit were a different story. Again, fortunately the scans were fine. But following the 12 week scan, the doctor told us to wait in the wrong place and didn’t really make much effort to find us so we were waiting for around an hour for the results. At the 20 week scan, they were running late, which I understand can happen and we were informed about. This time the results were dumped at reception so we were waiting about 45 mins before finding this out and someone explaining our results in a rushed and hurried way in the corridor.  
+After this experience we decided to move our care to another hospital. The midwives were great- they answered questions clearly and acted like human beings in their attitude and care.  
+However, the doctors seemed unable to provide basic information or care in a prompt way. We often felt like they wouldn’t provide us with information we’d like to know and we were forgotten about. Additionally, as there was no way to visit the birth centre ahead of the birth, it felt like they already didn’t care about your birth experience.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-07-05T14:33:28Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;4&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;King's College Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;08f149fd-13e9-e911-a812-000d3a7ed588&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1214&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHwF2hgrm40SSKLuhPPyQTydKuBsaYE7QjVGI8A7DwqdYuCvPdvLjxaU623L1hAExLKloBXgk14Vfd10t6z4BHghbimU9A8fFwWozQYgbzNrsWn102jA88CBWJZzQ3a-cA"/></form>

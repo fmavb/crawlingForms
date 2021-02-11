@@ -1,0 +1,30 @@
+<form accept-charset="UTF-8" action="/email/subscriptions/frequency" class="checklist-email-signup" data-module="track-email-alert-signup-choices" data-track-action="new_address" data-track-category="email_subscriptions" method="post">
+<input name="authenticity_token" type="hidden" value="xMLpY78JEiT80PdEE4i6xKGbXOPXuPErP5J1dk9blTgUPCj+U/oras2S5cTCSEsylzd8D8+f6lXJJJOVZS6JVA=="/>
+<input id="topic_id" name="topic_id" type="hidden" value="uk-delegation-to-council-of-europe"/>
+<div class="govuk-form-group" id="email-frequency-input">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+<h1 class="gem-c-radio__heading-text govuk-fieldset__heading">How often do you want to get emails?</h1>
+</legend>
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-3b1334ec-0" name="frequency" type="radio" value="daily"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-3b1334ec-0">Once a day</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-3b1334ec-1" name="frequency" type="radio" value="weekly"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-3b1334ec-1">Once a week</label>
+</div>
+<div class="govuk-radios__divider">or</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-3b1334ec-3" name="frequency" type="radio" value="immediately"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-3b1334ec-3">Each time we add or update a page (you may get more than one email a day)</label>
+</div>
+</div>
+</fieldset>
+</div>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+<p class="govuk-body">
+        Do you need to <a class="govuk-link" href="https://www.gov.uk/help/update-email-notifications">unsubscribe from GOV.UK emails</a>?
+      </p>
+</form>

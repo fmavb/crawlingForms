@@ -1,0 +1,63 @@
+<form action="/services/hospital/rivers-hospital/X65/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;CommentText&gt;Dear Sir
+
+Thank you for your posting.
+You telephoned the office on Wednesday as you had been given a date with an appointment to have an injection as a day case however you were not happy as this was to be a morning appointment, as you can only attend in the afternoon, preferably after 15:00.
+I telephoned you back at 17:15 the same afternoon and advised you that the CCG had indeed decommissioned the service and that as such the consultants that had been providing that service were not doing so anymore. The CCG had made a special request to support 3 patients and we had one consultant who kindly agreed to see them.
+This consultant has one session at Rivers and is based elsewhere both in the Trust and privately and  the appointment was  matched to a time that the consultant was here.
+I tried to phone you back the following day and left a voicemail.
+You telephoned again on Friday and I explained that any complaint should be directed to the CCG and at your request we advised you that a letter from Rivers advising you of our complaints procedure would be posted on Monday as the call was after the postal collect at 16:40.
+I can confirm that this  letter was posted on Monday and this should be with you today.
+I spoke to you yesterday( Monday) to say that I am liaising with the consultant to see if he can  make an exception and facilitate a later time to allow you to attend although you have holidays  booked, so have requested that it be after a set date.
+You advised  there is always a risk that you may cancel on the day due to work commitments but hopefully if it is the afternoon that it will be easier for you to attend.
+Under the circumstances I feel that we have made every effort to accommodate, as we were sympathetic given the long delays to have this procedure and considering the restrictions you have imposed with your work commitments.
+I have fed  your concerns back to the CCG  and our response.
+As you are still unhappy if you wish to not proceed, please advise us and we will refer you back to the CCG.
+
+Yours Sincerely
+Head Of Clinical Service/ Matron&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-07-22T17:57:52.307Z&lt;/DateSubmitted&gt;
+    &lt;IsResponse&gt;true&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Rivers Hospital&lt;/OrganisationName&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;ab09b881-b8e9-e911-a812-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X65&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamEIaLycxsJmxCuLdvylhx72V6B_3MnzBh4Yfy2StqSfkCNTl-4KsxZFx6yV15mfqTlmxk7BmO3KmiQDmOV0qs1JCxHDUzvvEwEp6uhT_6UquugcaInJFpOVkgFZgatwsDY"/></form>

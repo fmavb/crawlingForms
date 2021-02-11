@@ -1,0 +1,750 @@
+<form action="https://sdcstaging.webmd.com/sdclive/processor.aspx" method="post" name="rmq" onsubmit="return false;" target="sdc_submit">
+<input id="redirectUrl" name="redirectUrl" type="hidden" value="about:blank"/>
+<input name="system_formId" type="hidden"/>
+<input name="system_firstLandingPage" type="hidden"/>
+<input name="env" type="hidden" value="desktop"/>
+<ul id="rmq_slides">
+<li class="slide question" data-correct-answer="b" data-slide-number="1" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_blood_thinners/getty_rf_photo_of_pharmacist_handing_blood_thinner_to_customer.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Blood thinners make your blood less thick.</h2>
+</div>
+<div class="slide_text">
+<input id="q1" name="q1" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>Blood thinners make your blood less thick.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Anticoagulant and antiplatelet medications don't actually thin the blood. But they do make it harder for it to clot, which helps prevent heart attacks and strokes. Discuss bleeding risks with your doctor before you take blood thinners.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="2" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_blood_thinners/getty_rf_photo_of_pharmacist_handing_blood_thinner_to_customer.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>You shouldn't eat spinach if you take a blood thinner.</h2>
+</div>
+<div class="slide_text">
+<input id="q2" name="q2" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>You shouldn't eat spinach if you take a blood thinner.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Your doctor may change your dose of the blood thinner warfarin (Coumadin, Jantoven) depending on the amount of dark, green leafy vegetables you eat. Talk to your doctor about how much of these you should eat, and then eat a consistent amount. The drug Plavix doesn't need any dosing changes, even if you eat a lot of spinach. The same is true of some newer blood thinners such as rivaroxaban (Xarelto), dabigatran (Pradaxa), and apixaban (Eliquis). These  do not need dosing changes, even if you eat a lot of spinach or other foods that are high in vitamin K.</p>
+<p> </p>
+<p> </p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="c" data-slide-number="3" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_blood_thinners/getty_rf_photo_of_pharmacist_handing_blood_thinner_to_customer.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>What could be a sign of bleeding?</h2>
+</div>
+<div class="slide_text">
+<input id="q3" name="q3" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>A skin rash</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Bad breath</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>A bruise you can't explain</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>What could be a sign of bleeding?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>The most common side effect of blood thinners is bleeding you can't control. That could be a cut that won't stop, pee that's red or brown, or bowel movements that are red or look like tar. Other signs are bruises you don't know how you got or a very bad headache. Call your doctor if you notice any of these.</p>
+<p> </p>
+<p>Go to the hospital or call your doctor if you have a bad fall or a hard bump, even if you don't see any blood.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="4" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_blood_thinners/getty_rf_photo_of_pharmacist_handing_blood_thinner_to_customer.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Which common drug can help prevent blood clots?</h2>
+</div>
+<div class="slide_text">
+<input id="q4" name="q4" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Antacid</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Aspirin</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Antihistamine</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>Which common drug can help prevent blood clots?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>You need a prescription for blood thinners. But if you have or are at risk for heart problems, this over-the-counter drug could save your life. Check with your doctor before you use it, though, and follow their advice on how much to take and when.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="a" data-slide-number="5" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_blood_thinners/getty_rf_photo_of_pharmacist_handing_blood_thinner_to_customer.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>When you're taking a blood thinner, which of these is least risky?</h2>
+</div>
+<div class="slide_text">
+<input id="q5" name="q5" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Wearing slippers</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Shaving</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Gardening </p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>When you're taking a blood thinner, which of these is least risky?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>You want to avoid anything that could make you bleed. Some things are obvious: Be careful when you use sharp things such as knives, scissors, and razors.</p>
+<p> </p>
+<p>Others you may need to think about: To keep your gums from bleeding, try a soft toothbrush and waxed dental floss. Don't use toothpicks. Always wear shoes outdoors. Put on gloves while gardening and using tools.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="6" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_blood_thinners/getty_rf_photo_of_pharmacist_handing_blood_thinner_to_customer.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>If you forget to take your blood thinner, it's best to:</h2>
+</div>
+<div class="slide_text">
+<input id="q6" name="q6" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Skip it and take the next dose.</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Take it as soon as you remember.</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Double up on the dose the next time.</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>If you forget to take your blood thinner, it's best to:</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Some blood thinners need to be taken around the same time every day. If you forget to take yours, do it when you remember. Then take your next day's dose on your regular schedule. A pill box with slots for different days can help you stay on track. Call your doctor if you miss a day.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="c" data-slide-number="7" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_blood_thinners/getty_rf_photo_of_pharmacist_handing_blood_thinner_to_customer.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Which is the safest sport for someone taking blood thinners?</h2>
+</div>
+<div class="slide_text">
+<input id="q7" name="q7" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Football</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Soccer</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Swimming</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>Which is the safest sport for someone taking blood thinners?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Non-contact sports like swimming are generally safe because you're not likely to bruise or bleed. If you want to do something with more impact or a chance of getting hit, check with your doctor. Also ask if you should wear a medical alert bracelet that lists the drugs you take.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="c" data-slide-number="8" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_blood_thinners/getty_rf_photo_of_pharmacist_handing_blood_thinner_to_customer.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>What should you do if you get a nosebleed?</h2>
+</div>
+<div class="slide_text">
+<input id="q8" name="q8" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Wait for it to stop.</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Tilt your head back.</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Squeeze your nose.</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>What should you do if you get a nosebleed?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Nosebleeds are more common when you're on blood thinners, and you might have trouble making them stop. Gently pinch your upper nose just below the bony ridge for 10 to 15 minutes, and put a cold compress on the bridge. Don't look upward or lie down. Call your doctor if your nosebleed lasts a long time. Talk to your doctor if it happens a lot.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide results" data-slide-type="results">
+<div class="slide_content">
+<div class="slide_text">
+<div class="results_top_container">
+<div class="results_header">
+<p class="results_score_title">Your Score:</p>
+<div class="score_summary">
+<span class="total_correct icon-check">
+<span> </span>
+</span>
+<span class="total_incorrect icon-close">
+<span> </span>
+</span>
+</div>
+<div class="results_share">
+<span class="results_share_title">Share your score:</span>
+<span id="share_your_results">
+</span>
+</div>
+</div>
+<div class="results_graphic">
+<div class="results_score">
+<div class="results_score_percentage">
+<span class="num">0</span>
+</div>
+<div id="rmq_score_graphic"> </div>
+</div>
+</div>
+<div class="results_share_mobile">
+<span class="results_share_title">Share your score:</span>
+<span id="share_your_results_mobile">
+</span>
+</div>
+</div>
+<div class="results_text">
+<div id="rmq_total_rank">Your Score: <span class="score_rank"> </span><p class="score_text">You correctly answered <span class="score_num_correct"> </span> out of <span class="score_num_total"> </span> questions.</p></div>
+<div class="rmq_results" id="results_1">
+<h5 class="results_title">Results:</h5>
+<p>Well done! You know a lot about blood thinners.</p>
+</div>
+<div class="rmq_results" id="results_2">
+<h5 class="results_title">Results:</h5>
+<p>Not too bad, but you should be careful with these drugs.</p>
+</div>
+<div class="rmq_results" id="results_3">
+<h5 class="results_title">Results:</h5>
+<p>Ouch! Seems like you could use some help with blood thinners.</p>
+</div>
+</div>
+<div id="results_controls">
+<a class="rmq_next_quiz" href="#">
+<span>Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+<a class="rmq_retake" href="#">
+<i class="icon-arrow-left"> </i>
+<span>Retake Quiz</span>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</form>

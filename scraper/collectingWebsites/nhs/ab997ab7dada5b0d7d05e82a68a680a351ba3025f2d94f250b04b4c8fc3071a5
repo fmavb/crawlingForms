@@ -1,0 +1,6 @@
+<form action="/smokefree/stop-smoking-service" method="get">
+<div style="display:none"><input name="utf8" type="hidden" value="?"/></div>
+<p>
+<label for="postcode">Enter a postcode in England</label>
+<input id="postcode" name="postcode" type="text"/> <input type="submit" value="Find"/></p>
+</form>

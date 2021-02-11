@@ -1,0 +1,54 @@
+<form action="/services/hospital/royal-preston-hospital/X907/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;medication issues&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Having been transferred from Royal Lancaster infirmary to nureo ward where my consultant is based one of the biggest issues I found. That is not helpful at all to patients managing multiple conditions/diseases. The medication is all done via computer system which you would think was an advancement but no! Your medication times are set by the computer which ment mine where delivered too late for some which needed to be taken before other medication or before caffeine etc. If you don't have your medication at that moment when the round is being done the computer cancels your medication off for them doeses and you can NOT get them again and it counts off your tablet allowances that day even if you've not had it. This happened to me more than Once as I was due to theatre so couldn't have medication at morning round time so they simply cancelled it off and i lost all my morning key medication and pain relief. When you try to explain to some staff they didnt seem to care and one nurses attitude was &quot;and?!&quot; I ended up getting into an arguement with her because of her attitude and lack of understanding multiple disease management. I've never seen a more unhelpful system for medication. You can't just not give people their key meds because &quot;computer says no&quot;. Also regarding medication pharmacy got wrong medication a few times even though I went through all with them and they also felt the need to change my pain medication doses which where consultant issued by rheumatology and nothing to do with them, some medication took days to come so I was in withdrawal. Im pretty stuck as my nuero is in Preston and Lancaster doesn't have a nuero ward but when your left withdrawing off medicaiton because the computer said no, pharmacy played with your doses when they had no need to. Or medications took 3 days to arrive it has put me off ever allowing myself to be an inpatient here again im afraid. I was also sent home with someone else's medication too upon discharge. So it seems a few issues on medication front! I'm not placing the blame on the nurses for this review, more the system preston has implemented is grossly unhelpful and could potentially be dangerous depending what medication gets messed around. 99% of the staff where great on the ward, just 1 night staff nurses attitude was abysmal. &lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-08-30T21:51:48Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;6&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Royal Preston Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Neurology&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;52835900-0beb-ea11-a815-0022483ee631&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X907&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHWSX0-nKs5EW_luAjtFxLA3GXhcgX-6KWWKvYRjIUrPXlvj1W2yymZSo86Q03ajfU2O9wazBkHSv7_0rLnUovQFOyshCsJt55jQa-w-og5RAnyFO_3NtK9BCTEBHvM8Dk"/></form>

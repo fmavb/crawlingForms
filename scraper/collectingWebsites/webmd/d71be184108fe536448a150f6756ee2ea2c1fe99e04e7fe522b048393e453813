@@ -1,0 +1,15 @@
+<form action="" id="nl_form" method="post">
+<div class="input input-medium"><input class="" id="email" maxlength="40" name="email" placeholder="Enter Your Email" type="text"/></div>
+<div class="cds_fields">
+<div>Help us personalize your Parenting and Child Development subscription:</div>
+<div class="row">
+<div class="input input-medium"><input class="datepicker" id="signup_dob" name="dob" placeholder="Due Date or Child's Date of Birth" type="text"/></div>
+<div class="input input-small"><select class="" id="gender" name="gender"><option class="gheader" value="">Child's Gender</option>
+<option value="1">Male</option>
+<option value="0">Female</option></select></div>
+</div>
+<div class="row">
+<div class="input input-medium"><input class="" id="nickname" name="nickname" placeholder="Child's Name (if applicable)" type="text"/></div>
+</div>
+</div>
+<div class="input input-small"><button class="submit" type="submit">Sign Up</button></div><input class="nls" name="nls" type="hidden"/><input id="date_picker_placeholder" type="hidden"/></form>

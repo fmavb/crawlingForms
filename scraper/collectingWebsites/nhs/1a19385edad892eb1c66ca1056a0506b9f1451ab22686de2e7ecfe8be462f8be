@@ -1,0 +1,60 @@
+<form action="/services/hospital/countess-of-chester-hospital/X870/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;A&amp;amp;E admission&lt;/Title&gt;
+    &lt;ScreenName&gt;rr20&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I was admitted via ambulance on Saturday 17 october with head pain (over one eye)  
+First I was in a corridor a nurse came out and said they would get me some pain relief, nothing happened. I then went into a bay and again was seen by nurse who said we will get some pain relief and put you on a drip (maybe de-hydrated).  
+I asked when I would be seen by a doctor was told a 6 hour waiting time! this was at 12.30am. Blood pressure was taken regular, actual pain relief did eventually come at around at 2am liquid morphine asked again re doctor was told not long we are busy.  
+Was left on trolley all this time asked for a pillow. No Chance !!  
+at around 7.30 asked for a bottle to pass water nurse said they would not forget (did not come back). Asked again at 8.40 eventually got one (still no doctor).  
+Eventually, I saw a doctor 9.20am who was not too concerned but wanted me to have a ct scan said they would arrange more pain relief. By this time I had just had enough lying on an uncomfortable trolley all night and decided to sign myself out which was done in a polite manner.  
+It was a night to forget.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-10-21T10:20:05Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;10&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Countess Of Chester Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;d0929df6-8613-eb11-a813-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X870&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHGzWpbMAA2fwzBYh1Dd8DE0QLf3s3HGXZXA2z90aDCk-aQvnDLaVZWiGtV_dTzfX3ad1ng9pqc4m8mvrhplvfmtD4b9Xu_NlGHJryhlADLf6HKIHrVYAXMmegDKgA77t0"/></form>

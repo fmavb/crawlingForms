@@ -1,0 +1,54 @@
+<form action="/services/hospital/bmi-the-clementine-churchill-hospital/X190/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Painless hysteroscopy&lt;/Title&gt;
+    &lt;ScreenName&gt;Painless Hysteroscopy&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Two years after my last period I had a couple of episodes of very minor bleeding so was referred for hysteroscopy. I was going private and was offered a general anaesthetic but I refused on medical grounds. I believe anaesthesia isn’t routinely offered on NHS. So they said they would use local into my cervix and casually mentioned that they don’t use the "thin scope", which meant nothing to me at the time. I Googled the procedure and felt pretty calm to start with as the NHS website said it was usually no more than mildly painful. This seemed to fit with the advice to take two paracetamol. However, Google then took me to other websites where I read horror stories about the unbearable pain and trauma some women had suffered. I was now terrified. The first thing I did was change consultant to one that used the thin scope and who had extra skills and accreditation for this procedure. It was carried out two days ago at The Clementine Churchill Hospital. I took stronger painkillers beforehand. The whole thing took around ten minutes, including the removal of a polyp. There were a couple of nanoseconds where I felt pain and thought, oh here we go, this is the pain I’ve read about, but it was literally for a second and didn’t continue. I’ve had no pain or bleeding since. I’m writing this story because I want women to know it isn’t always painful. I didn’t see any positive stories and I literally dreaded having this done but it was really not that bad.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-10-24T13:00:00Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;10&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;BMI The Clementine Churchill Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;1900a1d1-f815-eb11-a813-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X190&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFUGqjEu4ma2qYV_jEw-ndOpvxnf3-9SvRNFZ0vi9RMbrYJqriIVFYJgqYKzArzAve3ZqhRNpbGRFlc8Q8iGjK4dtfF2KxY0Sbtk3DSygK9Uv8ZL_5wrVNA5qkB0usYjWc"/></form>

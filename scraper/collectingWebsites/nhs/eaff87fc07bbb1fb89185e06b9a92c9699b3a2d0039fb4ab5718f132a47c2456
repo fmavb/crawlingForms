@@ -1,0 +1,54 @@
+<form action="/services/hospital/rotherham-hospital/X272/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Sunday night in A&amp;amp;amp;E&lt;/Title&gt;
+    &lt;ScreenName&gt;Rachael Smith&lt;/ScreenName&gt;
+    &lt;CommentText&gt;On the advice of an out of hours GP I attended A&amp;amp;amp;E. I won’t mention the lengthy waiting times, which were ridiculously long, but will focus on my other disappointing observations. The ANP left the room twice and didn’t lock the PC and I could see sensitive, confidential data. The ANP referred me for blood tests but warned it might take a while as there were “only two for everyone”. I was called in almost immediately and had two phlebotomists attend to me: one discarded the rubbish while the other took the bloods. In x-ray there were two radiographers: one stood behind me while the other took the x-ray. I have been x-rayed regularly for 34 years and I know it only needs one professional. A number of us were waiting in the ASU for some time and, when one patient asked when they might be seen, was told there was a shift change in progress and they would be seen after that. Despite the long wait, after the shift change, we were all called to see doctors in quick succession. I saw two doctors: one had a piece of paper in her hand with details of the patients waiting clearly written on it. I returned the next day for an ultrasound scan on the ASU, scheduled for 8.30am. At 8.40 a staff member entered the room and started setting up: I was called in at 9am. After the scan I waited until 10.30 and asked a staff member if I was likely to be seen soon as I had a GP appointment at 11am: I was told they couldn’t say and advised to cancel the GP appointment. Whilst in the ASU waiting area another patient was vaping. After a few minutes l was called to see the doctor, who was dismissive and actually said my test results were ok and I should “brush it under the carpet”. I made it to my GP appointment and was given helpful advice on what the problem is and how I should manage it.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-08-07T01:52:08.51Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;8&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Rotherham Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;9575b0a6-12e9-e911-a812-000d3a7ed2f2&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X272&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamEv7COpNVLcmQhdO9FATVTBtW9iEZXGo9ey8N42ahnAR6w_S8wy_uFwatH654tUFpMfsFOzxTXitFMf1NDTan8x8XSxWky8yZ9r8JjPm2lPnRZJ6LtG4Mt-qXvoCS5Skx4"/></form>

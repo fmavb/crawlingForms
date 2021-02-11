@@ -1,0 +1,25 @@
+<form action="/health-information/GetQuizDataAjax" class="mod-quiz" id="quiz" method="post">
+<!-- START: quiz-intro -->
+<input name="contextItemId" type="hidden" value="QGJg7xmKKqHxmVkd17q7s3WTMaWidETJtoql6yz8tikB5JVcj/yI+w=="/>
+<input name="id" type="hidden" value="start"/>
+<input name="count" type="hidden" value="0"/>
+<input name="result" type="hidden" value="0"/>
+<div class="quiz-box quiz-intro">
+<div class="backdrop">
+<img alt="A woman eating cereal" src="https://assets.bupa.co.uk/~/media/images/healthmanagement/tools-and-calculators/images/woman-cereal-1110-546.jpg"/>
+</div>
+<div class="body">
+<div class="icon">
+<i class="i-quiz-intro"></i>
+</div>
+<h2 class="title">Indigestion quiz</h2>
+<p class="impact"><strong>Is it indigestion? That's the question! Welcome to Bupa's indigestion quiz. How much do you know about the signs and causes of this common health problem? And do you know what steps might help to treat it? Take the quiz to find out …</strong></p>
+<p>
+</p>
+<div class="controls">
+<button class="btn btn-cta" data-analytics-category="BupaQuizStart" type="submit">Start the quiz</button>
+</div>
+</div>
+</div>
+<!-- END: quiz-intro -->
+</form>

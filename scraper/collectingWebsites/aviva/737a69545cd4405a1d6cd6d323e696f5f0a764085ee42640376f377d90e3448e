@@ -1,0 +1,185 @@
+<form action="" id="providerChangeOfDetails" method="post"><input name="csrfmiddlewaretoken" type="hidden" value="tTK0pJWsaXCHmoPmgGrFCp6tQMFfkNtSKQd8Jf6fBRSXsx1ZBT6rI9Obm0LiSPky"/>
+<fieldset>
+<legend>Provider change of details form</legend>
+<div class="pod formPod">
+<h3>Please complete the following form:</h3>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-name">Name<span class="required"> *</span> :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-name" name="Step1_providerChangeOfDetails-name" required="" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-providerNumber">Provider number :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-providerNumber" name="Step1_providerChangeOfDetails-providerNumber" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-specialityField">Speciality Field<span class="required"> *</span> :</label>
+<div>
+<select id="id_Step1_providerChangeOfDetails-specialityField" name="Step1_providerChangeOfDetails-specialityField" required="">
+<option selected="selected" value="">Please Select…</option>
+<option value="Accident and emergency">Accident and emergency</option>
+<option value="Accupuncture">Accupuncture</option>
+<option value="Anaesthesia">Anaesthesia</option>
+<option value="Audiological medicine">Audiological medicine</option>
+<option value="Biochemistry">Biochemistry</option>
+<option value="Cardiology">Cardiology</option>
+<option value="Cardiothoracic surgery">Cardiothoracic surgery</option>
+<option value="Chiropractics">Chiropractics</option>
+<option value="Clinical genetics">Clinical genetics</option>
+<option value="Dental practitioner">Dental practitioner</option>
+<option value="Dermatology">Dermatology</option>
+<option value="Ear, nose and throat">Ear, nose and throat</option>
+<option value="Endocrinology">Endocrinology</option>
+<option value="Epidemiology">Epidemiology</option>
+<option value="Gastroenterology">Gastroenterology</option>
+<option value="General medicine">General medicine</option>
+<option value="General surgery">General surgery</option>
+<option value="Genito-urinary medicine">Genito-urinary medicine</option>
+<option value="Geriatrics">Geriatrics</option>
+<option value="Haematology">Haematology</option>
+<option value="Histopathology">Histopathology</option>
+<option value="Homoeopathy">Homoeopathy</option>
+<option value="Immunology">Immunology</option>
+<option value="Infectious diseases">Infectious diseases</option>
+<option value="Medical microbiology">Medical microbiology</option>
+<option value="Nephrology">Nephrology</option>
+<option value="Neuro surgery">Neuro surgery</option>
+<option value="Neurology">Neurology</option>
+<option value="Nuclear medicine">Nuclear medicine</option>
+<option value="Obstetrics and gynaecology">Obstetrics and gynaecology</option>
+<option value="Occupational therapy">Occupational therapy</option>
+<option value="Oncology">Oncology</option>
+<option value="Ophthalmology">Ophthalmology</option>
+<option value="Oral and maxillofacial surgery">Oral and maxillofacial surgery</option>
+<option value="Oral/dental surgery">Oral/dental surgery</option>
+<option value="Orthodontics">Orthodontics</option>
+<option value="Orthopaedics and trauma">Orthopaedics and trauma</option>
+<option value="Osteopathy">Osteopathy</option>
+<option value="Otolaryngology">Otolaryngology</option>
+<option value="Paediatric neurology">Paediatric neurology</option>
+<option value="Paediatric surgery">Paediatric surgery</option>
+<option value="Paediatrics">Paediatrics</option>
+<option value="Pain control/palliative care">Pain control/palliative care</option>
+<option value="Pathology">Pathology</option>
+<option value="Pharmacology">Pharmacology</option>
+<option value="Physiotherapy">Physiotherapy</option>
+<option value="Plastic surgery">Plastic surgery</option>
+<option value="Podiatric surgery">Podiatric surgery</option>
+<option value="Podiatry/chiropody">Podiatry/chiropody</option>
+<option value="Psychiatry">Psychiatry</option>
+<option value="Psychology">Psychology</option>
+<option value="Radiology">Radiology</option>
+<option value="Radiotherapy">Radiotherapy</option>
+<option value="Rheumatology and rehabilitaton">Rheumatology and rehabilitaton</option>
+<option value="Spinal injuries">Spinal injuries</option>
+<option value="Sports med/orthopaedic phys">Sports med/orthopaedic phys</option>
+<option value="Thoracic/respiratory medicine">Thoracic/respiratory medicine</option>
+<option value="Tropical medicine">Tropical medicine</option>
+<option value="Urology">Urology</option>
+<option value="Vascular surgery">Vascular surgery</option>
+<option value="Venereology">Venereology</option>
+<option value="Other">Other</option>
+</select>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-currentTelephoneNumber">Current telephone number<span class="required"> *</span> :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-currentTelephoneNumber" name="Step1_providerChangeOfDetails-currentTelephoneNumber" required="" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-email">Email address<span class="required"> *</span> :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-email" name="Step1_providerChangeOfDetails-email" required="" type="email"/>
+</div>
+</div>
+<div class="row">
+<p><strong>Now please enter your details beneath that you wish to change:</strong></p>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newPayeeName">New payee name details :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newPayeeName" name="Step1_providerChangeOfDetails-newPayeeName" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newAddressDetails1">New address details :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newAddressDetails1" name="Step1_providerChangeOfDetails-newAddressDetails1" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newAddressDetails2">Address line 2 :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newAddressDetails2" name="Step1_providerChangeOfDetails-newAddressDetails2" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newAddressDetails3">Address line 3 :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newAddressDetails3" name="Step1_providerChangeOfDetails-newAddressDetails3" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newAddressDetails4">Address line 4 :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newAddressDetails4" name="Step1_providerChangeOfDetails-newAddressDetails4" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newAddressPostcode">Postcode :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newAddressPostcode" name="Step1_providerChangeOfDetails-newAddressPostcode" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newEmail">New email address<span class="required"> *</span> :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newEmail" name="Step1_providerChangeOfDetails-newEmail" required="" type="email"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newContactFaxNumber">New contact fax number :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newContactFaxNumber" name="Step1_providerChangeOfDetails-newContactFaxNumber" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newContactTelephoneNumber">New contact telephone number :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newContactTelephoneNumber" name="Step1_providerChangeOfDetails-newContactTelephoneNumber" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newSecretaryName">New secretary name<span class="required"> *</span> :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newSecretaryName" name="Step1_providerChangeOfDetails-newSecretaryName" required="" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_providerChangeOfDetails-newSecretaryTelephoneNumber">New secretary telephone number :</label>
+<div>
+<input id="id_Step1_providerChangeOfDetails-newSecretaryTelephoneNumber" name="Step1_providerChangeOfDetails-newSecretaryTelephoneNumber" type="text"/>
+</div>
+</div>
+<div class="row radio">
+<label for="id_Step1_providerChangeOfDetails-providerConfirm">Are you the provider?:<span class="required"> *</span></label>
+<div>
+<ul>
+<li><label class="radio" for="id_Step1_providerChangeOfDetails-providerConfirm_0_0">I am the Provider named above and I confirm that this information is to the best of my knowledge, true and correct</label><input id="id_Step1_providerChangeOfDetails-providerConfirm_0" name="Step1_providerChangeOfDetails-providerConfirm" required="" type="radio" value="I am the Provider named above and I confirm that this information is to the best of my knowledge, true and correct."/></li>
+<li><label class="radio" for="id_Step1_providerChangeOfDetails-providerConfirm_1_1">I am not the Provider named above and I confirm that I am authorised to request this change of details and this information is to the best of my knowledge, true and correct</label><input id="id_Step1_providerChangeOfDetails-providerConfirm_1" name="Step1_providerChangeOfDetails-providerConfirm" required="" type="radio" value="I am not the Provider named above and I confirm that I am authorised to request this change of details and this information is to the best of my knowledge, true and correct."/></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clearFix">
+<input class="btn btn--primary right" name="event(next_page)" type="submit" value="Submit"/>
+</div>
+<input name="xen_page_vector" type="hidden" value="1"/>
+<input name="xen_vector_sec_hash" type="hidden" value=""/>
+</fieldset>
+</form>

@@ -1,0 +1,24 @@
+<form action="/MyAccount/Registration/CheckEmail" method="post"> <fieldset>
+<legend>What is my username?</legend>
+<div class="l-content-container">
+<div class="m-form-row">
+<label class="a-label" for="EmailAddress"><label for="EmailAddress">E-mail</label></label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+<input aria-required="True" class="a-textbox" data-val="true" data-val-regex="Please enter a valid email address" data-val-regex-pattern="^[a-zA-Z0-9._+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" data-val-required="Please enter your email address" id="EmailAddress" maxlength="50" name="EmailAddress" type="text" value=""/>
+<p><a href="/MyAccount/Registration/CheckDetails">Find your username with your personal details instead</a></p>
+</div>
+</div>
+<div class="m-form-row">
+<div class="l-columns__column">
+<div class="l-columns l-columns--2-medium l-columns--2-large">
+<div class="l-columns__column">
+<input name="__RequestVerificationToken" type="hidden" value="Ih74HgQhB2RefAwgcVYZ-CPc8ksafcxmNBD8iUdEiGvzL115y5seop1zIn9oSn9nCj8o2laXUp91i9A3Tp-t7PXQL4g1"/>
+<input class="a-button a-button--primary" name="SubmitButton" type="submit" value="Continue"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+</form>

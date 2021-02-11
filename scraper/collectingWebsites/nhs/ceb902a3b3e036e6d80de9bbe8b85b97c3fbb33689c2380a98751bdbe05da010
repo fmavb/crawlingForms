@@ -1,0 +1,60 @@
+<form action="/services/hospital/royal-preston-hospital/X907/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Dissmissive&lt;/Title&gt;
+    &lt;ScreenName&gt;Mrs Charlotte Campbe&lt;/ScreenName&gt;
+    &lt;CommentText&gt;After many months of severe pain, Lots of medication which did not seem to help, many days where I could not walk  my doctor referred me to the muscular skeletal clinic approx 3 month wait,who referred me for a MRI scan approx 3 months then another wait to look at the scan and then  refer me to Preston Royal another 3 month wait to see a neuro surgeon my first appointment was cancelled, my second was on the 31st August.To weeks later. 
+ The appointment letter said to got to the day clinic I arrived at 8.30 in good time for my    9 am appointment. The day clinic was closed but there was no notice to say so. I went to the main reception and was sent to the wrong clinic a very nice helpful nurse showed me to the correct waiting area where I then had to wait a further hour as I had missed my slot with being in the wrong place.
+I finally get to see the Dr/Neuro surgeon she did not have the scan of my back. She was most unhelpful, dismissive of my condition, and extremely unsympathetic she did not listen to anything I had to say I came out of my long awaited appointment feeling distraught, upset and truly hopeless. 
+ She did however tell me several times I would get Dementia, she had a scan of my brain???
+I am to be referred to a pain clinic so 4 weeks later my GP has heard nothing I have contacted Preston Royal the letter has been typed but not signed and sent. The Dr/Nero surgeon is on holiday. 
+
+I would like to say the nurse helping with the clinic was extremely helpful and caring.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-09-23T12:39:07.063Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;8&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Royal Preston Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;56e5dba2-13e9-e911-a812-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X907&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGwmFgt4aSpFD3BceGAWhiZtEYwJ8tGOZeczUa-pTGrvF7g5aL1NFkqgJ10fDFjUoFJfhyCl934KjUCP9uZR2WY_1-MR-3AIKg6gpAu80vy2HsizCzlqApkX1qCOuusWaU"/></form>

@@ -1,0 +1,723 @@
+<form action="https://sdcstaging.webmd.com/sdclive/processor.aspx" method="post" name="rmq" onsubmit="return false;" target="sdc_submit">
+<input id="redirectUrl" name="redirectUrl" type="hidden" value="about:blank"/>
+<input name="system_formId" type="hidden"/>
+<input name="system_firstLandingPage" type="hidden"/>
+<input name="env" type="hidden" value="desktop"/>
+<ul id="rmq_slides">
+<li class="slide question" data-correct-answer="a" data-slide-number="1" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/articles/rich_media_quiz/getty_rf_photo_of_parent_and_child.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Anaphylaxis is always a medical emergency.</h2>
+</div>
+<div class="slide_text">
+<input id="q1" name="q1" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>Anaphylaxis is always a medical emergency.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Anaphylaxis is a serious, whole-body allergic reaction that usually comes on fast. Even if it starts off mild, it can quickly become life threatening. That's why it's important to treat it immediately. If you have prescription epinephrine, use it right away. Then call 911.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="e" data-slide-number="2" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/articles/rich_media_quiz/getty_rf_photo_of_parent_and_child.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>What often triggers anaphylaxis?</h2>
+</div>
+<div class="slide_text">
+<input id="q2" name="q2" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Foods (peanuts, eggs, shrimp)</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Insect stings</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Penicillin</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="d" href="#">
+<div class="answer_input_text">
+<div class="input">d</div>
+<p>Latex</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="e" href="#">
+<div class="answer_input_text">
+<div class="input">e</div>
+<p>All of the above</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>What often triggers anaphylaxis?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Any allergy trigger can cause anaphylaxis, although food is most often to blame. Other triggers are insect stings, medicines such as penicillin, and, less often, latex. Latex can be found in some gloves, balloons, and other items. Knowing your child's triggers can help them avoid it. An allergist can do tests to find out the exact cause and create a treatment plan for your child.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="3" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/articles/rich_media_quiz/getty_rf_photo_of_parent_and_child.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Kids should never give themselves an epinephrine shot.</h2>
+</div>
+<div class="slide_text">
+<input id="q3" name="q3" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>Kids should never give themselves an epinephrine shot.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>It’s important for you to know when and how to use epinephrine because it can save your child’s life. But you may not always be around when your child has a reaction. If your child is old enough, teach them how to give themselves an epinephrine shot. Show relatives, friends, teachers, and caregivers how to use it, too.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="a" data-slide-number="4" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/articles/rich_media_quiz/getty_rf_photo_of_parent_and_child.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Vomiting and diarrhea can be symptoms of anaphylaxis.</h2>
+</div>
+<div class="slide_text">
+<input id="q4" name="q4" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>Vomiting and diarrhea can be symptoms of anaphylaxis.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>With anaphylaxis, your body reacts in all kinds of ways. You can have swelling, hives, and redness, and even vomiting or diarrhea. You could faint, which could lead to shock. If your airways tighten, you may start to wheeze or have problems breathing. That's why it's important to be prepared and ready to treat it right away.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="a" data-slide-number="5" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/articles/rich_media_quiz/getty_rf_photo_of_parent_and_child.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>If your child shows symptoms of anaphylaxis, you should</h2>
+</div>
+<div class="slide_text">
+<input id="q5" name="q5" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Use epinephrine right away</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Wait to see if symptoms improve</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>If your child shows symptoms of anaphylaxis, you should</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Don't wait, even if you are not sure the reaction is allergy related! Epinephrine almost always works when it's injected right away and will not hurt them if it’s a false alarm. Anyone who is with you — including teachers and caregivers — should have an injector on hand and know how to use it.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="6" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/articles/rich_media_quiz/getty_rf_photo_of_parent_and_child.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>You don't need to call 911 if symptoms get better right away with epinephrine.</h2>
+</div>
+<div class="slide_text">
+<input id="q6" name="q6" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>You don't need to call 911 if symptoms get better right away with epinephrine.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Always call 911 right away after you use an epinephrine shot. Minutes count. Don’t drive your child to a hospital yourself. Even if their symptoms go away, they need emergency care to make sure they don’t return. At the hospital, they may get other medication to open their airways, if they need it.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="7" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/articles/rich_media_quiz/getty_rf_photo_of_parent_and_child.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Your child's epinephrine shot should stay safely locked in the nurse's office.</h2>
+</div>
+<div class="slide_text">
+<input id="q7" name="q7" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>Your child's epinephrine shot should stay safely locked in the nurse's office.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>The best place for your child's auto-injector is with themselves — not locked away somewhere. That way no time is wasted going to get it in an emergency. Have your child wear a medic alert bracelet, too, so that people know they carry epinephrine. Caregivers and teachers should also have a copy of your child's emergency action plan.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="8" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/articles/rich_media_quiz/getty_rf_photo_of_parent_and_child.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>There’s no limit on how long you can keep an epinephrine injector.</h2>
+</div>
+<div class="slide_text">
+<input id="q8" name="q8" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>There’s no limit on how long you can keep an epinephrine injector.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Epinephrine doesn’t stay good forever. An expired dose of the drug might not work right. Keep track of the expiration dates on all your child’s injectors, and replace them before they expire. Take old, used, or discolored epinephrine to a doctor’s office or hospital to be thrown away.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide results" data-slide-type="results">
+<div class="slide_content">
+<div class="slide_text">
+<div class="results_top_container">
+<div class="results_header">
+<p class="results_score_title">Your Score:</p>
+<div class="score_summary">
+<span class="total_correct icon-check">
+<span> </span>
+</span>
+<span class="total_incorrect icon-close">
+<span> </span>
+</span>
+</div>
+<div class="results_share">
+<span class="results_share_title">Share your score:</span>
+<span id="share_your_results">
+</span>
+</div>
+</div>
+<div class="results_graphic">
+<div class="results_score">
+<div class="results_score_percentage">
+<span class="num">0</span>
+</div>
+<div id="rmq_score_graphic"> </div>
+</div>
+</div>
+<div class="results_share_mobile">
+<span class="results_share_title">Share your score:</span>
+<span id="share_your_results_mobile">
+</span>
+</div>
+</div>
+<div class="results_text">
+<div id="rmq_total_rank">Your Score: <span class="score_rank"> </span><p class="score_text">You correctly answered <span class="score_num_correct"> </span> out of <span class="score_num_total"> </span> questions.</p></div>
+<div class="rmq_results" id="results_1">
+<h5 class="results_title">Results:</h5>
+<p>Great job. You know what you're doing when it comes to your child and anaphylaxis.</p>
+</div>
+<div class="rmq_results" id="results_2">
+<h5 class="results_title">Results:</h5>
+<p>Pretty good. You know a lot about anaphylaxis but could do more to protect your child. Take the quiz again to keep learning.</p>
+</div>
+<div class="rmq_results" id="results_3">
+<h5 class="results_title">Results:</h5>
+<p>Just OK. You may want to learn more about anaphylaxis so you're better prepared in case of an emergency. Why not take the quiz again?</p>
+</div>
+</div>
+<div id="results_controls">
+<a class="rmq_next_quiz" href="#">
+<span>Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+<a class="rmq_retake" href="#">
+<i class="icon-arrow-left"> </i>
+<span>Retake Quiz</span>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</form>

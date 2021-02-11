@@ -1,0 +1,49 @@
+<form action="https://careers.aviva.co.uk/apply/" class="m-hero-form m-hero-form--main" method="get">
+<span class="m-hero-form__text">I’d like to work in</span>
+<span class="a-dropdown a-dropdown--inline a-dropdown--alt-shadow m-hero-form__dropdown m-hero-form__dropdown-1">
+<label class="u-hidden--visually" for="hero-location">Choose a location</label>
+<select class="a-dropdown__select" id="hero-location" name="location">
+<option value="">Choose a location</option>
+<option value="bristol">Bristol</option>
+<option value="dorking">Dorking</option>
+<option value="eastleigh">Eastleigh</option>
+<option value="glasgow">Glasgow</option>
+<option value="london">London</option>
+<option value="norwich">Norwich</option>
+<option value="perth">Perth</option>
+<option value="sheffield">Sheffield</option>
+<option value="york">York</option>
+<option value="flexible">Flexible</option>
+<option value="home_based">Home based</option>
+</select>
+<span class="a-dropdown__ui"></span>
+</span>
+<span class="m-hero-form__text m-hero-form__text--middle">in</span>
+<span class="a-dropdown a-dropdown--inline a-dropdown--alt-shadow m-hero-form__dropdown m-hero-form__dropdown-2">
+<label class="u-hidden--visually" for="hero-team">Choose a team</label>
+<select class="a-dropdown__select" id="hero-team" name="jobFamily">
+<option value="">Choose a team</option>
+<option value="actuarial">Actuarial</option>
+<option value="customer_service">Customer Service</option>
+<option value="digital">Digital</option>
+<option value="finance">Finance</option>
+<option value="hr">HR</option>
+<option value="it">IT</option>
+<option value="legal">Legal</option>
+<option value="marketing">Marketing</option>
+<option value="procurement">Procurement</option>
+<option value="risk">Risk</option>
+<option value="sales_distribution">Sales &amp; Distribution</option>
+<option value="technology">Technology</option>
+<option value="underwriting">Underwriting</option>
+<option value="graduates">Graduates</option>
+<option value="apprentices">Apprentices</option>
+<option value="actuarial_graduates">Actuarial Graduates</option>
+<option value="accountancy_graduates">Accountancy Graduates</option>
+<option value="technology_graduates">Technology Graduates</option>
+<option value="technology_apprentices">Technology Apprentices</option>
+</select>
+<span class="a-dropdown__ui"></span>
+</span>
+<button class="a-button a-button--primary a-button--height-alt m-hero-form__button" type="submit">Go</button>
+</form>

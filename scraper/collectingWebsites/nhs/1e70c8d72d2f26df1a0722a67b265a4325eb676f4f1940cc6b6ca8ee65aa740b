@@ -1,0 +1,60 @@
+<form action="/services/hospital/queen-elizabeth-hospital/X97839/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;22 month wait for gallbladder operation (still waiting)&lt;/Title&gt;
+    &lt;ScreenName&gt;Charlie D&lt;/ScreenName&gt;
+    &lt;CommentText&gt;In April 2018 I developed very unpleasant and persistent nausea. After a series of blood tests it was revealed in August that I had Hepatitis C. I assumed that this was causing the nausea.  
+I couldn't get an appointment to see the specialist at the Gastroenterology Unit till December: treatment for the Hepatitis would start in the New Year. I felt very relieved. But some blood test results were lost and I didn't start the course until March. A routine blood test as part of the Hepatitis treatment revealed gallstones.  
+All went well with the course, until two months later I told the nurse (who up to then had been great) that the nausea was still troubling me. They told me that this was a completely separate issue. I asked for it to be looked at, but was discharged back to my GP.  
+Another two week wait, more blood tests; In August my GP referred me back to the Gastro unit urgently for the gallstones to be looked at. They were astonished I had been discharged. I wasn't given an appointment until December. During this time my nausea was getting slowly worse until in November I had horrible sickness and couldn't get out of bed.  
+The GP sent me straight to A&amp;amp;E as an erupting gallstone can be very serious, even lethal. The staff on Juniper Ward were great, until four days later the surgical junior who discharged me told me I needed an urgent endoscopy. They tried to be helpful but didn't seem clear as to the date. They finally promised I was booked in for a Tuesday two weeks later. By the Monday afternoon I had not heard a word and had to go back to the ward and stand there, interrupting people, which I didn't like doing, to find out what was going on. It turned out that the specialist was on holiday that week, so why I was led to believe I would be treated then I don't know.  
+When I was booked in two weeks after that, the surgeon couldn't access my gallbladder because of my hernia. I don't blame anyone for that.  
+My notes were handed to Queen Elizabeth Hospital where a full surgical op was booked in for early February this year. This was cancelled. I'm now in position where I get sick very easily, (I've been off work this week with the nausea), not knowing whether I should check into A &amp;amp; E, not knowing how much longer I have to wait. It's very worrying and upsetting and I can't make any plans. I feel my concerns about the nausea were ignored. Although I of course understood that treating the Hep C was a priority nobody seemed interested in what my own priorities were. I have been given no detailed advice on diet. This has been going on for nearly two years. To say I'm fed up is an understatement.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-02-20T15:40:07Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;2&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Queen Elizabeth Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;a789ca3f-f753-ea11-a813-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X97839&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamE03IF4tMU5mCnXLZOUZ9mJ9R-DxmbOXtxJMDDfVr1t4Vx_TEps_WGEXSHoNGahEmjWYiumP87X0waVLb2zESDLKTaXGhtn9ex1ByQ6SGn-adXFzyXEPjvOa9LUoaxSC8c"/></form>

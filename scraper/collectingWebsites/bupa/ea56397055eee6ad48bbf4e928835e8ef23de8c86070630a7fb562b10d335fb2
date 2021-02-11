@@ -1,0 +1,55 @@
+<form class="thumbnail-wrapper" id="selectPdf">
+<p id="checkErroMsg"></p>
+<legend class="access">Select guides you want to view</legend>
+<div class="thumbnail-item">
+<label class="checkbox-wrapper bg-warm-grey">
+<div class="logo-wrap"><img alt="Bupa logo" src="https://assets.bupa.co.uk/~/media/images/mybupa/logo.jpg"/></div>
+<p class="item-title"></p><p class="color-darkblue-new"><b>A quick look at our care homes</b></p>
+<div class="img-wrap"><img alt="" src="https://assets.bupa.co.uk/~/media/images/decorative-images/site-specific-images/care-services/care-home-redesign/pdf-image-210x300/quick-look-illustration.png"/></div>
+<input id="btnSubmitCheck_1" name="chk" type="checkbox"/>
+<span class="checkmark"></span>
+</label>
+<div class="PdfCollection">
+<input filename="for-a-quick-look-into-our-care-homes.pdf" imagealt="" imageonly="0" imageurl="https://assets.bupa.co.uk/~/media/images/decorative-images/site-specific-images/care-services/care-home-redesign/pdf-image-210x300/quick-look-illustration.png" logoalt="Bupa logo" logourl="https://assets.bupa.co.uk/~/media/images/mybupa/logo.jpg" pdfurl="https://assets.bupa.co.uk/~/media/files/care-services/journey-pages/guides/for-a-quick-look-into-our-care-homes.pdf" title='&lt;p class="color-darkblue-new"&gt;&lt;b&gt;A quick look at our care homes&lt;/b&gt;&lt;/p&gt;' type="hidden"/>
+</div>
+</div>
+<div class="thumbnail-item">
+<label class="checkbox-wrapper bg-warm-grey">
+<div class="logo-wrap"><img alt="Bupa logo" src="https://assets.bupa.co.uk/~/media/images/mybupa/logo.jpg"/></div>
+<p class="item-title"></p><p class="color-darkblue-new"><b>A closer look at dementia care</b></p>
+<div class="img-wrap"><img alt="" src="https://assets.bupa.co.uk/~/media/images/decorative-images/site-specific-images/care-services/care-home-redesign/pdf-image-210x300/dementia-illustration.png"/></div>
+<input id="btnSubmitCheck_2" name="chk" type="checkbox"/>
+<span class="checkmark"></span>
+</label>
+<div class="PdfCollection">
+<input filename="for-a-closer-look-at-dementia-care.pdf" imagealt="" imageonly="0" imageurl="https://assets.bupa.co.uk/~/media/images/decorative-images/site-specific-images/care-services/care-home-redesign/pdf-image-210x300/dementia-illustration.png" logoalt="Bupa logo" logourl="https://assets.bupa.co.uk/~/media/images/mybupa/logo.jpg" pdfurl="https://assets.bupa.co.uk/~/media/files/care-services/journey-pages/guides/for-a-closer-look-at-dementia-care.pdf" title='&lt;p class="color-darkblue-new"&gt;&lt;b&gt;A closer look at dementia care&lt;/b&gt;&lt;/p&gt;' type="hidden"/>
+</div>
+</div>
+<div class="thumbnail-item">
+<label class="checkbox-wrapper bg-warm-grey">
+<div class="logo-wrap"><img alt="Bupa logo" src="https://assets.bupa.co.uk/~/media/images/mybupa/logo.jpg"/></div>
+<p class="item-title"></p><p class="color-darkblue-new"><b>A closer look at short stays</b></p>
+<div class="img-wrap"><img alt="" src="https://assets.bupa.co.uk/~/media/images/decorative-images/site-specific-images/care-services/care-home-redesign/pdf-image-210x300/short-stays-illustration.png"/></div>
+<input id="btnSubmitCheck_3" name="chk" type="checkbox"/>
+<span class="checkmark"></span>
+</label>
+<div class="PdfCollection">
+<input filename="for-a-closer-look-at-short-stays.pdf" imagealt="" imageonly="0" imageurl="https://assets.bupa.co.uk/~/media/images/decorative-images/site-specific-images/care-services/care-home-redesign/pdf-image-210x300/short-stays-illustration.png" logoalt="Bupa logo" logourl="https://assets.bupa.co.uk/~/media/images/mybupa/logo.jpg" pdfurl="https://assets.bupa.co.uk/~/media/files/care-services/journey-pages/guides/for-a-closer-look-at-short-stays.pdf" title='&lt;p class="color-darkblue-new"&gt;&lt;b&gt;A closer look at short stays&lt;/b&gt;&lt;/p&gt;' type="hidden"/>
+</div>
+</div>
+<div class="thumbnail-item">
+<label class="checkbox-wrapper bg-warm-grey">
+<div class="logo-wrap"><img alt="Bupa logo" src="https://assets.bupa.co.uk/~/media/images/mybupa/logo.jpg"/></div>
+<p class="item-title"></p><p class="color-darkblue-new"><b>A closer look at paying for care</b></p>
+<div class="img-wrap"><img alt="" src="https://assets.bupa.co.uk/~/media/images/decorative-images/site-specific-images/care-services/care-home-redesign/pdf-image-210x300/paying-for-care-illustration.jpg"/></div>
+<input id="btnSubmitCheck_4" name="chk" type="checkbox"/>
+<span class="checkmark"></span>
+</label>
+<div class="PdfCollection">
+<input filename="for-a-closer-look-at-paying-for-care.pdf" imagealt="" imageonly="0" imageurl="https://assets.bupa.co.uk/~/media/images/decorative-images/site-specific-images/care-services/care-home-redesign/pdf-image-210x300/paying-for-care-illustration.jpg" logoalt="Bupa logo" logourl="https://assets.bupa.co.uk/~/media/images/mybupa/logo.jpg" pdfurl="https://assets.bupa.co.uk/~/media/files/care-services/journey-pages/guides/for-a-closer-look-at-paying-for-care.pdf" title='&lt;p class="color-darkblue-new"&gt;&lt;b&gt;A closer look at paying for care&lt;/b&gt;&lt;/p&gt;' type="hidden"/>
+</div>
+</div>
+<div class="button-wrap">
+<button class="btn-download btn" disabled="" type="submit">Download</button>
+</div>
+</form>

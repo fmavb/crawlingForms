@@ -1,0 +1,27 @@
+<form action="https://www.webmd.com/Services/PollVoteSubmit.aspx" method="post">
+<input name="uri" type="hidden" value="https://www.webmd.com/arthritis/staying-active-arthritis-10/which-exercise-helps-arthritis-most"/>
+<input name="poll_chronicle_id" type="hidden" value="091e9c5e80604eb0"/>
+<h4>Which exercise helps your arthritis most?</h4>
+<ul>
+<li>
+<input id="p4983" name="q1Choice" type="radio" value="4983"/>
+<label for="p4983">Bicycling</label>
+</li>
+<li>
+<input id="p4984" name="q1Choice" type="radio" value="4984"/>
+<label for="p4984">Swimming</label>
+</li>
+<li>
+<input id="p4985" name="q1Choice" type="radio" value="4985"/>
+<label for="p4985">Walking</label>
+</li>
+<li>
+<input id="p4986" name="q1Choice" type="radio" value="4986"/>
+<label for="p4986">Yoga</label>
+</li>
+</ul>
+<div class="vote_area">
+<button class="poll_vote" onclick="wmdTrack('poll_vote');" title="Vote Now" type="submit">Vote Now</button>
+<a class="results" href="https://www.webmd.com/arthritis/staying-active-arthritis-10/which-exercise-helps-arthritis-most" onclick="return sl(this,'','poll_viewresults');">View Results</a>
+</div>
+</form>

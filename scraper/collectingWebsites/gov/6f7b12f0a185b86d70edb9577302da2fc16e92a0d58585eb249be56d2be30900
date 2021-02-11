@@ -1,0 +1,974 @@
+<form action="/maib-reports" class="js-live-search-form" method="get">
+<input name="parent" type="hidden" value=""/>
+<div class="govuk-width-container">
+<div class="gem-c-contextual-breadcrumbs">
+<div class="gem-c-breadcrumbs govuk-breadcrumbs govuk-breadcrumbs--collapse-on-mobile" data-module="track-click">
+<ol class="govuk-breadcrumbs__list">
+<li class="govuk-breadcrumbs__list-item">
+<a class="govuk-breadcrumbs__link" data-track-action="homeBreadcrumb" data-track-category="homeLinkClicked" data-track-label="" data-track-options="{}" href="/">Home</a>
+</li>
+</ol>
+</div>
+</div>
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-two-thirds">
+<div class="gem-c-title govuk-!-margin-top-8 govuk-!-margin-bottom-8">
+<h1 class="gem-c-title__text">
+    Marine Accident Investigation Branch reports
+  </h1>
+</div>
+<div class="gem-c-metadata" data-module="gem-toggle">
+<dl data-module="track-click">
+<dt class="gem-c-metadata__term">From:</dt>
+<dd class="gem-c-metadata__definition">
+<a href="https://www.gov.uk/government/organisations/marine-accident-investigation-branch">Marine Accident Investigation Branch</a>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div class="govuk-width-container">
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-one-third">
+<div class="filter-form">
+<div aria-label="Marine Accident Investigation Branch reports" id="keywords" role="search">
+<div class="gem-c-search gem-c-search--on-white gem-c-search--separate-label" data-module="gem-toggle-input-class-on-focus">
+<label class="gem-c-search__label" for="finder-keyword-search">
+            Search <span class="govuk-visually-hidden">Marine Accident Investigation Branch reports</span>
+</label>
+<div class="gem-c-search__item-wrapper">
+<input aria-controls="js-search-results-info" class="gem-c-search__item gem-c-search__input js-class-toggle" id="finder-keyword-search" name="keywords" title="Search" type="search" value=""/>
+<div class="gem-c-search__item gem-c-search__submit-wrapper">
+<button class="gem-c-search__submit" type="submit">Search</button>
+</div>
+</div>
+</div>
+</div>
+<button class="app-c-button-as-link app-mobile-filters-link js-show-mobile-filters" data-module="track-click" data-target="facet-wrapper" data-toggle="mobile-filters-modal" data-track-action="mobile-filter-button" data-track-category="filterClicked" data-track-label="">
+        Filter <span class="govuk-visually-hidden"> results</span>
+<span class="js-selected-filter-count">(1)<span class="govuk-visually-hidden"> filters currently selected</span></span>
+</button>
+<div data-module="track-click" data-track-action="skip-Link" data-track-category="filterClicked" data-track-label="">
+<a class="gem-c-skip-link govuk-skip-link" href="#js-results">Skip to results</a>
+</div>
+<div aria-label="Search filters" class="facets" data-module="mobile-filters-modal" id="facet-wrapper" role="search">
+<div class="facets__box">
+<div class="facets__header">
+<h1 class="gem-c-heading govuk-heading-xl govuk-!-margin-bottom-0">Filter</h1>
+<button class="app-c-button-as-link facets__return-link js-close-filters" type="button">
+            Return to results
+          </button>
+</div>
+<div class="facets__content">
+<div class="app-c-option-select" data-input-aria-controls="js-search-results-info" data-module="option-select">
+<h2 class="app-c-option-select__heading js-container-heading">
+<span class="app-c-option-select__title js-container-button" id="option-select-title-vessel-type">Vessel type</span>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--up" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path></svg>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--down" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path></svg>
+</h2>
+<div aria-labelledby="option-select-title-vessel-type" class="app-c-option-select__container js-options-container" id="vessel_type" role="group" tabindex="-1">
+<div class="app-c-option-select__container-inner js-auto-height-inner">
+<div class="gem-c-checkboxes govuk-form-group govuk-checkboxes--small" data-module="govuk-checkboxes" id="checkboxes-0e54c8dd">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--m gem-c-checkboxes__legend--hidden">Vessel type</legend>
+<ul class="govuk-checkboxes gem-c-checkboxes__list">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Merchant vessel 100 gross tons or over" data-uncheck-track-category="filterRemoved" id="vessel_type-merchant-vessel-100-gross-tons-or-over" name="vessel_type[]" type="checkbox" value="merchant-vessel-100-gross-tons-or-over"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-merchant-vessel-100-gross-tons-or-over">Merchant vessel 100 gross tons or over</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Merchant vessel under 100 gross tons" data-uncheck-track-category="filterRemoved" id="vessel_type-merchant-vessel-under-100-gross-tons" name="vessel_type[]" type="checkbox" value="merchant-vessel-under-100-gross-tons"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-merchant-vessel-under-100-gross-tons">Merchant vessel under 100 gross tons</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Fishing vessel" data-uncheck-track-category="filterRemoved" id="vessel_type-fishing-vessel" name="vessel_type[]" type="checkbox" value="fishing-vessel"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-fishing-vessel">Fishing vessel</label>
+</li> <li class="govuk-checkboxes__item">
+<input checked="" class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Recreational craft - sail" data-uncheck-track-category="filterRemoved" id="vessel_type-recreational-craft-sail" name="vessel_type[]" type="checkbox" value="recreational-craft-sail"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-recreational-craft-sail">Recreational craft - sail</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Recreational craft - power" data-uncheck-track-category="filterRemoved" id="vessel_type-recreational-craft-power" name="vessel_type[]" type="checkbox" value="recreational-craft-power"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-recreational-craft-power">Recreational craft - power</label>
+</li>
+</ul>
+</fieldset>
+</div>
+</div>
+</div>
+</div>
+<div class="app-c-option-select" data-closed-on-load="true" data-input-aria-controls="js-search-results-info" data-module="option-select">
+<h2 class="app-c-option-select__heading js-container-heading">
+<span class="app-c-option-select__title js-container-button" id="option-select-title-report-type">Report type</span>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--up" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path></svg>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--down" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path></svg>
+</h2>
+<div aria-labelledby="option-select-title-report-type" class="app-c-option-select__container js-options-container" id="report_type" role="group" tabindex="-1">
+<div class="app-c-option-select__container-inner js-auto-height-inner">
+<div class="gem-c-checkboxes govuk-form-group govuk-checkboxes--small" data-module="govuk-checkboxes" id="checkboxes-7175c9be">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--m gem-c-checkboxes__legend--hidden">Report type</legend>
+<ul class="govuk-checkboxes gem-c-checkboxes__list">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Investigation report" data-uncheck-track-category="filterRemoved" id="report_type-investigation-report" name="report_type[]" type="checkbox" value="investigation-report"/><label class="govuk-label govuk-checkboxes__label" for="report_type-investigation-report">Investigation report</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Safety bulletin" data-uncheck-track-category="filterRemoved" id="report_type-safety-bulletin" name="report_type[]" type="checkbox" value="safety-bulletin"/><label class="govuk-label govuk-checkboxes__label" for="report_type-safety-bulletin">Safety bulletin</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Completed preliminary examination" data-uncheck-track-category="filterRemoved" id="report_type-completed-preliminary-examination" name="report_type[]" type="checkbox" value="completed-preliminary-examination"/><label class="govuk-label govuk-checkboxes__label" for="report_type-completed-preliminary-examination">Completed preliminary examination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Overseas report" data-uncheck-track-category="filterRemoved" id="report_type-overseas-report" name="report_type[]" type="checkbox" value="overseas-report"/><label class="govuk-label govuk-checkboxes__label" for="report_type-overseas-report">Overseas report</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Discontinued investigation" data-uncheck-track-category="filterRemoved" id="report_type-discontinued-investigation" name="report_type[]" type="checkbox" value="discontinued-investigation"/><label class="govuk-label govuk-checkboxes__label" for="report_type-discontinued-investigation">Discontinued investigation</label>
+</li>
+</ul>
+</fieldset>
+</div>
+</div>
+</div>
+</div>
+<div class="app-c-expander" data-module="expander" data-open-on-load="false">
+<h2 class="app-c-expander__heading">
+<span class="app-c-expander__title js-toggle">Date of occurrence</span>
+<svg aria-hidden="true" class="app-c-expander__icon app-c-expander__icon--up" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path></svg>
+<svg aria-hidden="true" class="app-c-expander__icon app-c-expander__icon--down" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path></svg>
+</h2>
+<div class="app-c-expander__content js-content" id="expander-content-5a194267">
+<div class="app-c-date-filter govuk-!-margin-bottom-0" data-module="enable-aria-controls" id="date_of_occurrence">
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="date_of_occurrence[from]">Date of occurrence after</label>
+<div class="gem-c-hint govuk-hint govuk-!-margin-bottom-3" id="hint-583cb5c0">
+  For example, 2005 or 21/11/2014
+</div>
+<input aria-controls="js-search-results-info" aria-describedby="hint-583cb5c0" class="gem-c-input govuk-input" id="date_of_occurrence[from]" name="date_of_occurrence[from]" type="text" value=""/>
+</div>
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="date_of_occurrence[to]">Date of occurrence before</label>
+<div class="gem-c-hint govuk-hint govuk-!-margin-bottom-3" id="hint-25a91dbb">
+  For example, 2005 or 21/11/2014
+</div>
+<input aria-controls="js-search-results-info" aria-describedby="hint-25a91dbb" class="gem-c-input govuk-input" id="date_of_occurrence[to]" name="date_of_occurrence[to]" type="text" value=""/>
+</div>
+</div>
+</div>
+</div>
+<div class="facets__tags-block js-mobile-facet-tag-block" data-module="remove-filter">
+<span class="govuk-visually-hidden">
+    58 reports
+    
+  </span>
+<div class="facet-tags" data-module="track-click">
+<div class="facet-tags__group">
+<div class="facet-tags__wrapper">
+<span class="facet-tags__preposition">Of Type</span>
+<span class="facet-tag">
+<span class="facet-tag__text">Recreational craft - sail</span>
+<button aria-label="Remove filter Recreational craft - sail" class="facet-tag__remove" data-facet="vessel_type" data-module="remove-filter-link" data-name="" data-track-label="Recreational craft - sail" data-value="recreational-craft-sail" type="button">✕</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+<button class="app-c-button-as-link facets__clear-link js-clear-selected-filters" type="button">
+            Clear all filters
+          </button>
+</div>
+<div class="facets__footer">
+<button class="gem-c-button govuk-button js-close-filters js-show-results" type="submit">Show <span class="js-result-count">58 reports</span></button>
+</div>
+</div>
+</div>
+<div class="js-live-search-fallback button__wrapper">
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Filter results</button>
+</div>
+</div>
+</div>
+<div aria-label="Marine Accident Investigation Branch reports search results" class="govuk-grid-column-two-thirds js-live-search-results-block filtered-results" data-analytics-ecommerce="" data-ecommerce-start-index="1" data-list-title="Marine Accident Investigation Branch reports" data-search-query="" role="region">
+<div class="result-info" data-module="remove-filter" id="js-search-results-info">
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-one-third">
+<div class="result-info__header">
+<h2 class="gem-c-heading govuk-heading-s" id="js-result-count">58 reports</h2>
+</div>
+</div>
+<div class="govuk-grid-column-two-thirds subscription-links subscription-links--desktop">
+<section class="gem-c-subscription-links">
+<ul class="gem-c-subscription-links__list gem-c-subscription-links__list--small">
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/maib-reports/email-signup?vessel_type%5B%5D=recreational-craft-sail"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15.75" width="21" xmlns="http://www.w3.org/2000/svg"><path d="M19.687 0H1.312C.589 0 0 .587 0 1.313v13.124c0 .726.588 1.313 1.313 1.313h18.374c.725 0 1.313-.587 1.313-1.313V1.313C21 .587 20.412 0 19.687 0zm-2.625 2.625L10.5 7.875l-6.563-5.25h13.126zm1.313 10.5H2.625V3.937L10.5 10.5l7.875-6.563v9.188z"></path></svg>
+           Get emails
+</a>
+</li>
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/maib-reports.atom?vessel_type%5B%5D=recreational-craft-sail"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M1.996 11A2 2 0 0 0 0 12.993c0 1.101.895 1.99 1.996 1.99 1.106 0 2-.889 2-1.99a2 2 0 0 0-2-1.993zM.002 5.097V7.97c1.872 0 3.632.733 4.958 2.059A6.984 6.984 0 0 1 7.015 15h2.888c0-5.461-4.443-9.903-9.9-9.903zM.006 0v2.876c6.676 0 12.11 5.44 12.11 12.124H15C15 6.731 8.273 0 .006 0z"></path></svg>
+           Subscribe to feed
+</a>
+</li>
+</ul>
+</section>
+</div>
+</div>
+<div aria-live="assertive" class="facet-tags__container" id="js-facet-tag-wrapper">
+<span class="govuk-visually-hidden">
+    58 reports
+    
+  </span>
+<div class="facet-tags" data-module="track-click">
+<div class="facet-tags__group">
+<div class="facet-tags__wrapper">
+<span class="facet-tags__preposition">Of Type</span>
+<span class="facet-tag">
+<span class="facet-tag__text">Recreational craft - sail</span>
+<button aria-label="Remove filter Recreational craft - sail" class="facet-tag__remove" data-facet="vessel_type" data-module="remove-filter-link" data-name="" data-track-label="Recreational craft - sail" data-value="recreational-craft-sail" type="button">✕</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="govuk-caption-l live-search-loading-message" id="js-loading-message"></div>
+<div id="js-sort-options">
+</div>
+<div id="js-results">
+<div class="finder-results js-finder-results" data-module="track-click">
+<ul class="gem-c-document-list gem-c-document-list--no-underline">
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="1" data-ecommerce-path="/maib-reports/capsize-and-full-inversion-of-self-righting-keelboat-rs-venture-connect-sail-number-307-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.1" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-and-full-inversion-of-self-righting-keelboat-rs-venture-connect-sail-number-307-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Capsize and full inversion of self-righting keelboat RS Venture Connect sail number 307 with loss of 1 life"}' href="/maib-reports/capsize-and-full-inversion-of-self-righting-keelboat-rs-venture-connect-sail-number-307-with-loss-of-1-life">Capsize and full inversion of self-righting keelboat RS Venture Connect sail number 307 with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Windermere, Cumbria, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2019-06-12">12 June 2019</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="2" data-ecommerce-path="/maib-reports/collision-between-ro-ro-passenger-ferry-red-falcon-and-moored-yacht-greylag" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.2" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-ro-ro-passenger-ferry-red-falcon-and-moored-yacht-greylag" data-track-options='{"dimension28":50,"dimension29":"Collision between ro-ro passenger ferry Red Falcon and moored yacht Greylag"}' href="/maib-reports/collision-between-ro-ro-passenger-ferry-red-falcon-and-moored-yacht-greylag">Collision between ro-ro passenger ferry Red Falcon and moored yacht Greylag</a>
+<p class="gem-c-document-list__item-description">Location: Cowes Harbour, Isle of Wight.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2018-10-21">21 October 2018</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="3" data-ecommerce-path="/maib-reports/keel-failure-and-capsize-of-charter-yacht-tyger-of-london" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.3" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/keel-failure-and-capsize-of-charter-yacht-tyger-of-london" data-track-options='{"dimension28":50,"dimension29":"Keel failure and capsize of charter yacht Tyger of London"}' href="/maib-reports/keel-failure-and-capsize-of-charter-yacht-tyger-of-london">Keel failure and capsize of charter yacht Tyger of London</a>
+<p class="gem-c-document-list__item-description">Location: 1 nautical mile south of Punta Rasca, Tenerife</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2017-12-07">7 December 2017</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="4" data-ecommerce-path="/maib-reports/safety-warning-about-the-securing-of-retractable-keels-or-retractable-weighted-centreboards" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.4" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-about-the-securing-of-retractable-keels-or-retractable-weighted-centreboards" data-track-options='{"dimension28":50,"dimension29":"Safety warning about the securing of retractable keels or retractable weighted centreboards"}' href="/maib-reports/safety-warning-about-the-securing-of-retractable-keels-or-retractable-weighted-centreboards">Safety warning about the securing of retractable keels or retractable weighted centreboards</a>
+<p class="gem-c-document-list__item-description">Urgent safety lesson issued after a fatal inversion of a sailing boat with a retractable keel.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2019-06-12">12 June 2019</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="5" data-ecommerce-path="/maib-reports/man-overboard-from-commercially-operated-yacht-cv30-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.5" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/man-overboard-from-commercially-operated-yacht-cv30-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Man overboard from commercially operated yacht CV30 with loss of 1 life"}' href="/maib-reports/man-overboard-from-commercially-operated-yacht-cv30-with-loss-of-1-life">Man overboard from commercially operated yacht CV30 with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: 1500nm west of Fremantle, Australia.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2017-11-18">18 November 2017</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="6" data-ecommerce-path="/maib-reports/failure-of-a-throw-bag-rescue-line-during-a-boat-capsize-drill" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.6" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/failure-of-a-throw-bag-rescue-line-during-a-boat-capsize-drill" data-track-options='{"dimension28":50,"dimension29":"Failure of a throw bag rescue line during a boat capsize drill"}' href="/maib-reports/failure-of-a-throw-bag-rescue-line-during-a-boat-capsize-drill">Failure of a throw bag rescue line during a boat capsize drill</a>
+<p class="gem-c-document-list__item-description">Location: Widnes, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 2 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2018-03-24">24 March 2018</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="7" data-ecommerce-path="/maib-reports/safety-warning-about-working-in-enclosed-spaces-after-the-loss-of-1-life-on-a-fishing-vessel" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.7" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-about-working-in-enclosed-spaces-after-the-loss-of-1-life-on-a-fishing-vessel" data-track-options='{"dimension28":50,"dimension29":"Safety warning about working in enclosed spaces after the loss of 1 life on a fishing vessel"}' href="/maib-reports/safety-warning-about-working-in-enclosed-spaces-after-the-loss-of-1-life-on-a-fishing-vessel">Safety warning about working in enclosed spaces after the loss of 1 life on a fishing vessel</a>
+<p class="gem-c-document-list__item-description">Urgent bulletin issued after working in a refrigerated salt water tank resulted in a fatal accident on board fv Sunbeam (FR487) at Fraserburgh, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 4 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2018-08-14">14 August 2018</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="8" data-ecommerce-path="/maib-reports/safety-warning-about-keel-failures-on-sailing-yachts" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.8" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-about-keel-failures-on-sailing-yachts" data-track-options='{"dimension28":50,"dimension29":"Safety warning about keel failures on sailing yachts"}' href="/maib-reports/safety-warning-about-keel-failures-on-sailing-yachts">Safety warning about keel failures on sailing yachts</a>
+<p class="gem-c-document-list__item-description">Urgent safety lesson issued after the yacht Tyger of London capsized off Tenerife, Canary Islands due to a shallow draught, lead keel failure.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2017-12-07">7 December 2017</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="9" data-ecommerce-path="/maib-reports/grounding-and-loss-of-commercially-operated-yacht-cv24" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.9" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/grounding-and-loss-of-commercially-operated-yacht-cv24" data-track-options='{"dimension28":50,"dimension29":"Grounding and loss of commercially operated yacht CV24 "}' href="/maib-reports/grounding-and-loss-of-commercially-operated-yacht-cv24">Grounding and loss of commercially operated yacht CV24 </a>
+<p class="gem-c-document-list__item-description">Location: Cape Peninsula, South Africa.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2017-10-31">31 October 2017</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="10" data-ecommerce-path="/maib-reports/safety-warning-about-defective-throw-bag-rescue-lines" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.10" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-about-defective-throw-bag-rescue-lines" data-track-options='{"dimension28":50,"dimension29":"Safety warning about defective throw bag rescue lines "}' href="/maib-reports/safety-warning-about-defective-throw-bag-rescue-lines">Safety warning about defective throw bag rescue lines </a>
+<p class="gem-c-document-list__item-description">Urgent safety lessons issued after the failure of a throw bag rescue line during a boat capsize rescue drill on 24 March 2018.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 3 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2018-03-24">24 March 2018</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="11" data-ecommerce-path="/maib-reports/safety-warning-on-the-use-of-safety-harness-tethers-on-sailing-yachts" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.11" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-on-the-use-of-safety-harness-tethers-on-sailing-yachts" data-track-options='{"dimension28":50,"dimension29":"Safety warning on the use of safety harness tethers on sailing yachts"}' href="/maib-reports/safety-warning-on-the-use-of-safety-harness-tethers-on-sailing-yachts">Safety warning on the use of safety harness tethers on sailing yachts</a>
+<p class="gem-c-document-list__item-description">Urgent safety lesson issued after a fatal man overboard from the sailing yacht CV30 in the Indian Ocean on 18 November 2017.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2017-11-18">18 November 2017</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="12" data-ecommerce-path="/maib-reports/accidents-on-board-yacht-cv21-resulting-in-loss-of-2-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.12" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/accidents-on-board-yacht-cv21-resulting-in-loss-of-2-lives" data-track-options='{"dimension28":50,"dimension29":"Accidents on board yacht CV21 resulting in loss of 2 lives"}' href="/maib-reports/accidents-on-board-yacht-cv21-resulting-in-loss-of-2-lives">Accidents on board yacht CV21 resulting in loss of 2 lives</a>
+<p class="gem-c-document-list__item-description">Locations: 122 miles west of Porto, Portugal (accident 1) | mid-Pacific (accident 2).</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2015-09-04">4 September 2015</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="13" data-ecommerce-path="/maib-reports/fall-from-mainmast-ratlines-on-commercial-sailing-vessel-albatros-on-the-thames-estuary-off-southend-on-sea-england-resulting-in-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.13" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/fall-from-mainmast-ratlines-on-commercial-sailing-vessel-albatros-on-the-thames-estuary-off-southend-on-sea-england-resulting-in-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Fall from main mast ratlines on commercial sailing vessel Albatros with loss of 1 life"}' href="/maib-reports/fall-from-mainmast-ratlines-on-commercial-sailing-vessel-albatros-on-the-thames-estuary-off-southend-on-sea-england-resulting-in-loss-of-1-life">Fall from main mast ratlines on commercial sailing vessel Albatros with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Thames Estuary off Southend-on-Sea, England.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2004-08-22">22 August 2004</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="14" data-ecommerce-path="/maib-reports/capsize-of-the-sailing-dinghy-mollyanna-off-puffin-island-wales-with-loss-of-2-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.14" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-of-the-sailing-dinghy-mollyanna-off-puffin-island-wales-with-loss-of-2-lives" data-track-options='{"dimension28":50,"dimension29":"Capsize of the sailing dinghy Mollyanna with loss of 2 lives"}' href="/maib-reports/capsize-of-the-sailing-dinghy-mollyanna-off-puffin-island-wales-with-loss-of-2-lives">Capsize of the sailing dinghy Mollyanna with loss of 2 lives</a>
+<p class="gem-c-document-list__item-description">Location: Off Puffin Island, Wales.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2005-07-02">2 July 2005</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="15" data-ecommerce-path="/maib-reports/safety-warning-issued-after-a-number-of-accidents-involving-the-capsize-and-sinking-of-dory-type-boats" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.15" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-issued-after-a-number-of-accidents-involving-the-capsize-and-sinking-of-dory-type-boats" data-track-options='{"dimension28":50,"dimension29":"Safety warning after capsize and sinking of several dory-type boats "}' href="/maib-reports/safety-warning-issued-after-a-number-of-accidents-involving-the-capsize-and-sinking-of-dory-type-boats">Safety warning after capsize and sinking of several dory-type boats </a>
+<p class="gem-c-document-list__item-description">This document makes an urgent recommendation to owners/operators of dory-type boats, and highlights the dangers of flooded void spaces.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1999-11-22">22 November 1999</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="16" data-ecommerce-path="/maib-reports/person-overboard-from-sailing-yacht-huw-jars-off-holyhead-wales-with-the-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.16" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/person-overboard-from-sailing-yacht-huw-jars-off-holyhead-wales-with-the-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Person overboard from sailing yacht Huw Jars with loss of 1 life"}' href="/maib-reports/person-overboard-from-sailing-yacht-huw-jars-off-holyhead-wales-with-the-loss-of-1-life">Person overboard from sailing yacht Huw Jars with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Holyhead, Wales.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2006-06-21">21 June 2006</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="17" data-ecommerce-path="/maib-reports/persons-overboard-from-sailing-yacht-mollie-louise-off-the-humber-estuary-england-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.17" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/persons-overboard-from-sailing-yacht-mollie-louise-off-the-humber-estuary-england-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Persons overboard from sailing yacht Mollie Louise with loss of 1 life"}' href="/maib-reports/persons-overboard-from-sailing-yacht-mollie-louise-off-the-humber-estuary-england-with-loss-of-1-life">Persons overboard from sailing yacht Mollie Louise with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Off the Humber Estuary, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2006-12-08">8 December 2006</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="18" data-ecommerce-path="/maib-reports/dragging-anchor-and-contact-with-overhead-cable-by-sailing-yacht-pinocchio-near-strangford-lough-northern-ireland-resulting-in-fire-and-1-injury-to-person" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.18" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/dragging-anchor-and-contact-with-overhead-cable-by-sailing-yacht-pinocchio-near-strangford-lough-northern-ireland-resulting-in-fire-and-1-injury-to-person" data-track-options='{"dimension28":50,"dimension29":"Dragging anchor and contact with overhead cable by sailing yacht Pinocchio resulting in fire and 1 person injured"}' href="/maib-reports/dragging-anchor-and-contact-with-overhead-cable-by-sailing-yacht-pinocchio-near-strangford-lough-northern-ireland-resulting-in-fire-and-1-injury-to-person">Dragging anchor and contact with overhead cable by sailing yacht Pinocchio resulting in fire and 1 person injured</a>
+<p class="gem-c-document-list__item-description">Location: Near Strangford Lough, Northern Ireland.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2004-03-06">6 March 2004</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="19" data-ecommerce-path="/maib-reports/safety-warning-issued-after-ignition-of-debris-during-firing-of-cannon-on-replica-3-masted-frigate-grand-turk-with-1-person-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.19" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-issued-after-ignition-of-debris-during-firing-of-cannon-on-replica-3-masted-frigate-grand-turk-with-1-person-injured" data-track-options='{"dimension28":50,"dimension29":"Safety warning after the ignition of debris during firing of cannon on replica 3-masted frigate Grand Turk with 1 person injured"}' href="/maib-reports/safety-warning-issued-after-ignition-of-debris-during-firing-of-cannon-on-replica-3-masted-frigate-grand-turk-with-1-person-injured">Safety warning after the ignition of debris during firing of cannon on replica 3-masted frigate Grand Turk with 1 person injured</a>
+<p class="gem-c-document-list__item-description">This document makes urgent recommendations to the owner and the master of Grand Turk.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-08-24">24 August 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="20" data-ecommerce-path="/maib-reports/ignition-of-debris-during-firing-of-cannon-on-replica-3-masted-frigate-grand-turk-in-portsmouth-england-with-1-person-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.20" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/ignition-of-debris-during-firing-of-cannon-on-replica-3-masted-frigate-grand-turk-in-portsmouth-england-with-1-person-injured" data-track-options='{"dimension28":50,"dimension29":"Ignition of debris during firing of cannon on replica 3-masted frigate Grand Turk with 1 person injured"}' href="/maib-reports/ignition-of-debris-during-firing-of-cannon-on-replica-3-masted-frigate-grand-turk-in-portsmouth-england-with-1-person-injured">Ignition of debris during firing of cannon on replica 3-masted frigate Grand Turk with 1 person injured</a>
+<p class="gem-c-document-list__item-description">Location: Berthed at Portsmouth, England.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-08-24">24 August 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="21" data-ecommerce-path="/maib-reports/collision-between-dredger-shoreway-and-yacht-orca-resulting-in-the-yacht-sinking-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.21" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-dredger-shoreway-and-yacht-orca-resulting-in-the-yacht-sinking-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Collision between dredger Shoreway and yacht Orca resulting in the yacht sinking with loss of 1 life"}' href="/maib-reports/collision-between-dredger-shoreway-and-yacht-orca-resulting-in-the-yacht-sinking-with-loss-of-1-life">Collision between dredger Shoreway and yacht Orca resulting in the yacht sinking with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: 7 miles off the coast of Felixstowe, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2014-06-08">8 June 2014</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="22" data-ecommerce-path="/maib-reports/sinking-of-sailing-yacht-ouzo-after-encounter-with-ro-ro-passenger-ferry-pride-of-bilbao-off-isle-of-wight-england-with-loss-of-3-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.22" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/sinking-of-sailing-yacht-ouzo-after-encounter-with-ro-ro-passenger-ferry-pride-of-bilbao-off-isle-of-wight-england-with-loss-of-3-lives" data-track-options='{"dimension28":50,"dimension29":"Sinking of sailing yacht Ouzo after encounter with ro-ro passenger ferry Pride of Bilbao with loss of 3 lives"}' href="/maib-reports/sinking-of-sailing-yacht-ouzo-after-encounter-with-ro-ro-passenger-ferry-pride-of-bilbao-off-isle-of-wight-england-with-loss-of-3-lives">Sinking of sailing yacht Ouzo after encounter with ro-ro passenger ferry Pride of Bilbao with loss of 3 lives</a>
+<p class="gem-c-document-list__item-description">Location: South of the Isle of Wight, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2006-08-20">20 August 2006</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="23" data-ecommerce-path="/maib-reports/sinking-of-dinghy-samphire-of-wells-on-the-north-norfolk-coast-england-with-loss-of-2-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.23" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/sinking-of-dinghy-samphire-of-wells-on-the-north-norfolk-coast-england-with-loss-of-2-lives" data-track-options='{"dimension28":50,"dimension29":"Sinking of dinghy Samphire of Wells with loss of 2 lives"}' href="/maib-reports/sinking-of-dinghy-samphire-of-wells-on-the-north-norfolk-coast-england-with-loss-of-2-lives">Sinking of dinghy Samphire of Wells with loss of 2 lives</a>
+<p class="gem-c-document-list__item-description">Location: North Norfolk coast, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1999-12-16">16 December 1999</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="24" data-ecommerce-path="/maib-reports/grounding-of-yacht-siesta-during-delivery-voyage-in-the-thames-estuary-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.24" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/grounding-of-yacht-siesta-during-delivery-voyage-in-the-thames-estuary-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Grounding of yacht Siesta during delivery voyage with loss of 1 life"}' href="/maib-reports/grounding-of-yacht-siesta-during-delivery-voyage-in-the-thames-estuary-with-loss-of-1-life">Grounding of yacht Siesta during delivery voyage with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Thames Estuary.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2005-06-21">21 June 2005</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="25" data-ecommerce-path="/maib-reports/safety-warning-issued-after-liquid-petroleum-gas-causes-explosion-on-sail-training-vessel-lord-trenchard-resulting-in-4-people-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.25" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-issued-after-liquid-petroleum-gas-causes-explosion-on-sail-training-vessel-lord-trenchard-resulting-in-4-people-injured" data-track-options='{"dimension28":50,"dimension29":"Safety warning after liquid petroleum gas causes explosion on vessel with 4 people injured"}' href="/maib-reports/safety-warning-issued-after-liquid-petroleum-gas-causes-explosion-on-sail-training-vessel-lord-trenchard-resulting-in-4-people-injured">Safety warning after liquid petroleum gas causes explosion on vessel with 4 people injured</a>
+<p class="gem-c-document-list__item-description">This document warns owners, skippers and crews about potential hazards associated with using LPG on board craft and makes recommendations.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 3 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1999-06-30">30 June 1999</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="26" data-ecommerce-path="/maib-reports/collision-between-sailing-yacht-ile-d-yeu-and-chemical-tanker-dutch-progress-resulting-in-loss-of-ile-d-yeu-off-whitby-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.26" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-sailing-yacht-ile-d-yeu-and-chemical-tanker-dutch-progress-resulting-in-loss-of-ile-d-yeu-off-whitby-england" data-track-options='{"dimension28":50,"dimension29":"Collision between sailing yacht Ile D Yeu and chemical tanker Dutch Progress with yacht sinking"}' href="/maib-reports/collision-between-sailing-yacht-ile-d-yeu-and-chemical-tanker-dutch-progress-resulting-in-loss-of-ile-d-yeu-off-whitby-england">Collision between sailing yacht Ile D Yeu and chemical tanker Dutch Progress with yacht sinking</a>
+<p class="gem-c-document-list__item-description">Location: 4 miles east of Whitby, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2007-06-02">2 June 2007</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="27" data-ecommerce-path="/maib-reports/safety-warning-issued-after-crew-had-problems-inflating-lifejackets-following-the-sinking-of-twin-trawler-radiant-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.27" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-issued-after-crew-had-problems-inflating-lifejackets-following-the-sinking-of-twin-trawler-radiant-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Safety warning to all mariners who wear inflatable lifejackets"}' href="/maib-reports/safety-warning-issued-after-crew-had-problems-inflating-lifejackets-following-the-sinking-of-twin-trawler-radiant-with-loss-of-1-life">Safety warning to all mariners who wear inflatable lifejackets</a>
+<p class="gem-c-document-list__item-description">This document makes urgent recommendations to users, service stations and suppliers of inflatable lifejackets.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 4 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2002-04-10">10 April 2002</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="28" data-ecommerce-path="/maib-reports/collision-between-liquid-gas-carrier-gas-monarch-and-sailing-yacht-whispa-off-lowestoft-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.28" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-liquid-gas-carrier-gas-monarch-and-sailing-yacht-whispa-off-lowestoft-england" data-track-options='{"dimension28":50,"dimension29":"Collision between liquid gas carrier Gas Monarch and sailing yacht Whispa"}' href="/maib-reports/collision-between-liquid-gas-carrier-gas-monarch-and-sailing-yacht-whispa-off-lowestoft-england">Collision between liquid gas carrier Gas Monarch and sailing yacht Whispa</a>
+<p class="gem-c-document-list__item-description">Location: 6 miles east south east of Lowestoft, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2007-04-16">16 April 2007</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="29" data-ecommerce-path="/maib-reports/collision-between-container-vessel-p-o-nedlloyd-vespucci-and-sailing-yacht-wahkuna-in-the-english-channel-off-the-south-coast-of-england-resulting-in-wahkuna-sinking" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.29" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-container-vessel-p-o-nedlloyd-vespucci-and-sailing-yacht-wahkuna-in-the-english-channel-off-the-south-coast-of-england-resulting-in-wahkuna-sinking" data-track-options='{"dimension28":50,"dimension29":"Collision between container vessel P\u0026O Nedlloyd Vespucci and sailing yacht Wahkuna resulting in yacht sinking"}' href="/maib-reports/collision-between-container-vessel-p-o-nedlloyd-vespucci-and-sailing-yacht-wahkuna-in-the-english-channel-off-the-south-coast-of-england-resulting-in-wahkuna-sinking">Collision between container vessel P&amp;O Nedlloyd Vespucci and sailing yacht Wahkuna resulting in yacht sinking</a>
+<p class="gem-c-document-list__item-description">Location: English Channel off south coast of England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2003-05-28">28 May 2003</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="30" data-ecommerce-path="/maib-reports/safety-warning-issued-after-identical-gybing-accidents-on-sailing-yachts-result-in-2-people-seriously-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.30" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-issued-after-identical-gybing-accidents-on-sailing-yachts-result-in-2-people-seriously-injured" data-track-options='{"dimension28":50,"dimension29":"Safety warning after identical gybing accidents on sailing yachts result in 2 people seriously injured"}' href="/maib-reports/safety-warning-issued-after-identical-gybing-accidents-on-sailing-yachts-result-in-2-people-seriously-injured">Safety warning after identical gybing accidents on sailing yachts result in 2 people seriously injured</a>
+<p class="gem-c-document-list__item-description">This documents highlights safety concerns to owners, operators and crew of yachts.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2006-05-31">31 May 2006</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="31" data-ecommerce-path="/maib-reports/fall-yard-on-the-fore-mast-on-sail-training-ship-ts-royalist-in-stokes-bay-near-gosport-england-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.31" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/fall-yard-on-the-fore-mast-on-sail-training-ship-ts-royalist-in-stokes-bay-near-gosport-england-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Fall from yard on fore mast on sail training ship TS Royalist with loss of 1 life"}' href="/maib-reports/fall-yard-on-the-fore-mast-on-sail-training-ship-ts-royalist-in-stokes-bay-near-gosport-england-with-loss-of-1-life">Fall from yard on fore mast on sail training ship TS Royalist with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Stokes Bay, near Gosport, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2010-05-02">2 May 2010</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="32" data-ecommerce-path="/maib-reports/person-overboard-from-sailing-yacht-pastime-in-the-english-channel-off-the-south-coast-of-england-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.32" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/person-overboard-from-sailing-yacht-pastime-in-the-english-channel-off-the-south-coast-of-england-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Person overboard from sailing yacht Pastime with loss of 1 life"}' href="/maib-reports/person-overboard-from-sailing-yacht-pastime-in-the-english-channel-off-the-south-coast-of-england-with-loss-of-1-life">Person overboard from sailing yacht Pastime with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: English Channel off the south coast of England. </p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2006-03-17">17 March 2006</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="33" data-ecommerce-path="/maib-reports/collision-between-sailing-yacht-bluebell-of-warsash-and-an-unidentified-ship-off-the-isle-of-wight-england-with-3-people-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.33" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-sailing-yacht-bluebell-of-warsash-and-an-unidentified-ship-off-the-isle-of-wight-england-with-3-people-injured" data-track-options='{"dimension28":50,"dimension29":"Collision between sailing yacht Bluebell of Warsash and an unidentified ship with 3 people injured"}' href="/maib-reports/collision-between-sailing-yacht-bluebell-of-warsash-and-an-unidentified-ship-off-the-isle-of-wight-england-with-3-people-injured">Collision between sailing yacht Bluebell of Warsash and an unidentified ship with 3 people injured</a>
+<p class="gem-c-document-list__item-description">Location: 23 miles south of The Needles, Isle of Wight, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1999-08-07">7 August 1999</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="34" data-ecommerce-path="/maib-reports/fire-in-forward-cabin-of-sailing-yacht-inseyandra-off-portsmouth-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.34" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/fire-in-forward-cabin-of-sailing-yacht-inseyandra-off-portsmouth-england" data-track-options='{"dimension28":50,"dimension29":"Fire in forward cabin of sailing yacht Inseyandra"}' href="/maib-reports/fire-in-forward-cabin-of-sailing-yacht-inseyandra-off-portsmouth-england">Fire in forward cabin of sailing yacht Inseyandra</a>
+<p class="gem-c-document-list__item-description">Location: Portsmouth harbour area, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2005-04-16">16 April 2005</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="35" data-ecommerce-path="/maib-reports/contact-made-by-general-cargo-vessel-wightstone-with-unoccupied-sailing-yacht-rose-ryal-moored-on-the-river-medina-isle-of-wight-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.35" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/contact-made-by-general-cargo-vessel-wightstone-with-unoccupied-sailing-yacht-rose-ryal-moored-on-the-river-medina-isle-of-wight-england" data-track-options='{"dimension28":50,"dimension29":"Contact made by general cargo vessel Wightstone with moored, unoccupied sailing yacht Rose Ryal"}' href="/maib-reports/contact-made-by-general-cargo-vessel-wightstone-with-unoccupied-sailing-yacht-rose-ryal-moored-on-the-river-medina-isle-of-wight-england">Contact made by general cargo vessel Wightstone with moored, unoccupied sailing yacht Rose Ryal</a>
+<p class="gem-c-document-list__item-description">Location: River Medina, Isle of Wight, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2000-11-09">9 November 2000</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="36" data-ecommerce-path="/maib-reports/explosion-on-sail-training-vessel-lord-trenchard-in-poole-harbour-england-with-4-people-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.36" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/explosion-on-sail-training-vessel-lord-trenchard-in-poole-harbour-england-with-4-people-injured" data-track-options='{"dimension28":50,"dimension29":"Explosion on sail training vessel Lord Trenchard with 4 people injured"}' href="/maib-reports/explosion-on-sail-training-vessel-lord-trenchard-in-poole-harbour-england-with-4-people-injured">Explosion on sail training vessel Lord Trenchard with 4 people injured</a>
+<p class="gem-c-document-list__item-description">Location: Berthed in Poole Harbour, England.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1999-06-30">30 June 1999</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="37" data-ecommerce-path="/maib-reports/person-overboard-while-tethered-to-racing-yacht-lion-off-selsey-bill-west-sussex-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.37" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/person-overboard-while-tethered-to-racing-yacht-lion-off-selsey-bill-west-sussex-england" data-track-options='{"dimension28":50,"dimension29":"Person overboard while tethered to racing yacht Lion"}' href="/maib-reports/person-overboard-while-tethered-to-racing-yacht-lion-off-selsey-bill-west-sussex-england">Person overboard while tethered to racing yacht Lion</a>
+<p class="gem-c-document-list__item-description">Location: 14.5 miles south of Selsey Bill, West Sussex, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2011-06-18">18 June 2011</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="38" data-ecommerce-path="/maib-reports/accidental-gybe-on-commercially-operated-sailing-yacht-liquid-vortex-in-lyme-bay-england-with-1-person-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.38" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/accidental-gybe-on-commercially-operated-sailing-yacht-liquid-vortex-in-lyme-bay-england-with-1-person-injured" data-track-options='{"dimension28":50,"dimension29":"Accidental gybe on commercially operated sailing yacht Liquid Vortex with 1 person injured"}' href="/maib-reports/accidental-gybe-on-commercially-operated-sailing-yacht-liquid-vortex-in-lyme-bay-england-with-1-person-injured">Accidental gybe on commercially operated sailing yacht Liquid Vortex with 1 person injured</a>
+<p class="gem-c-document-list__item-description">Location: Lyme Bay, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2011-05-28">28 May 2011</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="39" data-ecommerce-path="/maib-reports/sinking-of-angling-vessel-shayne-in-the-approaches-to-burry-inlet-wales-with-loss-of-2-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.39" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/sinking-of-angling-vessel-shayne-in-the-approaches-to-burry-inlet-wales-with-loss-of-2-lives" data-track-options='{"dimension28":50,"dimension29":"Swamping and sinking of angling vessel Shayne with loss of 2 lives"}' href="/maib-reports/sinking-of-angling-vessel-shayne-in-the-approaches-to-burry-inlet-wales-with-loss-of-2-lives">Swamping and sinking of angling vessel Shayne with loss of 2 lives</a>
+<p class="gem-c-document-list__item-description">Location: Approaches to Burry Inlet, Wales.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2007-02-10">10 February 2007</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="40" data-ecommerce-path="/maib-reports/capsize-of-a-laser-stratos-dinghy-on-kielder-water-in-northumberland-england-with-loss-of-2-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.40" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-of-a-laser-stratos-dinghy-on-kielder-water-in-northumberland-england-with-loss-of-2-lives" data-track-options='{"dimension28":50,"dimension29":"Capsize of sailing dinghy with loss of 2 lives"}' href="/maib-reports/capsize-of-a-laser-stratos-dinghy-on-kielder-water-in-northumberland-england-with-loss-of-2-lives">Capsize of sailing dinghy with loss of 2 lives</a>
+<p class="gem-c-document-list__item-description">Location: Kielder Water in Northumberland, England.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2009-12-07">7 December 2009</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="41" data-ecommerce-path="/maib-reports/safety-warning-issued-after-the-capsize-of-hired-motor-cruiser-breakaway-v-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.41" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-issued-after-the-capsize-of-hired-motor-cruiser-breakaway-v-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Safety warning after capsize of a hired motor cruiser with loss of 1 life"}' href="/maib-reports/safety-warning-issued-after-the-capsize-of-hired-motor-cruiser-breakaway-v-with-loss-of-1-life">Safety warning after capsize of a hired motor cruiser with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">This document makes urgent recommendations to hire boat operators and all bodies/authorities responsible for the licensing of such vessels.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 2 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2003-07-19">19 July 2003</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="42" data-ecommerce-path="/maib-reports/safety-warning-issued-after-3-investigations-concern-entry-to-enclosed-spaces-with-total-loss-of-6-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.42" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-issued-after-3-investigations-concern-entry-to-enclosed-spaces-with-total-loss-of-6-lives" data-track-options='{"dimension28":50,"dimension29":"Safety warning after 3 investigations into entry to enclosed spaces with total loss of 6 lives"}' href="/maib-reports/safety-warning-issued-after-3-investigations-concern-entry-to-enclosed-spaces-with-total-loss-of-6-lives">Safety warning after 3 investigations into entry to enclosed spaces with total loss of 6 lives</a>
+<p class="gem-c-document-list__item-description">Urgent recommendations made to ship owners/managers, industry bodies/organisations and the Maritime and Coastguard Agency.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 4 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2008-07-11">11 July 2008</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="43" data-ecommerce-path="/maib-reports/collision-between-chain-ferry-bramble-bush-bay-and-4-racing-yachts-at-entrance-to-poole-harbour-england-resulting-in-1-yacht-sinking" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.43" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-chain-ferry-bramble-bush-bay-and-4-racing-yachts-at-entrance-to-poole-harbour-england-resulting-in-1-yacht-sinking" data-track-options='{"dimension28":50,"dimension29":"Collision between chain ferry Bramble Bush Bay and 4 racing yachts resulting in 1 yacht sinking "}' href="/maib-reports/collision-between-chain-ferry-bramble-bush-bay-and-4-racing-yachts-at-entrance-to-poole-harbour-england-resulting-in-1-yacht-sinking">Collision between chain ferry Bramble Bush Bay and 4 racing yachts resulting in 1 yacht sinking </a>
+<p class="gem-c-document-list__item-description">Location: Entrance to Poole Harbour, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-05-05">5 May 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="44" data-ecommerce-path="/maib-reports/missing-dinghy-on-loch-awe-scotland-with-loss-of-4-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.44" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/missing-dinghy-on-loch-awe-scotland-with-loss-of-4-lives" data-track-options='{"dimension28":50,"dimension29":"Missing dinghy with loss of 4 lives"}' href="/maib-reports/missing-dinghy-on-loch-awe-scotland-with-loss-of-4-lives">Missing dinghy with loss of 4 lives</a>
+<p class="gem-c-document-list__item-description">Location: Near Dalmally, Loch Awe, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2009-03-21">21 March 2009</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="45" data-ecommerce-path="/maib-reports/unsuitable-harness-nearly-results-in-fall-from-yard-arm-of-sail-training-vessel-lord-nelson" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.45" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/unsuitable-harness-nearly-results-in-fall-from-yard-arm-of-sail-training-vessel-lord-nelson" data-track-options='{"dimension28":50,"dimension29":"Unsuitable harness nearly results in fall from yard arm of sail training vessel Lord Nelson"}' href="/maib-reports/unsuitable-harness-nearly-results-in-fall-from-yard-arm-of-sail-training-vessel-lord-nelson">Unsuitable harness nearly results in fall from yard arm of sail training vessel Lord Nelson</a>
+<p class="gem-c-document-list__item-description">Location: Foreign coastal waters.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2003-07-14">14 July 2003</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="46" data-ecommerce-path="/maib-reports/accidental-gybes-on-yachts-sunsail-8-and-sunsail-20-both-off-the-south-coast-of-england-with-2-people-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.46" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/accidental-gybes-on-yachts-sunsail-8-and-sunsail-20-both-off-the-south-coast-of-england-with-2-people-injured" data-track-options='{"dimension28":50,"dimension29":"Accidental gybes on yachts Sunsail 8 and Sunsail 20 with 2 people injured"}' href="/maib-reports/accidental-gybes-on-yachts-sunsail-8-and-sunsail-20-both-off-the-south-coast-of-england-with-2-people-injured">Accidental gybes on yachts Sunsail 8 and Sunsail 20 with 2 people injured</a>
+<p class="gem-c-document-list__item-description">Location: The Solent, off the south coast of England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2006-03-04">4 March 2006</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="47" data-ecommerce-path="/maib-reports/grounding-of-sail-training-vessel-ts-royalist-near-chapman-s-pool-off-dorset-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.47" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/grounding-of-sail-training-vessel-ts-royalist-near-chapman-s-pool-off-dorset-england" data-track-options='{"dimension28":50,"dimension29":"Grounding of sail training vessel TS Royalist"}' href="/maib-reports/grounding-of-sail-training-vessel-ts-royalist-near-chapman-s-pool-off-dorset-england">Grounding of sail training vessel TS Royalist</a>
+<p class="gem-c-document-list__item-description">Location: Near Chapman’s Pool off Dorset, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel under 100 gross tons and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2009-04-05">5 April 2009</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="48" data-ecommerce-path="/maib-reports/safety-warning-issued-after-wash-wave-from-high-speed-ferry-strikes-angling-boat-purdy-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.48" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-issued-after-wash-wave-from-high-speed-ferry-strikes-angling-boat-purdy-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Safety warning after large wash wave from high speed ferry hits angling boat with loss of 1 life"}' href="/maib-reports/safety-warning-issued-after-wash-wave-from-high-speed-ferry-strikes-angling-boat-purdy-with-loss-of-1-life">Safety warning after large wash wave from high speed ferry hits angling boat with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">This document highlights urgent action to be taken by the Maritime and Coastguard Agency and makes a recommendation to users of small craft.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 4 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1999-07-17">17 July 1999</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="49" data-ecommerce-path="/maib-reports/accidental-gybe-on-cruiser-racing-yacht-buccaneer-of-upnor-south-west-of-st-alban-s-head-england-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.49" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/accidental-gybe-on-cruiser-racing-yacht-buccaneer-of-upnor-south-west-of-st-alban-s-head-england-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Accidental gybe on cruiser racing yacht Buccaneer of Upnor with loss of 1 life"}' href="/maib-reports/accidental-gybe-on-cruiser-racing-yacht-buccaneer-of-upnor-south-west-of-st-alban-s-head-england-with-loss-of-1-life">Accidental gybe on cruiser racing yacht Buccaneer of Upnor with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: 2.5 miles south-west of St Alban's Head, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Recreational craft - sail
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2007-08-22">22 August 2007</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="50" data-ecommerce-path="/maib-reports/collision-between-sailing-yacht-ibis-and-container-vessel-oocl-malaysia-off-southampton-england-resulting-in-sinking-of-ibis" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.50" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-sailing-yacht-ibis-and-container-vessel-oocl-malaysia-off-southampton-england-resulting-in-sinking-of-ibis" data-track-options='{"dimension28":50,"dimension29":"Collision between sailing yacht Ibis and container vessel OOCL Malaysia resulting in Ibis sinking"}' href="/maib-reports/collision-between-sailing-yacht-ibis-and-container-vessel-oocl-malaysia-off-southampton-england-resulting-in-sinking-of-ibis">Collision between sailing yacht Ibis and container vessel OOCL Malaysia resulting in Ibis sinking</a>
+<p class="gem-c-document-list__item-description">Location: Port of Southampton, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2005-02-06">6 February 2005</time>
+</li> </ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="js-pagination">
+<nav aria-label="Pagination" class="gem-c-pagination" role="navigation">
+<ul class="gem-c-pagination__list" data-module="track-click">
+<li class="gem-c-pagination__item gem-c-pagination__item--next">
+<a class="gem-c-pagination__link" data-track-action="next" data-track-category="contentsClicked" data-track-dimension="next" data-track-dimension-index="29" data-track-label="/maib-reports?page=2&amp;vessel_type%5B%5D=recreational-craft-sail" href="/maib-reports?page=2&amp;vessel_type%5B%5D=recreational-craft-sail" rel="next">
+<span class="gem-c-pagination__link-title">
+<svg class="gem-c-pagination__link-icon" height="13" viewbox="0 0 17 13" width="17" xmlns="http://www.w3.org/2000/svg">
+<path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
+</svg>
+<span class="gem-c-pagination__link-text">
+              Next page
+            </span>
+</span>
+<span class="gem-c-pagination__link-divider visually-hidden">:</span>
+<span class="gem-c-pagination__link-label">2 of 2</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="subscription-links" id="subscription-links-footer">
+<section class="gem-c-subscription-links">
+<ul class="gem-c-subscription-links__list gem-c-subscription-links__list--small">
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/maib-reports/email-signup?vessel_type%5B%5D=recreational-craft-sail"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15.75" width="21" xmlns="http://www.w3.org/2000/svg"><path d="M19.687 0H1.312C.589 0 0 .587 0 1.313v13.124c0 .726.588 1.313 1.313 1.313h18.374c.725 0 1.313-.587 1.313-1.313V1.313C21 .587 20.412 0 19.687 0zm-2.625 2.625L10.5 7.875l-6.563-5.25h13.126zm1.313 10.5H2.625V3.937L10.5 10.5l7.875-6.563v9.188z"></path></svg>
+           Get emails
+</a>
+</li>
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/maib-reports.atom?vessel_type%5B%5D=recreational-craft-sail"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M1.996 11A2 2 0 0 0 0 12.993c0 1.101.895 1.99 1.996 1.99 1.106 0 2-.889 2-1.99a2 2 0 0 0-2-1.993zM.002 5.097V7.97c1.872 0 3.632.733 4.958 2.059A6.984 6.984 0 0 1 7.015 15h2.888c0-5.461-4.443-9.903-9.9-9.903zM.006 0v2.876c6.676 0 12.11 5.44 12.11 12.124H15C15 6.731 8.273 0 .006 0z"></path></svg>
+           Subscribe to feed
+</a>
+</li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+</div>
+</form>

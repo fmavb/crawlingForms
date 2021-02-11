@@ -1,0 +1,58 @@
+<form action="/services/hospital/salford-royal/X2132/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Great individual care &lt;/Title&gt;
+    &lt;ScreenName&gt;Wayne Ĺewis&lt;/ScreenName&gt;
+    &lt;CommentText&gt;My first experience staying overnight in a hospital and have heard nothing but horror stories about people's time under the NHS care. Luckily for me it was the total opposite for my stay at salford royal. I found the staff caring, professional and good at their job. Not just the Dr's and nurses, but the support nurses, food staff, cleaning staff and trainees. I'm 40 so had a clear mind and observation of what was happening  around me and touching how some staff went from paitient to paitient really understanding what was the obvious problems but also manage to take time to  notice other issues. Some not medical issues but we're clearly having an effect on the patients well being and health. A lot of the staff were working 12 hours and not once did I see that reduce their attitude and focus. The support staff were always at hand when needed while also tending to their regular errands. The food and cleaning staff were always busy and bubbly bringing smiles to the patient's. 
+I think A lot could be improved but that is down shortage of funds and staff. I think there should be more benefits and wage increases to the Drs, nurses and support staff on the lower end of the scale as they do a great job and I feel we all take for granted how good the health service is how lucky we are having these people there when we take ill, have an accident or any circumstance that puts them into action for our cause. So, Thankyou all very much, especially the staff who were there for my time of need in the Irving building on ward B3. This is a genuine review of my experience a Salford royal and hope that in some way it can help, even just morale but hopefully more for the staff and the hospital itself for the future! 
+Keep up the fine work and care. 
+
+Mr Lewis&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-10-27T00:49:57Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;10&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Salford Royal&lt;/OrganisationName&gt;
+    &lt;Department&gt;Orthopaedics&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;69b771ae-53f8-e911-a813-000d3a7ed2f2&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X2132&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamELIu6xBEzsUQiZYmHP1VPrQSqlFLjrpzttRTiC0AsqYRJf7Rer-NoOFIp_deDBZikHmPWvMSYtL63cdgoATCozhvRUlVIaX50T1IBu2L2GBuai5Y2Y0cjhIfvT-E03h4k"/></form>

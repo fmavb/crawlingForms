@@ -1,0 +1,87 @@
+<form action="/contact-us/nhs-website-info-quality" method="post">
+<input id="Description" name="Description" type="hidden" value="Contact the NHS website team with questions and feedback about your organisation profile on the NHS website"/>
+<input id="Url" name="Url" type="hidden" value="nhs-website-info-quality"/>
+<input id="Title" name="Title" type="hidden" value="Report a problem with information about an NHS service on this website"/>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_1">
+<input id="FormFields_0__MultilineTextField" name="FormFields[0].ModelTypeName" type="hidden" value="MultilineTextField"/>
+<label class="nhsuk-label nhsuk-label--l" for="MultilineTextField_1_input" id="MultilineTextField_1_label">
+  Your message for us
+</label>
+<span class="nhsuk-hint" id="MultilineTextField_1_hint">
+<p>Do not include confidential or medical information in your message. For example, your NHS number, date of birth, medical diagnosis or medical history.</p>
+</span>
+<textarea aria-describedby="MultilineTextField_1_hint" class="nhsuk-textarea" id="MultilineTextField_1_input" name="FormFields[0].Value" rows="5"></textarea>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_2">
+<input id="FormFields_1__SingleLineTextField" name="FormFields[1].ModelTypeName" type="hidden" value="SingleLineTextField"/>
+<label class="nhsuk-label nhsuk-label--l" for="SingleLineTextField_2_input" id="SingleLineTextField_2_label">
+  Full name (optional)
+</label>
+<span class="nhsuk-hint" id="SingleLineTextField_2_hint">
+<p>We will use the name you provide in any replies to your message. We will not use your name for any other purpose.</p>
+</span>
+<input aria-describedby="SingleLineTextField_2_hint" class="nhsuk-input" id="SingleLineTextField_2_input" name="FormFields[1].Value" type="text"/>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_3">
+<input id="FormFields_2__EmailField" name="FormFields[2].ModelTypeName" type="hidden" value="EmailField"/>
+<label class="nhsuk-label nhsuk-label--l" for="EmailField_3_input" id="EmailField_3_label">
+  Email address
+</label>
+<span class="nhsuk-hint" id="EmailField_3_hint">
+<p>We will use your email address to resolve the issue you are contacting us about and reply to you. We may invite you to complete a voluntary short satisfaction survey. We will not use your email address for any other purpose.</p>
+</span>
+<input aria-describedby="EmailField_3_hint" class="nhsuk-input" id="EmailField_3_input" name="FormFields[2].Value" type="text"/>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_4">
+<input id="FormFields_3__AutoPopulatedField" name="FormFields[3].ModelTypeName" type="hidden" value="AutoPopulatedField"/>
+<label class="nhsuk-label nhsuk-label--l" for="AutoPopulatedField_4_input" id="AutoPopulatedField_4_label">
+  Page address (URL)
+</label>
+<input class="nhsuk-input" disabled="" id="AutoPopulatedField_4_input_ro" type="text" value="https://www.nhs.uk/Services/hospitals/Services/DefaultView.aspx?id=R1J13"/>
+<input class="nhsuk-input" id="AutoPopulatedField_4_input" name="FormFields[3].Value" type="hidden" value="https://www.nhs.uk/Services/hospitals/Services/DefaultView.aspx?id=R1J13"/>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_5">
+<input id="FormFields_4__AutoPopulatedField" name="FormFields[4].ModelTypeName" type="hidden" value="AutoPopulatedField"/>
+<label class="nhsuk-label nhsuk-label--l" for="AutoPopulatedField_5_input" id="AutoPopulatedField_5_label">
+  Page title
+</label>
+<input class="nhsuk-input" disabled="" id="AutoPopulatedField_5_input_ro" type="text" value="services - stroud general hospital - nhs"/>
+<input class="nhsuk-input" id="AutoPopulatedField_5_input" name="FormFields[4].Value" type="hidden" value="services - stroud general hospital - nhs"/>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_6">
+<input id="FormFields_5__AutoPopulatedField" name="FormFields[5].ModelTypeName" type="hidden" value="AutoPopulatedField"/>
+<label class="nhsuk-label nhsuk-label--l" for="AutoPopulatedField_6_input" id="AutoPopulatedField_6_label">
+  Organisation name
+</label>
+<input class="nhsuk-input" disabled="" id="AutoPopulatedField_6_input_ro" type="text" value="stroud general hospital"/>
+<input class="nhsuk-input" id="AutoPopulatedField_6_input" name="FormFields[5].Value" type="hidden" value="stroud general hospital"/>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_7">
+<input id="FormFields_6__AutoPopulatedField" name="FormFields[6].ModelTypeName" type="hidden" value="AutoPopulatedField"/>
+<label class="nhsuk-label nhsuk-label--l" for="AutoPopulatedField_7_input" id="AutoPopulatedField_7_label">
+  Organisation address
+</label>
+<input class="nhsuk-input" disabled="" id="AutoPopulatedField_7_input_ro" type="text" value=", trinity road, stroud, gloucestershire, gl5 2hy"/>
+<input class="nhsuk-input" id="AutoPopulatedField_7_input" name="FormFields[6].Value" type="hidden" value=", trinity road, stroud, gloucestershire, gl5 2hy"/>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_8">
+<fieldset class="nhsuk-fieldset">
+<input id="FormFields_7__CheckboxField" name="FormFields[7].ModelTypeName" type="hidden" value="CheckboxField"/>
+<label class="nhsuk-label nhsuk-label--l" for="CheckboxField_8_input" id="CheckboxField_8_label">
+  Privacy policy agreement
+</label>
+<span class="nhsuk-hint" id="CheckboxField_8_hint">
+<p>You must confirm you have read and understood our <a href="https://www.nhs.uk/our-policies/privacy-policy/" target="_blank">privacy policy</a> before sending.</p>
+</span>
+<div class="nhsuk-checkboxes">
+<div class="nhsuk-checkboxes__item">
+<input aria-describedby="CheckboxField_8_hint" class="nhsuk-checkboxes__input" id="CheckboxField_8_input" name="FormFields[7].Value" type="checkbox"/>
+<label class="nhsuk-label nhsuk-checkboxes__label" for="CheckboxField_8_input" id="CheckboxField_8_label">
+      I have read and understood the privacy policy
+    </label>
+</div>
+</div>
+</fieldset>
+</div>
+<button class="nhsuk-button" id="submit-button" type="submit">Send message</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AIAQ8V5OB1Eq1PZK_ZhWL5pzcY_xQp66pqyR6LASyzEemSZ_s71ehSpN8-rGZjvDv3ECIpb9KH7UhChgzQK0ygo7956ps_4AtY_dgUux-fe7KHor1gvy7dGjHVLzZSpWbo6ViVPpk5OOKjEMim8SUM"/></form>

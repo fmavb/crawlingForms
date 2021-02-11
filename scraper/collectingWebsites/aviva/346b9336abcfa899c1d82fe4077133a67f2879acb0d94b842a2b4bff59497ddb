@@ -1,0 +1,20 @@
+<form action="/aviva-essentials/authpwd/start" class="new-design" form-inputs="form-inputs" method="post" name="resetPasswordForm" ng-if="vm.resetPassword">
+<div class="displayTable width100 allBorSolid allBorderRadius left botGap">
+<div class="form-container noBorder content-main-help-left displayTableCell">
+<div class="details noBottomMargin noBottomBorder">
+<h1>Essentials - Reset password</h1>
+</div>
+<div class="form-area noPadding width100">
+<div class="single-field noTopBorder pl15">
+<p>Please enter the email address you used to register.</p>
+</div>
+<input container-class="noTopBorder noRightBorder bgcT bbrr10 bblr10" container-ng-class="'pb15': !resetPasswordForm.$submitted || (resetPasswordForm.$submitted &amp;&amp; resetPasswordForm.$valid)" email="email" error-field-name="Email address" no-label="no-label" type="email"/>
+</div>
+</div>
+</div>
+<div class="buttonContainer clear">
+<div class="submitBtn continueBtn right">
+<input class="button yellow-continue buttonClick" ng-click="vm.reset(resetPasswordForm)" ng-disabled="resetPasswordForm.$submitted &amp;&amp; resetPasswordForm.$valid &amp;&amp; vm.submitted" style="continueBtn" type="submit" value="Submit"/>
+</div>
+</div>
+</form>

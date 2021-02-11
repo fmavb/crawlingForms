@@ -1,0 +1,54 @@
+<form action="/services/hospital/victoria-hospital-sidmouth/X1780/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;appointments completely messed up again&lt;/Title&gt;
+    &lt;ScreenName&gt;Darryl Curran&lt;/ScreenName&gt;
+    &lt;CommentText&gt;i haven’t even had an operation yet and don’t feel safe walking into this hospital. I got a letter changing my operation appointment for plastic surgery which in itself isn’t a problem, except I never had a letter, phone call or a date for the operation in the first place. It says in the letter to refer to my day case original letter and date for information which I never got or received. It also says any problems to contact but I have no name, letter isn’t signed and the only number I have is a number if I cannot make the new date. So I now have to ring tomorrow to actually find out what is going on if indeed the number I have been given is the right number to speak to someone. I am also going to ring PALS ( again) as this is not the first time this has happened and the last time I spent nearly a whole day, calling Sidmouth hospital, calling Exeter hospital, phoning my G.P. Who was also trying to call someone to see what was going on. To cut a long story short after going through PALS and a lot of investigations and speaking to different people I got a letter from the head chief nursing officer who assured me that this has been looked into, I got a full apology and was assured re training had taken place and this would never happen again and it’s not standard practise. Well obviously it has happened again and either training has not been done properly or there is a lack of care and respect for patients from the appointments process. I cannot comment on the consultant as I have not had the operation yet as it doesn’t seem to be able to be sorted and I am not blaming him at all and I am sure he would be totally professional and caring but the appointments system is not and when I spoke to a lady at Exeter last time with all the problems she was so rude and was shouting at me. I told her nicely please don’t shout I am not shouting at you and I have also not been rude either, I am treating you the way I would like to be treated and your signs at hospital say no threatening or verbally abusive behaviour will be tolerated, maybe this should apply when you are speaking to,patients. To be fair when this was investigated the lady who phoned me did say this wasn’t the first time this had happened and she thought she knew who was responsible, and she won’t be working in that department anymore so I wouldn’t be speaking to her again. But there seems to be an on going problem with appointments and procedures not followed or being done properly this needs sorting out.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-08-22T22:58:06.863Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;8&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Victoria Hospital (Sidmouth)&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;1c346d02-13e9-e911-a812-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1780&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHPqPDQRQBv2ioqLLICjgi_JOcJUmNAptAwpCRGo9nRXo_N_86dyrKJ6qyJf4nvflqgcaTKPF9d5SjyWmja44P8BVFTj6LPPpdrR9pW8cURcfeeB865FjDh-rVjlO6qr48"/></form>

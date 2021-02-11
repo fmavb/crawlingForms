@@ -1,0 +1,69 @@
+<form method="post" name="forgotten_password">
+<input id="forgotten_password__token" name="forgotten_password[_token]" type="hidden" value="hcTtEvcIczCenP5LZxXTcMk_MdGaHhVA7yS6UTJ1aNo"/>
+<div class="l-section">
+<div class="l-content-container">
+<div class="m-form-row">
+<div class="m-heading-group">
+<h1 class="a-heading a-heading--1 a-heading--1-form">Forgotten password</h1>
+<h3 class="a-heading a-heading--3">Before we can reset your password, please enter the following information:</h3>
+</div>
+</div>
+<div class="m-form-row u-hidden">
+<div class="m-card m-card-notification m-card-notification--warning" role="status">
+<div class="m-card-content" id="m-card-content">
+<p>The details entered do not match your Aviva Save account.</p>
+</div>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<fieldset>
+<div class="m-form-row">
+<label class="a-label" for="forgotten_password_firstNames">First name</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="forgotten_password_firstNames" name="forgotten_password[firstNames]" placeholder="Enter your first name" type="text"/>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="forgotten_password_lastName">Last name</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="forgotten_password_lastName" name="forgotten_password[lastName]" placeholder="Enter your last name" type="text"/>
+</div>
+</div>
+<fieldset class="m-form-row" role="group">
+<legend class="a-label">Date of birth</legend>
+<div class="m-form-row__content">
+<ul class="m-textbox-group">
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="test-date-1">Day</label>
+<input class="a-textbox a-textbox--2-character" id="forgotten_password_dobDay" maxlength="2" minlength="2" name="forgotten_password[dobDay]" placeholder="DD" type="text"/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="test-date-2">Month</label>
+<input class="a-textbox a-textbox--2-character" id="forgotten_password_dobMonth" maxlength="2" minlength="2" name="forgotten_password[dobMonth]" placeholder="MM" type="text"/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="test-date-3">Year</label>
+<input class="a-textbox a-textbox--4-character" id="forgotten_password_dobYear" maxlength="4" minlength="4" name="forgotten_password[dobYear]" placeholder="YYYY" type="text"/>
+</li>
+</ul>
+</div>
+</fieldset>
+<div class="m-form-row m-form-row--has-explanatory-text-link">
+<label class="a-label" for="forgotten_password_emailAddress">Email address</label>
+<p class="m-form-row__explanatory-text-link"><a href="/forgotten-email">Forgot email</a></p>
+<div class="m-form-row__content">
+<input class="a-textbox" id="forgotten_password_emailAddress" name="forgotten_password[emailAddress]" placeholder="Enter your email here" type="email"/>
+</div>
+</div>
+<div class="m-form-row">
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<button class="a-button a-button--primary" type="submit">Submit</button>
+</li>
+</ul>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</form>

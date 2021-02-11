@@ -1,0 +1,108 @@
+<form action="/api/sitecore/ApplicantDetails" id="frmContactDetails" method="post"><input id="hdnValidateContactDetails" name="hdnValidateContactDetails" type="hidden" value="/api/sitecore/ApplicantDetails/ValidateContactDetails"/> <input id="emailSelectionDefault" type="hidden" value="True"/>
+<input id="postSelectionDefault" type="hidden" value="False"/>
+<div>
+<div class="form">
+<div class="row">
+<div class="field-section">
+<div class="validation-message hideError">
+</div>
+<div class="col w-30 label">
+<label for="Postcode">Postcode</label>
+</div>
+<div class="col w-70 bubble-check-remove">
+<input class="bby-field postcode show-tooltip" data-val="true" data-val-required="Please enter your postcode" data-val-validate="Please enter a valid postcode" data-val-validate-ajax="postcode" data-val-validate-regex="^(\s*)[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]? ?[0-9][A-Za-z]{2}\s*$" id="Postcode" maxlength="10" name="ContactDetails.Postcode" placeholder="Postcode" tabindex="15" type="text" value=""/><div class="bubble-facts" style="display: none; left: 0px;"><div class="arrow-left"></div><div class="bubble">Your postcode is used to locate recommended hospitals and clinics closest to your home<br/></div></div>
+</div>
+<div class="spinner" id="spinner" style="display:none;">
+<img alt="ajaxLoaderBlue" id="img-spinner" src="https://assets.bupa.co.uk/Assets/BupByYou/CSS/img/ajax-loader-blue.gif"/>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="field-section">
+<div class="validation-message hideError">
+</div>
+<div class="col w-30 label">
+<label for="Telephone">Telephone</label>
+</div>
+<div class="col w-70 bubble-check-remove">
+<input class="bby-field telephone show-tooltip" data-val="true" data-val-required="Please enter your phone number" data-val-validate="Please enter a valid phone number" data-val-validate-regex="^(((\+44\s?\d{4}|\(?0\d{4}\)?)\s?\d{3}\s?\d{3})|((44\s?\d{3}|\(?\d{3}\)?)\s?\d{3}\s?\d{4})|((\+44\s?\d{3}|\(?0\d{3}\)?)\s?\d{3}\s?\d{4})|((\+44\s?\d{2}|\(?0\d{2}\)?)\s?\d{4}\s?\d{4}))(\s?\#(\d{4}|\d{3}))?$" id="Telephone" maxlength="13" name="ContactDetails.Telephone" placeholder="Telephone" tabindex="16" type="tel" value=""/><div class="bubble-facts" style="display: none; left: 0px;"><div class="arrow-left"></div><div class="bubble">We'll only use your details to contact you in relation to this quote</div></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="field-section">
+<div class="validation-message hideError">
+</div>
+<div class="col w-30 label">
+<label for="EmailAddress">Email</label>
+</div>
+<div class="col w-70">
+<input class="bby-field email show-tooltip" data-val="true" data-val-required="Please enter your email address" data-val-validate="Please enter a valid email address" data-val-validate-regex="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}" id="EmailAddress" name="ContactDetails.EmailAddress" placeholder="Email" tabindex="17" type="text" value=""/>
+</div>
+</div>
+</div>
+<div class="row reviewMedium">
+<div class="validation-message hideError">
+</div>
+<div class="col w-30 label">
+<label for="Quote Prefernce"> How would you like to receive confirmation of your quote details?</label>
+</div>
+<div class="col w-40 bubble-check-remove">
+<div class="module-preview">
+<div class="module-layout">
+<input class="QuotePrefernce" data-val-required="Please select your preference" id="QuotePreference" type="hidden" value=""/>
+<span class="mobile-span show-tooltip" data-id="QuotePrefernce" data-val="Email" tabindex="18">
+<span>
+<span></span>
+</span>Email
+
+                                </span>
+<span class="tablet-span show-tooltip" data-id="QuotePrefernce" data-val="Post" tabindex="19">
+<span>
+<span></span>
+</span>Post
+                                </span>
+<div class="bubble-facts" style="display: none; left: 0px;"><div class="arrow-left"></div><div class="bubble"><div class="Yes-Post">Once you’ve provided your full address details, we’ll send you your quote pack in the post within 7-10 working days.  You can then return online to complete your purchase. If you wish to buy today you should opt to receive confirmation of your quote details via email.</div></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="field-section">
+<div class="validation-message hideError">
+</div>
+<div class="col w-30 label">
+<label for="PolicyStartDate">Policy start date</label>
+</div>
+<div class="col w-25 date-container">
+<input id="hdnPolicyStartDate" name="hdnPolicyStartDate" type="hidden" value="1/1/0001 12:00:00 AM"/>
+<input id="hdnDefaultPolicyStartDate" name="hdnDefaultPolicyStartDate" type="hidden" value="1/1/0001 12:00:00 AM"/>
+<input class="bby-field date-field show-tooltip" data-invalid="Unfortunately we can't offer you Bupa By You for this applicant, please call to discuss your options." data-maxage="80" data-minage="18" id="PolicyStartDate" maxlength="35" name="formFields.PolicyStartDate" placeholder="" readonly="readonly" tabindex="20" type="text" value=""/>
+</div>
+<div class="col w-35">
+<p class="policy-start-message">
+                            Your policy start date must be within 30 days.
+                        </p>
+</div>
+</div>
+</div>
+<div>
+<label aria-label="MarketingInfo" for="MarketingInfo">MarketingInfo</label>
+<p></p><p>We recognise that when you give us personal information (which includes health information) you’re trusting us to take good care of it. Please see our <a href="/legal-notices/privacy-and-cookies" target="_blank" title="Opens in new window">privacy policy</a> for more information about how we collect, use and protect your data.</p>
+<p>If you ask us to provide you with a quote this means we’ll save and process your personal information whether you go on to buy or not. By starting this quote, you indicate your consent for Bupa, or a third-party, to call or email you about your private medical insurance requirements. If this is the third-party, they will only use your information for that purpose and not for any other marketing or sales activities.</p>
+<p>If you don’t want to receive marketing about Bupa products and services that we think are relevant to you, please contact us at <a href="mailto:optmeout@bupa.com" target="_blank" title="Opens in new window">optmeout@bupa.com</a>.</p>
+</div>
+<div class="row"></div>
+<div class="row submitSection">
+<div id="LPContactDetailsContinue">
+<!-- Removed for now from below CoverOptionSitecore.LinkButton.LinkButtonBGColor & CoverOptionSitecore.LinkButton.LinkButtonFGColor -->
+<a class="btn left-button href-analytics" data-next-analytics-name="family-details" href="javascript:void(0)" id="contact-details-close">
+<span data-analytics-category="accordian" data-analytics-name="contact-details" href="#" id="contactDetailsContinue" tabindex="21"></span>
+                        Continue
+                    </a>
+</div>
+</div>
+<div class="row"></div>
+</div>
+</div>
+</form>

@@ -1,0 +1,64 @@
+<form action="/services/hospital/churchill-hospital/X1675/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Kidney cancer op&lt;/Title&gt;
+    &lt;ScreenName&gt;James&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I arrived on Tuesday morning 24/9. The anaesthetist briefed me as well as the consultant surgeon. I felt very confident. As the general anaesthetic wore off I awoke in a busy room. Immediately I was made to feel at ease. Later I was moved to the ward where I stayed for two nights.
+
+This is where I felt the patient care dropped off. The night nurses where very officious. I had a drain in my tummy that needed changing. I was made to feel that this was my fault as a mess on the bed had been created. To be honest I hadn’t even looked as I was getting my head around how uncomfortable I was feeling. The nurse changed my dressing and it hurt a lot when she did it. Again I was made to feel that my reaction was unacceptable. The following evening I asked to see sister and explained that I felt uncomfortable with the way that the nurse had handled me. Still the same nurse came in and changed my dressing. I asked if I could have morphine prior to her taking off and applying the new dressings. She did this but begrudgingly. When i said ouch the nurse said your going to feel some pain. I responded and asked if she could please be more gentle. I ensured that I was heard not only by the nurse but by the other patients around us.
+
+Nobody enjoys staying in hospital. The Churchill hospital has been exceptional for my care. The consultants are brilliant. 
+
+It is a real shame that the level of care for patients during the night shift should have dropped like this. I felt like I was being bullied. 
+
+My illness and operation was major. There were others in the ward with me that were terminal. Being a nurse is a vocation. 99 percent of the team at The Oxford Churchill team are brilliant. 
+
+When the sun goes down please don’t allow your patients to suffer. It’s not fair. Really it’s not fair - if you don’t enjoy your job then do something else - don’t bully your patients.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-10-07T15:04:31Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;9&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Churchill Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;a152edc0-13e9-e911-a812-000d3a7ed2f2&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1675&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHHNcu2lNOPvxBulfBR6bbJQW8avBogWDKsrAfkHU5A6_kDGp-_fhFCc3AGS5a_Jq4AURMwPukDgwmWV3D2_lXRawCIDehsNev7vy-sS23k8wM1tqnMtf1ke1HLsLGQlXc"/></form>

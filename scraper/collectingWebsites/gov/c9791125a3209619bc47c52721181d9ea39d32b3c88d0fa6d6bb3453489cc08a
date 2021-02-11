@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action="/email-signup" method="post">
+<input name="authenticity_token" type="hidden" value="TJecYXCaZejhuaLJAomnfex+MR8M30+fpbbIV8S58MC7CJCyZtBWElF4EDPc2ziOnGD3flJWTlZpBJWO7g819A=="/>
+<input id="link" name="link" type="hidden" value="/transport/theory-tests"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" data-module="track-click" data-track-action="new_frequency" data-track-category="email_subscriptions" data-track-label="Theory tests" type="submit">Continue</button>
+</form>

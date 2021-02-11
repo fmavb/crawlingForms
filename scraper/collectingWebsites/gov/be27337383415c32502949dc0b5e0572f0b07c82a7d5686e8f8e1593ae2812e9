@@ -1,0 +1,6 @@
+<form action="/search/all">
+<label for="search-box">Search this manual</label>
+<input name="manual[]" type="hidden" value="/guidance/countryside-stewardship-mid-tier-and-wildlife-offers-manual-for-agreements-starting-on-1-january-2022"/>
+<input class="in-manual-search-box" id="search-box" name="q" type="text"/>
+<button type="submit">search</button>
+</form>

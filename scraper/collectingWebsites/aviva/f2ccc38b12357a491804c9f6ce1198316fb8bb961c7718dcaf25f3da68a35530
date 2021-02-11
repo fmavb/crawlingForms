@@ -1,0 +1,102 @@
+<form action="/myfuture/IsaInvestmentCalculator" id="Option2Form" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="FEYij3-QF873GR2IyOUDjL1oB-0DeutECcK7IjWMKCldCjZpNikboQ1xQwdPjbjSlA4o-7Qsc2XRPpX2GGB4DX_aFlM1"/> <div class="l-columns l-columns--33-66-large">
+<div class="form-data l-columns__column t-accent-light--lightest-blue u-p--2">
+<fieldset class="m-form-row m-form-row--full-width">
+<h2 class="a-heading a-heading--2 u-mt--0">What is your investment goal?</h2>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="SavingsGoalAmount" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field What is your investment goal? must be a number." id="savingsGoalAmount" maxlength="7" name="SavingsGoalAmount" step="any" type="tel" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width" role="radiogroup">
+<p class="a-heading a-heading--2 u-mt--0">About your ISAs</p>
+<label class="a-label">
+        Do you have any money in ISAs already?
+    </label>
+<div class="m-form-row__content">
+<ul class="m-radio-group">
+<li class="m-radio-group__item">
+<label class="a-radio" for="moneyInIsasAlreadyYes">
+<input class="YourSavingsPlansRadio a-radio__input js-click" data-reveal="show" id="moneyInIsasAlreadyYes" name="MoneyInIsasAlready" type="radio" value="Yes"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Yes</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="moneyInIsasAlreadyNo">
+<input class="YourSavingsPlansRadio a-radio__input js-click" data-reveal="hide" id="moneyInIsasAlreadyNo" name="MoneyInIsasAlready" type="radio" value="No"/>
+<span class="a-radio__label">
+<span class="a-radio__label-inner">No</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+<div class="inISAsAlready js-isa-payment u-hidden--js">
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label" for="IsaInvestmentInPreviousTaxYears">
+        Amount paid before this tax year
+        <a class="tooltip" href="#tooltip-amount-held-in-previous-tax-year">(Help?)</a>
+</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="IsaInvestmentInPreviousTaxYears" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Amount paid before this tax year must be a number." id="isaInvestmentInPreviousTaxYears" maxlength="8" name="IsaInvestmentInPreviousTaxYears" step="any" type="tel" value=""/>
+</div>
+</fieldset>
+<fieldset>
+<label class="a-label" for="IsaInvestmentInThisTaxYear">
+        Amount paid in this tax year
+        <a class="tooltip" href="#tooltip-amount-already-paid-into-ISA-this-tax-year">(Help?)</a>
+</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="IsaInvestmentInThisTaxYear" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Amount paid in this tax year must be a number." id="isaInvestmentInThisTaxYear" maxlength="5" name="IsaInvestmentInThisTaxYear" step="any" type="tel" value=""/>
+</div>
+</fieldset>
+</div>
+</div>
+</fieldset>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<fieldset class="m-form-row m-form-row--full-width">
+<h2 class="a-heading a-heading--2 u-mt--0">How long are you planning to invest for?</h2>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="PlanningToSaveForInYears" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="PlanningToSaveForInMonths" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group m-textbox-group--visible-label">
+<li class="m-textbox-group__item">
+<label class="a-label" for="planningToSaveForInYears">Years</label>
+<input autocomplete="off" class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field How long are you planning to invest for? must be a number." id="planningToSaveForInYears" max="50" maxlength="2" min="0" name="PlanningToSaveForInYears" step="any" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="a-label" for="planningToSaveForInMonths">Months</label>
+<input autocomplete="off" class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field Planning To Save For In Months must be a number." id="planningToSaveForInMonths" max="11" maxlength="2" min="0" name="PlanningToSaveForInMonths" step="any" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label u-mb--1" for="IsaSinglePaymentInThisTaxYear">
+        Expected rate of growth
+        <a class="tooltip" href="#tooltip-expected-rate-of-growth">(Help?)</a>
+</label>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="GrowthRate" data-valmsg-replace="true"></span>
+<div class="m-form-row__content">
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-percent a-textbox--1-character" data-val="true" data-val-number="The field Expected rate of growth must be a number." id="id_growth_rate" max="8" maxlength="1" min="0" name="GrowthRate" type="tel" value="5"/>
+</div>
+</fieldset>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<button class="a-button a-button--next a-button--primary u-mt--1 u-mb--2" data-qa-button="submitForm" id="calculateButtonForOption" type="submit">Calculate</button>
+</div>
+<div class="u-hidden--js l-columns__column u-p--2 u-pr--0">
+<p class="a-heading a-heading--2">
+                You may need to invest £0 a month to reach your goal of  in 0 months.
+            </p>
+<div class="m-card m-card-notification m-card-notification--warning" role="status">
+<div class="m-card-content">
+<p class="validation-summary-errors">The amount you have saved already would grow to beyond your goal amount in the time specified without any further contributions.</p>
+</div>
+</div>
+<input name="IsaInvestmentCalculatorDriver" type="hidden" value="HowMuchINeedToSave"/>
+</div>
+</div>
+</form>

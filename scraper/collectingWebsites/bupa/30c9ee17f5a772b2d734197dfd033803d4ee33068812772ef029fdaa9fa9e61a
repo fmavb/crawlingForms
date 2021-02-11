@@ -1,0 +1,100 @@
+<form action="/donate/" class="js-donate-usage" id="donate_form--monthly" method="get">
+<div class="donate-slider__container">
+<div class="donate-slider--icon" id="donate_slider--monthly-icon">
+</div>
+<div class="donate-slider--text" id="donate_slider--monthly-text">
+</div>
+</div>
+<div class="donate-slider__slider-input-wrap">
+<div class="donate-landing__slider" data-suggested-amount="10.00" id="donate_slider--monthly">
+</div>
+<div class="donate-landing-hero__form-input donate-landing-hero__form-input--monthly">
+<div class="form-item form-item--decimal_field form-item--number_input">
+<label class="form-item__label required" for="id_amount">
+    Change amount
+    
+        <span class="form-item__required">*</span>
+</label>
+<div class="form-item__wrapper">
+<input id="id_amount" min="0.01" name="amount" required="" step="0.01" type="number" value="10.00"/>
+</div>
+</div>
+</div>
+</div>
+<div class="form-item form-item--integer_field form-item--hidden_input">
+<label class="form-item__label required" for="id_campaign_id">
+    Campaign id
+    
+        <span class="form-item__required">*</span>
+</label>
+<div class="form-item__wrapper">
+<input id="id_campaign_id" name="campaign_id" type="hidden" value="74"/>
+</div>
+</div>
+<div class="form-item form-item--choice_field form-item--hidden_input">
+<label class="form-item__label required" for="id_frequency">
+    Frequency
+    
+        <span class="form-item__required">*</span>
+</label>
+<div class="form-item__wrapper">
+<input id="id_frequency" name="frequency" type="hidden" value="monthly"/>
+</div>
+</div>
+<div class="form-item form-item--choice_field form-item--hidden_input">
+<label class="form-item__label required" for="id_currency">
+    Currency
+    
+        <span class="form-item__required">*</span>
+</label>
+<div class="form-item__wrapper">
+<input id="id_currency" name="currency" type="hidden" value="GBP"/>
+</div>
+</div>
+<div class="donate-slider__button-icons-wrap">
+<button class="button button--large button--secondary donate-landing-hero__donate-button" type="submit">
+<div class="button__shadow"></div>
+<div class="button__inner">
+    Donate today
+    
+    
+        <svg class="icon icon--medium button__icon" fill="currentColor" height="40px" id="icon--chevron" viewbox="0 0 43.1 62.7" width="40px">
+<use xlink:href="#icon-chevron"></use>
+</svg>
+</div>
+</button>
+<div class="payment-icons">
+<svg class="payment-icons__icon payment-icons__icon--direct-debit" id="icon-color--direct-debit" viewbox="0 0 283.35 90.1">
+<title>Direct Debit logo</title>
+<path d="M104,43.8c0-26.61-16-38.15-34.14-42.22V.21C103,1.94,127.16,22.05,127.15,45.05c0,26.27-28.5,45-63.63,45S.06,69.83.07,45C.08,18.88,24.83,0,67,.07V32.48l-10-.21c-21.36.74-46.11,10-46.11,22.56,0,13.77,23.48,30.34,51.68,30.36C85.4,85.2,104,68.66,104,43.8Z" style="stroke: #000;stroke-width: 0.144387px"></path>
+<path d="M66.79,81.46c-12.11-.87-27.67-8.95-27.67-22.86,0-13.76,13.27-23.74,27.69-24.27Z" style="stroke: #000;stroke-width: 0.144387px"></path>
+<path d="M255.7,18.92l-.64,3.58c-1.65-.55-17.46-4.26-17.69,7.5-.18,9.42,14.2,8.26,17.49,7.39l.37,3.9c-10.81,3-25.17-.28-25.46-11.39C229.43,17.1,248.43,15.52,255.7,18.92Z" style="stroke: #000;stroke-width: 0.144387px"></path>
+<polygon points="266.87 41.94 266.88 21.77 257.16 21.76 257.16 17.91 283.27 17.93 283.27 21.78 273.75 21.78 273.74 41.95 266.87 41.94" style="stroke: #000;stroke-width: 0.144387px"></polygon>
+<polygon points="208.63 17.7 227.89 17.72 227.89 21.74 215.06 21.73 215.05 41.72 208.62 41.71 208.63 17.7" style="stroke: #000;stroke-width: 0.144387px"></polygon>
+<rect height="4.03" style="stroke: #000;stroke-width: 0.144387px" width="12.68" x="214.45" y="27.83"></rect>
+<rect height="4.03" style="stroke: #000;stroke-width: 0.144387px" width="13.33" x="214.45" y="37.7"></rect>
+<rect height="23.91" style="stroke: #000;stroke-width: 0.144387px" width="7.19" x="165.55" y="17.73"></rect>
+<rect height="23.91" style="stroke: #000;stroke-width: 0.144387px" width="7.19" x="132.5" y="17.9"></rect>
+<path d="M137.27,41.81l1.46-3.87,5.39-.15c6.23,0,10-3.46,10-8,0-5.54-5-8.16-8.9-8.16l-6.54-.36-.91-3.33h7.6c8.74,0,16.3,4.69,16.3,12.07s-7.57,11.85-16.31,11.84Z" style="stroke: #000;stroke-width: 0.144387px"></path>
+<rect height="23.91" style="stroke: #000;stroke-width: 0.144387px" width="7.19" x="132.49" y="47.95"></rect>
+<path d="M137.26,71.86,138.72,68l5.39-.14c6.23,0,10-3.47,10-8.05,0-5.54-5-8.16-8.9-8.16l-6.54-.36L137.77,48h7.6c8.74,0,16.3,4.7,16.29,12.07s-7.56,11.85-16.3,11.84Z" style="stroke: #000;stroke-width: 0.144387px"></path>
+<rect height="25.92" style="stroke: #000;stroke-width: 0.144387px" width="6.94" x="205.18" y="46.09"></rect>
+<rect height="17.77" style="stroke: #000;stroke-width: 0.144387px" width="6.94" x="243.57" y="54.48"></rect>
+<rect height="4.58" style="stroke: #000;stroke-width: 0.144387px" width="6.94" x="243.57" y="46.17"></rect>
+<path d="M267,67.58V49.91h7.09V66.78c0,2.26,3.87,3,6.08,2.22v3.92C275.41,74,267,73.87,267,67.58Z" style="stroke: #000;stroke-width: 0.144387px"></path>
+<rect height="3.78" style="stroke: #000;stroke-width: 0.144387px" width="18.51" x="261.48" y="54.49"></rect>
+<path d="M176.66,64.19c.35,6.9,14.23,4.44,16.09,2.48v4.18c-2.76,1.31-6.33,1.46-10.29,1.45-7.21,0-13.05-3.68-13.05-9.67,0-5.34,5.39-9.56,13.06-9.56,5.91,0,12.45,2.78,12,11.14Zm.05-3.31,11.17,0c-.3-2.7-2.32-4.21-5.34-4.21C179.28,56.64,176.81,57.9,176.71,60.88Z" style="stroke: #000;stroke-width: 0.144387px"></path>
+<path d="M202.38,24c0,5.69-5.36,6.12-5.64,6.14a7.07,7.07,0,0,1,1.66,1.71l5.51,9.82H196.4l-3.78-7.14a4.09,4.09,0,0,0-3.94-2.42H186V41.7h-7.13v-24h12.89C195.4,17.69,202.38,18.6,202.38,24Zm-16.4,4h4.68c1.86,0,4.52-1.21,4.52-3.19,0-2.19-2.2-3.25-4.42-3.25H186Z" style="stroke: #000;stroke-width: 0.144387px"></path>
+<path d="M210,63.08c0-6.62,4.38-9.28,10.65-9.28,5.84,0,10.54,3.13,10.53,9.3,0,6-4.74,9.59-10.59,9.58C213.83,72.68,210,69.8,210,63.08Zm2.07.21c0,3,2.72,5.46,6.08,5.46s6.09-2.44,6.09-5.45-2.72-5.47-6.09-5.47S212.08,60.27,212.08,63.29Z" style="stroke: #000;stroke-width: 0.144387px"></path>
+</svg>
+<svg class="payment-icons__icon payment-icons__icon--paypal" id="icon-color--paypal" viewbox="0 0 124 33">
+<path d="M46.211 6.749h-6.839a.95.95 0 0 0-.939.802l-2.766 17.537a.57.57 0 0 0 .564.658h3.265a.95.95 0 0 0 .939-.803l.746-4.73a.95.95 0 0 1 .938-.803h2.165c4.505 0 7.105-2.18 7.784-6.5.306-1.89.013-3.375-.872-4.415-.972-1.142-2.696-1.746-4.985-1.746zM47 13.154c-.374 2.454-2.249 2.454-4.062 2.454h-1.032l.724-4.583a.57.57 0 0 1 .563-.481h.473c1.235 0 2.4 0 3.002.704.359.42.469 1.044.332 1.906zM66.654 13.075h-3.275a.57.57 0 0 0-.563.481l-.145.916-.229-.332c-.709-1.029-2.29-1.373-3.868-1.373-3.619 0-6.71 2.741-7.312 6.586-.313 1.918.132 3.752 1.22 5.031.998 1.176 2.426 1.666 4.125 1.666 2.916 0 4.533-1.875 4.533-1.875l-.146.91a.57.57 0 0 0 .562.66h2.95a.95.95 0 0 0 .939-.803l1.77-11.209a.568.568 0 0 0-.561-.658zm-4.565 6.374c-.316 1.871-1.801 3.127-3.695 3.127-.951 0-1.711-.305-2.199-.883-.484-.574-.668-1.391-.514-2.301.295-1.855 1.805-3.152 3.67-3.152.93 0 1.686.309 2.184.892.499.589.697 1.411.554 2.317zM84.096 13.075h-3.291a.954.954 0 0 0-.787.417l-4.539 6.686-1.924-6.425a.953.953 0 0 0-.912-.678h-3.234a.57.57 0 0 0-.541.754l3.625 10.638-3.408 4.811a.57.57 0 0 0 .465.9h3.287a.949.949 0 0 0 .781-.408l10.946-15.8a.57.57 0 0 0-.468-.895z" fill="#253B80"></path>
+<path d="M94.992 6.749h-6.84a.95.95 0 0 0-.938.802l-2.766 17.537a.569.569 0 0 0 .562.658h3.51a.665.665 0 0 0 .656-.562l.785-4.971a.95.95 0 0 1 .938-.803h2.164c4.506 0 7.105-2.18 7.785-6.5.307-1.89.012-3.375-.873-4.415-.971-1.142-2.694-1.746-4.983-1.746zm.789 6.405c-.373 2.454-2.248 2.454-4.062 2.454h-1.031l.725-4.583a.568.568 0 0 1 .562-.481h.473c1.234 0 2.4 0 3.002.704.359.42.468 1.044.331 1.906zM115.434 13.075h-3.273a.567.567 0 0 0-.562.481l-.145.916-.23-.332c-.709-1.029-2.289-1.373-3.867-1.373-3.619 0-6.709 2.741-7.311 6.586-.312 1.918.131 3.752 1.219 5.031 1 1.176 2.426 1.666 4.125 1.666 2.916 0 4.533-1.875 4.533-1.875l-.146.91a.57.57 0 0 0 .564.66h2.949a.95.95 0 0 0 .938-.803l1.771-11.209a.571.571 0 0 0-.565-.658zm-4.565 6.374c-.314 1.871-1.801 3.127-3.695 3.127-.949 0-1.711-.305-2.199-.883-.484-.574-.666-1.391-.514-2.301.297-1.855 1.805-3.152 3.67-3.152.93 0 1.686.309 2.184.892.501.589.699 1.411.554 2.317zM119.295 7.23l-2.807 17.858a.569.569 0 0 0 .562.658h2.822c.469 0 .867-.34.939-.803l2.768-17.536a.57.57 0 0 0-.562-.659h-3.16a.571.571 0 0 0-.562.482z" fill="#179BD7"></path>
+<path d="M7.266 29.154l.523-3.322-1.165-.027H1.061L4.927 1.292a.316.316 0 0 1 .314-.268h9.38c3.114 0 5.263.648 6.385 1.927.526.6.861 1.227 1.023 1.917.17.724.173 1.589.007 2.644l-.012.077v.676l.526.298a3.69 3.69 0 0 1 1.065.812c.45.513.741 1.165.864 1.938.127.795.085 1.741-.123 2.812-.24 1.232-.628 2.305-1.152 3.183a6.547 6.547 0 0 1-1.825 2c-.696.494-1.523.869-2.458 1.109-.906.236-1.939.355-3.072.355h-.73c-.522 0-1.029.188-1.427.525a2.21 2.21 0 0 0-.744 1.328l-.055.299-.924 5.855-.042.215c-.011.068-.03.102-.058.125a.155.155 0 0 1-.096.035H7.266z" fill="#253B80"></path>
+<path d="M23.048 7.667c-.028.179-.06.362-.096.55-1.237 6.351-5.469 8.545-10.874 8.545H9.326c-.661 0-1.218.48-1.321 1.132L6.596 26.83l-.399 2.533a.704.704 0 0 0 .695.814h4.881c.578 0 1.069-.42 1.16-.99l.048-.248.919-5.832.059-.32c.09-.572.582-.992 1.16-.992h.73c4.729 0 8.431-1.92 9.513-7.476.452-2.321.218-4.259-.978-5.622a4.667 4.667 0 0 0-1.336-1.03z" fill="#179BD7"></path>
+<path d="M21.754 7.151a9.757 9.757 0 0 0-1.203-.267 15.284 15.284 0 0 0-2.426-.177h-7.352a1.172 1.172 0 0 0-1.159.992L8.05 17.605l-.045.289a1.336 1.336 0 0 1 1.321-1.132h2.752c5.405 0 9.637-2.195 10.874-8.545.037-.188.068-.371.096-.55a6.594 6.594 0 0 0-1.017-.429 9.045 9.045 0 0 0-.277-.087z" fill="#222D65"></path>
+<path d="M9.614 7.699a1.169 1.169 0 0 1 1.159-.991h7.352c.871 0 1.684.057 2.426.177a9.757 9.757 0 0 1 1.481.353c.365.121.704.264 1.017.429.368-2.347-.003-3.945-1.272-5.392C20.378.682 17.853 0 14.622 0h-9.38c-.66 0-1.223.48-1.325 1.133L.01 25.898a.806.806 0 0 0 .795.932h5.791l1.454-9.225 1.564-9.906z" fill="#253B80"></path>
+</svg>
+</div>
+</div>
+</form>

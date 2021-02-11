@@ -1,0 +1,178 @@
+<form action="/LifeClaims/yourDetails/index" method="post">
+<input id="SYNCHRONIZER_TOKEN" name="SYNCHRONIZER_TOKEN" type="hidden" value="ab87d1e7-22f4-41b9-a570-9ced8e45ac25"/>
+<input id="SYNCHRONIZER_URI" name="SYNCHRONIZER_URI" type="hidden" value="/LifeClaims/yourDetails/show"/>
+<fieldset class="f9">
+<div class="f9Mid clearFix">
+<h3>
+						Your Details
+					</h3>
+<div class="topPad"></div>
+<div class="required clear">
+<label for="forename">Forename(s)</label>
+<div class="fixedWidthField"><input class="fieldClass" maxlength="40" name="forename" type="text"/></div>
+</div>
+<div class="required clear">
+<label for="surname">Surname</label>
+<div class="fixedWidthField"><input class="fieldClass" maxlength="40" name="surname" type="text"/></div>
+</div>
+<div class="required clear">
+<label for="role">Your Role</label>
+<div class="fixedWidthField"><select class="fieldClass" field="role" id="role.id" name="role.id">
+<option value="">Select</option>
+<option value="4">Intermediary</option>
+<option value="5">Trustee</option>
+<option value="6">Authorised Signatory</option>
+<option value="7">Other</option>
+</select></div>
+</div>
+<div class="clear">
+<label for="otherRole">(If Other please enter details)</label>
+<div class="fixedWidthField"><input class="fieldClass" maxlength="50" name="otherRole" type="text"/></div>
+</div>
+<div class="required clear">
+<label for="company">Company</label>
+<div class="fixedWidthField"><input class="fieldClass" maxlength="50" name="company" type="text"/></div>
+</div>
+<div class="required clear">
+<div class="left clear">
+<label class="withHelpText" for="email">Email</label>
+<p class="small">
+								(Your email address will be used to send you a notification of your submitted claim.)
+							</p>
+</div>
+<div class="fixedWidthField"><input class="fieldClass" maxlength="70" name="email" size="24" type="text"/></div>
+</div>
+<div class="clear"></div>
+<div class="clear"></div>
+<div class="clear">
+<label for="telephoneNumber">Telephone Number</label>
+<div class="fixedWidthField"><input class="fieldClass" maxlength="13" name="telephoneNumber" type="text"/></div>
+</div>
+<div class="declaration2 clear">
+<div class="switchQuestion1 required">
+<label>Contact Type</label>
+</div>
+<div class="radioGroup clear">
+<div class="radioOptions fixedWidthField">
+<label> Telephone
+									</label>
+<input name="preferredContactType.id" type="radio" value="8"/>
+<label> Email
+									</label>
+<input name="preferredContactType.id" type="radio" value="9"/>
+</div>
+</div>
+</div>
+<div class="topPad clear">
+<h3>
+							Scheme Details
+						</h3>
+</div>
+<div class="topPad"></div>
+<div class="required clear">
+<label for="schemeName">Scheme Name</label>
+<div class="fixedWidthField"><input class="fieldClass" maxlength="50" name="schemeName" size="24" type="text"/></div>
+</div>
+<div class="required clear">
+<label for="schemeNumber">Scheme Number</label>
+<div class="fixedWidthField"><input class="fieldClass" maxlength="10" name="schemeNumber" size="24" type="text"/></div>
+</div>
+<div class="topPad clear">
+<h3>
+							Claim Type
+						</h3>
+</div>
+<div class="topPad"></div>
+<div class="declaration2 clear">
+<div class="clearFix">
+<div class="radioOptionsVertical">
+<label> Lump Sum
+									</label>
+<input name="type.id" type="radio" value="1"/>
+<label> Dependants Pension
+									</label>
+<input name="type.id" type="radio" value="2"/>
+<label> Lump Sum &amp; Dependants Pension
+									</label>
+<input name="type.id" type="radio" value="3"/>
+<label> Member Flex Lump Sum
+									</label>
+<input name="type.id" type="radio" value="4"/>
+<label> Member Flex Dependants Pension
+									</label>
+<input name="type.id" type="radio" value="5"/>
+<label> Member Flex Lump Sum &amp; Dependants Pension
+									</label>
+<input name="type.id" type="radio" value="6"/>
+<label> Spouse/Partner Flex Lump Sum
+									</label>
+<input name="type.id" type="radio" value="7"/>
+<label> Police, Fire and Rescue
+									</label>
+<input name="type.id" type="radio" value="8"/>
+</div>
+</div>
+</div>
+<div hidden="true" id="policeFire">
+<div class="topPad">
+<h3>
+								Police, Fire and Rescue Claim Details
+							</h3>
+</div>
+<label for="claimSubtype">Is your claim in relation to a:</label>
+<div class="declaration2 clear">
+<div class="clearFix">
+<div class="radioOptionsVertical">
+<label> Partner Claim
+										</label>
+<input name="claimSubtype.id" type="radio" value="1"/>
+<label> Dependant Child Claim
+										</label>
+<input name="claimSubtype.id" type="radio" value="2"/>
+<label> Member Life Insurance Claim
+										</label>
+<input name="claimSubtype.id" type="radio" value="3"/>
+</div>
+</div>
+</div>
+</div>
+<div class="topPad">
+<h3>
+							Death Certificate Requirements
+						</h3>
+</div>
+<p>
+						We are able to verify the majority of UK registered deaths without requiring the original death certificate.
+						<br/> <br/>
+						However, there are occasions when we are not able to do this. If any of the following apply, please tick the box below and send us the original death certificate.
+					</p>
+<div class="fourColumn left">
+<ul>
+<li>death happened abroad,</li>
+<li>claim is submitted within 2 weeks of date death
+								registered or</li>
+<li>coroner has only issued an interim certificate</li>
+</ul>
+</div>
+<div class="fourColumn left leftGap clearNone">
+<div style="padding-top: 45px">
+<div class="checkBox">
+<input name="_isDeathCertificate" type="hidden"/><input id="isDeathCertificate" name="isDeathCertificate" type="checkbox"/>
+</div>
+</div>
+</div>
+<div class="topPad clear"></div>
+<p>
+						If none of the circumstances above apply then we will let you know if we do still need to see the original certificate.
+					</p>
+<div class="topGap"></div>
+<div class="clear"></div>
+<div class="submitBtn clearFix right">
+<div class="pBut">
+<input class="yellowButtonLong" name="_action_next" type="submit" value="Save &amp; Continue"/>
+</div>
+</div>
+</div>
+<div class="f9Bot clear"></div>
+</fieldset>
+</form>

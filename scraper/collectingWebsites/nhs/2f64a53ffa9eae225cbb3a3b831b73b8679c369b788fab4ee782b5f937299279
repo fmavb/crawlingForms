@@ -1,0 +1,54 @@
+<form action="/services/hospital/castle-hill-hospital/X1998/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Treatment couldn't have been better !&lt;/Title&gt;
+    &lt;ScreenName&gt;Helen Jane Moore&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I moved up to East Riding from the midlands four years ago having previously experienced major complications with a general anaesthetic. A year ago I developed stones in my gall bladder. I visited one of the GI Consultants who advised me to have my gall bladder removed. I was absolutely terrified that I would have to have a general anaesthetic.The GI consultant arranged an appointment for me to see a Consultant Anaethetist to talk over my previous anaesthetic.I was admitted to Castle Hill last week to have my gall bladder removed.Everone in the SAL department was very pleasant and approachable and I was really impressed how quickly and professional the admitting process was carried out. I also noticed how clean the department was, this gives a patient confidence. I then had a discussion with the anaesthetist and he put me at ease. I was taken to theatre and given an anaesthetic with the Anaethatist explaining everything as he administered the drugs. The next thing I knew I was up on ward 14 with a nurse telling me that my operation was over.I was  over the moon. The staff on ward 14 were fantastic especially the staff nurse who was extremely busy all day but nothing was too much trouble for her.  Finally I would like to say that the GI Consultant was not only totally professional but approachable and friendly and I felt that I could ask him anything. He must also be an excellent surgeon as my recovery has been comfortable and quick. This whole expirience has given me faith again and if I ever have to have another operation I hope it's at Castle Hill. Thank you so much to the whole team from the GI Consultant to the young nurse who served me a meal before I went home.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-07-04T11:50:30.697Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;6&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Castle Hill Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;d26f14f1-13e9-e911-a812-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1998&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGdFmvhxDREZlYonTFpceoTfxJsvFpliHDN5VI_r_Go-cPHmeADFn3ULsxY6lox5LggIX-uf-9YRIdqDdTAHL018cnUrpMu9lKjR6Lb2iS49LVz8PDKpmGJsMy8EVLt9Dw"/></form>

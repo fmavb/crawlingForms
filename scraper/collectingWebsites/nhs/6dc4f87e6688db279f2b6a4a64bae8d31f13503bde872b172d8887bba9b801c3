@@ -1,0 +1,54 @@
+<form action="/services/hospital/solihull-hospital/X147392/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Kind, understanding staff&lt;/Title&gt;
+    &lt;ScreenName&gt;Helen&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I found a lump in my breast just before Christmas and was referred to Solihull breast clinic on a two week emergency appointment. I was booked in by a phone call on the day before my appointment on 7 Jan 2020. I was naturally extremely apprehensive on my arrival at the hospital but was met with continuously kind understanding. From the volunteer who showed me where I had to go, to the brilliant doctor, each talked to me as though for that moment they actually cared about me - which is such a comforting feeling when you are in such a frightening situation. The difference was that each person I went to, the lovely lady who did my mammogram and the lady that was training in the ultra sound section all took their time and chatted to me as if they knew me. Despite being extremely professional they were very personable too which made me relax and feel safe. The whole service overall is fantastic, being able to have all of the checks and the results in one visit is so much less stressful than having to await further appointments. I was lucky, mine was a cyst - which the very efficient and lovely doctor drained with a single sharp scratch. So I would like to thank each and every person who was involved in my care. &lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-01-15T11:35:12Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;1&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Solihull Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Breast cancer services&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;0163ad16-8b37-ea11-a813-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X147392&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHvP6Jgshu77tfJCef79ta_3b-asAm7zpPNqg3xQBpbH6QTSZUQmoJvp9E9H55ciU1jBRIKb-0CwM-Ngl9PkzscSZ8c4RV6b990UFThgIQ3qSN9iiKMJRrA18YhPEiqUqo"/></form>

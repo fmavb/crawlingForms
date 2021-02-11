@@ -1,0 +1,16 @@
+<form action="/search" aria-label="Site-wide" class="site-search govuk-clearfix" id="search" method="get" role="search">
+<div class="content govuk-clearfix">
+<div class="gem-c-search govuk-!-margin-bottom-0 gem-c-search--no-border gem-c-search--on-white" data-module="gem-toggle-input-class-on-focus">
+<label class="gem-c-search__label" for="site-search-text">
+    Search on GOV.UK
+  </label>
+<div class="gem-c-search__item-wrapper">
+<input aria-controls="" class="gem-c-search__item gem-c-search__input js-class-toggle" id="site-search-text" name="q" title="Search" type="search" value=""/>
+<div class="gem-c-search__item gem-c-search__submit-wrapper">
+<button class="gem-c-search__submit" type="submit">Search</button>
+</div>
+</div>
+</div>
+</div>
+<input name="show_organisations_filter" type="hidden" value="true"/>
+</form>

@@ -1,0 +1,56 @@
+<form action="/services/hospital/kings-college-hospital/X1214/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Very bad experience at William Gillian ward&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Sadly very negative experience in the William Gillian ward
+
+We arrived at the ward for an elective c section and the members of staff that took care of us during the surgery were great. They were welcoming, caring and friendly. Problem started when we arrived at the William Gillian postnatal ward. First of all the place didn’t look clean on top of the warning of bed bugs. In the toilet was left a bowl full of pee until we told a member of if was possible to do something about it. The rubbish container in the room had rubbish coming out and again I have to ask to staff to change the bag as rubbish was coming outside. Beside that, members of staff on duty the night of the 12th of April were absolutely careless and we felt ignored by most of them. But I have to say Thank god for two midwifes on shift as  rest of staff were just chatting loud during the shift, laughing and constantly on their phones. Terrible...when press the button as my wife wasn’t well two different lady turn out and with a rude and annoyed tone they said straight away : Hello dad turn the buzz off, then with the same attitude what can I do, we explain and she said i’ll Call the midwife. After 20/30 min nothing so l went to the desk were the same person was busy on her phone but luckily I managed to find one of the midwife. I have to say the level of those staff is terrible. In an area where people need comfort and support most of the staff on that shift they couldn’t care less of people in there. My wife was told to have a shower by this member of staff after a midwife suggested to have it in the next morning. My wife was explain to her what the midwife said and in response she said you want me to go or shall I come back at 4am to do it. Again with a rude tone. If I have to do it I’ll do it. Again the midwife during our staying were great but a lot of the rest of staff often there were where just chatting, moaning about patients and other member of staff. 3 years ago same ward we had a lovely experience. Without forgetting staff that work on reception ...often on their phone or not there.  One night I waited outside for about 5/10min. If not happy to help patient those staff should change job. Very sad experience feel sorry for midwife that they must deal with those terrible member of staff everyday.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-04-20T17:19:11.523Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;4&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;King's College Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;b54d9141-45d5-e911-a812-000d3a7ed588&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1214&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamEeyyVwszEq8tb_FNhDTJQ9uII_R9wYZvcNDlrGivlt2y6ZAiPPDEgGuM88l9aryQXCrfoACcKaAfrXaoiYd6-hB7DKJKbQ76kA9_vAyYN-jyv9XNSDhahz6_5Ufg8-MAE"/></form>

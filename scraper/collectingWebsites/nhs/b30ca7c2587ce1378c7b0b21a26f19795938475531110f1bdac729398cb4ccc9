@@ -1,0 +1,59 @@
+<form action="/services/hospital/tameside-and-glossop-integrated-care-nhs-foundation-trust/X2210/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Mental Health&lt;/Title&gt;
+    &lt;ScreenName&gt;Helles40&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Last week I attended A&amp;amp;amp;E at Tameside Hospital with my foster son. He arrived at 1.30pm by ambulance as an emergency following a crisis last night during which he attempted to kill himself. In the two previous days he had engaged in self mutilation. An officer from MIND called the emergency services and rang ahead to inform A&amp;amp;amp;E of his arrival at hospital.  
+After triage we waited in the corridor along with patients on trolleys for 5 hours. No one checked on him or gave any form of reassurance. There was no one who could give us any information as to when a MH officer would be available. There were no chairs, a terrible smell from a sluice room and a screaming child. I had to convince my foster son that continuing to wait was in his best interest even though his stress levels were so high that he passed out at one point.  
+After 5 hours , at 6.30 pm he was again briefly assessed and told to wait for someone from RAID who would be there at 8 pm. At this point we were able to take a much needed break in the wonderful Camerados space in the main reception area. Returning to the tiny cramped waiting area in ‘majors’ which did at least have chairs but is far from suitable for MH patients in crisis, we waited a further 1 and a half hours , a total of 8 hours, before being seen by the excellent nurses from RAID who were apologetic and embarrassed by the wait we had endured.  
+I understand that A&amp;amp;amp;E is busy and staff are stretched, however the arrangements for people with MH issues are surely unacceptable. During our wait we saw two other MH patients in considerable distress. One of these people had been brought in by police officers who were attempting to support them and persuade them to stay. They too were waiting several hours in the melee of the corridor.  
+This was my foster sons 31st visit to A&amp;amp;amp;E with MH issues. In the past he has been treated very shortly, shouted at and made to feel a pest, told not to attend and on one occasion sent out into the snow where he continuously fitted for several hours and was denied re entry to hospital. I have promised him that I will never again expect him to attend A&amp;amp;amp;E no matter how desperate.  
+I have already contacted PALS at Tameside and did receive a rapid response and assurance that my comments would be discussed with A&amp;amp;amp;E managers. However, I was made to understand TGH ‘is not responsible ‘ for MH services provided by Penine Care. Maybe the two services could talk to each other and make some very simple changes which would cost nothing and vastly improve the experience for service users: communication, information, approximate wait times, designated wait area, chairs.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-04-19T05:45:49Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;4&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Tameside &amp;amp; Glossop Integrated Care NHS Foundation Trust&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;fc3bd054-45d5-e911-a812-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X2210&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamG851rqHXfOe4yqgy-tH6kfezxn-3P_eeYNWX9P7AajLe2RTeaUAZ6aNMCxsCPwI6NcWL1OelhmyaOUO3hEyrXk6QFXH263oHU_LJ01uUyhxa5AThyOs9vqVZqRm7U3xqA"/></form>

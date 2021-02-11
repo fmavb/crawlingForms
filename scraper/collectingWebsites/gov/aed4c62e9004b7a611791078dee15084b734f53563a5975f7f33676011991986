@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action="/email-signup" method="post">
+<input name="authenticity_token" type="hidden" value="5B7altzavzYYNRFCyyu8ybA9Xagju33xhqR+AI5xJakTgdZFypCMzKj0o7gVeSM6wCObyX0yfDhKFiPZpMfgnQ=="/>
+<input id="link" name="link" type="hidden" value="/transport/maritime-navigation"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" data-module="track-click" data-track-action="new_frequency" data-track-category="email_subscriptions" data-track-label="Maritime navigation" type="submit">Continue</button>
+</form>

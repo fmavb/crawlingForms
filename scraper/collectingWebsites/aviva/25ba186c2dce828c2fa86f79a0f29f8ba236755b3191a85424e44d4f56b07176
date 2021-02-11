@@ -1,0 +1,28 @@
+<form action="/MyAccount/ForgottenYourDetails/ForgottenPassword" method="post"><input name="__RequestVerificationToken" type="hidden" value="IORsSXCiRH_iomOMZCKH49-uJfjVo62zTvg4I8y5r_keth-o4NQ0JGdzXw94iCkfeT0CzDcjeEEc-9b5LQcGFop8XLM1"/> <div class="l-content-container">
+<div class="l-section l-section--in" data-module="app/is-error">
+<div class="m-form-row m-heading-group u-margin-top--none">
+<h1 class="a-heading m-heading-group__item a-heading--1">Forgotten your password</h1>
+<p class="a-heading m-heading-group__item a-heading--3 a-heading--light">Please enter your username.</p>
+</div>
+<fieldset>
+<legend>Forgotten your password</legend>
+<div class="m-form-row">
+<label class="a-label" for="user-name">Username</label>
+<p class="m-form-row__explanatory-text"><a href="/MyAccount/ForgottenYourDetails/ForgottenUsername">Forgot Username</a></p>
+<div class="m-form-row__content">
+<input aria-true="true" class="a-textbox" data-val="true" data-val-length="Your username should be less than 50 characters" data-val-length-max="50" id="user-name" maxlength="50" name="Username" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<input id="AlreadyTried" name="AlreadyTried" type="hidden" value="True"/>
+<button class="a-button a-button--primary" type="submit">Reset Password</button>
+</li>
+<li class="m-button-group__item"><a class="a-button a-button--secondary" href="/MyAccount/Login">Back</a></li>
+</ul>
+</div>
+</fieldset>
+</div>
+</div>
+</form>

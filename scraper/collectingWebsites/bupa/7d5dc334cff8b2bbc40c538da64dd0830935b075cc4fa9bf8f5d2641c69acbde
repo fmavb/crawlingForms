@@ -1,0 +1,19 @@
+<form action="" method="post">
+<p class="search-lbl">Start typing to search... </p>
+<div class="row searchInput">
+<label class="access" for="postcode">Enter keywords here</label>
+<label>
+<div class="input_container">
+<label class="access" for="q">Enter keywords here</label>
+<input autocomplete="off" class="field mod-typeahead-sclmod" id="gsa_search-scl" maxlength="256" name="q" placeholder="Search Healthy Me" type="text" value=""/>
+<input class="access search-device-type" name="state" value=""/>
+<span class="close-icon-over-input search-scl"></span>
+</div>
+<button class="search-btn-scl">
+<span class="search-btn">
+</span>
+</button>
+</label>
+<input name="siteParameter" type="hidden" value="a__PR"/>
+</div>
+</form>

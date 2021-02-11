@@ -1,0 +1,721 @@
+<form action="https://sdcstaging.webmd.com/sdclive/processor.aspx" method="post" name="rmq" onsubmit="return false;" target="sdc_submit">
+<input id="redirectUrl" name="redirectUrl" type="hidden" value="about:blank"/>
+<input name="system_formId" type="hidden"/>
+<input name="system_firstLandingPage" type="hidden"/>
+<input name="env" type="hidden" value="desktop"/>
+<ul id="rmq_slides">
+<li class="slide question" data-correct-answer="b" data-slide-number="1" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/diabetes_and_food_rmq/650x350_diabetes_and_food_rmq.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>You can’t have desserts if you have diabetes.</h2>
+</div>
+<div class="slide_text">
+<input id="q1" name="q1" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>You can’t have desserts if you have diabetes.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>You can still have treats, but save them for special occasions. When one comes up, have a small scoop or a thin slice. Sugar is a carbohydrate. Carbs make your blood sugar go up quicker than protein or fat.<b></b>If you have diabetes, track your carbs. If you crave something sweet on an ordinary day, have a piece of fruit.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="a" data-slide-number="2" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/diabetes_and_food_rmq/650x350_diabetes_and_food_rmq.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>When you have diabetes, snacking is a good idea.</h2>
+</div>
+<div class="slide_text">
+<input id="q2" name="q2" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>When you have diabetes, snacking is a good idea.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Knowing when to eat and what to nosh on can help keep your blood sugar in check. Eat when you’re hungry or if your blood sugar drops between meals. Pick snacks that combine carbs, protein, and fat to keep you full and help control blood sugar. Good choices include:</p>
+<ul>
+<li>A piece of fruit</li>
+<li>Half a turkey sandwich on whole wheat bread</li>
+<li>A few cups of low-fat microwave popcorn</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="c" data-slide-number="3" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/diabetes_and_food_rmq/650x350_diabetes_and_food_rmq.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>You should eat a lot of this if you have diabetes:</h2>
+</div>
+<div class="slide_text">
+<input id="q3" name="q3" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Natural sugars</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Added sugars</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Fiber</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>You should eat a lot of this if you have diabetes:</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Fiber is a carb like sugars and starches. But it doesn’t affect your blood sugar because your body doesn’t digest it. Foods high in fiber also help make you feel full. Get yours by eating plenty of skin-on fruits and vegetables, beans, and whole-grain foods like 100% whole wheat bread and whole oats. Women should get at least 25 grams of fiber a day. Men should get at least 38.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="4" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/diabetes_and_food_rmq/650x350_diabetes_and_food_rmq.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>It’s OK to skip a meal so you can eat a really big one later.</h2>
+</div>
+<div class="slide_text">
+<input id="q4" name="q4" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>It’s OK to skip a meal so you can eat a really big one later.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>You need to eat regularly to keep your blood sugar levels steady. If you miss a meal, they might drop and you may feel shaky, nauseous, or dizzy. Your levels can also spike after you eat a lot. Space out your feasts -- and how many carbs you eat. During the day, try to eat meals every 4 to 5 hours. Snack in between, too.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="5" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/diabetes_and_food_rmq/650x350_diabetes_and_food_rmq.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Besides carbs, you should limit your:</h2>
+</div>
+<div class="slide_text">
+<input id="q5" name="q5" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Calcium</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Salt</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Vitamin D</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>Besides carbs, you should limit your:</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>People with diabetes have a greater risk of high blood pressure. Too much salt raises your odds even more. Try to eat fewer canned and processed foods. Use herbs and spices to flavor your food instead of salt. If you want a snack, trade those chips and pretzels for a piece of fruit or some veggies.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="6" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/diabetes_and_food_rmq/650x350_diabetes_and_food_rmq.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>If you want a potato, which should you have?</h2>
+</div>
+<div class="slide_text">
+<input id="q6" name="q6" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>White potato</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Sweet potato</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Either</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>If you want a potato, which should you have?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>You don’t need to give up carbs, but you do need to pick healthy ones. Both white and sweet potatoes are good sources of vitamins, potassium, and fiber. But sweet potatoes have an advantage: They don’t raise blood sugar as much as white ones.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="7" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/diabetes_and_food_rmq/650x350_diabetes_and_food_rmq.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>You can eat as much sugar-free food as you want.</h2>
+</div>
+<div class="slide_text">
+<input id="q7" name="q7" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>You can eat as much sugar-free food as you want.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Sugar-free isn’t the same as carbohydrate-free or calorie-free. Some sugar substitutes don’t have carbs, but many do. And some sugar-free food can affect your blood sugar as much as foods with the sweet stuff.</p>
+<p>Check the label to see how many grams of carbs are in each serving. Foods made with “sugar alcohols” like sorbitol are high in carbohydrates and can give you stomachaches or diarrhea.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="a" data-slide-number="8" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">8</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/diabetes_and_food_rmq/650x350_diabetes_and_food_rmq.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>What should you eat if your blood sugar is high?</h2>
+</div>
+<div class="slide_text">
+<input id="q8" name="q8" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Your regular meal</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Nothing</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Only salad</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">8</span></div><div class="slide_question"><h2>What should you eat if your blood sugar is high?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>If you feel OK but your blood sugar is high, eat your regular meals and take your medicines as usual. Try to drink several glasses of water and move around more. That should help get your numbers down.</p>
+<p>Record your blood sugar every 4 hours until it’s back to normal. Call your doctor if you are worried, if you have symptoms you’re not used to, or if your blood sugar keeps going up.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide results" data-slide-type="results">
+<div class="slide_content">
+<div class="slide_text">
+<div class="results_top_container">
+<div class="results_header">
+<p class="results_score_title">Your Score:</p>
+<div class="score_summary">
+<span class="total_correct icon-check">
+<span> </span>
+</span>
+<span class="total_incorrect icon-close">
+<span> </span>
+</span>
+</div>
+<div class="results_share">
+<span class="results_share_title">Share your score:</span>
+<span id="share_your_results">
+</span>
+</div>
+</div>
+<div class="results_graphic">
+<div class="results_score">
+<div class="results_score_percentage">
+<span class="num">0</span>
+</div>
+<div id="rmq_score_graphic"> </div>
+</div>
+</div>
+<div class="results_share_mobile">
+<span class="results_share_title">Share your score:</span>
+<span id="share_your_results_mobile">
+</span>
+</div>
+</div>
+<div class="results_text">
+<div id="rmq_total_rank">Your Score: <span class="score_rank"> </span><p class="score_text">You correctly answered <span class="score_num_correct"> </span> out of <span class="score_num_total"> </span> questions.</p></div>
+<div class="rmq_results" id="results_1">
+<h5 class="results_title">Results:</h5>
+<p>The results are in! You know a lot about diabetes and food. Great job!</p>
+</div>
+<div class="rmq_results" id="results_2">
+<h5 class="results_title">Results:</h5>
+<p>You know a good bit about eating with diabetes. Well done!</p>
+</div>
+<div class="rmq_results" id="results_3">
+<h5 class="results_title">Results:</h5>
+<p>Not bad, but you could do better. Study up about diabetes and try the quiz again.</p>
+</div>
+</div>
+<div id="results_controls">
+<a class="rmq_next_quiz" href="#">
+<span>Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+<a class="rmq_retake" href="#">
+<i class="icon-arrow-left"> </i>
+<span>Retake Quiz</span>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</form>

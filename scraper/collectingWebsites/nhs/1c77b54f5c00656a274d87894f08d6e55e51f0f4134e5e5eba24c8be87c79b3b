@@ -1,0 +1,57 @@
+<form action="/services/hospital/royal-oldham-hospital/X862/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;A &amp;amp;amp; E and after care&lt;/Title&gt;
+    &lt;ScreenName&gt;Icynessy&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I phoned 111 as was experiencing chest pains and shortness of breath, spoke to someone and went through symptoms, was then phoned back and went through some more questions, was told to see gp. My partner drove me to gp surgery &amp;amp;amp; we got there first thing, got an appointment &amp;amp;amp; waited 15 mins to see the gp, she then sent me straight to A &amp;amp;amp; E as no air was going through the right lung, partner drove me, went straight on to see the nurse, was then sent for an ECG and chest xray. There was no ECG available so went for a chest xray, after xray went back to ECG, when the chest xray came through a nurse showed me the xray and explained that I had suffered a secondary spontaneous pneumothorax (a collapsed lung), I was then sent to the resuscitation room where a nurse and doctor explained the procedure (chest drain) to re inflate the lung, I explained I was allergic to latex, it took a little time to find two pair of latex free gloves, up until this point my experience had been very positive.  
+The chest drain however did not go smoothly the two doctors struggled to get the tubes to connect this was a very painful procedure which was prolonged, due to my screening the consultant came in and directed the Dr on how to connect the tubes, this was a total of 25 minutes, again I was just glad to be able to breath and didn't make a fuss. The chest drain was dressed and I stayed in 24 hours, unfortunately the tube came out before my lung had fully inflated and when the dressing was removed it became apparent that there was latex in the dressing, when removed my skin was very sore and blistered, I was given barrier cream but still have marks where it was.  
+1 week after I had an xray to ensure the lung was inflated which it was, I received a letter saying it was inflated, I received an appointment for a Ct Scan for the first week in June and was told the results would be sent to the consultant and I would be sent an appointment within two weeks, after 6 weeks I phoned to find out what was going on, after 1 hour on the phone and being passed from department to department I finally got through to the right department only to be told there was a back log and to give it a few more weeks!  
+I have only just received my consultants appointment to discuss the CT Scan and my appointment is not until the 9th october, I find that the lack of communication frightening, I'm a very active person and am eager to get back to normality, it scary not knowing what condition my lung is in, I have gotten back to exercise but worry I'm pushing myself when perhaps I shouldn't, I'm still experiencing twinges and shortness of breath and feel that I have just been left to get on with it!!! I feel the after care is not acceptable, I'm unsupported in getting back to normal.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-08-06T20:54:25Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;5&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Royal Oldham Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;70300ca7-12e9-e911-a812-000d3a7ed518&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X862&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFIS0LF8yxDJ8XT2gCluSZ_z7tgGW1NEhnSpVycgS0wqfm_Ud2CYgPqXzUCGPDMeQ7gHFBZMZcrpEXUXmuWv8pWZbqR7UvTwyQ1bxl6dWhWAjudNltgoXTFfFaG7rsTv2M"/></form>

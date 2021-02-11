@@ -1,0 +1,51 @@
+<form action="/api/sitecore/BusinessHealthInsuranceGetQuoteStep1" class="frm-employee-detail" id="frmEmployeeDetail" method="post"> <div class="form-title">
+<h3>3. Number of employees</h3>
+<p class="subtitle hidden-all">You’re almost done. We just need you to tell us the ages of the employees you’d like to cover. Please select an age group and add the number of employees that fall into each age range. If you don’t know the ages of the employees or you need help with your quote, call us on 0808 291 1733^.
+If you need to add more than one age range group, please add them below.
+</p>
+</div>
+<div class="number-emp-row form-body hidden-all">
+<div class="employee-box-wrapper">
+<div class="employees-box employee-box1">
+<div class="form-group">
+<label class="lbl-age-group" data-text="Age group 1">
+                        Age group 1
+                    </label>
+<div class="select-wrap">
+<input class="hdn-selected-age-group" id="hdnSelectedAgeGroup1" type="hidden"/>
+<select class="input-field form-control required employee-age" data-val-required="A minimum of two employees is required to provide a guide price." data-val-validate="Please select group range" id="Group1" name="EmployeeDetails.Group1" tabindex="14"><option value=""></option>
+<option value="16">16 - 20</option>
+<option value="21">21 - 25</option>
+<option value="26">26 - 30</option>
+<option value="31">31 - 35</option>
+<option value="36">36 - 40</option>
+<option value="41">41 - 45</option>
+<option value="46">46 - 50</option>
+<option value="51">51 - 55</option>
+<option value="56">56 - 60</option>
+<option value="61">61 - 65</option>
+<option value="66">66 - 70</option>
+<option value="71">Over 70</option>
+</select> <span class="bupa-validation-icon"></span>
+</div>
+<span class="delete-row">
+<img alt="Remove Age Group Alt" src="https://assets.bupa.co.uk/~/media/images/global/components/common/icons/trash.svg"/>
+</span>
+<p class="validation-msg"></p>
+</div>
+<div class="form-group">
+<label class="lbl-employee-count" data-text="Number of employees">
+                        Number of employees
+                    </label>
+<input class="input-field form-control required pattern employee-count" data-val-required="Number of employees " data-val-validate="Employee count can not be 0 or more than 50." data-val-validate-regex="^[0-9]$|^[1-4][0-9]$|50" data-val-validate2="Employee count can not be 0 or more than 50." id="numberOfEmployees1" name="numberOfEmployees1" placeholder="No of employees" type="number"/>
+<span class="bupa-validation-icon"></span>
+<p class="validation-msg validation-msg2"></p>
+</div>
+</div>
+</div>
+<a class="add-emp-cta"><img alt="Add Age Group Icon Alt" src="https://assets.bupa.co.uk/~/media/images/global/components/common/icons/bupa-cross-toggle.svg"/><span class="ctaText"> Add another group of employees</span></a>
+<div class="cta-wrap">
+<button class="smc-continue step3 btn" data-analytics-name="employee-details" data-next-analytics-name="quote-details" disabled="disabled" showchevron="true" type="button">Continue</button>
+</div>
+</div>
+</form>

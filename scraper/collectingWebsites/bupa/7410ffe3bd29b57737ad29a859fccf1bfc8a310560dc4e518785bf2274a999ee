@@ -1,0 +1,551 @@
+<form action="/api/sitecore/CBTSearch/SearchedData" autocomplete="off" id="billboardForm" method="post">
+<input id="HealthAssessmentDataSourceID" name="HealthAssessmentDataSourceID" type="hidden" value="868C3726-5C48-453D-A62C-6B9D9F67B431"/>
+<input id="HealthCoreDataSourceID" name="HealthCoreDataSourceID" type="hidden" value="599BA040-89A2-46E2-B31B-7278D81FF274"/>
+<div class="form-title">
+<h1>
+                    Book your appointment at a Bupa health centre
+
+                </h1>
+</div>
+<div class="custom-form-field">
+<div id="searchModSection">
+<span class="mod-suggest suggest-location">
+<input id="lat" name="lat" type="hidden" value=""/>
+<input id="lng" name="lng" type="hidden" value=""/>
+<input id="postalcode" name="PostCode" type="hidden"/>
+<input id="UseCurrentLocation" name="UseCurrentLocation" type="hidden" value="false"/>
+<input id="GeoLocationText" name="GeoLocationText" type="hidden" value="Use my current location"/>
+<input autocomplete="off" class="suggest-queryCBT lrg-custom-input" data-errormessage="Please enter your location" id="Search" lat="" lng="" name="SelectedLocation" placeholder="Your  location " tabindex="1" type="text" value=""/>
+</span>
+</div>
+</div>
+<label class="checked" style="display:none;"><span class="radio-icon checked" data-placeholder-text="Enter a location or post code"></span><input checked="checked" name="searchBy" type="radio" value="loc"/>Closest to</label>
+<div id="map_canvas" style="display:none"></div>
+<div>
+<div class="custom-form-field product-selection">
+<div class="select-style">
+<select data-errormessage="Please select a product" id="productselector" name="ProductFamily" tabindex="2">
+<option value="">I want to book</option>
+<option data-showcustomerfields="True" data-showgender="True" selected="selected" value="868c3726-5c48-453d-a62c-6b9d9f67b431">Health assessment</option>
+<option data-showcustomerfields="False" data-showgender="True" value="607142ae-7c46-473c-a618-8cb81bb3030a">GP appointment</option>
+<option data-showcustomerfields="False" data-showgender="True" value="4b8b763b-3921-408b-853e-5480b668d068">Muscle, bone, and joint services</option>
+</select>
+<input id="bookingType" name="bookingType" type="hidden" value="Health assessment"/>
+</div>
+</div>
+<div class="products-section" id="868c3726-5c48-453d-a62c-6b9d9f67b431">
+<input class="bookingSlot" type="hidden" value="120"/>
+<a class="popup-anchor full-width-anchor" data-analytics-link="link:product-compare" data-popup="d2b6b93f-9ad2-4271-8aa3-ce4dff59dc2f" href="#" tabindex="3"></a>
+<div class="w3-modal" id="d2b6b93f-9ad2-4271-8aa3-ce4dff59dc2f">
+<div class="w3-modal-content">
+<span class="close-div closePopup" data-popup="d2b6b93f-9ad2-4271-8aa3-ce4dff59dc2f"><p class="close-text"><i class="i-close"></i></p></span>
+<div class="w3-container">
+<div class="accordion-section content js">
+<div class="panel mod-toggle tg-lrg faq-full-page treatment-faq accordion" data-toggle-target="+ div">
+<div class="belt">
+<div class="grid">
+<div class="col w-100">
+<div class="pad">
+<section>
+<div class="mob-pad">
+<h2 class="faq-header">About Bupa health assessments</h2>
+<p class="popup-content">After your assessment, we'll give you a personalised health report, practical action plan and follow up coaching sessions. If necessary, we can provide access to an appropriate private referral.</p>
+<p class="popup-content">Our health assessments are carried out by qualified Bupa doctors, trained health advisers and nurses. We offer a wide range of tests, designed to give you an understanding of your overall health risks.</p>
+<div class="faq-intro-text">
+<span></span>
+<a class="btn-expand-all expand" data-more-content-id="#answers" data-show-less-text="Collapse all" data-show-more-text="Expand all">
+<span class="view-more-less-text">Expand all</span>
+<em class="i-plus-d-cyan"></em>
+</a>
+</div>
+</div>
+<ul class="faq-accordion">
+<li class="accordion-item tg-show">
+<h4 class="faq-header tg-link">
+<a class="title-closed" href="#" style="display: none;">Health Peak<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em></a>
+<a class="title-open" href="#" style="display: inline-block;">
+    Health Peak<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em>
+</a>
+</h4>
+<div class="tg-hide tg-show answers">
+<p class="popup-content">Our Health Peak is our most comprehensive health assessment, designed to both identify key health risks and offer clear directions to help you perform at your best.</p>
+<p class="popup-content">A core set of tests aimed at identifying key health risks, directing you towards a healthier lifestyle through access to Bupa Boost and lifestyle support after the assessment. It also includes male or female health checks, an advanced fitness test and a consultation with a Bupa doctor for up to 60 minutes.</p>
+<p class="popup-content"><strong>What's included?</strong></p>
+<ul>
+<li class="dot-rte">Total assessment time - 2 hours 30 minutes </li>
+<li class="dot-rte">Test time - 30 minutes </li>
+<li class="dot-rte">Additional tests time - 45 minutes advanced fitness test and results review </li>
+<li class="dot-rte">Review time - 30 minutes </li>
+<li class="dot-rte">Consultation time - Up to 45 minutes </li>
+<li class="dot-rte">Age range - 18 to 70 </li>
+</ul>
+</div>
+</li>
+<li class="accordion-item">
+<h4 class="faq-header tg-link">
+<a class="title-closed" href="#" style="display: inline-block;">Health Enhance<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em></a>
+<a class="title-open" href="#" style="display: none;">
+    Health Enhance<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em>
+</a>
+</h4>
+<div class="tg-hide answers">
+<p class="popup-content">Our Health Enhance assessment gives you an in-depth view of your health, with male or female health checks and up to 60 minutes with a doctor.</p>
+<strong>
+    What's included?
+    </strong>
+<p class="popup-content">A core set of tests aimed at identifying key health risks, directing you towards a healthier lifestyle through access to Bupa Boost and lifestyle support after the assessment. It also includes male or female health checks and a consultation with a Bupa doctor for up to 60 minutes.</p>
+<ul>
+<li class="dot-rte">Total assessment time - 2 hours</li>
+<li class="dot-rte">Test time - 30 minutes </li>
+<li class="dot-rte">Review time - 30 minutes </li>
+<li class="dot-rte">Age range - 18 to 70 designed for those over 40 in mind </li>
+</ul>
+</div>
+</li>
+<li class="accordion-item">
+<h4 class="faq-header tg-link">
+<a class="title-closed" href="#" style="display: inline-block;">Female health<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em></a>
+<a class="title-open" href="#" style="display: none;">
+    Female health<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em>
+</a>
+</h4>
+<div class="tg-hide answers">
+<p class="popup-content">Our female health check is designed for women over 25, with a focus on breast and gynaecological health.</p>
+<p class="popup-content"><strong>What's included?</strong></p>
+<ul>
+<li class="dot-rte">Total assessment time - 60 minutes</li>
+<li class="dot-rte">Time with a Health advisor - 30 minutes</li>
+<li class="dot-rte">Time with a Doctor - 30 minutes</li>
+<li class="dot-rte">Age range – women over 25</li>
+</ul>
+</div>
+</li>
+<li class="accordion-item">
+<h4 class="faq-header tg-link">
+<a class="title-closed" href="#" style="display: inline-block;">Health Core<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em></a>
+<a class="title-open" href="#" style="display: none;">
+    Health Core<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em>
+</a>
+</h4>
+<div class="tg-hide answers">
+<p class="popup-content">Our Health Core assessment provides a well-rounded view of where your health is currently, backed up with guidance and coaching to help you achieve a healthier lifestyle.</p>
+<p class="popup-content"><strong>What's included?</strong></p>
+<p class="popup-content">A core set of tests aimed at identifying key health risks, directing you towards a healthier lifestyle through access to Bupa Boost and lifestyle support after the assessment.</p>
+<ul>
+<li class="dot-rte">Total assessment time - 60 minutes</li>
+<li class="dot-rte">Test time - 30 minutes </li>
+<li class="dot-rte">Review time - 30 minutes </li>
+<li class="dot-rte">Age range - 18 to 65 designed with those under 40 in mind </li>
+</ul>
+</div>
+</li>
+<li class="accordion-item">
+<h4 class="faq-header tg-link">
+<a class="title-closed" href="#" style="display: inline-block;">Health Focus<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em></a>
+<a class="title-open" href="#" style="display: none;">
+    Health Focus<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em>
+</a>
+</h4>
+<div class="tg-hide answers">
+<p class="popup-content">Our Health Focus assessment identifies key health risks and offers clear directions towards a healthier lifestyle.</p>
+<p class="popup-content"><strong>What's included?</strong></p>
+<ul>
+<li class="dot-rte">Total assessment time - 1 hour 30 minutes</li>
+<li class="dot-rte">Test time - 30 minutes</li>
+<li class="dot-rte">Review time - 30 minutes</li>
+<li class="dot-rte">Consultation time - Up to 30 minutes</li>
+<li class="dot-rte">Age range - 18 to 65 specifically designed for those under</li>
+</ul>
+</div>
+</li>
+<li class="accordion-item">
+<h4 class="faq-header tg-link">
+<a class="title-closed" href="#" style="display: inline-block;">Mature health<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em></a>
+<a class="title-open" href="#" style="display: none;">
+    Mature health<em class="i-plus-d-grey"></em><em class="i-minus-d-cyan"></em>
+</a>
+</h4>
+<div class="tg-hide answers">
+<p class="popup-content">Our mature health assessment can help you get a picture of your health in later life, with tests specifically designed for men and women over 65.</p>
+<p class="popup-content"><strong>What's included?</strong></p>
+<ul>
+<li class="dot-rte">Total duration of health assessment - 120 minutes</li>
+<li class="dot-rte">Time with a Health Adviser - 60 minutes</li>
+<li class="dot-rte">Time with a Doctor - up to 60 minutes</li>
+<li class="dot-rte">Age range – over 65</li>
+</ul>
+</div>
+</li>
+</ul>
+<p><strong><em>Please note: in order to keep customers and staff safe, we are unable to see customers who are required to self-isolate or quarantine under UK government guidelines. This includes: customers with symptoms of COVID-19 in the 7 days prior to their appointment; customers who have had contact with a potential/confirmed case (including household members)  of COVID-19 in the 14 days prior to their appointment; and customers who have returned from a country requiring a quarantine period in the 14 days prior to their appointment.</em></strong></p>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="close-div-bottom">
+<span class="closePopup" data-popup="d2b6b93f-9ad2-4271-8aa3-ce4dff59dc2f">
+<a class="btn btn-overlay-close" href="javascript:void(0)">
+                                                            Close
+                                                        </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="custom-form-field">
+<div class="productSelect select-style">
+<select data-errormessage="Product error" name="Health assessment" tabindex="4">
+<option value="">Please choose one of the following</option>
+<option data-analytics-link="link:option:Be.Ahead" data-productid="c1e01487-1709-4046-9c81-8c14089324fd" value="HA-35 - BeAhead|1989|B6062|c1e01487-1709-4046-9c81-8c14089324fd|Be.Ahead|868c3726-5c48-453d-a62c-6b9d9f67b431|Health assessment">Be.Ahead</option>
+<option data-analytics-link="link:option:Be.Motivated" data-productid="ada8d32f-43c5-4f20-abcc-48ab5cc81381" value="HA-33 - BeMotivated|1987|B6060|ada8d32f-43c5-4f20-abcc-48ab5cc81381|Be.Motivated|868c3726-5c48-453d-a62c-6b9d9f67b431|Health assessment">Be.Motivated</option>
+<option data-analytics-link="link:option:Be.Reassured" data-productid="5e5efe81-febf-4aa5-929f-73a21afd4bcd" selected="selected" value="HA-32 - BeReassured|1986|B6059|5e5efe81-febf-4aa5-929f-73a21afd4bcd|Be.Reassured|868c3726-5c48-453d-a62c-6b9d9f67b431|Health assessment">Be.Reassured</option>
+<option data-analytics-link="link:option:Female Health" data-productid="4b17a5d0-28eb-4922-a40d-fa03b7220ba4" value="HA-05 - Female|1415|OL006|4b17a5d0-28eb-4922-a40d-fa03b7220ba4|Female Health|868c3726-5c48-453d-a62c-6b9d9f67b431|Health assessment">Female Health</option>
+<option data-analytics-link="link:option:Mature Health" data-productid="df2dab54-491a-466c-98e7-64783a30edd3" value="HA-04 - Mature|1413|OL004|df2dab54-491a-466c-98e7-64783a30edd3|Mature Health|868c3726-5c48-453d-a62c-6b9d9f67b431|Health assessment">Mature Health</option>
+</select>
+</div>
+<a class="popup-anchor" data-analytics-link="link:product-information" data-popup="81cdf6ee-3c66-4a1d-8c06-8742c3af7c47">
+                                        Learn more about health assessments
+                                        <i aria-hidden="true" class="fa fa-info-circle"></i>
+</a>
+<div class="w3-modal" id="81cdf6ee-3c66-4a1d-8c06-8742c3af7c47">
+<div class="w3-modal-content">
+<span class="close-div closePopup" data-popup="81cdf6ee-3c66-4a1d-8c06-8742c3af7c47"><p class="close-text"><i class="i-close"></i></p></span>
+<div class="w3-container">
+<div class="groupData hidden">
+<div class="accordion-section content js">
+<div class="panel mod-toggle tg-lrg faq-full-page treatment-faq accordion" data-toggle-target="+ div">
+<div class="belt">
+<div class="grid">
+<div class="col w-100">
+<div class="pad">
+<section>
+<div class="mob-pad">
+<h2 class="faq-header">Why a Bupa health assessment</h2>
+<p class="popup-content">After your assessment, we'll give you a personalised health report, practical action plan and follow up coaching sessions. If necessary, we can provide access to an appropriate private referral.</p>
+<p class="popup-content">Our health assessments are carried out by qualified Bupa doctors, trained health advisers and nurses. We offer a wide range of tests, designed to give you an understanding of your overall health risks.</p>
+<p><strong><em>Please note: in order to keep customers and staff safe, we are unable to see customers who are required to self-isolate or quarantine under UK government guidelines. This includes: customers with symptoms of COVID-19 in the 7 days prior to their appointment; customers who have had contact with a potential/confirmed case (including household members)  of COVID-19 in the 14 days prior to their appointment; and customers who have returned from a country requiring a quarantine period in the 14 days prior to their appointment.</em></strong></p>
+<div class="faq-intro-text"> </div>
+</div>
+</section></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="productNameInfo hidden c1e01487-1709-4046-9c81-8c14089324fd" data-href="" data-showasoverlay="True">
+<h2>Be.Ahead</h2>
+<p>Assessment time: 2hrs 30 mins</p>
+<p>A lifestyle discussion to help you achieve your goals. </p>
+<p>Core tests including blood tests for type 2 diabetes, anaemia and cholesterol; mobility &amp; flexibility review; mental health and wellbeing discussion; self-selected lifestyle module with behaviour change coaching.</p>
+<p>Up to 60 mins with a Doctor to talk through health concerns and do additional tests depending on what's clinically appropriate for you as well as having a closer look at mental health.</p>
+<p>30 minute in-depth look at your fitness using a Wattbike - an intelligent smart trainer.</p>
+<p><strong><em>Please note: in order to keep customers and staff safe, we are unable to see customers who are required to self-isolate or quarantine under UK government guidelines. This includes: customers with symptoms of COVID-19 in the 7 days prior to their appointment; customers who have had contact with a potential/confirmed case (including household members)  of COVID-19 in the 14 days prior to their appointment; and customers who have returned from a country requiring a quarantine period in the 14 days prior to their appointment.</em></strong></p>
+</div>
+<div class="productNameInfo hidden ada8d32f-43c5-4f20-abcc-48ab5cc81381" data-href="" data-showasoverlay="True">
+<h2>Be.Motivated</h2>
+<p>Assessment time: 60 minutes</p>
+<p>A lifestyle discussion to help you achieve your goals.</p>
+<p>Core tests include blood tests for type 2 diabetes and cholesterol; mobility &amp; flexibility review; Mental health and wellbeing discussion; a self-selected lifestyle module with behaviour change coaching.</p>
+<p>Please note this assessment does not included dedicated time with a doctor.</p>
+<p><strong><em>Please note: in order to keep customers and staff safe, we are unable to see customers who are required to self-isolate or quarantine under UK government guidelines. This includes: customers with symptoms of COVID-19 in the 7 days prior to their appointment; customers who have had contact with a potential/confirmed case (including household members) of COVID-19 in the 14 days prior to their appointment; and customers who have returned from a country requiring a quarantine period in the 14 days prior to their appointment.</em></strong></p>
+</div>
+<div class="productNameInfo hidden 5e5efe81-febf-4aa5-929f-73a21afd4bcd" data-href="" data-showasoverlay="True">
+<h2>Be.Reassured</h2>
+<p>Assessment time: 120 minutes </p>
+<p>A lifestyle discussion to help you achieve your goals.  </p>
+<p>Core tests including blood tests for type 2 diabetes; anaemia and cholesterol; mobility &amp; flexibility review; mental health and wellbeing discussion; self-selected lifestyle module with behaviour change coaching. </p>
+<p>Up to 60 minutes with a Dr to talk through health concerns and do additional tests depending on what's clinically appropriate for you as well as having a closer look at mental health - Be.Me app which includes virtual coach Luke who will help you navigate the app, complete health &amp; wellbeing questionnaires, set goals and stay motivated - Two lifestyle coaching calls.</p>
+<p><strong><em>Please note: in order to keep customers and staff safe, we are unable to see customers who are required to self-isolate or quarantine under UK government guidelines. This includes: customers with symptoms of COVID-19 in the 7 days prior to their appointment; customers who have had contact with a potential/confirmed case (including household members)  of COVID-19 in the 14 days prior to their appointment; and customers who have returned from a country requiring a quarantine period in the 14 days prior to their appointment.</em></strong></p>
+</div>
+<div class="productNameInfo hidden 4b17a5d0-28eb-4922-a40d-fa03b7220ba4" data-href="" data-showasoverlay="True">
+<h2>Female health</h2>
+<p>Assessment time: 60 minutes</p>
+<p>This assessment is for women over 25, and includes a focus on breast and gynaecological health. It includes up to 30 minutes with a doctor.</p>
+<p><strong><em>Please note: in order to keep customers and staff safe, we are unable to see customers who are required to self-isolate or quarantine under UK government guidelines. This includes: customers with symptoms of COVID-19 in the 10 days prior to their appointment; customers who have had contact with a potential/confirmed case (including household members)  of COVID-19 in the 14 days prior to their appointment; and customers who have returned from a country requiring a quarantine period in the 14 days prior to their appointment.</em></strong></p>
+</div>
+<div class="productNameInfo hidden df2dab54-491a-466c-98e7-64783a30edd3" data-href="/" data-showasoverlay="True">
+<h2>Mature health</h2>
+<p>Assessment time: 2 hours</p>
+<p>With tests designed specifically for men and women over 65, this assessment can give you a helpful picture of your health in later life. It includes: </p>
+<ul class="small-dot-rte">
+<li> - A core set of tests that aim to identify key health risks</li>
+<li> - Guidance on a healthier lifestyle </li>
+<li> - Up to 60 minutes with a doctor including a focused physical examination</li>
+<li> - Tests focused on mobility and posture </li>
+<li> - Tests for male or female specific cancers </li>
+</ul>
+<br/>
+<p><strong><em>Please note: in order to keep customers and staff safe, we are unable to see customers who are required to self-isolate or quarantine under UK government guidelines. This includes: customers with symptoms of COVID-19 in the 10 days prior to their appointment; customers who have had contact with a potential/confirmed case (including household members) of COVID-19 in the 14 days prior to their appointment; and customers who have returned from a country requiring a quarantine period in the 14 days prior to their appointment.</em></strong></p>
+</div>
+<div class="close-div-bottom">
+<span class="closePopup" data-popup="81cdf6ee-3c66-4a1d-8c06-8742c3af7c47">
+<a class="btn btn-overlay-close" href="javascript:void(0)">
+                                                            Close
+                                                            </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="products-section" id="607142ae-7c46-473c-a618-8cb81bb3030a">
+<input class="bookingSlot" type="hidden" value="120"/>
+<a class="popup-anchor full-width-anchor" data-analytics-link="link:product-compare" data-popup="54f79063-00c0-4fdb-be9c-f904d4faf659" href="#" tabindex="3">Learn more about GP services</a>
+<div class="w3-modal" id="54f79063-00c0-4fdb-be9c-f904d4faf659">
+<div class="w3-modal-content">
+<span class="close-div closePopup" data-popup="54f79063-00c0-4fdb-be9c-f904d4faf659"><p class="close-text"><i class="i-close"></i></p></span>
+<div class="w3-container">
+<h2 class="popup-title">GP Services</h2>
+<p class="popup-content">We offer adult only private doctor services for the diagnosis and treatment of minor illness at many of our health centres throughout the UK, giving you access to doctors without having to wait for an appointment.
+</p>
+<p class="popup-content">You’ll also get sufficient time with a doctor and not feel rushed so you can properly discuss your health concerns or illness.  The amount of time you need with the doctor will depend on how many concerns of illnesses you need to discuss and the complexity.  Please refer to the ‘how long do I need’ link for further information.
+</p>
+<p class="popup-content">Our doctors offer a range of services, from advice on minor illnesses to women and men’s health. If you require further investigations we can organise blood tests or scans at an additional cost. Private consultant referrals and private prescription notes are supplied at no extra cost.</p>
+<p>Please be aware that our service cannot provide all the services available from your NHS doctor. In particular we are unable to  manage acute medical, surgical and psychiatric emergencies including treating cuts and wounds, prescribe controlled drugs including tranquillisers and night sedation, or initiate anti-depressant medication, ear wax syringing and sexual health screening.
+</p>
+<p class="popup-content">We offer two appointment slots, our standard is 30 minutes but we also offer a shorter appointment for 15 minutes. If you believe you need a longer appointment please contact our booking team on 0333 305 7965. Lines are open 8am to 6pm Monday to Friday, we’re closed on weekends. We may record or monitor our calls.</p>
+<p><strong><em>Please note: in order to keep customers and staff safe, we are unable to see customers who are required to self-isolate or quarantine under UK government guidelines. This includes: customers with symptoms of COVID-19 in the 7 days prior to their appointment; customers who have had contact with a potential/confirmed case (including household members) of COVID-19 in the 14 days prior to their appointment; and customers who have returned from a country requiring a quarantine period in the 14 days prior to their appointment.</em></strong></p>
+<div class="close-div-bottom">
+<span class="closePopup" data-popup="54f79063-00c0-4fdb-be9c-f904d4faf659">
+<a class="btn btn-overlay-close" href="javascript:void(0)">
+                                                            Close
+                                                        </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="custom-form-field">
+<div class="productSelect select-style">
+<select data-errormessage="Product error" name="GP appointment" tabindex="4">
+<option value="">Consultation time</option>
+<option data-analytics-link="link:option:Menopause Plan Initial Appointment" data-productid="61b7ca29-988d-490b-864a-ad5a899ed298" value="HA-42 - Menopause Plan Initial Appointment|2163|B6317|61b7ca29-988d-490b-864a-ad5a899ed298|Menopause Plan Initial Appointment|607142ae-7c46-473c-a618-8cb81bb3030a|GP appointment">Menopause Plan Initial Appointment</option>
+<option data-analytics-link="link:option:Virtual GP Appointment by PHONE (15 Minutes)" data-productid="b052e695-43db-44a8-b25a-0d7d596d53ac" value="HA-38 - VirtualGP Phone 15|2109|B6237|b052e695-43db-44a8-b25a-0d7d596d53ac|Virtual GP Appointment by PHONE (15 Minutes)|607142ae-7c46-473c-a618-8cb81bb3030a|GP appointment">Virtual GP Appointment by PHONE (15 Minutes)</option>
+<option data-analytics-link="link:option:Virtual GP Appointment by PHONE (30 Minutes)" data-productid="86c88454-7db8-4a9b-94d1-6752536d793e" value="HA-39 - VirtualGP Phone 30|2110|B6238|86c88454-7db8-4a9b-94d1-6752536d793e|Virtual GP Appointment by PHONE (30 Minutes)|607142ae-7c46-473c-a618-8cb81bb3030a|GP appointment">Virtual GP Appointment by PHONE (30 Minutes)</option>
+<option data-analytics-link="link:option:Virtual GP Appointment by VIDEO (15 Minutes)" data-productid="d4191533-141e-45d3-8828-f8aafb5095af" value="HA-40 - VirtualGP Video 15|2111|B6239|d4191533-141e-45d3-8828-f8aafb5095af|Virtual GP Appointment by VIDEO (15 Minutes)|607142ae-7c46-473c-a618-8cb81bb3030a|GP appointment">Virtual GP Appointment by VIDEO (15 Minutes)</option>
+<option data-analytics-link="link:option:Virtual GP Appointment by VIDEO (30 Minutes)" data-productid="3aa736e7-36a8-4628-95d8-5798b68de5e7" value="HA-41 - VirtualGP Video 30|2112|B6240|3aa736e7-36a8-4628-95d8-5798b68de5e7|Virtual GP Appointment by VIDEO (30 Minutes)|607142ae-7c46-473c-a618-8cb81bb3030a|GP appointment">Virtual GP Appointment by VIDEO (30 Minutes)</option>
+<option data-analytics-link="link:option:COVID-19 (coronavirus) Rapid Antibody Test" data-productid="38651a85-031e-443a-9ab2-681d16a62e5a" value="HA-11 - GP Services|2180|B6372|38651a85-031e-443a-9ab2-681d16a62e5a|COVID-19 (coronavirus) Rapid Antibody Test|607142ae-7c46-473c-a618-8cb81bb3030a|GP appointment">COVID-19 (coronavirus) Rapid Antibody Test</option>
+</select>
+</div>
+<a class="popup-anchor" data-analytics-link="link:product-information" data-popup="411282d7-8ce4-4e4d-b68c-c36e28866c90">
+                                        How long do I need?
+                                        <i aria-hidden="true" class="fa fa-info-circle"></i>
+</a>
+<div class="w3-modal" id="411282d7-8ce4-4e4d-b68c-c36e28866c90">
+<div class="w3-modal-content">
+<span class="close-div closePopup" data-popup="411282d7-8ce4-4e4d-b68c-c36e28866c90"><p class="close-text"><i class="i-close"></i></p></span>
+<div class="w3-container">
+<div class="groupData hidden">
+<h2 class="popup-title">How long do I need?</h2>
+<h4 class="popup-subtitle">GP 15 minutes</h4>
+<p class="popup-content">Our short GP appointments for adults over 18 years old are available daily at our clinics across the country.
+We would recommend this length of appointment if you meet any of the following:
+You have one concern or minor illness to discuss with the doctor or require a repeat prescription for non controlled drugs.
+</p>
+<p class="popup-content">These short appointments are generally not recommended for where you have more than one issue to discuss or have an existing complex medical history (Please see information on 30 min standard appointment)
+</p>
+<p>If the purpose of the appointment is for a cervical smear or prostate test, please contact the bookings team directly</p>
+<p>If despite booking a short appointment, more time is required, we’ll endeavour to make this available to you. Extra time is only available in 15 minute or 30 minute intervals and there will be a charge for this.</p>
+<p>Appointments are completely confidential and we’ll only contact your NHS doctor about your appointment with your prior consent.</p>
+<h4 class="popup-subtitle">GP 30 minutes</h4>
+<p class="popup-content">Our standard GP appointment for adults over 18 years old offers sufficient time to discuss your health concerns or illnesses so you won’t feel rushed.</p>
+<p class="popup-content">We would recommend this length of appointment if you require any of the following:</p>
+<ul>
+<li class="dot-rte">
+    You have more than one medical issue you wish to discuss
+    </li>
+<li class="dot-rte">
+    You want to discuss your medical history in more detail with a doctor
+    </li>
+<li class="dot-rte">
+    You’d like to discuss your symptoms, concerns and expectations without feeling rushed
+    </li>
+<li class="dot-rte">
+    You need medical advice and a detailed assessment to reach or confirm a diagnosis
+    </li>
+<li class="dot-rte">
+    You’d like to discuss your options for treatment and need advice to help you make the best decision
+    </li>
+<li class="dot-rte">You’d like a second opinion or further information on a diagnosis or help creating a management and treatment plan to deal with your diagnosis</li>
+<li class="dot-rte">You think you may need to see a private consultant to access secondary care </li>
+<li class="dot-rte">You need a private prescription</li>
+</ul>
+<p class="popup-content">If the purpose of the appointment is for a cervical smear or prostate test, please contact the bookings team directly</p>
+<p class="popup-content">If you believe you need a longer appointment please contact our booking team on 0333 305 7965 Lines are open 8am to 6pm Monday to Friday, we are closed on weekends. We may record or monitor our calls.
+</p>
+<p class="popup-content">Appointments are completely confidential and we’ll only contact your NHS doctor about your appointment with your prior consent
+</p>
+<h4 class="popup-subtitle">30 Mins Male Health Check</h4>
+<p class="popup-content">A short targeted appointment to discuss signs and symptoms of testicular and prostate cancer. This appointment is not suitable for anyone with more general health concerns or for anyone with multiple health concerns. If more time is required please contact our bookings team.</p>
+<p class="popup-content">Whilst it is particularly suitable for men over 50 years of age men from 18 can book for the appointment if they have any concerns or would like to talk to a Bupa doctor about the signs and symptoms or for advice on self-checking. </p>
+<p class="popup-content">If, despite booking a short appointment, more time is required, we’ll endeavour to make this available to you. Extra time is only available in 15 minute or 30 minute intervals and there will be a charge for this.</p>
+<p class="popup-content">Appointments are completely confidential and we’ll only contact your NHS doctor about your appointment with your prior consent</p>
+<p><strong><em>If you have visited Iran, South Korea, Northern Italy lockdown areas or Hubei Province over the past 14 days please self-isolate at home even with no symptoms and contact NHS 111 for advice and rebook your appointment.</em></strong></p>
+<p><strong><em>If you have visited Mainland China, Thailand, Japan, Republic of Korea, Hong Kong, Taiwan, Singapore, Malaysia, Cambodia, Macau, Myanmar, Northern Italy, Vietnam and Laos in the last 14 days AND are experiencing cough or fever or shortness of breath, to stay indoors and call NHS 111, even if symptoms are mild and to rebook any appointments.</em></strong></p>
+</div>
+<div class="productNameInfo hidden 61b7ca29-988d-490b-864a-ad5a899ed298" data-href="" data-showasoverlay="True">
+<h2>Menopause Plan Initial Appointment</h2>
+<p>This appointment is primarily designed for individuals who feel that they are suffering from the menopause or wish to discuss the menopause in more detail with one of our specialised trained GP’s</p>
+<p>As part of your plan you will receive an initial telephone appointment with one of our Menopause GP’s which may last up to 45min depending upon your requirements. The GP will then guide you through any next steps if necessary, which can include them providing you with a private prescription or a referral on to further care. The GP will provide you with a personalised care plan. You will also get a 15min telephone follow up appointment at 12 weeks which you will need to call Bupa to arrange.</p>
+<p>In addition, you will be given a whole year’s access to our team of menopause trained nurses on our 24/7 Bupa Anytime HealthLine.</p>
+</div>
+<div class="productNameInfo hidden b052e695-43db-44a8-b25a-0d7d596d53ac" data-href="" data-showasoverlay="True">
+<h2>Telephone GP appointment – 15min</h2>
+<p>This appointment is suitable for a customer over the age of 18 with one minor presenting complaint and will include full discussion by telephone call with a Bupa GP, arrangement of prescription and/or onward referral if required. </p>
+<p>The time you have booked your appointment for is only a guide the GP will call you within 2 hours of this time.  </p>
+<p>The number of medical conditions that can be discussed within a GP appointment are subject to the discretion of the Doctor.</p>
+<p>Please be aware that if your appointment is for multiple health issues, you have a complex medical history or you are seeking a second opinion, we would recommend a 30 minute appointment and it may be helpful for you to have to hand details of any test results and specialist correspondence with you relating to the condition you are going to be discussing with the GP. </p>
+</div>
+<div class="productNameInfo hidden 86c88454-7db8-4a9b-94d1-6752536d793e" data-href="" data-showasoverlay="True">
+<h2>Telephone GP appointment – 30min</h2>
+<p>This appointment is suitable for a customer over the age of 18 with one minor presenting complaint and will include full discussion by telephone call with a Bupa GP, arrangement of prescription and/or onward referral if required. </p>
+<p>The time you have booked your appointment for is only a guide the GP will call you within 2 hours of this time.  </p>
+<p>The number of medical conditions that can be discussed within a GP appointment are subject to the discretion of the Doctor.</p>
+<p>Please be aware that if your appointment is for multiple health issues, you have a complex medical history or you are seeking a second opinion, we would recommend a 30 minute appointment and it may be helpful for you to have to hand details of any test results and specialist correspondence with you relating to the condition you are going to be discussing with the GP. </p>
+</div>
+<div class="productNameInfo hidden d4191533-141e-45d3-8828-f8aafb5095af" data-href="" data-showasoverlay="True">
+<h2>Video GP appointment – 15min</h2>
+<p>This appointment is suitable for a customer over the age of 18 with one minor presenting complaint and will include full discussion by Video call with a Bupa GP, arrangement of prescription and/or onward referral if required. </p>
+<p>The time you have booked your appointment for is only a guide the GP will call you within 2 hours of this time to activate the video call. </p>
+<p>You will receive a video call invitation email before your appointment, containing a link to join the video call along with instructions for how to join. You can join either through your web browser or by downloading an app on your phone. Please take a few minutes to get set up and test your connection in advance of your appointment. </p>
+<p>The number of medical conditions that can be discussed within a GP appointment are subject to the discretion of the Doctor.</p>
+<p>Please be aware that if your appointment is for multiple health issues, you have a complex medical history or you are seeking a second opinion, we would recommend a 30 minute appointment and it may be helpful for you to have to hand details of any test results and specialist correspondence with you relating to the condition you are going to be discussing with the GP. </p>
+</div>
+<div class="productNameInfo hidden 3aa736e7-36a8-4628-95d8-5798b68de5e7" data-href="" data-showasoverlay="True">
+<h2>Video GP appointment – 30min</h2>
+<p>This appointment is suitable for a customer over the age of 18 and will include full discussion by Video call with a Bupa GP, arrangement of prescription and/or onward referral if required. </p>
+<p>The time you have booked your appointment for is only a guide the GP will call you within 2 hours of this time to activate the video call. </p>
+<p>The number of medical conditions that can be discussed within a GP appointment are subject to the discretion of the Doctor.</p>
+<p>We are unable to provide referrals to NHS consultants or clinics, all our referrals are for the private sector. With your consent, we will share the details of our treatment with your NHS GP; you can of course decline this sharing of information if they wish.</p>
+</div>
+<div class="productNameInfo hidden 38651a85-031e-443a-9ab2-681d16a62e5a" data-href="" data-showasoverlay="True">
+<h2>COVID-19 Rapid Antibody test</h2>
+<p><b>Please note this is not a COVID-19 PCR or Antigen test to tell you if you are currently infected. This test cannot be used for travel requirements.</b></p>
+<p>This is a 15-minute appointment, it involves one of our Health Advisors taking a blood sample from a small finger prick to test for detectable antibodies to Covid-19 (coronavirus). The presence of antibodies tells you whether you have <b>previously</b> been infected with Covid-19. </p>
+<p>In response to infection with Covid-19, most people will produce antibodies in the blood. These take some time to develop in response to the infection. If you have had symptoms of Covid-19 (new cough, fever, or flu-like symptoms) this test should be completed a minimum of 20 days after the symptoms began. It is important to note that a negative test does not completely rule out a previous infection just that antibodies can’t be detected. </p>
+<p>This test may also be appropriate for individuals who may not have developed any symptoms of Covid-19, but are interested in whether they have previously been infected.</p>
+<p>Please note, that the presence of antibodies in your blood (a positive result) does <b>not</b> mean that you are protected from catching coronavirus again or passing it onto others.  As such you should continue to follow the current government guidelines around social distancing and self-isolation, regardless of your result. </p>
+</div>
+<div class="close-div-bottom">
+<span class="closePopup" data-popup="411282d7-8ce4-4e4d-b68c-c36e28866c90">
+<a class="btn btn-overlay-close" href="javascript:void(0)">
+                                                            Close
+                                                            </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="products-section" id="4b8b763b-3921-408b-853e-5480b668d068">
+<input class="bookingSlot" type="hidden" value="120"/>
+<a class="popup-anchor full-width-anchor" data-analytics-link="link:product-compare" data-popup="69fea1a4-3645-4023-9362-be7c93774042" href="#" tabindex="3">Learn more about musculoskeletal services and physiotherapy</a>
+<div class="w3-modal" id="69fea1a4-3645-4023-9362-be7c93774042">
+<div class="w3-modal-content">
+<span class="close-div closePopup" data-popup="69fea1a4-3645-4023-9362-be7c93774042"><p class="close-text"><i class="i-close"></i></p></span>
+<div class="w3-container">
+<h2 class="popup-title">Musculoskeletal services</h2>
+<p class="popup-content">Our musculoskeletal physicians are experienced in diagnosing problems with muscles, bones and joints, helping you return to normal activity as soon as possible. This includes issues ranging from acute back pain, sprains, muscle tears and sporting injuries.</p>
+<p class="popup-content">Book an initial consultation at one of our health centres and our physicians will be able to recommend treatment to help guide you back to your best. </p>
+<h1 class="popup-title">Physiotherapy</h1>
+<p class="popup-content">Physiotherapy can help reduce physical discomfort, improve movement and strengthen and rehabilitate specific areas of your body. Our physiotherapy services are available to everyone aged 18 and over, even if you don’t have Bupa health insurance.</p>
+<p class="popup-content">Our physiotherapists provide a range of treatments across many of our health centres, such as joint mobilisation, manual therapy, massage, acupuncture and even shockwave therapy for the treatment of chronic pain.</p>
+<div class="close-div-bottom">
+<span class="closePopup" data-popup="69fea1a4-3645-4023-9362-be7c93774042">
+<a class="btn btn-overlay-close" href="javascript:void(0)">
+                                                            Close
+                                                        </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="custom-form-field">
+<div class="productSelect select-style">
+<select data-errormessage="Product error" name="Muscle, bone, and joint services" tabindex="4">
+<option value="">Type of appointment</option>
+<option data-analytics-link="link:option:Musculoskeletal physician initial appointment" data-productid="66147671-5638-40d3-90a0-1f167ff46041" value="HA-16 - Musculoskeletal|1419|OL012|66147671-5638-40d3-90a0-1f167ff46041|Musculoskeletal physician initial appointment|4b8b763b-3921-408b-853e-5480b668d068|Muscle, bone, and joint services">Musculoskeletal physician initial appointment</option>
+<option data-analytics-link="link:option:Physiotherapy initial appointment" data-productid="4bd2af7a-4f2d-42fe-8c1c-1685b0de4790" value="HA-14 - Physiotherapy|1418|OL011|4bd2af7a-4f2d-42fe-8c1c-1685b0de4790|Physiotherapy initial appointment|4b8b763b-3921-408b-853e-5480b668d068|Muscle, bone, and joint services">Physiotherapy initial appointment</option>
+</select>
+</div>
+<a class="popup-anchor" data-analytics-link="link:product-information" data-popup="4bcc5e58-41ba-46b5-85a0-5295fd6509d9">
+                                        Learn more 
+                                        <i aria-hidden="true" class="fa fa-info-circle"></i>
+</a>
+<div class="w3-modal" id="4bcc5e58-41ba-46b5-85a0-5295fd6509d9">
+<div class="w3-modal-content">
+<span class="close-div closePopup" data-popup="4bcc5e58-41ba-46b5-85a0-5295fd6509d9"><p class="close-text"><i class="i-close"></i></p></span>
+<div class="w3-container">
+<div class="groupData hidden">
+<p><strong><span>Musculoskeletal physician initial appointment </span></strong></p>
+<p><span>Our musculoskeletal physicians are experienced in diagnosing and treating problems with muscles, bones and joints. Issues ranging from acute back pain, sprains, muscle tears and sporting injuries to longstanding spinal, joint and muscle issues, including arthritis and spinal damage can be treated. Please note that you may need  more than one appointment.</span></p>
+<p><strong>Physiotherapy initial appointment</strong></p>
+<p><span>Your initial consultation will last around 45 minutes so we can assess your needs and agree next steps in your treatment plan.<br/>
+</span><span>Our physiotherapists typically provide treatments such as joint mobilisation, manual therapy, stretches and exercises to strengthen and rehabilitate specific areas of the body. Please note that you may require more than one appointment. </span></p>
+</div>
+<div class="productNameInfo hidden 66147671-5638-40d3-90a0-1f167ff46041" data-href="" data-showasoverlay="True">
+<h2>Musculoskeletal physician initial appointment</h2>
+<p>Our musculoskeletal physicians are experienced in diagnosing and treating problems with muscles, bones and joints. Issues ranging from acute back pain, sprains, muscle tears and sporting injuries to longstanding spinal, joint and muscle issues, including arthritis and spinal damage can be treated. Please note that you may require more than one appointment.</p>
+</div>
+<div class="productNameInfo hidden 4bd2af7a-4f2d-42fe-8c1c-1685b0de4790" data-href="" data-showasoverlay="True">
+<h2>Physiotherapy initial appointment</h2>
+<p>Your initial consultation will last around 45 minutes so we can assess your needs and agree next steps in your treatment plan.</p>
+<p>Our physiotherapists typically provide treatments such as joint mobilisation, manual therapy, stretches and exercises to strengthen and rehabilitate specific areas of the body. Please note that depending on your needs, you might need more than one appointment.</p>
+</div>
+<div class="close-div-bottom">
+<span class="closePopup" data-popup="4bcc5e58-41ba-46b5-85a0-5295fd6509d9">
+<a class="btn btn-overlay-close" href="javascript:void(0)">
+                                                            Close
+                                                            </a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="custom-form-field genderType" style="display:none">
+<div class="select-style">
+<select data-errormessage="Please select a gender " id="GenderType" name="SelectedGender" tabindex="5">
+<option value="">Gender of doctor</option>
+<option selected="selected" value="Any">Any gender of doctor</option>
+<option value="Female">Female doctor</option>
+<option value="Male">Male doctor</option>
+</select>
+</div>
+</div>
+<div class="customerFields" style="display:none">
+<div class="custom-form-field">
+<input autocomplete="off" class="lrg-custom-input" data-errormessage="Please enter your name" id="customername" name="CustomerName" placeholder="Your name" tabindex="6" type="text" value=""/>
+</div>
+<div class="custom-form-field">
+<input autocomplete="off" class="lrg-custom-input" data-errormessage="Please enter your contact number" data-invalidmessage="Please enter a valid contact number" id="contactnumber" name="CustomerContactNumber" placeholder="Contact telephone number" tabindex="7" type="tel" value=""/>
+<div class="bubble-facts" style="display: none;">
+<div class="arrow-left"></div>
+<div class="bubble">
+                                We will only use your details to contact you in relation to this enquiry.<sup>^</sup> Your details will be handled in accordance with the Bupa <a href="/legal-notices/privacy-and-cookies" target="_blank" title="Opens in a new window">privacy policy</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="last-row-field">
+<div class="clearfix">
+<div class="date-wrapper">
+<input autocomplete="off" data-analytics-link="link:date-field" data-errormessage="Date Error" id="datepicker" name="SelectedDate" placeholder="Select a date" readonly="true" tabindex="8" type="text" value=""/>
+</div>
+<button class="btn btn-form-submit">
+<a data-analytics-link="link:search" href="#"> Find appointment </a>
+</button>
+</div>
+</div>
+<div class="cbt-disclaimer-text">We recognise that when you give us personal information (which includes health information) you’re trusting us to take good care of it.<br/>
+Please see our <a href="/legal-notices/privacy-and-cookies" target="_blank" title="Opens in a new window">privacy policy</a> for more information about how we collect, use and protect your data. <br/>
+If you don’t want to receive marketing about Bupa products and services that we think are relevant to you, please contact us at <a href="mailto:optmeout@bupa.com">optmeout@bupa.com</a></div>
+</form>

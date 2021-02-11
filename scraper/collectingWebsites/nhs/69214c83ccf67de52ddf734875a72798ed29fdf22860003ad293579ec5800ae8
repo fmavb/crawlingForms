@@ -1,0 +1,58 @@
+<form action="/services/hospital/stepping-hill-hospital/X1760/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Loving Care for Elizabeth&lt;/Title&gt;
+    &lt;ScreenName&gt;By the family of Elizabeth (Betty) Nov19&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Our mum had had previous excellent care at Salford Royal, following her first stroke over three years ago and all follow up care and clinics were also there. When she experienced her final stroke in the Stockport area, there was a possibility of the ambulance taking mum back to Salford Royal and that would have been our family preference, for the reassurance of known excellent care there. In the event Mum was taken by ambulance to Stepping Hill in the early hours of the morning. A&amp;amp;E staff were very caring and established mum's prognosis, which this time was non-survivable; they found a quiet corner of the department whilst waiting for a bed on a ward and we know that evening the hospital was full; but later that same morning a bed was found on the stroke ward. The family had seven days of end of life care with mum on that ward and all the staff were very caring and gave the time and space for mum to gently reach her natural end, peacefully. Our large family really appreciated the time and space to prepare for her death and the wonderful staff cared for mum with loving gentleness.
+
+We wanted to write to thank everyone involved, because we appreciate that busy hospitals do get a lot of criticism; but throughout our time there with mum we were reassured with the excellent care and manner of all those involved.
+
+It has altered our understanding of the quality of Stepping Hill Trust.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-01-06T20:21:41Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;11&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Stepping Hill Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Stroke&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;d20cde25-c230-ea11-a810-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1760&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamEwq5kS63EqGc0MiVpUqYN9S_AHohe4fJ5wfHb0DHQpmRImUm2wHNqhleE8Eo28ViZCcbPLVu6t0L2X4ORCjMkOwoeq2OyZCW0gAT4SJDz2KcX5tGVKhf3g5QLsdX6HR3U"/></form>

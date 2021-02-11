@@ -1,0 +1,54 @@
+<form action="/services/hospital/king-george-hospital/X577/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Wonderful Anaesthetists and care in Recovery&lt;/Title&gt;
+    &lt;ScreenName&gt;Laura G&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I was extremely nervous having never had any surgery before and as such I was expecting a traumatic experience. I was in King George Hospital for a total hysterectomy. The absolutely wonderful Anaesthetists who attended to me both had a very warm and caring bedside manner. They completely put me at ease with their natural warmth, professionalism and humour as well as their obvious confidence in their field. They explained everything to me and made sure I understood completely what would take place. I was to have both an Epidural ( to help with pain relief after surgery) as well as General Anaesthetic. During the procedure they spoke to me throughout so I knew exactly what was going to happen and what they expected I would feel. After my operation, they checked on me numerous times, including the following day when they were passing through the ward to see other patients. The care I received in recovery immediately post surgery was also amazing. I felt very relaxed and serene in the very pleasant environment with music playing. Almost felt like I was relaxing at a spa rather than post op! The nurses were so very attentive. Yes that is their job but they clearly take pride in their work and genuinely enjoy caring for people. They were all smiles and so very lovely. I was in Recovery for many hours due to various reasons. I was worried about my family waiting to hear from me. One of the nurses went the extra mile to retrieve my phone from the ward. All in all a very pleasant first time experience. I do hope the staff involved receive this positive feedback. They really do deserve the praise. Thank you so much.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-12-10T06:15:22Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;12&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;King George Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Anaesthesia services&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;618ee30f-af3a-eb11-a813-0022483ee631&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X577&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamH5gt31IeiR2vPcV2_5tzRdFDLHJSPq7TVurliINkDo4x0PgSPHg7bcVeE0RRtQ-U4eePQASqNOhzW-LYj92C8iaCtwbkpS85Ehi0jdS26xGwxuYvRnsZNocY0hHeLYVWw"/></form>

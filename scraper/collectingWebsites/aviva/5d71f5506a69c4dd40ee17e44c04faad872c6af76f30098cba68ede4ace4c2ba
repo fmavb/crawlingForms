@@ -1,0 +1,241 @@
+<form action="/myfuture/RetirementPlanner/AboutYou" class="l-content--aboutyou" method="post"><input name="__RequestVerificationToken" type="hidden" value="qj-hpQIAAj_zRDsWWKzOe4cPuHln2fmq8RF2vGkgbf98GrslfNd9L3qIQEZiphaGDkp0k2Is958r-u3ZAJqov-Dh_t01"/><input id="IsAutoPopulated" name="IsAutoPopulated" type="hidden" value="False"/><input id="IsAuthenticated" name="IsAuthenticated" type="hidden" value="False"/><input id="HasPensionPolicyFromServices" name="HasPensionPolicyFromServices" type="hidden" value="False"/><input id="IsRetirementPlannerRedesignAvailable" name="IsRetirementPlannerRedesignAvailable" type="hidden" value="True"/> <div class="under50">
+<fieldset class="m-form-row m-form-row--last u-margin--top-none">
+<legend class="a-label"><label for="DateOfBirth">Date of birth</label></legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirthDay" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirthMonth" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirthYear" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirth" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group" data-module="a-autojump">
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--2-character" data-bind="textInput: DateOfBirthDay" data-qa-textbox="dateOfBirthDay" data-val="true" data-val-number="The field Date Of Birth Day must be a number." data-val-range="Not a valid day" data-val-range-max="31" data-val-range-min="1" data-val-regex="Only numbers allowed" data-val-regex-pattern="^\d+$" data-val-required="Please enter a day" id="DateOfBirthDay" maxlength="2" name="DateOfBirthDay" placeholder="DD" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--2-character" data-bind="textInput: DateOfBirthMonth" data-qa-textbox="dateOfBirthMonth" data-val="true" data-val-number="The field Date Of Birth Month must be a number." data-val-range="Not a valid month" data-val-range-max="12" data-val-range-min="1" data-val-regex="Only numbers allowed" data-val-regex-pattern="^\d+$" data-val-required="Please enter a month" id="DateOfBirthMonth" maxlength="2" name="DateOfBirthMonth" placeholder="MM" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--4-character" data-bind="textInput: DateOfBirthYear" data-qa-textbox="dateOfBirthYear" data-val="true" data-val-number="The field Date Of Birth Year must be a number." data-val-range="Not a valid year" data-val-range-max="9999" data-val-range-min="1900" data-val-regex="Only numbers allowed" data-val-regex-pattern="^\d+$" data-val-required="Please enter a year" id="DateOfBirthYear" maxlength="4" name="DateOfBirthYear" placeholder="YYYY" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--last">
+<legend class="a-label u-margin--bottom-none"><label for="Gender">Gender</label></legend>
+<p>Your gender will only be used to estimate your life expectancy and will not have any bearing on any other amounts displayed.</p>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="Gender" data-valmsg-replace="true"></span>
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="GenderMale">
+<input class="a-radio__input" data-qa-radio="gender" data-val="true" data-val-required="This field is required." id="GenderMale" name="Gender" type="radio" value="Male"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Male</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="GenderFemale">
+<input class="a-radio__input" data-qa-radio="gender" id="GenderFemale" name="Gender" type="radio" value="Female"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Female</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__ui"></li>
+</ul>
+</div>
+</fieldset>
+</div>
+<div data-bind="visible: IsOver50" id="over50">
+<div class="u-divider">
+<h2>Health details</h2>
+</div>
+<fieldset class="m-form-row" id="height">
+<legend class="a-label">Height</legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="HeightFeet" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="HeightInches" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="HeightCentimetres" data-valmsg-replace="true"></span>
+<ul class="m-radio-group m-radio-group--2 m-radio-group--toggleswitch u-no-js-hidden-flex m-radio-group--segmented js-segmented m-radio-group--short-label js-radio-checked js-radio-checked--1" id="u-toggleheight">
+<li class="m-radio-group__item is-checked">
+<label class="a-radio" for="toggleImpHeight">
+<input class="a-radio__input" id="toggleImpHeight" name="ToggleHeight" type="radio" value="Imperial"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">ft</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" data-qa-button="metricHeight" for="toggleMetricHeight">
+<input class="a-radio__input" id="toggleMetricHeight" name="ToggleHeight" type="radio" value="Metric"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">cm</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__ui"></li>
+</ul>
+<ul class="m-textbox-group m-textbox-group--visible-label m-textbox-group-4 m-textbox-group--can-toggle u-toggleheight">
+<li class="m-textbox-group__item">
+<label class="u-hidden--js-block" style="width: auto; float: none;">Feet</label>
+<input class="a-textbox a-textbox--7-character" data-val="true" data-val-number="The field Feet must be a number." id="HeightFeet" name="HeightFeet" placeholder="Ft" step="any" style="float:none;" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="u-hidden--js-block" style="width: auto; float: none;">Inches</label>
+<input class="a-textbox a-textbox--7-character" data-val="true" data-val-number="The field Inches must be a number." id="HeightInches" name="HeightInches" placeholder="In" step="any" style="float:none;" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item u-hidden--js-block">
+<label class="m-textbox-group__item-label">Or</label>
+</li>
+<li class="m-textbox-group__item u-hidden--js-block">
+<label class="u-hidden--js-block" style="width: auto; float: none;">Centimetres</label>
+<input class="a-textbox a-textbox--3-character" data-val="true" data-val-number="The field Centimetres must be a number." id="HeightCentimetres" name="HeightCentimetres" placeholder="Cm" step="any" style="float:none;" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row" id="height">
+<legend class="a-label">Weight</legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="WeightStone" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="WeightPounds" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="WeightKilogram" data-valmsg-replace="true"></span>
+<ul class="m-radio-group m-radio-group--2 m-radio-group--toggleswitch u-no-js-hidden-flex m-radio-group--segmented js-segmented m-radio-group--short-label js-radio-checked js-radio-checked--1" id="u-toggleweight">
+<li class="m-radio-group__item is-checked">
+<label class="a-radio" for="toggleImpWeight">
+<input class="a-radio__input" id="toggleImpWeight" name="ToggleWeight" type="radio" value="Imperial"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">st</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" data-qa-button="metricWeight" for="toggleMetricWeight">
+<input class="a-radio__input" id="toggleMetricWeight" name="ToggleWeight" type="radio" value="Metric"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">kg</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__ui"></li>
+</ul>
+<ul class="m-textbox-group m-textbox-group--visible-label m-textbox-group-4 m-textbox-group--can-toggle u-toggleweight">
+<li class="m-textbox-group__item">
+<label class="u-hidden--js-block" style="width: auto; float: none;">Stones</label>
+<input class="a-textbox a-textbox--7-character" data-val="true" data-val-number="The field Stone must be a number." id="WeightStone" name="WeightStone" placeholder="St" step="any" style="float:none;" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="u-hidden--js-block" style="width: auto; float: none;">Pounds</label>
+<input class="a-textbox a-textbox--7-character" data-val="true" data-val-number="The field Pounds must be a number." id="WeightPounds" name="WeightPounds" placeholder="lbs" step="any" style="float:none;" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item u-hidden--js-block">
+<label class="m-textbox-group__item-label">Or</label>
+</li>
+<li class="m-textbox-group__item u-hidden--js-block">
+<label class="u-hidden--js-block" style="width: auto; float: none;">Kilograms</label>
+<input class="a-textbox a-textbox--3-character" data-val="true" data-val-number="The field Kilograms must be a number." id="WeightKilogram" name="WeightKilogram" placeholder="Kg" step="any" style="float:none;" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row">
+<legend class="a-label">Regular Smoker</legend>
+<div class="m-form-row__help" data-module="m-form-row__help">
+<p class="m-form-row__explanatory-text">A regular smoker smokes 10 or more cigarettes a day, or a minimum of 3oz rolling tobacco, for the last 10 years.</p>
+<p class="m-form-row__explanatory-text">If you smoke less than this, it may still have an impact on your life expectancy.</p>
+</div>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="IsSmoker" data-valmsg-replace="true"></span>
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="IsSmokerYes">
+<input class="a-radio__input" id="IsSmokerYes" name="IsSmoker" type="radio" value="True"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Yes</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="IsSmokerNo">
+<input class="a-radio__input" id="IsSmokerNo" name="IsSmoker" type="radio" value="False"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">No</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--last" id="medical">
+<legend class="a-label">Do you suffer or have you ever suffered from any of the following conditions?</legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="NoDisclosedMedicalConditions" data-valmsg-replace="true"></span>
+<div class="m-form-row__help" data-module="m-form-row__help">
+<p>
+                        If you suffer from or have suffered from any medical condition this may impact your life expectancy and increase the income offered by certain retirement products. To understand the impact this may have, contact your existing financial adviser or, if you don't already have one, visit <a href="http://www.aviva.co.uk/advice">www.aviva.co.uk/advice</a>.
+                    </p>
+</div>
+<ul class="m-checkbox-group">
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_exclude_li">
+<label class="a-checkbox" for="IgnoreMedicalConditions">
+<input class="a-checkbox__input" id="IgnoreMedicalConditions" medicalcondition="true" name="IgnoreMedicalConditions" type="checkbox" value="true"/><input name="IgnoreMedicalConditions" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner"><label for="IgnoreMedicalConditions">Would rather not say / Do not take my medical conditions in to consideration</label></span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_5_li">
+<label class="a-checkbox" for="HasHadHeartAttack">
+<input class="a-checkbox__input" id="HasHadHeartAttack" medicalcondition="true" name="HasHadHeartAttack" type="checkbox" value="true"/><input name="HasHadHeartAttack" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner"><label for="HasHadHeartAttack">Heart attack</label></span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_6_li">
+<label class="a-checkbox" for="HasHadDiabetes">
+<input class="a-checkbox__input" id="HasHadDiabetes" medicalcondition="true" name="HasHadDiabetes" type="checkbox" value="true"/><input name="HasHadDiabetes" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner"><label for="HasHadDiabetes">Diabetes</label></span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_11_li">
+<label class="a-checkbox" for="HasHadMultipleSclerosis">
+<input class="a-checkbox__input" id="HasHadMultipleSclerosis" medicalcondition="true" name="HasHadMultipleSclerosis" type="checkbox" value="true"/><input name="HasHadMultipleSclerosis" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner"><label for="HasHadMultipleSclerosis">Multiple Sclerosis</label></span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_7_li">
+<label class="a-checkbox" for="HasHadStroke">
+<input class="a-checkbox__input" id="HasHadStroke" medicalcondition="true" name="HasHadStroke" type="checkbox" value="true"/><input name="HasHadStroke" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner"><label for="HasHadStroke">Stroke (excluding mini strokes / TIA)</label></span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_8_li">
+<label class="a-checkbox" for="HasHadAngina">
+<input class="a-checkbox__input" id="HasHadAngina" medicalcondition="true" name="HasHadAngina" type="checkbox" value="true"/><input name="HasHadAngina" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner"><label for="HasHadAngina">Angina (requiring prescribed medication)</label></span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_9_li">
+<label class="a-checkbox" for="HasHadCancer">
+<input class="a-checkbox__input" id="HasHadCancer" medicalcondition="true" name="HasHadCancer" type="checkbox" value="true"/><input name="HasHadCancer" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner"><label for="HasHadCancer">Cancer (diagnosed within the last 5 years)</label></span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_10_li">
+<label class="a-checkbox" for="HasHadParkinsons">
+<input class="a-checkbox__input" id="HasHadParkinsons" medicalcondition="true" name="HasHadParkinsons" type="checkbox" value="true"/><input name="HasHadParkinsons" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner"><label for="HasHadParkinsons">Parkinson's</label></span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_none_li">
+<label class="a-checkbox" for="NoDisclosedMedicalConditions">
+<input class="a-checkbox__input" id="NoDisclosedMedicalConditions" medicalcondition="true" name="NoDisclosedMedicalConditions" type="checkbox" value="true"/><input name="NoDisclosedMedicalConditions" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner"><label for="NoDisclosedMedicalConditions">None of the above</label></span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+</div>
+<p>
+<button class="a-button a-button--next a-button--primary" data-qa-button="submitForm" id="nextButton" type="submit">Next</button>
+</p>
+</form>

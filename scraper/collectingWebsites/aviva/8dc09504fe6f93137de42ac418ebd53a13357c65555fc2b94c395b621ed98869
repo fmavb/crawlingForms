@@ -1,0 +1,60 @@
+<form action="" method="post">
+<input name="csrfmiddlewaretoken" type="hidden" value="ZzwE21c9yShQ2RzPt4AbcmzPQdzk2KbZgwZMmxmWZMx680LsOhfXi6hxmrFnAM2F"/>
+<input name="xen_page_vector" type="hidden" value="3"/>
+<input name="xen_vector_sec_hash" type="hidden" value=""/>
+<input name="Step1_cover-product_name" type="hidden" value="Accidental Death Benefit"/>
+<input name="Step1_cover-refNo" type="hidden" value="5212125134"/>
+<div class="podContentWrap" id="singleCover">
+<div class="podContent">
+<table>
+<col class="col1"/>
+<col class="col2"/>
+<thead>
+<tr>
+<th scope="col">Monthly premium</th>
+<th scope="col">Value of cover*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><label for="id_Step1_cover-coverOptions_0">£1.85</label></td>
+<td><input id="id_Step1_cover-coverOptions_0" name="Step1_cover-coverOptions" type="radio" value="1"/><label for="id_Step1_cover-coverOptions_0">£20,000</label></td>
+</tr>
+<tr>
+<td><label for="id_Step1_cover-coverOptions_1">£3.70</label></td>
+<td><input id="id_Step1_cover-coverOptions_1" name="Step1_cover-coverOptions" type="radio" value="2"/><label for="id_Step1_cover-coverOptions_2">£40,000</label></td>
+</tr>
+<tr>
+<td><label for="id_Step1_cover-coverOptions_2">£5.54</label></td>
+<td><input id="id_Step1_cover-coverOptions_2" name="Step1_cover-coverOptions" type="radio" value="3"/><label for="id_Step1_cover-coverOptions_4">£60,000</label></td>
+</tr>
+<tr>
+<td><label for="id_Step1_cover-coverOptions_3">£7.39</label></td>
+<td><input id="id_Step1_cover-coverOptions_3" name="Step1_cover-coverOptions" type="radio" value="4"/><label for="id_Step1_cover-coverOptions_6">£80,000</label></td>
+</tr>
+<tr>
+<td><label for="id_Step1_cover-coverOptions_4">£9.25</label></td>
+<td><input id="id_Step1_cover-coverOptions_4" name="Step1_cover-coverOptions" type="radio" value="9"/><label for="id_Step1_cover-coverOptions_7">£100,000</label></td>
+</tr>
+<tr>
+<td><label for="id_Step1_cover-coverOptions_5">£11.10</label></td>
+<td><input id="id_Step1_cover-coverOptions_5" name="Step1_cover-coverOptions" type="radio" value="10"/><label for="id_Step1_cover-coverOptions_7">£120,000</label></td>
+</tr>
+<tr>
+<td><label for="id_Step1_cover-coverOptions_6">£12.95</label></td>
+<td><input id="id_Step1_cover-coverOptions_6" name="Step1_cover-coverOptions" type="radio" value="11"/><label for="id_Step1_cover-coverOptions_7">£140,000</label></td>
+</tr>
+<tr>
+<td><label for="id_Step1_cover-coverOptions_7">£13.87</label></td>
+<td><input id="id_Step1_cover-coverOptions_7" name="Step1_cover-coverOptions" type="radio" value="12"/><label for="id_Step1_cover-coverOptions_7">£150,000</label></td>
+</tr>
+</tbody>
+</table>
+<p><small>* Policy provides cover for yourself only <br/></small></p>
+<p>Monthly premium inclusive of Insurance Premium Tax</p>
+</div>
+<div class="podContent">
+<input class="btn btn--primary right" id="submitSingle" name="event(next_page)" tabindex="1" type="submit" value="Submit"/>
+</div>
+</div>
+</form>

@@ -1,0 +1,23 @@
+<form action="/MyInitiative/ForgottenYourDetails/CheckEmail" id="form0" method="post"> <div class="row">
+<div class="rowLabel">
+<label for="EmailAddress">Email *</label>
+</div>
+<div class="rowValue">
+<input id="EmailAddress" maxlength="50" name="EmailAddress" type="text" value=""/>
+<span class="field-validation-valid" id="EmailAddress_validationMessage"></span>
+</div>
+</div>
+<input name="__RequestVerificationToken" type="hidden" value="OZUWARBtpBA89Ke5HCn0Bfqh7Z_6iaqSbKt4qhwHuMCcmlmKjSdgtMone_fvoSHhaFiYymS0EbotO32i-JUJfEZSVL81"/> <div class="row">
+<div class="rowValue rowValueNoLabel">
+<input class="button yellow plain center" name="SubmitButton" type="submit" value="Submit"/>
+</div>
+</div>
+<div class="row">
+<div class="rowValue rowValueNoLabel">
+<p>
+                            Find your username with
+                            <a href="/MyInitiative/ForgottenYourDetails/CheckDetails">your personal details</a> instead
+                        </p>
+</div>
+</div>
+</form>

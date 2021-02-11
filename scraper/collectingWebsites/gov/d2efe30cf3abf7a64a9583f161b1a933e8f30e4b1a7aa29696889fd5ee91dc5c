@@ -1,0 +1,27 @@
+<form accept-charset="UTF-8" action="/email-signup/confirm" data-module="track-email-alert-signup-choices" data-track-action="new_topic" data-track-category="email_subscriptions" method="get">
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-0" name="topic" type="radio" value="/education/qualified-teacher-status-qts"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-0">Qualified Teacher Status (QTS)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-1" name="topic" type="radio" value="/education/initial-teacher-training-itt"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-1">Initial Teacher Training (ITT)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-2" name="topic" type="radio" value="/education/school-leadership"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-2">School leadership</label>
+</div>
+<div class="govuk-radios__divider">or</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-4" name="topic" type="radio" value="/education/teacher-training-and-professional-development"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-4">Teacher training and professional development (all topics)</label>
+</div>
+</div>
+</fieldset>
+</div>
+<input id="link" name="link" type="hidden" value="/education/teacher-training-and-professional-development"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

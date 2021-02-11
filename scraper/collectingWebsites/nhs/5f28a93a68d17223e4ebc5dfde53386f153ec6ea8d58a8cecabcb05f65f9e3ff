@@ -1,0 +1,54 @@
+<form action="/services/hospital/countess-of-chester-hospital/X870/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;A&amp;amp;amp;E Doctor - Excellent&lt;/Title&gt;
+    &lt;ScreenName&gt;A&amp;amp;amp;E The Best !&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Visited my GP a week ago with symptoms and no action taken , I became progressively worse. Attended A&amp;amp;amp;E , I was taken into majors without any wait. Seen immediately by the Consultant. He listened , taken me seriously and after a physical examination , obtaining relevant history , was able to diagnose. Everything I have visited A&amp;amp;amp;E at Chester, regardless of who I see the continuity of care is always to a high a standard. Considering my GP has the privilege to all my data and previous past medical history and yet a Consultant was able to diagnose without having this advantage and access to clinical letters  hosted by a neighbouring Trust.  I would be grateful if my feedback could be passed on.  I was not rushed, he was patient and listened and acknowledged each and every point.  The week prior came out of the GP with no explanation as if I wasted their time. It’s wrong patients have to attend A&amp;amp;amp;E as a second option. No wonder the pressure is on secondary care  providers. I was very fortunate to have a Consultant with the right level of expertise. I wasn’t aware that I needed medication for a medical problem , hopefully with the right medication , might start to feel much better. Really appreciate the time you gave me. Sometimes it is the unknown factors which contribute to patient fears. The tears rolled down my cheeks with pain. Had a much better day today with the right drugs. Thank you!&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-07-19T21:34:05.55Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;7&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Countess Of Chester Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;5571c474-14e9-e911-a812-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X870&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamG7hNvT62gO2SYxEw54t4C-ivDAGDwtghZ3JKf-9j3h_INs9jWwsyiydGKhXHVJDzqaRatxwzu1c6U-DEZh0zySsRM2V12um5aODGUsFbjr41lvsk_VLu5y21-SSRNuJHA"/></form>

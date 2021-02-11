@@ -1,0 +1,1159 @@
+<form action="/GD_Kb_UserPage" enctype="application/x-www-form-urlencoded" id="j_id0:j_id2" method="post" name="j_id0:j_id2">
+<input name="j_id0:j_id2" type="hidden" value="j_id0:j_id2"/>
+<title>Help Center |  Glassdoor
+    </title>
+<meta content="https://static.glassdoor.com/static/img/partners/fb/logo-1200x630.png?v=b8dbc1je1" property="og:image"/>
+<style>
+      .listitem{
+          padding-top : 12px;
+      }
+      .categImg_Div{
+          float: left;
+      }
+      .categ_div {
+            float: left;
+            position: relative;
+            height: 66px;
+        }
+      .listframesdiv{
+          margin-bottom:16px;
+      }
+      h3 {
+          margin-bottom:0px !important;
+          margin-top:16px !important;
+          line-height:24px!important;
+          margin-left:0px;
+          margin-right:0px;
+      }
+      .categ_header {
+          padding-left:0px;
+      }
+     .commtab{
+       
+        //padding-left:0px !important;
+      }
+    .issues{
+        padding-left:0px;
+    }
+    .setfontssize > h3{
+      margin-bottom :0px !important;
+    }
+    .backg>h3{
+      margin-bottom :0px !important;
+    }
+    li.common_issue{
+      margin-bottom:7px;
+      margin-top:0px;
+    }
+    li.common_issue:first-child {
+      margin-top:2px;
+    }
+    .li_list {
+      padding-top: 0px;
+      margin-bottom:7px;
+      margin-top:0px;
+    }
+    .li_list:first-child {
+      margin-top:2px;
+    }
+    @media only screen and (min-width : 768px) {
+      h3{
+        font-size:20px;
+      }
+    }
+    @media only screen and (min-width : 1052px) {
+      .fixed_width{
+        width:1024px;
+        margin:0 auto;
+      }
+    }
+  </style>
+<style>
+    .category_block{
+      //width:322px;
+      margin-bottom:14px;
+      padding: 14px;
+      background-color:#fff;
+      padding-left:0px;
+    }
+    .categ_title {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.33;
+        color: #0d0d0d;
+        padding-left: 7px;
+        /* padding-top: 10px; */
+        max-width: 220px;
+        padding-right: 0px;
+        //: ;
+        //white-space: nowrap;
+        //: ;
+        margin: 0;
+        padding-bottom: 16px;
+        position: absolute;
+        top: 50%;
+        padding-left: 18px;
+        transform: translateY(-50%);
+    }
+    
+    div.User_Categ>span,div.Employer_Categ>span {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .category_header_div {
+      //border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+      //box-shadow: 0px 0.5px 0px rgba(153, 153, 153, 0.42);
+      //margin-bottom : 15px;
+      //padding-bottom:25px;
+    }
+    .categ_list_items{
+      margin-bottom:10px;
+    }
+    .Employer_Categ{
+      display:none;
+    }
+    .categ_header{
+      position: relative;
+      height:100%;
+    }
+    span.see_all {
+      display: block;
+      font-size: 12px;
+    }
+    .goback{
+      margin-top:16px;
+      font-size: 15px;
+      color: #1861bf;
+      margin-bottom:16px;
+      margin-left:15px;
+    }
+    .toplabel{
+      margin-bottom:30px;
+    }
+    .toplabel h2{
+      margin:0px !important;
+      margin-top:42px !important;
+      margin-bottom:10px !important;
+      font-size: 24px;
+      font-weight: bold;
+      color: #0c0c0c;
+    }
+    .toplabel span{
+      margin-top:20px;
+      font-size: 15px;
+      line-height: 1.47;
+      text-align: center;
+      color: #404040;
+    }
+    .goback > a:hover{
+      text-decoration: none !important;
+    }
+    a:hover{
+      color: #1D4F90 !important;
+    }
+    a.see_al{
+      color:black !important;
+      font-size: 14px;
+      margin-top:30px !important;
+    }
+    .row{
+      display:block !important;
+      //margin-right:0px !important;
+    }
+    @media (min-width: 1024px){
+      .top-pad {
+        width: 33%;
+        //margin-top:0px !important;
+        // padding-top: 0px;
+      }
+      .category_block{
+        
+      }
+      .commtab {
+            padding-left: 10px !important;
+        }
+      
+    }
+  @media (max-width: 991px){
+
+            .top-pad {
+               //width: 31%;
+            }
+            .toplabel h2 {
+                margin: 0px !important;
+                margin-top: 0px !important;            
+                line-height: 1.3;
+
+           }
+           .category_block{
+        padding: 0px 20px !important
+       
+      }
+      .goback{
+        margin-left: 9px;
+      }
+      .toplabel{
+        text-align:center;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 768px) {
+      .toplabel{
+        text-align:center;
+      }
+      .issues{
+        //margin-left: 20px;
+        width:345px;
+      }
+      .categ_header{
+        //padding-left: 20px;
+        width:365px;
+        padding-right: 20px;
+      }
+    }
+    
+    @media (max-width: 767px){
+      .toplabel {
+        margin-left:30px;
+        margin-bottom:15px;
+        margin-top:40px;
+      }
+      .categ_header {
+          //padding:0px 12px 0px 12px;
+          padding-left: 3px;
+          padding-right: 3px;
+      }
+      .tabbed {
+        margin-top: 20px;
+       }
+      .top-pad {
+        width: 100%;
+         padding:0px 20px 0px 20px !important;
+      }
+      .categ_list_items{
+        display:none;
+      }
+      #commnissues{
+        display:none;
+      }
+      .categ_title {
+        text-align:center;
+      }
+      .category_header_div{
+        min-width:335px !important;
+        margin-left:auto !important ;
+        margin-right:auto !important;
+        min-height: 110px !important;
+        margin-bottom:0px !important;
+        border-radius: 2px !important;
+        background-color: #ffffff !important;
+        border: solid 1px #e7e7e7 !important;
+      }
+      img.categ_img{
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top:18px !important;
+      }
+      h3{
+        margin:4px 0px 12px 0px !important;
+      }
+      .listitem{
+        min-width:335px !important;
+        margin-left:auto !important ;
+        margin-right:auto !important;
+      }
+      .li_list{
+        font-size: 15px;
+        vertical-align:middle;
+        line-height: 1.47;
+        padding:12px 8px 12px 8px;
+      }
+      .common_issue{
+        font-size: 15px;
+        vertical-align:middle;
+        line-height: 1.47;
+        padding:12px 0px 12px 4px;
+      }
+      li.li_list:hover, li.li_list:active,li.common_issue:hover,li.common_issue:active{
+        border-radius: 2px !important;
+        background-color: #1861bf !important;
+      }
+      li.li_list:hover a{
+        color: #ffffff !important;
+      }
+      
+      li.common_issue:hover a{
+        color: #ffffff !important;
+      }
+      .category_block{
+        padding:0px !important;
+        margin-bottom:8px !important;
+      }
+      .commtab{
+        margin-bottom:8px !important;
+        
+      }
+      .see_allbutton{
+        min-width: 335px;
+        height: 50px;
+        border-radius: 2px;
+        background-color: #eaeaea;
+        display:inline-block;
+        text-align:center;
+        width:100%;
+      }
+      .see_allbutton a{
+        font-size: 18px !important;
+        font-weight: bold;
+        line-height: 1.28 !important;
+        text-align: center;
+        color: #404040 !important;
+        display:inline-block;
+      }
+      a.see_albut{
+        margin-top:10px !important;
+      }
+    }
+    @media only screen and (min-width: 320px){
+      ol li, ul li {
+        font-size: 15px;
+        color: #1861bf;
+      }
+    }
+    .marginfrmtop h3{
+      font-weight:600;
+      font-size:17px;
+    }
+    img.categ_img{
+      height : 52px;
+      
+    }
+    .choosecateg{
+        padding: 0 20px;
+        margin-top: 20px;
+        margin-bottom: 16px;
+        text-align: center !important;
+        font-size: 16px;
+        line-height: 1.69
+    }
+    .usertab,.employertab{
+      display                 : block;
+      border-bottom           : 1px solid #ddd;
+      box-shadow              : 0 0 0.5em rgba(0,0,0,0.0625);
+      background              : #fff;
+      width: 159px;
+      height: 72px;
+      text-align:center;
+      padding:25px 0px 25px;
+      font-size: 18px;
+      //line-height: 1.5;
+      color: #0d0d0d;
+      cursor : pointer;
+    }
+    .usertab{
+      float:right;
+      //margin-left:8.5px;
+      background-color: #0caa41 !important;
+      box-shadow: 0 1px 0 0 #c2c2c2 !important;
+      border-bottom:none;
+      color: #ffffff;
+    }
+    .employertab{
+      float:left;
+      //margin-right:8.5px;
+    }
+     ul.Catlist {
+     padding-left: 0px !important; 
+}
+
+    .backgQ {
+     padding-top:4px !important
+    }   
+    .commtab{
+         display:none;
+        }
+        
+        //added by prerna
+         @media only screen and (min-width: 600px) 
+         {
+            .col-xs-12 {
+                width: 100%;
+            }
+            .col-xs-12{
+                float: none;
+            }
+         }
+        
+        @media only screen and (max-width: 600px) {
+            .col-xs-12
+            {
+                position: relative;
+                min-height: 1px;
+                padding-right: 9px;
+                padding-left: 9px;
+            }
+            .col-xs-12
+            {
+                float:none;
+            }    
+        }
+        
+       /* Medium devices (landscape tablets, 768px and up) 
+        @media only screen and (min-width: 768px) {
+        .col-xs-9 {
+            float: none;
+        }
+        .col-xs-9 {
+             width: 0%; 
+        }
+        }
+        
+  </style>
+<script>
+         jQuery(document).ready(function() {
+              jQuery(".User_Categ").each(function(){
+            
+              var largest = 0;
+            
+              jQuery(this).find(".category_header_div").each(function(){
+                var findHeight = $(this).height();
+                //alert(findHeight);
+                if(findHeight > largest){
+                  largest = findHeight;
+                }  
+              })
+           // alert(largest);
+            var lang="en_US";
+            if(lang !='en_US'){
+           
+              if(lang =='de'){ 
+                if($(window).width()>991 && $(window).width()<=1067){
+                  largest=largest+40;
+                 }
+                 if($(window).width()>1067 && $(window).width()<= 1707){
+                  largest=largest+16;
+                 }
+                 if($(window).width()> 1707){
+                     largest=largest-9;
+                 }
+              }
+              if(lang =='nl_NL' ){   
+                if($(window).width()>991 && $(window).width()<=1009){                 
+                   largest=largest+40;
+                 }
+                 if($(window).width()>1009 && $(window).width()<=1626){                 
+                   largest=largest+16;
+                 }
+                 if($(window).width()>1626){                 
+                   largest=largest-9;
+                 }
+              }
+              
+              if(lang =='fr' ){   
+                if($(window).width()>991 && $(window).width()<= 1386){                 
+                   largest=largest+16;
+                 }
+                 if($(window).width()>1386){
+                     largest=largest-9;
+                 }
+              }
+              
+              
+             }
+           
+            if($(window).width()>767 && $(window).width()<=991){
+                  largest=largest-9;
+             } 
+              if(lang =='en_US' && $(window).width()>=1153){
+                largest=largest-9;
+              
+              }
+              jQuery(this).find(".category_header_div").css({"height":largest+"px"});
+              
+            });
+        });
+  
+ 
+  
+    jQuery(document).ready(function() {
+      jQuery('.nav-toggle').click(function(){
+        if($(window).width()<=767){
+          //get collapse content selector
+          var collapse_content_selector = $(this).attr('data-target');
+          // alert(collapse_content_selector);
+          //make the collapse content to be shown or hide
+          // var toggle_switch = $(this);
+          jQuery(collapse_content_selector).toggle('slow',function(){
+          }
+                                                  );
+        };
+      }
+                                 );
+    }
+                          );
+    jQuery(document).ready(function(){
+      jQuery('.listframesdiv').each(function(index){
+        var elem =  jQuery(this);
+        var url =  elem.attr('src');
+        jQuery.ajax({
+          url: url,
+        }
+                   )
+          .done(function( data ) {
+          console.log(data);
+          if (data) {
+            var result = jQuery('<div />').append(data).find('#main_div').html();
+            console.log('list-----'+ jQuery('<div />').append(data).find('.li_list').html());
+            if(jQuery('<div />').append(data).find('.li_list').html() == undefined){
+              elem.parent().parent().parent().hide();
+            }
+            else{
+              elem.html(result);
+            }
+          }
+        }
+               );
+      }
+                                   );
+    }
+                          );
+  </script>
+<div class="container-fluid"><span id="j_id0:j_id2:j_id9">
+<link href="https://www.glassdoor.com/static/css/gd-core.css" media="all" rel="stylesheet" type="text/css"/>
+<meta content="NO-CACHE" http-equiv="PRAGMA"/>
+<meta content="Mon, 01 Jan 1990 12:00:00 GMT" http-equiv="Expires"/>
+<title>Help Center |  Glassdoor</title>
+<meta content="https://static.glassdoor.com/static/img/partners/fb/logo-1200x630.png?v=b8dbc1je1" property="og:image"/>
+<style>
+        body a:hover{
+            text-decoration : none !important;
+            color: #1D4F90 !important;
+        }
+        .paddingsetfrbtm{
+            padding-bottom : 40px;
+        }
+       /* .goback{
+            padding-top:8px;
+            padding-bottom:8px;
+            margin-bottom:8px !important;
+        }*/
+        input.std.fill {
+            width: 100%;
+        }
+
+        .seach_div {
+            //width: 67%;
+            margin: 0 auto; // padding: 28px;
+        }
+
+        .topmargin {
+            margin-top: 16px;
+        }
+
+        .aligncenter {
+            text-align: center;
+        }
+        .serachBarDiv{
+            max-width:810px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+
+        .seach_div1 {
+            background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("/resource/1607670446000/Bootstrap/bootstrap_3.3.2/images/Help_Center_Imagery.jpg");
+            background-size: cover; //height: 360px;     
+            background-position-x: 0px;
+            background-position-y: 58%;
+ 
+        }
+
+        .row {
+            display: block !important;
+        }
+
+        .headerclass{
+            letter-spacing: 0.5px;
+            font-size: 35px !important;
+            font-weight: bold;
+            color: #ffffff; //Font-Family : Lato;               
+            padding-bottom: 12px;
+        }
+
+        .paddingclass {
+            margin-top: 46px !important;
+        }
+
+        .comguidline p {
+            // height: 24px;
+            //font-family: Lato;
+            font-size: 18px !important; //line-height: 1.33;
+            color: #ffffff !important;
+            margin-top:28px !important;
+            margin-bottom: 94px !important; //letter-spacing:0.5px;
+        }
+
+        a {
+            color: #1861BF !important;
+        }
+         a:hover {
+            color: #1D4F90 !important;
+        }
+                
+        @media only screen and (max-width: 1023px){        
+                .paddingclass h2{                    
+                    line-height: 40px !important;
+                    font-size:30px !important;
+                }        
+        }
+        
+        @media only screen and (max-width: 736px){        
+                .seach_div1 {                    
+                     background-position-x: 65%;
+                    background-position-y: 0%;
+                }   
+                .paddingclass h2{                    
+                    //line-height: 40px !important;
+                    font-size:30px !important;
+                }      
+                input[type="text"]::-webkit-input-placeholder {
+                  font-size:14px !important;
+                  padding-left:8px;
+                }
+                .comguidline p{
+                    font-size:14px !important;
+                    padding:10px;
+                }
+                .comclasshigh{
+                  font-size:14px !important;
+  
+                }
+        }
+        
+        .comclasshigh{
+            color:White !important;
+            line-height:1.33;
+            font-size:18px;
+            font-weight:bold;
+        }
+        .comclasshigh:hover{
+             color:White !important;
+             text-decoration:underline !important;
+        }
+    </style>
+<div class="row">
+<div class="container-fluid nopad">
+<div class="seach_div1 col-lg-12 col-md-12 col-sm-12 col-xs-12 nopadf">
+<div class="seach_div fontsclass col-lg-12 col-md-12 col-sm-12 col-xs-12"><span id="j_id0:j_id2:j_id9:j_id10:j_id16">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"/>
+<script>
+        jQuery(document).ready(function(){
+            if(navigator.userAgent.indexOf('GDDroid') !== -1 || navigator.userAgent.indexOf('GDApple') !== -1){            
+                jQuery('.MainSiteBrowserHeader').css('display', 'none');
+            }
+          var a = jQuery(location).attr('href');
+            if(a){ 
+                var n = a.indexOf("https://help.glassdoor.com/");
+                console.log(a);
+                if(n>-1){
+                    var m=a.lastIndexOf("/");
+                    var en = a.indexOf('/en_US/');
+                    var de = a.indexOf('/de/');
+                    var nl = a.indexOf('/nl_NL/');
+                    var fr = a.indexOf('/fr/')
+                    var es = a.indexOf('/es/')
+                    var pt_BR = a.indexOf('/pt_BR/')
+                    var it = a.indexOf('/it/')
+                    if((en>-1)||(de>-1)||(nl>-1)||(fr>-1)||(es>-1)||(pt_BR>-1)){
+                        if(en>-1){
+                            m = m - 6;
+                        }
+                        if(de>-1){
+                            m = m - 3;
+                        }
+                        if(nl>-1){
+                            m = m - 6;
+                        }
+                        if(fr>-1){
+                            m = m - 3;
+                        } 
+                        if(es>-1){
+                            m = m-3;
+                        }  
+                        if(pt_BR>-1){
+                            m = m-6;
+                        }
+                         if(it>-1){
+                            m = m-3;
+                        }
+                    }
+                    var mysubstring = a.substring(26,m);
+                    if(mysubstring){
+                        var relCanonical = jQuery('<link rel="canonical" href="https://help.glassdoor.com/'+mysubstring+'/en_US"/><link rel="alternate" href="https://hilfe.glassdoor.de/'+mysubstring+'/de" hreflang="de-de" /><link rel="alternate" href="https://help.glassdoor.nl/'+mysubstring+'/nl_NL" hreflang="nl-nl" /><link rel="alternate" href="https://aide.glassdoor.fr/'+mysubstring+'/fr" hreflang="fr-fr" /><link rel="alternate" href="https://ajuda.glassdoor.com.br/'+mysubstring+'/pt_BR" hreflang="pt_BR-pt_BR" /><link rel="alternate" href="https://aiuto.glassdoor.it/GlassdoorHome/it" hreflang="it-it" /><link rel="alternate" href="https://ayuda.glassdoor.com.mx/'+mysubstring+'/es" hreflang="es-es" />');
+                        if(relCanonical){
+                          jQuery('head').append(relCanonical);
+                          console.log('OK'+mysubstring);
+                        }
+                        
+                    }
+                }
+            }
+        })
+    </script>
+<style>
+        *,body,h2,input,.homeFonts h2{
+            font-family: Lato, Arial, sans-serif !important;
+        }
+    </style>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad MainSiteBrowserHeader"><span id="j_id0:j_id2:j_id9:j_id10:j_id16:j_id17:j_id19">
+<iframe class="header_frame" frameborder="0" height="45" scrolling="no" src="https://www.glassdoor.com/parts/header.htm?showSearch=false&amp;flex=true&amp;isTransparent=true" width="100%">
+<p>Your browser does not support iframes.</p>
+</iframe></span>
+</div></span>
+<div class="col-xs-12">
+<div class="serachBarDiv">
+<div class="aligncenter paddingclass">
+<h2 class="headerclass"><b>How can we help you today?</b></h2>
+</div>
+<div><span id="j_id0:j_id2:j_id9:j_id10:j_id35">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" name="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<style>
+        
+        .ui-menu .ui-menu-item a {
+            white-space: normal; 
+            color:#333;   
+        }
+        .input-group > input{
+            border:none;
+            
+        }
+        .input-group{
+                box-shadow: 1px 1px 2px 2px #888;
+        }
+        .ui-autocomplete{
+            background:  #ffffff;
+            border :  1px solid #ccc;
+            width:29%;
+            height:auto;
+            position:absolute !important;
+            list-style:none;
+            padding:6px;
+            color: #2c84cc;
+            
+            
+        }
+       
+        
+        .ui-helper-hidden-accessible{
+            display:none;
+        }
+        
+        .input-group-addon{
+            cursor:pointer;
+            padding:8px 20px;
+            border:none;
+         background-color:#0caa41;
+         border-radius: 0px;
+        }
+        
+        .search_class{font-size:16px;
+            color:#cccccc;
+        }
+        .txt_style{}
+        .each_tag{font-size:12px; padding-right:5px;}
+       
+       
+        
+        ul.ui-menu li.ui-menu-item a:hover {
+            color: #404040;
+            //text-decoration: none;
+            background-color: #fff !important;
+        }
+        
+         ul.ui-menu li.ui-menu-item a{
+            color : #333 !important;
+            font-size : 14px;
+        }
+        
+        .searchcomp{
+              max-width: 810px;
+              height: 60px;
+             // margin-left: 43px;
+              border-radius: 2px;
+               margin-left:auto;
+              margin-right:auto;
+              background-color: #ffffff;
+              box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+         #searchComponent{
+           //  height: 60px;
+           //width: 810px;
+             font-family: Lato, Arial, sans-serif !important;
+             font-size: 16px;          
+             color: #404040; 
+             //line-height: 1.5;
+              padding: 30px 20px !important;
+                       
+        }
+        .ui-autocomplete-loading
+           {
+                background-position:98% !important;
+                
+           }
+        
+        .searchcomp img{
+              width: 24px;
+              height: 24px;
+              //border: solid 2px #ffffff;
+        }
+        
+         @media (max-width: 767px) {
+          #searchComponent{
+                font-size:14px;
+                //padding: 17px 10px !important;
+            }
+            
+          
+          .searchcomp img {
+                width: 15px;
+                height: 15px;
+            }
+          
+          .input-group-addon{
+              padding: 6px 12px;
+          }
+         
+         }
+        
+        .searchinput::-webkit-input-placeholder {
+                font-size: 16px !important;
+                color: #7f7f7f!important;
+                font-family: Lato, Arial, sans-serif !important;
+                padding:auto;
+            }
+
+            .searchinput:-moz-placeholder {
+                /* Firefox 18- */
+                font-size: 16px !important;
+                color: #7f7f7f!important;
+                font-family: Lato, Arial, sans-serif !important;
+                padding:auto;
+            }
+
+            .searchinput::-moz-placeholder {
+                /* Firefox 19+ */
+                font-size: 16px !important;
+                color: #7f7f7f!important;
+                font-family: Lato, Arial, sans-serif !important;
+                padding:auto;
+            }
+
+            .searchinput:-ms-input-placeholder {
+                font-size: 16px !important;
+                color: #7f7f7f!important;
+                font-family: Lato, Arial, sans-serif !important;
+                padding:auto;
+            }
+           @-moz-document url-prefix() { 
+          #searchComponent{
+                     height: 60px !important;
+                     padding-top:20px !important;
+                     padding-bottom:20px !important;
+             
+          }
+       }
+
+               
+    </style>
+<script type="text/javascript">
+        jQuery(document).ready(function(){
+            jQuery('.search_class').keypress(function(e){
+                if(e.which == 13) {
+                    e.preventDefault();
+                    var searchText = jQuery('.search_class').val();
+                    if(searchText == "" || searchText == null || searchText == 'undefined' || searchText.includes("/script")){
+                        return true;
+                    }
+                    <!--*******************************************************************-->
+                    var employerFilter = false;
+                    searchText = stringreplace(searchText);
+                    console.log(searchText);
+                    location.href = '/GlassDoorSearch/1/' + employerFilter + '/en_US?q=' + searchText;
+                }
+            });
+
+            jQuery("#search_btn").bind("click", function(){
+                var searchText = jQuery('.search_class').val();
+                if(searchText == "" || searchText == null || searchText == 'undefined' || searchText.includes("/script")){
+                        return true;
+                    }
+                <!--*******************************************************************-->
+                    var employerFilter = false;
+               
+                searchText = stringreplace(searchText);
+                console.log(searchText);
+                location.href = '/GlassDoorSearch/1/' + employerFilter + '/en_US?q=' + searchText;
+            });
+            
+            function stringreplace(searchText){
+               
+               //added by manish for sanitizing the angular expressions
+               var sanitizedstring = searchText.replace(/[/{{}}%`']/g, '');
+
+                //return(searchText);
+                return(sanitizedstring); 
+            }
+            
+            
+             jQuery(".art_title").autocomplete({
+                
+                source: function(request, response){
+                    var subREGEX = request.term; 
+                    var pattern = /^[A-Za-z0-9]+$/;
+                    var result = subREGEX.match(pattern);
+                    if(result != null && result != '' && result.length > 0){    
+                        jQuery.ajax({                               
+                            dataType: "json",
+                            url: "/GD_AutoSuggestionArticles?q="+request.term+"&employerFilter="+jQuery('.employer_filter').prop('checked')+"&lang=en_US",
+                            success: function(data) {
+                                response( jQuery.map(data, function(item) {
+                                    console.log(item);
+                                   console.log("inside0");
+                                    if (item != ''){
+                                    pageLink = '/article/' + item.UrlName + '/en_US';
+                                    
+                                        
+                                      
+                                                                       }
+                                    return {
+                                        label: (item.Title.length > 60)?jQuery.trim(item.Title).substring(0, 63)+"...":item.Title, 
+                                        value: item.Title,
+                                        link: pageLink
+                                    }                                                                               
+                                }));
+                            }
+                        });
+                    }        
+                },select: function(event, ui) {
+                            location.href=ui.item.link
+                   }
+                   
+            });
+        });
+    </script>
+<div class="input-group col-lg-12 searchcomp ng-non-bindable">
+<input aria-describedby="basic-addon2" aria-labelledby="searchComponent" class="ng-non-bindable art_title search_class searchinput std med fill" id="searchComponent" placeholder="Search for help topics here" type="text" value=""/>
+<span class="input-group-addon" id="basic-addon2"><img alt="Search" class="search_btn" id="search_btn" src="/resource/1607670446000/Bootstrap/bootstrap_3.3.2/images/icon_search.png" style="max-width:initial;"/></span>
+</div></span>
+</div>
+<div class="aligncenter comguidline">
+<p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></span>
+</div>
+<noscript>
+<iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-PST2JZ" style="display:none;visibility:hidden" width="0">
+</iframe>
+</noscript>
+<script>(function(w,d,s,l,i){
+      w[l]=w[l]||[];
+      w[l].push(
+        {
+          'gtm.start': new Date().getTime(),event:'gtm.js'}
+      );
+      var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+      j.async=true;
+      j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;
+      f.parentNode.insertBefore(j,f);
+    }
+          )(window,document,'script','gdGlobals','GTM-PST2JZ');
+  </script>
+<div class="container-fluid" style="background-color:white;">
+<div class="row">
+<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 nopad">
+</div>
+<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 nopad">
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 toplabel hidden-xs">
+<h2>
+<b>Job Seeker Help Page
+            </b>
+</h2>
+<span>Not a Job Seeker? Click to see the <a href="/Employer/en_US">employer view</a>
+</span> <span> </span>
+</div>
+<div class="hidden-lg hidden-md hidden-sm col-xs-12 choosecateg">
+<span> Select a category below to view related articles
+          </span>
+</div><span class="col-lg-11 col-md-11 col-sm-12 col-xs-12" id="j_id0:j_id2:CategoryList">
+<div class="User_Categ"><span id="j_id0:j_id2:j_id46"><span class="col-lg-6 col-md-6 col-sm-6 col-xs-12 commtab" id="j_id0:j_id2:j_id46:j_id47:j_id48:0:j_id51"></span><span class="category_block top-pad col-lg-4 col-md-4 col-sm-6 col-xs-12 nopad top-pad" id="j_id0:j_id2:j_id46:j_id47:j_id48:4:j_id52" style="order:4">
+<div class="categ_header col-lg-10 col-md-10-col-sm-10 col-xs-10 nopad">
+<div class="category_header_div nav-toggle col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" data-target="#SearchParameters5">
+<div class="categ_img categImg_Div col-lg-2 col-md-2 col-sm-2 col-xs-2 nopad">
+<img alt="Write &amp; Edit Reviews" class="categ_img" src="/resource/1607670446000/Bootstrap/bootstrap_3.3.2/images/Write_Edit_Reviews.svg?orgId=00D80000000cY48"/>
+</div>
+<div class="categ_div col-lg-10 col-md-10 col-sm-10 col-xs-10 nopad">
+<div class="categ_title col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">Write &amp; Edit Reviews </div>
+</div>
+</div>
+<div class="listitem col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">
+<div class="categ_list_items col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" id="SearchParameters5">
+<div class="listframesdiv col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" src="/GD_HelpKB_Iframe_ArticleList?articlename=HelpArticles:Write_Edit_Reviews&amp;lang=en_US&amp;loc=user">
+</div>
+<div class="see_all hidden-xs"><a class="see_al" href="/category/user/Write_Edit_Reviews/en_US/" target="_top">See All</a>
+</div>
+<div class="hidden-lg hidden-md hidden-sm">
+<span class="see_allbutton"><a class="see_albut" href="/category/user/Write_Edit_Reviews/en_US/" target="_top">See all articles</a>
+</span>
+</div>
+</div>
+</div>
+</div></span><span class="category_block top-pad col-lg-4 col-md-4 col-sm-6 col-xs-12 nopad top-pad" id="j_id0:j_id2:j_id46:j_id47:j_id48:5:j_id52" style="order:5">
+<div class="categ_header col-lg-10 col-md-10-col-sm-10 col-xs-10 nopad">
+<div class="category_header_div nav-toggle col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" data-target="#SearchParameters6">
+<div class="categ_img categImg_Div col-lg-2 col-md-2 col-sm-2 col-xs-2 nopad">
+<img alt="Find a Job" class="categ_img" src="/resource/1607670446000/Bootstrap/bootstrap_3.3.2/images/Find_a_Job.svg?orgId=00D80000000cY48"/>
+</div>
+<div class="categ_div col-lg-10 col-md-10 col-sm-10 col-xs-10 nopad">
+<div class="categ_title col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">Find a Job </div>
+</div>
+</div>
+<div class="listitem col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">
+<div class="categ_list_items col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" id="SearchParameters6">
+<div class="listframesdiv col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" src="/GD_HelpKB_Iframe_ArticleList?articlename=HelpArticles:Find_a_Job&amp;lang=en_US&amp;loc=user">
+</div>
+<div class="see_all hidden-xs"><a class="see_al" href="/category/user/Find_a_Job/en_US/" target="_top">See All</a>
+</div>
+<div class="hidden-lg hidden-md hidden-sm">
+<span class="see_allbutton"><a class="see_albut" href="/category/user/Find_a_Job/en_US/" target="_top">See all articles</a>
+</span>
+</div>
+</div>
+</div>
+</div></span><span class="category_block top-pad col-lg-4 col-md-4 col-sm-6 col-xs-12 nopad top-pad" id="j_id0:j_id2:j_id46:j_id47:j_id48:9:j_id52" style="order:6">
+<div class="categ_header col-lg-10 col-md-10-col-sm-10 col-xs-10 nopad">
+<div class="category_header_div nav-toggle col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" data-target="#SearchParameters10">
+<div class="categ_img categImg_Div col-lg-2 col-md-2 col-sm-2 col-xs-2 nopad">
+<img alt="Mobile App Support" class="categ_img" src="/resource/1607670446000/Bootstrap/bootstrap_3.3.2/images/Mobile_App_Support.svg?orgId=00D80000000cY48"/>
+</div>
+<div class="categ_div col-lg-10 col-md-10 col-sm-10 col-xs-10 nopad">
+<div class="categ_title col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">Mobile App Support </div>
+</div>
+</div>
+<div class="listitem col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">
+<div class="categ_list_items col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" id="SearchParameters10">
+<div class="listframesdiv col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" src="/GD_HelpKB_Iframe_ArticleList?articlename=HelpArticles:Mobile_App_Support&amp;lang=en_US&amp;loc=user">
+</div>
+<div class="see_all hidden-xs"><a class="see_al" href="/category/user/Mobile_App_Support/en_US/" target="_top">See All</a>
+</div>
+<div class="hidden-lg hidden-md hidden-sm">
+<span class="see_allbutton"><a class="see_albut" href="/category/user/Mobile_App_Support/en_US/" target="_top">See all articles</a>
+</span>
+</div>
+</div>
+</div>
+</div></span><span class="leg_faq category_block top-pad col-lg-4 col-md-4 col-sm-6 col-xs-12 nopad top-pad" id="j_id0:j_id2:j_id46:j_id47:j_id48:10:j_id52" style="order:2">
+<div class="categ_header col-lg-10 col-md-10-col-sm-10 col-xs-10 nopad">
+<div class="category_header_div nav-toggle col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" data-target="#SearchParameters11">
+<div class="categ_img categImg_Div col-lg-2 col-md-2 col-sm-2 col-xs-2 nopad">
+<img alt="Content Guidelines &amp; Legal FAQs" class="categ_img" src="/resource/1607670446000/Bootstrap/bootstrap_3.3.2/images/Legal_FAQs.svg?orgId=00D80000000cY48"/>
+</div>
+<div class="categ_div col-lg-10 col-md-10 col-sm-10 col-xs-10 nopad">
+<div class="categ_title col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">Content Guidelines &amp; Legal FAQs </div>
+</div>
+</div>
+<div class="listitem col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">
+<div class="categ_list_items col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" id="SearchParameters11">
+<div class="listframesdiv col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" src="/GD_HelpKB_Iframe_ArticleList?articlename=HelpArticles:Legal_FAQs&amp;lang=en_US&amp;loc=user">
+</div>
+<div class="see_all hidden-xs"><a class="see_al" href="/category/user/Legal_FAQs/en_US/" target="_top">See All</a>
+</div>
+<div class="hidden-lg hidden-md hidden-sm">
+<span class="see_allbutton"><a class="see_albut" href="/category/user/Legal_FAQs/en_US/" target="_top">See all articles</a>
+</span>
+</div>
+</div>
+</div>
+</div></span><span class="category_block top-pad col-lg-4 col-md-4 col-sm-6 col-xs-12 nopad top-pad" id="j_id0:j_id2:j_id46:j_id47:j_id48:11:j_id52" style="order:7">
+<div class="categ_header col-lg-10 col-md-10-col-sm-10 col-xs-10 nopad">
+<div class="category_header_div nav-toggle col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" data-target="#SearchParameters12">
+<div class="categ_img categImg_Div col-lg-2 col-md-2 col-sm-2 col-xs-2 nopad">
+<img alt="Privacy &amp; Trust" class="categ_img" src="/resource/1607670446000/Bootstrap/bootstrap_3.3.2/images/Privacy_Trust.svg?orgId=00D80000000cY48"/>
+</div>
+<div class="categ_div col-lg-10 col-md-10 col-sm-10 col-xs-10 nopad">
+<div class="categ_title col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">Privacy &amp; Trust </div>
+</div>
+</div>
+<div class="listitem col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">
+<div class="categ_list_items col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" id="SearchParameters12">
+<div class="listframesdiv col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" src="/GD_HelpKB_Iframe_ArticleList?articlename=HelpArticles:Privacy_Trust&amp;lang=en_US&amp;loc=user">
+</div>
+<div class="see_all hidden-xs"><a class="see_al" href="/category/user/Privacy_Trust/en_US/" target="_top">See All</a>
+</div>
+<div class="hidden-lg hidden-md hidden-sm">
+<span class="see_allbutton"><a class="see_albut" href="/category/user/Privacy_Trust/en_US/" target="_top">See all articles</a>
+</span>
+</div>
+</div>
+</div>
+</div></span><span class="category_block top-pad col-lg-4 col-md-4 col-sm-6 col-xs-12 nopad top-pad" id="j_id0:j_id2:j_id46:j_id47:j_id48:14:j_id52" style="order:1">
+<div class="categ_header col-lg-10 col-md-10-col-sm-10 col-xs-10 nopad">
+<div class="category_header_div nav-toggle col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" data-target="#SearchParameters15">
+<div class="categ_img categImg_Div col-lg-2 col-md-2 col-sm-2 col-xs-2 nopad">
+<img alt="Getting Started" class="categ_img" src="/resource/1607670446000/Bootstrap/bootstrap_3.3.2/images/Getting_Started.svg?orgId=00D80000000cY48"/>
+</div>
+<div class="categ_div col-lg-10 col-md-10 col-sm-10 col-xs-10 nopad">
+<div class="categ_title col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">Getting Started </div>
+</div>
+</div>
+<div class="listitem col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">
+<div class="categ_list_items col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" id="SearchParameters15">
+<div class="listframesdiv col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" src="/GD_HelpKB_Iframe_ArticleList?articlename=HelpArticles:Getting_Started&amp;lang=en_US&amp;loc=user">
+</div>
+<div class="see_all hidden-xs"><a class="see_al" href="/category/user/Getting_Started/en_US/" target="_top">See All</a>
+</div>
+<div class="hidden-lg hidden-md hidden-sm">
+<span class="see_allbutton"><a class="see_albut" href="/category/user/Getting_Started/en_US/" target="_top">See all articles</a>
+</span>
+</div>
+</div>
+</div>
+</div></span><span class="category_block top-pad col-lg-4 col-md-4 col-sm-6 col-xs-12 nopad top-pad" id="j_id0:j_id2:j_id46:j_id47:j_id48:15:j_id52" style="order:3">
+<div class="categ_header col-lg-10 col-md-10-col-sm-10 col-xs-10 nopad">
+<div class="category_header_div nav-toggle col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" data-target="#SearchParameters16">
+<div class="categ_img categImg_Div col-lg-2 col-md-2 col-sm-2 col-xs-2 nopad">
+<img alt="Account &amp; Profile Settings" class="categ_img" src="/resource/1607670446000/Bootstrap/bootstrap_3.3.2/images/Account_Profile_Settings.svg?orgId=00D80000000cY48"/>
+</div>
+<div class="categ_div col-lg-10 col-md-10 col-sm-10 col-xs-10 nopad">
+<div class="categ_title col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">Account &amp; Profile Settings </div>
+</div>
+</div>
+<div class="listitem col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad">
+<div class="categ_list_items col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" id="SearchParameters16">
+<div class="listframesdiv col-lg-12 col-md-12 col-sm-12 col-xs-12 nopad" src="/GD_HelpKB_Iframe_ArticleList?articlename=HelpArticles:Account_Profile_Settings&amp;lang=en_US&amp;loc=user">
+</div>
+<div class="see_all hidden-xs"><a class="see_al" href="/category/user/Account_Profile_Settings/en_US/" target="_top">See All</a>
+</div>
+<div class="hidden-lg hidden-md hidden-sm">
+<span class="see_allbutton"><a class="see_albut" href="/category/user/Account_Profile_Settings/en_US/" target="_top">See all articles</a>
+</span>
+</div>
+</div>
+</div>
+</div></span></span>
+</div></span>
+</div>
+</div>
+</div><div id="j_id0:j_id2:j_id93"></div>
+</form>

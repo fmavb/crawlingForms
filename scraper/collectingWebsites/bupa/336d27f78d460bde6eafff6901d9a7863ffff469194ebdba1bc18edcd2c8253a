@@ -1,0 +1,34 @@
+<form class="form form-style-01" id="problem">
+<input name="providerType" type="hidden" value="Consultant"/>
+<input name="providerSwiftId" type="hidden" value="29574"/>
+<input name="providerName" type="hidden" value="Mr Mark Yeatman"/>
+<div class="col-wrap">
+<div class="col-50">
+<div class="row">
+<label for="name">Name:</label>
+<input class="field textfield" id="name" name="name" tabindex="1" type="text" value=""/>
+</div>
+<div class="row">
+<label for="emailAddress">Email address:</label>
+<input class="field textfield" id="emailAddress" name="emailAddress" tabindex="1" type="text" value=""/>
+</div>
+<div class="row">
+<label for="emailAddress2">Confirm email address:</label>
+<input class="field textfield" id="emailAddress2" name="emailAddress2" tabindex="2" type="text" value=""/>
+</div>
+</div>
+<div class="col-50">
+<div class="row">
+<label for="message">The problem with this page is:</label>
+<textarea class="field textfield" id="message" name="message" tabindex="3"></textarea>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="row">
+<div class="tab-nav">
+<button class="button primary btn next button-white-right" type="submit">Send <i class="i-arrow-right"></i></button>
+<button class="btn btn-text" id="report-close" type="button">Close</button>
+</div>
+</div>
+</form>

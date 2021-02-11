@@ -1,0 +1,10 @@
+<form accept-charset="UTF-8" action="/nearby-classes" id="ys-search-block-form" method="get">
+<div class="form-item js-form-item form-type-search js-form-type-search form-item-location-source-configuration-origin-address js-form-item-location-source-configuration-origin-address form-no-label form-group">
+<label class="control-label sr-only js-form-required form-required" for="edit-location-source-configuration-origin-address">Find a nearby class</label>
+<div class="input-group"><input aria-describedby="edit-location-source-configuration-origin-address--description" aria-required="true" class="form-search required form-control" data-drupal-selector="edit-location-source-configuration-origin-address" id="edit-location-source-configuration-origin-address" maxlength="128" name="location[source_configuration][origin_address]" placeholder="Find a nearby class" required="required" size="20" title="Enter a postcode or town" type="search" value=""/><span class="input-group-btn"><button class="button js-form-submit form-submit btn-primary btn icon-only" name="" type="submit" value="Search"><span class="sr-only">Search</span><span aria-hidden="true" class="icon glyphicon glyphicon-search"></span></button></span></div>
+<div class="description help-block" id="edit-location-source-configuration-origin-address--description">
+      Enter a postcode or town
+    </div>
+</div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+</form>

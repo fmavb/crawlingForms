@@ -1,0 +1,60 @@
+<form action="/services/hospital/new-hall-hospital/X176/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Completely unorganised&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;After my inital consultation, I was told to await a phone call to book me in for a procedure. That phone call never came and a few weeks later I got fed up and phoned myself I was then booked in on a date two weeks later. I phoned a few days before as I hadn't heard anything else, to be told that I was not booked in and offered a date a month later. I had no other choice so had to accept. Then we rinse and repeat, about a week before I phoned for more info, and yet again, I apparently had not been booked in. I was then given another date which was unfrotunately cancelled due to COVID-19. 
+
+I then phoned a few weeks ago where a secretary told me there was a slot on the 7th August which I accepted and had a telephone consultation with the surgeon the next day. A few days passed and I phoned to book my COVID-19 test, and they were surprised to hear that I had been told the 7th August, however did their best to fit me in. I then recieved a phone call to book in a COVID test which I did, only to get a phone call the day before my booked COVID test to ask if I had been contacted about a COVID test, where I responded with my booked in slot only to be told, I was not booked into that slot. I then travelled to New Hall Hospital to have my COVID test the day before I was due to go, thankfully due to a last minute cancellation. I was then told I would receive a phone call two working days before my procedure to give me my allotted time, which never came so naturally I enquired only to be told that I was not on the list. 
+
+There seems to be a complete and utter lack of organisation within the administrative side of this hospital. On the occasions I have spoken with a clinicina, they seem incredibly compassionate and good at what they do, the difficulty lies in actually seeing one.
+
+Whilst I am strong believer that patients, NHS or private, shuld be treated the same, I sincerely hope those individuals who have trusted this hospital with their hard earned money, recieve more respect than I have done in the last 6 months.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-08-05T17:05:49Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;2&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;New Hall Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Orthopaedics&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;85b77fe6-3dd7-ea11-a813-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X176&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamG_e2dpw6ysThpec-FvAXfWQqgq4Hen4SmgOdr8XOuc78wDPdUbS35-9Kp7CdZaBiPARFp8fsumq2JU_OX8vF50IVIIMGYDZ_4RKUz9eTuFp9LAdRDXdugyTEhQtAgic08"/></form>

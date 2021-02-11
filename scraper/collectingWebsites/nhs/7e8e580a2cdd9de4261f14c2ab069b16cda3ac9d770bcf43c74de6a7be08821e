@@ -1,0 +1,57 @@
+<form action="/services/hospital/royal-oldham-hospital/X862/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Fantastic care&lt;/Title&gt;
+    &lt;ScreenName&gt;Jodi&lt;/ScreenName&gt;
+    &lt;CommentText&gt;The antenatal care I received at the Royal Oldham hospital was great from start to finish. When it came to the birth of our child, this continued. As someone who has never before been admitted to hospital, I was anxious when my birth plan for my first child (birth centre, water birth) changed a fortnight before my due date. I was to be induced. In the current climate, I also learnt that I would have to go through the majority of the process alone, without my birth partner, due to visitor restrictions. 
+From arriving at the antenatal ward at lunchtime on a Tuesday, to leaving with my newborn on Thursday afternoon, the care we received from the staff was exemplary. The induction process was not an easy one, with the medication having too much of an effect and bringing on too many contractions. The antenatal staff acted quickly to move me to the labour ward as a result. I am grateful to the student midwife who held my hand and spoke to my partner on the phone, as I was very emotional by this point. Once there, I was mainly under the care of two professional, kind and caring midwives during my stay, who could not have been better. They really did go above and beyond - from providing refreshments and a bed for my partner, to setting up a starlight lamp when they heard that this was not the relaxed, birth centre birth I had had planned until very recently. I felt informed and supported throughout, even when the labour did not progress as planned and I was advised by the doctors that my baby may need to be born instrumentally, or even via c-section, which I had been desperate to avoid. 
+The surgical team put my mind at rest at a very anxious time, with one of the before mentioned midwives by my side, and a member of the surgical staff providing me much reassurance. The surgeon who delivered our baby using forceps kept me informed every step of the way, and delivered our baby quickly.
+We cannot thank the staff who cared for us during this time enough. We are grateful that they brought our baby into the world with such care and professionalism. We would not hesitate to use the department again, and we would recommend them to anyone.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-05-11T17:39:59Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;4&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Royal Oldham Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Maternity services&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;5f43996b-ae93-ea11-a812-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X862&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGzoJMt4kclqW3FdsuwRPs0gBnH58rCorfD0ua7H0kGhPRpQ-hw5qyn9YbfQqYLlwBoIqXFoAk44LQGw9sf4OvfhMDritZ4nKpAUOVTahYSSA1k6n63xTh8pTg5re9CN6c"/></form>

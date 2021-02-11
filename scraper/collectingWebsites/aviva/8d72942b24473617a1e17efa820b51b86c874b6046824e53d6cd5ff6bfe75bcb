@@ -1,0 +1,33 @@
+<form action="/access/doLogin.do" autocomplete="off" data-val="true" id="loginForm" method="post"> <fieldset>
+<legend>Log in form</legend>
+<div class="m-form-row m-form-row--has-explanatory-text-link">
+<label class="a-label" for="username">Username</label>
+<p class="m-form-row__explanatory-text-link"><a href="/MyAccount/Registration/CheckEmail">Forgot Username</a></p>
+<p class="m-form-row__explanatory-text">This might be your email address</p>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="username" data-valmsg-replace="true"></span>
+<input aria-required="True" autocomplete="off" class="a-textbox" data-qa-textbox="username" data-val="true" data-val-required="Please enter your username" id="username" maxlength="50" name="username" type="text" value=""/>
+<label class="a-checkbox a-checkbox--standalone u-hidden--no-js a-checkbox--rememberme" for="RememberUsername">
+<input aria-required="True" class="a-checkbox__input" id="RememberUsername" name="RememberUsername" type="checkbox" value="true"/><input name="RememberUsername" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Remember username</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+</div>
+<div class="m-form-row m-form-row--has-explanatory-text-link">
+<label class="a-label" for="password">Password</label>
+<p class="m-form-row__explanatory-text-link"><a href="/MyAccount/Registration/Resend">Forgot Password</a></p>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="password" data-valmsg-replace="true"></span>
+<input aria-required="True" autocomplete="off" class="a-textbox" data-qa-textbox="password" data-val="true" data-val-required="Please enter your password" id="password" maxlength="50" name="password" type="password"/>
+</div>
+</div>
+<input id="HOSTNAME" name="HOSTNAME" type="hidden" value="direct-aviva"/>
+<input id="URL" name="URL" type="hidden" value="direct"/>
+<input id="SetUsernameForRedirectsUrl" name="SetUsernameForRedirectsUrl" type="hidden" value="/MyAccount/Public/SetUsernameForRedirects"/>
+<input id="redirecturl" name="redirecturl" type="hidden" value="/MyAccount/Redirect?context=MotorReportClaimPage"/> <input id="xattrs" name="xattrs" type="hidden" value="employercode=ZZZ"/>
+<div class="m-form-row">
+<input class="a-button a-button--primary" data-qa-button="submitForm" id="loginButton" name="loginButton" type="submit" value="Log in"/>
+</div>
+</fieldset>
+</form>

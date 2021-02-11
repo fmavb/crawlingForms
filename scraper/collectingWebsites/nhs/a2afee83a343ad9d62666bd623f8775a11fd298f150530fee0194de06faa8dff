@@ -1,0 +1,61 @@
+<form action="/services/hospital/blackpool-victoria-hospital/X1974/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Care in urology recovery&lt;/Title&gt;
+    &lt;ScreenName&gt;Malcolm Lambert&lt;/ScreenName&gt;
+    &lt;CommentText&gt;This was my second stay in this dept within a year and the experience just gets better.
+ I cannot put in to adequate words the feeling of support combined with individualistic care I recently received. Everyone from the consultant to the cleaners did there bit to make my stay as pleasant as possible.
+ Of course we all realise that nursing is a calling rather than just another job but this team takes this to a whole new level of personal patient interest and care.
+Whatever bit of urology you have done it is rarely a pain free pleasant experience especially in your late 70s. I felt nurtured and humbled by the lengths that the staff would go to make sure you understood and agreed with what the procedures they were doing to aid your recovery.
+As a single instance, try asking your nearest and dearest for a cup of tea and a cheese sandwich at 03.30 and see what happens. This team didn't raise an eyebrow and did I take sugar was the only query.
+That level of commitment may be a small example, but to the patient it is calming and re-assuring during those painful long hours of the night when sleep just won't happen.
+So my thanks again to all those who had a part in my recovery on the Urology recovery ward 15. You made a sceptical ex vet very proud of our NHS.
+Malcolm Lambert&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-12-26T07:38:48Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;12&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Blackpool Victoria Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Urology&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;d9f39ebf-b227-ea11-a810-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1974&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamH3xTM_SltIF16X6ijUCKBr8dsL3-OcSqeUiDYbYPmpHRY-jAXXk_TIyuiD9MEeKnGwD1nNjfRsL0XiyaPW7w5uodVINg_aVtkE5dqTa0RoAxNBM2Brat6jQVrGjrbTmSY"/></form>

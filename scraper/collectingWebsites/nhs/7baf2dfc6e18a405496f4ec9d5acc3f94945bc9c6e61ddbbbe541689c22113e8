@@ -1,0 +1,54 @@
+<form action="/services/hospital/kings-college-hospital/X1214/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Renal service has gotten worse&lt;/Title&gt;
+    &lt;ScreenName&gt;Disappointed&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I have been attending the renal unit for 15 years during which time, apart from less than hygienic toilets initially the unit improved, staff seemed to work together well and were easy to reach with questions. Recently as my condition has worsened, I had reason to complain to my old doctor about the new nurse (who spoke bad English and didn't seem to have looked at my notes before seeing me and telling me things I knew were wrong as related to my care) and a doctor (who off-handedly told me I would soon need a tube inserted into my stomach whereas I have been told there is hope of a live donor transplant before the need for dialysis, so this was upsetting and confusing, she then proceeded to grill me about the interaction between minerals in the renal patient as if I was a student of hers!). Since then the team have been surly and have treated me less as a patient they are paid to care for but as a potential problem. They have asked me several times whether I wish to move to another hospital altogether (which is strange after 15 years - but actually I am now considering it.) My main reason for the complaint is that I was told I would be placed on the waiting list for a deceased donor kidney back in May 2019 when my condition was severe enough to warrant it. This was confirmed by a specialist at the time. I was then called back to the hospital last week (July) for another blood test - and told I had not been on the list at all, despite having been told I was. Since the wait is up to 3 years, and the longer a patient is waiting the worse the outcome for them, I was upset. No apology was proffered, but yet more offers of moving my care to another hospital despite my having turned this down several times. The phlebotomist who used to do a great job has recently gone, and in his place I have had bloods drawn by several people, two of whom chatted to their colleagues over my head - no patient care at all. In 15 years I have followed all care advice, taken all the drugs administered and turned up for appointments. It is clearly disappointing that the centre I used to trust has gone downhill. I will be moving my care to a better hospital (I hope) although it being the NHS there is hardly much choice despite our paying thousands and thousands into it, the care is patchy at best, careless otherwise.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-07-16T01:08:51.323Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;7&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;King's College Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;c15a924f-14e9-e911-a812-000d3a7ed588&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1214&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamE7n85VCPEvpqECjVM6mcYcvkj7axeGfjfRYMeOwQGVIocOeoQKCT_DOaw6QMdZWknCOI5Z-yG0Wkrc6ubjKdjKmoy5V_eMCTPq0I_LobTL2Xb2DtM_Mm3sWvKgAItxI-8"/></form>

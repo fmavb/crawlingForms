@@ -1,0 +1,43 @@
+<form name="formBilling" novalidate="">
+<div class="ifholderhalf halfwidth">
+<h3 ng-bind="(fieldsLable['Billing_Address'])[language]"></h3>
+</div>
+<div class="ifholderhalf halfwidth" ng-show="IsShippingRequired">
+<p>
+<input id="same-as-billing" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping();supportedShippingMethods()" ng-model="chkCopyBillingAsShipping" type="checkbox"/>
+                                        {{(fieldsLable['Copy_Billing_Address'])[language]}}
+                                    </p>
+</div>
+<div class="ifholderhalf">
+<input data-ng-class="{ 'required' : formBilling.Billing_Street1__c.$touched &amp;&amp; formBilling.Billing_Street1__c.$invalid,  '' : !formBilling.Billing_Street1__c.$dirty &amp;&amp; !formBilling.Billing_Street1__c.$invalid}" id="baddress1" name="Billing_Street1__c" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping()" ng-maxlength="255" ng-model="Purchase.User.Billing_Street1__c" ng-model-options="{ debounce: 1000 }" placeholder="{{(fieldsLable['Billing_Street1__c'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : formBilling.Billing_Street1__c.$touched &amp;&amp; formBilling.Billing_Street1__c.$invalid,  '' : !formBilling.Billing_Street1__c.$dirty &amp;&amp; !formBilling.Billing_Street1__c.$invalid}" for="baddress1" ng-bind="(fieldsLable['Billing_Street1__c'])[language]"></label>
+</div>
+<div class="ifholderhalf" ng-show="isHelixOrder">
+<input data-ng-class="{ 'required' : formBilling.Billing_Street2__c.$touched &amp;&amp; formBilling.Billing_Street2__c.$invalid,  '' : !formBilling.Billing_Street2__c.$dirty &amp;&amp; !formBilling.Billing_Street2__c.$invalid}" id="baddress2" name="Billing_Street2__c" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping()" ng-maxlength="255" ng-model="Purchase.User.Billing_Street2__c" ng-model-options="{ debounce: 1000 }" placeholder="{{(fieldsLable['Billing_Street2__c'])[language]}}" type="text"/>
+<label data-ng-class="{ 'required' : formBilling.Billing_Street2__c.$touched &amp;&amp; formBilling.Billing_Street2__c.$invalid,  '' : !formBilling.Billing_Street2__c.$dirty &amp;&amp; !formBilling.Billing_Street2__c.$invalid}" for="baddress2" ng-bind="(fieldsLable['Billing_Street2__c'])[language]"></label>
+</div>
+<div class="ifholderhalf halfwidth">
+<input data-ng-class="{ 'required' : formBilling.Billing_City__c.$touched &amp;&amp; formBilling.Billing_City__c.$invalid,  '' : !formBilling.Billing_City__c.$dirty &amp;&amp; !formBilling.Billing_City__c.$invalid}" id="bcity" name="Billing_City__c" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping()" ng-maxlength="58" ng-model="Purchase.User.Billing_City__c" ng-model-options="{ debounce: 1000 }" placeholder="{{(fieldsLable['Billing_City__c'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : formBilling.Billing_City__c.$touched &amp;&amp; formBilling.Billing_City__c.$invalid,  '' : !formBilling.Billing_City__c.$dirty &amp;&amp; !formBilling.Billing_City__c.$invalid}" for="bcity" ng-bind="(fieldsLable['Billing_City__c'])[language]"></label>
+</div>
+<div class="ifholderhalf halfwidth">
+<input data-ng-class="{ 'required' : formBilling.Billing_Postal_Code__c.$touched &amp;&amp; formBilling.Billing_Postal_Code__c.$invalid,  '' : !formBilling.Billing_Postal_Code__c.$dirty &amp;&amp; !formBilling.Billing_Postal_Code__c.$invalid}" id="bpostcode" name="Billing_Postal_Code__c" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping()" ng-maxlength="20" ng-model="Purchase.User.Billing_Postal_Code__c" ng-model-options="{ debounce: 1000 }" placeholder="{{(fieldsLable['Billing_Postal_Code__c'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : formBilling.Billing_Postal_Code__c.$touched &amp;&amp; formBilling.Billing_Postal_Code__c.$invalid,  '' : !formBilling.Billing_Postal_Code__c.$dirty &amp;&amp; !formBilling.Billing_Postal_Code__c.$invalid}" for="Billing_Postal_Code__c" ng-bind="(fieldsLable['Billing_Postal_Code__c'])[language]"></label>
+</div>
+<div class="ifholderhalf halfwidth" ng-if="QueryParam.currency !='GBP'">
+<input data-ng-class="{ 'required' : formBilling.Billing_State__c.$touched &amp;&amp; formBilling.Billing_State__c.$invalid,  '' : !formBilling.Billing_State__c.$dirty &amp;&amp; !formBilling.Billing_State__c.$invalid}" id="bstateWithGBP" name="Billing_State__c" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping()" ng-if="!isHelixOrder" ng-model="Purchase.User.Billing_State__c" ng-model-options="{ debounce: 1000 }" placeholder="{{(fieldsLable['Billing_State__c'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : formBilling.Billing_State__c.$touched &amp;&amp; formBilling.Billing_State__c.$invalid,  '' : !formBilling.Billing_State__c.$dirty &amp;&amp; !formBilling.Billing_State__c.$invalid}" for="bstateWithGBP" ng-bind="(fieldsLable['Billing_State__c'])[language]" ng-if="!isHelixOrder"></label>
+<select data-ng-class="{ 'required' : formBilling.Billing_State__c.$touched &amp;&amp; formBilling.Billing_State__c.$invalid,  '' : !formBilling.Billing_State__c.$dirty &amp;&amp; !formBilling.Billing_State__c.$invalid}" id="bstateWithGBPHelix" name="Billing_State__c" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping()" ng-if="isHelixOrder" ng-model="Purchase.User.Billing_State__c" ng-options="state.key as state.value for state in HelixState" required=""></select>
+<label data-ng-class="{ 'required' : formBilling.Billing_State__c.$touched &amp;&amp; formBilling.Billing_State__c.$invalid,  '' : !formBilling.Billing_State__c.$dirty &amp;&amp; !formBilling.Billing_State__c.$invalid}" for="bstateWithGBPHelix" ng-bind="(fieldsLable['Billing_State__c'])[language]" ng-if="isHelixOrder"></label>
+</div>
+<div class="ifholderhalf halfwidth" ng-if="QueryParam.currency=='GBP'">
+<input data-ng-class="{ 'required' : formBilling.Billing_State__c.$touched &amp;&amp; formBilling.Billing_State__c.$invalid,  '' : !formBilling.Billing_State__c.$dirty &amp;&amp; !formBilling.Billing_State__c.$invalid}" id="bstateWithoutGBP" name="Billing_State__c" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping()" ng-if="!isHelixOrder" ng-model="Purchase.User.Billing_State__c" ng-model-options="{ debounce: 1000 }" placeholder="County" required="" type="text"/>
+<label data-ng-class="{ 'required' : formBilling.Billing_State__c.$touched &amp;&amp; formBilling.Billing_State__c.$invalid,  '' : !formBilling.Billing_State__c.$dirty &amp;&amp; !formBilling.Billing_State__c.$invalid}" for="bstateWithoutGBP" ng-bind="(fieldsLable['County'])[language]" ng-if="!isHelixOrder"></label>
+<select data-ng-class="{ 'required' : formBilling.Billing_State__c.$touched &amp;&amp; formBilling.Billing_State__c.$invalid,  '' : !formBilling.Billing_State__c.$dirty &amp;&amp; !formBilling.Billing_State__c.$invalid}" id="bstateWithoutGBPHelix" name="Billing_State__c" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping()" ng-if="isHelixOrder" ng-model="Purchase.User.Billing_State__c" ng-options="state.key as state.value for state in HelixState" required=""></select>
+<label data-ng-class="{ 'required' : formBilling.Billing_State__c.$touched &amp;&amp; formBilling.Billing_State__c.$invalid,  '' : !formBilling.Billing_State__c.$dirty &amp;&amp; !formBilling.Billing_State__c.$invalid}" for="bstateWithoutGBPHelix" ng-bind="(fieldsLable['County'])[language]" ng-if="isHelixOrder"></label>
+</div>
+<div class="ifholderhalf halfwidth">
+<select data-ng-class="{ 'required' : formBilling.Billing_Country__c.$touched &amp;&amp; formBilling.Billing_Country__c.$invalid,  '' : !formBilling.Billing_Country__c.$dirty &amp;&amp; !formBilling.Billing_Country__c.$invalid}" id="bcountry" name="Billing_Country__c" ng-change="chkCopyBillingAsShipping &amp;&amp; copyBillingAsShipping();supportedShippingMethods()" ng-model="Purchase.User.Billing_Country__c" ng-model-options="{ debounce: 1000 }" ng-options="country.key as country.value for country in Countries" required=""></select>
+<label data-ng-class="{ 'required' : formBilling.Billing_Country__c.$touched &amp;&amp; formBilling.Billing_Country__c.$invalid,  '' : !formBilling.Billing_Country__c.$dirty &amp;&amp; !formBilling.Billing_Country__c.$invalid}" for="Billing_Country__c" ng-bind="(fieldsLable['Billing_Country__c'])[language]"></label>
+</div>
+</form>

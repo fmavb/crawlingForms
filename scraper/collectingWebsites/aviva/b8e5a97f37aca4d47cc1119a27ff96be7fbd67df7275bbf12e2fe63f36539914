@@ -1,0 +1,214 @@
+<form action="/myfuture/PensionAnnuityCalculator/AboutYou" autocomplete="off" method="post"><input name="__RequestVerificationToken" type="hidden" value="LP13X8T3qyYb6a9vSclnaSHMsAK--41feLa_dmJRSpG-my_D44WJ20z0B-daxcowB4AtFabqGz297RoEDrA_9fGqNkM1"/><div class="t-accent-light t-accent-light--yellow">
+<div class="l-content-container">
+<ul class="m-navigation-inpage a-list-plain">
+<li class="m-navigation-inpage__item is-selected">
+<button class="m-navigation-inpage-link" data-qa-button="aboutYou" disabled="" name="navigation" type="submit" value="AboutYou">
+<img alt="" class="m-navigation-inpage-link__icon" src="//cdn.aviva.com/static/core/icons/v1/product/functional/svg/just-me-functional.svg"/>
+<span class="m-navigation-inpage-link__text">About you</span>
+</button>
+</li>
+<li class="m-navigation-inpage__item is-disabled">
+<button class="m-navigation-inpage-link" data-qa-button="yourHealth" disabled="" name="navigation" type="submit" value="YourHealth">
+<img alt="" class="m-navigation-inpage-link__icon" src="//cdn.aviva.com/static/core/icons/v1/product/functional/svg/critical-illness-functional.svg"/>
+<span class="m-navigation-inpage-link__text">Your health</span>
+</button>
+</li>
+<li aria-hidden="true" class="m-navigation-inpage__item is-disabled">
+<button class="m-navigation-inpage-link" data-qa-button="yourDependant" disabled="" name="navigation" type="submit" value="YourDependant">
+<img alt="" class="m-navigation-inpage-link__icon" src="//cdn.aviva.com/static/core/icons/v1/product/functional/svg/me-and-someone-else-functional.svg"/>
+<span class="m-navigation-inpage-link__text">Your dependant</span>
+</button>
+</li>
+<li aria-hidden="true" class="m-navigation-inpage__item is-disabled">
+<button class="m-navigation-inpage-link" data-qa-button="yourChoices" disabled="" name="navigation" type="submit" value="YourChoices">
+<img alt="" class="m-navigation-inpage-link__icon" src="//cdn.aviva.com/static/core/icons/v1/product/functional/svg/great-customer-experience-functional.svg"/>
+<span class="m-navigation-inpage-link__text">Your choices</span>
+</button>
+</li>
+<li aria-hidden="true" class="m-navigation-inpage__item is-disabled">
+<button class="m-navigation-inpage-link" data-qa-button="summary" disabled="" name="navigation" type="submit" value="Summary">
+<img alt="" class="m-navigation-inpage-link__icon" src="//cdn.aviva.com/static/core/icons/v1/product/functional/svg/documents-functional.svg"/>
+<span class="m-navigation-inpage-link__text">Summary</span>
+</button>
+</li>
+</ul>
+</div>
+</div>
+<div class="l-section">
+<div class="l-content-container">
+<h2 class="a-heading a-heading--1 a-heading--semibold u-margin--bottom-none">About you</h2>
+<div class="l-max l-max--6-column-large l-max--left">
+<fieldset class="m-form-row m-form-row--full-width" role="radiogroup">
+<legend class="a-label">Are you male or female?</legend>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="Gender" data-valmsg-replace="true" role="alert"></span>
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="genderMale">
+<input aria-required="true" class="a-radio__input" data-qa-radio="gender" data-val="true" data-val-required="Please select a gender" id="genderMale" name="Gender" type="radio" value="Male"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Male</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="genderFemale">
+<input aria-required="true" class="a-radio__input" data-qa-radio="gender" id="genderFemale" name="Gender" type="radio" value="Female"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Female</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="dateOfBirth">What's your date of birth?</label>
+<div class="m-form-row__help">
+<p>To use this calculator you must be aged between 55 and 74.</p>
+</div>
+<div class="m-form-row__content js-click-listener">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="DateOfBirth" data-valmsg-replace="true" role="alert"></span>
+<input aria-required="true" class="a-date a-date--extended" data-max="1966-02-11" data-min="1947-02-12" data-module="a-date--extended" data-qa-textbox="dateOfBirth" data-val="true" data-val-required="Please enter a date of birth" id="DateOfBirth" name="DateOfBirth" pattern="\d{2}\/\d{2}\/\d{4}" placeholder="DD/MM/YYYY" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="maritalStatus">What's your marital status?</label>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="MaritalStatus" data-valmsg-replace="true" role="alert"></span>
+<span class="a-dropdown">
+<select aria-required="true" class="a-dropdown__select" data-qa-dropdown="maritalStatus" data-val="true" data-val-required="Please select a marital status" id="maritalStatus" name="MaritalStatus"><option selected="selected" value="">Please select</option>
+<option value="1">Married</option>
+<option value="2">Divorced</option>
+<option value="3">Separated</option>
+<option value="4">Single</option>
+<option value="5">Widowed</option>
+<option value="6">Cohabiting</option>
+<option value="7">Intend to marry</option>
+<option value="8">Civil Partnership</option>
+<option value="9">Dissolved civil partnership</option>
+<option value="10">Separated civil partnership</option>
+<option value="11">Surviving civil partnership</option>
+<option value="12">Intend to form civil partnership</option>
+</select>
+<span class="a-dropdown__ui"></span>
+</span>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="postcode">What's your postcode?</label>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="PostCode" data-valmsg-replace="true" role="alert"></span>
+<input aria-required="true" class="a-textbox [ Modifier ]" data-qa-textbox="postcode" data-val="true" data-val-assertthat="Please enter a valid UK post code" data-val-assertthat-constsmap='{"RegexConstants.Postcode":"^(([gG][iI][rR] {0,}0[aA]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2}))$"}' data-val-assertthat-expression='"(NotUkPostCode == false &amp;&amp; IsRegexMatch(PostCode, RegexConstants.Postcode)) || NotUkPostCode == true"' data-val-assertthat-fieldsmap='{"NotUkPostCode":"bool","PostCode":"string"}' data-val-assertthat-methodslist='["IsRegexMatch"]' data-val-requiredif="Please enter a post code, or tick the box below to indicate you don't have a UK postcode" data-val-requiredif-allowempty="false" data-val-requiredif-expression='"NotUkPostCode == false"' data-val-requiredif-fieldsmap='{"NotUkPostCode":"bool"}' id="postcode" name="PostCode" placeholder="Enter postcode here" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<span class="a-label"></span>
+<div class="m-form-row__content">
+<label class="a-checkbox" for="no-uk-postcode">
+<input class="a-checkbox__input" id="no-uk-postcode" name="NotUkPostCode" type="checkbox" value="true"/><input name="NotUkPostCode" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">If you don't have a UK postcode, please tick the box</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+</div>
+<div class="js-dropdown-module">
+<div class="js-dropdown-parent">
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="pension-funds">How many <a class="a-context-help a-link-icon" data-module="a-context-help" data-variant="modal" href="#pension-funds-tooltip"><span class="a-link-icon__inner">pension fund(s)</span></a>do you have?</label>
+<div class="m-form-row__help">
+<p>Please don't include any final salary or <a class="a-context-help a-link-icon" data-module="a-context-help" data-variant="modal" href="#defined-benefit-tooltip"><span class="a-link-icon__inner">defined benefit schemes</span></a>.</p>
+</div>
+<div class="m-form-row__content">
+<span class="a-dropdown">
+<select aria-required="true" class="a-dropdown__select js-dropdown" data-qa-dropdown="numberOfPensionFunds" id="NumberOfPensionFunds" name="NumberOfPensionFunds"><option selected="selected" value="0">1</option>
+<option value="1">2</option>
+<option value="2">3</option>
+<option value="3">4</option>
+<option value="4">5 or more</option>
+</select>
+<span class="a-dropdown__ui"></span>
+</span>
+</div>
+</div>
+</div>
+<h3 class="a-heading a-heading--3 a-heading--semibold">Please tell us the value of your pension fund(s)</h3>
+<div class="m-card m-card-notification m-card-notification--neutral">
+<div class="m-card-content">
+<p>You can find the value of your <a class="a-context-help a-link-icon" data-module="a-context-help" data-variant="modal" href="#pension-funds-tooltip"><span class="a-link-icon__inner">pension fund(s)</span></a> on your latest statement. Your pension statement may show separate figures for protected and non-protected rights funds. If you're working from statements with separate figures for protected and non-protected rights funds, please add them together to give us your overall fund total.</p>
+</div>
+</div>
+<div class="m-form-row js-show-hide-container m-form-row--full-width u-clear--both">
+<label class="a-label" for="fund-1-value">Fund 1</label>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="PensionFund1" data-valmsg-replace="true" role="alert"></span>
+<input aria-required="true" class="a-textbox a-textbox--symbol a-textbox--symbol-pound js-add" data-qa-textbox="pensionFund1" data-val="true" data-val-number="The field Pension Fund1 must be a number." data-val-regex="Please enter a valid pension fund value" data-val-regex-pattern="\d{1,6}(\.\d{1,2})?" data-val-required="Please enter a pension fund value" id="PensionFund1" name="PensionFund1" placeholder="Enter fund value here" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row js-show-hide-container u-hidden--js m-form-row--full-width">
+<label class="a-label" for="fund-2-value">Fund 2</label>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="PensionFund2" data-valmsg-replace="true" role="alert"></span>
+<input class="a-textbox a-textbox--symbol a-textbox--symbol-pound js-add" data-val="true" data-val-number="The field Pension Fund2 must be a number." data-val-regex="Please enter a valid pension fund value" data-val-regex-pattern="\d{1,6}(\.\d{1,2})?" data-val-requiredif="Please enter a pension fund value" data-val-requiredif-allowempty="false" data-val-requiredif-enumsmap='{"NumberOfFunds.One":0}' data-val-requiredif-expression='"NumberOfPensionFunds != NumberOfFunds.One"' data-val-requiredif-fieldsmap='{"NumberOfPensionFunds":"enumeration"}' id="PensionFund2" name="PensionFund2" placeholder="Enter fund value here" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row js-show-hide-container u-hidden--js m-form-row--full-width">
+<label class="a-label" for="fund-3-value">Fund 3</label>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="PensionFund3" data-valmsg-replace="true" role="alert"></span>
+<input class="a-textbox a-textbox--symbol a-textbox--symbol-pound js-add" data-val="true" data-val-number="The field Pension Fund3 must be a number." data-val-regex="Please enter a valid pension fund value" data-val-regex-pattern="\d{1,6}(\.\d{1,2})?" data-val-requiredif="Please enter a pension fund value" data-val-requiredif-allowempty="false" data-val-requiredif-enumsmap='{"NumberOfFunds.One":0,"NumberOfFunds.Two":1}' data-val-requiredif-expression='"NumberOfPensionFunds != NumberOfFunds.One &amp;&amp; NumberOfPensionFunds != NumberOfFunds.Two"' data-val-requiredif-fieldsmap='{"NumberOfPensionFunds":"enumeration"}' id="PensionFund3" name="PensionFund3" placeholder="Enter fund value here" step=".01" type="number" value=""/>
+</div>
+</div>
+<div class="m-form-row js-show-hide-container u-hidden--js m-form-row--full-width">
+<label class="a-label" for="fund-4-value">Fund 4</label>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="PensionFund4" data-valmsg-replace="true" role="alert"></span>
+<input class="a-textbox a-textbox--symbol a-textbox--symbol-pound js-add" data-val="true" data-val-number="The field Pension Fund4 must be a number." data-val-regex="Please enter a valid pension fund value" data-val-regex-pattern="\d{1,6}(\.\d{1,2})?" data-val-requiredif="Please enter a pension fund value" data-val-requiredif-allowempty="false" data-val-requiredif-enumsmap='{"NumberOfFunds.Four":3,"NumberOfFunds.FiveOrMore":4}' data-val-requiredif-expression='"NumberOfPensionFunds == NumberOfFunds.Four || NumberOfPensionFunds == NumberOfFunds.FiveOrMore"' data-val-requiredif-fieldsmap='{"NumberOfPensionFunds":"enumeration"}' id="PensionFund4" name="PensionFund4" placeholder="Enter fund value here" step=".01" type="number" value=""/>
+</div>
+</div>
+<div class="m-form-row js-show-hide-container u-hidden--js m-form-row--full-width">
+<label class="a-label" for="fund-5-value">Fund 5</label>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="PensionFund5" data-valmsg-replace="true" role="alert"></span>
+<input class="a-textbox a-textbox--symbol a-textbox--symbol-pound js-add" data-val="true" data-val-number="The field Pension Fund5 must be a number." data-val-regex="Please enter a valid pension fund value" data-val-regex-pattern="\d{1,6}(\.\d{1,2})?" data-val-requiredif="Please enter a pension fund value" data-val-requiredif-allowempty="false" data-val-requiredif-enumsmap='{"NumberOfFunds.FiveOrMore":4}' data-val-requiredif-expression='"NumberOfPensionFunds == NumberOfFunds.FiveOrMore"' data-val-requiredif-fieldsmap='{"NumberOfPensionFunds":"enumeration"}' id="PensionFund5" name="PensionFund5" placeholder="Enter fund value here" step=".01" type="number" value=""/>
+</div>
+</div>
+<div class="m-form-row js-show-hide-container u-hidden--js m-form-row--full-width">
+<label class="a-label" for="fund-6-value">Other</label>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="PensionFundOther" data-valmsg-replace="true" role="alert"></span>
+<input class="a-textbox a-textbox--symbol a-textbox--symbol-pound js-add" data-val="true" data-val-number="The field Pension Fund Other must be a number." data-val-regex="Please enter a valid pension fund value" data-val-regex-pattern="\d{1,6}(\.\d{1,2})?" id="PensionFundOther" name="PensionFundOther" placeholder="Enter fund value here" step=".01" type="number" value=""/>
+</div>
+</div>
+</div>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="TotalPensionFunds" data-valmsg-replace="true" role="alert"></span>
+<p class="a-heading a-heading--3"><strong>Total:</strong> £<span class="js-add-total">0.00</span></p>
+<input class="js-add-total u-hidden" data-val="true" data-val-assertthat="Sorry, this calculator can only provide a quote for total funds of £1 or greater" data-val-assertthat-expression='"TotalPensionFunds &gt;= 1"' data-val-assertthat-fieldsmap='{"TotalPensionFunds":"number"}' data-val-assertthata="Sorry, this calculator can only provide a quote for total funds of less than £1,000,000. As you have a large pension fund, you may have more options. Please talk to your financial adviser. If you don't have one, visit www.unbiased.co.uk or call us on 0800 068 5179 (we can only advise on our own products). If you have entered a fund of over £1,000,000 by mistake, please amend the amount to continue through the calculator" data-val-assertthata-expression='"TotalPensionFunds &lt; 1000000"' data-val-assertthata-fieldsmap='{"TotalPensionFunds":"number"}' data-val-assertthatb="We can only accept pension funds from other pension providers if they are worth at least £10,000. Please talk to your pension provider and/or financial adviser to discuss your options" data-val-assertthatb-expression='"(HasPensionFundsFromAviva == false &amp;&amp; TotalPensionFunds &gt;= 10000) || HasPensionFundsFromAviva == true || HasPensionFundsFromAviva == null"' data-val-assertthatb-fieldsmap='{"HasPensionFundsFromAviva":"bool","TotalPensionFunds":"number"}' data-val-number="The field Total Pension Funds must be a number." data-val-regex="Sorry, this calculator can only provide a quote for total funds of less than £1,000,000. As you have a large pension fund, you may have more options. Please talk to your financial adviser. If you don't have one, visit www.unbiased.co.uk or call us on 0800 068 5179 (we can only advise on our own products). If you have entered a fund of over £1,000,000 by mistake, please amend the amount to continue through the calculator" data-val-regex-pattern="\d{1,6}(\.\d+$)?" id="TotalPensionFunds" name="TotalPensionFunds" type="text" value="0"/>
+</div>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid"/>
+<fieldset class="m-form-row m-form-row--full-width u-clear--both" role="radiogroup">
+<legend class="a-label u-clear--both">Are any of your fund(s) held with Aviva?</legend>
+<div class="m-form-row__content">
+<span aria-live="true" class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="HasPensionFundsFromAviva" data-valmsg-replace="true" role="alert"></span>
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="avivaFundsYes">
+<input aria-required="true" class="a-radio__input" data-qa-radio="hasPensionFundsFromAviva" data-qa-value="yes" data-val="true" data-val-required="Please select an answer" id="avivaFundsYes" name="HasPensionFundsFromAviva" type="radio" value="True"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Yes</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="avivaFundsNo">
+<input aria-required="true" class="a-radio__input" data-qa-radio="hasPensionFundsFromAviva" data-qa-value="no" id="avivaFundsNo" name="HasPensionFundsFromAviva" type="radio" value="False"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">No</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<input class="a-button a-button--primary" data-qa-button="submitForm" type="submit" value="Continue"/>
+</div>
+</div>
+</div>
+</form>

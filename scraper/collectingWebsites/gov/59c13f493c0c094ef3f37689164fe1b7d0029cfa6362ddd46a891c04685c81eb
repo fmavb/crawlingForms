@@ -1,0 +1,26 @@
+<form accept-charset="UTF-8" action="/search/research-and-statistics/email-signup?subscriber_list_params%5Ball_part_of_taxonomy_tree%5D%5B%5D=a44e9afd-6e09-4dcf-90a3-18e8e8708cb7&amp;subscriber_list_params%5Bcontent_store_document_type%5D%5B%5D=statistics_published" class="signup-choices" method="post">
+<input name="authenticity_token" type="hidden" value="saaY2U04atiNU1Qfhw55iFPsH6MziNQfeHpwbG1b0o0YM6tGscYUx+jAEnHUGi4rP1akGtt5K04OmmGRRUc3nw=="/>
+<div class="gem-c-title govuk-!-margin-top-8 govuk-!-margin-bottom-8">
+<h1 class="gem-c-title__text">
+    Research and statistics
+  </h1>
+</div>
+<div class="gem-c-checkboxes govuk-form-group" data-module="govuk-checkboxes" id="signup-choices-options">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--m">What do you want to get emails about?</legend>
+<ul class="govuk-checkboxes gem-c-checkboxes__list" data-nested="true">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0" type="checkbox" value="content_store_document_type"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0">All documents</label>
+<ul class="govuk-checkboxes govuk-checkboxes--nested" data-parent="signup-choices-options-0" id="signup-choices-options-nested-0">
+<li class="govuk-checkboxes__item">
+<input checked="" class="govuk-checkboxes__input" id="signup-choices-options-0-0" name="filter[content_store_document_type][]" type="checkbox" value="statistics_published"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-0">Statistics (published)</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-1" name="filter[content_store_document_type][]" type="checkbox" value="research"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-1">Research</label>
+</li>
+</ul>
+</li>
+</ul>
+</fieldset>
+</div>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

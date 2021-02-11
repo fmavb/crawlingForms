@@ -1,0 +1,22 @@
+<form action="." method="post" name="reviewSortForm"><input name="csrfmiddlewaretoken" type="hidden" value="ZEB4tZSwGKpR9zx7Z8TfpS7XUvpGf7CSgB4cNv2j7EF7fIJKkly1vCPFqJvJN9ty"/>
+<fieldset class="reviewSort">
+<legend>Filter reviews</legend>
+<label for="frm_filter">Show:</label>
+<select id="frm_filter" name="review_prod_id">
+<option selected="selected" value="APV_MTM_380">All reviews (1061)</option>
+<option selected="selected" value="APV_MTM_380">Buyer reviews (1061)</option>
+<option value="APV_MTM_380C">Claims reviews (14)</option>
+</select>
+</fieldset>
+<fieldset class="reviewSort">
+<legend>Sort reviews</legend>
+<label for="frm_sort">and sort by:</label>
+<select id="frm_sort" name="review_sort">
+<option value="highrating">Highest rating</option>
+<option value="lowrating">Lowest rating</option>
+<option selected="" value="newest">Newest</option>
+<option value="oldest">Oldest</option>
+</select>
+<input class="btn" id="sortSubmit" name="sort" type="submit" value="Sort"/>
+</fieldset>
+</form>

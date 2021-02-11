@@ -1,0 +1,91 @@
+<form action="/service-search/other-services/Hospital/LocationSearch/7/ConsultantResults" method="get"> <input id="defaultConsultantName" name="defaultConsultantName" type="hidden" value="e.g. Singh or John Smith"/>
+<input id="DefaultLocationText" name="DefaultLocationText" type="hidden" value="e.g. postcode or town"/>
+<input id="DefaultSearchDistance" name="DefaultSearchDistance" type="hidden" value="25"/>
+<fieldset class="findlocationsearch specialty-search">
+<legend><span>Please search by consultant name or speciality</span></legend>
+<div class="row clear">
+<div class="consultant-form">
+<label for="Name">Consultant name</label>
+<input class="consultant-name" id="Name" name="Name" type="text" value="e.g. Singh or John Smith"/>
+</div>
+<div class="consultant-form">
+<label for="Specialty">By speciality</label>
+<select id="Specialty" name="Specialty"><option value="">Specialties</option>
+<option selected="selected" value="0">All specialities</option>
+<option value="1005">Acute Internal Medicine</option>
+<option value="230">Anaesthesia services</option>
+<option value="242">Bariatric surgery</option>
+<option value="T171">Cardiac surgery</option>
+<option value="42">Cardiology</option>
+<option value="20">Cardiothoracic surgery</option>
+<option value="1098">Cataract Surgery</option>
+<option value="56">Children's &amp; Adolescent Services</option>
+<option value="256">Colorectal cancer services</option>
+<option value="1008">Community Sexual And Reproductive Health</option>
+<option value="878">Critical care</option>
+<option value="46">Dermatology</option>
+<option value="88">Diagnostic Pathology</option>
+<option value="10">Ear, Nose &amp; Throat</option>
+<option value="1009">Endocrine and thyroid surgery</option>
+<option value="27">Endocrinology and Metabolic Medicine</option>
+<option value="T59">Foot and Ankle</option>
+<option value="26">Gastrointestinal and Liver services</option>
+<option value="25">General Medicine</option>
+<option value="1">General Surgery</option>
+<option value="36">Genetics</option>
+<option value="51">Genito-Urinary Medicine</option>
+<option value="60">Geriatric Medicine</option>
+<option value="28">Haematology</option>
+<option value="T700">Hip replacement</option>
+<option value="40">Immunology</option>
+<option value="49">Infectious Diseases</option>
+<option value="996">Interventional Radiology</option>
+<option value="T701">Knee replacement</option>
+<option value="68">Learning Disabilities</option>
+<option value="330">Lung cancer services</option>
+<option value="995">Medical Microbiology And Virology</option>
+<option value="80">Mental Health - Adults of all ages</option>
+<option value="81">Mental Health - Child and Adolescent</option>
+<option value="52">Nephrology</option>
+<option value="54">Neurology</option>
+<option value="347">Neurophysiology services</option>
+<option value="17">Neurosurgery</option>
+<option value="1007">Obstetrics And Gynaecology</option>
+<option value="353">Occupational health services</option>
+<option value="304">Oesophago-Gastric cancer surgery</option>
+<option value="1015">Oncology - Clinical</option>
+<option value="1016">Oncology - Medical</option>
+<option value="11">Ophthalmology</option>
+<option value="9">Orthopaedics</option>
+<option value="39">Palliative Medicine</option>
+<option value="18">Plastic surgery</option>
+<option value="38">Rehabilitation</option>
+<option value="47">Respiratory Medicine</option>
+<option value="55">Rheumatology</option>
+<option value="T61">Shoulder and Elbow</option>
+<option value="45">Sports and Exercise Medicine</option>
+<option value="2">Urology</option>
+<option value="8">Vascular surgery</option>
+</select>
+</div>
+<div class="consultant-form last">
+<label class="location" for="Location_Name">Location <span>(optional)</span></label>
+<input class="consultant-location ui-autocomplete-input" id="Location_Name" name="Location.Name" type="text" value="e.g. postcode or town"/><input class="autocomplete-url" type="hidden" value="/service-search/other-services/Location/PredictiveSearch"/><input class="autocomplete-id" id="Location_Id" name="Location.Id" type="hidden" value="0"/><div class="autocomplete-suggestions"></div>
+<a href="#" id="geobutton"><img alt="Locate me" src="/service-search/other-services/Content/img/geolocation.png"/></a>
+<div class="consultant-distance">
+<label for="Distance">By distance</label>
+<select id="Distance" name="Distance">
+<option value="5">Within 5 miles</option>
+<option value="10">Within 10 miles</option>
+<option value="25">Within 25 miles</option>
+<option value="50">Within 50 miles</option>
+<option disabled="disabled" selected="selected" value="400">England</option>
+</select>
+</div>
+<div class="submit-container small">
+<input class="fcsubmit" type="submit" value="Search"/>
+</div>
+</div>
+</div>
+</fieldset>
+</form>

@@ -1,0 +1,130 @@
+<form accept-charset="UTF-8" action="/employment-tribunal-decisions/email-signup?subscriber_list_params%5Btribunal_decision_categories%5D%5B%5D=statutory-discipline-and-grievance-procedures" class="signup-choices" method="post">
+<input name="authenticity_token" type="hidden" value="OzpyXT1n5D3ould6QBWQoQwnhEH1mnQsvJKRbotQPRrXsDXqJ+eRaWd3PIqh4Na4Gv4ThmxcLz5lyiBNSuD9yQ=="/>
+<div class="gem-c-title govuk-!-margin-top-8 govuk-!-margin-bottom-8">
+<h1 class="gem-c-title__text">
+    Employment tribunal decisions
+  </h1>
+</div>
+<div class="gem-c-checkboxes govuk-form-group" data-module="govuk-checkboxes" id="signup-choices-options">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--m">What do you want to get emails about?</legend>
+<ul class="govuk-checkboxes gem-c-checkboxes__list" data-nested="true">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0" type="checkbox" value="tribunal_decision_categories"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0">Jurisdiction codes</label>
+<ul class="govuk-checkboxes govuk-checkboxes--nested" data-parent="signup-choices-options-0" id="signup-choices-options-nested-0">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-0" name="filter[tribunal_decision_categories][]" type="checkbox" value="age-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-0">Age Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-1" name="filter[tribunal_decision_categories][]" type="checkbox" value="agency-workers"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-1">Agency Workers</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-2" name="filter[tribunal_decision_categories][]" type="checkbox" value="blacklisting-regulations"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-2">Blacklisting Regulations</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-3" name="filter[tribunal_decision_categories][]" type="checkbox" value="breach-of-contract"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-3">Breach of Contract</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-4" name="filter[tribunal_decision_categories][]" type="checkbox" value="central-arbitration-committee-cac"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-4">Central Arbitration Committee (CAC)</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-5" name="filter[tribunal_decision_categories][]" type="checkbox" value="certification-officer"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-5">Certification Officer</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-6" name="filter[tribunal_decision_categories][]" type="checkbox" value="contract-of-employment"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-6">Contract of Employment</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-7" name="filter[tribunal_decision_categories][]" type="checkbox" value="disability-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-7">Disability Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-8" name="filter[tribunal_decision_categories][]" type="checkbox" value="employment-agencies-act-1973"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-8">Employment Agencies Act 1973</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-9" name="filter[tribunal_decision_categories][]" type="checkbox" value="equal-pay-act"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-9">Equal Pay Act</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-10" name="filter[tribunal_decision_categories][]" type="checkbox" value="european-material"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-10">European Material</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-11" name="filter[tribunal_decision_categories][]" type="checkbox" value="fixed-term-regulations"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-11">Fixed Term Regulations</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-12" name="filter[tribunal_decision_categories][]" type="checkbox" value="flexible-working"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-12">Flexible Working</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-13" name="filter[tribunal_decision_categories][]" type="checkbox" value="harassment"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-13">Harassment</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-14" name="filter[tribunal_decision_categories][]" type="checkbox" value="health-safety"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-14">Health &amp; Safety</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-15" name="filter[tribunal_decision_categories][]" type="checkbox" value="human-rights"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-15">Human Rights</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-16" name="filter[tribunal_decision_categories][]" type="checkbox" value="improvement-notice"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-16">Improvement Notice</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-17" name="filter[tribunal_decision_categories][]" type="checkbox" value="interim-relief"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-17">Interim Relief</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-18" name="filter[tribunal_decision_categories][]" type="checkbox" value="jurisdictional-points"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-18">Jurisdictional Points</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-19" name="filter[tribunal_decision_categories][]" type="checkbox" value="maternity-and-pregnancy-rights"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-19">Maternity and Pregnancy Rights</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-20" name="filter[tribunal_decision_categories][]" type="checkbox" value="national-minimum-wage"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-20">National Minimum Wage</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-21" name="filter[tribunal_decision_categories][]" type="checkbox" value="national-security"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-21">National Security</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-22" name="filter[tribunal_decision_categories][]" type="checkbox" value="notice-appeal"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-22">Notice Appeal</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-23" name="filter[tribunal_decision_categories][]" type="checkbox" value="parental-and-maternity-leave"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-23">Parental and Maternity Leave</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-24" name="filter[tribunal_decision_categories][]" type="checkbox" value="part-time-workers"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-24">Part Time Workers</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-25" name="filter[tribunal_decision_categories][]" type="checkbox" value="pension"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-25">Pension</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-26" name="filter[tribunal_decision_categories][]" type="checkbox" value="practice-and-procedure-issues"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-26">Practice and Procedure Issues</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-27" name="filter[tribunal_decision_categories][]" type="checkbox" value="protective-award"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-27">Protective Award</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-28" name="filter[tribunal_decision_categories][]" type="checkbox" value="public-interest-disclosure"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-28">Public Interest Disclosure</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-29" name="filter[tribunal_decision_categories][]" type="checkbox" value="race-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-29">Race Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-30" name="filter[tribunal_decision_categories][]" type="checkbox" value="redundancy"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-30">Redundancy</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-31" name="filter[tribunal_decision_categories][]" type="checkbox" value="religion-or-belief-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-31">Religion or Belief Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-32" name="filter[tribunal_decision_categories][]" type="checkbox" value="renumeration"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-32">Renumeration</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-33" name="filter[tribunal_decision_categories][]" type="checkbox" value="reorganisation"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-33">Reorganisation</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-34" name="filter[tribunal_decision_categories][]" type="checkbox" value="reserved-forces-act"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-34">Reserved Forces Act</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-35" name="filter[tribunal_decision_categories][]" type="checkbox" value="right-to-be-accompanied"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-35">Right To Be Accompanied</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-36" name="filter[tribunal_decision_categories][]" type="checkbox" value="rights-on-insolvency"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-36">Rights on Insolvency</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-37" name="filter[tribunal_decision_categories][]" type="checkbox" value="sex-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-37">Sex Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-38" name="filter[tribunal_decision_categories][]" type="checkbox" value="sexual-orientation-discrimination-transexualism"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-38">Sexual Orientation Discrimination/Transexualism</label>
+</li> <li class="govuk-checkboxes__item">
+<input checked="" class="govuk-checkboxes__input" id="signup-choices-options-0-39" name="filter[tribunal_decision_categories][]" type="checkbox" value="statutory-discipline-and-grievance-procedures"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-39">Statutory Discipline and Grievance Procedures</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-40" name="filter[tribunal_decision_categories][]" type="checkbox" value="tax"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-40">Tax</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-41" name="filter[tribunal_decision_categories][]" type="checkbox" value="temporary-employment"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-41">Temporary Employment</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-42" name="filter[tribunal_decision_categories][]" type="checkbox" value="time-limits"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-42">Time Limits</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-43" name="filter[tribunal_decision_categories][]" type="checkbox" value="time-off"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-43">Time Off</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-44" name="filter[tribunal_decision_categories][]" type="checkbox" value="time-to-train"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-44">Time to Train</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-45" name="filter[tribunal_decision_categories][]" type="checkbox" value="trade-union-membership"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-45">Trade Union Membership</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-46" name="filter[tribunal_decision_categories][]" type="checkbox" value="trade-union-rights"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-46">Trade Union Rights</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-47" name="filter[tribunal_decision_categories][]" type="checkbox" value="transfer-of-undertakings"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-47">Transfer of Undertakings</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-48" name="filter[tribunal_decision_categories][]" type="checkbox" value="unfair-dismissal"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-48">Unfair Dismissal</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-49" name="filter[tribunal_decision_categories][]" type="checkbox" value="unlawful-deduction-from-wages"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-49">Unlawful Deduction from Wages</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-50" name="filter[tribunal_decision_categories][]" type="checkbox" value="victimisation-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-50">Victimisation Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-51" name="filter[tribunal_decision_categories][]" type="checkbox" value="working-time-regulations"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-51">Working Time Regulations</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-52" name="filter[tribunal_decision_categories][]" type="checkbox" value="written-pay-statement"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-52">Written Pay Statement</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-53" name="filter[tribunal_decision_categories][]" type="checkbox" value="written-statements"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-53">Written Statements</label>
+</li>
+</ul>
+</li>
+</ul>
+</fieldset>
+</div>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

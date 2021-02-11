@@ -1,0 +1,54 @@
+<form action="/services/hospital/salford-royal/X2132/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Poor ME/CFS service&lt;/Title&gt;
+    &lt;ScreenName&gt;N.A.&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Took nearly 5 months from referral to first appointment. Arrived and then my appointment was delayed for around 45 mins with no explanation or apology. Not good sat in a waiting room whilst unwell. Dr dismissed some of my main symptoms that I have had since I first became ill - thirst, bladder pain and frequency - as not being relevant. He ignored any of my symptoms and statements about my experience that didn't fit inside his tickboxes for ME. Dr told me that my muscle and joint pain must be due to deconditioning and that I must not move around enough. Bearing mind, I go to work 5 days a week, walk at least 40 mins per day and I am often on my feet, do housework, not just sat around. I also do yoga for at least 30 mins a day and sometimes go to the gym to do light weights. He told me to do gentle stretching to resolve the pain, but I already do that anyway. Prior to developing ME I used to go to the gym 4 times a week and was training for a powerlifting competition, and then in the space of a month I suddenly became very weak and lost all strength, and at the same time developed extreme pain. Dr could provide no explanation to back up his statement that I am deconditioned or to explain how someone in great fitness could suddenly become deconditioned within the space of a few weeks, but apparently deconditioning is the cause of my illness and I just need graded exercise therapy to treat me. I find this ridiculous as I'm probably in better fitness than a lot of people who don't even have ME. Dr did some blood tests as I have family history of autoimmune disease, and told me to get in touch if I didn't receive the results in a week. I have emailed twice and rang the secretary twice, who both times has told me the Dr is in the middle of reviewing my bloods. It has been 10 weeks since I had the tests now, and I've heard nothing. I've been given some very patronising materials that tell me that my lifestyle caused my ME, yet I just lived a normal healthy lifestyle, worked, exercised a few times a week, spent time with my friends and family, didn't smoke or drink, yet according to their literature I have done something wrong to cause my ME. I've been referred for CBT to help me cope with my symptoms but it's a 9 month waiting list which isn't ideal when I've had ME for nearly 3 years now. Dr didn't make any record about my daily functioning - ie struggling to wash my hair, do housework, prepare food alongside my job. He just wasn't interested. Overall it was a very patronising and condescending experience that I wouldn't wish on anyone.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-04-22T19:26:01.55Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;2&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Salford Royal&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;32cf9d56-45d5-e911-a812-000d3a7ed518&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X2132&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamF-bDC5xXMvONpQG92H8YmuaU5f478D2RL30DAwVFuFV_IjPIFnmduCWT7iFhceu-t9hQwxmDJhcuIrhPGb_zYopsDg1Wjqj4CI1lsQfqFcblABbfbCWrB2QZxaKHtL_i4"/></form>

@@ -1,0 +1,1093 @@
+<form action="/drugs/ingredientreviewpost-883-RHODIOLA.aspx?post=new&amp;drugid=883&amp;t=2&amp;drugname=RHODIOLA" id="submitRatings" method="post" name="submitRatings">
+<div class="subRating" id="content">
+<h2>Rate this treatment and share your opinion!</h2>
+<div class="ratelink"><a href="https://www.webmd.com/drug-reviews-faq" target="_blank" title="Treatment Review product">Learn about User Reviews</a></div>
+<h3 class="tips">Helpful tips to write a good review:</h3>
+<ol class="ratetips">
+<li>
+						Only share <em>your</em> first hand experience as a consumer or a care giver.
+					</li>
+<li>
+						Describe your experience in the Comments area including the benefits, side effects and how it has worked for you.  Do <em>not</em> provide personal information like email addresses or telephone numbers.
+					</li>
+<li>
+						Fill in the <em>optional information</em> to help other users benefit from your review.
+					</li>
+</ol>
+<h3 class="s1">Reason for Taking This Treatment</h3>
+<div id="condition-ec"><select class="condition" id="conditionDropDown" name="condition"><option value="-1">Select a reason</option>
+<option value="2040">Age-related fatigue</option>
+<option value="980">Altitude sickness</option>
+<option value="2348">Anthracycline cardiotoxicity</option>
+<option value="1001">Anxiety</option>
+<option value="1013">Athletic performance</option>
+<option value="1143">Depression</option>
+<option value="1181">Exercise performance</option>
+<option value="1191">Fatigue</option>
+<option value="1214">Generalized anxiety disorder (GAD)</option>
+<option value="1266">Hot flashes</option>
+<option value="1378">Menopausal symptoms</option>
+<option value="1513">Premature ejaculation</option>
+<option value="1593">Stress</option>
+<option value="0">Other</option>
+<option value="9999999">General Health &amp; Wellness</option></select><span class="required">(required)</span></div>
+<h3 class="s2">Click the Stars to Rate This Treatment</h3>
+<div class="rateCriteria clearfix" id="rc1-ec">
+<h4 class="ttLink subForm">
+            Effectiveness <span class="required">(required)</span><span class="txtRate" id="txtRate1"></span></h4>
+<div class="catQuest">This treatment has worked for me.</div>
+<div class="inlineRating">
+<ul class="starRating" id="rq1">
+<li class="current-rating" id="catCurr1" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div>
+<div class="rateCriteria clearfix bBorder" id="rc2-ec">
+<h4 class="ttLink subForm">
+            Ease of Use <span class="required">(required)</span><span class="txtRate" id="txtRate2"></span></h4>
+<div class="catQuest">This treatment has been easy for me to use.</div>
+<div class="inlineRating">
+<ul class="starRating">
+<li class="current-rating" id="catCurr2" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div>
+<div class="rateCriteria clearfix" id="rc3-ec">
+<h4 class="ttLink subForm">
+            Satisfaction <span class="required">(required)</span><span class="txtRate" id="txtRate3"></span></h4>
+<div class="catQuest">Overall, I have been satisfied with my experience.</div>
+<div class="inlineRating">
+<ul class="starRating">
+<li class="current-rating" id="catCurr3" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div><script type="text/javascript">initRate();</script><h3 class="s3">Write a Brief Description of Your Experience with this Treatment:</h3><textarea class="comment" cols="5" id="userComment" maxlength="2000" name="userComment" onblur="checkMaxLength(this);" onfocus="checkMaxLength(this);" onkeyup="checkMaxLength(this);" rows="5"></textarea><div class="counter"><span id="currentCharCount">2000</span> characters remaining
+				</div>
+<h3 class="s4">Optional Information</h3>
+<dl id="optInfo">
+<dt>Help others benefit from your review by filling in the information below.</dt>
+<dd class="radio"><span class="label">I am a:</span><input id="patient" name="userType" type="Radio" value="patient"/><label for="patient">Consumer</label><input id="caregiver" name="userType" type="Radio" value="caregiver"/><label for="cargiver">Caregiver</label></dd>
+<dd class="radio"><span class="label">Gender:</span><input id="gMale" name="gender" type="Radio" value="male"/><label for="gMale">Male</label><input id="gFemale" name="gender" type="Radio" value="female"/><label for="gFemale">Female</label></dd>
+<dd><label for="ageRange">Age Range:</label><select id="ageRange" name="ageRange"><option value="0">Choose One</option>
+<option value="1">0-2</option>
+<option value="2">3-6</option>
+<option value="3">7-12</option>
+<option value="4">13-18</option>
+<option value="5">19-24</option>
+<option value="6">25-34</option>
+<option value="7">35-44</option>
+<option value="8">45-54</option>
+<option value="9">55-64</option>
+<option value="10">65-74</option>
+<option value="11">75 or over</option></select></dd>
+<dd><label for="brand">Brand product used:</label><select id="brandProdUsed" name="brandProdUsed" onchange="
+								wmdTrack('dr-brandprodused_1');
+							"><option value="-1">Choose One</option>
+<option value="94923">180 Drink Mix by Onnit Labs</option>
+<option value="91700">3 Test OXO by Complete Nutrition Holdings Inc</option>
+<option value="97873">3-Test-OXO by Complete Nutrition Holdings Inc</option>
+<option value="99718">4 Gauge by Roar Ambition Ltd.</option>
+<option value="98560">5-HTP Plus by Well Roots</option>
+<option value="90302">7 KETO LeanGels 100 mg softgel by NOW Foods Canada</option>
+<option value="14953">99 Thermocore [Discontinued] by Vyotech Nutriti...
+				</option>
+<option value="11176">A Perfect You Booster Drink (cherry flavor) [Di...
+				</option>
+<option value="94709">A-Drenal by RLC Labs</option>
+<option value="9432">A-Supreme (Berry flavor, Cherry Raspberry flavo...
+				</option>
+<option value="66393">A.M. Activator by ProCaps Laboratories</option>
+<option value="93468">Ab Cuts Sleek &amp; Lean Core Cardio Blast by Revol...
+				</option>
+<option value="22104">Accelerator3 [Discontinued] by Mannatech Incorp...
+				</option>
+<option value="18207">ACCUSlim Chromium Complex by ACCUSlim</option>
+<option value="19034">Action Labs Ginseng PowerMax 6X Capsule by Nutr...
+				</option>
+<option value="19044">Action Labs Rhodiola PowerMax 1000 by Nutraceut...
+				</option>
+<option value="15571">Action Labs Turbo Energy by Nutraceutical Corp.</option>
+<option value="96521">Activate Xtreme by Driven Sports (DS) </option>
+<option value="37031">Active Formula by Blue Spring Wellness</option>
+<option value="27975">Adapt 232 Tablets by Swedish Herbal Institute</option>
+<option value="51794">Adapt by Vaxa International</option>
+<option value="90537">Adaptacin  by Sanesco International</option>
+<option value="11554">AdaptaMax by Nature's Sunshine US</option>
+<option value="11352">AdaptaPhase II by Vitamin Research Products</option>
+<option value="38169">Adapten All by Ortho Molecular Products</option>
+<option value="79119">Adaptix by Smart City</option>
+<option value="93641">AdaptoStress3 Energy Restore by ResVitale</option>
+<option value="87418">Adr Life Force by Aperture Energetics Inc.</option>
+<option value="92980">Adr Px Balance Capsule by WTSmed Inc</option>
+<option value="77958">AdreCor by NeuroScience, Inc.</option>
+<option value="77957">AdreCor Jr. by NeuroScience, Inc.</option>
+<option value="52007">Adren All by Ortho Molecular Products</option>
+<option value="66858">Adren L Aid II by Mountain Meadow Herbs, Inc.</option>
+<option value="28345">Adrenal B Complex Formula by Mountain Peak Nutr...
+				</option>
+<option value="39240">Adrenal Cortisol Support by Protocol for Life B...
+				</option>
+<option value="33150">Adrenal Enhance by Neurobiologix</option>
+<option value="12130">Adrenal Essence [Discontinued; Reformulated 201...
+				</option>
+<option value="96617">Adrenal Essence by Xymogen</option>
+<option value="98877">Adrenal Essence by Xymogen</option>
+<option value="35625">Adrenal Health by Gaia Herbs</option>
+<option value="97636">Adrenal Manager by Xymogen</option>
+<option value="21840">Adrenal Optimizer by Jarrow Formulas</option>
+<option value="93569">Adrenal Reset by CTD Labs</option>
+<option value="98162">Adrenal Restore by 1st Phorm International LLC</option>
+<option value="77897">Adrenal Support by Roex</option>
+<option value="79137">Adrenal Support by Smart City</option>
+<option value="37765">Adrenamin by ProThera, Inc.</option>
+<option value="30995">AdrenaSense by Lorna Vanderhaeghe</option>
+<option value="41508">AdrenaSense by Natural Factors Nutritional Prod...
+				</option>
+<option value="30996">AdrenaTea Cranberry Bliss by Lorna Vanderhaeghe</option>
+<option value="38171">Adrene Vive by Ortho Molecular Products</option>
+<option value="54000">Adreno Distress Guard by Perque</option>
+<option value="64702">Adrenotone Plus by Designs for Health, Inc.</option>
+<option value="11736">Adreset by Metagenics</option>
+<option value="87686">Adreset by Nutri Ltd</option>
+<option value="83122">Adrien Gagnon Ultra Energex Ampoules by Sante N...
+				</option>
+<option value="92622">Advanced 1000 by Michael Bown </option>
+<option value="7631">Ageless [Discontinued] by Univera</option>
+<option value="37940">Ageoff by Nuvocare Health Sciences Inc.</option>
+<option value="16972">AM/PM PeriMenopause Formula by Enzymatic Therapy</option>
+<option value="59043">AM/PM Perimenopause Formula by Integrative Ther...
+				</option>
+<option value="9249">AM/PM PeriMenopause Formula by PhytoPharmica</option>
+<option value="57093">Amoryn by BioNeurix Corporation</option>
+<option value="95870">Amplified Test(TM) by Roman Pharmaceuticals</option>
+<option value="28362">Amplitude by Neogenix</option>
+<option value="91628">Anabolic Freak [Discontinued] by Pharmafreak Te...
+				</option>
+<option value="97643">Anabolic Freak by Pharmafreak Technologies</option>
+<option value="17809">Anagen by Scivation</option>
+<option value="96419">Anarchy (Watermelon flavor) by Iovate Health Sc...
+				</option>
+<option value="54544">Animal Cuts by Universal Nutrition</option>
+<option value="54550">Animal M Stak [Discontinued, Reformulated] by U...
+				</option>
+<option value="95409">Animal M Stak by Universal Nutrition</option>
+<option value="92028">Animal Rage by Universal Nutrition</option>
+<option value="96503">Animal Ripped &amp; Peeled Cuts by Universal Nutrition</option>
+<option value="94953">Animal Training Packs M-Stak by Universal Nutri...
+				</option>
+<option value="23291">Antioxidant Herb Tea by Health King Enterprise ...
+				</option>
+<option value="77">Arctic Root by Swedish Herbal Institute</option>
+<option value="77188">ArimaDex by G.E.T. - Genetic Edge Technologies,...
+				</option>
+<option value="36433">Armageddon (Various Flavors) by StarChem Labs</option>
+<option value="94920">Arsenal X  by NDS Nutrition</option>
+<option value="4989">Asotas Plus for HIM by Unknown</option>
+<option value="10491">Aspitive by Progressive Health Nutraceuticals</option>
+<option value="89327">Assault (assorted flavors)  [Discontinued, Refo...
+				</option>
+<option value="90009">Assault by Complete Nutrition Holdings Inc</option>
+<option value="95013">Athletic Greens by Athletic Greens (USA), Inc.</option>
+<option value="89339">Atomic NRG by Party Pills Canada</option>
+<option value="97883">Axion by Xyngular Corp.</option>
+<option value="89337">Battle Fuel [Discontinued] by MusclePharm LLC</option>
+<option value="7755">Bee-Happy Plus by Bee-Alive Inc.</option>
+<option value="97197">Beyond Raw Ravage (Fruit Punch flavor) by GNC</option>
+<option value="97198">Beyond Raw Ravage (Grape flavor) by GNC</option>
+<option value="92128">Big Cherry Flavour Liquid by ExtenZe</option>
+<option value="98057">Big Noise by Redcon1</option>
+<option value="16745">Bio Lumin Essense Slender Essense by Youngevity</option>
+<option value="52111">Bio Organics Vitamin B Complex with Rhodiola by...
+				</option>
+<option value="54026">BioAdaptogen Ultra by BioGenesis Nutraceuticals</option>
+<option value="31745">BioDrive by Biotics Research Corporation</option>
+<option value="31750">BioPause AM by Biotics Research Corporation</option>
+<option value="18265">BioSource Liquid Energy by BioTreasures Inc.</option>
+<option value="27913">Bliss Anti-Stress Formula by Market America, Inc.</option>
+<option value="35895">Bluebonnet Herbals Rhodiola Rosea by Bluebonnet...
+				</option>
+<option value="66914">Blues Buster [Discontinued; Reformulated] by Mo...
+				</option>
+<option value="89346">Blues Buster by Mountain Meadow Herbs, Inc.</option>
+<option value="66852">Blues Buster II by Mountain Meadow Herbs, Inc.</option>
+<option value="19248">Body Balancing Formula by Fit by Friday</option>
+<option value="80599">Bodytonic by Nutragenius, Inc.</option>
+<option value="35487">Boost by Good Elements</option>
+<option value="58377">Botanic Choice Brain Balance Plus by Indiana Bo...
+				</option>
+<option value="14084">brain Speed Perform by Natrol, Inc.</option>
+<option value="94224">Buzz (assorted flavors) by EHPlabs LLC</option>
+<option value="86595">Calm by Vitazan Herbs &amp; Vitamins</option>
+<option value="94071">Calm Kids by EuroPharma, Inc.</option>
+<option value="77972">Calm PRT by NeuroScience, Inc.</option>
+<option value="77969">CalmPRT Jr. Powder by NeuroScience, Inc.</option>
+<option value="99792">Candida Balance by Crystal Star</option>
+<option value="79132">Cardio Booster by Smart City</option>
+<option value="8478">Cardio Stack by Maruda Nutrition</option>
+<option value="6555">CardioAntioxidant by Advocare International</option>
+<option value="74183">CardioCalm by Health Freedom Nutrition</option>
+<option value="6553">CardiOptima by Advocare International</option>
+<option value="26183">Catechol by North American Pharmacal, Inc.</option>
+<option value="97825">Cavalier Daily Cognitive &amp; Stress Support by Nu...
+				</option>
+<option value="11637">Cellu-Smooth with Coleus by Nature's Sunshine US</option>
+<option value="66259">Cenovis Chill Pill Tablets by Sanofi-Aventis Au...
+				</option>
+<option value="37285">Cerebro by Syntrax Innovations</option>
+<option value="96420">CereVen by Premier Research Labs</option>
+<option value="93396">ChaindOut by ALR Industries Inc.</option>
+<option value="94851">Chainsaw by Vigor Labs, Inc.</option>
+<option value="35492">Chill by Good Elements</option>
+<option value="89257">China White by Cloma Pharma Laboratories</option>
+<option value="28757">Cho-Wa Tea by Kumato Labs</option>
+<option value="9371">Choice Prime by 4Life</option>
+<option value="39537">Citri Slim by Kordial Nutrients</option>
+<option value="98766">Citrine by Complete Nutrition Holdings Inc</option>
+<option value="72368">Clarocet CS by Medicor Labs Corporation USA</option>
+<option value="72366">Clarocet ERT by Medicor Labs Corporation USA</option>
+<option value="72367">Clarocet NRI by Medicor Labs Corporation USA</option>
+<option value="92161">Cleanse For Life Natural Rich Berry (liquid) [D...
+				</option>
+<option value="92160">Cleanse For Life Rich Berry (powder) [Discontin...
+				</option>
+<option value="54403">Clear Energy [Discontinued] by Garden of Life LLC</option>
+<option value="97496">Cofianza by It Works</option>
+<option value="89073">Confianza [Discontinued; Refromulated] by It Works</option>
+<option value="92548">Cordygen VO2 Ultra by Millennium Sport Technolo...
+				</option>
+<option value="12703">Corti Cut by Olympian Labs</option>
+<option value="12702">Corti Cut PM by Olympian Labs</option>
+<option value="9268">Cortiblock Plus by Heaven Sent Naturals</option>
+<option value="73392">Cortisol Calm by Pure Encapsulations, Inc.</option>
+<option value="15137">CortiTrophin by Vitamin Research Products</option>
+<option value="29231">crave free by Genuine Health</option>
+<option value="64747">CraveArrest by Designs for Health, Inc.</option>
+<option value="89629">Creatine HCL Endurance Cyclist by MMUSA</option>
+<option value="89625">Creatine HCL Endurance Runner by MMUSA</option>
+<option value="93311">CTS360 Motivate by Complete Nutrition Holdings Inc</option>
+<option value="93625">Cycle 7 [Discontinued, Reformulated] by Image S...
+				</option>
+<option value="94986">Cycle 7 by Image Sports</option>
+<option value="38026">Cylapril Anti Stress &amp; Energy Revitalizer by Ad...
+				</option>
+<option value="58027">Daily Balance Energy Vitalizer by Doctor's Pref...
+				</option>
+<option value="73367">Daily Stress Formula by Pure Encapsulations, Inc.</option>
+<option value="98137">De-Cycle by Complete Nutrition Holdings Inc</option>
+<option value="94788">Deepak Chopra Endorphinate CF by Pondera Pharma...
+				</option>
+<option value="33403">Deproloft [Discontinued] by Thorne Research, Inc.</option>
+<option value="90244">Deproloft HF by Thorne Research, Inc.</option>
+<option value="37191">Detour Biker Bar (assorted flavors) by Forward ...
+				</option>
+<option value="23322">Detoxer Herb Tea by Health King Enterprise and ...
+				</option>
+<option value="99640">DNA Force by InfoWars Life</option>
+<option value="51701">Doctor's A-Z Men's Sexual Health by Great Ameri...
+				</option>
+<option value="94647">DopaPlus by Pure Encapsulations, Inc.</option>
+<option value="89358">Dr Feel Good by SAN Nutrition</option>
+<option value="66560">Dr. David Williams Daily Advantage by Advanced ...
+				</option>
+<option value="10153">Dr. Earl Mindell's Russian Gold by FreeLife Int...
+				</option>
+<option value="90144">Dr. Susan Lark Energy Vitalizer by Healthy Dire...
+				</option>
+<option value="65126">Dual Action Rhodiola by Paradise Herbs</option>
+<option value="96410">DYNO (Fruit Punch) by RSP Nutrition</option>
+<option value="89553">E&amp;E Energy and Endurance by Beachbody, LLC</option>
+<option value="19483">EAS VO2 Peak [Discontinued] by Abbott Laboratories</option>
+<option value="18041">Edison Factor Adults by Enzymatic Therapy</option>
+<option value="18040">Edison Factor Kids &amp; Teens by Enzymatic Therapy</option>
+<option value="73485">Emotional Wellness by Pure Encapsulations, Inc.</option>
+<option value="17823">Endotest Pro by SAN Nutrition</option>
+<option value="89628">Endurus II by MMUSA</option>
+<option value="10497">Enedyn by Progressive Health Nutraceuticals</option>
+<option value="26740">Ener G by Bronson Laboratories</option>
+<option value="66874">Ener G by Mountain Meadow Herbs, Inc.</option>
+<option value="26603">EnerG-Ease by Wicked Fast Sports Nutrition</option>
+<option value="89655">Energia by MMUSA</option>
+<option value="16532">Energize by iSatori Technologies, LLC</option>
+<option value="94452">Energy &amp; Endurance by Beachbody, LLC</option>
+<option value="92829">Energy &amp; Endurance Powder (Canada)  by Beachbod...
+				</option>
+<option value="67967">Energy &amp; Fat Metabolism Factors by ProCaps Labo...
+				</option>
+<option value="89055">Energy (Grape flavor)  by Genesis Pure</option>
+<option value="89054">Energy (Tropical Blast flavor) by Genesis Pure</option>
+<option value="27323">Energy Boost by Naka Herbs &amp; Vitamins Ltd</option>
+<option value="4104">Energy by NOW Foods</option>
+<option value="48045">Energy by Vitabase</option>
+<option value="97820">Energy Fizz Sticks (Citrus flavor) by Arbonne I...
+				</option>
+<option value="97821">Energy Fizz Sticks (Pomegranate flavor) by Arbo...
+				</option>
+<option value="37276">Energy Formula by Mountain Peak Nutritionals</option>
+<option value="8319">Energy Formula by Pharmanex</option>
+<option value="73486">Energy Xtra by Pure Encapsulations, Inc.</option>
+<option value="88870">Enpulse [Discontinued; Reformulated] by Rivalus...
+				</option>
+<option value="98867">EPIQ Quad Test by Iovate Health Sciences Resear...
+				</option>
+<option value="98315">EPIQ Stryke (Icy Blue Raspberry flavor) by Iova...
+				</option>
+<option value="91917">ErgoTest Rx by Vitasport</option>
+<option value="6456">Estrolean Fat Burner Supreme by Bodyonics, Ltd.</option>
+<option value="18199">EstroThin by Nutriceutical Technologies</option>
+<option value="89892">Ethical Nutrients Super B Daily Stress by Healt...
+				</option>
+<option value="26726">Euphoric Chocolate Diet Pills by Applied Nutrit...
+				</option>
+<option value="77985">ExcitaPlus by NeuroScience, Inc.</option>
+<option value="89061">Exsula Iridesca Powder by Life Enthusiast Co-op...
+				</option>
+<option value="19076">Extreme Power Cycle by Body Conditioning Soluti...
+				</option>
+<option value="10464">Exulin by Progressive Health Nutraceuticals</option>
+<option value="11259">Fat Busters Shake by Nature's Plus</option>
+<option value="15009">Fat Wars Ultimate Anti-Stress by Transforming H...
+				</option>
+<option value="40499">Feel Good Chocolate Diet by Irwin Naturals</option>
+<option value="86170">Femance Smooth Transition Capsules by St. Franc...
+				</option>
+<option value="54194">Feminine Balance by Viamax</option>
+<option value="17810">Fenotest [Discontinued] by Scivation</option>
+<option value="93219">FHQ1 by Wely Health Inc</option>
+<option value="14801">Figure 8 On the Go! Weight Loss Chews (assorted...
+				</option>
+<option value="36369">Firm Dose by Firm Dose Inc.</option>
+<option value="86003">Fit Chews (Chocolate flavor) by Arbonne Interna...
+				</option>
+<option value="92350">Floratrim by Flora Manufacturing &amp; Distributing...
+				</option>
+<option value="92867">Focus Fast by Enyotics Health Sciences Inc</option>
+<option value="21083">Focused Energy Phytosolution by Aboca USA, Inc</option>
+<option value="22832">Food for Men Multivitamin by Rainbow Light Nutr...
+				</option>
+<option value="75861">Foodstate Nutrients Series Super B by Biomed In...
+				</option>
+<option value="91019">Forgiven Alcohol Metabolizer Pills by Forgiven ...
+				</option>
+<option value="92081">Formula 3 Cell Activator by Herbalife Internati...
+				</option>
+<option value="29792">ForPlay for Men by Nu-Life North America</option>
+<option value="29791">ForPlay for Women by Nu-Life North America</option>
+<option value="93679">Free Reign by Science Defined Nutrition</option>
+<option value="28680">Full Spectrum Rhodiola Rosea Extract by Planeta...
+				</option>
+<option value="90711">GenetixHD Pro Sculpt (Fruit Punch flavor) by GNC</option>
+<option value="99108">Ghost Legend Pre-Workout (Fruit Punch flavor) b...
+				</option>
+<option value="29807">Ginseng Adreno-Build 4050 by Rainbow Light Nutr...
+				</option>
+<option value="99057">Ginseng and Rhodiola by Health Concerns</option>
+<option value="15241">Ginseng Plus by Vitamin Research Products</option>
+<option value="40498">Ginza Plus Endurance &amp; Energy by Irwin Naturals</option>
+<option value="96694">Glee by Wellgenix</option>
+<option value="97414">GNC Herbal Plus Rhodiola Extract 340 mg by GNC</option>
+<option value="92233">Go by ViSalus Sciences</option>
+<option value="88966">Go Yin by Genesis Pure</option>
+<option value="70785">Golden Glow Memory &amp; Vitality Formula with Rhod...
+				</option>
+<option value="37119">Good Days Positive Mood Formula by Good Living ...
+				</option>
+<option value="89057">GPS Hydration Powder by Genesis Pure</option>
+<option value="89060">GPS Moomiyo Edge by Genesis Pure</option>
+<option value="36370">Granite Rooster by Unknown</option>
+<option value="65385">Greenridge MultiVital Energy Tablets by Integri...
+				</option>
+<option value="37987">greens+ extra energy by Genuine Health</option>
+<option value="89630">Gridiron Pre Game by MMUSA</option>
+<option value="10873">Gui Pi Tang Plus by Secara</option>
+<option value="94981">Halotropin [Discontinued; Reformulated, 2015] b...
+				</option>
+<option value="96372">Halotropin [Discontinued; Refromulated, 2015] b...
+				</option>
+<option value="97071">Halotropin by ProSupps USA, LLC</option>
+<option value="31015">HappyTea Orange Splash by Lorna Vanderhaeghe</option>
+<option value="53744">Hardcore Energize Bullet (blue rage flavor or b...
+				</option>
+<option value="94308">Hardcore Test by Myogenix Corp</option>
+<option value="98466">HCG Remedy Liquid by Essential Source, Inc.</option>
+<option value="98467">HCG Remedy Tablets by Essential Source, Inc.</option>
+<option value="89439">HCG Zero Liquid by Creative Bioscience</option>
+<option value="94856">HD by Cellucor</option>
+<option value="21054">HDP9 by HDP9 Inc.</option>
+<option value="17592">Healthy Aging by Pure Country Naturals</option>
+<option value="14374">Heart Tonic (Mt. Shasta Botanicals Formula) by ...
+				</option>
+<option value="81344">Heat Accelerated Capsules [Discontinued, Reform...
+				</option>
+<option value="32626">HemoTest by Nutrabolics Inc</option>
+<option value="57562">Hepato C by Pacific BioLogic</option>
+<option value="71787">Herbal Actives Rhodiola 1000 mg Extended Releas...
+				</option>
+<option value="34034">Herbal Actives Rhodiola 250 mg by Nature's Plus</option>
+<option value="89681">Herbal Plus Energy Formula by GNC</option>
+<option value="27878">Herbal Plus Standardized Energy Formula  by GNC</option>
+<option value="27871">Herbal Plus Standardized Rhodiola by GNC</option>
+<option value="37113">Hi Ener G Green Tea by Windmill Health Products</option>
+<option value="820">Hi Energy Multi for Men by Futurebiotics LLC</option>
+<option value="97802">High T Black by King Fisher Media</option>
+<option value="97803">High T Black Caffeine Free by King Fisher Media</option>
+<option value="88683">High T Capsules by High T</option>
+<option value="17143">Hot Plants For Her by Enzymatic Therapy</option>
+<option value="10124">Hot Plants For Her by PhytoPharmica</option>
+<option value="17149">Hot Plants For Him by Enzymatic Therapy</option>
+<option value="10125">Hot Plants For Him by PhytoPharmica</option>
+<option value="87292">Hunter Activator by North American Pharmacal, Inc.</option>
+<option value="7645">HydroTest by Nutrabolics Inc</option>
+<option value="22130">Hydroxycut 24 [Discontinued] by Iovate Health S...
+				</option>
+<option value="7701">Hydroxycut Caffeine-Free [Discontinued] by Iova...
+				</option>
+<option value="43101">Hydroxycut Liquid Shots by Iovate Health Scienc...
+				</option>
+<option value="43105">Hydroxycut Natural by Iovate Health Sciences Re...
+				</option>
+<option value="22131">Hydroxycut Regular Rapid Release Caplets by Iov...
+				</option>
+<option value="94354">Hyper Shock Rage by Myogenix Corp</option>
+<option value="90233">Hyperdrive 3.0+ by ALR Industries Inc.</option>
+<option value="93458">HyperTest by Axis Labs, Inc.</option>
+<option value="91646">IGF 2 [Discontinued; Reformulated 2014] by Appl...
+				</option>
+<option value="95988">IGF-2 [Discontinued; Reformulated] by Applied N...
+				</option>
+<option value="96845">IGF-2 by Applied Nutriceuticals</option>
+<option value="65081">Imperial Adaptogen by Paradise Herbs</option>
+<option value="62816">Innergy by Natural Balance Inc</option>
+<option value="98643">Intensify Black by NDS Nutrition</option>
+<option value="97121">Invincible by A.S. Research, LLC</option>
+<option value="92158">Ionix Supreme (Liquid) by Isagenix International</option>
+<option value="85286">Ionix Supreme (Powder) by Isagenix Canada ULC</option>
+<option value="17108">Ionix Supreme Powder [Discontinued; Reformulate...
+				</option>
+<option value="92159">Ionix Supreme Powder by Isagenix International</option>
+<option value="79163">Irvingia Plus by Smart City</option>
+<option value="18137">ITI Man by Integrative Therapeutics </option>
+<option value="18148">ITI Woman by Integrative Therapeutics </option>
+<option value="94606">J. R.  by Jack Rabbit, Inc</option>
+<option value="96018">Jack3d Advanced Formula (Fruit Punch flavor) by...
+				</option>
+<option value="36478">Jetfuel by GAT (German American Technologies)</option>
+<option value="93384">JetFuel Pyro by GAT (German American Technologies)</option>
+<option value="94544">JP8x by Get Diesel Nutrition</option>
+<option value="89192">JP8x Hardcore [Discontinued, Reformulated] by G...
+				</option>
+<option value="93912">JP8x Hardcore [Discontinued, Reformulated] by G...
+				</option>
+<option value="23642">KAL Adrenal Vitality by Nutraceutical Corp.</option>
+<option value="36317">Kemistry Stone Dragon by Bodyonics, Ltd.</option>
+<option value="11134">KETOtropic Tablets by Nature's Plus</option>
+<option value="95765">Kill It by Rich Piana 5% Nutrition</option>
+<option value="57430">Kong Red Horn by KMS</option>
+<option value="62819">Lady Pep Energy by Natural Balance Inc</option>
+<option value="91308">Lean Tabs by Fizogen Precision Technologies Inc.</option>
+<option value="8820">LeanFire by InStone Nutrition</option>
+<option value="82714">Lee Swanson Signature Line 100% Natural Emotion...
+				</option>
+<option value="99378">Lee Swanson Signature Line Emotional Wellness P...
+				</option>
+<option value="82732">Lee Swanson Signature Line Ultimate Stress Pill...
+				</option>
+<option value="21682">Leptopril Formula 9 by Generix Laboratories LLC</option>
+<option value="23061">Libido by DaVinci Laboratories</option>
+<option value="50513">Libido by FoodScience of Vermont</option>
+<option value="15403">Libido-Rev by Doctor's Trust Vitamins (merged w...
+				</option>
+<option value="14924">Limu Plus by Vitamark International</option>
+<option value="94822">Liporidex Max by Nuretix Research LLC</option>
+<option value="91780">LipoRush [Discontinued; Reformulated] by NDS Nu...
+				</option>
+<option value="97247">LipoRush by NDS Nutrition</option>
+<option value="97473">Liporush DS by NDS Nutrition</option>
+<option value="97981">LipoRush DS2 by NDS Nutrition</option>
+<option value="7522">Lipovarin by Sterling-Grant Laboratories</option>
+<option value="7846">Living B Complex [Discontinued] by Garden of Li...
+				</option>
+<option value="7843">Living Multi Optimal Men's Formula  by Garden o...
+				</option>
+<option value="7844">Living Multi Optimal Women's Formula  by Garden...
+				</option>
+<option value="89235">Lumiday  by Lumiday</option>
+<option value="16961">Lung Support [Discontinued] by Traditional Tibe...
+				</option>
+<option value="31143">Mainely Slim by Kare ~N~ Herbs</option>
+<option value="54421">Male Drive MAX by Century Systems Inc.</option>
+<option value="14375">Male Energy Tonic Enhanced Formula by Mt. Shast...
+				</option>
+<option value="99794">Male Performance by Crystal Star</option>
+<option value="72039">Malibu Miracle Mainentance by Nature's Plus</option>
+<option value="12597">Man Rx by Athletic Technologies Inc.</option>
+<option value="94994">Mancore Muscle Preserve by Complete Nutrition H...
+				</option>
+<option value="23308">Manhood Herb Tea by Health King Enterprise and ...
+				</option>
+<option value="79959">Maqui Superfruit Energy by Novelle Internationa...
+				</option>
+<option value="89623">Marathon Pre Race by MMUSA</option>
+<option value="54189">Masculine Balance by Viamax</option>
+<option value="57192">Mass Tabs by IDS (Innovative Delivery Systems)</option>
+<option value="89620">Massive Dynamics Pre Workout by MMUSA</option>
+<option value="14376">Master Brain Tonic Enhanced Formula by Mt. Shas...
+				</option>
+<option value="14378">Master Energy Tonic Enhanced Formula by Mt. Sha...
+				</option>
+<option value="98171">Masterbrain AM by 1st Phorm International LLC</option>
+<option value="98173">Masterbrain PM by 1st Phorm International LLC</option>
+<option value="89559">Max ARM (assorted flavors) by Max Muscle Sports...
+				</option>
+<option value="99329">Max Effort Muscle Test Booster by Max Effort Mu...
+				</option>
+<option value="15223">Maxi Sorb Superior Multiple by Country Life Vit...
+				</option>
+<option value="24677">Maximum Potency Rhodiola Rosea Root by Viridian...
+				</option>
+<option value="95349">Maxman III by Beijing Kowloon Pharmaceutical Fa...
+				</option>
+<option value="85772">Mediherb Rhodiola &amp; Ginseng by Integria Healthc...
+				</option>
+<option value="12653">MediHerb Rhodiola &amp; Ginseng Complex by Standard...
+				</option>
+<option value="28348">Memory Formula by Mountain Peak Nutritionals</option>
+<option value="20798">Men's Essential Multivitamins: AM Formulation b...
+				</option>
+<option value="20799">Men's Essential Multivitamins: PM Formulation b...
+				</option>
+<option value="68158">Men's Mega Men DHEA Vitapak by GNC</option>
+<option value="14793">Men's MultiVitamin Nutritional Hybrids Tablet b...
+				</option>
+<option value="56551">Men's Performance Multivitamins AM Formulation ...
+				</option>
+<option value="56552">Men's Performance Multivitamins PM Formulation ...
+				</option>
+<option value="92904">Meno Prev + Mood &amp; Memory by CanPrev Natural He...
+				</option>
+<option value="98420">Mentality by Rich Piana 5% Nutrition</option>
+<option value="39330">MetaboEnergetics by Protocol for Life Balance</option>
+<option value="89032">Metabolic Boost by Genesis Pure</option>
+<option value="19247">Metabolic Maintenance Formula by Fit by Friday</option>
+<option value="74273">Metabolic Rescue by Health Freedom Nutrition</option>
+<option value="25698">Metabolife Extreme Energy by Metabolife Interna...
+				</option>
+<option value="37083">Methyl Ripped Hardcore by NxLabs</option>
+<option value="71548">MICROgenics Stress and Stamina Formula with Rho...
+				</option>
+<option value="6897">Midnight Stallion by NVE Pharmaceuticals</option>
+<option value="11428">Mighty Lean by Nature's Plus</option>
+<option value="18752">Mind Power Rx [Discontinued; Reformulated] by P...
+				</option>
+<option value="87731">Mind Power Rx by Physician Formulas</option>
+<option value="79362">Mito Fuel by DaVinci Laboratories</option>
+<option value="14511">MochaTonix (assorted flavors) by Market America...
+				</option>
+<option value="62298">Monster Mix by Vitalabs, Inc</option>
+<option value="62378">Monster Stack Pack by Vitalabs, Inc</option>
+<option value="92574">Mood Extra by Natural Equivalents Incorporated</option>
+<option value="57969">Mood Support Formula by Mountain Peak Nutritionals</option>
+<option value="98564">Mood Up Stress Down by Well Roots</option>
+<option value="14381">Mood Uplift Tonic Enhanced Formula by Mt. Shast...
+				</option>
+<option value="79109">More Than A Multiple Tablets for Men by America...
+				</option>
+<option value="96296">MosKa by Unknown</option>
+<option value="89663">Multivitamin for Men by True Athlete (Vitamin S...
+				</option>
+<option value="89664">Multivitamin for Women by True Athlete (Vitamin...
+				</option>
+<option value="65102">Muscle Energy by Paradise Herbs</option>
+<option value="62380">Muscle Maker III by Vitalabs, Inc</option>
+<option value="95119">MuscleTest by American Muscle Sports Nutrition ...
+				</option>
+<option value="5377">Myo-Blast [Discontinued] by Cytodyne LLC</option>
+<option value="15927">Myostim by Champion Nutrition</option>
+<option value="98428">N.O.-Xplode XE Edge (Assorted flavors) by BSN Inc.</option>
+<option value="98514">NanoMojo by Quicksilver Scientific</option>
+<option value="76700">Nasutra (new formula) by Nasutra LLC</option>
+<option value="57598">Natural Energy by NorthStar Nutritionals</option>
+<option value="79225">Natural Sleep Formula by Smart City</option>
+<option value="18804">NaturalMax Super EnerMax Ephedra Free by Nutrac...
+				</option>
+<option value="77108">Naturaltonic Capsules by Nutragenius, Inc.</option>
+<option value="54622">NaturalTrim 3X by Starlight International </option>
+<option value="7767">NaturalTrim Ephedra Free by Starlight Internati...
+				</option>
+<option value="49903">Natures Harmony Rhodiola With Cordyceps by Puri...
+				</option>
+<option value="94424">Neon Sport Surge Testosterone Capsules by Cellucor</option>
+<option value="94426">Neon Sport Volt Electric Punch by Cellucor</option>
+<option value="30300">Neuro [Discontinued, Reformulated] by ViSalus S...
+				</option>
+<option value="95394">Neuro Lean by SirenLabs</option>
+<option value="40288">Neuro Natural General [Discontinued, Reformulat...
+				</option>
+<option value="89278">Neuro Natural General by Xtend-Life Nutraceutic...
+				</option>
+<option value="90021">Neuro Smart Energy Packets by ViSalus Sciences</option>
+<option value="98596">Neuro-Peak by ZHOU Nutrition</option>
+<option value="76975">NeuroBright by RBC Life Sciences</option>
+<option value="94678">NeuroCalm by Symmetry Corp</option>
+<option value="96270">Neurocore (Blue Raspberry) [Discontinued; Refor...
+				</option>
+<option value="91385">NeuroCore Powder (assorted flavors) by MuscleTech</option>
+<option value="86156">Neurocore Powder [Discontinued, Reformulated, 2...
+				</option>
+<option value="97706">NeuroEnhance by Bio Concepts</option>
+<option value="8407">Neurological Formula [Discontinued] by Xtend-Li...
+				</option>
+<option value="92114">NeuroSmart by Neurobrands LLC</option>
+<option value="28691">New Greens Berry Fusion by Pure Prescriptions</option>
+<option value="11702">NewCurves Breast Beautifying Formula capsules b...
+				</option>
+<option value="14485">Nitro T3 by NxLabs</option>
+<option value="31476">Nocturnal Nutrition by Nocturnal Nutrition</option>
+<option value="27117">Nootropedelic by Orovo, LLC</option>
+<option value="93494">Now Rhodiola 500 mg Vegetable Capsule by NOW Fo...
+				</option>
+<option value="98650">Nugenix Testosterone Multivitamin by Nugenix</option>
+<option value="76234">Nutra Life Mood Plus Tablets by Vitaco Health A...
+				</option>
+<option value="22173">nutraMetrix MochaTonix (assorted flavors) by Ma...
+				</option>
+<option value="15608">Nutrilite Rhodiola 110 by Amway Global</option>
+<option value="41898">Nutrilite Rhodiola 110 by Purity Life Health Pr...
+				</option>
+<option value="65640">Nutrimedicine Rhodiola BioComplex by Integria H...
+				</option>
+<option value="68508">Nutrivie Energy Sticks by First Nutrients Company</option>
+<option value="15983">O2 Gold by Advocare International</option>
+<option value="15584">Off Cycle by Fizogen Precision Technologies Inc.</option>
+<option value="13343">OHM by Agel</option>
+<option value="96488">OmegaK Ageless Alpha by OmegaK, Inc.</option>
+<option value="96492">OmegaK Feel Great! by OmegaK, Inc.</option>
+<option value="3186">Optein [Discontinued] by Solgar</option>
+<option value="57626">Optigen HP by First Endurance</option>
+<option value="20858">Optim 3 Hoodia Complex by Hi-Health</option>
+<option value="78011">OptiMan by NeuroScience, Inc.</option>
+<option value="57627">Optygen by First Endurance</option>
+<option value="94680">Optygen HP by First Endurance</option>
+<option value="65106">ORAC Energy Greens by Paradise Herbs</option>
+<option value="65117">ORAC Energy Protein Greens by Paradise Herbs</option>
+<option value="93267">Ortho Adapt (Canadian formula) by Advanced Orth...
+				</option>
+<option value="30513">Ortho Adapt by Advanced Orthomolecular Research...
+				</option>
+<option value="58254">Ortho Adapt by Advanced Orthomolecular Research...
+				</option>
+<option value="30514">Ortho Adapt Vegan by Advanced Orthomolecular Re...
+				</option>
+<option value="58255">Ortho Adapt Vegan by Advanced Orthomolecular Re...
+				</option>
+<option value="81332">OverDose Powder [Discontinued] by NRG-X Labs</option>
+<option value="94910">Oxydrene Elite by Novex Biotech</option>
+<option value="89109">Oxytocin Accelerator Sublingual  Spray by HBC P...
+				</option>
+<option value="82336">Passion Coffee by Drive Total Energy</option>
+<option value="12633">Passion Rx by Physician Formulas</option>
+<option value="29731">Pathway Energy Support [Discontinued] by Natura...
+				</option>
+<option value="19195">Pavaxin by Berkeley Premium Nutraceuticals</option>
+<option value="58063">Pavaxin by Vianda, LLC.</option>
+<option value="10185">Peak Performance by FreeLife International</option>
+<option value="86681">Perfect Energy by New Chapter (Canada)</option>
+<option value="89217">Perfomance Formula by Beachbody, LLC</option>
+<option value="79960">Perform for Him by Novelle International, Inc.</option>
+<option value="6529">Performance Gold by Advocare International</option>
+<option value="56746">Phenolmenol! Balance by The Balance Company</option>
+<option value="19287">Phenterfein by Phenterfein, Inc.</option>
+<option value="94718">PHUK by Haute Health</option>
+<option value="12416">Phyto ADR by Pure Encapsulations, Inc.</option>
+<option value="86259">Phytotonic by Nutragenius, Inc.</option>
+<option value="36313">Pinnacle Rhodax by Bodyonics, Ltd.</option>
+<option value="56089">PlasmaJet by Gaspari Nutrition</option>
+<option value="26686">Polyvite AB by North American Pharmacal, Inc.</option>
+<option value="26683">Polyvite O by North American Pharmacal, Inc.</option>
+<option value="74637">Pomology Energy Formula by Bullwater Health &amp; F...
+				</option>
+<option value="27993">Poten X by Bronson Laboratories</option>
+<option value="62232">Power Band Advanced Energy Formula by Vitalabs,...
+				</option>
+<option value="15745">Power Generation by Unicity International, Inc.</option>
+<option value="28374">Power Jolt by Omega Sports</option>
+<option value="97019">PreDop by Bio Concepts</option>
+<option value="98442">PreDop Lift by Bio Concepts</option>
+<option value="94633">Prema G by Herbamedica S.A. de C.V.</option>
+<option value="64928">Pretorius Ginsynergy Plus with Rhodiola by Phar...
+				</option>
+<option value="90325">Primal T by 1st Phorm International LLC</option>
+<option value="98175">Primal-T by 1st Phorm International LLC</option>
+<option value="22991">Prime One by AMS Health Sciences</option>
+<option value="97045">Procera XTF by KeyView Labs, Inc.</option>
+<option value="58292">Professional Series ProChondria by Advanced Ort...
+				</option>
+<option value="91064">Prograde K20 by Ultimate Wellness Systems</option>
+<option value="79027">Prolatis' Drive by Prolatis</option>
+<option value="73633">ProSoothe II by Pure Encapsulations, Inc.</option>
+<option value="38644">Protein Energizer (Various Flavors) by Rainbow ...
+				</option>
+<option value="37387">Prozidan by AIE Pharmaceuticals</option>
+<option value="16214">Psychotropin by ErgoPharm/Proviant Technologies</option>
+<option value="97880">Pump HD by BPI Sports</option>
+<option value="77396">Pure Potency for Men by Health Resources</option>
+<option value="59841">Python Extra by The Vitamin Shoppe</option>
+<option value="98337">Qualia Step One [Discontinued; Reformulated] by...
+				</option>
+<option value="99655">Qualia Step One by Neurohacker Collective, LLC</option>
+<option value="39279">Quantum Adaptogen Complex by Premier Research Labs</option>
+<option value="49904">Quest Rhodiola With Cordyceps by SunOpta Inc</option>
+<option value="74497">RaNisa Naturals Mega Muscle Mania by Top of the...
+				</option>
+<option value="74498">RaNisa Naturals Monster Mix by Top of the World...
+				</option>
+<option value="74379">RaNisa Naturals Power Up by Top of the World Di...
+				</option>
+<option value="74666">RaNisa Naturals Virility For Men by Top of the ...
+				</option>
+<option value="94639">Raspberry Ketone with Rhodiola by Creations Gar...
+				</option>
+<option value="94599">Raspberry Ketones MetaBlend 300 by Creations Ga...
+				</option>
+<option value="96072">Raw HGH by Vigor Labs, Inc.</option>
+<option value="81339">Razor8 Shredded Capsule by Allmax Nutrition</option>
+<option value="99715">Reclaim Thermogenic Compound by Outbreak Nutrition</option>
+<option value="91314">RegiMEN testosterone support  by Regimen Invest...
+				</option>
+<option value="77477">RejuvaFood by QuantaFoods, LLC.</option>
+<option value="15561">RejuvaPet by Vitamin Research Products</option>
+<option value="7753">Remember When by Bee-Alive Inc.</option>
+<option value="78977">Revive Acai by Perfect Supplements LLC</option>
+<option value="36828">Revivexxx [Discontinued] by EZVille</option>
+<option value="14634">Revvida by Healing America</option>
+<option value="26262">Rhodiola &amp; Ashwagandha [Discontinued, 2011] by ...
+				</option>
+<option value="99289">Rhodiola 150 mg by Natural Factors HerbalFactors</option>
+<option value="24504">Rhodiola 300 mg by Biovea</option>
+<option value="93495">Rhodiola 500 mg by NOW Foods</option>
+<option value="30539">Rhodiola by Advanced Orthomolecular Research (AOR)</option>
+<option value="58268">Rhodiola by Advanced Orthomolecular Research USA</option>
+<option value="59570">Rhodiola by Integrative Therapeutics </option>
+<option value="22258">Rhodiola by Natrol, Inc.</option>
+<option value="11005">Rhodiola by Nature's Plus</option>
+<option value="14861">Rhodiola by Thorne Research, Inc.</option>
+<option value="48104">Rhodiola by Vitabase</option>
+<option value="79482">Rhodiola Capsule by Biocare Ltd.</option>
+<option value="23259">Rhodiola Defense by Health King Enterprise and ...
+				</option>
+<option value="15580">Rhodiola Energy by Enzymatic Therapy</option>
+<option value="11003">Rhodiola Extended Release 1000 mg by Nature's Plus</option>
+<option value="34255">Rhodiola Extract 150 mg by Natural Factors Nutr...
+				</option>
+<option value="84029">Rhodiola Extract 150 mg Capsule by Natural Fact...
+				</option>
+<option value="27031">Rhodiola Extract 3% Rosavins by Life Extension ...
+				</option>
+<option value="82979">Rhodiola Force 100 by New Chapter (Canada)</option>
+<option value="55314">Rhodiola Herbal Glycerite Extract by Herb Pharm</option>
+<option value="55452">Rhodiola Liquid Herbal Extract by Herb Pharm</option>
+<option value="54589">Rhodiola Plus by Bee-Alive Inc.</option>
+<option value="24676">Rhodiola Root by Viridian Nutrition Ltd.</option>
+<option value="85545">Rhodiola Root Extract by Solgar</option>
+<option value="28689">Rhodiola Root Extract by Vitamin World</option>
+<option value="25227">Rhodiola Root Extract Tablets by HealthAid Ltd</option>
+<option value="24827">Rhodiola Rosea 250 mg by Lifeplan Products Limited</option>
+<option value="11349">Rhodiola Rosea 3% by Vital Nutrients</option>
+<option value="10646">Rhodiola Rosea 500 by Jarrow Formulas</option>
+<option value="90649">Rhodiola Rosea by Advanced Orthomolecular Resea...
+				</option>
+<option value="54491">Rhodiola Rosea by BioTest Laboratories, LLC</option>
+<option value="62851">Rhodiola Rosea by Myprotein.co.uk</option>
+<option value="12471">Rhodiola Rosea by Pure Encapsulations, Inc.</option>
+<option value="25738">Rhodiola Rosea by Simply Supplements</option>
+<option value="25387">Rhodiola Rosea by Smart City</option>
+<option value="15469">Rhodiola Rosea by Vitamin Research Products</option>
+<option value="17463">Rhodiola Rosea Capsule by Gaia Herbs</option>
+<option value="78983">Rhodiola Rosea Capsule by Perfect Supplements LLC</option>
+<option value="87868">Rhodiola Rosea Extract 327 mg by Physician Form...
+				</option>
+<option value="24236">Rhodiola Rosea Extract by Lewtress Natural Heal...
+				</option>
+<option value="26170">Rhodiola Rosea Extract by Prime Health Direct</option>
+<option value="97897">Rhodiola Super Extract by BioTest Laboratories,...
+				</option>
+<option value="41878">Rhodiola With Cordyceps by SunOpta Inc</option>
+<option value="17773">Rhodiolaforce 100 by New Chapter, Inc.</option>
+<option value="17774">Rhodiolaforce 300 by New Chapter, Inc.</option>
+<option value="92143">RhodioLife by PL Thomas &amp; Co., Inc.</option>
+<option value="35800">Richardson Labs Extreme Metab O Fx [Discontinue...
+				</option>
+<option value="37041">Ripped Fuel 5x by TwinLab</option>
+<option value="14964">Rize 2 the Occasion by V. Vigor Corporation</option>
+<option value="14265">Rosenroot by Rosenrot Norge AS</option>
+<option value="10249">Rosy Lucidity II by Life Enhancement Products, ...
+				</option>
+<option value="85993">RS Complex by Nutragenius, Inc.</option>
+<option value="49905">Rx Balance Rhodiola With Cordyceps by SunOpta Inc</option>
+<option value="12475">Satiet-ease by Pure Encapsulations, Inc.</option>
+<option value="79910">Sedaplus by Thorne Research, Inc.</option>
+<option value="87628">Sentinel Male Potency Formula by Action Labs Inc. </option>
+<option value="99506">Serene Mind 3 Brains by Natural Factors Nutriti...
+				</option>
+<option value="34259">Serenity Formula by Natural Factors Nutritional...
+				</option>
+<option value="99448">Serenity Formula by Natural Factors Nutritional...
+				</option>
+<option value="93859">Seroprin 24 by Hi-Tech Pharmaceuticals, Inc.</option>
+<option value="10511">SeroThin by Natural Balance Inc</option>
+<option value="56610">Serotonin by Quality of Life Labs</option>
+<option value="68120">Sexativa Plus by Gero Vita International</option>
+<option value="7346">Shape Up! Pear Body Types Weight Management Sup...
+				</option>
+<option value="12530">ShapeWorks Cell Activator by Herbalife Internat...
+				</option>
+<option value="97248">Shift by PEScience </option>
+<option value="98310">Shroom Tech Sport [Discontinued; Reformulated 2...
+				</option>
+<option value="91453">Shroom Tech Sport by Onnit Labs</option>
+<option value="99375">Shroom Tech Sport by Onnit Labs</option>
+<option value="77185">Signature Signergy Gold by AIE Pharmaceuticals</option>
+<option value="96096">Six Star Testosterone Booster by MuscleTech</option>
+<option value="10836">Skinny Mini Capsules by Nature's Plus</option>
+<option value="10274">SleepTight by Life Enhancement Products, Inc.</option>
+<option value="65144">Slendatrol by Paradise Herbs</option>
+<option value="57495">SlimQuick by NxCare</option>
+<option value="38202">SlimQuick by SLIMQUICK Laboratories</option>
+<option value="32153">SlimQuick Drink Mix by SLIMQUICK Laboratories</option>
+<option value="41575">SlimQuick Naturals by SLIMQUICK Laboratories</option>
+<option value="93061">Slimquick Powder by SLIMQUICK Laboratories</option>
+<option value="96099">Slimquick Pure by SLIMQUICK Laboratories</option>
+<option value="93539">Slimquick Razor by Wellnx Life Sciences Inc</option>
+<option value="93091">Slimquick Tablet by SLIMQUICK Laboratories</option>
+<option value="32149">SmartBurn with Hoodia by Iovate Health Sciences...
+				</option>
+<option value="30818">SociaTropin by SociaTropin</option>
+<option value="35355">Solaray Rhodiola Extract 100 mg by Nutraceutica...
+				</option>
+<option value="21913">Solution 4 by Cell Perfect</option>
+<option value="11433">Source of Life Men Tablets by Nature's Plus</option>
+<option value="39552">Standardized Rhodiola Rosea by Nature's Way of ...
+				</option>
+<option value="7539">Start-Ups by Global Health Trax</option>
+<option value="96370">Stiff Rock  by Steele Products</option>
+<option value="82024">Stimulant X Capsule by Athletic Xtreme</option>
+<option value="81322">StimulantX by Anabolic Xtreme</option>
+<option value="17776">Stress Advantage by New Chapter, Inc.</option>
+<option value="27850">Stress Defy by Irwin Naturals</option>
+<option value="37033">Stress Free Formula by Blue Spring Wellness</option>
+<option value="97747">Stress Help by Evergreen Source Direct</option>
+<option value="7179">Stress Manager by The Council On Natural Health</option>
+<option value="89123">Stress Manager Compound by Herb Pharm</option>
+<option value="85911">Stress Redux Plus VIN by Vinco Inc</option>
+<option value="17469">Stress Response Capsule by Gaia Herbs</option>
+<option value="52465">Stress Soft Multi by Nature's Life</option>
+<option value="38743">Stress Take Care by New Chapter, Inc.</option>
+<option value="32276">StressAssist by Futurebiotics LLC</option>
+<option value="56708">Stressmune by SISU Inc.</option>
+<option value="63054">Stud Capsule For Men by Kanec USA Inc.</option>
+<option value="13229">Summer Survivor Outdoor Mist Body Oil by HOMS LLC</option>
+<option value="29798">Sunshine In a Bottle by Nu-Life North America</option>
+<option value="18266">Super Booster by BioTreasures Inc.</option>
+<option value="92579">Super Concentrated Series Myobuild by Iovate He...
+				</option>
+<option value="89592">Super HD [Discontinued; Reformulated 2015] by C...
+				</option>
+<option value="96602">Super HD by Cellucor</option>
+<option value="96565">Super Meal Original by Purium Health Products</option>
+<option value="92549">Super Test by Beast Sports</option>
+<option value="95958">Super Test by Black Dragon Labs</option>
+<option value="14246">Supercritical Diet and Energy by New Chapter, Inc.</option>
+<option value="16199">Supercritical Stress Advantage by New Chapter, ...
+				</option>
+<option value="80703">Superior Fuel with D Ribose by FoodScience of V...
+				</option>
+<option value="36461">SuperPump 250 [Discontinued] by Gaspari Nutrition</option>
+<option value="50439">Supertonic Energy Formula by Pioneer Nutritiona...
+				</option>
+<option value="76699">Sutramax by Nasutra LLC</option>
+<option value="89177">Swagger by MAN Sports Products, Inc.</option>
+<option value="82890">Swanson Condition Specific Formulas Adrenal Ess...
+				</option>
+<option value="30111">Swanson Passion Ultimate Men's Peak Performance...
+				</option>
+<option value="84064">Swanson Premium Full Spectrum Rhodiola Holy Bas...
+				</option>
+<option value="83700">Swanson Premium Rhodiola Ashwagandha Ginseng Co...
+				</option>
+<option value="83619">Swanson Premium Rhodiola Rosea Root by Swanson ...
+				</option>
+<option value="84138">Swanson Superior Herbs Rhodiola Rosea Extract b...
+				</option>
+<option value="84991">Swanson Ultra 30 Days Diet Formula by Swanson H...
+				</option>
+<option value="84500">Swanson Ultra Liver Tone Liver Detox Formula by...
+				</option>
+<option value="84684">Swanson Ultra Vita Lanne All in One Nutrient Fo...
+				</option>
+<option value="96963">T+ Chai Spiced Black Tea Adaptogens by Isagenix...
+				</option>
+<option value="95061">Tea Rexx Extreme by GMP Products</option>
+<option value="98436">TeaZa (Black Cherry flavor) by Trim Nutrition, ...
+				</option>
+<option value="93348">Test Boost Ultra Capsules by Bodystrong</option>
+<option value="97642">Test Freak by Pharmafreak Technologies</option>
+<option value="97795">Test X180 Tempest by Force Factor LLC</option>
+<option value="24347">The Blues Tonic by Fushi Wellbeing Ltd.</option>
+<option value="36696">The Matol Catechin Drink by Univera Canada Ltd</option>
+<option value="9264">TheraStress liquid by Nutriceutical Technologies</option>
+<option value="92635">Therm-O by Biofusion Health Products</option>
+<option value="19">Thermo Lift II by Goldshield Elite</option>
+<option value="90155">Thermosculpt Capsules by Designed by Dean</option>
+<option value="9397">Thinology by Abundance Marketing</option>
+<option value="64977">Thompson's B Energised with Rhodiola Tablets by...
+				</option>
+<option value="78101">Thyroid Support by Roex</option>
+<option value="28564">ThyroLife Optima by Arem Nutritionals</option>
+<option value="89839">Timeout Syrup by Lev Laboratories</option>
+<option value="94524">TLS ACTS Adrenal, Cortisol, Thyroid and Stress ...
+				</option>
+<option value="80432">Total Niacin by Nutri-West Inc</option>
+<option value="54642">Total Rejuvenation by Starlight International </option>
+<option value="22879">Transitions Anti-Stress Formula by Market Ameri...
+				</option>
+<option value="98970">TriBulk Pre-Workout (Berry flavor) by Outlaw La...
+				</option>
+<option value="10629">Tribulus Complex by Jarrow Formulas</option>
+<option value="58944">TribuPlex 750 by Metabolic Response Modifiers</option>
+<option value="94230">Trim &amp; Energized by Monterey Bay Nutraceuticals</option>
+<option value="27931">triON by Ovation Lifestyles</option>
+<option value="96234">Triumph by Legion Supplements</option>
+<option value="92533">True Concentration by Douglas Laboratories Inc ...
+				</option>
+<option value="92532">True Focus by Douglas Laboratories Inc (Canada)</option>
+<option value="93514">TrueIQ by Truestar Health</option>
+<option value="14971">Tunguska Blast by CyberWize.com, Inc.</option>
+<option value="23297">TV/Computer Mate Herb Tea by Health King Enterp...
+				</option>
+<option value="27299">Ultimate Passion Maximum Sexual Enhancement by ...
+				</option>
+<option value="89685">Ultra Fat Burner by SLIMQUICK Laboratories</option>
+<option value="72041">Ultra Fat Busters by Nature's Plus</option>
+<option value="36893">Ultra Ginkgo Plus Vial by Prince of Peace Enter...
+				</option>
+<option value="72060">Ultra Skinny Mini Caffeine Free by Nature's Plus</option>
+<option value="97523">Ultra T Male by Nature's Plus</option>
+<option value="71641">Ultra Virile Actin by Nature's Plus</option>
+<option value="17757">Unbounded Energy by New Chapter, Inc.</option>
+<option value="65476">Up Lift by Beverly International</option>
+<option value="97809">Upload by Alpha Pro Nutrition</option>
+<option value="65302">V 4 Men by Vitalabs, Inc</option>
+<option value="16173">V02 Peak [Discontinued] by EAS, Inc. </option>
+<option value="6586">V16 by Advocare International</option>
+<option value="96465">Vanish Fat Metabolizer by ProSupps USA, LLC</option>
+<option value="37819">Vassive NO Formula X by Optimum Nutrition</option>
+<option value="97101">Vega Sport Pre-Workout Energizer (Acai Berry fl...
+				</option>
+<option value="37389">Viadrone by AIE Pharmaceuticals</option>
+<option value="14963">Vigor 25 by V. Vigor Corporation</option>
+<option value="96801">ViMulti Max Energy by BioPharm Nutraceuticals</option>
+<option value="96814">ViMulti Max-Energy Advanced Formula by BioPharm...
+				</option>
+<option value="96798">ViMulti T Support by BioPharm Nutraceuticals</option>
+<option value="24597">Viridiman by Viridian Nutrition Ltd.</option>
+<option value="4459">Virile V for Him by USA Pharmacal Sales</option>
+<option value="93851">Virilis Pro by Haute Health</option>
+<option value="79569">Vitacerin by Liquid Vitamin Stop</option>
+<option value="47747">VitaComplete by Vitabase</option>
+<option value="57494">Vital Engergy by Mt. Capra Wholefood Nutritionals</option>
+<option value="95181">Vitalikor Test by Vitality Research Labs</option>
+<option value="24360">Vitality Tonic by Fushi Wellbeing Ltd.</option>
+<option value="54655">Vitango by Schwabe Pharma UK Ltd</option>
+<option value="54424">Vitarol Complete Men's Multi Vitamin Male Longe...
+				</option>
+<option value="54422">Vitarol Complete Women's Multi Vitamin Female E...
+				</option>
+<option value="54425">Vitarol Complete Women's Multi Vitamin Female L...
+				</option>
+<option value="86171">Vitex Combo Capsules by St. Francis Herb Farm I...
+				</option>
+<option value="54423">Vitraol Complete Men's Multi Vitamin Male Drive...
+				</option>
+<option value="49906">Vivitas Rhodiola With Cordyceps by SunOpta Inc</option>
+<option value="97701">Volt Pre-Workout (Berry Pomegranate flavor)  by...
+				</option>
+<option value="98485">Warheads (Sour Watermelon flavor) by Ghost, LLC</option>
+<option value="95433">Warrior Food Extreme Vanilla Plus by HealthForc...
+				</option>
+<option value="95272">Weekend Warrior by Unknown</option>
+<option value="92975">Weight Loss Formula No 1 by RealDose Nutrition LLC</option>
+<option value="36581">Weight Wellness by NorthStar Nutritionals</option>
+<option value="79648">Wellness Optimizer Tablet by Jarrow Formulas</option>
+<option value="21313">Wellzymes Metabolic Balance by Enzymes, Inc.</option>
+<option value="20814">Women's Essential Multivitamins: AM Formulation...
+				</option>
+<option value="20812">Women's Essential Multivitamins: PM Formulation...
+				</option>
+<option value="73641">Women's Nutrients by Pure Encapsulations, Inc.</option>
+<option value="68398">Women's Ultra Mega Wellness Vitapak by GNC</option>
+<option value="99557">WomenSense AdrenaSense by Natural Factors Nutri...
+				</option>
+<option value="98179">Xceler8 by ARIIX</option>
+<option value="56169">Xelerate (Xtreme Energy Fat Burner) by Xyience,...
+				</option>
+<option value="90471">Xenadrine XT by Iovate Health Sciences Research...
+				</option>
+<option value="56531">Xhobatol Weight Loss by The Neutraceutical Comp...
+				</option>
+<option value="14164">XLR8 (Xelerate) by Xyience, Inc.</option>
+<option value="96981">Xpand 2X by Dymatize Enterprises Inc.</option>
+<option value="56165">XTEST (Xtreme Testosterone Formula) by Xyience,...
+				</option>
+<option value="17932">Xtreme Lean by The Winning Combination Inc.</option>
+<option value="97892">Xyng Fuel For Life by Xyngular Corp.</option>
+<option value="91367">Z Rock by CRM Laboratories</option>
+<option value="19170">Zand Changes for Women Day &amp; Night Formula by N...
+				</option>
+<option value="18201">Zenostim by Kyowa Hakko U.S.A., Inc.</option>
+<option value="7832">Zero Gravity Weight Management Formula [Discont...
+				</option>
+<option value="82189">Zeus by Fusion Nutrition</option>
+<option value="56901">Zeus Test Booster by Fusion Bodybuilding Inc</option>
+<option value="92525">Znatrex 3 (Canada) by Zoller Laboratories</option>
+<option value="12934">Zyroxin by Optimal Therapeutics</option>
+<option value="0">
+										Other
+									</option></select></dd>
+<dd><label for="timeRange">Time on Treatment:</label><select id="timeRange" name="timeRange"><option value="0">Choose One</option>
+<option value="1">less than 1 month</option>
+<option value="2">1 to 6 months</option>
+<option value="3">6 months to less than 1 year</option>
+<option value="4">1 to less than 2 years</option>
+<option value="5">2 to less than 5 years</option>
+<option value="6">5 to less than 10 years</option>
+<option value="7">10 years or more</option></select></dd>
+<dd><label for="sName">Screen Name:</label><input id="sName" maxlength="40" name="screenName" type="Text" value=""/></dd>
+</dl>
+<h3 class="s5">Type the Characters You See in this Picture:</h3>
+<p class="capintro">This is used to prevent illegitimate use by automated programs</p>
+<div id="capChar-ec">
+<p class="label">Picture:</p>
+<div id="codeGraphic"><img height="75" id="captchaImage" src="CaptchaImage.aspx?w=220&amp;h=75&amp;id=k2JOtlJY9kANIE2vocSJeMRDaWT3JvMnULsjf8uhN4Q%3d" width="220"/><a class="refreshBtn" href="#" onclick="wmdPageLink('dr-captcha'); return RefreshCaptcha();"><img border="0" height="22" id="captchaImage" src="https://img.webmd.com/drugs/PortalLiteResources/images/refreshCapshaw_btn.gif" width="117"/></a><input id="cypherText" name="cypherText" type="hidden" value="k2JOtlJY9kANIE2vocSJeMRDaWT3JvMnULsjf8uhN4Q%3d"/></div><label for="CapChar">Enter characters from the image above:</label><input autocomplete="off" id="CapChar" name="characters"/><span class="required">(required)</span></div>
+</div>
+<div id="agreement"><input id="agreeChk" name="agreement" type="Checkbox"/>I have read and agree to abide by the <a href="/policies/about-terms-and-conditions-of-use" target="_blank">WebMD Terms and Conditions</a> and <br/><a href="/policies/about-privacy-policy" target="_blank">WebMD Privacy Policy</a>.
+				  <span class="required">(required)</span></div><input id="rateValue1" name="rate1" type="Hidden"/><input id="rateValue2" name="rate2" type="Hidden"/><input id="rateValue3" name="rate3" type="Hidden"/><div id="postButtons"><button class="defaultBtn" onclick="if(CheckValidForm())ctrs('dr-reviewadd'); else return false;" type="submit">Post</button><button class="defaultBtn" onclick="RedirectToIngredientUrl();" type="reset">cancel</button></div><script type="text/javascript">
+				function RedirectToIngredientUrl()
+				{
+				//This is a workaround for single quotes in the name
+				window.location.href = "/vitamins-supplements/ingredientmono-883-RHODIOLA.aspx?activeIngredientId=883&activeIngredientName=RHODIOLA&source=0";
+				}
+			</script><div class="moduleSpacer_fmt"></div><script type="text/javascript">checkMaxLength(document.getElementById("userComment"));</script></form>

@@ -1,0 +1,73 @@
+<form action="/api/sitecore/Form/Feedback" autocomplete="off" id="Feedback" method="post"><input name="__RequestVerificationToken" type="hidden" value="UZlFmWphk2iM-_ZPUgxLsoItsSsVNiYr5GilNxKVnfS_IZHPAAuBOE19QdoqPlHGKXAIKIdEXYD8PFU4Xu3KIe8kp330LdV7SK0ImqHk49k1"/> <div>
+<div class="text-two-thirds panel">
+<div class="belt">
+<div class="grid">
+<div class="col w-66" id="FormDetails">
+<div class="pad">
+<div id="ErrorDiv" style="border:none;padding:0px;color:red;">
+</div>
+<div class="form">
+<p class="f21 formInfo">Please select the type of feedback you would like to send us below, complete the form and click 'Submit'.</p>
+<div class="row">
+<label for="Feedbacktype">What kind of feedback would you like to send?</label>
+<span class="mod-select select-full-box">
+<select id="Feedbacktype" name="Feedbacktype">
+<option value="Compliment">Compliment</option>
+<option value="Complaint">Complaint</option>
+<option value="General feedback">General feedback</option>
+</select>
+</span>
+</div>
+<div class="row">
+<label for="NameText">Full name</label>
+<input class="field" data-invalid="Please enter a valid name." data-regex="^([a-zA-ZÀ-ÿ0-9\s'-]{1,100})$" data-required="Please enter your full name." data-val="true" data-val-regex="The field NameText must match the regular expression '^([a-zA-ZÀ-ÿ0-9\s'-]{1,100})$'." data-val-regex-pattern="^([a-zA-ZÀ-ÿ0-9\s'-]{1,100})$" data-val-required="The NameText field is required." id="NameText" maxlength="100" name="NameText" placeholder="Your name" type="text" value=""/>
+</div>
+<div class="row">
+<label for="EmailText">Email address</label>
+<input class="field" data-invalid="Please enter a valid email address." data-regex="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-required="Please provide a valid email address." data-val="true" data-val-regex="The field EmailText must match the regular expression '^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$'." data-val-regex-pattern="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-val-required="The EmailText field is required." id="EmailText" maxlength="100" name="EmailText" placeholder="eg email@example.com" type="text" value=""/>
+</div>
+<div class="row">
+<label for="ConfirmEmailText">Re-enter email address</label>
+<input class="field confirmemailpaste" data-invalid="The email address provided does not match the one entered above, please re-submit." data-regex="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-required="The email address provided does not match the one entered above, please re-submit." id="ConfirmEmailText" maxlength="100" name="ConfirmEmailText" placeholder="eg email@example.com" type="text" value=""/>
+</div>
+<div class="row">
+<label for="PhoneText">Telephone number</label>
+<input class="field" data-invalid="Please enter a valid phone number." data-regex="^([0-9\s]{7,15})$" data-required="Please enter a phone number." data-val="true" data-val-regex="The field PhoneText must match the regular expression '^([0-9\s]{7,15})$'." data-val-regex-pattern="^([0-9\s]{7,15})$" data-val-required="The PhoneText field is required." id="PhoneText" maxlength="15" name="PhoneText" placeholder="eg 0123 456 7890" type="text" value=""/>
+</div>
+<div class="row">
+<label for="FeedbackDetailText">Your feedback</label>
+<textarea class="field" cols="20" data-invalid="Please enter a valid enquiry." data-regex="^[^&lt;&gt;%$]{1,500}$" data-required="Please enter details of your enquiry in the space provided." data-val="true" data-val-regex="The field FeedbackDetailText must match the regular expression '^[^&lt;&gt;%$]{1,500}$'." data-val-regex-pattern="^[^&lt;&gt;%$]{1,500}$" data-val-required="The FeedbackDetailText field is required." id="FeedbackDetailText" maxlength="500" name="FeedbackDetailText" placeholder="Tell us your feedback." rows="2">
+</textarea>
+</div>
+<div class="row">
+<div class="marketing-text market-spacing">
+<p>We recognize that when you give us personal information (which includes health information) you’re trusting us to take good care of it. Please see  our <a href="/legal-notices/privacy-and-cookies">privacy policy</a> for more information about how we collect, use and protect your data.</p>
+<p>If you don’t want to receive marketing about Bupa products and services that we think are relevant to you, please contact us at <a href="mailto:optmeout@bupa.com" target="_blank" title="Opens in a new window">optmeout@bupa.com</a></p>
+</div>
+</div>
+<div class="row">
+<a class="btn feedback-submit" data-analytics-category="Feedback">Submit</a>
+</div>
+<div>
+<input id="LocationText" name="LocationText" type="hidden" value="FeedbackForm"/>
+<input id="FormType" name="FormType" type="hidden" value=""/>
+<input id="EnquiryTypeName" name="EnquiryTypeName" type="hidden" value="Send Feedback"/>
+<input id="EnquirySource" name="EnquirySource" type="hidden" value="Care Services"/>
+</div>
+</div>
+</div>
+</div>
+<div class="col w-66 hide" id="ThankYou">
+<div class="pad">
+<h2>Thank you</h2>
+<p><strong>Your feedback has been received</strong></p>
+<p></p><p>We will reply to your email within the next two working days. If the nature of your enquiry is a complaint, your complaint will be acknowledged in writing within 2 working days and referred to the relevant person for investigation.</p>
+<p>If you’d like to speak to a care services adviser, please call us on us on 0113 360 4806.</p>
+<p>Lines are open between 9am-5pm Monday to Friday.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>

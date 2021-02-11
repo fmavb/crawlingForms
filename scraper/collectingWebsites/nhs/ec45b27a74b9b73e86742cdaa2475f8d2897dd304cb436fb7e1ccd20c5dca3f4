@@ -1,0 +1,64 @@
+<form action="/services/hospital/kings-college-hospital/X1214/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Lack of any care or empathy - Maternity &lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Unfortunately, I have received zero care in my pregnancy under the &quot;care&quot; of Kings College London from the get go.  The lack of empathy is absolutely astounding.  On many occasions I have desperately tried to communicate my anxiety to the midwives, who have been impossible to get hold of. They give you 3 numbers to call (1) for emergencies (this is a mobile which on the two occasions I tried to call was switched off; (2) a direct dial which rings through to a receptionist who will talk over you and tell you to call the ivy green direct line (3) the ivy green direct line, which is a voicemail which is answered no earlier than 24 hours after your call..... all of this as you can imagine accentuates my anxiety. God only knows what would happen in an emergency. 
+
+I have been sent blood results in an envelope with no explanation or cover letter. 
+
+Appointments were changed and not communicated, at the very last minute to clash with scan appointments. 
+
+I had 1 x face to face at 28 weeks pregnant but not told of the location of that appointment. when I phoned the assessment line to check, I was told to walk around the various midwife centres (of which there are 3 around 20 mins apart) until I found the location of my appointment.  
+
+My one face to face appointment was rushed and it was clear that the midwife did not want to engage in any conversation with closed answers to my questions which made me feel like I couldn't ask the questions I wanted to. 
+
+Every interaction I had with the midwives/ midwife centre accentuated by anxiety tenfold.  I would be terrified about giving birth under care of this midwives team.   I have luckily  moved away, but rather than wait until I have transferred to a new hospital, Kings have told me they are closing my file - despite me begging them not to until I have found new care, as I didn't want to be without any care anywhere. Given that all appointments are virtual there is no need for them to close my file at 31 weeks pregnant but once again demonstrates their callous uncaring and shocking treatment. &lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-10-03T10:54:56Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;9&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;King's College Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Maternity services&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;53b72ad9-6605-eb11-a813-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1214&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGLRluXFPIMPt97G-iWVRE_-0d5-ctHuVfY5szEbhITpfn9GzpNBILn19Rl_5E10RsAyWU_KS5rRhe1svEb227cgdAAxRYOvp0lXv9upZlaI84OBx7po9fMaRoL4-npgLw"/></form>

@@ -1,0 +1,61 @@
+<form action="/services/hospital/royal-oldham-hospital/X862/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Amazing birth experience! &lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I gave birth at the royal Oldham hospital on the 9th of March 2020. 
+The care I received was absolutely Outstanding from start to finish. 
+As a first time mum I was pretty nervous about giving birth. I had a birth plan in place throughout my entire pregnancy (water birth in the birthing centre). Unfortunately this was not possible as my waters broke and I didn’t go into active labour within 24hrs so I had to be induced. 
+I was very distressed about this because it wasn’t going how I had planned and prepared for. 
+I got to the hospital on the 8th of March to be induced and the staff were amazing on the ward! Very reassuring, they explained the whole procedure and set my mind at ease.  
+Once I was in established labour i was then moved to the labour ward. The midwifes knew how much I had wanted to give birth in the birthing centre so they dimmed all the lights and had calming stars projected onto the ceiling. They also put some music on the radio in the background to try and mimic a birthing centre room! I found this so thoughtful. 
+Throughout my whole labour the midwifes were incredible, I can not praise them enough. I delivered a healthy baby girl in the early hours of March the 9th. 
+I will forever treasure the memory of Giving birth to my daughter at the royal Oldham hospital.  Thank you! &lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-05-13T21:19:46Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;3&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Royal Oldham Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Maternity services&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;93012273-5f95-ea11-a812-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X862&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamF_vkfyRzuOrGDVMmWTy4X2s1-IXCSnvpL5T41Rzl2oG-KFCKaUmC6W7e1sDsRDl29Q8zJ-2ZdadJ6MEiZvWPdcIoc51fq_C7DN-B3y2rAPUgmrBx7NUR0DON0kr9S79SM"/></form>

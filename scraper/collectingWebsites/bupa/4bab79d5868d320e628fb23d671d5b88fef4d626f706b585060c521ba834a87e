@@ -1,0 +1,11 @@
+<form action="/corporate/search-result" id="site-search-form" method="get">
+<div class="search-box">
+<div class="search-text-box search-text-box2">
+<input class="typeahead form-control search_term" id="site-search-input-box" name="q" placeholder="Search" type="text"/>
+<span class="close-icon-over-input" style="display:block;"></span>
+</div>
+<button class="search-btn-bg site-filter-search top-nav-search-btn top-nav-search-btn">
+<span class="search-btn"></span>
+</button>
+</div>
+</form>

@@ -1,0 +1,25 @@
+<form action="/health-information/GetQuizDataAjax" class="mod-quiz" id="quiz" method="post">
+<!-- START: quiz-intro -->
+<input name="contextItemId" type="hidden" value="ZLCj93ojEm+YRF9URmLBEfViJsUIJRikABWlMHlYENY9AJw0nv+bug=="/>
+<input name="id" type="hidden" value="start"/>
+<input name="count" type="hidden" value="0"/>
+<input name="result" type="hidden" value="0"/>
+<div class="quiz-box quiz-intro">
+<div class="backdrop">
+<img alt="A baby swimming" src="https://assets.bupa.co.uk/~/media/images/healthmanagement/tools-and-calculators/images/baby-swim-1110-546.jpg"/>
+</div>
+<div class="body">
+<div class="icon">
+<i class="i-quiz-intro"></i>
+</div>
+<h2 class="title">Ear infections in children quiz</h2>
+<p class="impact"></p><p><strong>Would you know if your child had an ear infection and, if so, how best to help them? Take our quiz to find out.</strong> </p>
+<p>
+</p>
+<div class="controls">
+<button class="btn btn-cta" data-analytics-category="BupaQuizStart" type="submit">Start the quiz</button>
+</div>
+</div>
+</div>
+<!-- END: quiz-intro -->
+</form>

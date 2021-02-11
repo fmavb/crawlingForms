@@ -1,0 +1,42 @@
+<form action="/MyInitiative/GuestRegistration/CreateAccount" class="client-side-validation" id="ValidateSecurityCredentialsForm" method="post"> <div class="row" id="emailinput">
+<label for="Email">Email *</label>
+<p>We need your email address to set up your account. See our <a class="termsLink" href="/MyInitiative/Public/MyAvivaPrivacyNotice" target="_blank">Privacy Notice Section</a> for more details.</p>
+<div>
+<input id="Email" name="Email" style="display: inline-block" type="text" value=""/>
+<img alt="Please wait" class="loginSpinner hidden" id="usernameSpinner" src="/MyInitiative/Content/images/global/spinner-small.gif"/>
+<span class="field-validation-valid validationMessage" id="Email_validationMessage"></span>
+<p class="hidden" id="emailAddressAvailableMessage">This email address is also the username you’ll use to log in</p>
+</div>
+</div>
+<div class="row">
+<label for="Password">Choose a password *</label>
+<div>
+<input autocomplete="off" id="Password" maxlength="30" name="Password" type="password"/>
+<p class="passwordCriteria">It will be case sensitive and must contain:</p> <ul class="basicBullets">
+<li>Between 8-30 characters</li>
+<li>At least 1 number</li>
+<li>Uppercase and lowercase letters</li>
+<li>No spaces</li>
+</ul>
+</div>
+</div>
+<div class="row">
+<label for="FirstName">First name *</label>
+<div>
+<input id="FirstName" name="FirstName" type="text" value=""/>
+<span class="field-validation-valid validationMessage" id="FirstName_validationMessage"></span>
+</div>
+</div>
+<div class="row">
+<label for="LastName">Last name *</label>
+<div>
+<input id="LastName" name="LastName" type="text" value=""/>
+<span class="field-validation-valid validationMessage" id="LastName_validationMessage"></span>
+</div>
+</div>
+<input name="__RequestVerificationToken" type="hidden" value="LVi7BdTuSx1SdwTPpNR38pg8oHwsO5StK3aWO-FFkAOErlJC4tXW3cifLSpYkuQcWgnvlKlFZE_E69aYXAqw38UtFtE1"/><input id="SetUsernameForRedirectsUrl" name="SetUsernameForRedirectsUrl" type="hidden" value="/MyInitiative/Public/SetUsernameForRedirects"/> <div class="row liveHappier">
+<div>
+<input class="button yellow plain center" id="btnCreateAccount" name="SubmitButton" type="submit" value="Finish"/>
+</div>
+</div>
+</form>

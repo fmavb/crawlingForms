@@ -1,0 +1,181 @@
+<form action="/redirect/" class="validate" id="contactChooser" method="post"><input name="csrfmiddlewaretoken" type="hidden" value="TQeRqzreTLYjfJPBvvIa9qTqWhRDVMZxaNHZK5B1kFezlS1eQInWfaB8svXGtOQd"/>
+<fieldset>
+<legend>Choose a medical procedure</legend>
+<div class="row">
+<label class="topGap" for="redirect">Choose a medical procedure</label>
+<div>
+<select id="redirect" name="redirect">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/">Please select...</option>
+<optgroup label="Abdomen (Excluding Urinary &amp; Reproductive Organs)">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/abdominal-wall.html">Abdominal Wall</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/duodenum.html">Duodenum</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/large-intestine.html">Large Intestine</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/major-vessels.html">Major Vessels</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/oesophagus.html">Oesophagus</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/other-organs-mainly-digestive.html">Other Organs (Mainly Digestive)</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/peritoneum.html">Peritoneum</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/rectum-anus.html">Rectum Anus</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/small-intestine.html">Small Intestine</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/abdomen-other-than-urinary-tract-and-reproductive-organs/stomach.html">Stomach</option>
+</optgroup>
+<optgroup label="Bones Joints and Connective Tissue/Tendon Muscle">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/bone-non-specific.html">Bone (Non-Specific)</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/connective-tissue-tendon-and-muscle.html">Connective Tissue/Tendon Muscle</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/elbow.html">Elbow</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/external-fixation-traction.html">External Fixation/Traction</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/foot.html">Foot</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/fractures.html">Fractures</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/hand.html">Hand</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/hip.html">Hip, leg and pelvis</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/joint-replacement-reconstruction.html">Joints, including replacement/reconstrucion (not listed elsewhere)</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/knee.html">Knee</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/nerves.html">Nerves</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/bones-joints/shoulder.html">Shoulder</option>
+</optgroup>
+<optgroup label="Brain cranium and other intracranial organs">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/brain-cranium-and-other-intracranial-organs/brain.html">Brain</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/brain-cranium-and-other-intracranial-organs/cranium.html">Cranium</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/brain-cranium-and-other-intracranial-organs/meninges.html">Home Emergency Cover</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/brain-cranium-and-other-intracranial-organs/nerves.html">Meninges</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/brain-cranium-and-other-intracranial-organs/other.html">Other</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/brain-cranium-and-other-intracranial-organs/vessels.html">Vessels</option>
+</optgroup>
+<optgroup label="Breasts">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/breasts/excision-biopsy-codes.html">Excision/biopsy codes</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/breasts/mastectomy.html">Mastectomy (excluding implant/reconstruction)</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/breasts/other.html">Other</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/breasts/reconstruction.html">Reconstruction</option>
+</optgroup>
+<optgroup label="Consultations, Simple Investigations and General Procedures">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/consultations-simple-investigations/consultations.html">Consultations</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/consultations-simple-investigations/medical-care.html">Medical Care</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/consultations-simple-investigations/simple-investigations.html">Simple Investigations</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/consultations-simple-investigations/simple-procedures.html">Simple Procedures</option>
+</optgroup>
+<optgroup label="Ear, nose and throat">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/ear-nose-and-throat/external-ear.html">External ear</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/ear-nose-and-throat/fibreoptic-endoscopic-procedures.html">Fibreoptic Endoscopic Procedures (GA or LA)</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/ear-nose-and-throat/inner-ear.html">Inner ear</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/ear-nose-and-throat/larynx-and-trachea.html">Larynx and trachea</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/ear-nose-and-throat/middle-ear-and-mastoid.html">Middle ear and mastoid</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/ear-nose-and-throat/nasal-sinuses.html">Nasal sinuses</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/ear-nose-and-throat/nose-and-nasal-cavity.html">Nose and nasal cavity</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/ear-nose-and-throat/throat.html">Throat</option>
+</optgroup>
+<optgroup label="Endoscopic GIT Procedures">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/endoscopic-git-procedures/endoscopic-git-procedures.html">Endoscopic GIT Procedures</option>
+</optgroup>
+<optgroup label="Eye and orbital contents">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/conjunctiva.html">Conjunctiva</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/cornea.html">Cornea</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/eyebrow-and-lid.html">Eyebrow and lid</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/general.html">General</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/globe-and-orbit.html">Globe and orbit</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/iris-and-anterior-chamber.html">Iris and anterior chamber</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/lacrimal-system.html">Lacrimal system</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/lens.html">Lens</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/muscles.html">Muscles</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/retina.html">Retina</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/sclera.html">Sclera</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/eye-and-orbital-contents/vitreous.html">Vitreous</option>
+</optgroup>
+<optgroup label="Face, Mouth, Salivary and Thyroid">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/face-mouth-head-and-neck/face-and-jaws.html">Face and Jaws</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/face-mouth-head-and-neck/lips.html">Lips</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/face-mouth-head-and-neck/mouth-cavity.html">Mouth Cavity</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/face-mouth-head-and-neck/neck.html">Neck</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/face-mouth-head-and-neck/palate.html">Palate</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/face-mouth-head-and-neck/salivary-glands.html">Salivary Glands</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/face-mouth-head-and-neck/teeth.html">Teeth</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/face-mouth-head-and-neck/thyroid-and-parathyroid-glands.html">Thyroid and Parathyroid Glands</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/face-mouth-head-and-neck/tongue.html">Tongue</option>
+</optgroup>
+<optgroup label="Female Reproductive Organs">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/female-reproductive-organs/cervix-uteri.html">Cervix Uteri</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/female-reproductive-organs/suspension.html">Suspension</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/female-reproductive-organs/uterus-adnexa.html">Uterus Adnexa</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/female-reproductive-organs/vagina-perineum.html">Vagina Perineum</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/female-reproductive-organs/vulva-labia.html">Vulva Labia</option>
+</optgroup>
+<optgroup label="Nuclear Medicine">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/nuclear-medicine/nuclear-medicine.html">Nuclear Medicine</option>
+</optgroup>
+<optgroup label="Pathology">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/pathology/chemical-pathology.html">Chemical Pathology</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/pathology/haematology.html">Haematology</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/pathology/histopathology.html">Histopathology</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/pathology/medical-microbiology.html">Medical Microbiology</option>
+</optgroup>
+<optgroup label="Radiology">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/angioplasty.html">Angioplasty</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/biopsy.html">Biopsy</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/dilatation.html">Dilatation</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/embolisation.html">Embolisation</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/gastrointestinal.html">Gastrointestinal</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/head-and-neck.html">Head and Neck</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/other.html">Other</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/spine.html">Spine</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/thrombolysis.html">Thrombolysis</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiology/urinary.html">Urinary</option>
+</optgroup>
+<optgroup label="Radiotherapy">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiotherapy/interstitial-radiotherapy.html">Interstitial Radiotherapy</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiotherapy/intracavity-radiotherapy.html">Intracavity Radiotherapy</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiotherapy/megavoltage-teletherapy.html">Megavoltage Teletherapy</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiotherapy/orthovoltage-radiotherapy.html">Orthovoltage Radiotherapy</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiotherapy/radioisotope-therapy.html">Radioisotope Therapy</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/radiotherapy/superficial-radiotherapy.html">Superficial Radiotherapy</option>
+</optgroup>
+<optgroup label="Skin and Subcutaneous Tissue">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/skin-and-subcutaneous-tissue/burns.html">Burns</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/skin-and-subcutaneous-tissue/grafts.html">Grafts</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/skin-and-subcutaneous-tissue/lesions-of-the-skin.html">Lesions of the Skin</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/skin-and-subcutaneous-tissue/repair.html">Repair</option>
+</optgroup>
+<optgroup label="Spine, spinal cord and peripheral nerves">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/spine-spinal-cord-and-peripheral-nerves/nerve-roots.html">Nerve Roots</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/spine-spinal-cord-and-peripheral-nerves/other-nerve-blocks.html">Other Nerve Blocks</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/spine-spinal-cord-and-peripheral-nerves/other-procedures.html">Other Procedures</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/spine-spinal-cord-and-peripheral-nerves/paraspinal-injections.html">Paraspinal Injections</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/spine-spinal-cord-and-peripheral-nerves/perpiheral-nerves.html">Perpiheral Nerves</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/spine-spinal-cord-and-peripheral-nerves/spinal-column-including-intervertebral-disc.html">Spinal Column Including Intervertebral Disc</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/spine-spinal-cord-and-peripheral-nerves/spinal-cord.html">Spinal Cord</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/spine-spinal-cord-and-peripheral-nerves/sympathetic-nerves.html">Sympathetic Nerves</option>
+</optgroup>
+<optgroup label="Thorax and Intra Thoracic Organs">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/bronchi-lungs-pluera.html">Bronchi Lungs Pluera</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/chest-wall.html">Chest Wall</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/fibreoptic-endoscopic-procedures.html">Fibreoptic Endoscopic Procedures</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/great-vessels.html">Great Vessels</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/heart-cardiac-surgery.html">Heart Cardiac Surgery</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/heart-cardiology.html">Heart Cardiology</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/mediastinum.html">Mediastinum</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/oesophagus.html">Oesophagus</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/others.html">Others</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/trachea.html">Trachea</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/thorax-and-intra-thoracic-organs/vats.html">Vats</option>
+</optgroup>
+<optgroup label="Urinary System and Male Reproductive Organs">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/urinary-system-and-male-reproductive-organ/bladder.html">Bladder</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/urinary-system-and-male-reproductive-organ/genitalia.html">Genitalia</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/urinary-system-and-male-reproductive-organ/kidney-renal-pelvis.html">Kidney Renal Pelvis</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/urinary-system-and-male-reproductive-organ/prostate.html">Prostate</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/urinary-system-and-male-reproductive-organ/ureter.html">Ureter</option>
+</optgroup>
+<optgroup label="Vascular System">
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/vascular-system/abdominal-vessels.html">Abdominal Vessels</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/vascular-system/head-and-neck.html">Head and Neck</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/vascular-system/ileo-femoral-vessels.html">Ileo Femoral Vessels</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/vascular-system/lymphatic.html">Lymphatic</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/vascular-system/non-specific.html">Non-Specific</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/vascular-system/thoracic.html">Thoracic</option>
+<option value="/health-insurance/practitioner-zone/online-fee-schedule/vascular-system/varicose-veins.html">Varicose Veins</option>
+</optgroup>
+</select>
+</div>
+</div>
+<div class="row noBorder">
+<input class="btn btn--primary right" name="Go" type="submit" value="Go"/>
+</div>
+</fieldset>
+</form>

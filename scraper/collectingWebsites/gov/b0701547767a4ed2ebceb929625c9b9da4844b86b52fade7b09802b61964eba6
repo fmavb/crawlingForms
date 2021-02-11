@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action="/email-signup" method="post">
+<input name="authenticity_token" type="hidden" value="TFZbT3qJnbirtI+YuwDmcar0o+jOu+i/ls3KdjFc2TO7yVecbMOuQht1PWJlUnmC2upliZAy6XZaf5evG+ocBw=="/>
+<input id="link" name="link" type="hidden" value="/transition"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" data-module="track-click" data-track-action="new_frequency" data-track-category="email_subscriptions" data-track-label="Brexit" type="submit">Continue</button>
+</form>

@@ -1,0 +1,66 @@
+<form action="/services/clinic/medocc/X95556/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Thoroughly unacceptable closure of my case&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I rang NHS 111 with concerns about a visual disturbance, which could have been minor (eg visual migraine) or an indicator of something more serious (eg TIA). I was told that Medocc would call me back within 2 hours.
+
+To be fair, I got a call almost instantly from Medocc - from an admin member of staff calling to check the information Medocc had received from NHS 111 and to ask one or two other questions. I forget, now, what those were but, so far, so good. It was good to know they'd received the referral and reassuring to know they were checking the details. The lady told me I would be referred to their medical team and someone from the medical assessment team would give me a call back.
+
+Then...nothing happened. I went to bed at 10pm, leaving my mobile in another room - as is recommended so that the blue light doesn't disrupt your sleep.
+
+I awoke this morning to find two voicemail messages from Medocc. The doctor sounded nice enough but I was stunned to find he had closed my case because I'd not answered either call, one of which was made at 22.14 (8.5 hours after my call to NHS 111) and the other at 22.54. That is completely unacceptable. 
+
+Firstly, 8.5 hours is in no way &quot;within 2 hours&quot;. It turns out that Medocc seems to be using the initial admin call to get round that particular target. I was told by NHS 111 this morning that Medocc had claimed, in closing my case, to have called me three times yesterday without answer. That is both untruthful and misleading.
+
+The 22.54 voicemail message from Medocc said I could ring NHS 111 and ask for my case to be re-opened if I still had concerns. This is also untrue. NHS 111 told me this morning that, as the case had been closed, it could not be re-opened but they could do a new (repeat) assessment and open a new case. My concerns are no less diminished so I had no choice but to go through the whole process all over again. What a waste of time - both mine and NHS 111's.
+
+I now wait to see if Medocc calls me - either way, I will be making a formal complaint.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-11-10T10:07:16Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;11&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;MedOCC&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;f3579cd9-a103-ea11-a811-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X95556&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHvjYt_Lsc7ifu05mKoAiJG2XyELu_XcWcZ3eW6AJ8b0eafJ-V_MOiYRQAM4RZ3lfwYTWkWUzqtFDxx91DmjxD7-jsJOrpLNEka1fhk_itc1VmOZx9zE50X5px-B-ibOoo"/></form>

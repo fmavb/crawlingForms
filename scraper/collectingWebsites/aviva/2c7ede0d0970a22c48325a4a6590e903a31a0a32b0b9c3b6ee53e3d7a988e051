@@ -1,0 +1,42 @@
+<form action="/access/doLogin.do" autocomplete="off" id="loginForm" method="post"> <fieldset>
+<legend>Log in form</legend>
+<div class="pod">
+<h2 class="loginHeading"><span>Log in</span></h2>
+<div class="loginRow clearFix">
+<label class="strongLabel" for="username">Username</label>
+<p class="recoverDetails"><a href="/MyInitiative/ForgottenYourDetails/CheckEmail">I've forgotten</a></p>
+<div class="clear inputRow">
+<input id="username" maxlength="50" name="username" type="text" value=""/>
+<span class="field-validation-valid" id="username_validationMessage"></span>
+<div class="loginHelp"><ul><li>This might be your email address</li></ul></div>
+</div>
+</div>
+<div class="loginRow checkboxInline clearFix">
+<input id="RememberUsername" name="RememberUsername" type="checkbox" value="true"/><input name="RememberUsername" type="hidden" value="false"/>
+<label class="jsShow" for="RememberUsername">Remember me</label>
+</div>
+<div class="loginRow clearFix">
+<label class="strongLabel" for="password">Password</label>
+<p class="recoverDetails"><a href="/MyInitiative/ForgottenYourDetails/Resend">I've forgotten</a></p>
+<div class="clear inputRow">
+<input id="password" maxlength="50" name="password" type="password"/>
+<span class="field-validation-valid" id="password_validationMessage"></span>
+</div>
+</div>
+<input id="HOSTNAME" name="HOSTNAME" type="hidden" value="retirementtoolsaccount"/>
+<input id="URL" name="URL" type="hidden" value="direct"/>
+<input id="SetUsernameForRedirectsUrl" name="SetUsernameForRedirectsUrl" type="hidden" value="/MyInitiative/Public/SetUsernameForRedirects"/>
+<div class="loginRow clearFix">
+<input class="button yellow plain center" id="loginButton" name="loginButton" type="submit" value="Log in"/>
+<div class="loginSpinner hidden"><img alt="Please wait" src="/MyInitiative/Content/images/global/spinner-small.gif"/></div>
+</div>
+<h2 class="registerHeader"><span>Register</span></h2>
+<div class="podContent noBorder">
+<p class="registrationText">To save your progress and check your details at any time, create a free Aviva account</p>
+<p class="registerButton">
+<a class="button blue" href="/MyInitiative/GuestRegistration/CreateAccount">Register</a>
+</p>
+</div>
+</div>
+</fieldset>
+</form>

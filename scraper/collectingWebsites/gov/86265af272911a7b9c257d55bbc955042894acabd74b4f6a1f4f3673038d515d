@@ -1,0 +1,39 @@
+<form accept-charset="UTF-8" action="/email-signup/confirm" data-module="track-email-alert-signup-choices" data-track-action="new_topic" data-track-category="email_subscriptions" method="get">
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-0" name="topic" type="radio" value="/housing-local-and-community/land-registration-business-mortgage-services-mortgage-services"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-0">Mortgage services</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-1" name="topic" type="radio" value="/housing-local-and-community/land-registration-business-mortgage-services-spatial-data"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-1">Spatial data</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-2" name="topic" type="radio" value="/housing-local-and-community/land-registration-business-mortgage-services-ownership-verification"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-2">Ownership verification </label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-3" name="topic" type="radio" value="/housing-local-and-community/land-registration-business-mortgage-services-risk-management"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-3">Risk management</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-4" name="topic" type="radio" value="/housing-local-and-community/land-registration-business-mortgage-services-conveyancing-services"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-4">Conveyancing services </label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-5" name="topic" type="radio" value="/housing-local-and-community/land-registration-business-mortgage-services-property-portfolio-management"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-5">Property portfolio management </label>
+</div>
+<div class="govuk-radios__divider">or</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-7" name="topic" type="radio" value="/housing-local-and-community/land-registration-business-mortgage-services"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-7">Business and mortgage services (all topics)</label>
+</div>
+</div>
+</fieldset>
+</div>
+<input id="link" name="link" type="hidden" value="/housing-local-and-community/land-registration-business-mortgage-services"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

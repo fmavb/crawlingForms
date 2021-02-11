@@ -1,0 +1,8 @@
+<form class="search-form" method="GET" name="searchFormVitamin">
+<ul class="tabs">
+<li><input id="byName" name="stype" type="radio" value="vitamin"/><label for="byName">Vitamins &amp; Supplements</label></li>
+<li><input checked="" id="byCondition" name="stype" type="radio" value="condition"/><label class="label-selected" for="byCondition">Conditions</label></li>
+</ul>
+<div class="form-content"><header><h3>Search Conditions</h3></header><div class="search-input"><input aria-label="Enter search terms" autocomplete="off" class="search-input-box" id="vitamin-query" maxlength="100" name="query" placeholder="e.g. depression" type="text"/><div class="vertical-bar"></div><button aria-label="Search" class="search-box-submit" data-metrics-link="submit" type="submit"></button></div>
+</div>
+</form>

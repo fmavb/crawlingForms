@@ -1,0 +1,68 @@
+<form action="/services/hospital/the-royal-london-hospital-for-integrated-medicine/X1820/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Receptionist in A&amp;amp;E - 13/03/19 around 1030am&lt;/Title&gt;
+    &lt;ScreenName&gt;Steph Cartwright&lt;/ScreenName&gt;
+    &lt;CommentText&gt;While trying to discover which ward my son had been admitted to from A&amp;amp;E I was assisted by a very kind and efficient A&amp;amp;E receptionist. Unfortunately, while waiting for her to come back to me, I was witness to the most appalling, rude and hostile behaviour of the other receptionist on duty.  
+
+This receptionist barked at anyone approaching the A&amp;amp;E reception desk to 'wait behind the red line to be called'.  Fair enough, but the 'red line' is an extremely worn sticker on the floor, about 10 feet away, and not very obvious.  There are also politer ways of saying this. Maybe a large sign above reception would also reduce the number of times this has to be requested by the receptionist?
+
+I saw this lady deal with three separate patients and was dismayed by every interaction. 
+
+The first patient was questioned, tersely and impolitely, about his condition and told that an ongoing painful stomach condition should be seen by his GP.  She was so hostile to the man that he in turn changed from polite and friendly to hostile towards her, threatening to 'go to another hospital'.  Her disrespectful attitude was unfortunately the cause of his then angry response. Even if he shouldn't have presented at A&amp;amp;E there are surely better ways of handling/explaining this?
+
+The second patient did not have English as a first language.  He was extremely polite to the receptionist but didn't understand or catch every word she said, and had to keep asking her to repeat things.  This she did, by repeating one word, the same word, several times (with poor diction) and not looking at him once during the exchange.  It was so painful to listen to that I almost leaned over to him to explain properly what she meant. I was quite ashamed that a visitor to our country could be treated in this way. 
+
+A third patient, obviously in pain, crying and clutching her partner's arm, stepped forward to be seen and was predictably told to 'wait behind the red line'.  They didn't move and the receptionist proceeded to ignore them, carrying on with her typing. I appreciate that it is imperative to record the previous patient's notes accurately, but a simple &quot;I'm sorry - I'll be with you in just a minute&quot;, including eye contact, would have been the least she could have said to these people who were obviously in great distress.
+
+I was quite shaken by witnessing this behaviour and wondered whether the receptionist had just become so desensitised to her environment that she couldn't help the way she was or was simply worn out by her job. Either way, this role is surely for someone who has immense patience and empathy, as well as a cool head because of the nature of the work.
+
+As mentioned, the receptionist who assisted me was lovely, polite and incredibly helpful.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-03-18T14:31:26.85Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;3&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;The Royal London Hospital For Integrated Medicine&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;7fdba2ba-44d5-e911-a812-000d3a7ed518&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1820&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHenHLVxCO6lTMW_Zo8mi3HY96uF7OukDPfXm3C363xyDIXma_8zRJC-ZPaHzi5QqBtnsbIgD9B6nS4p8UCv4RMPyqUriF0Jt2rotsmcrGzRyTI0o3FUQQjnyRTYYJzYPU"/></form>

@@ -1,0 +1,62 @@
+<form action="/services/hospital/pilgrim-hospital/X1271/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;The care they All gave&lt;/Title&gt;
+    &lt;ScreenName&gt;Malmar&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Today I had an appointment with Ultrasound and Ward 1B (Women's Health Ward). I have only been living in Lincolnshire for the last two years, having come from London so I was not expecting a very good experience.  
+However I was completely wrong in my thinking. My memory for names is not wonderful so I can only refer by department.  
+I first went to have an ultrasound. On arrival I waited no more than 5 minutes. The Sonographer I saw was absolutely lovely. She explained everything to me and made me feel so comfortable and the scan was over in no time. She then guided me to Ward 1B (Women's Health Ward).  
+I arrived at Ward 1B and the first person I met was the receptionist. She made me feel very welcome which I have to say is not something I have ever been made to feel in an NHS hospital in London.  
+After about 10 minutes I was called in by the Nurse Practitioner. What a delight she was. She took my history, explained everything to me and made it quite clear that should I be at all uncomfortable with any of the procedure it was my call to stop it and it would be stopped.  
+We proceeded to another room where there were two other members of staff. All through the procedure everything was explained and although slightly uncomfortable it was quick and painless. They were all very chatty and happy people who made and they all made me feel very safe and in good hands. To cap it all, one of the staff had a cup of tea waiting for me at the reception when the whole process was completed. (Lifesaver)!  
+All I can say is that if a visit to a hospital can be described as pleasurable then this was certainly the occasion at this hospital. I know that the staff in hospitals are very busy but to be made to feel that I was the only patient around with no rushing and explanations for everything and for the care they ALL gave is something that all patients should feel when visiting a hospital and for which I am very grateful.  
+WELL DONE ULTRASOUND AND WELL DONE ESPECIALLY WARD 1B (WOMEN'S HEALTH WARD) AND THANK YOU.  
+If whoever reads this is able to pass my thanks on to the staff I would be grateful.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-12-10T19:40:00Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;12&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Pilgrim Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;178c0c7a-1f3b-eb11-a813-0022483ee631&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1271&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGWnt42JMzH4AgY3_AqOWK8e4x3xDAB--JPccdjZqq1VEQjjSjrmamxy-fPoed2MeaJQD86TFLBA76ziEUoH718ximPtN-T9-VwSHe0ASXlVp8sycRFIM68hmk3aFt9Xf8"/></form>

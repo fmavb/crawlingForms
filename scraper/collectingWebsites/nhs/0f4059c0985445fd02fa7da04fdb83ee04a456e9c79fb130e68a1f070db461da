@@ -1,0 +1,55 @@
+<form action="/services/hospital/musgrove-park-hospital/X461/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;My Septoplasty&lt;/Title&gt;
+    &lt;ScreenName&gt;Barrie Leete&lt;/ScreenName&gt;
+    &lt;CommentText&gt;After many years of needing help with my breathing, at last I was referred to see the consultant. Sadly I had been told by one of my GPs that I was wasting time and even if he referred me I wouldn't even get a reply. However when I was seen by the consultant, he immediately said I should have surgery because it was bad. I was thrilled. Within about two months I had the appointment. I arrived with my wife at the Day Surgery at 1.00pm and was soon seen by the anaesthetist and the surgeon. They were both really nice people and seemed friends from the start. At 2.45pm I walked to the theatre, answered the general questions and watched with interest as the white anaesthetic was given. The last I remember was saying &quot;I feel a bot whoosy now&quot; That was it. 
+Later as I came round, I asked the nurse if she would phone my wife and I was told I was still in recovery. Soon I was taken to the ward and my wife came in. The nurse made sure I was OK. I was visited by the anaesthetist and the surgeon. The anaesthetist told me it was bad and so much needed to be done. I was feeling OK with pain about 4 out of 10. I was given some coffee and toast and felt pretty good considering. I had a drip dressing under my nose and both my nostrils were completely blocked, I asked if we could have some to take home, we were given two which wasn't enough. My wife and daughter went to chemists but couldn't get any. In the end, we had to make our own which I still need to use at night four days after the surgery. I am still blocked but improving. I can't praise enough for the treatment I was given. I am now pain free add looking forward to being able to breathe properly in time. My wife asked me if I would still have the operation knowing about the discomfort after. I certainly would. All in all it was fantastic and I am so thrilled it has been done and that it was needed to be done too. Thank you folk at Musgrove ENT for looking after this 74 year old and treating me as a friend.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-02-18T10:16:09.01Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;2&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Musgrove Park Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;37db4d45-44d5-e911-a812-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X461&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamF-TRz1iZk0sMY2znLK94yw-DF0JBmkvlKFhc-uM2L5uQGGzbpqzAf0SfXW2A2kmoLMQZS4YxAuMrv4rTnjqXZK3Tsl-H2K3YaJ-UUXqCX7-0vwVMfVrrqJuU7aKL4i4n0"/></form>

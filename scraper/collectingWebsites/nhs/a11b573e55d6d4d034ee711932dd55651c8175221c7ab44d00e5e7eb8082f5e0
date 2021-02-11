@@ -1,0 +1,54 @@
+<form action="/services/hospital/stepping-hill-hospital/X1760/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Staff make you feel comfortable, safe and reassured &lt;/Title&gt;
+    &lt;ScreenName&gt;Danielle Heath&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Today I attended the Endoscopy department for a colonoscopy. From my arrival here, I was greeted with a warm welcome helped to calm my nerves. Once I was preparing for the procedure, I was seen by two nurses, both whom were very reassuring and had a fab sense of humour that made me forget my anxiety about the coming procedure. The male nurse that put my cannula in (Muwahaha) was amazing, being well aware of my apprehension about the procedure not only did he manage to get the cannula in first time (unlike my previous experiences), he sat with me for a short while afterwards chatting to me like an old friend to ease my nerves. The Endoscopy nurse doing my procedure came to chat with me and fill out some paperwork, and she was so caring and empathic that I knew I would be in good hands with her. During the procedure the staff were AMAZING. They made sure that I was comfortable and checked with me how I was throughout. After the procedure I was taken care of by a bunch of lovely ladies in another room, where they made me a cup of tea and helped me to get cleaned up. They checked on me regularly, and they seemed to work so well together. The Endoscopy staff at Stepping Hill made me feel so at ease, and their sense of humour along with their empathic and caring approach towards me and their other patients helped this experience be WAY less scary or painful than I imagined it would be. The environment that they create for their patients is lovely and it made me feel safe and cared for. Thank you, you made such a weird experience bearable, and for anybody worrying about attending here for a colonoscopy, the staff will look after you. &lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-09-22T18:00:54Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;9&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Stepping Hill Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Diagnostic Endoscopy&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;e009fa8d-fdfc-ea11-a813-0022483ee631&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1760&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHZ1f5jvGmTjjNpJPdh1Jkyz8ignBBz_w733L9yPvKLutJwHudH87fUF50rZ0d613LphVUOZYDhbiHQGjGd0A27FJuLX5uqDczNacNF4WMBkVuOZDsgHBCsPgfbUfoNKT4"/></form>

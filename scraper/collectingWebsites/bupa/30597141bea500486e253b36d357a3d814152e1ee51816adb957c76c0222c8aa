@@ -1,0 +1,64 @@
+<form action="/api/sitecore/BusinessHealthInsuranceGetQuoteStep1" class="frm-business-detail" id="frmBusinessDetail" method="post"> <div class="form-title">
+<input id="BusinessDetails_CampaignCode" name="BusinessDetails.CampaignCode" type="hidden" value="E136"/>
+<h3>2. Business Details</h3>
+<p class="subtitle hidden-all">We just need to take some details about your business to help generate your guide price.</p>
+</div>
+<div class="form-body hidden-all">
+<div class="form-group">
+<label for="BusinessName">
+                    Business Name
+                    <span class="bupa-tooltip">
+</span>
+</label>
+<input class="input-field form-control required pattern" data-val="true" data-val-required="Business name" data-val-validate="Please enter a valid business name" data-val-validate-regex="^[a-zA-Z0-9.@\s,&amp;-]+$" id="BusinessName" maxlength="40" name="BusinessDetails.BusinessName" placeholder="Business name" tabindex="7" type="text" value=""/>
+<span class="bupa-validation-icon"></span>
+<p class="validation-msg"></p>
+</div>
+<div class="form-group">
+<label for="PostCode">
+                    Postcode
+                        <span class="bupa-tooltip">
+<img alt="Tool Tip Icon Alt" src="https://assets.bupa.co.uk/~/media/images/global/components/common/icons/i-icon.svg"/>
+<span class="bupa-tooltip-text">
+                                The location of your business will affect the price of your cover.
+                            </span>
+</span>
+</label>
+<input class="input-field form-control required pattern postcode" data-val="true" data-val-required="Postcode" data-val-validate="Please enter a valid postcode" data-val-validate-ajax="postcode" data-val-validate-regex="^(\s*)[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]? ?[0-9][A-Za-z]{2}\s*$" id="PostCode" maxlength="40" name="BusinessDetails.Postcode" placeholder="Postcode" tabindex="8" type="text" value=""/>
+<span class="bupa-validation-icon"></span>
+<p class="validation-msg"></p>
+</div>
+<div class="form-group">
+<p class="field-title">Please select the total number of employees in your company</p>
+<label for="CompanySize">
+                    No of Employees
+                </label>
+<div class="select-wrap">
+<select class="input-field form-control required" data-val="true" data-val-required="Number of employees" id="CompanySize" name="BusinessDetails.CompanySize" tabindex="9"><option value="">Company size</option>
+<option value="10">2 to 10</option>
+<option value="50">11 to 50</option>
+<option value="250">51 to 250</option>
+<option value="251">Over 250</option>
+</select> <span class="bupa-validation-icon"></span>
+</div>
+<p class="validation-msg"></p>
+</div>
+<div class="form-group policy-check">
+<p class="field-title">Do you have cover with another provider?</p>
+<label class="container">
+                    Yes
+                    <input data-val="true" data-val-required="The AlreadyHaveCover field is required." id="CoverYes" name="BusinessDetails.AlreadyHaveCover" tabindex="10" type="radio" value="true"/>
+<span class="checkmark"></span>
+</label>
+<label class="container">
+                    No
+                    <input checked="checked" id="CoverNo" name="BusinessDetails.AlreadyHaveCover" tabindex="11" type="radio" value="false"/>
+<span class="checkmark"></span>
+</label>
+<p class="validation-msg"></p>
+</div>
+<div class="cta-wrap">
+<button class="smc-continue step2 btn" data-analytics-name="business-details" data-next-analytics-name="employee-details" disabled="disabled" showchevron="true" type="button">Continue</button>
+</div>
+</div>
+</form>

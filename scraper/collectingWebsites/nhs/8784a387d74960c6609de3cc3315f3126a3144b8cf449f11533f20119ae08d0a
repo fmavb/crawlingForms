@@ -1,0 +1,18 @@
+<form action="/service-search/find-a-dentist" id="service-search-form" method="post" name="ServiceSearchForm">
+<input data-val="true" data-val-required="The ServiceId field is required." id="ServiceId" name="ServiceId" type="hidden" value="DEN"/>
+<input id="UsersLatitude" name="UsersLatitude" type="hidden" value=""/>
+<input id="UsersLongitude" name="UsersLongitude" type="hidden" value=""/>
+<div class="nhsuk-form-group">
+<label class="nhsuk-label" for="Location">
+                    Enter a town, city or postcode in England
+                </label>
+<input class="nhsuk-input nhsuk-input--width-20" id="Location" name="Location" type="text" value=""/>
+</div>
+<button class="nhsuk-button nhsuk-u-margin-bottom-4" type="submit">Search</button><br/>
+<button class="nhsuk-button nhsuk-button--secondary geo-locate--button nhsuk-u-margin-bottom-7">Use your location</button>
+<div class="geo-locate">
+<p class="geo-locate--searching nhsuk-u-margin-bottom-7"><img alt="" src="/service-search/dist/images/loading.gif"/>We are searching for your location</p>
+<p class="geo-locate--error nhsuk-u-margin-bottom-7">We can't find your location. Please try again or enter a town, city or postcode.</p>
+<p class="geo-locate--denied nhsuk-u-margin-bottom-7">You have not allowed us to use your location. You can change this in your browser settings.</p>
+</div>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8DHkstknGF1CsJJKtkP9XgqYzyRcJCEMQVMOSInYCGcfwF8d9S8ZFRtvKH5nPCe4pE36K9Wi9PwRFyblW9VM5uPcvhJo3oHX-hOKcsRmMAjcXUs50mIGEzrS5jnR5PPxNneIJzPGqIMEFtBYWwkH4fA"/></form>

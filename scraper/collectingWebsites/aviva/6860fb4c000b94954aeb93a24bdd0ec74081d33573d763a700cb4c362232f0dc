@@ -1,0 +1,49 @@
+<form action="" method="post">
+<fieldset class="pod formPod">
+<legend>Feedback</legend>
+<input name="csrfmiddlewaretoken" type="hidden" value="vP38fgT6DCNjuUMH72htOLywjeyMGJsRMMwgzM3T4w3zA3YksfWfUvgePsEPeLjx"/>
+<h3>Feedback</h3>
+<div class="row">
+<label for="id_Step1_hospitalZoneImportantAnnouncements-firstName">First name<span class="required"> *</span> :</label>
+<div>
+<input id="id_Step1_hospitalZoneImportantAnnouncements-firstName" name="Step1_hospitalZoneImportantAnnouncements-firstName" required="" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_hospitalZoneImportantAnnouncements-lastName">Last name<span class="required"> *</span> :</label>
+<div>
+<input id="id_Step1_hospitalZoneImportantAnnouncements-lastName" name="Step1_hospitalZoneImportantAnnouncements-lastName" required="" type="text"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_hospitalZoneImportantAnnouncements-email">Tell us your email address<span class="required"> *</span> :</label>
+<div>
+<input id="id_Step1_hospitalZoneImportantAnnouncements-email" name="Step1_hospitalZoneImportantAnnouncements-email" required="" type="email"/>
+</div>
+</div>
+<div class="row">
+<label for="id_Step1_hospitalZoneImportantAnnouncements-feedbackType">Feedback Type<span class="required"> *</span> :</label>
+<div>
+<select id="id_Step1_hospitalZoneImportantAnnouncements-feedbackType" name="Step1_hospitalZoneImportantAnnouncements-feedbackType" required="">
+<option selected="selected" value="">Please Select…</option>
+<option value="Bill Payment">Bill Payment</option>
+<option value="General Enquiry">General Enquiry</option>
+<option value="Hospital Zone">Hospital Zone</option>
+<option value="Invoicing">Invoicing</option>
+</select>
+</div>
+</div>
+<div class="row textArea">
+<label for="id_Step1_hospitalZoneImportantAnnouncements-yourComments">Your comments<span class="required"> *</span> :</label>
+<div>
+<textarea cols="40" id="id_Step1_hospitalZoneImportantAnnouncements-yourComments" name="Step1_hospitalZoneImportantAnnouncements-yourComments" required="" rows="10">
+</textarea>
+</div>
+</div>
+<div class="podContent">
+<input class="btn btn--primary right" name="event(next_page)" type="submit" value="Submit"/>
+</div>
+<input name="xen_page_vector" type="hidden" value="1"/>
+<input name="xen_vector_sec_hash" type="hidden" value=""/>
+</fieldset>
+</form>

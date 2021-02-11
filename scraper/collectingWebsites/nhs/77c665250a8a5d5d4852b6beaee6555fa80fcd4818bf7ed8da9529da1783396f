@@ -1,0 +1,61 @@
+<form action="/services/hospital/guys-hospital/X2189/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Stressful experience&lt;/Title&gt;
+    &lt;ScreenName&gt;cancergirlruns&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I arrived for my appointment with plenty of time as I was aware that staff needed to prepare the right dose of tracer to use for my particular scan; despite this my appointment was over half an hour late without any explanation or warning that the slots were running late. Whilst I understand this is common there should be more respect of patients' time; I had left my home at 7:30 am to take a two and a half hour train ride plus the journey from Waterloo Station to the Cancer Centre to be there on time, I expected at least a warning that appointments were running late.  
+I was met by a radiographer who explained everything that was going to happen, we were in a private room with the door closed, they then asked whether I had any questions, I said I did and as I proceeded to ask questions about exposure to radioactive material and how to make sure I didn't come into contact with other people whom may be harmed, I also wanted to know whether it was safe to have sex and how long I had to wait before it was safe to do so. At that precise moment the door to the room swung open and in strolled another member of staff who did not identify themselves, did not ask whether it was ok to enter, did not knock before entering the room and walked in between the radiographer and myself without even stopping to realise that we were in the middle of a conversation. I explained that I was not comfortable with what had just happened and that I found it intrusive that they had simply waked in unannounced. At that point and showing contempt for my comments they said &amp;amp;quot;oh don't mind me I am just one of the other radiographers&amp;amp;quot;, they said their name (which unfortunately I did not capture as I was so shocked). I repeated that I was not comfortable with carrying on with the conversation as they had just walked in in the middle of what for me was quite a sensitive conversation. They then proceeded to ask with disdain &amp;amp;quot;so are you saying you'd rather I left the room?&amp;amp;quot; to which I said yes.  
+This experience left me feeling really stressed out at an already very anxious time. I am a stage 4 Neuroendocrine Cancer patient; scans and hospital appointments are not pleasant or straightforward at best of times, I had travelled a long way to get there and made every effort to make it on time. I highly value what NHS staff do for me and I am forever grateful for their skills, their knowledge and dedication, but on this occasion I felt as if they had forgotten they were dealing with a human being.  
+[Very unhappy with 'Waiting time']  
+  
+[Very unhappy with 'Staff attitude']  
+  
+[Unhappy with 'Seeing the whole me']&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-04-29T22:57:00Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;4&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Guy's Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;215a7365-45d5-e911-a812-000d3a7ed30d&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X2189&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHYVDGOFolvT0t3VYfB-O4JSUhlIBjVa3iMmuELYRzbvVRVQgkXuALdCBVosFnhXEpxtsByRz5vCCZNEtrfwbecVfj5jNRRUHTVqYRIgl1PJZi40MyY8yqB4eF5p6TxXt4"/></form>

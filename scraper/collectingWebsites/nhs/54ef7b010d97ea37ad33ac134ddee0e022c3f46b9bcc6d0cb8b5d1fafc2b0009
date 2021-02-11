@@ -1,0 +1,61 @@
+<form action="/services/hospital/queen-elizabeth-hospital-birmingham/X1655/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Cardiology/Ward 304&lt;/Title&gt;
+    &lt;ScreenName&gt;Susan&lt;/ScreenName&gt;
+    &lt;CommentText&gt;What a great hospital!
+ I have been a patient here for approx 5 years 
+Last month within 20mins of arrival on the ward for surgery  I was seen &amp;amp; prepared for heart ablation by a nurse &amp;amp; also seen by cardiologist who talked through once again the procedure &amp;amp; after care.  The standard of care on this ward &amp;amp; the cardiology  clinic is of the highest standard including lovely staff involved in the cardio conversions.
+Within 2 days of coming home at a weekend follow-up appointments &amp;amp; full report had been sent to myself + GP.
+a lovely arrythmia nurse called to check how I was doing and talked me through the after effects of procedure &amp;amp; adjusted my medication.
+Despite being a very busy ward &amp;amp; caring for some seriously ill patients there was always someone answering the call button within a short time.  
+I know of folk in other parts of the country who are waiting months for the surgery &amp;amp; procedures done here.
+Thank you QE - you have every reason to be proud of the standards you strive to maintain.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-11-12T10:50:32Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;10&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Queen Elizabeth Hospital Birmingham&lt;/OrganisationName&gt;
+    &lt;Department&gt;Cardiology&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;b4431a3e-3a05-ea11-a811-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1655&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGZxIvLjcDvINe_urNm6d9bgDrqVKODdOWNuTirixgrf767LR1sC-kTNQVzCeo7mOKqUOMoeuZjVpIaLy9FavFzNYi13uJeiHogh1zVhy7aaKTjdoh8g8ppDl_Z4Uf_2W8"/></form>

@@ -1,0 +1,44 @@
+<form action="/MyAccount/Registration/Resend" method="post"> <fieldset>
+<legend>Reset your password</legend>
+<div class="l-content-container">
+<div class="m-form-row">
+<p class="a-heading a-heading--3 a-heading--light">Just enter your username and date of birth.</p>
+</div>
+<div class="m-form-row m-form-row--has-explanatory-text-link">
+<label class="a-label" for="Username">Username</label>
+<p class="m-form-row__explanatory-text-link"><a href="/MyAccount/Registration/CheckEmail">Forgot Username</a></p>
+<div class="m-form-row__content">
+<span class="field-validation-valid field-validation-valid m-form-row__error-message" data-valmsg-for="Username" data-valmsg-replace="true"></span>
+<input aria-required="True" autocomplete="off" class="a-textbox" data-val="true" data-val-required="Please enter your username" id="Username" maxlength="50" name="Username" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="start-date">Date of birth</label>
+<div class="m-form-row__content">
+<p class="clear">We will use your date of birth to verify your identity</p>
+<span aria-required="True" class="field-validation-valid field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirth" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group">
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="DateOfBirth_Day" id="aria-day">Day</label>
+<input aria-describedby="date_validation_message" aria-labelledby="aria-day" aria-required="True" class="a-textbox a-textbox--2-character" data-di-unmask-field="" id="DateOfBirth_Day" maxlength="2" name="DateOfBirth.Day" placeholder="DD" role="textbox" type="text" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="DateOfBirth_Month" id="aria-month">Month</label>
+<input aria-describedby="date_validation_message" aria-labelledby="aria-month" aria-required="True" class="a-textbox a-textbox--2-character" data-di-unmask-field="" id="DateOfBirth_Month" maxlength="2" name="DateOfBirth.Month" placeholder="MM" role="textbox" type="text" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="DateOfBirth_Year" id="aria-year">Year</label>
+<input aria-describedby="date_validation_message" aria-labelledby="aria-year" aria-required="True" class="a-textbox a-textbox--4-character" data-di-unmask-field="" id="DateOfBirth_Year" maxlength="4" name="DateOfBirth.Year" placeholder="YYYY" role="textbox" type="text" value=""/>
+</li>
+</ul>
+</div>
+</div>
+<div class="m-form-row">
+<div class="m-form-row__content">
+<input name="__RequestVerificationToken" type="hidden" value="L0zRLhJiqHQ6jip7SLm6Uu85ISNT5PqVDtY84fMfV2qlvCPz_eGciqNFt6Ynyxb80m5Gg-ht4NNm65jUT_6NhZJbN4I1"/>
+<input class="a-button a-button--primary" id="ResetPassword" name="SubmitButton" type="submit" value="Send"/>
+</div>
+</div>
+</div>
+</fieldset>
+</form>

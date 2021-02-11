@@ -1,0 +1,30 @@
+<form action="/myfuture/ExpertsShortlist/ExpertsShortlistHome" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="2GyRVWsUQBlJu646dmn0DE3_RjjGBHV9T-DQf92FpN8g4nL5CgCJQt3BcUBeldIBeATQzBS6UCxli9T8mOHTyDmA0sM1"/><div class="pod noBotGap blue clearLeft podColumns podColumns2">
+<h2>Sector type</h2>
+<div class="podContent noBorder">
+<div class="podColumn">
+<select class="fullWidth qa-sector-type-dropdown" data-val="true" data-val-required="This field is required" id="sectorTypeSearchItem" name="SelectedSectorType"><option value="">Choose a sector type</option>
+<option value="All Sectors">All Sectors (72 funds)</option>
+<option value="Asia Pacific Equities">Asia Pacific Equities (4 funds)</option>
+<option value="Corporate Bonds">Corporate Bonds (8 funds)</option>
+<option value="Emerging Market Equities">Emerging Market Equities (3 funds)</option>
+<option value="European Equities">European Equities (6 funds)</option>
+<option value="Flexible Bond">Flexible Bond (8 funds)</option>
+<option value="Global Bonds">Global Bonds (1 fund)</option>
+<option value="Global Equities">Global Equities (6 funds)</option>
+<option value="Global High Yield">Global High Yield (3 funds)</option>
+<option value="Japanese Equities">Japanese Equities (3 funds)</option>
+<option value="Mixed Asset">Mixed Asset (9 funds)</option>
+<option value="Target/Absolute Return">Target/Absolute Return (6 funds)</option>
+<option value="UK Equity">UK Equity (14 funds)</option>
+<option value="US Equities">US Equities (1 fund)</option>
+</select>
+</div>
+<div class="podColumn">
+<input class="button yellow searchButton qa-fund-go" data-qa-button="submitForm" type="submit" value="Go"/>
+</div>
+<div class="qa-sector-val-msg">
+<span class="field-validation-valid" data-valmsg-for="SelectedSectorType" data-valmsg-replace="true"></span>
+</div>
+</div>
+</div>
+</form>

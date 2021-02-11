@@ -1,0 +1,255 @@
+<form action="/health-assessments/postFormsData" autocomplete="off" class="form" data-isajax="true" id="request-booking" method="post">
+<input name="__RequestVerificationToken" type="hidden" value="ZmNZWphTY4J1KfaPSbMVyy4CvM6DT8II0Xd1hjztNbru7U6Nu2uX0RNMz-PYPY73tEP0TEqBEsLCZaMMG5AMsOxATNdByTLJqJO0SpMA_yc1"/>
+<input id="formTitle" type="hidden" value="request-booking"/>
+<input class="field forminput hidden-field multi-field-validator" id="hidEnquiryPreferedClinic" name="EnquiryPreferedClinic" type="hidden" value="Wirral Health Centre"/>
+<input class="field forminput hidden-field multi-field-validator" id="hidEnquirySource" name="EnquirySource" type="hidden" value="Health Assessment Portal"/>
+<input class="field forminput hidden-field multi-field-validator" id="hidEnquiryType" name="EnquiryTypeName" type="hidden" value="Request Booking"/>
+<input class="field forminput hidden-field multi-field-validator" id="hidEnquiryPageName" name="EnquiryPageName" type="hidden" value="Wirral Health Centre"/>
+<input class="field forminput hidden-field multi-field-validator" id="hidProviderID" name="ProviderID" type="hidden" value="183373"/>
+<div class="form-table">
+<div class="table-heading">
+<h3>Personal details</h3>
+</div>
+<div class="row no-error">
+<label for="Title"> Title *</label>
+<div class="field-container">
+<div class="dd-container dd-small">
+<input class="field forminput populated hidden-field" data-invalid="Please select a title from the drop down list" data-regex="" data-required="Please select a title from the drop down list" id="Title" name="Title" type="text" value=""/>
+<div class="dropdown dropdown-container" id="ddTitle">
+<button class="dropdown-toggle form-dropdown search-filter-dropdown form-button select-desktop" data-input-id="Title" data-toggle="dropdown" id="titleMenu" type="button">
+<span class="selected-text">Title</span>
+<span class="caret"></span>
+</button>
+<ul aria-labelledby="dLabel" class="dropdown-menu select-desktop" role="menu">
+<li value="Mr"><a option-value="1" role="menuitem" tabindex="-1">Mr</a></li>
+<li value="Mrs"><a option-value="2" role="menuitem" tabindex="-1">Mrs</a></li>
+<li value="Ms"><a option-value="3" role="menuitem" tabindex="-1">Ms</a></li>
+<li value="Miss"><a option-value="4" role="menuitem" tabindex="-1">Miss</a></li>
+<li value="Dr"><a option-value="5" role="menuitem" tabindex="-1">Dr</a></li>
+<li value="Other"><a option-value="6" role="menuitem" tabindex="-1">Other</a></li>
+</ul>
+<select class="dropdown-toggle form-dropdown search-filter-dropdown form-button select-mobile" data-input-id="Title" data-toggle="dropdown" id="titleMenu">
+<option disabled="" selected="" value="">Title</option>
+<option value="Mr"><a option-value="7" role="menuitem" tabindex="-1">Mr</a></option>
+<option value="Mrs"><a option-value="8" role="menuitem" tabindex="-1">Mrs</a></option>
+<option value="Ms"><a option-value="9" role="menuitem" tabindex="-1">Ms</a></option>
+<option value="Miss"><a option-value="10" role="menuitem" tabindex="-1">Miss</a></option>
+<option value="Dr"><a option-value="11" role="menuitem" tabindex="-1">Dr</a></option>
+<option value="Other"><a option-value="12" role="menuitem" tabindex="-1">Other</a></option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<label for="FirstName">First name *</label>
+<div class="field-container">
+<input class="field forminput md populated xlrg" data-invalid="Please enter a valid name." data-regex="^[a-zA-Z-,'&amp; ]*$" data-required="Please enter your first name" data-val="true" data-val-regex="Please enter a valid name. ^[a-zA-Z-,'&amp; ]*$" data-val-regex-pattern="^[a-zA-Z-,'&amp; ]*$" data-val-required="Please enter your first name" id="FirstName" maxlength="50" name="FirstName" placeholder="eg: John" type="text" value=""/>
+</div>
+</div>
+<div class="row">
+<label for="LastName">Last name *</label>
+<div class="field-container">
+<input class="field forminput md populated xlrg" data-invalid="Please enter a valid last name." data-regex="^[a-zA-Z-,'&amp; ]*$" data-required="Please enter your last name" data-val="true" data-val-regex="Please enter a valid last name. ^[a-zA-Z-,'&amp; ]*$" data-val-regex-pattern="^[a-zA-Z-,'&amp; ]*$" data-val-required="Please enter your last name" id="LastName" maxlength="50" name="LastName" placeholder="eg: Smith" type="text" value=""/>
+</div>
+</div>
+</div><div class="form-table"> <div class="table-heading">
+<h3>How would you like us to respond to your enquiry?</h3>
+</div>
+<div class="row pref">
+<div class="field-container">
+<div class="form-radio radioBtn">
+<label class="checked" for="contact-email">
+<input checked="checked" data-emailoptin="true" id="contact-email" name="contact-by" type="radio" value="email"/>
+<span>Email address</span>
+</label>
+</div>
+</div>
+<div class="field-container">
+<div class="form-radio radioBtn">
+<label for="contact-phone">
+<input id="contact-phone" name="contact-by" type="radio" value="phone"/>
+<span>Telephone</span>
+</label>
+</div>
+</div>
+</div>
+<div class="row">
+<label for="email1">Email address *</label>
+<div class="field-container">
+<input class="field forminput xlrg" data-invalid="Email address not valid or does not match" data-regex="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-required="Email address not valid or does not match" data-val="true" data-val-regex="Email address not valid or does not match" data-val-regex-pattern="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-val-required="Email address not valid or does not match" id="email1" maxlength="" name="EmailAddress" placeholder="johnsmith@example.com" type="text" value=""/>
+</div>
+</div>
+<div class="row">
+<label for="email2">Confirm email address *</label>
+<div class="field-container">
+<input class="field forminput xlrg" data-alt-validate="compareEmail" data-compareto-id="email1" data-invalid="Email address not valid or does not match" data-required="Email address not valid or does not match" data-val="true" data-val-required="Email address not valid or does not match" id="email2" maxlength="" placeholder="johnsmith@example.com" type="text" value=""/>
+</div>
+</div>
+<div class="row">
+<label for="TelephoneNo">Telephone *</label>
+<div class="field-container">
+<input class="field forminput md populated xlrg" data-invalid="Please enter a valid phone number" data-regex="^\(?0( *\d\)?){9,10}$" data-required="Please enter a valid phone number" data-val="true" data-val-regex="Please enter a valid phone number ^\(?0( *\d\)?){9,10}$" data-val-regex-pattern="^\(?0( *\d\)?){9,10}$" data-val-required="Please enter a valid phone number" id="TelephoneNo" maxlength="50" name="TelephoneNumber" placeholder="Mobile or landline number" type="text" value=""/>
+</div>
+</div>
+</div>
+<hr class="dotted-rule"/>
+<div class="form-table">
+<div class="table-heading">
+<h3 class="h3">Service required</h3>
+</div>
+<div class="row">
+<label for="HealthAssessmentList"> Service required *</label>
+<div class="field-container">
+<div class="dd-container">
+<input class="field forminput populated hidden-field" data-invalid="Please select the service you require" data-regex="" data-required="Please select the service you require" id="HealthAssessmentList" name="ProductCode" type="text" value=""/>
+<input id="ProductCodeId" name="ProductCodeId" type="hidden" value=""/>
+<div class="dropdown dropdown-container dd-wide" id="ddReferralTreatment">
+<button class="dropdown-toggle form-dropdown form-button wide-button select-desktop" data-input-id="HealthAssessmentList" data-toggle="dropdown" id="referralTreatmentMenu" type="button">
+<span class="selected-text">Service type</span>
+<span class="caret"></span>
+</button>
+<ul aria-labelledby="dLabel" class="dropdown-menu dd-wide select-desktop" role="menu">
+<li value="BFEH01"><a option-value="1" role="menuitem" tabindex="1">Female Health + Mammography</a></li>
+<li value="BHC13"><a option-value="1" role="menuitem" tabindex="1">Health Core + Mammography</a></li>
+<li value="BHE13"><a option-value="1" role="menuitem" tabindex="1">Health Enhance + Mammography</a></li>
+<li value="BHF13"><a option-value="1" role="menuitem" tabindex="1">Health Focus + Mammography</a></li>
+<li value="BHM03"><a option-value="1" role="menuitem" tabindex="1">Health Mature + Mammography</a></li>
+<li value="BHP07"><a option-value="1" role="menuitem" tabindex="1">Health Peak + Mammography</a></li>
+<li value="HA-01 - Peak"><a option-value="1" role="menuitem" tabindex="1">Health Peak</a></li>
+<li value="HA-02 - Enhance"><a option-value="1" role="menuitem" tabindex="1">Health Enhance</a></li>
+<li value="HA-03 - Focus"><a option-value="1" role="menuitem" tabindex="1">Health Focus</a></li>
+<li value="HA-04 - Mature"><a option-value="1" role="menuitem" tabindex="1">Mature health check</a></li>
+<li value="HA-05 - Female"><a option-value="1" role="menuitem" tabindex="1">Female health check</a></li>
+<li value="HA-27 - Core"><a option-value="1" role="menuitem" tabindex="1">Health Core</a></li>
+<li value="HA-32 - BeReassured"><a option-value="1" role="menuitem" tabindex="1">Be.Reassured</a></li>
+<li value="HA-33 - BeMotivated"><a option-value="1" role="menuitem" tabindex="1">Be.Motivated</a></li>
+<li value="HA-34 - BeReady"><a option-value="1" role="menuitem" tabindex="1">Be.Ready</a></li>
+<li value="HA-35 - BeAhead"><a option-value="1" role="menuitem" tabindex="1">Be.Ahead</a></li>
+<li value="HA-36 - BeMotivated home"><a option-value="1" role="menuitem" tabindex="1">Be.Motivated home</a></li>
+<li value="HA-37 - BeHealthy home"><a option-value="1" role="menuitem" tabindex="1">Be.Healthy home</a></li>
+<li value="HA-06 - Fitness"><a option-value="1" role="menuitem" tabindex="1">Advanced fitness test</a></li>
+<li value="HA-07 - Breast"><a option-value="1" role="menuitem" tabindex="1">Breast health check</a></li>
+<li value="HA-08 - Coronary"><a option-value="1" role="menuitem" tabindex="1">Coronary health check</a></li>
+<li value="HA-09 - Colon"><a option-value="1" role="menuitem" tabindex="1">Colon health check</a></li>
+<li value="HA-10 - Dental"><a option-value="1" role="menuitem" tabindex="1">Dental services</a></li>
+<li value="HA-11 - GP Services"><a option-value="1" role="menuitem" tabindex="1">GP services</a></li>
+<li value="HA-31 - Covid Antibody"><a option-value="1" role="menuitem" tabindex="1">Covid-19 Antibody Test</a></li>
+<li value="HA-38 - VirtualGP Phone 15"><a option-value="1" role="menuitem" tabindex="1">Virtual GP Appointment by PHONE (15 Minutes)</a></li>
+<li value="HA-39 - VirtualGP Phone 30"><a option-value="1" role="menuitem" tabindex="1">Virtual GP Appointment by PHONE (30 Minutes)</a></li>
+<li value="HA-40 - VirtualGP Video 15"><a option-value="1" role="menuitem" tabindex="1">Virtual GP Appointment by VIDEO (15 Minutes)</a></li>
+<li value="HA-41 - VirtualGP Video 30"><a option-value="1" role="menuitem" tabindex="1">Virtual GP Appointment by VIDEO (30 Minutes)</a></li>
+<li value="HA-42 - Menopause Plan Initial Appointment"><a option-value="1" role="menuitem" tabindex="1">Menopause Plan Initial Appointment</a></li>
+<li value="HA-12 - Flu"><a option-value="1" role="menuitem" tabindex="1">Flu vaccinations</a></li>
+<li value="HA-13 - Travel Vaccinations"><a option-value="1" role="menuitem" tabindex="1">Travel vaccinations</a></li>
+<li value="HA-14 - Physiotherapy"><a option-value="1" role="menuitem" tabindex="1">Physiotherapy</a></li>
+<li value="HA-15 - Podiatry"><a option-value="1" role="menuitem" tabindex="1">Podiatry</a></li>
+<li value="HA-16 - Musculoskeletal"><a option-value="1" role="menuitem" tabindex="1">Musculoskeletal physician</a></li>
+<li value="HA-17 - Osteopathy"><a option-value="1" role="menuitem" tabindex="1">Osteopathy</a></li>
+<li value="HA-18 - Cardiology"><a option-value="1" role="menuitem" tabindex="1">Cardiology</a></li>
+<li value="HA-20 - MRI"><a option-value="1" role="menuitem" tabindex="1">MRI</a></li>
+<li value="HA-21 - X-rays"><a option-value="1" role="menuitem" tabindex="1">X-rays</a></li>
+<li value="HA-28 – Echocardiogram"><a option-value="1" role="menuitem" tabindex="1">Echocardiogram</a></li>
+<li value="HA-26 - Workplace"><a option-value="1" role="menuitem" tabindex="1">Workplace health services</a></li>
+<li value="others"><a option-value="1" role="menuitem" tabindex="1">others</a></li>
+</ul>
+<select class="dropdown-toggle form-dropdown form-button wide-button select-mobile" data-input-id="HealthAssessmentList" data-toggle="dropdown" id="referralTreatmentMenu">
+<option value="BFEH01"><a option-value="1" role="menuitem" tabindex="1">Female Health + Mammography</a></option>
+<option value="BHC13"><a option-value="1" role="menuitem" tabindex="1">Health Core + Mammography</a></option>
+<option value="BHE13"><a option-value="1" role="menuitem" tabindex="1">Health Enhance + Mammography</a></option>
+<option value="BHF13"><a option-value="1" role="menuitem" tabindex="1">Health Focus + Mammography</a></option>
+<option value="BHM03"><a option-value="1" role="menuitem" tabindex="1">Health Mature + Mammography</a></option>
+<option value="BHP07"><a option-value="1" role="menuitem" tabindex="1">Health Peak + Mammography</a></option>
+<option value="HA-01 - Peak"><a option-value="1" role="menuitem" tabindex="1">Health Peak</a></option>
+<option value="HA-02 - Enhance"><a option-value="1" role="menuitem" tabindex="1">Health Enhance</a></option>
+<option value="HA-03 - Focus"><a option-value="1" role="menuitem" tabindex="1">Health Focus</a></option>
+<option value="HA-04 - Mature"><a option-value="1" role="menuitem" tabindex="1">Mature health check</a></option>
+<option value="HA-05 - Female"><a option-value="1" role="menuitem" tabindex="1">Female health check</a></option>
+<option value="HA-27 - Core"><a option-value="1" role="menuitem" tabindex="1">Health Core</a></option>
+<option value="HA-32 - BeReassured"><a option-value="1" role="menuitem" tabindex="1">Be.Reassured</a></option>
+<option value="HA-33 - BeMotivated"><a option-value="1" role="menuitem" tabindex="1">Be.Motivated</a></option>
+<option value="HA-34 - BeReady"><a option-value="1" role="menuitem" tabindex="1">Be.Ready</a></option>
+<option value="HA-35 - BeAhead"><a option-value="1" role="menuitem" tabindex="1">Be.Ahead</a></option>
+<option value="HA-36 - BeMotivated home"><a option-value="1" role="menuitem" tabindex="1">Be.Motivated home</a></option>
+<option value="HA-37 - BeHealthy home"><a option-value="1" role="menuitem" tabindex="1">Be.Healthy home</a></option>
+<option value="HA-06 - Fitness"><a option-value="1" role="menuitem" tabindex="1">Advanced fitness test</a></option>
+<option value="HA-07 - Breast"><a option-value="1" role="menuitem" tabindex="1">Breast health check</a></option>
+<option value="HA-08 - Coronary"><a option-value="1" role="menuitem" tabindex="1">Coronary health check</a></option>
+<option value="HA-09 - Colon"><a option-value="1" role="menuitem" tabindex="1">Colon health check</a></option>
+<option value="HA-10 - Dental"><a option-value="1" role="menuitem" tabindex="1">Dental services</a></option>
+<option value="HA-11 - GP Services"><a option-value="1" role="menuitem" tabindex="1">GP services</a></option>
+<option value="HA-31 - Covid Antibody"><a option-value="1" role="menuitem" tabindex="1">Covid-19 Antibody Test</a></option>
+<option value="HA-38 - VirtualGP Phone 15"><a option-value="1" role="menuitem" tabindex="1">Virtual GP Appointment by PHONE (15 Minutes)</a></option>
+<option value="HA-39 - VirtualGP Phone 30"><a option-value="1" role="menuitem" tabindex="1">Virtual GP Appointment by PHONE (30 Minutes)</a></option>
+<option value="HA-40 - VirtualGP Video 15"><a option-value="1" role="menuitem" tabindex="1">Virtual GP Appointment by VIDEO (15 Minutes)</a></option>
+<option value="HA-41 - VirtualGP Video 30"><a option-value="1" role="menuitem" tabindex="1">Virtual GP Appointment by VIDEO (30 Minutes)</a></option>
+<option value="HA-42 - Menopause Plan Initial Appointment"><a option-value="1" role="menuitem" tabindex="1">Menopause Plan Initial Appointment</a></option>
+<option value="HA-12 - Flu"><a option-value="1" role="menuitem" tabindex="1">Flu vaccinations</a></option>
+<option value="HA-13 - Travel Vaccinations"><a option-value="1" role="menuitem" tabindex="1">Travel vaccinations</a></option>
+<option value="HA-14 - Physiotherapy"><a option-value="1" role="menuitem" tabindex="1">Physiotherapy</a></option>
+<option value="HA-15 - Podiatry"><a option-value="1" role="menuitem" tabindex="1">Podiatry</a></option>
+<option value="HA-16 - Musculoskeletal"><a option-value="1" role="menuitem" tabindex="1">Musculoskeletal physician</a></option>
+<option value="HA-17 - Osteopathy"><a option-value="1" role="menuitem" tabindex="1">Osteopathy</a></option>
+<option value="HA-18 - Cardiology"><a option-value="1" role="menuitem" tabindex="1">Cardiology</a></option>
+<option value="HA-20 - MRI"><a option-value="1" role="menuitem" tabindex="1">MRI</a></option>
+<option value="HA-21 - X-rays"><a option-value="1" role="menuitem" tabindex="1">X-rays</a></option>
+<option value="HA-28 – Echocardiogram"><a option-value="1" role="menuitem" tabindex="1">Echocardiogram</a></option>
+<option value="HA-26 - Workplace"><a option-value="1" role="menuitem" tabindex="1">Workplace health services</a></option>
+<option value="others"><a option-value="1" role="menuitem" tabindex="1">others</a></option>
+</select>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="dotted-rule"/>
+<div class="row free-row">
+<h3></h3>
+</div>
+<div class="row formgroup">
+<div class="marketing-text">
+<p>We recognise that when you give us personal information (which includes health information) you’re trusting us to take good care of it. Please see  our <a href="https://www.bupa.co.uk/legal-notices/privacy-and-cookies" target="_blank" title="Opens in a new window">privacy notice</a> for more information about how we collect, use and protect your data.</p>
+<p>If you <strong>don’t</strong> want to receive marketing about Bupa products and services that we think are relevant to you, please contact us at <a href="mailto:optmeout@bupa.com" target="_blank" title="Opens in new window">optmeout@bupa.com</a></p>
+</div>
+</div>
+<div class="row free-row controls">
+<a class="btn-form-submit" href="javascript:void(0)">
+<span>Submit</span>
+</a>
+<a class="btn-form-cancel">Cancel</a>
+</div>
+<script type="text/javascript">
+
+                var device_Type = 'desktop';
+                var form_Name = '';
+
+
+
+                //document.getElementById("PreferedClinic").value = document.getElementById("hidEnquiryPreferedClinic").value;
+
+                document.getElementById("returnback").innerHTML = "Return back to " + "Wirral Health Centre";
+
+                var a = "";
+
+                if (device_Type == "mobile") {
+                    a = document.referrer;
+                }
+                else {
+                    a = window.location.href.split(location.search || location.hash || /[?#]/)[0];
+                    analyticsClickHandlerForForms("start");
+                    if ($(".dialog-content .section-footer").length) {
+                        $(".dialog-content .section-footer").hide();
+                    }
+                }
+
+                var b = document.getElementById("returnback");
+
+                b.setAttribute("href", a);
+
+                document.getElementById("returnbacksorry").innerHTML = "Return back to " + "Wirral Health Centre";
+
+                var c = document.getElementById("returnbacksorry");
+
+                c.setAttribute("href", c);
+            </script>
+</form>

@@ -1,0 +1,19 @@
+<form id="formLogin" novalidate="">
+<div class="narrower">
+<div class="ifholder">
+<input autofocus="" class="username" id="username" name="username" type="text"/>
+<label class="infieldlabel infieldlabellogin" for="username" id="forusername">Email</label>
+</div>
+<div class="ifholder">
+<input class="password" id="password" name="password" type="password"/>
+<label class="infieldlabel infieldlabellogin" for="password" id="forpassword"></label>
+<img class="eye" id="eye" onclick="showPassword()" src="https://dnafitprod.blob.core.windows.net/partner/006/css/Images/show_hide_password.png"/>
+</div>
+<input id="returnUrl" name="returnUrl" type="hidden"/>
+<input id="sid" name="sid" type="hidden"/>
+<input id="ButtonTxt" onclick=" run_waitMe('rotation');Engine.login(); event.preventDefault(); return false;" type="submit"/>
+<p><span id="forgotText"></span> <a href="/resetpassword?returnUrl=%257B%257BTermsAndConditionsUrl%257D%257D" id="passwordText"></a></p>
+<p class="hide-on-condition">Don't have an <a href="Register">account?</a></p>
+<p class="hide-on-condition-kitactivation" id="setkitActivationlinkText"></p>
+</div>
+</form>

@@ -1,0 +1,22 @@
+<form class="w-100 form-bold needs-validation" novalidate="">
+<div class="col-12 bupa-v2">
+<h2>What is the reason for your enquiry?</h2>
+</div>
+<div class="col-12 col-lg-4 mt-4">
+<div class="form-group">
+<label class="d-none" for="EnquiryReason">What is the reason for your enquiry?</label>
+<select class="form-control" id="EnquiryReason" name="ContactReason"><option value="">Please Select</option>
+<option value="I am having trouble logging on">I am having trouble logging on</option>
+<option value="I am having trouble registering">I am having trouble registering</option>
+<option value="I am having trouble with this rewards site">I am having trouble with this rewards site</option>
+<option value="I am having trouble using my offer">I am having trouble using my offer</option>
+<option value="I am having trouble with something else">I am having trouble with something else</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<p>
+<button class="btn btn-primary btn-lg fullw-on-mobile my-4" type="submit"><strong>Submit &gt;</strong></button>
+</p>
+</div>
+</form>

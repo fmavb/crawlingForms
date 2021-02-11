@@ -1,0 +1,21 @@
+<form action="https://jobs.bupadentalcare.co.uk/wordpress" class="form--inline hide show-tablet-portrait">
+<label class="text--white label--large">I'm interested in</label>
+<hr class="spacer"/>
+<select class="select select--large select--wide js-dropkick" name="p">
+<option disabled="" hidden="" selected="">Choose your role area</option>
+<option value="35">General Dentists</option>
+<option value="81">Specialist Dentists</option>
+<option value="11710">Newly Qualified Dentists</option>
+<option value="11817">Employed Dentists</option>
+<option value="11557">EEA/Non EEA Dentists</option>
+<option value="83">Locum Dentists</option>
+<option value="85">Hygienists</option>
+<option value="87">Therapists</option>
+<option value="89">Dental Nurses</option>
+<option value="91">Practice Support</option>
+<option value="93">Labs</option>
+<option value="95">Support Centre &amp; Field</option>
+</select>
+<hr class="spacer"/>
+<input class="button button--solid button--blue-dark button--rounded button--large button--no-float" type="submit" value="Go"/>
+</form>

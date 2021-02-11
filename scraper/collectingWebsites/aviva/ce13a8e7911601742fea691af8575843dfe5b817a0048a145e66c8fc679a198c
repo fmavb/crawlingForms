@@ -1,0 +1,501 @@
+<form action="https://careers.aviva.co.uk/apply/" data-filters='{"jobFamily":[{"Name":"Actuarial","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"actuarial","Selected":false},{"Name":"Customer Service","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"customer_service","Selected":false},{"Name":"Digital","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"digital","Selected":false},{"Name":"Finance","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"finance","Selected":false},{"Name":"HR","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"hr","Selected":false},{"Name":"IT","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"it","Selected":false},{"Name":"Legal","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"legal","Selected":false},{"Name":"Marketing","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"marketing","Selected":false},{"Name":"Procurement","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"procurement","Selected":false},{"Name":"Risk","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"risk","Selected":false},{"Name":"Sales \u0026 Distribution","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"sales_distribution","Selected":false},{"Name":"Technology","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"technology","Selected":false},{"Name":"Underwriting","Search_Term":"","Singular_Name":"","Role_Text":"","Slug":"underwriting","Selected":true},{"Name":"Graduates","Search_Term":"graduate","Singular_Name":"Graduate","Role_Text":"","Slug":"graduates","Selected":false},{"Name":"Apprentices","Search_Term":"apprentice","Singular_Name":"Apprentice","Role_Text":"","Slug":"apprentices","Selected":false},{"Name":"Actuarial Graduates","Search_Term":"graduate","Singular_Name":"Actuarial graduate","Role_Text":"","Slug":"actuarial_graduates","Selected":false},{"Name":"Accountancy Graduates","Search_Term":"graduate","Singular_Name":"Accountancy graduate","Role_Text":"","Slug":"accountancy_graduates","Selected":false},{"Name":"Technology Graduates","Search_Term":"graduate","Singular_Name":"Technology graduate","Role_Text":"","Slug":"technology_graduates","Selected":false},{"Name":"Technology Apprentices","Search_Term":"apprentice","Singular_Name":"Technology apprentice","Role_Text":"","Slug":"technology_apprentices","Selected":false}],"location":[{"Name":"Bristol","Slug":"bristol","Selected":false},{"Name":"Dorking","Slug":"dorking","Selected":false},{"Name":"Eastleigh","Slug":"eastleigh","Selected":false},{"Name":"Glasgow","Slug":"glasgow","Selected":false},{"Name":"London","Slug":"london","Selected":false},{"Name":"Norwich","Slug":"norwich","Selected":false},{"Name":"Perth","Slug":"perth","Selected":false},{"Name":"Sheffield","Slug":"sheffield","Selected":false},{"Name":"York","Slug":"york","Selected":false},{"Name":"Flexible","Slug":"flexible","Selected":false},{"Name":"Home based","Slug":"home_based","Selected":false}],"jobType":[{"Name":"Permanent","Matches_Slug":"Regular_Contract","Slug":"permanent","Selected":false},{"Name":"Fixed Term Contract/Secondment","Matches_Slug":"EMPLOYEE_TYPE-3-23,Secondment_Fixed_Term,Fixed_Term_Contract","Slug":"fixed_term_contract_secondment","Selected":false}]}' data-module="app/search/searchView" method="GET">
+<!-- main page header -->
+<div class="m-page-header padding-bottom-0!">
+<div class="page-padding-x page-max-width">
+<h1 class="clip">Job search and apply</h1>
+<div class="m-search-form">
+<div class="m-search-field">
+<label class="u-hidden--visually" for="job-search">Search for vacancies</label>
+<input autocomplete="off" class="m-search-field__input js-searchView__search" id="job-search" name="search" placeholder="Enter your keyword, e.g. job title…" type="text" value=""/>
+<button class="m-search-field__button" type="submit">Search</button>
+</div>
+<div class="m-search-form__sub">
+<div class="m-search-form__sub__left">
+<!-- mobile -->
+<div class="m-search-show-mobile">
+<div class="grid grid--no-gutter">
+<div class="col-8">
+<span class="m-search-form__filter-text js-searchView__filter-status"><span class="m-search-form__filter-text__inner">1 filter applied </span>
+<button class="a-button a-button--tertiary js-searchView__filters-clear--mobile"><span class="a-button__inner">Clear</span></button>
+</span>
+</div>
+<div class="col-4 text-right">
+<button class="a-button a-button--tertiary a-button--down js-searchView__showhide-filters"><span class="a-button__inner">Edit filters</span></button>
+</div>
+</div>
+</div>
+<!-- desktop -->
+<div class="m-search-show-desktop js-searchView__filter-tags">
+<div class="m-filter-tags-tags">
+<p class="m-filter-tags-tags__label">Filters:</p>
+<ul class="m-filter-tags-tags__list m-button-group u-margin--top-none">
+<li class="m-button-group__item">
+<button class="a-button a-button--tag" data-filter-type="jobFamily" data-filter-value="underwriting">
+						Underwriting
+					</button>
+</li>
+<li class="m-button-group__item"><a class="a-button a-button--tertiary a-button--cancel a-button--filters-cancel" href="https://careers.aviva.co.uk/apply/"><span class="a-button__inner">Clear all filters</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="m-search-form__sub__right m-search-show-desktop js-searchView__status--desktop">
+<span class="hide inline@large">Showing </span><strong>1–13</strong> of <strong>13</strong> roles
+					</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg--grey m-search-show-mobile relative m-search-expand__content js-searchView__showhide-filters__content">
+<div class="page-padding-x padding-top-1 padding-bottom-2 page-max-width js-searchView__filters--mobile">
+<!-- space for filters -->
+</div>
+</div>
+<div class="m-search-show-mobile">
+<div class="page-padding-x page-max-width margin-top-1 margin-bottom-1 js-searchView__status--mobile">
+<span class="hide inline@large">Showing </span><strong>1–13</strong> of <strong>13</strong> roles
+		</div>
+</div>
+<div class="page-padding-x page-max-width page-padding-bottom">
+<div class="m-search-results">
+<div class="m-search-results__sidebar">
+<!-- <h3><strong>Filter your search</strong></h3> -->
+<div class="js-searchView__filters--desktop">
+<div class="js-searchView__filters">
+<fieldset class="m-form-row" role="group">
+<legend class="a-label text-small-uppercase">Team</legend>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-0">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-0" name="jobFamily" type="checkbox" value="actuarial"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Actuarial</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-1">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-1" name="jobFamily" type="checkbox" value="customer_service"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Customer Service</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-2">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-2" name="jobFamily" type="checkbox" value="digital"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Digital</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-3">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-3" name="jobFamily" type="checkbox" value="finance"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Finance</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-4">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-4" name="jobFamily" type="checkbox" value="hr"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">HR</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-5">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-5" name="jobFamily" type="checkbox" value="it"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">IT</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-6">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-6" name="jobFamily" type="checkbox" value="legal"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Legal</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-7">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-7" name="jobFamily" type="checkbox" value="marketing"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Marketing</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-8">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-8" name="jobFamily" type="checkbox" value="procurement"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Procurement</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-9">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-9" name="jobFamily" type="checkbox" value="risk"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Risk</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-10">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-10" name="jobFamily" type="checkbox" value="sales_distribution"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Sales &amp; Distribution</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-11">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-11" name="jobFamily" type="checkbox" value="technology"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Technology</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-12">
+<input checked="" class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-12" name="jobFamily" type="checkbox" value="underwriting"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Underwriting</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-13">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-13" name="jobFamily" type="checkbox" value="graduates"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Graduates</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-14">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-14" name="jobFamily" type="checkbox" value="apprentices"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Apprentices</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-15">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-15" name="jobFamily" type="checkbox" value="actuarial_graduates"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Actuarial Graduates</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-16">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-16" name="jobFamily" type="checkbox" value="accountancy_graduates"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Accountancy Graduates</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-17">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-17" name="jobFamily" type="checkbox" value="technology_graduates"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Technology Graduates</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobFamily-18">
+<input class="a-checkbox__input js-searchView__jobFamily" id="jobFamily-18" name="jobFamily" type="checkbox" value="technology_apprentices"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Technology Apprentices</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+</fieldset>
+<fieldset class="m-form-row" role="group">
+<legend class="a-label text-small-uppercase">Location</legend>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-0">
+<input class="a-checkbox__input js-searchView__location" id="location-0" name="location" type="checkbox" value="bristol"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Bristol</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-1">
+<input class="a-checkbox__input js-searchView__location" id="location-1" name="location" type="checkbox" value="dorking"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Dorking</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-2">
+<input class="a-checkbox__input js-searchView__location" id="location-2" name="location" type="checkbox" value="eastleigh"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Eastleigh</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-3">
+<input class="a-checkbox__input js-searchView__location" id="location-3" name="location" type="checkbox" value="glasgow"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Glasgow</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-4">
+<input class="a-checkbox__input js-searchView__location" id="location-4" name="location" type="checkbox" value="london"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">London</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-5">
+<input class="a-checkbox__input js-searchView__location" id="location-5" name="location" type="checkbox" value="norwich"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Norwich</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-6">
+<input class="a-checkbox__input js-searchView__location" id="location-6" name="location" type="checkbox" value="perth"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Perth</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-7">
+<input class="a-checkbox__input js-searchView__location" id="location-7" name="location" type="checkbox" value="sheffield"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Sheffield</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-8">
+<input class="a-checkbox__input js-searchView__location" id="location-8" name="location" type="checkbox" value="york"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">York</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-9">
+<input class="a-checkbox__input js-searchView__location" id="location-9" name="location" type="checkbox" value="flexible"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Flexible</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="location-10">
+<input class="a-checkbox__input js-searchView__location" id="location-10" name="location" type="checkbox" value="home_based"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Home based</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+</fieldset>
+<fieldset class="m-form-row" role="group">
+<legend class="a-label text-small-uppercase">Job type</legend>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobType-0">
+<input class="a-checkbox__input js-searchView__jobType" id="jobType-0" name="jobType" type="checkbox" value="permanent"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Permanent</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+<div>
+<label class="a-checkbox a-checkbox--standalone" for="jobType-1">
+<input class="a-checkbox__input js-searchView__jobType" id="jobType-1" name="jobType" type="checkbox" value="fixed_term_contract_secondment"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Fixed Term Contract/Secondment</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+</fieldset>
+<button class="a-button a-button--white m-search-show-mobile js-searchView__apply-filters--mobile">
+							Apply filters
+						</button>
+</div>
+</div>
+</div>
+<div class="m-search-results__main js-searchView__jobs">
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/Home-Based-Other/Marine-Trading-Underwriter_R-98643?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Marine Trading Underwriter</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">Home based</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">2 days ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/London-UK/Performance-Manager_R-97455?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Regional Underwriting Manager</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">London</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">1 week ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/Worthing/Assistant-Underwriter_R-95630?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Assistant Underwriter</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary"></span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">1 week ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/London-UK/Catastrophe-Analyst_R-95148-1?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Catastrophe Analyst</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">London</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">2 weeks ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/London-UK/Trading-Underwriter_R-97832?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Trading Underwriter</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">London</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">2 weeks ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/London-UK/Renewables-Risk-Consultant_R-98226?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Renewables Risk Consultant</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">London, Flexible, Home based</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">2 weeks ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/Home-Based-Other/Risk-Consultant_R-97495?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Risk Consultant</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">Home based, Sheffield, York</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">1 month ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/Home-Based-Other/Risk-Consultant_R-97660?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Risk Consultant</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">Home based, Bristol, Flexible</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">1 month ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/Home-Based-Other/Risk-Consultant_R-97824-1?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Liability Risk Consultant</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">Home based, Flexible, London</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">1 month ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/London-UK/Underwriter_R-97342?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Professional Indemnity Underwriter</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">London</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">1 month ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/Glasgow/Trading-Underwriter_R-96706?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Trading Underwriter</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">Glasgow, Home based</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">1 month ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/Manchester/Regional-Professional-Indemnity-Technology-Senior-Underwriter_R-96133?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Regional Professional Indemnity/Technology Senior Underwriter</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">Bristol, Flexible, Glasgow, Norwich, Perth, Sheffield, York</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">3 months ago</span>
+</p>
+</div>
+</div>
+</a>
+<a class="m-card m-card--outline t-accent-light--white u-content-fade" href="https://aviva.wd1.myworkdayjobs.com/External/job/Manchester/Regional-Financial-Lines-Senior-Underwriter_R-96391-2?source=Aviva_Rec_Blackbridge" rel="noopener" target="_blank">
+<div class="m-card-content m-card-content--alt-1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h3 class="a-heading a-heading--2 a-heading--semibold a-heading--blue">Regional Financial Lines Senior Underwriter</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<p class="m-card-tagline m-card-tagline--multi">
+<span class="m-card-tagline__inner m-card-tagline__primary">Underwriting</span>
+<span class="m-card-tagline__inner m-card-tagline__secondary">Bristol, Flexible, Glasgow, Norwich, Perth, Sheffield, York</span>
+<span class="m-card-tagline__inner m-card-tagline__tertiary">3 months ago</span>
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+<!-- pagination -->
+<div class="js-searchView__pagination">
+<p class="u-text--center u-no-print">Page 1 of 1</p>
+<div class="a-pagination">
+<ul class="a-pagination-list a-list-plain">
+<li class="a-pagination-list__item a-pagination-list__item--primary a-pagination-list__item--selected"><span>1</span></li>
+</ul>
+</div>
+</div>
+</div>
+<input class="js-searchView__perPage" name="perPage" type="hidden" value="20"/>
+<input class="js-searchView__page" name="page" type="hidden" value="1"/>
+</form>

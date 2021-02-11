@@ -1,0 +1,64 @@
+<form action="/services/hospital/bradford-royal-infirmary/X381/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Was any thing but what we hoped for!&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;We visited the &quot;assessment centre&quot; on the 12th of February as our baby was +9 days after the due date and we believed mum was in labour. We explained straight away mum was wanting a &quot;water birth&quot; we told them clearly we lived less than 10 mins from the hospital so the hospital said instead of waiting till the 15th February which was the planned date for induction, they said to mum she could be induced on the 13th and had an assurance they would still support her with the water birth, They said they would call us the next morning when the ward was quiet enough to start the process!
+
+So we went home and sure enough, 10 am the next morning on the 13th the call came in to head to the hospital.. when we arrived they left us on M3 for hours at a time it was 2 pm when they finally started the induction everything seemed like a conveyor belt. Mum started getting further and further into labour each time the midwives came back saying the &quot;labour suite&quot; was busy with &quot;priority cases&quot;. we reached 10:30 pm and mum was heavily showing signs of being in labour which the midwives attempted to delay things saying the &quot;labour suite was still busy&quot;.
+
+Well reaching into valentines day the midwives claimed mum was only 3cm but the labour suite was still busy!. we reached a point of saying &quot;mum feels ready to push&quot; the staff said they were sure this wasn't fully real and just as a student midwife RAN to get midwives mum felt baby's head coming... within 20 mins of the staff claiming mum was 3cm baby's head was out... on the induction ward of M3! while this wasn't mum's first baby it was certainly planned to be the last so we hoped and wished mum was going to get the perfect birth instead of ending up giving birth on the induction ward around other people.
+
+While we understand this wasn't what they expected.. they changed the date and the labour suite gave us nothing but messages about how other people were the priority wish we had picked a hospital who would have respected and listened to how we wanted our baby to be born!
+
+don't get me wrong the midwives looked after mum and baby but this was anything but what we hoped for!
+
+Moral of the story pick your hospital wisely when deciding where to give birth!&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-03-08T18:08:41Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;2&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Bradford Royal Infirmary&lt;/OrganisationName&gt;
+    &lt;Department&gt;Maternity services&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;363e3cd7-6761-ea11-a811-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X381&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamESl5hC0RZGRVeda7SdRN5pePjjhqZnrx6jO0xITOAxQGsmTDmdWhqtwNwDOQbWjsQTwavt4zobU8OajiM-ALIP439qK87KpIOycMqMAYlDWmgKEeBPF8lqGUAmthfkR7Q"/></form>

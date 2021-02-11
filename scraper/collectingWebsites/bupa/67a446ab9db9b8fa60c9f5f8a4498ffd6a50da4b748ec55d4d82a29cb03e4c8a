@@ -1,0 +1,8 @@
+<form action="/covid-19-research/plasma-programme/" class="form form--inline search-form global-search" enctype="multipart/form-data" method="post"> <fieldset class="form__fieldset">
+<div class="form__item">
+<label class="form__label" for="SearchTerm">Search</label>
+<input class="form__control" id="SearchTerm" name="SearchTerm" placeholder="Your search here " type="text" value=""/>
+</div>
+<button class="btn btn--blue form__btn search-form__btn" id="btnSearch" value="Search">Search</button>
+</fieldset>
+<input name="ufprt" type="hidden" value="61621A24C1FACD7A7D9906913C49950720F4D692BD91A3E18EE88B22F7A658A92BF711D73060EA4C81D0B253D51AD5AFED67AB17EE0B5EEFB51BCEA913377C91C3AF5A6A90206EB77A7D57B736A3FBD48A029C600425C2FE6B54A82C782BED81A8BB10E00ABF38ED1F12C6B9E9C5A0FFFD4AC800D0F5D2442F563418C06A26BE8CE9B30F4FB964854DBDD9FC1A8FF18004E615238160BA1A94E6FA061BA02BF4"/></form>

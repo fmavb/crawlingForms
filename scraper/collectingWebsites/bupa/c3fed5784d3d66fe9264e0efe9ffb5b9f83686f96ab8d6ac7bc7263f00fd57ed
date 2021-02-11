@@ -1,0 +1,22 @@
+<form name="formCreditCard" novalidate="">
+<div class="ifholderhalf">
+<input data-ng-class="{ 'required' : formCreditCard.cardnumber.$touched &amp;&amp; formCreditCard.cardnumber.$invalid,  '' : !formCreditCard.cardnumber.$dirty &amp;&amp; !formCreditCard.cardnumber.$invalid}" id="ccnumber" name="cardnumber" ng-blur="paymentInfoAdded()" ng-model="Purchase.OtherData.CreditCard.CardNo" ng-pattern="/^[0-9]*$/" onkeypress="checkOnlyNumber(event)" placeholder="{{(fieldsLable['Card_Number'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : formCreditCard.cardnumber.$touched &amp;&amp; formCreditCard.cardnumber.$invalid,  '' : !formCreditCard.cardnumber.$dirty &amp;&amp; !formCreditCard.cardnumber.$invalid}" for="ccnumber" ng-bind="(fieldsLable['Card_Number'])[language]"></label>
+</div>
+<div class="ifholderhalf halfwidth">
+<input data-stripe="number" id="nameoncard" name="cardname" ng-maxlength="125" ng-model="Purchase.OtherData.CreditCard.CardHolderName" placeholder="{{(fieldsLable['Card_Name'])[language]}}" type="text"/>
+<label for="nameoncard" ng-bind="(fieldsLable['Card_Name'])[language]"></label>
+</div>
+<div class="ifholderhalf halfwidth">
+<input data-ng-class="{ 'required' : formCreditCard.cardcvc.$touched &amp;&amp; formCreditCard.cardcvc.$invalid,  '' : !formCreditCard.cardcvc.$dirty &amp;&amp; !formCreditCard.cardcvc.$invalid}" data-stripe="cvc" id="cvv" name="cardcvc" ng-keypress="onKeyDownSecurityCode($event)" ng-model="Purchase.OtherData.CreditCard.CVC" onkeypress="checkOnlyNumber(event)" placeholder="CVV" required="" type="password"/>
+<label data-ng-class="{ 'required' : formCreditCard.cardcvc.$touched &amp;&amp; formCreditCard.cardcvc.$invalid,  '' : !formCreditCard.cardcvc.$dirty &amp;&amp; !formCreditCard.cardcvc.$invalid}" for="cvv" ng-bind="(fieldsLable['Card_CVV'])[language]"></label>
+</div>
+<div class="ifholderhalf halfwidth">
+<input data-ng-class="{ 'required' : formCreditCard.cardmonth.$touched &amp;&amp; formCreditCard.cardmonth.$invalid,  '' : !formCreditCard.cardmonth.$dirty &amp;&amp; !formCreditCard.cardmonth.$invalid}" data-stripe="exp-month" id="expmonth" maxlength="2" name="cardmonth" ng-blur="Purchase.CreditCard.onMonthBlur()" ng-model="Purchase.OtherData.CreditCard.ExpMonth" ng-pattern="/^(((0?[1-9]|1[012]))|((0[1-9])|(1[0-2]))\/(([1-9][0-9])|(20[1-9][0-9])))$/" onblur="padZero();" onkeypress="checkOnlyNumber(event)" placeholder="{{(fieldsLable['Card_Month'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : formCreditCard.cardmonth.$touched &amp;&amp; formCreditCard.cardmonth.$invalid,  '' : !formCreditCard.cardmonth.$dirty &amp;&amp; !formCreditCard.cardmonth.$invalid}" for="expmonth" ng-bind="(fieldsLable['Card_Month'])[language]"></label>
+</div>
+<div class="ifholderhalf halfwidth">
+<input data-ng-class="{ 'required' : formCreditCard.cardyear.$touched &amp;&amp; formCreditCard.cardyear.$invalid,  '' : !formCreditCard.cardyear.$dirty &amp;&amp; !formCreditCard.cardyear.$invalid}" data-stripe="exp-year" id="expyear" maxlength="4" name="cardyear" ng-blur="Purchase.OtherData.CreditCard.onYearBlur()" ng-minlength="4" ng-model="Purchase.OtherData.CreditCard.ExpYear" onkeypress="checkOnlyNumber(event)" placeholder="{{(fieldsLable['Card_Year'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : formCreditCard.cardyear.$touched &amp;&amp; formCreditCard.cardyear.$invalid,  '' : !formCreditCard.cardyear.$dirty &amp;&amp; !formCreditCard.cardyear.$invalid}" for="expyear" ng-bind="(fieldsLable['Card_Year'])[language]"></label>
+</div>
+</form>

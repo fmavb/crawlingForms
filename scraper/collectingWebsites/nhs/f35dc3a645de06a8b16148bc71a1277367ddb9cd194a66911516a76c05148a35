@@ -1,0 +1,60 @@
+<form action="/services/hospital/churchill-hospital/X1675/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Great respiratory / sleep clinic, shame about the facilities&lt;/Title&gt;
+    &lt;ScreenName&gt;Curtains&lt;/ScreenName&gt;
+    &lt;CommentText&gt;For the past couple of years I've been taking a disabled family member to the respiratory outpatients unit at the Churchill Hospital at Oxford. The clinical team there, particularly physiotherapists like Kat have been exemplary in setting the patient at ease, answering his often complex queries, offering excellent care, and being warm and engaging.  
+However they are badly let down by the surrounding facilities and services around them.  
+Letters take an age to come through to the GP, in the most recent case 5 weeks to request a prescription of an important medication that turned out to be very helpful; that's 5 weeks of good function we could have had lost out due to poor admin.  
+There is nobody on reception and a bizarre system where you have to phone different wards yourself, often with nobody to pick up on the other end. You wait there until someone wanders in to tell you whether they are expecting you or not, not a great system.  
+Drop off at the nearest car park is hard because the parking ticket machine has been out of order for more than a year, meaning that many spaces seem to be taken up by whatever local users have found they can park there for free as opposed to people who need that particular facility.  
+The worst aspect by far is the toilets - not the most clinically exciting part of a busy hospital but people need to use them. My experience of the gents toilets has been disgusting - last time I was there the men's urinal, a giant metal trough, was full to overflowing with urine held there by surface tension. There was no signage to say it was being dealt with, and I saw visitors urinating in the sinks - a terrible breach of hygiene. On my most recent visit yesterday the one disabled toilet (in a hospital constantly used by wheelchair users) had urine all over the floor and a broken sanitary napkin dispenser. In the end we decided not to risk using it and slipping into a pile of urine, but this left the patient unable to use the facilities. This feels like a symptom of wider lack of care - there have constantly been buckets around the place catching errant drips, and as a consequence of these issues the main corridor by the entryway stinks of stale urine.  
+It saddens me that when the clinical team is so excellent, visiting the hospital has become something we dread for the dubious cleanliness.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-09-12T10:13:23Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;6&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Churchill Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;638394f1-45d5-e911-a812-000d3a7ed2f2&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1675&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHoMX_OI7IudMuJ1XhDkj_nGV9CB07hIhZ8cxPYclUeKMv7IAp4Pm4JZP4CVpUekd6u0dXnlk-V23LiIRWMVifwE411b1tztnnQZM2__exQiS41B26q9W0jc3m9JEf5BqY"/></form>

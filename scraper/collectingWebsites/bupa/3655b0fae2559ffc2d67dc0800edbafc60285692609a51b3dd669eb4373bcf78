@@ -1,0 +1,37 @@
+<form action="/health/health-insurance/retrieve-quote" autocomplete="off" class="common-form" id="frmPolicyStartDateDetails" method="post" name="common-form"><input name="__RequestVerificationToken" type="hidden" value="kKNWZSwiFqkvxtztp-WN8BUS2vdOUFbQSL9SX64RQB5nzbPmo1i3STPj8v5eIIR4u8kiTO4ggA7oo7TOw7kWFUzNL6nzfeYHDUF2WmRG8wI1"/> <div class="m-bottom-15 invalid-account-error form-group hidden">
+<p class="error retrieve_quote_error"></p>
+</div>
+<div class="form-group">
+<div class="input-box">
+<input class="form-control" data-invalid="Please enter a valid quote ID." data-mismatch='These details do not match those held by Bupa. Please enter them again or call on &lt;span class="adinsightNumber5962"&gt;0800 289 577&lt;/span&gt;^' data-required="Please enter your quote ID." data-val-validate-regex="^([BC][Q])([W])(\d{11})$|^([W])(\d{11})$" id="QuoteId" maxlength="14" name="QuoteId" placeholder="XXXXXXXXX" type="text" value=""/>
+<span></span>
+<label for="fname">Quote ID</label>
+</div>
+</div>
+<div class="form-group">
+<div class="datepicker-wrapper">
+<div class="input-box txt-date-container dob-control">
+<label>Date of birth</label>
+<div class="d-none d-lg-block">
+<input class="cDate no-aria" id="Dob_Day" inputmode="numeric" name="Dob.Day" placeholder="DD" type="text" value=""/>
+<input class="cMonth no-aria" id="Dob_Month" inputmode="numeric" name="Dob.Month" placeholder="MM" type="text" value=""/>
+<input class="cYear no-aria" id="Dob_Year" inputmode="numeric" name="Dob.Year" placeholder="YYYY" type="text" value=""/>
+</div>
+<!--this will be hidden in desktop-->
+<input class="mobile-datepicker self-dob form-control datepickervalidation" data-date="DD / MM / YYYY" data-date-format="DD / MM / YYYY" data-day="" data-dobrequired="Please select your date of birth." data-dobvalidateage="" data-dobvaliddate="" data-entity="self" data-maxapplicantage="30" data-minapplicantage="" data-month="" data-year="" id="DateOfBirth" name="DateOfBirth" type="date" value=""/>
+</div>
+</div>
+</div>
+<div class="form-group">
+<div class="input-box">
+<input class="form-control skip-keyup" data-invalid="Please enter a valid postcode." data-required="Please enter your postcode." data-val-max="30" data-val-validate-regex="^(\s*)[A-Za-z]{1,2}[0-9Rr][0-9A-Za-z]? ?[0-9][A-Za-z]{2}\s*$" id="retrieval-postcode" maxlength="30" name="Postcode" placeholder="Enter postcode" type="text" value=""/>
+<span></span>
+<label for="fname">Postcode</label>
+</div>
+</div>
+<div class="col-12 text-center m-top-20">
+<button class="btn btn-primary submit-btn proceed-btn noborder retrieve-btn" type="submit">
+                    Retrieve Quote <img alt="" class="img-forward-button" src="https://assets.bupa.co.uk/~/media/images/bbyquote/svg/fwd-white.svg"/>
+</button>
+</div>
+<input id="NextButtonLink" name="NextButtonLink" type="hidden" value="/health/health-insurance/quote-summary"/></form>

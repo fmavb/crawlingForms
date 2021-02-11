@@ -1,0 +1,382 @@
+<form action="/protection/direct/pages/quoteInputPageFiftyPlus.xhtml" autocomplete="off" enctype="application/x-www-form-urlencoded" id="quoteInputFiftyPlusForm" method="post" name="quoteInputFiftyPlusForm" novalidate="novalidate">
+<input name="quoteInputFiftyPlusForm" type="hidden" value="quoteInputFiftyPlusForm"/>
+<!-- HEADER -->
+<header role="banner">
+<div class="container">
+<div class="logo">
+<a href="http://www.aviva.co.uk/">Aviva</a>
+</div>
+<h1 class="pageHeading"></h1>
+</div>
+</header>
+<!-- HEADER END -->
+<!-- Page title : start -->
+<!-- &lt;ui:insert name=&quot;strapline&quot; /&gt; -->
+<div class="page-message"></div>
+<!-- Page title : end -->
+<div class="container">
+<div class="quote-progress">
+<div class="quote-progress-bar">
+<ol>
+<li class="active">
+<div class="quote-progress-wrapper">
+<span class="stage">1</span>
+<span class="label">Your cover</span>
+</div>
+</li>
+<li class="inactive">
+<div class="quote-progress-wrapper">
+<span class="stage">2</span>
+<span class="label">Your details</span>
+</div>
+</li>
+<li class="inactive">
+<div class="quote-progress-wrapper">
+<span class="stage">3</span>
+<span class="label">Your payment</span>
+</div>
+</li>
+<li class="inactive">
+<div class="quote-progress-wrapper">
+<span class="stage">4</span>
+<span class="label">Summary</span>
+</div>
+</li>
+<li class="inactive">
+<div class="quote-progress-wrapper">
+<span class="stage">5</span>
+<span class="label">Confirmation</span>
+</div>
+</li>
+<!-- 				&lt;li class=&quot;inactive&quot;&gt; -->
+<!-- 					&lt;div class=&quot;quote-progress-wrapper&quot;&gt; -->
+<!-- 						&lt;span class=&quot;stage&quot;&gt;4&lt;/span&gt; -->
+<!-- 						&lt;span class=&quot;label&quot;&gt;Apply&lt;/span&gt; -->
+<!-- 					&lt;/div&gt; -->
+<!-- 				&lt;/li&gt; -->
+</ol>
+</div>
+<div class="progress-bar-border quote-progress-bar top-gap5">
+<ol class="olSub">
+<li class="active">
+<div class="quote-progress-wrapper">
+<span class="label1">Your cover</span>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="main" role="main">
+<div class="row">
+<div class="content">
+<a id="pageMainContent"></a><div id="id_dummyErrorDiv"><input id="id_dummyErrors" name="id_dummyErrors" type="hidden"/></div>
+<div class="help-block">
+<p>
+
+	You can find out how we use your data and how to contact us with any queries <a class="bold-text" href="#yourDataModal">here</a>
+<!-- Modal -->
+</p><div aria-hidden="true" aria-labelledby="youDataText" class="modal fade popupoverlay" id="yourDataModal" role="dialog" style="padding-top: 135px; overflow-y: scroll;" tabindex="-1">
+<div class="modal-dialog popup" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="youDataText">Your data
+
+						<a class="btn btn-default btn-sm closepopup pull-right" href="#">Close
+						</a>
+</h4>
+</div>
+<div class="modal-body">
+<p>The data controllers responsible for processing your personal information are Aviva Life &amp; Pensions UK Limited as the insurer of the product and Aviva UK Digital Limited who is responsible for the sale and distribution of the product. 
+					</p>
+<p>We’ll collect and use personal information as part of the application process. We collect this information from what you tell us, from data we already hold, from publicly available sources and other organisations we trust and from data from your device, general location and how you interact with our website. 
+					</p>
+<br/>
+<p>We’ll use the information you have given us to decide if we can generate a quote for you, offer you insurance, set up, assess and maintain your insurance contract with us, make changes to your cover, process claims and conduct marketing and analytics. We’ll use automated software to make decisions relating to the above activities. 
+					</p>
+<br/>
+<p>We’ll need to share this information within the Aviva Group and specific third parties. See our <a href="https://www.aviva.co.uk/legal/privacy-policy.html" target="_blank">privacy policy</a> for more about how we share your personal data within the Aviva Group. 
+					</p>
+<p>You have various rights in relation to your personal information, including requests for: access to your information, to correct any mistakes, erase or restrict records, and in some circumstances objecting to our use of your personal data, and to data portability for electronically provided information. 
+					</p>
+<p>If you have any questions about how we use personal information, or if you want to exercise your rights about your data, please contact our Data Protection Officer by either emailing them at <a href="mailto:DATAPRT@aviva.com">DATAPRT@aviva.com</a> or writing to them at:<br/>
+</p>
+<p>Aviva<br/>Pitheavlis<br/> Perth<br/>PH2 0NH
+					</p>
+<p>NOTE: If you have any concerns about use of information for these purposes, you should not proceed with this application as we may be unable to provide you with a policy. You can also contact us at any time if you would like us to stop using your information but this may prevent us assessing future claims and the policy may be cancelled 
+					</p>
+</div>
+<div class="modal-footer">
+<a class="btn btn-default btn-sm closepopup" href="#">Close
+					</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="help-block">
+<p>Before you start, make sure you’ve read our <a href="https://www.aviva.co.uk/insurance/life-products/over-50-life-insurance/" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank">Over 50s Life Insurance page</a>. If you’re still unsure while getting your quote, the <a href="https://www.aviva.co.uk/content/dam/aviva-public/gb/pdfs/personal/insurance/life/over-50s/over-50s-policy-summary-DA03015c.pdf" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank">Over 50s Life Insurance Policy Summary</a> and <a href="https://www.aviva.co.uk/content/dam/aviva-public/gb/pdfs/personal/insurance/life/over-50s/over-50s-policy-conditions-DA03016c.pdf" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank">Over 50s Life Insurance Policy Conditions</a> will be on each page and will always be on hand to help out.
+			</p>
+</div>
+<div class="panel panel-primary top-gap">
+<div class="panel-heading">
+<div class="panel-heading-left">
+<h3 class="panel-title">What’s your date of birth?
+						</h3>
+</div>
+</div>
+<div class="panel-body">
+<div class="col-sm-12">
+<div class="panel panel-default">
+<div class="panel-body">
+<!--  formRow start --><div class="form-inline" id="id_FF155_dob_row_">
+<fieldset id="dateOfBirth_">
+<!-- formRow label  -->
+<legend class="form-label no-help">
+<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+<!-- formRow help (optional)  -->
+<div class="form-inline">
+<div class="form-group"><input class="action form-control tealeafHide" id="id_FF104_dateOfBirthDay_" maxlength="2" name="id_FF104_dateOfBirthDay_" placeholder="DD" style="width:47px; height:32px" type="text"/>
+</div>
+<div class="form-group"><input class="action form-control tealeafHide" id="id_FF104_dateOfBirthMonth_" maxlength="2" name="id_FF104_dateOfBirthMonth_" placeholder="MM" style="width:51px; height:32px" type="text"/>
+</div>
+<div class="form-group"><input class="action form-control tealeafHide" id="id_FF104_dateOfBirthYear_" maxlength="4" name="id_FF104_dateOfBirthYear_" placeholder="YYYY" style="width:72px; height:32px" type="text"/>
+</div>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+</div>
+</div>
+<div class="help-block" id="dobHelp">
+<p>This helps us to check that you're eligible and work out your cover amount and premium.
+					</p>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-primary top-gap">
+<div class="panel-heading">
+<div class="panel-heading-left">
+<h3 class="panel-title">Choose how much you want to pay each month OR how much cover you need.
+						</h3>
+</div>
+</div>
+<div class="panel-body">
+<div class="col-sm-12">
+<!-- formRow start --><div class="form-group" id="id_cover_for">
+<!-- formRow label  -->
+<div class="form-element">
+<div class="form-label">
+</div>
+</div>
+<!-- formRow help (optional)  -->
+<div class="form-element">
+<div class="col-sm-5">
+<div class="panel panel-default">
+<div class="panel-body doNotHighlight">
+<!-- formRow start --><div class="form-group single" id="id_premiumRow_">
+<!-- formRow label  -->
+<div class="form-element">
+<div class="form-label"><label for="id_premium_">Monthly premium</label>
+</div>
+</div>
+<!-- formRow help (optional)  -->
+<div class="form-element"><input class="form-control" id="id_premium_" name="id_premium_" step="any" type="number" value=""/>
+<!-- formRow help icon (optional)  -->
+</div>
+<!-- formRow help (optional)  --></div>
+<!--  formRow end -->
+</div>
+</div>
+<div class="help-block">
+<p>The minimum monthly premium is £5 and the maximum is £100
+						</p>
+</div>
+</div>
+<div class="divider col-sm-2">
+<p class="smallDivider">OR</p>
+</div>
+<div class="col-sm-5">
+<div class="panel panel-default">
+<div class="panel-body doNotHighlight">
+<!-- formRow start --><div class="form-group single" id="id_sumAssuredRow_">
+<!-- formRow label  -->
+<div class="form-element">
+<div class="form-label"><label for="id_sum_assured_">Cover amount</label>
+</div>
+</div>
+<!-- formRow help (optional)  -->
+<div class="form-element"><input class="form-control" id="id_sum_assured_" name="id_sum_assured_" type="number" value=""/>
+<!-- formRow help icon (optional)  -->
+</div>
+<!-- formRow help (optional)  --></div>
+<!--  formRow end -->
+</div>
+</div>
+</div>
+<!-- formRow help icon (optional)  -->
+</div>
+<!-- formRow help (optional)  --></div>
+<!--  formRow end -->
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div class="button-container center-offour"></div>
+<div class="button-container-three-buttons center-ofthree">
+<span class="functionalButton"><input class="btn btn-primary btn-lg" id="id_FF811_calculate_nojs" name="id_FF811_calculate_nojs" onmousedown="$p.ui.page.setShowNavigationWarning(false);" title="" type="submit" value="Get your quote"/>
+</span>
+<span class="functionalButton hidden"><input class="btn btn-primary btn-lg disabled-button" id="id_FF811_calculate_nojs_disabled" name="id_FF811_calculate_nojs_disabled" title="" type="submit" value="Get your quote"/>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="button-container right">
+<span class="functionalButton"><input class="btn btn-primary btn-lg" disabled="disabled" id="id_FF201_apply50p_nojs" name="id_FF201_apply50p_nojs" onmousedown="$p.ui.page.setShowNavigationWarning(false);" title="" type="submit" value="Apply"/>
+</span>
+<span class="functionalButton hidden"><input class="btn btn-primary btn-lg disabled-button" disabled="disabled" id="id_FF201_apply50p_nojs_disabled" name="id_FF201_apply50p_nojs_disabled" title="" type="submit" value="Apply"/>
+</span>
+</div>
+</div>
+</div>
+<aside role="complementary">
+<div class="col-sm-6 col-md-12">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 class="panel-title">Your data</h2>
+</div>
+<div class="panel-body">
+
+	You can find out how we use your data and how to contact us with any queries <a class="bold-text" href="#yourDataModal">here</a>
+<!-- Modal -->
+<div aria-hidden="true" aria-labelledby="youDataText" class="modal fade popupoverlay" id="yourDataModal" role="dialog" style="padding-top: 135px; overflow-y: scroll;" tabindex="-1">
+<div class="modal-dialog popup" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="youDataText">Your data
+
+						<a class="btn btn-default btn-sm closepopup pull-right" href="#">Close
+						</a>
+</h4>
+</div>
+<div class="modal-body">
+<p>The data controllers responsible for processing your personal information are Aviva Life &amp; Pensions UK Limited as the insurer of the product and Aviva UK Digital Limited who is responsible for the sale and distribution of the product. 
+					</p>
+<p>We’ll collect and use personal information as part of the application process. We collect this information from what you tell us, from data we already hold, from publicly available sources and other organisations we trust and from data from your device, general location and how you interact with our website. 
+					</p>
+<br/>
+<p>We’ll use the information you have given us to decide if we can generate a quote for you, offer you insurance, set up, assess and maintain your insurance contract with us, make changes to your cover, process claims and conduct marketing and analytics. We’ll use automated software to make decisions relating to the above activities. 
+					</p>
+<br/>
+<p>We’ll need to share this information within the Aviva Group and specific third parties. See our <a href="https://www.aviva.co.uk/legal/privacy-policy.html" target="_blank">privacy policy</a> for more about how we share your personal data within the Aviva Group. 
+					</p>
+<p>You have various rights in relation to your personal information, including requests for: access to your information, to correct any mistakes, erase or restrict records, and in some circumstances objecting to our use of your personal data, and to data portability for electronically provided information. 
+					</p>
+<p>If you have any questions about how we use personal information, or if you want to exercise your rights about your data, please contact our Data Protection Officer by either emailing them at <a href="mailto:DATAPRT@aviva.com">DATAPRT@aviva.com</a> or writing to them at:<br/>
+</p>
+<p>Aviva<br/>Pitheavlis<br/> Perth<br/>PH2 0NH
+					</p>
+<p>NOTE: If you have any concerns about use of information for these purposes, you should not proceed with this application as we may be unable to provide you with a policy. You can also contact us at any time if you would like us to stop using your information but this may prevent us assessing future claims and the policy may be cancelled 
+					</p>
+</div>
+<div class="modal-footer">
+<a class="btn btn-default btn-sm closepopup" href="#">Close
+					</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--  livechat div -->
+<div class="col-sm-6 col-md-12">
+<div class="livechat-container" id="LP_DIV_DIRECT_ALPS_QUOTE">
+</div>
+</div>
+<div class="col-sm-6 col-md-12">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 class="panel-title icon-heading icon-call">Call us</h2>
+</div>
+<div class="panel-body">
+<p class="tel">0800 068 0140
+					</p>
+<dl class="times clearFix"><dt>Monday to Friday</dt><dd>8.00am - 6.00pm</dd><dt>Saturday</dt><dd>9:00am - 2:00pm</dd><dt>Sunday</dt><dd>Closed</dd>
+</dl>
+<p>
+<small>For our joint protection, telephone calls may be recorded and/or monitored and will be saved for a minimum of five years. Calls to 0800 numbers from UK landlines and mobiles are free.</small>
+</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-12">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 class="panel-title icon-heading icon-docs">Important documents</h2>
+</div>
+<div class="panel-body">
+<ul class="link-list">
+<li>
+<a href="https://www.aviva.co.uk/content/dam/aviva-public/gb/pdfs/personal/insurance/life/over-50s/over-50s-policy-summary-DA03015c.pdf" id="id_FF905_keyfeatures_0" target="_blank" title="Opens this document in a new window"> 
+		
+		Over 50s Life Insurance Policy Summary
+		<span class="popup-link"></span>
+<span class="sr-only">Opens this document in a new window</span>
+</a>
+</li>
+<li>
+<a href="https://www.aviva.co.uk/content/dam/aviva-public/gb/pdfs/personal/insurance/life/over-50s/over-50s-policy-conditions-DA03016c.pdf" id="id_FF905_terms_0" target="_blank" title="Opens this document in a new window"> 
+		
+		Over 50s Life Insurance Policy Conditions
+		<span class="popup-link"></span>
+<span class="sr-only">Opens this document in a new window</span>
+</a>
+</li>
+<li>
+<a href="https://www.aviva.co.uk/legal/privacy-notice/life/" id="id_FF905_static_0" target="_blank" title="Opens this document in a new window"> 
+		
+		Privacy Notice
+		<span class="popup-link"></span>
+<span class="sr-only">Opens this document in a new window</span>
+</a>
+</li>
+<li>
+<a href="http://www.aviva.co.uk/life/key-facts.html" id="id_FF905_static_1" target="_blank" title="Opens this document in a new window"> 
+		
+		About our insurance services
+		<span class="popup-link"></span>
+<span class="sr-only">Opens this document in a new window</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-12 col-md-12">
+<div class="row">
+<div class="col-sm-6 col-md-12">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 class="panel-title icon-heading icon-secure">We’re Secure</h2>
+</div>
+<div class="panel-body">
+<p><img alt="SSL Certificate" src="/protection/direct/resources/images/comodo_secure_100x85_white.png"/>
+</p>
+<p>Buy with confidence. We offer the highest level of security available on the internet. Powered by Comodo.</p>
+<p>
+<a data-rel="externalLink" href="https://secure.comodo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC5&amp;v_search=direct.aviva.co.uk&amp;x=6&amp;y=5" target="_blank" title="This link will open in a new browser window or tab">More info </a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div><input id="j_id1:javax.faces.ViewState:0" name="javax.faces.ViewState" type="hidden" value="1715037650841156835:-8813250257308032995"/>
+</form>

@@ -1,0 +1,51 @@
+<form action="/MyInitiative/ForgottenYourDetails/Resend" id="form0" method="post"> <div class="row">
+<div class="rowLabel">
+<label for="Username">Username</label>
+</div>
+<div class="rowValue">
+<input id="Username" maxlength="50" name="Username" type="text" value=""/>
+<p class="recoverDetails regFieldHelp"><a href="/MyInitiative/ForgottenYourDetails/CheckEmail">I've forgotten</a></p>
+<span class="field-validation-valid" id="Username_validationMessage"></span>
+</div>
+</div>
+<div class="row">
+<div class="rowLabel">
+<label class="dobLabel">Date of birth</label>
+</div>
+<div class="rowValue">
+<div class="dobFields">
+<div class="shortField">
+<label for="DateOfBirth_Day" id="aria-day">Day</label>
+<input aria-describedby="date_validation_message" aria-labelledby="aria-day" aria-required="True" id="DateOfBirth_Day" maxlength="2" name="DateOfBirth.Day" role="textbox" type="text" value=""/>
+</div>
+<div class="longField">
+<label for="DateOfBirth_Month" id="aria-month">Month</label>
+<select aria-describedby="date_validation_message" aria-labelledby="aria-month" aria-required="True" id="DateOfBirth_Month" name="DateOfBirth.Month" role="listbox"><option value="">Please Select</option>
+<option value="January">January</option>
+<option value="February">February</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="October">October</option>
+<option value="November">November</option>
+<option value="December">December</option>
+</select>
+</div>
+<div class="shortField yearField">
+<label for="DateOfBirth_Year" id="aria-year">Year</label>
+<input aria-describedby="date_validation_message" aria-labelledby="aria-year" aria-required="True" id="DateOfBirth_Year" maxlength="4" name="DateOfBirth.Year" role="textbox" type="text" value=""/>
+</div>
+</div>
+<span class="field-validation-valid" id="DateOfBirth_validationMessage"></span>
+</div>
+</div>
+<input name="__RequestVerificationToken" type="hidden" value="2z4OkYVjCE_5TahDGXPitrJ7PEBe4cgQIpTy8a0tRsqS6QtQnoJ2M4AZ-IhVjdQAExsPn71b2w9C448_UoM-Z8SNhJI1"/> <div class="row">
+<div class="rowValue rowValueNoLabel">
+<input class="button yellow plain center" id="ResetPassword" name="SubmitButton" type="submit" value="Submit"/>
+</div>
+</div>
+</form>

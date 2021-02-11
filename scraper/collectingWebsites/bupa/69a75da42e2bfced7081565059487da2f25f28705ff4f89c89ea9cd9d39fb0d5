@@ -1,0 +1,123 @@
+<form action="/api/sitecore/EnquiryForm/EnquiryForm" autocomplete="off" id="GeneralEnquiry" method="post"> <div id="FormDetails">
+<h2 id="form-title">Email enquiry form | Health Information | Bupa UK</h2>
+<div class="grid">
+<div class="col w-66">
+<div class="pad">
+<div id="ErrorDiv" style="border:none;padding:0px;color:red;">
+</div>
+<div class="form">
+<p>If you'd like to contact us, please fill in our enquiry form for health management and we shall get back to you.<br/></p>
+<div class="row">
+<label for="SelectedTitle">Title</label>
+<span class="mod-select select-full-box">
+<select id="SelectedTitle" name="formFields.Title"><option value="Mr.">Mr.</option>
+<option value="Dr.">Dr.</option>
+<option value="Miss.">Miss.</option>
+<option value="Mrs.">Mrs.</option>
+<option value="Ms.">Ms.</option>
+<option value="Other">Other</option>
+</select>
+</span>
+</div>
+<div class="row">
+<input class="field hide" data-invalid="Please select a valid title." data-regex="^([a-zA-Z0-9\s'-]{1,25})$" data-required="Please select a valid title." data-val="true" data-val-regex="The field OtherTitleText must match the regular expression '^([a-zA-Z0-9\s'-]{1,25})$'." data-val-regex-pattern="^([a-zA-Z0-9\s'-]{1,25})$" id="OtherTitleText" maxlength="25" name="formFields.OtherTitleText" placeholder="Other (please state)" type="text" value=""/>
+</div>
+<div class="row">
+<label for="NameText">Full name</label>
+<input class="field" data-invalid="Please enter a valid name." data-regex="^([a-zA-ZÀ-ÿ0-9\s'-]{1,100})$" data-required="Please enter your full name." data-val="true" data-val-regex="The field FullName must match the regular expression '^([a-zA-ZÀ-ÿ0-9\s'-]{1,100})$'." data-val-regex-pattern="^([a-zA-ZÀ-ÿ0-9\s'-]{1,100})$" data-val-required="The FullName field is required." id="NameText" maxlength="100" name="formFields.FullName" placeholder="Your name" type="text" value=""/>
+</div>
+<div class="row">
+<label for="EmailText">Email address</label>
+<input class="field" data-invalid="Please enter a valid email address." data-regex="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-required="Please provide a valid email address." data-val="true" data-val-regex="The field EmailId must match the regular expression '^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$'." data-val-regex-pattern="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-val-required="The EmailId field is required." id="EmailText" maxlength="100" name="formFields.EmailId" placeholder="e.g. email@example.co.uk" type="text" value=""/>
+</div>
+<div class="row">
+<label for="ConfirmEmailText">Re-enter email address</label>
+<input class="field confirmemailpaste" data-invalid="The email address provided does not match the one entered above, please re-submit." data-regex="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-required="The email address provided does not match the one entered above, please re-submit." id="ConfirmEmailText" maxlength="100" name="formFields.ConfirmEmailId" placeholder="e.g. email@example.co.uk" type="text" value=""/>
+</div>
+<div class="row">
+<label for="PhoneText">Telephone</label>
+<input class="field" data-invalid="Please enter a valid phone number." data-regex="^([0-9\s]{7,15})$" data-required="Please enter a phone number." data-val="true" data-val-regex="The field Phone must match the regular expression '^([0-9\s]{7,15})$'." data-val-regex-pattern="^([0-9\s]{7,15})$" data-val-required="The Phone field is required." id="PhoneText" maxlength="15" name="formFields.Phone" placeholder="e.g. 0777 1234 567" type="text" value=""/>
+</div>
+<div class="row contactList hide">
+<label for="ContactTime">When would you like to be called back?</label>
+<label for="ContactTime">Time</label>
+<span class="mod-select select-full-box">
+<select data-val="true" data-val-regex="The field CallbackTime must match the regular expression '^[^&lt;&gt;%$]{1,255}$'." data-val-regex-pattern="^[^&lt;&gt;%$]{1,255}$" id="formFields_CallbackTime" name="formFields.CallbackTime"><option value="09:00-12:00">09:00-12:00</option>
+<option value="12:00-15:00">12:00-15:00</option>
+<option value="15:00-18:00">15:00-18:00</option>
+<option value="18:00-20:00">18:00-20:00</option>
+</select>
+</span>
+</div>
+<div class="row contactList hide">
+<label for="CallBackDate">What date would you like us to contact you? </label>
+<span class="mod-select select-full-box">
+<select data-val="true" data-val-regex="The field CallbackDate must match the regular expression '^[^&lt;&gt;%$]{1,100}$'." data-val-regex-pattern="^[^&lt;&gt;%$]{1,100}$" id="formFields_CallbackDate" name="formFields.CallbackDate"><option value="12/02/2021">12/02/2021</option>
+<option value="13/02/2021">13/02/2021</option>
+<option value="14/02/2021">14/02/2021</option>
+<option value="15/02/2021">15/02/2021</option>
+<option value="16/02/2021">16/02/2021</option>
+<option value="17/02/2021">17/02/2021</option>
+<option value="18/02/2021">18/02/2021</option>
+<option value="19/02/2021">19/02/2021</option>
+<option value="20/02/2021">20/02/2021</option>
+<option value="21/02/2021">21/02/2021</option>
+<option value="22/02/2021">22/02/2021</option>
+<option value="23/02/2021">23/02/2021</option>
+<option value="24/02/2021">24/02/2021</option>
+<option value="25/02/2021">25/02/2021</option>
+<option value="26/02/2021">26/02/2021</option>
+<option value="27/02/2021">27/02/2021</option>
+<option value="28/02/2021">28/02/2021</option>
+<option value="01/03/2021">01/03/2021</option>
+<option value="02/03/2021">02/03/2021</option>
+<option value="03/03/2021">03/03/2021</option>
+<option value="04/03/2021">04/03/2021</option>
+<option value="05/03/2021">05/03/2021</option>
+<option value="06/03/2021">06/03/2021</option>
+<option value="07/03/2021">07/03/2021</option>
+<option value="08/03/2021">08/03/2021</option>
+<option value="09/03/2021">09/03/2021</option>
+<option value="10/03/2021">10/03/2021</option>
+<option value="11/03/2021">11/03/2021</option>
+<option value="12/03/2021">12/03/2021</option>
+<option value="13/03/2021">13/03/2021</option>
+<option value="Select Date">Select Date</option>
+</select>
+</span>
+</div>
+<div class="row">
+<label for="EnquiryText">Details of your enquiry</label>
+<textarea class="field" cols="20" data-invalid="Please enter a valid enquiry." data-regex="^[^&lt;&gt;%$]{1,500}$" data-required="Please enter a valid enquiry." data-val="true" data-val-regex="The field EnquiryText must match the regular expression '^[^&lt;&gt;%$]{1,500}$'." data-val-regex-pattern="^[^&lt;&gt;%$]{1,500}$" data-val-required="The EnquiryText field is required." id="EnquiryText" maxlength="500" name="formFields.EnquiryText" placeholder="Enquiry details" rows="2">
+</textarea>
+</div>
+<div>
+<p>We recognize that when you give us personal information (which includes health information) you’re trusting us to take good care of it. Please see  our <a href="/legal-notices/privacy-and-cookies" target="_blank" title="Opens in a new window">privacy policy</a> for more information about how we collect, use and protect your data.</p>
+<p>If you don’t want to receive marketing about Bupa products and services that we think are relevant to you, please contact us at <a href="mailto:optmeout@bupa.com">optmeout@bupa.com</a></p>
+</div>
+<div class="row">
+<input class="btn" id="btnSubmit" name="submit-1" type="submit" value="Submit"/>
+</div>
+<div>
+<input id="EnquiryTypeName" name="EnquiryTypeName" type="hidden" value="Enquiry"/>
+<input id="EnquirySource" name="EnquirySource" type="hidden" value="Health Information"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hide" id="ThankYou">
+<div class="grid">
+<div class="col w-66">
+<div class="pad">
+<h2>Thank You</h2>
+<p><strong>Your enquiry has been received</strong></p>
+<p>We will be in touch to answer your questions shortly.</p>
+<p>If in the meantime you wish to speak to one of our advisors, please call us on 0808 273 6782.</p>
+<p>Lines are open between 8.30am-8pm Monday to Friday.</p>
+</div>
+</div>
+</div>
+</div>
+</form>

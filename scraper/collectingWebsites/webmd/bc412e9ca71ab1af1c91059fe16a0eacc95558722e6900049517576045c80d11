@@ -1,0 +1,557 @@
+<form action="/drugs/ingredientreviewpost-1615-SERINE.aspx?post=new&amp;drugid=1615&amp;t=2&amp;drugname=SERINE" id="submitRatings" method="post" name="submitRatings">
+<div class="subRating" id="content">
+<h2>Rate this treatment and share your opinion!</h2>
+<div class="ratelink"><a href="https://www.webmd.com/drug-reviews-faq" target="_blank" title="Treatment Review product">Learn about User Reviews</a></div>
+<h3 class="tips">Helpful tips to write a good review:</h3>
+<ol class="ratetips">
+<li>
+						Only share <em>your</em> first hand experience as a consumer or a care giver.
+					</li>
+<li>
+						Describe your experience in the Comments area including the benefits, side effects and how it has worked for you.  Do <em>not</em> provide personal information like email addresses or telephone numbers.
+					</li>
+<li>
+						Fill in the <em>optional information</em> to help other users benefit from your review.
+					</li>
+</ol>
+<h3 class="s1">Reason for Taking This Treatment</h3>
+<div id="condition-ec"><select class="condition" id="conditionDropDown" name="condition"><option value="-1">Select a reason</option>
+<option value="0">Other</option>
+<option value="9999999">General Health &amp; Wellness</option></select><span class="required">(required)</span></div>
+<h3 class="s2">Click the Stars to Rate This Treatment</h3>
+<div class="rateCriteria clearfix" id="rc1-ec">
+<h4 class="ttLink subForm">
+            Effectiveness <span class="required">(required)</span><span class="txtRate" id="txtRate1"></span></h4>
+<div class="catQuest">This treatment has worked for me.</div>
+<div class="inlineRating">
+<ul class="starRating" id="rq1">
+<li class="current-rating" id="catCurr1" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div>
+<div class="rateCriteria clearfix bBorder" id="rc2-ec">
+<h4 class="ttLink subForm">
+            Ease of Use <span class="required">(required)</span><span class="txtRate" id="txtRate2"></span></h4>
+<div class="catQuest">This treatment has been easy for me to use.</div>
+<div class="inlineRating">
+<ul class="starRating">
+<li class="current-rating" id="catCurr2" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div>
+<div class="rateCriteria clearfix" id="rc3-ec">
+<h4 class="ttLink subForm">
+            Satisfaction <span class="required">(required)</span><span class="txtRate" id="txtRate3"></span></h4>
+<div class="catQuest">Overall, I have been satisfied with my experience.</div>
+<div class="inlineRating">
+<ul class="starRating">
+<li class="current-rating" id="catCurr3" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div><script type="text/javascript">initRate();</script><h3 class="s3">Write a Brief Description of Your Experience with this Treatment:</h3><textarea class="comment" cols="5" id="userComment" maxlength="2000" name="userComment" onblur="checkMaxLength(this);" onfocus="checkMaxLength(this);" onkeyup="checkMaxLength(this);" rows="5"></textarea><div class="counter"><span id="currentCharCount">2000</span> characters remaining
+				</div>
+<h3 class="s4">Optional Information</h3>
+<dl id="optInfo">
+<dt>Help others benefit from your review by filling in the information below.</dt>
+<dd class="radio"><span class="label">I am a:</span><input id="patient" name="userType" type="Radio" value="patient"/><label for="patient">Consumer</label><input id="caregiver" name="userType" type="Radio" value="caregiver"/><label for="cargiver">Caregiver</label></dd>
+<dd class="radio"><span class="label">Gender:</span><input id="gMale" name="gender" type="Radio" value="male"/><label for="gMale">Male</label><input id="gFemale" name="gender" type="Radio" value="female"/><label for="gFemale">Female</label></dd>
+<dd><label for="ageRange">Age Range:</label><select id="ageRange" name="ageRange"><option value="0">Choose One</option>
+<option value="1">0-2</option>
+<option value="2">3-6</option>
+<option value="3">7-12</option>
+<option value="4">13-18</option>
+<option value="5">19-24</option>
+<option value="6">25-34</option>
+<option value="7">35-44</option>
+<option value="8">45-54</option>
+<option value="9">55-64</option>
+<option value="10">65-74</option>
+<option value="11">75 or over</option></select></dd>
+<dd><label for="brand">Brand product used:</label><select id="brandProdUsed" name="brandProdUsed" onchange="
+								wmdTrack('dr-brandprodused_1');
+							"><option value="-1">Choose One</option>
+<option value="26047">2 Builder by Systemic Formulas</option>
+<option value="28480">96% Protein Powder by Mason Vitamins, Inc.</option>
+<option value="22553">A/G Pro by Miller Pharmacal Group, Inc.</option>
+<option value="81215">A10  by Aminocare Products LP</option>
+<option value="26087">Accell Therapeutic Beverage Mix by Systemic For...
+				</option>
+<option value="38353">Acerflex by Nutricia Manufacturing</option>
+<option value="26571">Actibiomax by Merck &amp; Co., Inc.</option>
+<option value="38344">Add Ins by Nutricia Manufacturing</option>
+<option value="56731">AdreNOline (Orange Ice flavor) by Ultimate Nutr...
+				</option>
+<option value="92622">Advanced 1000 by Michael Bown </option>
+<option value="54342">Agua Vitae Men's Formula Liquid by Dr. Donsbach</option>
+<option value="22702">Alive! Whole Food Energizer (No Iron Added) by ...
+				</option>
+<option value="22704">Alive! Whole Food Energizer (No Iron Added; Vca...
+				</option>
+<option value="22705">Alive! Whole Food Energizer (Vcaps) by Nature's...
+				</option>
+<option value="22703">Alive! Whole Food Energizer by Nature's Way</option>
+<option value="22706">Alive! Whole Food Energizer Ultra-Shake (assort...
+				</option>
+<option value="22707">Alive! Whole Food Energizer Ultra-Shake (packet...
+				</option>
+<option value="81190">All In 1 by Biovaxine</option>
+<option value="22554">Amina 21 by Miller Pharmacal Group, Inc.</option>
+<option value="3410">Amino 1000 by Puritan's Pride</option>
+<option value="69936">Amino 1000 by Universal Nutrition</option>
+<option value="19139">Amino 1200 by NutraSanus LLC</option>
+<option value="32740">Amino 2000 by Ultimate Nutrition</option>
+<option value="26732">Amino 2002 by Ultimate Nutrition</option>
+<option value="95735">Amino 2100 by GAT (German American Technologies)</option>
+<option value="52663">Amino Acid 1000 mg by Nature's Life</option>
+<option value="37631">Amino Acid Complete by Klaire Laboratories</option>
+<option value="22398">Amino Acid Complex by G&amp;G Vitamins</option>
+<option value="24857">Amino Acid Complex by Lifeplan Products Limited</option>
+<option value="19140">Amino Acid Complex by NutraSanus LLC</option>
+<option value="7342">Amino Acid Complex by ProHealth, Inc.</option>
+<option value="18182">Amino Acid Quick Sorb by Biotics Research Corpo...
+				</option>
+<option value="5239">Amino Acids from Whey Protein [Discontinued] by...
+				</option>
+<option value="23203">Amino All by Nutri-West Inc</option>
+<option value="3508">Amino Athlete by Source Naturals</option>
+<option value="276">Amino Blend by Progressive Labs</option>
+<option value="3504">Amino Day by Source Naturals</option>
+<option value="91670">Amino Decanate (Citrus Lime and Watermelon flav...
+				</option>
+<option value="91621">Amino Drive Black by Nutrex Research, Inc.</option>
+<option value="53099">Amino EDGE (chocolate or vanilla flavor) by Vit...
+				</option>
+<option value="56820">Amino Gold 1000 mg Capsules by Ultimate Nutrition</option>
+<option value="32743">Amino Gold 1000 mg Tablets by Ultimate Nutrition</option>
+<option value="32742">Amino Gold 1500 mg Tablets by Ultimate Nutrition</option>
+<option value="50848">Amino Max 21 by FoodScience of Vermont</option>
+<option value="42025">Amino Max by Naturavit</option>
+<option value="56963">Amino Max by SportPharma</option>
+<option value="73174">Amino NR by Pure Encapsulations, Inc.</option>
+<option value="39420">Amino Plex by Kordial Nutrients</option>
+<option value="94649">Amino Replete Powder by Pure Encapsulations, Inc.</option>
+<option value="18560">Amino Supreme by Bricker Labs</option>
+<option value="10802">Amino Surge by Jarrow Formulas</option>
+<option value="288">Amino-Cartilage by Nutri-Quest Rx</option>
+<option value="23583">Aminogizer! Capsules by Sunburst Biorganics</option>
+<option value="22757">AminoHealth by Whole Health Products, LLC</option>
+<option value="290">AminoLogic [Discontinued 2016] by PhysioLogics</option>
+<option value="26094">AminoMax AKG by Prime Health Direct</option>
+<option value="20665">Aminoplus by Ultra Life, Inc.</option>
+<option value="20666">Aminotrate by Ultra Life, Inc.</option>
+<option value="50691">Aminotropic Fuel by Vitamin World</option>
+<option value="37075">AminoVol by NxLabs</option>
+<option value="56904">Amniotrate P by Ultra Life, Inc.</option>
+<option value="56905">Amniotrate S by Ultra Life, Inc.</option>
+<option value="54598">Amplify Smoothie (assorted flavors) by NDS Nutr...
+				</option>
+<option value="54602">Amplify Smoothie (vanilla flavor) by NDS Nutrition</option>
+<option value="8825">Animal Pak [Discontinued; Reformulated 2015] by...
+				</option>
+<option value="96782">Animal Pak by Universal Nutrition</option>
+<option value="15029">AppTrim by Physician Therapeutics LLC</option>
+<option value="15030">AppTrimD by Physician Therapeutics LLC</option>
+<option value="56850">Atri Amino by Atrium Inc</option>
+<option value="2260">Atri Free Amino by Atrium Inc</option>
+<option value="57406">Balanced Essentials by Heaven Sent Naturals</option>
+<option value="76909">BCAD 2 by Mead Johnson Nutritionals</option>
+<option value="22855">Beauty Plus by Confidence, Inc.</option>
+<option value="63066">Bioglan Amino Acid Complex by PharmaCare Labora...
+				</option>
+<option value="7410">Biospec Muscle Builder by BioTherapies, Inc.</option>
+<option value="93038">Blox (assorted flavors) by BPI Sports</option>
+<option value="25779">Body Fortress Liquid Aminos [Disconintued] by H...
+				</option>
+<option value="25775">Body Fortress Maximum Strength Amino 1500 [Disc...
+				</option>
+<option value="25778">Body Fortress Natural Amino 1000 [Discontinued]...
+				</option>
+<option value="16884">BodyTech Amino Complex 1500 mg by The Vitamin S...
+				</option>
+<option value="58338">Botanic Choice Amino Acid Complex by Indiana Bo...
+				</option>
+<option value="9553">Brain Link Complex by Pain &amp; Stress Center</option>
+<option value="60386">Brewers Yeast by TwinLab</option>
+<option value="79247">Broad Spectrum Amino Acids by Biocare Ltd.</option>
+<option value="88497">Bullet Proof Nighttime Recovery Powder by Muscl...
+				</option>
+<option value="2025">Candida Forte by Nature's Plus</option>
+<option value="98696">Cannibal Carna (Assorted flavors) by Chaos and ...
+				</option>
+<option value="57492">Caprotein (vanilla flavor) by Mt. Capra Wholefo...
+				</option>
+<option value="22765">Cardio C Q10 Heart Complex by Whole Health Prod...
+				</option>
+<option value="91307">Cebria Capsules by Cebria LLC</option>
+<option value="17355">CellFood by Lumina Health Products</option>
+<option value="95283">CellFood DNA-RNA Spray by Lumina Health Products</option>
+<option value="95279">Cellfood Essential Silica by Lumina Health Prod...
+				</option>
+<option value="95282">Cellfood Multivitamin by Lumina Health Products</option>
+<option value="95280">Cellfood Oxygen Gel by Lumina Health Products</option>
+<option value="95281">Cellfood Sam-E Liquid Formula by Lumina Health ...
+				</option>
+<option value="95278">Cellfood Weight Loss by Lumina Health Products</option>
+<option value="93767">Chain by EXT Sports</option>
+<option value="61406">Chewable Amino 1500 by Alternative Health &amp; Her...
+				</option>
+<option value="28557">Chewable High Protein 500 mg by Mason Vitamins,...
+				</option>
+<option value="22188">China Chlorella by Natrol, Inc.</option>
+<option value="23598">Chlorella by Sunburst Biorganics</option>
+<option value="97665">Combat Protein Powder (Banana Cream flavor) by ...
+				</option>
+<option value="97666">Combat Protein Powder (Chocolate Milk flavor) b...
+				</option>
+<option value="97670">Combat Protein Powder (Cinnamon Bun flavor) by ...
+				</option>
+<option value="94551">Combat Protein Powder (Cookies &amp; Cream flavor) ...
+				</option>
+<option value="97667">Combat Protein Powder (Cookies N Cream flavor) ...
+				</option>
+<option value="97668">Combat Protein Powder (Orange Creamsicle flavor...
+				</option>
+<option value="97669">Combat Protein Powder (Triple Berry flavor) by ...
+				</option>
+<option value="89332">Combat Protein Powder (Vanilla flavor) [Discont...
+				</option>
+<option value="97664">Combat Protein Powder (Vanilla flavor) by Muscl...
+				</option>
+<option value="38390">Complete Amino Acid Mix by Nutricia Manufacturing</option>
+<option value="9624">Complete Amino by Arrowroot</option>
+<option value="8216">Complete Heart II without Hormones by NutriColo...
+				</option>
+<option value="8217">Complete Nerve by NutriCology, Inc / Allergy Re...
+				</option>
+<option value="76694">Core4 Lean Vanilla Smoothie by Xyngular Corp.</option>
+<option value="56378">Crunch Aminos (Carob flavor) by Freeda Vitamins</option>
+<option value="36400">CytoPro (Various Flavors) [Discontinued] by Cyt...
+				</option>
+<option value="1008">CytoPro [Discontinued] by Cytodyne LLC</option>
+<option value="95229">Daily Build by Genesis Pure</option>
+<option value="6571">Detoxication Factors by Tyler Encapsulations</option>
+<option value="23028">Disc Discovery by DaVinci Laboratories</option>
+<option value="50634">Discovery by FoodScience of Vermont</option>
+<option value="57506">Double Bonded Protein by Mt. Capra Wholefood Nu...
+				</option>
+<option value="90361">Dr. Wilson's Adrenal Power Powder by ICA Health</option>
+<option value="36561">Dr. Wilson's Dynamite Adrenal by NutriCology, I...
+				</option>
+<option value="65468">Eagle Methyl Transfer by Integria Healthcare</option>
+<option value="95513">Efa Gold Hemp Protein &amp; Fiber by Nature's Way</option>
+<option value="89961">Egao's Kurozu  by Egao Co Ltd</option>
+<option value="98199">Egao's Kurozu by Egao Co Ltd</option>
+<option value="94659">Elite Training Packs by Precision Engineered Li...
+				</option>
+<option value="9206">End Fatigue Energy Revitalization System by Phy...
+				</option>
+<option value="59347">End Fatigue Energy Revitalization System Energy...
+				</option>
+<option value="95265">EPIQ Amino Clean Silk Amino &amp; BCAA Matrix by Io...
+				</option>
+<option value="66415">Essential Amino Plus by ProCaps Laboratories</option>
+<option value="19081">Extreme Hardcore Pak by American Body Building,...
+				</option>
+<option value="23173">FAST Supplement FAST II by Nisim International</option>
+<option value="36392">Fast Twitch (Various Flavors) by CytoSport</option>
+<option value="6625">Fatigued to Fantastic! Daily Energy Enfusion by...
+				</option>
+<option value="27075">Fatigued to Fantastic! Energy Revitalization Sy...
+				</option>
+<option value="20191">Figure Meno Soy by Ladybird</option>
+<option value="20222">Figure Shape by Ladybird</option>
+<option value="93238">Finaflex BCAA SAA by Redefine Nutrition</option>
+<option value="22487">Formula Hcy 11 by Miller Pharmacal Group, Inc.</option>
+<option value="59154">Free Amino Combo by Nutri-Pak Inc.</option>
+<option value="21314">Free Aminos by NutriCology, Inc / Allergy Resea...
+				</option>
+<option value="27482">Free Form Amino Caps by Douglas Laboratories</option>
+<option value="24997">Free Form Multi Amino Acids by HealthAid Ltd</option>
+<option value="57669">GHR by BIE Health</option>
+<option value="21948">Golden Glow Amino Plex by Sanofi-Aventis Australia</option>
+<option value="50883">Green Barley Grass 500 mg by Vitamin World</option>
+<option value="33348">Healthy Choice Nutritionals AgeLess 5000 by Hea...
+				</option>
+<option value="4765">HeartOption by BioImmune, Inc.</option>
+<option value="21641">Homocysteine Metabolite Formula by NutriCology,...
+				</option>
+<option value="64823">Homocysteine Supreme by Designs for Health, Inc.</option>
+<option value="97048">Hornet Juice by Nature Sport Science Ltd</option>
+<option value="53817">Hydroxycut Max! Advanced [Discontinued] by Iova...
+				</option>
+<option value="91759">Hydroxycut Max! Advanced for Women  by Iovate H...
+				</option>
+<option value="93118">Hydroxycut Max! Advanced Liquid Capsules by Iov...
+				</option>
+<option value="61346">intraKID by Drucker Labs, LP</option>
+<option value="61372">intraMAX by Drucker Labs, LP</option>
+<option value="56837">Iso Sensation 93 (assorted flavors) by Ultimate...
+				</option>
+<option value="32754">Iso Sensation 93 (assorted flavors) by Ultimate...
+				</option>
+<option value="32780">IsoCool (assorted flavors) by Ultimate Nutrition</option>
+<option value="32762">Isopreme (assorted flavors) by Ultimate Nutrition</option>
+<option value="18006">ITI Mega MultiVitamin Drink Mix by Integrative ...
+				</option>
+<option value="1527">K KIDNEY by Systemic Formulas</option>
+<option value="19014">KAL Nutritional Yeast Flakes by Nutraceutical C...
+				</option>
+<option value="58226">Ketonex 1 by Abbott Laboratories</option>
+<option value="1456">Ks Kidney Stabilizer by Systemic Formulas</option>
+<option value="13338">L Serine [Discontinued] by J.R. Carlson Laborat...
+				</option>
+<option value="27560">L Serine 500 mg by Douglas Laboratories</option>
+<option value="36284">Lean Mass Builder (assorted flavors)  by Applie...
+				</option>
+<option value="2625">Lecithin &amp; Milk powder by Nature's Life</option>
+<option value="27974">Lipreve by American Bioceuticals</option>
+<option value="19250">Liqui Loss by Fit by Friday</option>
+<option value="83933">Liquid Amino Acids by Wonder Laboratories</option>
+<option value="32752">Liquid Amino by Ultimate Nutrition</option>
+<option value="3409">Liquid Aminos Softgels by Puritan's Pride</option>
+<option value="38339">Lophlex (orange flavor) by Nutricia Manufacturing</option>
+<option value="15397">LPP Concentrated Predigested Protein by TwinLab</option>
+<option value="37556">M3 Muscle Bound by Higher Power</option>
+<option value="96051">Majestic Earth Beyond Tangy Tangerine by Younge...
+				</option>
+<option value="16769">Majestic Earth Sport's Tech by Youngevity</option>
+<option value="16772">Majestic Earth Tropical Plus by Youngevity</option>
+<option value="16773">Majestic Earth Ultimate Classic by Youngevity</option>
+<option value="16771">Majestic Earth Ultimate Tangy Tangerine [Discon...
+				</option>
+<option value="32763">Massive Whey Gainer (assorted flavors) by Ultim...
+				</option>
+<option value="57318">Max Amino Caps by Country Life Vitamins</option>
+<option value="10966">MAX Protein by Apex Fitness Group</option>
+<option value="2116">Mega Max by Aspen Group, Inc.</option>
+<option value="38374">Methionaid by Nutricia Manufacturing</option>
+<option value="38373">Milupa HOM 2 by Nutricia Manufacturing</option>
+<option value="38354">Milupa MSUD 2 by Nutricia Manufacturing</option>
+<option value="38378">Milupa OS 2 by Nutricia Manufacturing</option>
+<option value="38346">Milupa PKU 2 by Nutricia Manufacturing</option>
+<option value="38347">Milupa PKU 2 Tomato by Nutricia Manufacturing</option>
+<option value="38348">Milupa PKU 3 by Nutricia Manufacturing</option>
+<option value="38381">Milupa TYR 2 by Nutricia Manufacturing</option>
+<option value="38355">MSUD Aid by Nutricia Manufacturing</option>
+<option value="38349">MSUD Analog by Nutricia Manufacturing</option>
+<option value="38350">MSUD Maxamaid by Nutricia Manufacturing</option>
+<option value="38352">MSUD Maxamum by Nutricia Manufacturing</option>
+<option value="88282">Multi II by Solgar</option>
+<option value="88443">Multi Liver Formula by Nutri Ltd</option>
+<option value="32751">Muscle Juice 2544 (assorted flavors) by Ultimat...
+				</option>
+<option value="56709">Muscle Juice Revolution 2600 (assorted flavors)...
+				</option>
+<option value="6273">Natural Multi Amino Acid [Discontinued] by GNC</option>
+<option value="31152">Nature's Harbor Amino Plex 2000 by D &amp; E Pharma...
+				</option>
+<option value="94427">Neon Sport Kinetic BCAA - SAA by Cellucor</option>
+<option value="14364">Neutral C+ CoEnzyme Q10 by New Vision Internati...
+				</option>
+<option value="88965">Nutrition  by Genesis Pure</option>
+<option value="1011">One Step by Progressive Labs</option>
+<option value="31683">Optimum Protein Powder (90% Soy Protein) by Mag...
+				</option>
+<option value="27973">Orul by American Bioceuticals</option>
+<option value="96074">P6 Black by Cellucor</option>
+<option value="93790">P6 Extreme Black [Discontinued; Reformulated, 2...
+				</option>
+<option value="95729">P6 Extreme Black by Cellucor</option>
+<option value="12115">Perfect Protein by Metagenics</option>
+<option value="38332">Periflex Advance (Unflavored, Orange flavor, Ch...
+				</option>
+<option value="38330">Periflex Infant by Nutricia Manufacturing</option>
+<option value="38331">Periflex Junior (Unflavored, Chocolate flavor, ...
+				</option>
+<option value="58246">Phenyl Free by Mead Johnson Nutritionals</option>
+<option value="38342">Phlexy 10 Capsules by Nutricia Manufacturing</option>
+<option value="38340">Phlexy 10 Drink Mix (blackcurrant/apple or trop...
+				</option>
+<option value="38343">Phlexy 10 Tablets by Nutricia Manufacturing</option>
+<option value="7025">PhysioSoy Powder (Chocolate flavor) [Discontinu...
+				</option>
+<option value="2682">Pinnacle Beta Activated Protein with HMB by Bod...
+				</option>
+<option value="94713">Platinum X 30 Plus by RightWay Nutrition LLC</option>
+<option value="95255">Post Workout by ATP Mechanix</option>
+<option value="98443">Pre Seraton by Bio Concepts</option>
+<option value="95237">Pre Workout by ATP Mechanix</option>
+<option value="17035">Premium Amino's by Everlast Nutrition</option>
+<option value="85535">Prenatal Nutrients by Solgar</option>
+<option value="80606">Pro Clinical Hydroxycut Max for Women by Iovate...
+				</option>
+<option value="91758">Pro Clinical Hydroxycut Max! for Women by Iovat...
+				</option>
+<option value="40021">Pro Max by Kordial Nutrients</option>
+<option value="12117">Pro Optimizer [Discontinued] by Metagenics</option>
+<option value="7530">Pro Performance Creatine Burst (Fruit Punch) by...
+				</option>
+<option value="1604">Pro-Life Soy Protein by Nature's Life</option>
+<option value="32753">Prostar 100% Whey Protein (assorted flavors) by...
+				</option>
+<option value="52646">Protein 95 Soy Protein by Nature's Life</option>
+<option value="1166">Protein Boost [Discontinued] by Nutri-Quest Rx</option>
+<option value="32962">Protein Isolate (Chocolate Creme flavor, Vanill...
+				</option>
+<option value="32785">Protein Sensation 81 (assorted flavors) by Ulti...
+				</option>
+<option value="58015">Pure Advantage Vegan Complete by Aerobic Life</option>
+<option value="3469">Pure Soy Protein Powder by Puritan's Pride</option>
+<option value="74498">RaNisa Naturals Monster Mix by Top of the World...
+				</option>
+<option value="16774">Rebound FX with Bilberry by Youngevity</option>
+<option value="16775">Rebound FX with Green Tea by Youngevity</option>
+<option value="20213">Rice Protein by Ladybird</option>
+<option value="17598">Sense of Mind by NorthStar Nutritionals</option>
+<option value="87565">Sentinel Amino 1000 by Action Labs Inc. </option>
+<option value="57286">Slumber EZ by Bios Biochemicals</option>
+<option value="3470">Soy Protein Powder by Puritan's Pride</option>
+<option value="9097">Steady On by NutriCology, Inc / Allergy Researc...
+				</option>
+<option value="16127">StePHan Bio-Nutritional Clarity by Wellness Int...
+				</option>
+<option value="16130">StePHan Bio-Nutritional Elasticity by Wellness ...
+				</option>
+<option value="16133">StePHan Bio-Nutritional Elixir by Wellness Inte...
+				</option>
+<option value="16129">StePHan Bio-Nutritional Essential by Wellness I...
+				</option>
+<option value="16132">StePHan Bio-Nutritional Feminine by Wellness In...
+				</option>
+<option value="16119">StePHan Bio-Nutritional Flexibility by Wellness...
+				</option>
+<option value="16128">StePHan Bio-Nutritional Protector by Wellness I...
+				</option>
+<option value="22393">Sublingual Amino Acid Complex Powder by G&amp;G Vit...
+				</option>
+<option value="36748">Super Collagen Type I &amp; IIl Powder by NeoCell C...
+				</option>
+<option value="14060">Super Collagen+C Type I &amp; III by NeoCell Corpor...
+				</option>
+<option value="13049">Super Daily Amino Blend [Discontinued] by J.R. ...
+				</option>
+<option value="1096">Super Max 1600 Weight Gain by Aspen Group, Inc.</option>
+<option value="16738">SupraLife Total Toddy by Youngevity</option>
+<option value="16739">SupraLife Ultra Body Toddy by Youngevity</option>
+<option value="84684">Swanson Ultra Vita Lanne All in One Nutrient Fo...
+				</option>
+<option value="9106">Take Heart II without Hormones by NutriCology, ...
+				</option>
+<option value="96495">The Mane Choice Manetabolism Plus by The Mane C...
+				</option>
+<option value="15024">Theramine by Physician Therapeutics LLC</option>
+<option value="95975">Thrive W by Le-Vel Brands</option>
+<option value="4457">Total Balance [Discontinued] by Xtend-Life Nutr...
+				</option>
+<option value="92323">Total Natural Growth Power by Capwork Nutrition...
+				</option>
+<option value="8737">Tranquility by Wellness International Network, ...
+				</option>
+<option value="87321">Trans D Tropin by Bal-Sar NutraMED Distribution...
+				</option>
+<option value="54458">Trepadone by Physician Therapeutics LLC</option>
+<option value="37491">Triathlete by Source Naturals</option>
+<option value="98970">TriBulk Pre-Workout (Berry flavor) by Outlaw La...
+				</option>
+<option value="51823">TriCardia by Vaxa International</option>
+<option value="93529">TruePower by Truestar Health</option>
+<option value="59326">Tyler Detoxication Factors by Integrative Thera...
+				</option>
+<option value="91487">Ultimate Amino Formula by Parrillo Performance</option>
+<option value="57052">Ultimate Moisture by Zia Natural Skincare</option>
+<option value="37510">Ultra Multiple by Source Naturals</option>
+<option value="4649">Ultra-Pro Training Tabs by The Sports Nutrition...
+				</option>
+<option value="16381">Ultragen by First Endurance</option>
+<option value="56398">Ultramino Powder by Freeda Vitamins</option>
+<option value="79569">Vitacerin by Liquid Vitamin Stop</option>
+<option value="47747">VitaComplete by Vitabase</option>
+<option value="18102">Vitaline Sharper Focus by Integrative Therapeut...
+				</option>
+<option value="74514">Viva! Mega Food Multi Vitamin by NSI - Nutraceu...
+				</option>
+<option value="4423">Wheat Grass by Pines International</option>
+<option value="36391">Whey Pure Protein by CNCA Health</option>
+<option value="32774">Whey Sensation 81 by Ultimate Nutrition (Intern...
+				</option>
+<option value="32759">Whey Supreme (assorted flavors) by Ultimate Nut...
+				</option>
+<option value="32744">Whey Supreme 2000 by Ultimate Nutrition</option>
+<option value="65548">WheyCool Powder (Plain flavor, Vanilla flavor) ...
+				</option>
+<option value="68269">Women's Hair, Skin &amp; Nails Program by GNC</option>
+<option value="54232">WPI 90 (assorted flavours) by Goliath's</option>
+<option value="54233">WPI 90 For Her (assorted flavours) by Goliath's</option>
+<option value="90023">X 30 Plus [Discontinute] by HCG Platinum</option>
+<option value="38356">XLeu Analog by Nutricia Manufacturing</option>
+<option value="38362">XLeu Maxamaid by Nutricia Manufacturing</option>
+<option value="38363">XLeu Maxamum by Nutricia Manufacturing</option>
+<option value="38364">XLys, XTrp Analog by Nutricia Manufacturing</option>
+<option value="38365">XLys, XTrp Maxamaid by Nutricia Manufacturing</option>
+<option value="38366">XLys, XTrp Maxamum by Nutricia Manufacturing</option>
+<option value="38367">XMet Analog by Nutricia Manufacturing</option>
+<option value="38371">XMet Maxamaid by Nutricia Manufacturing</option>
+<option value="38372">XMet Maxamum by Nutricia Manufacturing</option>
+<option value="38375">XMTVI Analog by Nutricia Manufacturing</option>
+<option value="38376">XMTVI Maxamaid by Nutricia Manufacturing</option>
+<option value="38377">XMTVI Maxamum by Nutricia Manufacturing</option>
+<option value="38333">XPhe Analog by Nutricia Manufacturing</option>
+<option value="38334">XPhe Maxamaid (unflavored, strawberry, or orang...
+				</option>
+<option value="38338">XPhe Maxamum Drink by Nutricia Manufacturing</option>
+<option value="38337">XPhe Maxamum Powder (unflavored or orange flavo...
+				</option>
+<option value="38379">XPhe, XTry Analog by Nutricia Manufacturing</option>
+<option value="38380">XPhe, XTry Maxamaid by Nutricia Manufacturing</option>
+<option value="38382">XPhen, Tyr Maxamaid by Nutricia Manufacturing</option>
+<option value="38383">XPhen, Tyr Maxamum by Nutricia Manufacturing</option>
+<option value="38384">XPTM Analog by Nutricia Manufacturing</option>
+<option value="36275">Xrreme XXL Bar  (various flavors) by American B...
+				</option>
+<option value="32745">Xtreme Amino (assorted flavors) by Ultimate Nut...
+				</option>
+<option value="31352">YourLife LiquiMax Complete Nutrition Multivitam...
+				</option>
+<option value="27971">Zostamine by American Bioceuticals</option>
+<option value="0">
+										Other
+									</option></select></dd>
+<dd><label for="timeRange">Time on Treatment:</label><select id="timeRange" name="timeRange"><option value="0">Choose One</option>
+<option value="1">less than 1 month</option>
+<option value="2">1 to 6 months</option>
+<option value="3">6 months to less than 1 year</option>
+<option value="4">1 to less than 2 years</option>
+<option value="5">2 to less than 5 years</option>
+<option value="6">5 to less than 10 years</option>
+<option value="7">10 years or more</option></select></dd>
+<dd><label for="sName">Screen Name:</label><input id="sName" maxlength="40" name="screenName" type="Text" value=""/></dd>
+</dl>
+<h3 class="s5">Type the Characters You See in this Picture:</h3>
+<p class="capintro">This is used to prevent illegitimate use by automated programs</p>
+<div id="capChar-ec">
+<p class="label">Picture:</p>
+<div id="codeGraphic"><img height="75" id="captchaImage" src="CaptchaImage.aspx?w=220&amp;h=75&amp;id=lZ%2fiGpY1p8eqegbJZCLH7nqkcWZZshMsbaLFCfz9EKA%3d" width="220"/><a class="refreshBtn" href="#" onclick="wmdPageLink('dr-captcha'); return RefreshCaptcha();"><img border="0" height="22" id="captchaImage" src="https://img.webmd.com/drugs/PortalLiteResources/images/refreshCapshaw_btn.gif" width="117"/></a><input id="cypherText" name="cypherText" type="hidden" value="lZ%2fiGpY1p8eqegbJZCLH7nqkcWZZshMsbaLFCfz9EKA%3d"/></div><label for="CapChar">Enter characters from the image above:</label><input autocomplete="off" id="CapChar" name="characters"/><span class="required">(required)</span></div>
+</div>
+<div id="agreement"><input id="agreeChk" name="agreement" type="Checkbox"/>I have read and agree to abide by the <a href="/policies/about-terms-and-conditions-of-use" target="_blank">WebMD Terms and Conditions</a> and <br/><a href="/policies/about-privacy-policy" target="_blank">WebMD Privacy Policy</a>.
+				  <span class="required">(required)</span></div><input id="rateValue1" name="rate1" type="Hidden"/><input id="rateValue2" name="rate2" type="Hidden"/><input id="rateValue3" name="rate3" type="Hidden"/><div id="postButtons"><button class="defaultBtn" onclick="if(CheckValidForm())ctrs('dr-reviewadd'); else return false;" type="submit">Post</button><button class="defaultBtn" onclick="RedirectToIngredientUrl();" type="reset">cancel</button></div><script type="text/javascript">
+				function RedirectToIngredientUrl()
+				{
+				//This is a workaround for single quotes in the name
+				window.location.href = "/vitamins-supplements/ingredientmono-1615-SERINE.aspx?activeIngredientId=1615&activeIngredientName=SERINE&source=0";
+				}
+			</script><div class="moduleSpacer_fmt"></div><script type="text/javascript">checkMaxLength(document.getElementById("userComment"));</script></form>

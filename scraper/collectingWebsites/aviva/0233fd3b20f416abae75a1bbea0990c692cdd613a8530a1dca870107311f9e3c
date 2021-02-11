@@ -1,0 +1,210 @@
+<form action="/myfuture/LifeExpectancy/AboutYou" method="post"><input name="__RequestVerificationToken" type="hidden" value="zM0DpUxFeADFVgtlAyjGBt6J40ti8QiOxDPESQ4HUUk8z17mJiT4eiAfPW1uR9cStbJ3yKF2Z3yOk2Tx9iNhHT94do41"/><input id="IsAutoPopulated" name="IsAutoPopulated" type="hidden" value="False"/> <div class="u-divider">
+<h2>About you</h2>
+</div>
+<div class="under50">
+<div class="l-max l-max--left l-max--6-column-large">
+<fieldset class="m-form-row m-form-row--full-width">
+<legend class="a-label"><label for="DateOfBirth">What is your date of birth?*</label></legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirthDay" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirthMonth" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirthYear" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirth" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group" data-module="a-autojump">
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="DateOfBirthDay">Day</label>
+<input class="a-textbox a-textbox--2-character" data-bind="init, textInput: DateOfBirthDay" data-val="true" data-val-number="The field Day must be a number." data-val-range="Not a valid day" data-val-range-max="31" data-val-range-min="1" data-val-regex="Only numbers allowed" data-val-regex-pattern="^\d+$" data-val-required="Please enter a day" id="DateOfBirthDay" max="31" maxlength="2" min="1" name="DateOfBirthDay" placeholder="DD" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="DateOfBirthMonth">Month</label>
+<input class="a-textbox a-textbox--2-character" data-bind="init, textInput: DateOfBirthMonth" data-val="true" data-val-number="The field Month must be a number." data-val-range="Not a valid month" data-val-range-max="12" data-val-range-min="1" data-val-regex="Only numbers allowed" data-val-regex-pattern="^\d+$" data-val-required="Please enter a month" id="DateOfBirthMonth" max="12" maxlength="2" min="1" name="DateOfBirthMonth" placeholder="MM" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="DateOfBirthYear">Year</label>
+<input class="a-textbox a-textbox--4-character" data-bind="init, textInput: DateOfBirthYear" data-val="true" data-val-number="The field Year must be a number." data-val-range="Not a valid year" data-val-range-max="9999" data-val-range-min="1900" data-val-regex="Only numbers allowed" data-val-regex-pattern="^\d+$" data-val-required="Please enter a year" id="DateOfBirthYear" max="2100" maxlength="4" min="1900" name="DateOfBirthYear" placeholder="YYYY" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width">
+<legend class="a-label"><label for="Gender">What is your gender?*</label></legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="Gender" data-valmsg-replace="true"></span>
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="GenderMale">
+<input class="a-radio__input" data-val="true" data-val-required="This field is required." id="GenderMale" name="Gender" type="radio" value="Male"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Male</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="GenderFemale">
+<input class="a-radio__input" id="GenderFemale" name="Gender" type="radio" value="Female"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Female</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__ui"></li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width m-form-row--last">
+<legend class="a-label"><label for="RetirementAge">What age do you plan to retire?*</label></legend>
+<div class="m-form-row__content">
+<div class="m-form-row__help" data-module="m-form-row__help">
+<p>This will help us estimate how long you may be in retirement.</p>
+</div>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="RetirementAge" data-valmsg-replace="true"></span>
+<input class="a-textbox a-textbox--3-character" data-val="true" data-val-number="The field What age do you plan to retire?* must be a number." data-val-range="Value entered must be between 55 and 80" data-val-range-max="80" data-val-range-min="55" data-val-required="Please enter your retirement age" id="RetirementAge" maxlength="3" name="RetirementAge" type="tel" value=""/>
+</div>
+</fieldset>
+</div>
+</div>
+<div data-bind="visible: IsOver50" id="over50">
+<div class="u-divider">
+<h2>For a more informed life expectancy, please also tell us...</h2>
+</div>
+<div class="l-max l-max--left l-max--6-column-large">
+<fieldset class="m-form-row m-form-row--full-width" id="height">
+<legend class="a-label">What is your height?*</legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="HeightFeet" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="HeightInches" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="HeightCentimetres" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group m-textbox-group--visible-label">
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="HeightFeet">Feet</label>
+<input class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field Feet must be a number." id="HeightFeet" maxlength="2" name="HeightFeet" step="any" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="HeightInches">Inches</label>
+<input class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field Inches must be a number." id="HeightInches" maxlength="2" name="HeightInches" step="any" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label">Or</label>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="HeightCentimetres">Centimetres</label>
+<input class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field Centimetres must be a number." id="HeightCentimetres" maxlength="3" name="HeightCentimetres" step="any" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width" id="weight">
+<legend class="a-label">What is your weight?*</legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="WeightStone" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="WeightPounds" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="WeightKilogram" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group m-textbox-group--visible-label">
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="WeightStone">Stone</label>
+<input class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field Stone must be a number." id="WeightStone" maxlength="2" name="WeightStone" step="any" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="WeightPounds">Pounds</label>
+<input class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field Pounds must be a number." id="WeightPounds" maxlength="2" name="WeightPounds" step="any" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label">Or</label>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="WeightKilogram">Kilos</label>
+<input class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field Kilos must be a number." id="WeightKilogram" maxlength="3" name="WeightKilogram" step="any" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width">
+<legend class="a-label">Do you smoke?*</legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="IsSmoker" data-valmsg-replace="true"></span>
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="IsSmokerYes">
+<input class="a-radio__input" id="IsSmokerYes" name="IsSmoker" type="radio" value="True"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Yes</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="IsSmokerNo">
+<input class="a-radio__input" id="IsSmokerNo" name="IsSmoker" type="radio" value="False"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">No</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width m-form-row--last" id="medical">
+<legend class="a-label">Do you suffer or have you ever suffered from any of the following conditions?*</legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="NoDisclosedMedicalConditions" data-valmsg-replace="true"></span>
+<ul class="m-checkbox-group">
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_5_li">
+<label class="a-checkbox" for="HasHadHeartAttack">
+<input class="a-checkbox__input" id="HasHadHeartAttack" medicalcondition="true" name="HasHadHeartAttack" type="checkbox" value="true"/><input name="HasHadHeartAttack" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Heart attack</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_6_li">
+<label class="a-checkbox" for="HasHadDiabetes">
+<input class="a-checkbox__input" id="HasHadDiabetes" medicalcondition="true" name="HasHadDiabetes" type="checkbox" value="true"/><input name="HasHadDiabetes" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Diabetes</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_11_li">
+<label class="a-checkbox" for="HasHadMultipleSclerosis">
+<input class="a-checkbox__input" id="HasHadMultipleSclerosis" medicalcondition="true" name="HasHadMultipleSclerosis" type="checkbox" value="true"/><input name="HasHadMultipleSclerosis" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Multiple Sclerosis</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_7_li">
+<label class="a-checkbox" for="HasHadStroke">
+<input class="a-checkbox__input" id="HasHadStroke" medicalcondition="true" name="HasHadStroke" type="checkbox" value="true"/><input name="HasHadStroke" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Stroke (excluding mini strokes / TIA)</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_8_li">
+<label class="a-checkbox" for="HasHadAngina">
+<input class="a-checkbox__input" id="HasHadAngina" medicalcondition="true" name="HasHadAngina" type="checkbox" value="true"/><input name="HasHadAngina" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Angina (requiring prescribed medication)</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_9_li">
+<label class="a-checkbox" for="HasHadCancer">
+<input class="a-checkbox__input" id="HasHadCancer" medicalcondition="true" name="HasHadCancer" type="checkbox" value="true"/><input name="HasHadCancer" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Cancer (diagnosed within the last 5 years)</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="id_details-medical_conditions_10_li">
+<label class="a-checkbox" for="HasHadParkinsons">
+<input class="a-checkbox__input" id="HasHadParkinsons" medicalcondition="true" name="HasHadParkinsons" type="checkbox" value="true"/><input name="HasHadParkinsons" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Parkinson’s</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+<li class="m-checkbox-group__item" id="medical_conditions_none_li">
+<label class="a-checkbox" for="NoDisclosedMedicalConditions">
+<input class="a-checkbox__input" id="NoDisclosedMedicalConditions" medicalcondition="true" name="NoDisclosedMedicalConditions" type="checkbox" value="true"/><input name="NoDisclosedMedicalConditions" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">None of the above</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+</div>
+</div>
+<p>
+<input class="a-button a-button--primary" data-qa-button="submitForm" type="submit" value="Calculate"/>
+</p>
+</form>

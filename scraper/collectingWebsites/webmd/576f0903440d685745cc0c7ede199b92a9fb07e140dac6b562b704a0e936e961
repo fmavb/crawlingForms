@@ -1,0 +1,28 @@
+<form class="content">
+<section class="section clearfix">
+<div class="header">
+<h2></h2>
+</div>
+<div class="body clearfix">
+<div class="callout">
+<p>Answer a few questions to see if there's more you can do to keep your asthma under control.</p>
+<h3>How serious is your asthma?</h3>
+</div>
+<div class="question-cont clearfix">
+<ul>
+<li><a class="next one-line" href="#">Mild</a></li>
+<li><a class="next one-line" href="#">Moderate</a></li>
+<li><a class="next one-line" href="#">Severe</a></li>
+</ul>
+</div>
+</div>
+</section>
+<div class="npnav">
+<a class="prev" href="#" id="hc-prevbtn"><i class="icon-arrow-left"></i><span>Back</span></a>
+<a class="next loading" href="#" id="hc-nextbtn"><i class="icon-arrow-right"></i><span>Continue</span><i class="spinner"></i></a>
+</div>
+<div class="progress">
+<div class="progress-percentage"></div>
+<div class="progress-fill"></div>
+</div>
+</form>

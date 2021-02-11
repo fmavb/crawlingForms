@@ -1,0 +1,14 @@
+<form class="location-form" id="local-locator-form" method="post">
+<fieldset>
+<legend class="visuallyhidden">Postcode lookup</legend>
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="postcode">Enter a postcode</label>
+<div class="gem-c-hint govuk-hint govuk-!-margin-bottom-3" id="hint-8e6377b7">
+  For example SW1A 2AA
+</div>
+<input aria-describedby="hint-8e6377b7" autocomplete="postal-code" class="gem-c-input govuk-input" id="postcode" name="postcode" type="text"/>
+</div>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Find</button>
+<p class="govuk-body"><a class="govuk-link" href="http://www.royalmail.com/find-a-postcode" id="postcode-finder-link" rel="external" target="_blank">Find a postcode on Royal Mail's postcode finder</a></p>
+</fieldset>
+</form>

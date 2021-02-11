@@ -1,0 +1,8 @@
+<form action="#" method="get" onsubmit="alert('Could not subscribe to newsletter: an error has occurred.'); return false;">
+<div>
+<input name="nls" type="hidden" value="35"/>
+<label class="privacy_label"><input class="privacy" id="privacy" name="privacy" type="checkbox"/>I have read and agree to WebMD's <a href="https://www.webmd.com/about-webmd-policies/about-privacy-policy">Privacy Policy</a>.</label>
+<input class="newsletterEmail" name="email" title="Enter Email Address" type="text" value=""/>
+<button class="newsletterSubmit" name="submit" type="submit">Submit</button>
+</div>
+</form>

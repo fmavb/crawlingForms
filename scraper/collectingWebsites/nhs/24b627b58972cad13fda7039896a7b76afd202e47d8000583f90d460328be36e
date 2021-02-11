@@ -1,0 +1,61 @@
+<form action="/services/hospital/churchill-hospital/X1675/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;The staff were my heroes&lt;/Title&gt;
+    &lt;ScreenName&gt;rainewater&lt;/ScreenName&gt;
+    &lt;CommentText&gt;In January 2014 I was diagnosed with stage 3 non-Hodgkin Follicular Lymphoma,  
+6 years ago, almost to the day. It was, without doubt, the most terrifying time of my life. My cousin in Canada had been diagnosed with exactly the same, just 2 months earlier, which is why, when I discovered lumps around my left clavicle, just before that Christmas, I suddenly knew what my symptoms over the previous 2 years had meant.  
+We agonized over Christmas, waiting for answers. The surgeon who had removed my lymph node for diagnosis, very kindly and empathetically rang me one evening with the result, as I had implored him to do, which reduced the waiting at least.  
+At every stage of treatment, through bone marrow biopsy, 6 months of chemo, a couple of infections, and 2 years of follow up Rituximab support, the staff at the Churchill, without exception, were my heroes. Nothing was too much trouble, and I felt supported and informed all the way, and was never made to feel my questions were stupid.  
+The chemo nurses on the haematology ward are so lovely, and empathetic - just special, caring people, who seemed to know my name, and remember things about me, making it feel like a gentle, comfortable oasis, in the harsh desert my life temporarily became.  
+Since I was thankfully declared in complete remission, I have had regular check ups at the hospital, having now progressed to 6 monthly telephone appointments. I had been very worried about being 'cast adrift' once remission was achieved, but this has not happened, and I still feel I could contact the team, via the specialist nurses, if I ever become concerned again.  
+I even visited the drop in centre, several years after remission was declared, for a few sessions of counselling, to just help put a few ghosts to rest. I was welcomed and cared for so generously, by kind, understanding people who I cannot praise highly enough.  
+I still dread the return of the condition, but feel much more secure now, knowing this wonderful team would have my back.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-01-07T15:00:01Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;1&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Churchill Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;61cdf95d-5e31-ea11-a810-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1675&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHu3Xsmkb3BCYrmGkUZDl7LWHcBrCbqYfk9VSfd4KuGkjgtSUFVT9RC_QZwInbBJxrNw9I2U2fGnoKcPQYJDaogHZ-68LgA8yPvaGHRPO83f3JHaAI7O1geZw06ibSrzQI"/></form>

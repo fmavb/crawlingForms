@@ -1,0 +1,55 @@
+<form action="/services/hospital/bradford-royal-infirmary/X381/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Aggressive nursing staff&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I unfortunately had to attend A&amp;amp;amp;E last night following a call to 111 due to severe abdominal pain, they wanted to send an emergency ambulance but instead my husband drove me to BRI as we are aware of the shortage of NHS resources. 
+When we arrived at A&amp;amp;amp;E my husband checked me in and we were seen my a nurse very quickly. Unfortunately this nurse was one of the most unpleasant and intimidating people I have ever come across. I was doubled over in pain and crying due to it’s severity. She didn’t speak to me whilst doing my observations and made no attempt to comfort and calm me down. I explained my medical history (I’ve been in and out of hospital all of 2019 due to possible ovarian torsions). I also asked if I could have some pain relief (as I had been passing out and vomiting due to the pain). She advised that I would have to wait 2 hours before I could have pain relief, and that if I kept crying this would probably take longer. I expressed my concerns that the clinician I spoke to via 111 was concerned I may have internal bleeding due to the consistency and colour of my vomit, and also the fact I had fainted and hit my head. She then accused me of shouting at her (at no point did I raise my voice, as I was actually crying at the time). My husband then apologised if she had been upset, but tried to explain to her that during my previous 4 admissions they had tried to get the pain under control as soon as possible, as if it is left it becomes completely uncontrollable (even with strong medications such as morphine). She then said that she was very busy, opened the door and told us to get out. As my husband wheeled me out we both heard her swearing under her breath about us. She then very aggressively slammed the door. The person sitting next to us in the waiting area also said that she had heard the nurse swearing. This encounter had made me feel so anxious and unsafe I demanded that my husband discharge me and we go home. Consequently I didn’t sleep due to severe pain, my own GP said that what had happened could have been very dangerous and encouraged me to raise this nurses behaviour to the hospital. Working for the NHS myself I understand the immense pressure that A&amp;amp;amp;E departments are under. However, the conduct of this nurse was absolutely disgraceful, and I strongly believe she should not be working with the vulnerable and ill.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-03-13T14:16:44.893Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;3&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Bradford Royal Infirmary&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;0f02baa8-44d5-e911-a812-000d3a7ed518&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X381&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGPsctYwtmt6PM9_pWLKndfIUA4BqYhbGTN0DDtSdWRcvo2duGZ0Di4IdoyySD9_ln6Rxl009lHq0v2pL0KaGGzbLLglUMpuJqFvR_oKMCORvs3_15XljZFkcn_6Tf3Ur4"/></form>

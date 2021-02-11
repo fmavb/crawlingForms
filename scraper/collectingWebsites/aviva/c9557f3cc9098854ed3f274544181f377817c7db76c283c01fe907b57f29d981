@@ -1,0 +1,238 @@
+<form action="/myfuture/IsaInvestmentCalculator" id="Option1Form" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="OCSUwxsw349x2hpaGlg_mQxBtYTxabGFeYWSNrDvjpA_zwW3fvRS1ZP2TeGwDzlPu6HOqvMdVYlFLIkP-NIMCiCvg381"/> <div class="l-columns l-columns--33-66-large">
+<div class="form-data l-columns__column t-accent-light--lightest-blue u-p--2">
+<fieldset class="m-form-row m-form-row--full-width" role="radiogroup">
+<p class="a-heading a-heading--2 u-mt--0">About your ISAs</p>
+<label class="a-label">
+        Do you have any money in ISAs already?
+    </label>
+<div class="m-form-row__content">
+<ul class="m-radio-group">
+<li class="m-radio-group__item">
+<label class="a-radio" for="moneyInIsasAlreadyYes">
+<input class="YourSavingsPlansRadio a-radio__input js-click" data-reveal="show" id="moneyInIsasAlreadyYes" name="MoneyInIsasAlready" type="radio" value="Yes"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Yes</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="moneyInIsasAlreadyNo">
+<input class="YourSavingsPlansRadio a-radio__input js-click" data-reveal="hide" id="moneyInIsasAlreadyNo" name="MoneyInIsasAlready" type="radio" value="No"/>
+<span class="a-radio__label">
+<span class="a-radio__label-inner">No</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+<div class="inISAsAlready js-isa-payment u-hidden--js">
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label" for="IsaInvestmentInPreviousTaxYears">
+        Amount paid before this tax year
+        <a class="tooltip" href="#tooltip-amount-held-in-previous-tax-year">(Help?)</a>
+</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="IsaInvestmentInPreviousTaxYears" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Amount paid before this tax year must be a number." id="isaInvestmentInPreviousTaxYears" maxlength="8" name="IsaInvestmentInPreviousTaxYears" step="any" type="tel" value=""/>
+</div>
+</fieldset>
+<fieldset>
+<label class="a-label" for="IsaInvestmentInThisTaxYear">
+        Amount paid in this tax year
+        <a class="tooltip" href="#tooltip-amount-already-paid-into-ISA-this-tax-year">(Help?)</a>
+</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="IsaInvestmentInThisTaxYear" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Amount paid in this tax year must be a number." id="isaInvestmentInThisTaxYear" maxlength="5" name="IsaInvestmentInThisTaxYear" step="any" type="tel" value=""/>
+</div>
+</fieldset>
+</div>
+</div>
+</fieldset>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<fieldset class="m-form-row m-form-row--full-width">
+<h2 class="a-heading a-heading--2 u-mt--0">How much do you want to invest?</h2>
+<p>You can pay in a single payment or regular payments, or both.</p>
+<label class="a-label" for="IsaSinglePaymentInThisTaxYear">
+    Single Payment
+    <a class="tooltip" href="#tooltip-single-payment-in-this-tax-year">(Help?)</a>
+</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="IsaSinglePaymentInThisTaxYear" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Single payment must be a number." id="isaSinglePaymentInThisTaxYear" maxlength="5" name="IsaSinglePaymentInThisTaxYear" step="any" type="tel" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label" for="IsaRegularPaymentInThisTaxYear">
+        Regular monthly payment
+        <a class="tooltip" href="#tooltip-regular-payment-in-this-tax-year">(Help?)</a>
+</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="IsaRegularPaymentInThisTaxYear" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Regular monthly payment must be a number." id="isaRegularPaymentInThisTaxYear" maxlength="5" name="IsaRegularPaymentInThisTaxYear" step="any" type="tel" value=""/>
+</div>
+</fieldset>
+<div class="m-card m-card-notification m-card-notification--neutral t-accent-light t-accent-light--white u-hidden--js number-of-payments" role="status">
+<div class="m-card-content">
+<p>We have assumed there are 2 more payments in this tax year.</p>
+</div>
+</div>
+<fieldset class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<label class="a-checkbox" for="checkboxFuturePaymentRequired" id="FuturePaymentRequired">
+<input class="a-checkbox__input js-click" id="checkboxFuturePaymentRequired" name="FuturePaymentRequired" type="checkbox" value="true"/><input name="FuturePaymentRequired" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">I'd like to select a different amount for future tax years</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+<div class="future-payment-details js-isa-payment u-hidden--js">
+<fieldset class="m-form-row m-form-row--full-width u-mb--0">
+<label class="a-label" for="MoneyInIsasAlready">
+        Regular monthly payments from next tax year
+    </label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="IsaRegularPaymentInFutureTaxYears" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Regular monthly payments from next tax year must be a number." id="isaRegularPaymentInFutureTaxYears" maxlength="4" name="IsaRegularPaymentInFutureTaxYears" step="any" type="tel" value=""/>
+</div>
+</fieldset>
+</div>
+</div>
+</fieldset>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<fieldset class="m-form-row m-form-row--full-width">
+<h2 class="a-heading a-heading--2 u-mt--0">Summary of contributions</h2>
+<p>
+        This tax year's contribution
+        <strong>£ <span id="totalContributionsInThisTaxYear">0</span></strong>
+</p>
+<p>
+        Contributions for each further tax year
+        <strong>£ <span id="totalContributionsInFutureTaxYears">0</span></strong>
+</p>
+</fieldset>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<fieldset class="m-form-row m-form-row--full-width">
+<h2 class="a-heading a-heading--2 u-mt--0">How long are you planning to invest for?</h2>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="PlanningToSaveForInYears" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="PlanningToSaveForInMonths" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group m-textbox-group--visible-label">
+<li class="m-textbox-group__item">
+<label class="a-label" for="planningToSaveForInYears">Years</label>
+<input autocomplete="off" class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field How long are you planning to invest for? must be a number." id="planningToSaveForInYears" max="50" maxlength="2" min="0" name="PlanningToSaveForInYears" step="any" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<label class="a-label" for="planningToSaveForInMonths">Months</label>
+<input autocomplete="off" class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field Planning To Save For In Months must be a number." id="planningToSaveForInMonths" max="11" maxlength="2" min="0" name="PlanningToSaveForInMonths" step="any" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label u-mb--1" for="IsaSinglePaymentInThisTaxYear">
+        Expected rate of growth
+        <a class="tooltip" href="#tooltip-expected-rate-of-growth">(Help?)</a>
+</label>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="GrowthRate" data-valmsg-replace="true"></span>
+<div class="m-form-row__content">
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-percent a-textbox--1-character" data-val="true" data-val-number="The field Expected rate of growth must be a number." id="id_growth_rate" max="8" maxlength="1" min="0" name="GrowthRate" type="tel" value="5"/>
+</div>
+</fieldset>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<button class="a-button a-button--next a-button--primary u-mt--1 u-mb--2" data-qa-button="submitForm" id="calculateButtonForOption" type="submit">Calculate</button>
+</div>
+<div class="u-hidden--js l-columns__column u-p--2 u-pr--0">
+<p class="a-heading a-heading--2">Based on the assumptions below your investment could be worth... £0</p>
+<div id="chartContainer"></div>
+<p class="a-heading a-heading--2 a-heading--semibold">These results are based on your:</p>
+<div class="l-columns l-columns--1-small l-columns--3-medium l-columns--3-large">
+<div class="l-columns__column m-card m-card--tertiary">
+<div class="m-card-content">
+<p class="a-heading a-heading--3 a-heading--semibold">
+<span class="tooltipWrap">
+<strong>Existing ISA investments:</strong>
+</span>
+</p>
+<p>
+<strong>£0.00</strong>
+</p>
+<p class="a-heading a-heading--3 a-heading--semibold">
+<strong>New ISA investments:</strong>
+</p>
+<p>
+<strong>£0.00</strong>
+</p>
+<p>Based on any single and/or regular payments you've selected</p>
+</div>
+</div>
+<div class="l-columns__column m-card m-card--tertiary">
+<div class="m-card-content">
+<p class="a-heading a-heading--3 a-heading--semibold">
+<strong>Investment growth:</strong>
+</p>
+<p>
+<strong></strong>
+</p>
+<p>Based on 5% expected growth rate you've selected</p>
+</div>
+</div>
+<div class="l-columns__column m-card m-card--tertiary">
+<div class="m-card-content">
+<p class="a-heading--3 a-heading--semibold">Charges</p>
+<p>Charges assumed in the calculator are 0.75&amp;percnt; a year.</p>
+<p>Charges are typically between 0.5&amp;percnt; and 1.85&amp;percnt; of the fund value a year depending on investments chosen and the amount invested in the Aviva Online Investment Service.</p>
+</div>
+</div>
+</div>
+<p>
+    The value shown here is only an example based on the assumptions used,
+    including a fixed growth rate over the full term.
+    It's important to keep in mind that the final value of your investment
+    could be markedly different, depending on the actual growth rates and charges.
+    The figures shown are not a reliable indicator of potential investment
+    performance and it's important to remember that investment values can go down
+    as well as up, meaning you could get back less than has been paid in.
+    These results do not take inflation into account, so remember that you would
+    be able to buy less with the amounts shown in future than you would be able to today.
+</p>
+<p>
+    The calculator puts all of your ISA investments (existing, current and future)
+    together and applies the same level of charges and rates of growth to the combined total.
+    We have assumed a charges figure of 0.75&amp;percnt; a year.
+    Please be aware that if your ISA investments are held in different places, they are
+    likely to have different charges and grow at different rates, so the result can only
+    ever be an indication of what might happen.
+    Also, if any of your investments are in cash ISAs, they are unlikely to have the same
+    growth potential as investments in stocks and shares ISAs and the calculator may
+    produce an over-estimation.
+</p>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--25-all"/>
+<p class="a-heading a-heading--3 a-heading--semibold">How is this estimated?</p>
+<div class="m-show-more" data-module="m-show-more">
+<ul>
+<li>
+            To show you what you might get back we've used the growth rate as selected.
+            This can vary between 0&amp;percnt; through to 8&amp;percnt; depending on your
+            expected rate of return which will depend on your fund selections.
+        </li>
+<li>
+            The figures shown do not take into account inflation, therefore they will be
+            in absolute terms and will show the monetary value of the investment at the
+            end of your chosen term.
+            This will not show how much the sum would be worth today.
+        </li>
+<li>
+            Actual charges may be higher or lower than these and will depend on the
+            investments chosen.
+            The growth rate shown is only an example and actual growth rates will
+            depend on how investments perform.
+            Please choose the rate that best fits your investment choices.
+        </li>
+</ul>
+</div>
+<p class="a-heading a-heading--2 a-heading--semibold">What's next?</p>
+<p>It's important to shop around to get a deal that you're comfortable with. If you decide the Aviva Stocks &amp; Shares ISA suits you, it's easy to apply. Find out more now:</p>
+<a class="a-button a-button--primary" href="https://www.aviva.co.uk/investments/aviva-stocks-shares-isa">Learn about our Aviva Stocks &amp; Shares ISA</a>
+<input name="IsaInvestmentCalculatorDriver" type="hidden" value="WhatCouldMySavingsBeWorth"/>
+</div>
+</div>
+</form>

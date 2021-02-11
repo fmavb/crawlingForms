@@ -1,0 +1,320 @@
+<form action="/quote/Direct/Motor/SoleTrader" class="updateTarget" method="post" name="frm"> <p class="gdpr_link">Find out how we use your data <a class="yourDataLightbox" data-module="o-modal" href="#yourDataLightbox">here</a></p>
+<h1 class="a-heading a-heading--1">About you</h1>
+<div>
+<fieldset class="m-form-row m-form-row--full-width m-form-row--light">
+<legend class="a-label">What type of quote would you like?</legend>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--pictorial m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item single-vehicle">
+<label class="a-radio single-vehicle" for="singleCover">
+<input checked="checked" class="coverTypeRadio a-radio__input" id="singleCover" name="MultiVehicleJourney" type="radio" value="false"/>
+<span class="a-radio__label">
+<span class="a-radio__label-image">
+<img alt="" src="/quote/Direct/Motor/Content/images/single-vehicle.svg"/>
+</span>
+<span class="a-radio__label-inner">I would like a quote for one vehicle</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item multi-vehicle">
+<label class="a-radio multi-vehicle" for="multiCover">
+<input class="coverTypeRadio a-radio__input" id="multiCover" name="MultiVehicleJourney" type="radio" value="true"/>
+<span class="a-radio__label">
+<span class="a-radio__label-image">
+<img alt="" src="/quote/Direct/Motor/Content/images/multi-vehicle.svg"/>
+</span>
+<span class="a-radio__label-inner">I would like a quote for more than one vehicle</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+<div class="left topGap clear" id="proofPointsMulti">
+<ul>
+<li>You can quote for a vehicle you want to add later</li><li>We'll keep your no claim discount and excesses separate</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row">
+<label class="a-label"><label for="BusinessTradingName">What is your business trading name?</label></label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="BusinessTradingName" maxlength="60" name="BusinessTradingName" type="text" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row driverTitle" role="radiogroup">
+<legend class="a-label"><label for="PrincipalPolicyHolder_Title">Title</label></legend>
+<div class="m-form-row__content">
+<ul class="m-radio-group">
+<li class="m-radio-group__item">
+<label class="a-radio" for="MR">
+<input class="a-radio__input driverTitle" id="MR" name="PrincipalPolicyHolder.Title" type="radio" value="MR"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Mr</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="MRS">
+<input class="a-radio__input driverTitle" id="MRS" name="PrincipalPolicyHolder.Title" type="radio" value="MRS"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Mrs</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="MISS">
+<input class="a-radio__input driverTitle" id="MISS" name="PrincipalPolicyHolder.Title" type="radio" value="MISS"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Miss</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="MS">
+<input class="a-radio__input driverTitle" id="MS" name="PrincipalPolicyHolder.Title" type="radio" value="MS"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Ms</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="DR">
+<input class="a-radio__input driverTitle" id="DR" name="PrincipalPolicyHolder.Title" type="radio" value="DR"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Dr</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row">
+<label class="a-label" for="FirstName"><label for="PrincipalPolicyHolder_FirstName">First name</label></label>
+<div class="m-form-row__content">
+<div class="m-show-more" data-contract="Less info" data-expand="More info" data-module="m-show-more">
+<div>
+<span class="expandoText">
+<p>To make sure you get our best deal, please enter your name exactly as it appears on your driving licence. By entering your details here you take the role of   <em><u><span style="color: #004FB6"> Principal Policyholder (PPH)</span></u></em></p>
+<span class="expandedText">
+<p>If purchased, the policy will be your ultimate financial and administrative responsibility.</p><p>The PPH enters a contract on behalf of all drivers who insure their vehicles on the policy and therefore is the only person who can:</p><ul><li>Cancel the entire policy</li><li>Add or remove vehicles</li><li>Change the postal address</li></ul><p>The PPH cannot be changed, although any main driver can change or remove their vehicle or change their cover.</p>
+</span>
+</span>
+</div>
+</div>
+<input class="a-textbox toUpperCase" id="PrincipalPolicyHolder_FirstName" maxlength="32" name="PrincipalPolicyHolder.FirstName" type="text" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row">
+<label class="a-label" for="LastName"><label for="PrincipalPolicyHolder_LastName">Last name</label></label>
+<div class="m-form-row__content">
+<input class="a-textbox toUpperCase" id="PrincipalPolicyHolder_LastName" maxlength="32" name="PrincipalPolicyHolder.LastName" type="text" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row genderSelect m-form-row--full-width m-form-row--light">
+<legend class="a-label"><label for="PrincipalPolicyHolder_Gender">Gender</label></legend>
+<div class="m-form-row__content group">
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="M">
+<input class="a-radio__input" id="M" name="PrincipalPolicyHolder.Gender" type="radio" value="M"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Male</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="F">
+<input class="a-radio__input" id="F" name="PrincipalPolicyHolder.Gender" type="radio" value="F"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Female</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--light">
+<label class="a-label" for="DateOfBirthDay"><label for="PrincipalPolicyHolder_DateOfBirth">Date of birth</label></label>
+<div class="m-form-row__content">
+<ul class="m-textbox-group">
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--2-character" id="PrincipalPolicyHolder_DateOfBirthDay" maxlength="2" name="PrincipalPolicyHolder.DateOfBirthDay" pattern="[0-9]*" placeholder="DD" size="2" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--2-character" id="PrincipalPolicyHolder_DateOfBirthMonth" maxlength="2" name="PrincipalPolicyHolder.DateOfBirthMonth" pattern="[0-9]*" placeholder="MM" size="2" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--4-character" id="PrincipalPolicyHolder_DateOfBirthYear" maxlength="4" name="PrincipalPolicyHolder.DateOfBirthYear" pattern="(?:[0-9]{2}){1,2}" placeholder="YYYY" size="4" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--light">
+<label class="a-label" for="MaritalStatus"><label for="PrincipalPolicyHolder_MaritalStatus">Marital status</label></label>
+<div class="m-form-row__content">
+<span class="a-dropdown">
+<select class="a-dropdown__select" id="PrincipalPolicyHolder_MaritalStatus" name="PrincipalPolicyHolder.MaritalStatus"><option value="">Please select...</option>
+<option value="S">Single</option>
+<option value="M">Married</option>
+<option value="C">Common law</option>
+<option value="D">Divorced</option>
+<option value="W">Widowed</option>
+<option value="L">Civil partner</option>
+</select>
+<span class="a-dropdown__ui"></span>
+</span>
+</div>
+</fieldset>
+<div id="addressLookupWrapper">
+<div class="addressContainer">
+<fieldset class="m-form-row lookupContainer m-form-row--light">
+<label class="a-label" for="PrincipalPolicyHolder_EmploymentOccupationDescription"><label for="PrincipalPolicyHolder_PostCode">What is your postcode?</label></label>
+<div class="m-form-row__content">
+<div class="m-show-more" data-contract="Less info" data-expand="More info" data-module="m-show-more">
+<div>
+<p>Your postcode should be in Great Britain, Northern Ireland, Isle of Man or Channel Islands</p>
+</div>
+</div>
+<div class="addressInput">
+<input autocomplete="off" class="a-textbox a-textbox--9-character toupper" id="PrincipalPolicyHolder_PostCode" maxlength="9" name="PrincipalPolicyHolder.PostCode" type="text" value=""/>
+</div>
+<div class="addressConfirm smallTick">
+<span class="a-button a-button--input">
+<input class="a-button__inner findAddress" id="addressLookup" name="addressButton" type="submit" value="Find my address"/>
+</span>
+<div aria-role="alert" class="a-loading-indicator a-loading-indicator--small" id="addressLoader" style="display: none"><span class="a-loading-indicator__message"></span></div>
+</div>
+<div class="clearFix clear"></div>
+</div>
+</fieldset>
+<input id="SelectAddress" name="SelectAddress" type="hidden" value=""/>
+<input id="PrincipalPolicyHolder_MultiplePostCode" name="PrincipalPolicyHolder.MultiplePostCode" type="hidden" value=""/>
+<input id="PrincipalPolicyHolder_HouseNumberOrName" name="PrincipalPolicyHolder.HouseNumberOrName" type="hidden" value=""/>
+</div>
+</div>
+<fieldset class="m-form-row clearFix">
+<label class="a-label" for="EmailAddress"><label for="PrincipalPolicyHolder_EmailAddress">Email address</label></label>
+<div class="m-form-row__content">
+<div class="m-show-more" data-contract="Less info" data-expand="More info" data-module="m-show-more">
+<div>
+<p>Please enter your preferred email address. We need your email address to allow you access to retrieve your quote. See the <a href="https://www.aviva.co.uk/documents/business/idd/business-vehicle-insurance/" target="_blank">Privacy Notice section</a> in the Important Information for this product, for more details.</p>
+</div>
+</div>
+<input class="EmailAddress a-textbox" id="PrincipalPolicyHolder_EmailAddress" name="PrincipalPolicyHolder.EmailAddress" type="email" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row">
+<label class="a-label" for="TelephoneNumber"><label for="PrincipalPolicyHolder_TelephoneNumber">Preferred telephone number</label></label>
+<div class="m-form-row__content">
+<div class="m-show-more" data-contract="Less info" data-expand="More info" data-module="m-show-more">
+<div>
+<p>Please give us your preferred telephone number. We will use this to contact you about your policy if we need to. We may send you a text when you buy a policy.</p>
+</div>
+</div>
+<input class="a-textbox toUpperCase" id="PrincipalPolicyHolder_TelephoneNumber" maxlength="32" name="PrincipalPolicyHolder.TelephoneNumber" type="tel" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--light">
+<legend class="a-label"><label for="NumberOfVehiclesAtAddress">How many cars or vans are there at this address?</label></legend>
+<div class="m-form-row__content group">
+<ul class="m-radio-group">
+<li class="m-radio-group__item">
+<label class="a-radio" for="1-vehicle">
+<input class="a-radio__input" id="1-vehicle" name="NumberOfVehiclesAtAddress" type="radio" value="1"/>
+<span class="a-radio__label">
+<span class="a-radio__label-inner">1</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="2-vehicle">
+<input class="a-radio__input" id="2-vehicle" name="NumberOfVehiclesAtAddress" type="radio" value="2"/>
+<span class="a-radio__label">
+<span class="a-radio__label-inner">2</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="3-vehicle">
+<input class="a-radio__input" id="3-vehicle" name="NumberOfVehiclesAtAddress" type="radio" value="3"/>
+<span class="a-radio__label">
+<span class="a-radio__label-inner">3</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="4-vehicle">
+<input class="a-radio__input" id="4-vehicle" name="NumberOfVehiclesAtAddress" type="radio" value="4"/>
+<span class="a-radio__label">
+<span class="a-radio__label-inner">4</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="5-vehicle">
+<input class="a-radio__input" id="5-vehicle" name="NumberOfVehiclesAtAddress" type="radio" value="5"/>
+<span class="a-radio__label">
+<span class="a-radio__label-inner">5+</span>
+</span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row-no-border m-form-row--light">
+<label class="a-label" for="PrincipalPolicyHolder_EmploymentStatus">What is your main employment type?</label>
+<div class="m-form-row__content">
+<span class="a-dropdown">
+<select class="a-dropdown__select" id="PrincipalPolicyHolder_EmploymentStatus" name="PrincipalPolicyHolder.EmploymentStatus"><option value="">Please select...</option>
+<option value="E">Employed</option>
+<option value="S">Self-employed</option>
+<option value="R">Retired</option>
+<option value="N">Not employed due to disability</option>
+<option value="H">Household duties</option>
+<option value="F">Full/Part time education</option>
+<option value="V">Voluntary Worker</option>
+<option value="U">Unemployed</option>
+</select>
+<span class="a-dropdown__ui"></span>
+</span>
+</div>
+</fieldset>
+<fieldset class="m-form-row row" data-ajaxurl="/Direct/Motor/SoleTrader/Quote/GetOccupationList" id="EmploymentOccupation">
+<label class="a-label" for="PrincipalPolicyHolder_EmploymentOccupationDescription">
+                What do you do for a living?<br/>
+                (e.g. Nurse, Customer Advisor)
+            </label>
+<div class="m-form-row__content">
+<div class="m-show-more" data-contract="Less info" data-expand="More info" data-module="m-show-more">
+<div>
+<p>As you start to type your occupation, a list of potential matches will appear. Don’t worry if an exact match isn’t returned, please find the closest match to your occupation. For example, if you are a PR Consultant and this isn’t listed, you could select Public Relations Officer.</p>
+</div>
+</div>
+<input autocomplete="off" class="a-textbox genderDirective" id="PrincipalPolicyHolder_EmploymentOccupationDescription" maxlength="50" name="PrincipalPolicyHolder.EmploymentOccupationDescription" placeholder="Type the first few letters..." type="text" value=""/>
+<span id="indicator"> </span>
+</div>
+<input class="whatOccupationHidden" id="PrincipalPolicyHolder_EmploymentOccupationCode" name="PrincipalPolicyHolder.EmploymentOccupationCode" type="hidden" value=""/>
+<a class="hidden ajaxUrl" href="/quote/Direct/Motor/SoleTrader/Quote/GetOccupationList"></a>
+</fieldset>
+<fieldset class="m-form-row row m-form-row-no-border" data-ajaxurl="/Direct/Motor/SoleTrader/Quote/GetIndustryList" id="EmploymentIndustry">
+<label class="a-label" for="PrincipalPolicyHolder_EmploymentIndustryDescription">
+                What type of industry do you work in?<br/>
+                (e.g. Retailing, Motor Manufacture)
+            </label>
+<div class="m-form-row__content">
+<p>As you start to type your business type, a list of potential matches will appear. Don’t worry if an exact match isn’t returned, please find the closest match to your business type. </p>
+<input autocomplete="off" class="a-textbox genderDirective" id="PrincipalPolicyHolder_EmploymentIndustryDescription" maxlength="50" name="PrincipalPolicyHolder.EmploymentIndustryDescription" placeholder="Type the first few letters..." type="text" value=""/>
+<span id="indicator"> </span>
+</div>
+<input class="whatOccupationHidden" id="PrincipalPolicyHolder_EmploymentIndustryCode" name="PrincipalPolicyHolder.EmploymentIndustryCode" type="hidden" value=""/>
+<a class="hidden ajaxUrl" href="/quote/Direct/Motor/SoleTrader/Quote/GetIndustryList"></a>
+</fieldset>
+<div class="m-form-row-no-border">
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<button class="a-button a-button--primary" name="nextButton" type="submit">Continue</button>
+</li>
+</ul>
+</div>
+</div>
+</form>

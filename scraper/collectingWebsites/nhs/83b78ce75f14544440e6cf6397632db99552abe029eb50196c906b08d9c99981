@@ -1,0 +1,6 @@
+<form action="https://www.england.nhs.uk" class="search-form" id="search-form" method="get" role="search">
+<label class="hide" for="s" id="search-label">Search</label>
+<input aria-labelledby="search-label" class="search-input" name="s" type="search"/>
+<label class="hide" for="search" id="search-button">Search</label>
+<input aria-labelledby="search-button" class="button" id="search" type="submit" value="Search"/>
+</form>

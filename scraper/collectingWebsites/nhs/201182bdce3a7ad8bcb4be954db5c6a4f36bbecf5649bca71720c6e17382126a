@@ -1,0 +1,56 @@
+<form action="/services/hospital/queen-elizabeth-hospital-birmingham/X1655/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Absolutely outstanding  patient care&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I had my ACDF operation last Wednesday 8/7/2020 and the care I received was 
+fantastic from arrival to discharge .The hospital is very well organised with safety measures in place and the new patient entrance,The care in Ambulatory care being excellent  credit to all the lovely staff and  theatre porters ,I felt very at ease and comfortable on arrival to theatres  as all staff were supportive ,caring and smiling making it a much better patient experience for myself as I  had  started to feel a little nervous ,On arrival to Ward 728 I was given a lovely side room and every member of staff i met during my short overnight stay from  cleaners,healthcare assistants ,ward sisters and physiotherapist and surgeons  were all wonderful,kind and caring going above and beyond there job role nothing being too much trouble . Thank you also to my neurosurgeon and Team you truely  are fantastic professionals ensuring my operation went ahead safely and successfully .  The hospital is spotlessly clean  in a safe environment and the hospital food was delicious ,I myself work for the NHS and therefore realise how hard all staff work with the patients care being   there main priority,well done all staff at QE and thank you all so much  for such a lovely caring patient experience and for ensuring I received the best care and such a pleasant stay .
+&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-07-15T00:34:42Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;7&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Queen Elizabeth Hospital Birmingham&lt;/OrganisationName&gt;
+    &lt;Department&gt;Neurosurgery&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;fe630bf5-32c6-ea11-a812-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1655&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamG_ntWimNSiVJKEUWbyzMxYhJm97uAb27n2PvREqg1XJgMsH8fZvS1qbZ-CK3_u1OrJw7hW0TtVlr0rvvvRH-S1bHkSWpHoKNphoaEESi2tfjw_guYsAaOhJ-g1K2aqf-Q"/></form>

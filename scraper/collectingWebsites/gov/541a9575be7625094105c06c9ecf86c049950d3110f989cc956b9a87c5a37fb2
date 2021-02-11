@@ -1,0 +1,13 @@
+<form action="/search" method="get" role="search">
+<div class="gem-c-search gem-c-search--on-govuk-blue" data-module="gem-toggle-input-class-on-focus">
+<label class="gem-c-search__label" for="search-main-1cf4a81f">
+    Search on GOV.UK
+  </label>
+<div class="gem-c-search__item-wrapper">
+<input aria-controls="" class="gem-c-search__item gem-c-search__input js-class-toggle" id="search-main-1cf4a81f" name="q" title="Search" type="search" value=""/>
+<div class="gem-c-search__item gem-c-search__submit-wrapper">
+<button class="gem-c-search__submit" type="submit">Search</button>
+</div>
+</div>
+</div>
+</form>

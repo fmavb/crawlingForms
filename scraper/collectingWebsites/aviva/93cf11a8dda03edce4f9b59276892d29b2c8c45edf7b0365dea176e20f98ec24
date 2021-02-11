@@ -1,0 +1,53 @@
+<form action="" method="post">
+<input name="csrfmiddlewaretoken" type="hidden" value="yfV7cT0nF7UE8S6MFsUvsnPeqaknzM7nPcofwpaa61aUe1ip0Fzhy7xWWoqq7OY3"/>
+<input name="xen_page_vector" type="hidden" value="3"/>
+<input name="xen_vector_sec_hash" type="hidden" value=""/>
+<input name="Step1_cover-product_name" type="hidden" value="Family Personal Accident Plan"/>
+<input name="Step1_cover-refNo" type="hidden" value="1992945546"/>
+<div class="podContent noBorder">
+<table>
+<col class="col1"/>
+<col class="col2"/>
+<col class="col3"/>
+<col class="col4"/>
+<thead>
+<tr>
+<th scope="col"><span class="visuallyHidden">Policy type</span></th>
+<th scope="col">Bronze cover</th>
+<th scope="col">Silver cover</th>
+<th scope="col">Gold cover</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Adult only</th>
+<td><input id="id_Step1_cover-coverOptions_0" name="Step1_cover-coverOptions" type="radio" value="1"/><label for="id_Step1_cover-coverOptions_0">£3.02 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_4" name="Step1_cover-coverOptions" type="radio" value="5"/><label for="id_Step1_cover-coverOptions_4">£5.24 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_8" name="Step1_cover-coverOptions" type="radio" value="9"/><label for="id_Step1_cover-coverOptions_8">£8.48 / month</label></td>
+</tr>
+<tr>
+<th scope="row">Adult and children</th>
+<td><input id="id_Step1_cover-coverOptions_1" name="Step1_cover-coverOptions" type="radio" value="2"/><label for="id_Step1_cover-coverOptions_1">£4.69 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_5" name="Step1_cover-coverOptions" type="radio" value="6"/><label for="id_Step1_cover-coverOptions_5">£7.67 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_9" name="Step1_cover-coverOptions" type="radio" value="10"/><label for="id_Step1_cover-coverOptions_9">£12.52 / month</label></td>
+</tr>
+<tr>
+<th scope="row">Adult and partner</th>
+<td><input id="id_Step1_cover-coverOptions_2" name="Step1_cover-coverOptions" type="radio" value="3"/><label for="id_Step1_cover-coverOptions_2">£6.07 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_6" name="Step1_cover-coverOptions" type="radio" value="7"/><label for="id_Step1_cover-coverOptions_6">£10.51 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_10" name="Step1_cover-coverOptions" type="radio" value="11"/><label for="id_Step1_cover-coverOptions_10">£16.56 / month</label></td>
+</tr>
+<tr>
+<th scope="row">Family</th>
+<td><input id="id_Step1_cover-coverOptions_3" name="Step1_cover-coverOptions" type="radio" value="4"/><label for="id_Step1_cover-coverOptions_3">£7.87 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_7" name="Step1_cover-coverOptions" type="radio" value="8"/><label for="id_Step1_cover-coverOptions_7">£12.92 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_11" name="Step1_cover-coverOptions" type="radio" value="12"/><label for="id_Step1_cover-coverOptions_11">£20.61 / month</label></td>
+</tr>
+</tbody>
+</table>
+<p>Monthly premium inclusive of Insurance Premium Tax</p>
+</div>
+<div class="podContent">
+<input class="btn btn--primary right" id="submit" name="event(next_page)" tabindex="1" type="submit" value="Submit"/>
+</div>
+</form>

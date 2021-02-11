@@ -1,0 +1,66 @@
+<form action="/services/hospital/newham-hospital/X46346/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Dating scan - overweight patient&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Dear Newham Hospital,
+
+I had my dating scan yesterday and unfortunately it was a bad experience.
+
+The ultrasound specialist started the scan and they said that they don’t see anything. They asked if I am sure that I am pregnant and if I did a pregnancy test, and when did I have my last period. They showed me the black image of my womb questioning me. When I said my last period was 25th September they looked surprised and they said they will do an transvaginal ultrasound. I also told them that I had a private scan at week 6 and they saw heartbeat. 
+
+I became very worried as they didn’t say this can happen sometimes. It was a very difficult few minutes to wait until my internal scan started. They told me off I am lieling the wrong way even though it was very visible I was stressed. Unfortunately I had to lie a way that I couldn’t see the monitor. They started the scan but started to talk to their colleague and after a minute or so I realised they talk about something else, but I was worried they talk about me and bad news. Then I interrupted them and asked what’s happening and then they updated me that they can see the baby,  I am about 10 weeks pregnant and there is heartbeat. They switched of the machine that I can heart the heartbeat, that was a nice gesture. Also they turned the scan after that so I could see the baby. It was too early to do any other checks. 
+
+Overall I meet very nice midwifes, doctors  and nurses in the hospital since I am visiting from the beginning due to pre diabetes, but this first scan was a shocking experience. I think the person who did the scan did not reassure me and I felt very upset and distressed  especially I couldn’t have my husband coming with me due to coronavirus.
+
+I am writing this review as I would like that other ladies don’t have to experience this, as if there was something wrong I wouldn’t be able to get any emotional support on my appointment. I feel the person who did the scan needs some additional training what to do in these situations. I read after my appointment that women with high BMI (I have very high BMI) have issues with ultrasounds as the fat absorbs the waves. If they knew that he could have reassured me that this can happen with overweight patients and they do an internal one instead of accusing me I’m not even pregnant. I hope my other scans will go okay.
+
+Thank you!&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-12-05T05:56:30Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;12&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Newham Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Maternity services&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;08ea499b-be36-eb11-a813-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X46346&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGk2YSi7uDPFATKoEmHZtOAwMQb9mjNPDVbruZQBi3tqhEgUvOeJ8i6_-wDqgS7oYXpDKWHhOY0kCtkglgra7MZgtgOpyv4vBHyQUahHEkS0K-zcfs-f7ukiyBnh5LCP1o"/></form>

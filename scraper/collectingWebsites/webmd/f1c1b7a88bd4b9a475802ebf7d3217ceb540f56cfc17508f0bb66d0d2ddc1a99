@@ -1,0 +1,19 @@
+<form action="https://member.webmd.com/default.aspx?returl=http%3A%2F%2Fwww.webmd.com%2F%3Flogin%3Dtrue" aria-live="true" id="globalreg" method="post" name="globalreg">
+<input id="es" name="es" type="hidden" value="1"/>
+<label class="jawsonly" for="reglogin_username">Please enter email address</label>
+<input id="reglogin_username" name="reglogin_username" title="Please enter email address" type="text" value=""/>
+<p id="email_message"></p>
+<label class="jawsonly" for="reglogin_password_text">Enter your password</label>
+<input id="reglogin_password_text" title="Enter your password" type="text" value=""/>
+<input id="reglogin_password" name="reglogin_password" title="Enter your password" type="password" value=""/>
+<p id="password_message"></p>
+<div id="remember_me">
+<input id="signin_remember" name="rememberme" type="checkbox" value="on"/>
+<label class="checkbox" for="signin_remember" title="Click to keep me signed in on this computer">Keep me signed in on this computer</label>
+<div id="reg_add_info"> <a href="#">Show more Information</a>
+<p aria-expanded="false" aria-hidden="true">If you select "Keep me signed in on this computer", every time you visit WebMD.com you won't have to type your email address and password.  This means that a cookie will stay on your computer even when you exit or close your browser which may reduce your levels of privacy and security. You should never select this option if you're using a publicly accessible computer, or if you're sharing a computer with others. Even if you select this option there are some features of our site that still require you to log in for privacy reasons.</p>
+</div>
+</div>
+<input class="webmd-btn webmd-btn-s webmd-btn-pr" id="signin_submit" name="signin_submit" onclick="return sl(this,'','reg-login');" type="submit" value="Sign In"/>
+<div id="login_trouble"> <a href="https://member.webmd.com/recover_password.aspx" onclick="return sl(this,'','reg-login-lnk_fgpsw');">Forget your password?</a> <a href="https://member.webmd.com/customer_service.aspx?r=username" onclick="return sl(this,'','reg-login-lnk_trbl');">Having trouble signing in?</a> </div>
+</form>

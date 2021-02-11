@@ -1,0 +1,27 @@
+<form accept-charset="UTF-8" action="/email-signup/confirm" data-module="track-email-alert-signup-choices" data-track-action="new_topic" data-track-category="email_subscriptions" method="get">
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-0" name="topic" type="radio" value="/transport/eu-and-international-driving-rules"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-0">EU and international driving rules</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-1" name="topic" type="radio" value="/transport/tachographs"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-1">Tachographs</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-2" name="topic" type="radio" value="/transport/driver-cpc-training"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-2">Driver CPC training</label>
+</div>
+<div class="govuk-radios__divider">or</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-4" name="topic" type="radio" value="/transport/professional-driving-of-lorries-buses-and-coaches"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-4">Professional driving of lorries, buses and coaches (all topics)</label>
+</div>
+</div>
+</fieldset>
+</div>
+<input id="link" name="link" type="hidden" value="/transport/professional-driving-of-lorries-buses-and-coaches"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

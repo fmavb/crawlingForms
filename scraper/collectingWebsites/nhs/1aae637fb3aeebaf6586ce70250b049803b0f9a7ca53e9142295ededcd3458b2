@@ -1,0 +1,54 @@
+<form action="/services/hospital/milton-keynes-hospital/X339/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;horrific 3 days&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I was admitted to A&amp;amp;E assessment ward with broken bones in my leg &amp;amp; foot on Saturday 11th May &amp;amp; was on this ward for two &amp;amp; a half days, I was not given anything to eat or drink. I asked if I could have a drink in the evening of 11th  as I had not eaten or had any fluids since 8 pm on 10th May. After a long wait &amp;amp; feeling light headed I was given a sandwich &amp;amp; cup of tea. The same thing on 12th May, not offered any food or drink. On the evening of 12th I was moved to ward 3a &amp;amp; had my first meal on 13th &amp;amp; it was disgusting, cold pasta tubes filled with some kind of meat,  potato croquettes which were cold &amp;amp; very hard, processed peas,  &amp;amp; a tiny tub of liquid which I think was once ice cream. I ate some of it but when I got home the next day I had terrible Diarrhoea &amp;amp; was very sick &amp;amp; it was all the food I had at the hospital the day before. I was told that I must not go to the toilet on my own &amp;amp; should use my buzzer  but, I didn’t have a buzzer &amp;amp; as the staff were always busy &amp;amp; out of view I had to risk it on my own or wet myself. On the morning of 13th ( on ward 3a I overheard the nurse discussing me over the phone, every detail, when she finished on the phone she said”that was your daughter” what on Earth happened to patient confidentiality?? I did not give my consent to discussing me with anyone!! On Sunday I was approached by the occ therapist who told me she had arranged for me to go to a rehab centre for about 6 weeks, it was all arranged &amp;amp; I had not been consulted but she said I had no choice otherwise I would end up having to have an operation if I fell over. My friend &amp;amp; neighbour had come to take me home &amp;amp; the occ therapist proceeded to discuss me &amp;amp; my case with her, patient confidentiality  again, is nothing private? I turned around to find a stranger sitting on my bed  who she had brought in from AgeUk who was going to my home &amp;amp; go through my drawers, cupboards &amp;amp; into my personal things to find things I would need, I found this very upsetting, degrading &amp;amp;  an invasion of privacy. I went home after waiting a day &amp;amp; half for transport, I was told I had to have a wheelchair but was sent home in a Taxi after waiting one &amp;amp; half days  for pharmacy to dispense my medication. I have been at home for almost 2 weeks now &amp;amp; am taking care of myself but the first thing I think about when I wake up is the awful time I spent in hospital, depressing nightmare.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-05-26T16:59:46.807Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;5&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Milton Keynes Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;db559acd-45d5-e911-a812-000d3a7ed2f2&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X339&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFovmh-ICVckuM0G_yJgr8LTM6oA6D8LefM3uY-65T3S8-ESLNKe0P_irVizrj4ZejFP1rsTN40obmYqgdlapSeJ1m5uSR4frGMQfUQGwFP2Za4A02e34PZqv9Fq-TXp7w"/></form>

@@ -1,0 +1,18 @@
+<form action="/care-services/care-homes/b/bayford-house-newbury" method="post"><input id="scController" name="scController" type="hidden" value="SearchGSA"/><input id="scAction" name="scAction" type="hidden" value="SearchOverlay"/> <div id="suggestion_form_pageModule">
+<div class="row searchInput">
+<label class="access" for="postcode"></label>
+<label>
+<span class="serch-btn search-icon-grey"><i class="i-search-q"></i><i class="i-search-q-black"></i></span>
+<div class="input_container azure-txt-suggester-holder-campaign-hero-page AS-input-wrapper">
+<label class="access" for="q"></label>
+<input autocomplete="off" class="field mod-typeahead-sclmod search-box-input GSA-search-box-input" id="gsa_search-scl" maxlength="256" name="q" placeholder="" type="text" value=""/>
+<span class="close-icon-over-input search-scl"></span>
+<ul id="suggesterElement"></ul>
+</div>
+<button class="search-btn-scl i-search-q-cyan">
+<span class="search-btn"></span>
+</button>
+</label>
+</div>
+</div>
+</form>

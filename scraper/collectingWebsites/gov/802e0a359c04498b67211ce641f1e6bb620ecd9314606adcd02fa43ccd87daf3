@@ -1,0 +1,48 @@
+<form accept-charset="UTF-8" action="/claim-rural-payments/sign-in/prove-identity" class="js-service-sign-in-form" data-module="track-radio-group" method="post">
+<input name="authenticity_token" type="hidden" value="lHflxPN0Nn4PfwAdR0AQZe3kiNr8HN4gFVRwcla21NR6OPTluD9R6V4S1+hlxVtI8vHyOjof/vjlT3EaVQifig=="/>
+<div class="gem-c-fieldset govuk-form-group">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend"><div class="gem-c-title govuk-!-margin-top-8 govuk-!-margin-bottom-8">
+<h1 class="gem-c-title__text">
+    How do you want to sign in?
+  </h1>
+</div></legend>
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-two-thirds">
+<div class="gem-c-govspeak govuk-govspeak" data-module="govspeak">
+<p>You’ll need an account to make or update a rural payments claim.</p>
+</div>
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input aria-describedby="label-hint-d8e5a8ca" class="govuk-radios__input" data-tracking-url="https://www.ruralpayments.service.gov.uk/customer-account/login" id="option-0" name="option" type="radio" value="sign-in-with-your-customer-reference-number-crn-and-password"/>
+<label class="gem-c-label govuk-label govuk-label--s govuk-radios__label" for="option-0">Sign in with your customer reference number (CRN) and password</label>
+<span class="govuk-hint govuk-radios__hint" id="label-hint-d8e5a8ca">
+    You'll have a CRN and password if you've already registered for the Rural Payments service.
+</span>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input aria-describedby="label-hint-2ba61d65" class="govuk-radios__input" data-tracking-url="https://www.ruralpayments.service.gov.uk/auth/ida/request" id="option-1" name="option" type="radio" value="sign-in-with-gov-uk-verify"/>
+<label class="gem-c-label govuk-label govuk-label--s govuk-radios__label" for="option-1">Sign in with GOV.UK Verify</label>
+<span class="govuk-hint govuk-radios__hint" id="label-hint-2ba61d65">
+    You'll have an account if you've already proved your identity with either Barclays, Digidentity, Experian, Post Office or SecureIdentity.
+</span>
+</div>
+<div class="govuk-radios__divider">or</div>
+<div class="gem-c-radio govuk-radios__item">
+<input aria-describedby="label-hint-dc41ab3a" class="govuk-radios__input" data-tracking-url="https://www.gov.uk/guidance/register-for-rural-payments" id="option-3" name="option" type="radio" value="register-for-the-rural-payments-service"/>
+<label class="gem-c-label govuk-label govuk-label--s govuk-radios__label" for="option-3">Register for the Rural Payments service</label>
+<span class="govuk-hint govuk-radios__hint" id="label-hint-dc41ab3a">
+    You must register before you can make a rural payment claim.
+</span>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</fieldset>
+</div>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

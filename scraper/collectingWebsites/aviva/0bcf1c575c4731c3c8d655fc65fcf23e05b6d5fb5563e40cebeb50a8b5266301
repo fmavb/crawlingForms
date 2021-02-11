@@ -1,0 +1,887 @@
+<form action="/myfuture/FundChoice/FundHub" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="U_POZF0egSCvubEMwv8qeTr26oBfBs_WYvmOOZKXtZ0c7Gcrn3_hD0oxJxPbPDgBY2abdaf1D-q0XNpxfYL8BIJzPz81"/><div class="validation-summary-errors" id="divWarning" style="display:none">
+</div>
+<div class="DailyPrices" id="DailyPricesBuyAndSell">
+<div class="left prices clearLeft">
+<span class="label">Sell: </span> <span>119.41p</span>
+
+
+                | <span class="label"> Buy: </span> <span>119.41p</span>
+
+                 | (    <span class="positive">
+        +0.10%
+    </span>
+)
+        </div>
+<div class="botGap right clearRight">
+<button class="button green" data-bind="click: removeFundById.bind($data, 'BVRZFZ4'), visible: fundExistsInBasket('BVRZFZ4')" id="SedolCodeToRemove" name="SedolCodeToRemove" style="display: none" value="BVRZFZ4">
+<div class="tick white"></div>
+                    Added to basket
+                </button>
+<button class="button fundResearchHub qa-add-to-basket" data-bind="click: addFund.bind($data, 'BVRZFZ4'), visible: fundDoesNotExistInBasket('BVRZFZ4')" id="SedolCodeToAdd" name="SedolCodeToAdd" style="" value="BVRZFZ4">
+                    Add fund to basket</button>
+</div>
+</div>
+<div class="tabGroup clear">
+<h2>Summary</h2>
+<div id="Summary">
+<div class="podColumns podColumns2">
+<div class="podContent noBorder">
+<div class="podColumn">
+<div class="pod">
+<h3>At a glance</h3>
+<table class="collapsible">
+<tbody>
+<tr>
+<th><strong>Objective</strong></th>
+<td>The fund aims to provide returns through a combination of capital growth and income. The fund aims to achieve the investment objective by employing a blend of both strategic and tactical asset allocation across a diversified range of global asset classes. 
+The fund may invest in securities, fixed income assets, Exchange Traded Funds, collective investment schemes, warrants, money market instruments, deposits, cash, near cash, property and commodities. Exposure to property and commodities will be via collective investment schemes and Exchange Traded Funds. The fund may also invest directly in derivative instruments (including commodity futures) for the purposes of investment and efficient portfolio management. 
+By combining diversified and relatively uncorrelated assets, investment risk is controlled and kept in line with the Fund’s ‘defensive' risk profile.</td>
+</tr>
+<tr>
+<th><strong>Fund launch date</strong></th>
+<td>February 2012</td>
+</tr>
+<tr>
+<th>
+<span data-rel="tooltip" title="OCF stands for Ongoing Charge Figure. 
+                                                This charge is levied by the fund management company to cover the costs and expenses of managing the fund. 
+                                                The ongoing charge excludes any performance fees or portfolio transaction costs. 
+                                                Please note, the OCF is variable and may change over time.">OCF</span>
+</th>
+<td>0.31%</td>
+</tr>
+<tr>
+<th><strong>Initial charge</strong></th>
+<td>0%</td>
+</tr>
+<tr>
+<th><strong>Fund size</strong></th>
+<td>£397.2 million</td>
+</tr>
+<tr>
+<th><strong>Sector</strong></th>
+<td>IA Volatility Managed</td>
+</tr>
+<tr>
+<th><strong>Benchmark</strong></th>
+<td>No benchmark applicable</td>
+</tr>
+<tr>
+<th><strong>Number of holdings</strong></th>
+<td>35</td>
+</tr>
+<tr>
+<th><strong>Accumulation/income</strong></th>
+<td>Accumulation</td>
+</tr>
+<tr>
+<th><strong>Historic Yield</strong></th>
+<td>1.26%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="podColumn">
+<div class="pod">
+<h3 class="jsPerformanceTableTitle left">Discrete Performance</h3>
+<div class="form-row__content performanceTableRadios csstransforms">
+<ul class="form-control-group" hidden="">
+<li class="form-control-group__item">
+<label class="form-option form-option--radio" for="performanceTableRadioDiscrete">
+<input class="form-option__input" id="performanceTableRadioDiscrete" name="performanceTableRadios" type="radio" value="true"/>
+<span class="form-option__label">Discrete</span>
+<span class="form-option__ui"></span>
+</label>
+</li>
+<li class="form-control-group__item">
+<label class="form-option form-option--radio" for="performanceTableRadioCumulative">
+<input class="form-option__input" id="performanceTableRadioCumulative" name="performanceTableRadios" type="radio" value="false"/>
+<span class="form-option__label">Cumulative</span>
+<span class="form-option__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+<div class="tableMargin discreteTab">
+<table class="tableContainer displayTable" id="performanceTable">
+<thead>
+<tr>
+<th class="subHeading" colspan="5">Past Performance (% Growth)</th>
+</tr>
+<tr>
+<th class="subHeading">
+<span>
+                                09/02/20 - 09/02/21
+                            </span>
+</th>
+<th class="subHeading">
+<span>
+                                09/02/19 - 09/02/20
+                            </span>
+</th>
+<th class="subHeading">
+<span>
+                                09/02/18 - 09/02/19
+                            </span>
+</th>
+<th class="subHeading">
+<span>
+                                09/02/17 - 09/02/18
+                            </span>
+</th>
+<th class="subHeading">
+<span>
+                                09/02/16 - 09/02/17
+                            </span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="center">
+                            2.06%
+                        </td>
+<td class="center">
+                            7.72%
+                        </td>
+<td class="center">
+                            0.46%
+                        </td>
+<td class="center">
+                            1.03%
+                        </td>
+<td class="center">
+                            8.69%
+                        </td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 class="left jsHidden" style="width: 50%">Cumulative Performance</h3>
+<div class="tableMargin cumulativeTab">
+<table class="tableContainer displayTable" id="cumulativePerformanceTable">
+<thead>
+<tr>
+<th class="subHeading" colspan="5">Past Performance (% Growth)</th>
+</tr>
+<tr>
+<th class="subHeading">
+<span>
+                                3 months
+                            </span>
+</th>
+<th class="subHeading">
+<span>
+                                6 months
+                            </span>
+</th>
+<th class="subHeading">
+<span>
+                                1 year
+                            </span>
+</th>
+<th class="subHeading">
+<span>
+                                3 years
+                            </span>
+</th>
+<th class="subHeading">
+<span>
+                                5 years
+                            </span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="center">
+                            1.39%
+                        </td>
+<td class="center">
+                            1.37%
+                        </td>
+<td class="center">
+                            2.06%
+                        </td>
+<td class="center">
+                            10.45%
+                        </td>
+<td class="center">
+                            21.29%
+                        </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="pod topGap">
+<div class="podContent">
+<h3>Fund Manager</h3>
+<p>
+<strong>Paul Parascandalo</strong>
+</p>
+<p class="left width77">Paul joined the investment industry in 2004 and Aviva Investors in 2010. 
+He co-manages the Global Balanced Income Fund and the Global Cautious Income Fund. He is also a manager on the With Profit funds, and involved with the AIMs funds.
+ 
+Paul joined Aviva Investors as an Implementation Manager in the multi-asset funds, before moving into the fund management role. Prior to Aviva Investors he held a number of roles at HSBC in their private banking arm.
+Paul holds an MSc (Hons) in Theoretical Physics from University College London and a BSc (Hons) Financial Services from the Institute of Financial Services. He is also a CFA Charterholder.</p>
+<img class="right" id="managerImg" src="https://www.fundslibrary.co.uk/FundsLibrary.DataRetrieval/Images.ashx/8676766d-23d3-4371-aee3-f61dd14c4a3eh100"/>
+</div>
+</div>
+<div class="pod topGap">
+<div class="podContent">
+<h3>Documents</h3>
+<p>
+<a href="https://www.fundslibrary.co.uk/FundsLibrary.DataRetrieval/Documents.aspx?type=point_of_sale&amp;id=a35c423b-5b5d-4a98-b239-d5c87d74ad2c&amp;user=AvivaD2CFeed" target="_blank">
+<img src="/myfuture/Content/images/fundchoice/pdf.png"/>
+                                            Key Investor Information Document
+                                        </a>
+</p>
+<p>
+<a href="https://www.fundslibrary.co.uk/FundsLibrary.DataRetrieval/Documents.aspx?type=packet_fund_class_doc_factsheet_private&amp;id=a35c423b-5b5d-4a98-b239-d5c87d74ad2c&amp;user=AvivaD2CFeed" target="_blank">
+<img src="/myfuture/Content/images/fundchoice/pdf.png"/>
+                                            Fund factsheet
+                                        </a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h2>Performance Chart</h2>
+<div>
+<div class="jsShow">
+<h2 class="center">Fund Performance</h2>
+<div class="fundChartBox">
+<div class="showHide pod blue">
+<h2>
+<span class="icnCompareFunds"></span>
+            Add a fund to the chart to compare performance</h2>
+<div id="term1" style="display: none;">
+<div class="searchByDiv" id="compareSearchBox" style="">
+<div class="compareSearchBox">
+<h4 class="podHeader">Add another fund</h4>
+<input class="clearable qa-searchterm" id="searchTerm" name="SelectedFund" placeholder="Start typing fund name" type="search" value=""/>
+</div>
+<div class="compareOrBox">
+<p>Or</p>
+</div>
+<div class="compareSectorBox">
+<h4 class="podHeader">Select from funds in this sector (IA Volatility Managed) </h4>
+<select id="sectorFundDropdown" name="SelectedSectorFund"><option value="">Select a fund</option>
+<option value="B7FTRJ8">Aberdeen Standard OEIC ASI UK High Income Equity Platform 1 Accumulation</option>
+<option value="B558NM6">Aberdeen Standard OEIC ASI UK High Income Equity Platform 1 Income</option>
+<option value="B0XWN92">Aberdeen Standard OEIC ASI UK Income Equity Class I Accumulation</option>
+<option value="B0XWNB4">Aberdeen Standard OEIC ASI UK Income Equity Class I Income</option>
+<option value="B79X967">Aberdeen Standard OEIC ASI UK Income Unconstrained Equity Platform 1 Accumulation</option>
+<option value="B7G8Q19">Aberdeen Standard OEIC ASI UK Income Unconstrained Equity Platform 1 Income</option>
+<option value="BD9X6D5">Aberdeen Standard OEIC LF ASI Income Focus Class C Accumulation</option>
+<option value="BD9X6V3">Aberdeen Standard OEIC LF ASI Income Focus Class C Income</option>
+<option value="B4ZMVX8">Aegon UK Equity Income Fund Class B Accumulation</option>
+<option value="B4ZMYG2">Aegon UK Equity Income Fund Class B Income</option>
+<option value="B82ZGC2">Allianz UK Equity Income Class C Income</option>
+<option value="B4MKXW8">Ardevora UK Income Class B GBP Income</option>
+<option value="BMSK599">Ardevora UK Income Class D GBP Accumulation</option>
+<option value="B2PLJH1">Artemis Income Class I Accumulation</option>
+<option value="B2PLJJ3">Artemis Income Class I Income</option>
+<option value="B6R51K6">Aviva Investors UK Listed Equity Income Class 2 Accumulation</option>
+<option value="0446080">Aviva Investors UK Listed Equity Income Class 2 Income</option>
+<option value="B7MMK80">AXA Framlington Monthly Income Class Z Accumulation</option>
+<option value="B7MMK57">AXA Framlington Monthly Income Class Z Income</option>
+<option value="B7KBNV3">AXA Framlington UK Equity Income Fund Class Z Accumulation</option>
+<option value="B8HHY29">AXA Framlington UK Equity Income Fund Class Z Income</option>
+<option value="B67DWT6">BlackRock UK Income Class D Accumulation</option>
+<option value="B67DWR4">BlackRock UK Income Class D Income</option>
+<option value="B4NKFT8">BMO Responsible UK Income 2 Accumulation</option>
+<option value="3314485">BMO Responsible UK Income 2 Income</option>
+<option value="B7TFC97">BMO UK Equity Income 2 Accumulation</option>
+<option value="B60HHR8">BMO UK Equity Income 2 Income</option>
+<option value="B8SFP07">BNY Mellon Equity Income Booster Shares W (Net) Accumulation</option>
+<option value="B8HCF10">BNY Mellon Equity Income Booster Shares W (Net) Income</option>
+<option value="B8K9KC4">BNY Mellon Equity Income Shares W (Net) Accumulation</option>
+<option value="B8HRGG7">BNY Mellon Equity Income Shares W (Net) Income</option>
+<option value="B7M90R0">BNY Mellon UK Income Class W Accumulation</option>
+<option value="B7W2G37">BNY Mellon UK Income Class W Income</option>
+<option value="B73RC11">Canada Life Investments LF Canlife UK Equity Income Class C Accumulation</option>
+<option value="B403JV0">Canada Life Investments LF Canlife UK Equity Income Class C Income</option>
+<option value="B13NPH4">Conbrio Fund Partners Ltd B.E.S.T Sustainable Income General Income</option>
+<option value="BYZKJ27">DMS DMS Charteris Premium Income Fund Class I Accumulation</option>
+<option value="BYZKJ38">DMS DMS Charteris Premium Income Fund Class I Income</option>
+<option value="B61JRG2">Downing LLP MI Downing Monthly Income Accumulation</option>
+<option value="B625QM8">Downing LLP MI Downing Monthly Income Income</option>
+<option value="B4RL973">ES Ardevora UK Income Institutional Accumulation</option>
+<option value="B78H603">ES Ardevora UK Income Institutional Income</option>
+<option value="B3KQG44">ES River &amp; Mercantile UK Equity Income Class B Income</option>
+<option value="B7W94N4">Fidelity Enhanced Income Class W Acc Accumulation</option>
+<option value="BYSYZP1">Fidelity Enhanced Income Class W Inc (monthly) shares Income</option>
+<option value="B87HPZ9">Fidelity Enhanced Income Class W Inc Income</option>
+<option value="B3LNGT9">Fidelity MoneyBuilder Dividend Class W Income</option>
+<option value="BYSYZM8">Fidelity MoneyBuilder Dividend Class W MINC Income</option>
+<option value="B7DRD63">Franklin Templeton Franklin UK Equity Income Class W Accumulation</option>
+<option value="B7MKLS1">Franklin Templeton Franklin UK Equity Income Class W Income</option>
+<option value="BF7M7T1">GAM UK Equity Income Class I Accumulation</option>
+<option value="BF7M7V3">GAM UK Equity Income Class Z Accumulation</option>
+<option value="BF09N57">GAM UK Equity Income Class Z Income</option>
+<option value="B8FJ159">HSBC Income Class C Accumulation</option>
+<option value="B80L0G4">HSBC Income Class C Income</option>
+<option value="B8N46N9">Invesco Income &amp; Growth (UK) Class Z Accumulation</option>
+<option value="B8N46P1">Invesco Income &amp; Growth (UK) Class Z Income</option>
+<option value="B8FCHK5">J O Hambro CM UK Equity Income Class Y Accumulation</option>
+<option value="B95FCK6">J O Hambro CM UK Equity Income Class Y Income</option>
+<option value="0749422">Janus Henderson Investors UK Equity Income &amp; Growth Class I Accumulation</option>
+<option value="0749347">Janus Henderson Investors UK Equity Income &amp; Growth Class I Income</option>
+<option value="0503037">Janus Henderson Investors UK Responsible Income Class I Income</option>
+<option value="BYTRDH7">JPMorgan UK Equity Income Class C Accumulation</option>
+<option value="BYTRDJ9">JPMorgan UK Equity Income Class C Income</option>
+<option value="B5VXKR9">Jupiter Income Trust Class I Accumulation</option>
+<option value="B6QR255">Jupiter Income Trust Class I Income</option>
+<option value="0847036">Lazard MultiCap UK Class A Accumulation</option>
+<option value="0847025">Lazard MultiCap UK Class A Income</option>
+<option value="B6HBD75">Legal &amp; General UK Equity Income Fund I Accumulation</option>
+<option value="B56B1J7">Legal &amp; General UK Equity Income Fund I Income</option>
+<option value="BYXVGS7">LF Gresham House UK Multi Cap Income Class C Accumulation</option>
+<option value="BYXVGT8">LF Gresham House UK Multi Cap Income Class C Income</option>
+<option value="B83QP49">LF Majedie LF Majedie UK Income Fund Class X Accumulation</option>
+<option value="B7XCNP7">LF Majedie LF Majedie UK Income Fund Class X Income</option>
+<option value="B01BP17">LF Troy Trojan Income Class O Accumulation</option>
+<option value="B01BNW4">LF Troy Trojan Income Class O Income</option>
+<option value="BZ6CQ39">LF Troy Trojan Income Class X Accumulation</option>
+<option value="BZ6CQ17">LF Troy Trojan Income Class X Income</option>
+<option value="B8JCR45">Liontrust Income Class C Accumulation</option>
+<option value="B8L7B35">Liontrust Income Class C Income</option>
+<option value="B88W5T7">Liontrust Macro Equity Income Class I Accumulation</option>
+<option value="B888YP4">Liontrust Macro Equity Income Class I Income</option>
+<option value="B7BX482">M&amp;G Dividend Class I GBP Accumulation</option>
+<option value="B6T64N1">M&amp;G Dividend Class I GBP Income</option>
+<option value="B0117C2">Man GLG Income Professional Accumulation</option>
+<option value="B0117D3">Man GLG Income Professional Income</option>
+<option value="B907VX3">Marlborough Multi Cap Income Class P Accumulation</option>
+<option value="B908BY7">Marlborough Multi Cap Income Class P Income</option>
+<option value="B1XG904">Merian Global Investors (Onshore) UK Equity Income Class R Accumulation</option>
+<option value="B1XG915">Merian Global Investors (Onshore) UK Equity Income Class R Income</option>
+<option value="B1Y9J57">MI Chelverton MI Chelverton UK Equity Income Class B Accumulation</option>
+<option value="B1FD646">MI Chelverton MI Chelverton UK Equity Income Class B Income</option>
+<option value="BG47Q33">Octopus FP Octopus UK Multi Cap Income Class S Accumulation</option>
+<option value="BG47Q44">Octopus FP Octopus UK Multi Cap Income Class S Income</option>
+<option value="B41NHD7">Premier Miton UK Multi Cap Income Class B Accumulation</option>
+<option value="B4M24M1">Premier Miton UK Multi Cap Income Class B Income</option>
+<option value="BTHH084">Premier Premier Miton Income Class C Accumulation</option>
+<option value="0388472">Premier Premier Miton Income Class C Income</option>
+<option value="BTHH095">Premier Premier Miton Monthly Income Class C Accumulation</option>
+<option value="0388687">Premier Premier Miton Monthly Income Class C Income</option>
+<option value="B3DDDX0">Premier Premier Miton Optimum Income Class C Income</option>
+<option value="B3Q9WG1">Rathbone Unit Trust Management Income I Class Accumulation</option>
+<option value="B7FQLQ4">Rathbone Unit Trust Management Income I Class Income</option>
+<option value="B8Y4ZB9">Royal London UK Equity Income Class M Accumulation</option>
+<option value="B3M9JJ7">Royal London UK Equity Income Class M Income</option>
+<option value="BG34129">RWC TM RWC UK Equity Income Fund Class R GBP Accumulation</option>
+<option value="BG34293">RWC TM RWC UK Equity Income Fund Class R GBP Income</option>
+<option value="BWXBPQ4">Santander Asset Management Enhanced Income Portfolio Class I Accumulation</option>
+<option value="B3RJG57">Santander Asset Management Enhanced Income Portfolio Class I Income</option>
+<option value="BWX61H2">Santander Asset Management Equity Income Class R Accumulation</option>
+<option value="0490957">Santander Asset Management Equity Income Class R Income</option>
+<option value="B3PM119">Schroder Income Class Z Accumulation</option>
+<option value="B5WJCB4">Schroder Income Class Z Income</option>
+<option value="B5B0KM5">Schroder Income Maximiser Class Z Accumulation</option>
+<option value="B53FRD8">Schroder Income Maximiser Class Z Income</option>
+<option value="B7F32Y0">Schroder UK Alpha Income Class Z Accumulation</option>
+<option value="B073JS2">Schroder UK Alpha Income Class Z Income</option>
+<option value="BYV2HQ7">Slater Investments Slater Income Class P Accumulation</option>
+<option value="B905XJ7">Slater Investments Slater Income Class P Income</option>
+<option value="BW9H1K2">TB Saracen UK Income Class B Accumulation</option>
+<option value="BW9H1L3">TB Saracen UK Income Class B Income</option>
+<option value="B88P6D7">Threadneedle UK Equity Alpha Income Class Z Income</option>
+<option value="BDZYJS8">Threadneedle UK Equity Income Class D Income</option>
+<option value="BDZYJV1">Threadneedle UK Equity Income Class L Income</option>
+<option value="B888FR3">Threadneedle UK Equity Income Class Z Accumulation</option>
+<option value="B8169Q1">Threadneedle UK Equity Income Class Z Income</option>
+<option value="B8BV450">Threadneedle UK Monthly Income Class Z Income</option>
+<option value="B4W5895">UBS UK Equity Income Class C Accumulation</option>
+<option value="B803446">UBS UK Equity Income Class C Income</option>
+<option value="BYQCS25">Unicorn UK Ethical Income Class B Accumulation</option>
+<option value="BYP2Y51">Unicorn UK Ethical Income Class B Income</option>
+<option value="B9XQFY6">Unicorn UK Income Class B Accumulation</option>
+<option value="B00Z1R8">Unicorn UK Income Class B Income</option>
+<option value="BYX0D61">Valu-Trac VT Tyndall Real Income Class A Accumulation</option>
+<option value="BYX0D83">Valu-Trac VT Tyndall Real Income Class A Income</option>
+<option value="B59G4H8">Vanguard FTSE U.K Equity Income Index GBP Accumulation</option>
+<option value="B5B7468">Vanguard FTSE U.K Equity Income Index GBP Income</option>
+</select>
+</div>
+<div class="topPad clearLeft">
+<input class="button yellow searchButton" id="addToChart" type="button" value="Add to chart"/>
+<img class="hidden" height="30" id="addToChartSpinner" src="/myfuture/Content/images/global/spinner-small.gif" style="margin-left: 1em; position: absolute;" width="30"/>
+</div>
+</div>
+<div class="pod warning" id="divWarningMessage" style="display:none">
+<h4 class="icnHeading icnWarning bold">
+                    You can only compare a maximum of 4 funds.
+                    </h4><p style="font-size: 1em;font-weight: normal !important; margin-bottom: 0">To compare more funds, you must first remove a fund from the chart.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="legendContainer" style="width: 100%"></div>
+<div id="fundChartContainer" style="width: 100%"></div>
+</div>
+<div class="podContent noBorder noSidePadding">
+<p>
+<a class="button grey left" href="/myfuture/CompareFunds/ChartDataNonJsFundHub" target="_blank">Accessible chart data </a> </p>
+</div>
+</div>
+<h2>Fund Analysis</h2>
+<div>
+<div class="podGroup" id="fundAnalysisContainer">
+<div class="pod">
+<table>
+<thead>
+<tr>
+<th class="center" colspan="2">Asset allocation</th>
+</tr>
+</thead>
+<tr>
+<td>Cash &amp; Equivalent
+                        </td>
+<td class="center">35.53%</td>
+</tr>
+<tr>
+<td>International Bonds
+                        </td>
+<td class="center">32.21%</td>
+</tr>
+<tr>
+<td>Managed Funds
+                        </td>
+<td class="center">17.25%</td>
+</tr>
+<tr>
+<td>Other
+                        </td>
+<td class="center">5.79%</td>
+</tr>
+<tr>
+<td>International Equities
+                        </td>
+<td class="center">5.34%</td>
+</tr>
+<tr>
+<td>UK Corporate Bonds
+                        </td>
+<td class="center">1.61%</td>
+</tr>
+<tr>
+<td>UK Equities
+                        </td>
+<td class="center">1.09%</td>
+</tr>
+<tr>
+<td>ETFs
+                        </td>
+<td class="center">1.01%</td>
+</tr>
+<tr>
+<td>UK Gilts
+                        </td>
+<td class="center">0.12%</td>
+</tr>
+<tr>
+<td>Property
+                        </td>
+<td class="center">0.06%</td>
+</tr>
+</table>
+</div>
+<div class="pod">
+<table>
+<thead>
+<tr>
+<th class="center" colspan="2">Top 10 holdings</th>
+</tr>
+</thead>
+<tr>
+<td>UNITED STATES OF AMERICA NOTES FIXED .125%
+                        </td>
+<td class="center">3.71%</td>
+</tr>
+<tr>
+<td>Aviva Investors Multi-Strategy Target Return Class 3
+                        </td>
+<td class="center">3.48%</td>
+</tr>
+<tr>
+<td>Aviva Investors Global Convertibles Absolute Return Fund Class Zh
+                        </td>
+<td class="center">1.00%</td>
+</tr>
+<tr>
+<td>BlackRock European Absolute Alpha Class D
+                        </td>
+<td class="center">0.81%</td>
+</tr>
+<tr>
+<td>T-MOBILE 3.875% 04/30
+                        </td>
+<td class="center">0.54%</td>
+</tr>
+<tr>
+<td>GOLDMAN SACHS VAR 09/25
+                        </td>
+<td class="center">0.46%</td>
+</tr>
+<tr>
+<td>JPMORGAN CHASE VAR 05/30
+                        </td>
+<td class="center">0.33%</td>
+</tr>
+<tr>
+<td>JPMORGAN CHASE VAR 03/25
+                        </td>
+<td class="center">0.32%</td>
+</tr>
+<tr>
+<td>VIATRIS INC 4% 06/50
+                        </td>
+<td class="center">0.27%</td>
+</tr>
+<tr>
+<td>CITIGROUP INC VAR 01/28
+                        </td>
+<td class="center">0.26%</td>
+</tr>
+</table>
+</div>
+<div class="pod">
+<table>
+<thead>
+<tr>
+<th class="center" colspan="2">Sector breakdown</th>
+</tr>
+</thead>
+<tr>
+<td>Cash and Equivalents
+                        </td>
+<td class="center">35.53%</td>
+</tr>
+<tr>
+<td>Bonds
+                        </td>
+<td class="center">33.93%</td>
+</tr>
+<tr>
+<td>Managed Funds
+                        </td>
+<td class="center">17.25%</td>
+</tr>
+<tr>
+<td>Alternative Trading Strategies
+                        </td>
+<td class="center">5.26%</td>
+</tr>
+<tr>
+<td>Financials
+                        </td>
+<td class="center">1.42%</td>
+</tr>
+<tr>
+<td>Technology
+                        </td>
+<td class="center">1.08%</td>
+</tr>
+<tr>
+<td>Industrials
+                        </td>
+<td class="center">1.04%</td>
+</tr>
+<tr>
+<td>Commodities
+                        </td>
+<td class="center">1.01%</td>
+</tr>
+<tr>
+<td>Consumer Discretionary
+                        </td>
+<td class="center">0.93%</td>
+</tr>
+<tr>
+<td>Health Care
+                        </td>
+<td class="center">0.72%</td>
+</tr>
+<tr>
+<td>Consumer Staples
+                        </td>
+<td class="center">0.45%</td>
+</tr>
+<tr>
+<td>Basic Materials
+                        </td>
+<td class="center">0.35%</td>
+</tr>
+<tr>
+<td>Energy
+                        </td>
+<td class="center">0.33%</td>
+</tr>
+<tr>
+<td>Telecommunications
+                        </td>
+<td class="center">0.26%</td>
+</tr>
+<tr>
+<td>Utilities
+                        </td>
+<td class="center">0.22%</td>
+</tr>
+<tr>
+<td>Real Estate
+                        </td>
+<td class="center">0.20%</td>
+</tr>
+<tr>
+<td>Non-Classified
+                        </td>
+<td class="center">0.03%</td>
+</tr>
+</table>
+</div>
+<div class="pod">
+<table>
+<thead>
+<tr>
+<th class="center" colspan="2">Regional breakdown</th>
+</tr>
+</thead>
+<tr>
+<td>Cash and Equivalents
+                        </td>
+<td class="center">35.53%</td>
+</tr>
+<tr>
+<td>North America
+                        </td>
+<td class="center">28.69%</td>
+</tr>
+<tr>
+<td>Managed Fund
+                        </td>
+<td class="center">18.25%</td>
+</tr>
+<tr>
+<td>Alternative Trading Strategies
+                        </td>
+<td class="center">4.28%</td>
+</tr>
+<tr>
+<td>Developed Europe - Excl UK
+                        </td>
+<td class="center">4.24%</td>
+</tr>
+<tr>
+<td>UK
+                        </td>
+<td class="center">2.81%</td>
+</tr>
+<tr>
+<td>Emerging Asia
+                        </td>
+<td class="center">1.13%</td>
+</tr>
+<tr>
+<td>Commodities
+                        </td>
+<td class="center">1.01%</td>
+</tr>
+<tr>
+<td>South &amp; Central America
+                        </td>
+<td class="center">0.78%</td>
+</tr>
+<tr>
+<td>Developed Asia
+                        </td>
+<td class="center">0.67%</td>
+</tr>
+<tr>
+<td>Japan
+                        </td>
+<td class="center">0.66%</td>
+</tr>
+<tr>
+<td>Non-Classified
+                        </td>
+<td class="center">0.61%</td>
+</tr>
+<tr>
+<td>Middle East &amp; Africa
+                        </td>
+<td class="center">0.50%</td>
+</tr>
+<tr>
+<td>Australia &amp; New Zealand
+                        </td>
+<td class="center">0.43%</td>
+</tr>
+<tr>
+<td>Emerging Europe
+                        </td>
+<td class="center">0.34%</td>
+</tr>
+<tr>
+<td>Property
+                        </td>
+<td class="center">0.06%</td>
+</tr>
+</table>
+</div>
+<div class="pod">
+<table>
+<thead>
+<tr>
+<th class="center" colspan="2">Market capitalisation</th>
+</tr>
+</thead>
+<tr>
+<td>Mega (&gt;50bn)
+                        </td>
+<td class="center">2.61%</td>
+</tr>
+<tr>
+<td>Large (3bn-50bn)
+                        </td>
+<td class="center">3.24%</td>
+</tr>
+<tr>
+<td>Medium (1bn-3bn)
+                        </td>
+<td class="center">0.31%</td>
+</tr>
+<tr>
+<td>Small (50m-1bn)
+                        </td>
+<td class="center">0.59%</td>
+</tr>
+<tr>
+<td>Micro (&lt;50m)
+                        </td>
+<td class="center">0.00%</td>
+</tr>
+<tr>
+<td>Cash &amp; Equivalent
+                        </td>
+<td class="center">69.46%</td>
+</tr>
+<tr>
+<td>Unknown
+                        </td>
+<td class="center">23.79%</td>
+</tr>
+</table>
+</div>
+<div class="pod">
+<table>
+<thead>
+<tr>
+<th class="center" colspan="2">Risk factors</th>
+</tr>
+</thead>
+<tr>
+<td>Charges to Capital
+                                <span data-rel="tooltip" title="The fund takes its charges from its capital rather than the income generated. This may limit capital growth."></span>
+</td>
+<td class="center">No</td>
+</tr>
+<tr>
+<td>Emerging Markets
+                                <span data-rel="tooltip" title="The fund invests in emerging markets, which are generally less well regulated than the UK. There is an increased chance of political and economic instability and assets can be more difficult to buy and sell."></span>
+</td>
+<td class="center">Yes</td>
+</tr>
+<tr>
+<td>Concentrated Portfolio
+                                <span data-rel="tooltip" title="The fund invests in a relatively small number of holdings. This concentration of holdings may carry more risk than funds spread across a large number of companies."></span>
+</td>
+<td class="center">No</td>
+</tr>
+<tr>
+<td>Smaller Companies
+                                <span data-rel="tooltip" title="The fund invests in smaller companies. The shares of smaller companies can be more volatile and more difficult to buy and sell than larger company shares."></span>
+</td>
+<td class="center">Yes</td>
+</tr>
+<tr>
+<td>High Yield Bonds
+                                <span data-rel="tooltip" title="The fund invests in high yield (non investment grade) bonds. This means bonds that have a ‘Credit Quality’ rating of BB or less. High yield bonds carry a greater risk that the issuer may not be able to pay interest or return capital. In addition, economic conditions and interest rate movements will have a greater effect on their price."></span>
+</td>
+<td class="center">Yes</td>
+</tr>
+<tr>
+<td>Geared Investments
+                                <span data-rel="tooltip" title="The fund holds geared investments. This means that the underlying investments include a level of borrowing. It is possible that the fund may suffer sudden and large falls in value compared with a fund that has no geared investments. However, gearing can also be used to boost returns."></span>
+</td>
+<td class="center">No</td>
+</tr>
+<tr>
+<td>Property
+                                <span data-rel="tooltip" title="The fund invests substantially in property funds, shares or direct property. You should bear in mind that: - properties are not always readily saleable and this can lead to times in which clients are unable to dispose of part or all of their holding. - Property valuations are made by independent agents, but are ultimately subjective and a matter of judgement. Property transaction costs are high (typically around 7% due to legal costs, valuations and stamp duty), which will affect the fund’s return."></span>
+</td>
+<td class="center">No</td>
+</tr>
+<tr>
+<td>Exchange Rate
+                                <span data-rel="tooltip" title="When funds invest in overseas assets, the value will go up and down in line with movements in exchange rates as well as the changes in the value of the fund’s holdings."></span>
+</td>
+<td class="center">Yes</td>
+</tr>
+<tr>
+<td>Performance Charges
+                                <span data-rel="tooltip" title="This fund can charge a fee dependent upon the fund’s performance."></span>
+</td>
+<td class="center">No</td>
+</tr>
+<tr>
+<td>Derivative Exposure
+                                <span data-rel="tooltip" title="Derivatives are financial contracts whose value is based on the prices of other assets."></span>
+</td>
+<td class="center">Yes</td>
+</tr>
+</table>
+</div>
+</div>
+<style>
+@media only screen and (min-width: 35em) {
+    .t7 .groupOfThree .pod,
+    .t8b .groupOfThree .pod,
+    .t7 .groupOfThree .pod:first-child,
+    .t8b .groupOfThree .pod:first-child{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 47em) {
+    .t7 .groupOfThree,
+    .t8b .groupOfThree { margin: 0 0 0 -1%; }
+
+    .t7 .groupOfThree .pod,
+    .t8b .groupOfThree .pod,
+    .t7 .groupOfThree .pod:first-child,
+    .t8b .groupOfThree .pod:first-child{
+        margin-left: 1%;
+        width: 43% !important;
+    }
+}
+
+@media only screen and (min-width: 55em) {
+
+    .t7 .groupOfThree .pod,
+    .t8b .groupOfThree .pod,
+    .t7 .groupOfThree .pod:first-child,
+    .t8b .groupOfThree .pod:first-child {
+        width: 32.333333% !important;
+    }
+}
+</style>
+</div>
+</div>
+<input id="SedolCode" name="SedolCode" type="hidden" value="BVRZFZ4"/><input id="ExistingFundName" name="FundName" type="hidden" value="Aviva Investors Multi-asset Plus Fund I Class 9 Accumulation"/></form>

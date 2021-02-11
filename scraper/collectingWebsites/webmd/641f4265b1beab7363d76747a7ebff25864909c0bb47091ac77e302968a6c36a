@@ -1,0 +1,399 @@
+<form action="/drugs/ingredientreviewpost-1470-SODIUM+BICARBONATE.aspx?post=new&amp;drugid=1470&amp;t=2&amp;drugname=SODIUM+BICARBONATE" id="submitRatings" method="post" name="submitRatings">
+<div class="subRating" id="content">
+<h2>Rate this treatment and share your opinion!</h2>
+<div class="ratelink"><a href="https://www.webmd.com/drug-reviews-faq" target="_blank" title="Treatment Review product">Learn about User Reviews</a></div>
+<h3 class="tips">Helpful tips to write a good review:</h3>
+<ol class="ratetips">
+<li>
+						Only share <em>your</em> first hand experience as a consumer or a care giver.
+					</li>
+<li>
+						Describe your experience in the Comments area including the benefits, side effects and how it has worked for you.  Do <em>not</em> provide personal information like email addresses or telephone numbers.
+					</li>
+<li>
+						Fill in the <em>optional information</em> to help other users benefit from your review.
+					</li>
+</ol>
+<h3 class="s1">Reason for Taking This Treatment</h3>
+<div id="condition-ec"><select class="condition" id="conditionDropDown" name="condition"><option value="-1">Select a reason</option>
+<option value="1089">Chronic renal insufficiency</option>
+<option value="1712">Contrast induced nephropathy</option>
+<option value="1142">Dental plaque</option>
+<option value="1147">Diabetic nephropathy</option>
+<option value="1164">Earwax</option>
+<option value="1181">Exercise performance</option>
+<option value="2224">Exercise-induced muscle damage</option>
+<option value="2430">Neonatal resuscitation</option>
+<option value="0">Other</option>
+<option value="9999999">General Health &amp; Wellness</option></select><span class="required">(required)</span></div>
+<h3 class="s2">Click the Stars to Rate This Treatment</h3>
+<div class="rateCriteria clearfix" id="rc1-ec">
+<h4 class="ttLink subForm">
+            Effectiveness <span class="required">(required)</span><span class="txtRate" id="txtRate1"></span></h4>
+<div class="catQuest">This treatment has worked for me.</div>
+<div class="inlineRating">
+<ul class="starRating" id="rq1">
+<li class="current-rating" id="catCurr1" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div>
+<div class="rateCriteria clearfix bBorder" id="rc2-ec">
+<h4 class="ttLink subForm">
+            Ease of Use <span class="required">(required)</span><span class="txtRate" id="txtRate2"></span></h4>
+<div class="catQuest">This treatment has been easy for me to use.</div>
+<div class="inlineRating">
+<ul class="starRating">
+<li class="current-rating" id="catCurr2" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div>
+<div class="rateCriteria clearfix" id="rc3-ec">
+<h4 class="ttLink subForm">
+            Satisfaction <span class="required">(required)</span><span class="txtRate" id="txtRate3"></span></h4>
+<div class="catQuest">Overall, I have been satisfied with my experience.</div>
+<div class="inlineRating">
+<ul class="starRating">
+<li class="current-rating" id="catCurr3" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div><script type="text/javascript">initRate();</script><h3 class="s3">Write a Brief Description of Your Experience with this Treatment:</h3><textarea class="comment" cols="5" id="userComment" maxlength="2000" name="userComment" onblur="checkMaxLength(this);" onfocus="checkMaxLength(this);" onkeyup="checkMaxLength(this);" rows="5"></textarea><div class="counter"><span id="currentCharCount">2000</span> characters remaining
+				</div>
+<h3 class="s4">Optional Information</h3>
+<dl id="optInfo">
+<dt>Help others benefit from your review by filling in the information below.</dt>
+<dd class="radio"><span class="label">I am a:</span><input id="patient" name="userType" type="Radio" value="patient"/><label for="patient">Consumer</label><input id="caregiver" name="userType" type="Radio" value="caregiver"/><label for="cargiver">Caregiver</label></dd>
+<dd class="radio"><span class="label">Gender:</span><input id="gMale" name="gender" type="Radio" value="male"/><label for="gMale">Male</label><input id="gFemale" name="gender" type="Radio" value="female"/><label for="gFemale">Female</label></dd>
+<dd><label for="ageRange">Age Range:</label><select id="ageRange" name="ageRange"><option value="0">Choose One</option>
+<option value="1">0-2</option>
+<option value="2">3-6</option>
+<option value="3">7-12</option>
+<option value="4">13-18</option>
+<option value="5">19-24</option>
+<option value="6">25-34</option>
+<option value="7">35-44</option>
+<option value="8">45-54</option>
+<option value="9">55-64</option>
+<option value="10">65-74</option>
+<option value="11">75 or over</option></select></dd>
+<dd><label for="brand">Brand product used:</label><select id="brandProdUsed" name="brandProdUsed" onchange="
+								wmdTrack('dr-brandprodused_1');
+							"><option value="-1">Choose One</option>
+<option value="96708">1-Andro Chrome by Advanced Muscle Science</option>
+<option value="96071">1-Andro RDe by Advanced Muscle Science</option>
+<option value="91599">4-AD RDe by Advanced Muscle Science</option>
+<option value="42014">Alcohol Free Kolik Drops by Stella Pharmaceutic...
+				</option>
+<option value="98051">Algosan by Xymogen</option>
+<option value="26246">Alka Bathe by Higher Nature</option>
+<option value="17965">Alka-Aid by Vitaline Formulas</option>
+<option value="45460">Alkatab by Biomed International Product Corp.</option>
+<option value="51845">Aller Sine by Vaxa International</option>
+<option value="92072">Amino X by BSN Inc.</option>
+<option value="51849">Anti Oxin by Vaxa International</option>
+<option value="91600">Arom X RDe by Advanced Muscle Science</option>
+<option value="51860">Arthritin by Vaxa International</option>
+<option value="36735">Axia 3 by Natrica USA LLC</option>
+<option value="40926">Baby's Choice Gripe Water (Alcohol Free) by RW ...
+				</option>
+<option value="40922">Baby's Choice Gripe Water (Regular) by RW Packa...
+				</option>
+<option value="34727">Basic Powder by Biomed International Product Corp.</option>
+<option value="49019">Bicarbonate De Soude Usp by Laboratoires Atlas ...
+				</option>
+<option value="57822">Big 100 Colossal Bar (Chocolate Chip Graham Cra...
+				</option>
+<option value="57819">Big 100 Colossal Bar (Peanut Butter Pretzel fla...
+				</option>
+<option value="79233">Bio Carbonate Capsule by Biocare Ltd.</option>
+<option value="75957">Bioseptic by Genestra Brands Seroyal</option>
+<option value="86091">Black Powder (Blue Raspberry or Orange Burst fl...
+				</option>
+<option value="86092">Black Powder Sticks (assorted flavors)  by Medi...
+				</option>
+<option value="93963">Black Powder Ultra (assorted flavors) by Medica...
+				</option>
+<option value="18359">Blast Cycle by Fizogen Precision Technologies Inc.</option>
+<option value="54584">Blue Gene by Controlled Labs</option>
+<option value="96451">Blue Gene by Controlled Labs</option>
+<option value="23426">Buffer pH by Vaxa International</option>
+<option value="53538">Buzz Away Extreme by Quantum Inc.</option>
+<option value="53539">Buzz Away Extreme Toweletts by Quantum Inc.</option>
+<option value="1857">C Colon by Systemic Formulas</option>
+<option value="509">Calcium Effervescent by Progressive Labs</option>
+<option value="51871">Candid Free by Vaxa International</option>
+<option value="5300">Chase Kolik Alcohol Free Gripe Water by Stella ...
+				</option>
+<option value="5299">Chase Kolik Gripe Water by Stella Pharmaceutica...
+				</option>
+<option value="51875">Cholesten LDL by Vaxa International</option>
+<option value="51878">Circulin by Vaxa International</option>
+<option value="51881">Clearin by Vaxa International</option>
+<option value="4895">Clif BAR Cookies 'N Cream  by Clif Bar Inc</option>
+<option value="4898">Clif BAR GingerSnap  by Clif Bar Inc</option>
+<option value="51883">Colon Aid by Vaxa International</option>
+<option value="65998">Complete Tissue &amp; Bone Fizz Bath Bomb by Dr. Ch...
+				</option>
+<option value="49044">Comprimes Soude Et Menthe B.P. by Laboratoires ...
+				</option>
+<option value="16291">Contain by Cell Tech International</option>
+<option value="4365">Creatine Now (wild cherry flavor) [Discontinued...
+				</option>
+<option value="91597">DecaSarm RDe by Advanced Muscle Science</option>
+<option value="91598">Decavol RDe [Discontinued; Reformulated 2015] b...
+				</option>
+<option value="96709">Decavol RDe by Advanced Muscle Science</option>
+<option value="51898">Deprex by Vaxa International</option>
+<option value="54433">Devacor by Arthur Andrew Medical</option>
+<option value="51900">Diabin by Vaxa International</option>
+<option value="51903">Digestin by Vaxa International</option>
+<option value="16348">Digestrin by Selmedica Healthcare</option>
+<option value="2226">DIJS Acideze by Systemic Formulas</option>
+<option value="86835">E Z Gas 2 by E-Z-Em Canada Inc</option>
+<option value="24561">Echinacea High Strength Effervescent Fizz by Ra...
+				</option>
+<option value="5961">Effervescent Glucosamine / Chondroitin by GNC</option>
+<option value="676">ENADA NADH 5 mg by Prof. Birkmayer Health Produ...
+				</option>
+<option value="3153">ENADAlert by Prof. Birkmayer Health Products USA</option>
+<option value="178">EnadaNADH 2.5 Mg by Natrol, Inc.</option>
+<option value="179">EnadaNADH 5 Mg by Natrol, Inc.</option>
+<option value="50087">Encounter Gripe Water (Alcohol Free) by RW Pack...
+				</option>
+<option value="50044">Encounter Gripe Water (Regular) by RW Packaging...
+				</option>
+<option value="15720">EnJuvenate by Unicity International, Inc.</option>
+<option value="94348">EvoTest Powder by BSN Inc.</option>
+<option value="51907">Extress by Vaxa International</option>
+<option value="5293">Feelfine by Feelfine</option>
+<option value="56986">FIT4Soy Bars (Blueberry Creme flavor, Strawberr...
+				</option>
+<option value="37794">Folazin Oral Rinse by ProThera, Inc.</option>
+<option value="27480">FoliCare by Douglas Laboratories</option>
+<option value="53648">Formule B 29 by Les Herbages Naturbec Ltee</option>
+<option value="48581">Formule C 10 Liquid by Les Herbages Naturbec Ltee</option>
+<option value="53649">Formule C 29 by Les Herbages Naturbec Ltee</option>
+<option value="48586">Formule C 5 Liquid by Les Herbages Naturbec Ltee</option>
+<option value="48582">Formule L 10 by Les Herbages Naturbec Ltee</option>
+<option value="87318">Gastrodol Chewable Tablets by Planta Medica</option>
+<option value="50088">Good &amp; Kind Gripe Water (Alcohol Free) by RW Pa...
+				</option>
+<option value="50045">Good &amp; KInd Gripe Water (Regular) by RW Packagi...
+				</option>
+<option value="5301">Gripe Water Alcohol Free by RW Packaging Ltd. </option>
+<option value="5302">Gripe Water Liquid by RW Packaging Ltd. </option>
+<option value="33389">Healthy Choice Nutritionals Autumn Balance by H...
+				</option>
+<option value="81314">Hemo Rage Black (assorted flavors) [Discontinue...
+				</option>
+<option value="838">Herbal Seltzer by Herbs by Dial Inc.</option>
+<option value="65358">Hollywood Cookie Diet Meal Replacement Cookies ...
+				</option>
+<option value="65361">Hollywood Cookie Diet Meal Replacement Cookies ...
+				</option>
+<option value="65366">Hollywood Cookie Diet Meal Replacement Cookies ...
+				</option>
+<option value="97435">Hyper FX (Blue Razz flavor) by BSN Inc.</option>
+<option value="97436">Hyper FX (Fruit Punch flavor)  by BSN Inc.</option>
+<option value="97437">Hyper FX (Grape flavor) by BSN Inc.</option>
+<option value="97438">Hyper FX (Watermelon flavor) by BSN Inc.</option>
+<option value="92071">Hyper FX [Discontinued; Reformulated] by BSN Inc.</option>
+<option value="51908">Immune Aid by Vaxa International</option>
+<option value="22430">JointBombs Peppermint Bath Bombs by G&amp;G Vitamins</option>
+<option value="22303">JointBombs Rosemary Bath Bombs by G&amp;G Vitamins</option>
+<option value="22565">Karbozyme by Miller Pharmacal Group, Inc.</option>
+<option value="67964">Kids Babies Tum Ease by Eclectic Institute Inc.</option>
+<option value="50089">Life Gripe Water (Alcohol Free) by RW Packaging...
+				</option>
+<option value="50046">Life Gripe Water (Regular) by RW Packaging Ltd. </option>
+<option value="95457">Life-flo Testro Max for Men by Nutramarks, Inc.</option>
+<option value="50090">London Drugs Gripe Water (Alcohol Free) by RW P...
+				</option>
+<option value="50047">London Drugs Gripe Water (Regular) by RW Packag...
+				</option>
+<option value="4868">Luna Chocolate Peppermint Stick by Clif Bar Inc</option>
+<option value="60394">Magnesia S Pellegrino Powder by Actipharm SA</option>
+<option value="22274">MannaBar Chocolate flavor [Discontinued] by Man...
+				</option>
+<option value="99333">Max Effort Baking Mix (Chocolate Chip flavor) b...
+				</option>
+<option value="99334">Max Effort Baking Mix (Cinnamon flavor) by Max ...
+				</option>
+<option value="54328">Maxoderm by Barmensen Labs, LLC</option>
+<option value="50091">Medicine Centre Gripe Water (Alcohol Free) by R...
+				</option>
+<option value="50048">Medicine Centre Gripe Water (Regular) by RW Pac...
+				</option>
+<option value="51909">Memorin by Vaxa International</option>
+<option value="16242">Meso-Tech Complete Protein Bar (Apple Cinnamon ...
+				</option>
+<option value="22310">Meso-Tech Complete Protein Bar (Cookies &amp; Cream...
+				</option>
+<option value="22314">Meso-Tech Complete Protein Bar (Peanut Butter C...
+				</option>
+<option value="16535">Meta-CEL by iSatori Technologies, LLC</option>
+<option value="91631">Mommy's Bliss Gripe Water by MOM Enterprises, Inc.</option>
+<option value="95177">Mutant BCAA by Fit Foods Manufacturing Ltd.</option>
+<option value="95163">Mutant Mayhem (assorted flavors) by Fit Foods M...
+				</option>
+<option value="97975">Mutant Pump by Fit Foods Manufacturing Ltd.</option>
+<option value="82014">N.O. Xplode (assorted flavors) [Discontinued] b...
+				</option>
+<option value="95908">N.O. Xplode (Blue Raz flavor) [Discontinued; Re...
+				</option>
+<option value="86157">N.O. Xplode 2.0 (assorted flavors) by BSN Inc.</option>
+<option value="95024">N.O. Xplode 2.0 Advanced Strength (assorted fla...
+				</option>
+<option value="95025">N.O. Xplode 2.0 Caffeine Free by BSN Inc.</option>
+<option value="82016">N.O. Xplode Caffeine Free (Blue Raz flavor, Fru...
+				</option>
+<option value="82012">N.O. Xplode NT (Blue Raz flavor, Fruit Punch fl...
+				</option>
+<option value="99201">N.O. Xplode Pre-Workout Igniter (Fruit Punch fl...
+				</option>
+<option value="97325">N.O.-Xplode (Blue Raspberry flavor) by BSN Inc.</option>
+<option value="95907">N.O.-Xplode (Blue Raz flavor) [Discontinued; Re...
+				</option>
+<option value="97326">N.O.-Xplode (Fruit Punch flavor) by BSN Inc.</option>
+<option value="97327">N.O.-Xplode (Grape flavor) by BSN Inc.</option>
+<option value="97328">N.O.-Xplode (Green Apple flavor) by BSN Inc.</option>
+<option value="97329">N.O.-Xplode (Raspberry Lemonade flavor) by BSN ...
+				</option>
+<option value="97330">N.O.-Xplode (Watermelon flavor) by BSN Inc.</option>
+<option value="98428">N.O.-Xplode XE Edge (Assorted flavors) by BSN Inc.</option>
+<option value="16011">NetiXlear Nasal Wash by Xlear, Inc.</option>
+<option value="51910">Neuran by Vaxa International</option>
+<option value="51923">Nite Lite by Vaxa International</option>
+<option value="96293">NOX-P3 by Nutrishop</option>
+<option value="33870">NutraSec Chewable Tablets with Gastro Block by ...
+				</option>
+<option value="57588">Nutrition Bar (Oatmeal Raisin flavor) by USANA ...
+				</option>
+<option value="51805">Ocu Care by Vaxa International</option>
+<option value="36608">Oh Yeah! Protein Wafer Bars (assorted flavors) ...
+				</option>
+<option value="51806">Optimize by Vaxa International</option>
+<option value="6447">OsteoMax by Nutraceutics Corp.</option>
+<option value="20554">Oxy Response by Source Naturals</option>
+<option value="14335">Padma Lax by Padma A.G.</option>
+<option value="51807">Parasitin by Vaxa International</option>
+<option value="50092">People First Gripe Water (Alcohol Free) by RW P...
+				</option>
+<option value="50049">People First Gripe Water (Regular) by RW Packag...
+				</option>
+<option value="38996">pH Balance by Professional Botanicals</option>
+<option value="10292">PH Basic by Enzymedica</option>
+<option value="91026">pH Plus Alkaline Capsules  by Liberty Health Ne...
+				</option>
+<option value="50093">Pharmachoice Gripe Water (Alcohol Free) by RW P...
+				</option>
+<option value="50050">Pharmachoice Gripe Water (Regular) by RW Packag...
+				</option>
+<option value="50094">Pharmasave Gripe Water (Alcohol Free) by RW Pac...
+				</option>
+<option value="50051">Pharmasave Gripe Water (Regular) by RW Packagin...
+				</option>
+<option value="34712">Pleo Alkala by Biomed International Product Corp.</option>
+<option value="17030">Power Crunch Bar by BioNutritional Research Gro...
+				</option>
+<option value="54187">Pro Endorphin Release by Nutri-West Inc</option>
+<option value="96179">Pro Performance 100% Whey Protein (Cookies &amp; Cr...
+				</option>
+<option value="68645">Pro Performance Pro Crunch (Cookies 'n Cream) b...
+				</option>
+<option value="96467">Progensa 20 by Xymogen</option>
+<option value="96468">Progensa Plus by Xymogen</option>
+<option value="57440">Progesta Care by Life-Flo Health Care Products</option>
+<option value="6451">PROhGH Sport for Women by Pharmalogic</option>
+<option value="4502">ProhGH Symbiotropin by Nutraceutics Corp.</option>
+<option value="51808">Prostatin by Vaxa International</option>
+<option value="51813">ReFlora by Vaxa International</option>
+<option value="50095">Regal Gripe Water (Alcohol Free) by RW Packagin...
+				</option>
+<option value="50052">Regal Gripe Water (Regular) by RW Packaging Ltd. </option>
+<option value="66004">Relax Eze Fizz Bath Bomb by Dr. Christopher's</option>
+<option value="50096">Rexall Gripe Water (Alcohol Free) by RW Packagi...
+				</option>
+<option value="50053">Rexall Gripe Water (Regular) by RW Packaging Ltd. </option>
+<option value="22719">Right Direction Cookies (chocolate chip flavor)...
+				</option>
+<option value="50097">Safeway Gripe Water (Alcohol Free) by RW Packag...
+				</option>
+<option value="50054">Safeway Gripe Water (Regular) by RW Packaging L...
+				</option>
+<option value="69977">Shock Therapy [Discontinued] by Universal Nutri...
+				</option>
+<option value="95411">Shock Therapy by Universal Nutrition</option>
+<option value="69802">Sinucleanse by Med-Systems Inc</option>
+<option value="51817">Sinus Formula by Vaxa International</option>
+<option value="56067">SizeOn Tablets by Gaspari Nutrition</option>
+<option value="96993">SlimCakes Oatmeal Berry by Isagenix International</option>
+<option value="71731">Source of Life Animal Parade Tooth Gel by Natur...
+				</option>
+<option value="6679">Starch Buster by Metabolife International, Inc.</option>
+<option value="89601">Technical Knockout Recovery by KiloSports Nutri...
+				</option>
+<option value="50098">Teddy's Choice Gripe Water (Alcohol Free) by RW...
+				</option>
+<option value="50055">Teddy's Choice Gripe Water (Regular) by RW Pack...
+				</option>
+<option value="51822">Thyroid Formula by Vaxa International</option>
+<option value="51823">TriCardia by Vaxa International</option>
+<option value="82518">Trisalt by Ohana Health</option>
+<option value="50099">Value Gripe Water (Alcohol Free) by RW Packagin...
+				</option>
+<option value="50056">Value Gripe Water (Regular) by RW Packaging Ltd. </option>
+<option value="17829">Vault by SAN Nutrition</option>
+<option value="51836">Virexin by Vaxa International</option>
+<option value="50100">Western Family Gripe Water (Alcohol Free) by RW...
+				</option>
+<option value="50057">Western Family Gripe Water (Regular) by RW Pack...
+				</option>
+<option value="54729">Woodward's Gripe Water by Pharmacare Limited (C...
+				</option>
+<option value="7588">Xantrex ThermoGenics Plus Rapid Weight Loss for...
+				</option>
+<option value="44005">Xenex Sodium Bicarbonate 325 mg Tablets by Xene...
+				</option>
+<option value="22748">XyliWhite Toothpaste by NOW Foods</option>
+<option value="0">
+										Other
+									</option></select></dd>
+<dd><label for="timeRange">Time on Treatment:</label><select id="timeRange" name="timeRange"><option value="0">Choose One</option>
+<option value="1">less than 1 month</option>
+<option value="2">1 to 6 months</option>
+<option value="3">6 months to less than 1 year</option>
+<option value="4">1 to less than 2 years</option>
+<option value="5">2 to less than 5 years</option>
+<option value="6">5 to less than 10 years</option>
+<option value="7">10 years or more</option></select></dd>
+<dd><label for="sName">Screen Name:</label><input id="sName" maxlength="40" name="screenName" type="Text" value=""/></dd>
+</dl>
+<h3 class="s5">Type the Characters You See in this Picture:</h3>
+<p class="capintro">This is used to prevent illegitimate use by automated programs</p>
+<div id="capChar-ec">
+<p class="label">Picture:</p>
+<div id="codeGraphic"><img height="75" id="captchaImage" src="CaptchaImage.aspx?w=220&amp;h=75&amp;id=6Nmxh%2bMKHqEqSaFssVidFwvBkgqRzP7mIYZJD1HBeGE%3d" width="220"/><a class="refreshBtn" href="#" onclick="wmdPageLink('dr-captcha'); return RefreshCaptcha();"><img border="0" height="22" id="captchaImage" src="https://img.webmd.com/drugs/PortalLiteResources/images/refreshCapshaw_btn.gif" width="117"/></a><input id="cypherText" name="cypherText" type="hidden" value="6Nmxh%2bMKHqEqSaFssVidFwvBkgqRzP7mIYZJD1HBeGE%3d"/></div><label for="CapChar">Enter characters from the image above:</label><input autocomplete="off" id="CapChar" name="characters"/><span class="required">(required)</span></div>
+</div>
+<div id="agreement"><input id="agreeChk" name="agreement" type="Checkbox"/>I have read and agree to abide by the <a href="/policies/about-terms-and-conditions-of-use" target="_blank">WebMD Terms and Conditions</a> and <br/><a href="/policies/about-privacy-policy" target="_blank">WebMD Privacy Policy</a>.
+				  <span class="required">(required)</span></div><input id="rateValue1" name="rate1" type="Hidden"/><input id="rateValue2" name="rate2" type="Hidden"/><input id="rateValue3" name="rate3" type="Hidden"/><div id="postButtons"><button class="defaultBtn" onclick="if(CheckValidForm())ctrs('dr-reviewadd'); else return false;" type="submit">Post</button><button class="defaultBtn" onclick="RedirectToIngredientUrl();" type="reset">cancel</button></div><script type="text/javascript">
+				function RedirectToIngredientUrl()
+				{
+				//This is a workaround for single quotes in the name
+				window.location.href = "/vitamins-supplements/ingredientmono-1470-SODIUM+BICARBONATE.aspx?activeIngredientId=1470&activeIngredientName=SODIUM+BICARBONATE&source=0";
+				}
+			</script><div class="moduleSpacer_fmt"></div><script type="text/javascript">checkMaxLength(document.getElementById("userComment"));</script></form>

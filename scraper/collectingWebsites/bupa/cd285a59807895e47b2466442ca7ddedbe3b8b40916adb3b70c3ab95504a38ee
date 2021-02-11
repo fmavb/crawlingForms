@@ -1,0 +1,17 @@
+<form id="loginInfo" method="Post" name="loginInfo" novalidate="">
+<div class="ifholderfour">
+<input class="username" id="username" name="username" ng-keydown="onKeyDownLogin($event)" ng-model="loginData.username" ng-pattern="/^([a-zA-Z0-9_\+\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/" placeholder="Email" required="" type="text"/>
+</div>
+<div class="ifholderfour">
+<input class="password" id="password" name="password" ng-keydown="onKeyDownLogin($event)" ng-model="loginData.password" placeholder="Password" required="" type="password"/>
+<img class="eye" id="eye" onclick="showPassword()" src="https://dnafitprod.blob.core.windows.net/partner/006/css/Images/show_hide_password.png"/>
+</div>
+<div class="kitactivationloginbutton">
+<input id="inputHidden" ng-init="loginData.operation = 'login'" ng-model="loginData.operation" type="hidden"/>
+<input id="buttonText" ng-click="IsValidLogin()" type="submit" value="Log in"/>
+</div>
+<div class="contentLoginLink">
+<div class="contentLink">Forgot <a href="/resetpassword?returnUrl=" target="_blank">{{languageTranslations.loginPagePasswordText}}?</a></div>
+<div class="contentLink">{{languageTranslations.received_gift_Text}}<a href="/create-account">{{languageTranslations.create_account_link}}</a></div>
+</div>
+</form>

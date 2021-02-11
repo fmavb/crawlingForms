@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action="/email-signup" method="post">
+<input name="authenticity_token" type="hidden" value="37DMK+zFrccgU1gx4lzJVhh6voff8t1AXr/xmiunhf0oL8D4+o+ePZCS6ss8DlalaGR45oF73ImSDaxDARFAyQ=="/>
+<input id="link" name="link" type="hidden" value="/transport/spaceflight"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" data-module="track-click" data-track-action="new_frequency" data-track-category="email_subscriptions" data-track-label="Spaceflight" type="submit">Continue</button>
+</form>

@@ -1,0 +1,8 @@
+<form action="/gym_discounts/club_finder/" method="get"> <fieldset>
+<label for="Location">
+<strong>Club search:</strong> search for your nearest clubs.</label>
+<input class="text" data-val="true" data-val-required="Please enter your location." id="Location" minlength="3" name="Location" placeholder="e.g. BD1 3GQ or Warwick" type="text" value=""/>
+<button class="btn qs_btn" id="submitSearch" type="submit">Display my Clubs</button>
+<span class="field-validation-valid" data-valmsg-for="Location" data-valmsg-replace="true"></span>
+</fieldset>
+<input id="Facilities" name="Facilities" type="hidden" value=""/></form>

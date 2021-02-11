@@ -1,0 +1,72 @@
+<form action="/services/hospital/royal-preston-hospital/X907/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Very unhelpful and rude staff! PALS &amp;amp; General Office &lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I have been treated in both A&amp;amp;E and the UCC three times since a road traffic accident six days ago.
+First responder from NWAS at the scene - lovely. 
+Reception ladies when checking into A&amp;amp;E and also UCC, lovely and helpful and provided me with tissues as I was upset.
+Triage nurses - lovely. 
+UCC Dr (saw twice) and A&amp;amp;E Dr - lovely. 
+X-Ray Staff - lovely 
+Admin Manager - absolute lack of understanding for my situation and lack of empathy. No solutions or help/advice given.  Felt like I was fighting a losing battle when speaking with her. It was very frustrating so I went to PALS for support and advice.  The response that I got from the lady at PALS was cold, uncaring, unhelpful, a total lack of empathy, a total lack of compassion, a total lack of customer service. I came away and was upset for the whole day. I am still upset now. I would not go to them for support again.  
+I am going to make an official complaint today to more senior members of staff about the conduct of the General Office Manager and the lady at PALS.  I should actually be resting and recuperating! 
+I also had an appointment with an ENT Specialist yesterday morning where I was told that I had a brain tumour so the last thing I needed was to be treated in such a way and ‘talked down to’.  I was on my own with my little girl and even she said that the two women were both rude and unhelpful. My daughter is eleven. 
+ENT Receptionist - lovely
+ENT Dr and Nurse - lovely and lovely 
+ENT Medical Trainee - lovely 
+Audiologist - lovely 
+I spoke to an ENT Medical Secretary on the phone following my appt - lovely
+RPH Switchboard Operator - lovely 
+
+The two people that I have issues with showed signs of being on a ‘power trip’.  I would not recruit them to work for my company or any of my clients (I am a recruiter with over 25 years experience). I would not employ them to work  in an environment where patients need support, empathy, compassion and understanding.  
+
+Such a shame to have this experience when most of the other people who I have come into contact with this week at RPH have been lovely. &lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-01-30T08:33:03Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;1&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Royal Preston Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Don't know&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;e309cb1f-3b43-ea11-a812-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X907&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamEtllqwsEo27FMWZUyZgUB2S_Q4FV-GbNrhifWXtKC8sqxtrTSjDAZYw3rA2qPdH546idUsVQc_rGr4pPXn_20TISVvpTLjzbd9laOBcLPBIx_E1x7HPxQ1fRQC7agvHfc"/></form>

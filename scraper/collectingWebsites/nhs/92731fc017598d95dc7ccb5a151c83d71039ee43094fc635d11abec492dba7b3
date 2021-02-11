@@ -1,0 +1,59 @@
+<form action="/services/hospital/worcestershire-royal-hospital/X1320/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Without any comfort or reassurance for hours&lt;/Title&gt;
+    &lt;ScreenName&gt;Martha3&lt;/ScreenName&gt;
+    &lt;CommentText&gt;My 90 year old mother- in-law spent 9 hours in the department following a serious car crash where she was a passenger. Apart from the usual interminable waits for doctors and scans she was denied a pillow (&amp;amp;quot;we don't have any&amp;amp;quot;) and wasn't offered a drink. When I asked for some water for her I was handed a bottle. I was denied a paper cup ( &amp;amp;quot;we don't have any&amp;amp;quot;). This lady has never drunk from a bottle in her life and her extreme frailty meant she couldn't even lift it up. Only by chance did she end up with a sheet to cover her. There were no chairs for relatives to sit, near at all.  
+The noise in the middle of the night, feet away, when she was in pain and I was trying to get her to calm down and sleep was appalling. All of it coming from staff talking, laughing and shouting at the tops of their voices to each other. None of this chatter seemed to do with patient care.  
+When nurses weren't taking an observation or undertaking a specific task they chatted to each other. I never saw one approach patients to comfort, reassure or simply to hold a hand and ask if someone was okay.  
+I observed one very elderly lady, after her family had to leave, lie on a bed under a strip light alone, conscious, with no blanket to cover her, entirely without any comfort or reassurance for hours with nurses chatting and laughing to each other a few feet away. These nurses were not busy.  
+I saw a senior nurse spend about four hours sitting in front of a computer screen updating the patients stats for the day. A complete waste of a qualified experienced nurses time. Two clerks sat nearby chatting.  
+All the doctors were efficient and helpful taking time to explain.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-09-01T09:22:08Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;8&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Worcestershire Royal Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;e5c6f73c-13e9-e911-a812-000d3a7ed2f2&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1320&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGjKBYHytgFahUwQKc2_Fmayp__CHPg58_cHwCWkLeaAeckGnkF9rL6aXRX7_S4qf3jLj7WbkOnSW1kZlcZVSX4Un6-hx-kIWcKiN9C-AVEhlrldZmpK7tn34VfMVgeMfQ"/></form>

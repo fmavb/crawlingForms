@@ -1,0 +1,54 @@
+<form action="/services/hospital/queen-elizabeth-hospital/X97839/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;No respect what so ever&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;It has been stated clearly on website on notice on door and on paperworks that the outpatient blood test room close at 17:30 monday to friday. Also they made note that last admission is 17:30 so at this time they will shut the door and no further patient can enter. Today i went there, arrived at 17:24. When i arrived the door was shutted and there were people outside. I asked them what happened and no one had a clue. We saw some staff were inside, only 2 or 3 patients left so we kept waving at the staff wanting to speak to them and find out what happened. But the staff ignored us even we knocked on the door etc. Anyways, a NHS staff walked past so we asked her to help and that lady was very helpful. She tried to gain attention from the staff inside the room but also got ignored. She then rushed off to somewhere and came back with some paperworks and waved at the staff inside again and then one staff opened the door and told her its closed. Then we asked her its not yet 17:30 y is it closed. The staff repeated like a machine.. sorry we have reached our full capacity so we decided to close early. It was not yet 17:30 barely any patients inside and that was full capacity? I have seen way busier time than this. Well its friday i understand.. i then explained to her that i must have the blood test done today. She replied, if u have to get it done today, coming just 2 mins before the closing time is not good enough. I was shocked.. the pfficial closing time is 17:30 and it was stated clearly everywhere. I do not live next to the hospital and i have already requested to leave my work early in order to make it before your closing time. I certainly do not expect u to close earlier than expected and i do not expect after all the effort and time i spent to travel and getting there in time, i was told this statement. Her words were too cold and did upset me. Just need to see from the user’s point of view. My result will not b accurute since i will do it another day, and the previous tests were wasted too because of this. I think I can understand full capacity but i cannot accept the staff’s statement that arriving 2 mins earlier is not good enough. Firstly other people arrived before me and i was there already 6 mins before the closing time. Some told me they were there since 15 mins before. Anways i dont care but since official statement shows last admission is 17:30 then big organization like NHS should professionally stick to it. If not, communicate not ignore. Explain to patients, not blaming them when they obey the rules. 22 Feb 2019 outpatient blood test dept.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-02-23T00:04:06.67Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;2&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Queen Elizabeth Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;c9789161-44d5-e911-a812-000d3a7ed30d&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X97839&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamF4EyYxb4m4pA7i5P2yUqO9Imbs3MQ-yGDbsx1W8_g3n52jc7-fe7qfDdESDm5t0OQo0gjOXqVpAtu18g9si9NWbzX92EyYmY5-0HsNG3lUCJpyxfxKeoLU9mXJQf-gwz4"/></form>

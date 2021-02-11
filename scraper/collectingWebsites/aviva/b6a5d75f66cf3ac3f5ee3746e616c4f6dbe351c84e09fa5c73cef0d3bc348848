@@ -1,0 +1,46 @@
+<form action="/quote/Direct/Motor/Company/Quote/retrieveQuote" method="post" name="frm"> <h1 class="a-heading a-heading--1">Retrieve quote</h1>
+<h2 class="a-heading a-heading--2 a-heading--semibold">Please enter the following details to access your saved quote.</h2>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="QuoteReferenceNumber"><label for="QuoteVerification_QuoteReferenceNumber">Quote reference number</label></label>
+<div class="m-form-row__content">
+<input class="a-textbox toAllCaps" id="QuoteVerification_QuoteReferenceNumber" maxlength="12" name="QuoteVerification.QuoteReferenceNumber" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="FirstName"><label for="QuoteVerification_FirstName">Main driver first name</label></label>
+<div class="helpText"><p>Main driver details to be that of the first vehicle where there is more than one vehicle on the quote</p> </div>
+<div class="m-form-row__content">
+<input class="a-textbox" id="QuoteVerification_FirstName" name="QuoteVerification.FirstName" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="Surname"><label for="QuoteVerification_Surname">Main driver last name</label></label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="QuoteVerification_Surname" name="QuoteVerification.Surname" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="DateOfBirthDay"><label for="QuoteVerification_DateofBirth">Main driver Date of birth</label></label>
+<div class="m-form-row__content m-form-dob group">
+<input class="a-textbox a-textbox--2-character" id="QuoteVerification_DateOfBirthDay" maxlength="2" name="QuoteVerification.DateOfBirthDay" pattern="[0-9]*" placeholder="DD" type="tel" value=""/>
+<input class="a-textbox a-textbox--2-character" id="QuoteVerification_DateOfBirthMonth" maxlength="2" name="QuoteVerification.DateOfBirthMonth" pattern="[0-9]*" placeholder="MM" type="tel" value=""/>
+<input class="a-textbox a-textbox--4-character" id="QuoteVerification_DateOfBirthYear" maxlength="4" name="QuoteVerification.DateOfBirthYear" pattern="(?:[0-9]{2}){1,2}" placeholder="YYYY" type="tel" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="PostCode"><label for="QuoteVerification_PostCode">Postcode</label></label>
+<div class="helpText"><p>The postcode must match the one used for your original quote.</p></div>
+<div class="m-form-row__content">
+<input class="a-textbox" id="QuoteVerification_PostCode" maxlength="8" name="QuoteVerification.PostCode" type="text" value=""/>
+</div>
+</div>
+<input class="a-button a-button--primary" id="nextButton" name="nextButton" type="submit" value="Retrieve Quote"/>
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<p> Don't know your details? </p>
+</li>
+<li class="m-button-group__item">
+<a class="quoteBackButton" href="/quote/Direct/Motor/Company?Length=5">Start a new quote</a>
+</li>
+</ul>
+</form>

@@ -1,0 +1,39 @@
+<form action="/MComm/site/process/steps/smallBusiness/risk/locate" autocomplete="off" method="post" name="policySearchForm">
+<input name="command" type="hidden" value=""/>
+<input name="navigation" type="hidden" value=""/>
+<input name="forwardPath" type="hidden" value=""/>
+<div class="pageForm">
+<h1>Log in</h1>
+<p>Log in to access your policy or renewal documents, or to retrieve a saved quote.</p>
+<p>Forgotten your password? Enter your email address below and click the 'Forgotten your password' button. We'll then email you further instructions.</p>
+<div class="formItem">
+<label>Email address</label>
+<div class="input"><input class="validate validateForgotten" name="data.criteria.emailAddress" type="email" value=""/>
+<div class="validation">
+<div class="required">true</div>
+<div class="requiredMsg">Please enter your email address</div>
+<div class="syntax">email</div>
+<div class="syntaxMsg">Please enter a valid email address</div>
+</div></div>
+<div class="help"></div>
+</div>
+<div class="formItem">
+<label>Password</label>
+<div class="input"><input class="validate" maxlength="16" name="data.criteria.pinNumber" type="password" value=""/>
+<div class="validation">
+<div class="required">true</div>
+<div class="requiredMsg">Please enter your password</div>
+</div></div>
+<div class="help"></div>
+</div>
+<div class="navigationButtons">
+<input class="button forwardButtonLogin" id="loginButton" name="commandNavData(command%61locate.search%59navigation%61display)" onclick="navigate('display', null, 'locate', 'search'); return false;" onkeypress="navigate('display', null, 'locate', 'search'); return false;" type="submit" value="Log in"/>
+<br/>
+<br/>
+<br/>
+<br/>
+<input class="button secondaryButtonLogin" id="forgottenPassword" name="commandNavData(command%61locate.forgotPassword%59navigation%61display)" onclick="navigate('display', null, 'locate', 'forgotPassword'); return false;" onkeypress="navigate('display', null, 'locate', 'forgotPassword'); return false;" type="submit" value="Forgotten your password?"/>
+<a class="button secondaryButtonLogin" href="/MComm/site/smallBusiness/home">Get a new quote</a>
+</div>
+</div>
+</form>

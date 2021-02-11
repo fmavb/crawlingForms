@@ -1,0 +1,4 @@
+<form action="/search" id="searchAgainForm" method="GET" name="searchAgainForm">
+<input class="av-input" id="searchAgainField" name="query" placeholder="e.g. ‘How do I make a claim?’" type="text"/>
+<button id="searchAgainSubmit" name="submit" type="submit">Search</button>
+</form>

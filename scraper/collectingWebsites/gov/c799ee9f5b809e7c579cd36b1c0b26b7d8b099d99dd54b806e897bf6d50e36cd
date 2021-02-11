@@ -1,0 +1,6 @@
+<form action="/search/all">
+<label for="search-box">Search this manual</label>
+<input name="manual[]" type="hidden" value="/guidance/guide-for-newly-opened-academies-academy-trusts-and-free-schools"/>
+<input class="in-manual-search-box" id="search-box" name="q" type="text"/>
+<button type="submit">search</button>
+</form>

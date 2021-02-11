@@ -1,0 +1,37 @@
+<form id="formRegister" method="post" name="formRegister" novalidate="">
+<div class="ifholderhalffirst">
+<input data-ng-class="{ 'required' : (formRegister.firstName.$touched &amp;&amp; formRegister.firstName.$invalid) || (formRegister.firstName.$invalid &amp;&amp; isSubmit ),  '' : !formRegister.firstName.$invalid}" id="fname" name="firstName" ng-maxlength="58" ng-model="newUser.FirstName" ng-pattern="/^[a-zA-Z àáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð]+$/u" placeholder="{{(fieldsLable['First_Name'])['english']}}" required="" type="text"/>
+</div>
+<div class="ifholderhalffirst">
+<input data-ng-class="{ 'required' : formRegister.lastName.$touched &amp;&amp; formRegister.lastName.$invalid,  '' : !formRegister.lastName.$dirty &amp;&amp; !formRegister.lastName.$invalid}" id="lname" name="lastName" ng-maxlength="58" ng-model="newUser.LastName" ng-pattern="/^[a-zA-Z àáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð]+$/u" placeholder="{{(fieldsLable['Last_Name'])['english']}}" required="" type="text"/>
+</div>
+<div class="ifholderhalffirst halfwidth">
+<select data-ng-class="{ 'required' : formRegister.gender.$touched &amp;&amp; formRegister.gender.$invalid,  '' : !formRegister.gender.$dirty &amp;&amp; !formRegister.gender.$invalid}" id="gender" name="gender" ng-model="newUser.Gender__c" ng-options="option.abbr as option.genderName for option in Gender" required=""><option disabled="" selected="" value="">Gender</option></select>
+</div>
+<div class="ifholderhalffirst halfwidth">
+<select data-ng-class="{ 'required' : formRegister.shippingCountry.$touched &amp;&amp; formRegister.shippingCountry.$invalid,  '' : !formRegister.shippingCountry.$dirty &amp;&amp; !formRegister.shippingCountry.$invalid}" id="shippingCountry" name="shippingCountry" ng-model="newUser.Shipping_Country__c" ng-options="country.key as country.value for country in Countries | orderBy:'value'" required=""><option disabled="" selected="" value="">Country</option></select>
+</div>
+<div class="ifholderhalffirst halfwidth">
+<input autocomplete="off" class="calenderimg" data-ng-class="{ 'required' : formRegister.dob.$touched &amp;&amp; formRegister.dob.$invalid,  '' : !formRegister.dob.$dirty &amp;&amp; !formRegister.dob.$invalid}" id="dob" max="{{mixDate}}" maxlength="10" min="{{minDate}}" name="dob" ng-pattern="/^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](18|19|20)\d\d$/" onfocus="(this.type='date')" onkeypress="checkOnlyNumber(event)" placeholder="Date of birth" required="" type="text" value=""/>
+</div>
+<div class="ifholderhalffirst halfwidth">
+<input class="phoneimg" data-ng-class="{ 'required' : formRegister.Phone1.$touched &amp;&amp; formRegister.Phone1.$invalid,  '' : !formRegister.Phone1.$dirty &amp;&amp; !formRegister.Phone1.$invalid}" id="Phone1" name="Phone1" ng-maxlength="80" ng-model="newUser.Account.Phone1" ng-pattern="/^([0-9\(\)\/\+ \-]*)$/
+                                       " placeholder="{{(fieldsLable['Phone'])['english']}}" required="" type="text"/>
+</div>
+<div class="ifholderthirdfouth">
+<div class="emailId_container">
+<input autocomplete="off" class="envelope" data-ng-class="{ 'required' : formRegister.emailId.$touched &amp;&amp; formRegister.emailId.$invalid,  '' : !formRegister.emailId.$dirty &amp;&amp; !formRegister.emailId.$invalid}" id="emailId" name="emailId" ng-blur="validateEmail($event, 'Email')" ng-maxlength="255" ng-model="newUser.Email" ng-pattern="/^([a-zA-Z0-9_\+\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/" placeholder="Enter email" required="" type="email"/>
+</div>
+</div>
+<div class="ifholderhalf halfwidth" style="display:none">
+<select id="language" name="language" ng-init="newUser.language = 'en'" ng-model="newUser.language" ng-options="language.languageCode as language.Name for language in language"></select>
+<label for="language">Report Language</label>
+</div>
+<br/>
+<div class="custom-google-captcha">
+<a href="/kitactivation-login"><input type="button" value="{{languageTranslations.back_button}}"/></a>
+<input class="g-recaptcha" data-sitekey="6Lf9H5YUAAAAADhxIJ21viQ69wXJXh2SRMNHJfCE" ng-click="IsValidRegistrationInfo()" type="submit" value="{{languageTranslations.next_button}}"/>
+</div>
+<p class="logoutLink"><a id="loginButton" ng-click="logout()" ng-show="LoggedInUser.Id">Log out</a></p>
+<div class="createaccountlink" ng-show="!LoggedInUser.Id">{{languageTranslations.create_account_login_link}}<a href="/kitactivation-login?value=true" ng-bind="languageTranslations.kitactivationLoginButton_Text"></a></div>
+</form>

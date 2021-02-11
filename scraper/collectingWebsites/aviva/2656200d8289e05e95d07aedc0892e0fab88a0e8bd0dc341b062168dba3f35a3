@@ -1,0 +1,123 @@
+<form action="/myfuture/InvestmentCalculator" id="Option1Form" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="sOnSFkUHP5GGIoXIhcjg1Awt42LWngZYIXa1-djv40YR-2xSFzjmZb3xYOGE4tzMXUAStZ9fn2xbD9hw7X_XqItZbVY1"/><div class="l-columns l-columns--33-66-large">
+<div class="form-data l-columns__column t-accent-light--lightest-blue u-p--2">
+<fieldset>
+<div class="m-form-row m-form-row--full-width" id="StartingBalanceAmountError">
+<h2 class="a-heading--2">How much have you invested already?</h2>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="StartingBalanceAmount" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field How much have you invested already? must be a number." id="startingBalanceAmount" maxlength="7" name="StartingBalanceAmount" step="any" type="tel" value=""/>
+</div>
+</div>
+</fieldset><fieldset>
+<div class="m-form-row m-form-row--full-width" id="SinglePaymentAmountError">
+<h2 class="a-heading a-heading--2">
+            How much will you invest as a single payment?
+        </h2>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="SinglePaymentAmount" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field How much will you invest as a single payment? must be a number." id="singlePaymentAmount" maxlength="6" name="SinglePaymentAmount" step="any" type="tel" value=""/>
+</div>
+</div>
+</fieldset>
+<fieldset>
+<div class="m-form-row m-form-row--full-width" id="MonthlySavingsAmountError">
+<h2 class="a-heading a-heading--2" for="monthlySavingsAmount">
+            How much will you invest each month?
+        </h2>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="MonthlySavingsAmount" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field How much will you invest each month? must be a number." id="isaRegularPaymentInThisTaxYear" maxlength="5" name="MonthlySavingsAmount" step="any" type="tel" value=""/>
+</div>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width">
+<h2 class="a-heading a-heading--2 u-mt--0">How long are you planning to invest for?</h2>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="PlanningToSaveForInYears" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="PlanningToSaveForInMonths" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group m-textbox-group--visible-label">
+<li class="m-textbox-group__item" id="PlanningToSaveForInYearsError">
+<label class="a-label" for="planningToSaveForInYears">Years</label>
+<input autocomplete="off" class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field How long are you planning to invest for? must be a number." id="planningToSaveForInYears" max="50" maxlength="2" min="0" name="PlanningToSaveForInYears" step="any" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item" id="PlanningToSaveForInMonthsError">
+<label class="a-label" for="planningToSaveForInMonths">Months</label>
+<input autocomplete="off" class="a-textbox a-textbox--2-character" data-val="true" data-val-number="The field Planning To Save For In Months must be a number." id="planningToSaveForInMonths" max="11" maxlength="2" min="0" name="PlanningToSaveForInMonths" step="any" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</fieldset>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--10-all"/>
+<button class="a-button a-button--next a-button--primary u-mt--1 u-mb--2" data-qa-button="submitForm" id="calculateButtonForOption1" type="submit">Calculate</button>
+</div>
+<div class="l-columns__column u-p--2 u-pr--0" id="resultsContainerOne" style="display : none">
+<p class="a-heading a-heading--2">Based on the assumptions below your investment could be worth...<span id="amountYouCanSave">£0</span></p>
+<div id="chartContainer1"></div>
+<p>The value of an investment can go down as well as up so you could get back less than has been paid in.  The figures shown are not a reliable indicator of potential investment performance.</p>
+<p>This is an example only, based on the assumptions used, including a fixed growth rate over the full term.  It’s important to keep in mind that the final value of your investment could be markedly different, depending on the actual growth rates.  </p>
+<p class="a-heading a-heading--2 a-heading--semibold">These results are based on your:</p>
+<div class="l-columns l-columns--1-small l-columns--3-medium l-columns--3-large">
+<div class="l-columns__column m-card m-card--tertiary">
+<div class="m-card-content">
+<p class="a-heading a-heading--3 a-heading--semibold">
+<strong>Existing investments:</strong>
+<a class="tooltip" href="#existing-investments">(Help?)</a>
+</p>
+<p class="a-heading a-heading--3 a-heading--semibold">
+<strong id="startingBalanceAmountGraph">£0</strong>
+</p>
+<p class="a-heading a-heading--3 a-heading--semibold">
+<strong>New investments:</strong>
+</p>
+<p>
+<strong id="monthlySavingsAmountTotalGraph">£0</strong>
+</p>
+<p>Based on any single and/or regular payments you've selected</p>
+</div>
+</div>
+<div class="l-columns__column m-card m-card--tertiary">
+<div class="m-card-content">
+<p class="a-heading a-heading--3 a-heading--semibold">
+<strong>Investment growth</strong>
+</p>
+<p>
+<strong id="investmentGrowthGraph"></strong>
+</p>
+<div class="m-form-row__content">
+<label class="a-heading a-heading--3 a-heading--semibold" for="growthRateDropDown">Estimated growth:</label>
+<span class="a-dropdown">
+<select class="a-dropdown__select dropDownGrowth" id="growthRateDropDown" name="GrowthRate"><option value="Low">Low 1.5%</option>
+<option selected="selected" value="Medium">Medium 4.5%</option>
+<option value="High">High 7.5%</option>
+</select>
+<span class="a-dropdown__ui"></span>
+</span>
+</div>
+</div>
+</div>
+<div class="l-columns__column m-card m-card--tertiary">
+<div class="m-card-content">
+<p class="a-heading--3 a-heading--semibold">Charges</p>
+<p>Charges assumed in the calculator are 0.75&amp;percnt; a year.</p>
+<p>Charges are typically between 0.5&amp;percnt; and 1.85&amp;percnt; of the fund value a year depending on investments chosen and the amount invested in the Aviva online investment service.</p>
+</div>
+</div>
+</div>
+<div id="graphContentSection" style="display : none">
+<div>
+<h3>How is this estimated?</h3>
+<ul>
+<li>
+<p>To show you what you might get back. We've used three alternative annual growth rates:</p>
+<p><span>Low 1.5% </span><span class="tab">Medium 4.5% </span><span class="tab">High 7.5% </span></p>
+</li>
+<li>
+<p>Please remember that inflation will reduce the spending power of any money you get back.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<input name="InvestmentPlannerDriver" type="hidden" value="WhatCouldMySavingsBeWorth"/>
+</div>
+</form>

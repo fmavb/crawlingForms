@@ -1,0 +1,16 @@
+<form name="sendAsEmailForm">
+<input class="av-input ng-pristine ng-invalid ng-invalid-required ng-valid-email" id="sendQuestionEmail" name="email" ng-model="email" placeholder="Enter your email" required="" type="email"/>
+<div class="error emailisempty">
+<i class="icon-icon-important"></i>Email is required!
+                    </div>
+<div class="error invalidemail">
+<i class="icon-icon-important"></i>Not valid email!
+                    </div>
+<div class="error unexpectederror">
+<i class="icon-icon-important"></i>Something went wrong, please try again!
+                    </div>
+<div class="success">
+                        Email sent! Please allow a few minutes for the email to appear in your inbox.
+                    </div>
+<button class="buttonLink" id="sendAsEmailname" name="Submit" onclick="EmailAnswer(10204);" type="button">Send</button>
+</form>

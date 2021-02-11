@@ -1,0 +1,110 @@
+<form action="/contact-us/nhs-app-contact-us" method="post">
+<input id="Description" name="Description" type="hidden" value="Contact the NHS App team with questions and feedback about the NHS App"/>
+<input id="Url" name="Url" type="hidden" value="nhs-app-contact-us"/>
+<input id="Title" name="Title" type="hidden" value="Contact the NHS App team"/>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_1">
+<fieldset class="nhsuk-fieldset">
+<input id="FormFields_0__MultipleChoiceRadioField" name="FormFields[0].ModelTypeName" type="hidden" value="MultipleChoiceRadioField"/>
+<label class="nhsuk-label nhsuk-label--l" for="MultipleChoiceRadioField_1_input" id="MultipleChoiceRadioField_1_label">
+  Do you work for the NHS?
+</label>
+<span class="nhsuk-error-message" id="MultipleChoiceRadioField_1_error"><span class="nhsuk-u-visually-hidden">Error:</span></span>
+<div class="nhsuk-radios">
+<div class="nhsuk-radios__item" id="MultipleChoiceRadioField_1_1_item">
+<input aria-describedby="MultipleChoiceRadioField_1_1_hint" class="nhsuk-radios__input" id="MultipleChoiceRadioField_1_1_input" name="FormFields[0].Value" type="radio" value="Yes, I am a member of NHS staff"/>
+<label class="nhsuk-label nhsuk-radios__label" for="MultipleChoiceRadioField_1_1_input" id="MultipleChoiceRadioField_1_1_label">Yes, I am a member of NHS staff</label>
+</div>
+<div class="nhsuk-radios__item" id="MultipleChoiceRadioField_1_2_item">
+<input aria-describedby="MultipleChoiceRadioField_1_2_hint" class="nhsuk-radios__input" id="MultipleChoiceRadioField_1_2_input" name="FormFields[0].Value" type="radio" value="No, I am a member of the public"/>
+<label class="nhsuk-label nhsuk-radios__label" for="MultipleChoiceRadioField_1_2_input" id="MultipleChoiceRadioField_1_2_label">No, I am a member of the public</label>
+</div>
+</div>
+</fieldset>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_2">
+<fieldset class="nhsuk-fieldset">
+<input id="FormFields_1__MultipleChoiceRadioField" name="FormFields[1].ModelTypeName" type="hidden" value="MultipleChoiceRadioField"/>
+<label class="nhsuk-label nhsuk-label--l" for="MultipleChoiceRadioField_2_input" id="MultipleChoiceRadioField_2_label">
+  What are you contacting us about?
+</label>
+<span class="nhsuk-error-message" id="MultipleChoiceRadioField_2_error"><span class="nhsuk-u-visually-hidden">Error:</span></span>
+<div class="nhsuk-radios">
+<div class="nhsuk-radios__item" id="MultipleChoiceRadioField_2_1_item">
+<input aria-describedby="MultipleChoiceRadioField_2_1_hint" class="nhsuk-radios__input" id="MultipleChoiceRadioField_2_1_input" name="FormFields[1].Value" type="radio" value="a problem with the app"/>
+<label class="nhsuk-label nhsuk-radios__label" for="MultipleChoiceRadioField_2_1_input" id="MultipleChoiceRadioField_2_1_label">a problem with the app</label>
+<label class="nhsuk-label nhsuk-radios__label nhsuk-hint nhsuk-radios__hint" id="MultipleChoiceRadioField_2_1_hint">e.g. I cannot log in</label>
+</div>
+<div class="nhsuk-radios__item" id="MultipleChoiceRadioField_2_2_item">
+<input aria-describedby="MultipleChoiceRadioField_2_2_hint" class="nhsuk-radios__input" id="MultipleChoiceRadioField_2_2_input" name="FormFields[1].Value" type="radio" value="a way to improve the app"/>
+<label class="nhsuk-label nhsuk-radios__label" for="MultipleChoiceRadioField_2_2_input" id="MultipleChoiceRadioField_2_2_label">a way to improve the app</label>
+<label class="nhsuk-label nhsuk-radios__label nhsuk-hint nhsuk-radios__hint" id="MultipleChoiceRadioField_2_2_hint">e.g. I would like to talk to a doctor through the app</label>
+</div>
+<div class="nhsuk-radios__item" id="MultipleChoiceRadioField_2_3_item">
+<input aria-describedby="MultipleChoiceRadioField_2_3_hint" class="nhsuk-radios__input" id="MultipleChoiceRadioField_2_3_input" name="FormFields[1].Value" type="radio" value="something else"/>
+<label class="nhsuk-label nhsuk-radios__label" for="MultipleChoiceRadioField_2_3_input" id="MultipleChoiceRadioField_2_3_label">something else</label>
+<label class="nhsuk-label nhsuk-radios__label nhsuk-hint nhsuk-radios__hint" id="MultipleChoiceRadioField_2_3_hint">e.g. I have a query about how my data is used</label>
+</div>
+</div>
+</fieldset>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_3">
+<input id="FormFields_2__MultilineTextField" name="FormFields[2].ModelTypeName" type="hidden" value="MultilineTextField"/>
+<label class="nhsuk-label nhsuk-label--l" for="MultilineTextField_3_input" id="MultilineTextField_3_label">
+  Your message for us
+</label>
+<span class="nhsuk-hint" id="MultilineTextField_3_hint">
+<p>Do not include confidential or medical information in your message. For example, your NHS number, date of birth, medical diagnosis or medical history. We will aim to respond within 1 working day.</p>
+</span>
+<textarea aria-describedby="MultilineTextField_3_hint" class="nhsuk-textarea" id="MultilineTextField_3_input" name="FormFields[2].Value" rows="5"></textarea>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_4">
+<input id="FormFields_3__SingleLineTextField" name="FormFields[3].ModelTypeName" type="hidden" value="SingleLineTextField"/>
+<label class="nhsuk-label nhsuk-label--l" for="SingleLineTextField_4_input" id="SingleLineTextField_4_label">
+  Full name (optional)
+</label>
+<span class="nhsuk-hint" id="SingleLineTextField_4_hint">
+<p>We will use the name you provide in any replies to your message. We will not use your name for any other purpose.</p>
+</span>
+<input aria-describedby="SingleLineTextField_4_hint" class="nhsuk-input" id="SingleLineTextField_4_input" name="FormFields[3].Value" type="text"/>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_5">
+<input id="FormFields_4__EmailField" name="FormFields[4].ModelTypeName" type="hidden" value="EmailField"/>
+<label class="nhsuk-label nhsuk-label--l" for="EmailField_5_input" id="EmailField_5_label">
+  Email address
+</label>
+<span class="nhsuk-hint" id="EmailField_5_hint">
+<p>We will use your email address to resolve the issue you are contacting us about and reply to you. We may invite you to complete a voluntary short satisfaction survey. We will not use your email address for any other purpose.</p>
+</span>
+<input aria-describedby="EmailField_5_hint" class="nhsuk-input" id="EmailField_5_input" name="FormFields[4].Value" type="text"/>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_6">
+<input id="FormFields_5__SingleLineTextField" name="FormFields[5].ModelTypeName" type="hidden" value="SingleLineTextField"/>
+<label class="nhsuk-label nhsuk-label--l" for="SingleLineTextField_6_input" id="SingleLineTextField_6_label">
+  GP surgery address (optional)
+</label>
+<span class="nhsuk-hint" id="SingleLineTextField_6_hint">
+    We may need to check the GP surgery we have on record for you and we may contact your GP surgery to help us resolve the issue you are contacting us about. We will not use the GP surgery address you enter for any other purpose.
+  </span>
+<input aria-describedby="SingleLineTextField_6_hint" class="nhsuk-input" id="SingleLineTextField_6_input" name="FormFields[5].Value" type="text"/>
+</div>
+<div class="nhsuk-form-group nhsuk-u-margin-bottom-8" id="question_7">
+<fieldset class="nhsuk-fieldset">
+<input id="FormFields_6__CheckboxField" name="FormFields[6].ModelTypeName" type="hidden" value="CheckboxField"/>
+<label class="nhsuk-label nhsuk-label--l" for="CheckboxField_7_input" id="CheckboxField_7_label">
+  Privacy policy agreement
+</label>
+<span class="nhsuk-hint" id="CheckboxField_7_hint">
+<p>You must confirm you have read and understood our <a href="https://www.nhs.uk/using-the-nhs/nhs-services/the-nhs-app/privacy-policy/" target="_blank">privacy policy</a> before sending.</p>
+</span>
+<div class="nhsuk-checkboxes">
+<div class="nhsuk-checkboxes__item">
+<input aria-describedby="CheckboxField_7_hint" class="nhsuk-checkboxes__input" id="CheckboxField_7_input" name="FormFields[6].Value" type="checkbox"/>
+<label class="nhsuk-label nhsuk-checkboxes__label" for="CheckboxField_7_input" id="CheckboxField_7_label">
+      I have read and understood the privacy policy
+    </label>
+</div>
+</div>
+</fieldset>
+</div>
+<button class="nhsuk-button" id="submit-button" type="submit">Send message</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AIAQ8V5OB1Eq1PZK_ZhWL4yKTsNCnAwAGpC3ukznwJOAqOjeXG-mj3jCSSzQrfyk6nWkfEvhwRT2GoeOrC7SNv4BHDOmg75A95zfZzfUgW3g6i3eyJ0lebEi7fdUzPR9H4TOURL68TqXesOU8ghGzk"/></form>

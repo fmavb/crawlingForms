@@ -1,0 +1,60 @@
+<form action="/services/hospital/st-hughs-hospital/X332/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;To Old for Treatment if you are older than 75years of age.&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;This is the story of a close relative.  
+My relative is now 81 yeas of age. For several years he has suffered with back pain, He had an accident several years ago when he fell through a roof at work and was hospitalised for 6 weeks as he had fractured his spine, it was some 2 years before he made an almost full recovery. Now much older, and probably around aged 70 the back pain returned and this has got much worse.  
+He has been variously prescribed sprays for the pain, in in the last year or two, patches, but this has done little to relieve the pain. He now has to climb the stairs at his home to go to the bathroom, on all fours, and return down the stairs in the same way. This has gone on for several years, with little or no help from his GP.  
+His pain and general well being has deteriorated further, and at 80 years of age was eventually referred to an orthopaedic consultant with a view to a referral for pain assessment and treatment. Now 81, and with great difficulty walking, he was first told, that there was no funding for any treatment for him, and latterly, told he was to old for treatment:, he could have had n operation some years before, but there was little point operating at his age. There was no offer of any steroid injections into his lower spine, the consultant reiterated again that he was now to old, had he been referred much sooner he could have had an operation to relieve the pain.  
+This is not an uncommon story. I have heard from many people over the age of 70, that treatment has been denied or not even acknowledged, and I include myself in this. I too have lower back pain and have collapsed discs, I was offered an operation and put on the waiting list (i was 75), the consultant in question left, and another consultant was appointed who decided for me, that an operation was not a consideration, that they believed in a holistic approach, and advised pilates. Because of the deterioration of my spine, neck and shoulders, this type of exercise was not physically possible for me.  
+I have spoken to many people of 70+ years, who are not being given the help they are entitled to, in fact I believe that age discrimination is rife in the health service, and only applies to medical emergencies admitted to a hospital ward. My relative, myself, and many others of my generation worked and paid into a system with National Insurance, which in part supports the NHS, but we are being refused treat meant. My GP refuses to refer me, making various excuses and spurious diagnosis for complaints, but technically declining to refer me to a consultant or treatment such as CT or MRI scans,.  
+I wonder how many older patients suffer with pain and disabilities simply because they are older. and their GP states that there is no funding for them if they need treatment. What an indictment on society, just because as today's older generation we a living longer, we must suffer, I call this age discrimination of the worst kind. I wonder how many people are put in danger because they are not referred nor receive any help from NHS.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-12-12T16:40:02Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;9&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;St Hugh's Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;05677205-fe1c-ea11-a811-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X332&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHTn0V6Jrv73Tcrk8xQ64Ku2hvfL1hx5cNllt5XQpLG5nXu11JNZ7PwB8l08mzbITToognpGSEUic9WbSfMX9AIrcecp27rvxt4Cfm2gt4DONz_oJizzZjFyx45IuXMuf8"/></form>

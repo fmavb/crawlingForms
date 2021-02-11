@@ -1,0 +1,76 @@
+<form action="/services/independent-provider/inhealth-group-limited/X183/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Astoundingly stressful and inefficient&lt;/Title&gt;
+    &lt;ScreenName&gt;Annie Laura&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Fri 26 Jul	
+I saw a GP and he recommended an MRI scan, via In-Health (who have a scanner nearby, in Stratford). I collected the form from Reception immediately. Over the weekend I decided that it might be quicker to consider paying privately if there was any significant delay. (The pain is debilitating and impeding my role as a carer for my husband.)
+
+Mon 29 Jul	
+I had two texts from In-Health in inviting me arrange an appointment. I went in online that afternoon to do this (as directed) The only appointments on offer were:
+9th Aug at Waterloo; 10th Aug at Hornchurch; 11th Aug at Golders Green; 
+(nothing near me at Stratford or Barking).  I logged off without accepting any of these and rang the local private facility  to find out about availability.  It was clearly going to be quicker to go private.
+
+Tue 30 July.  
+I obviously needed a new (open) referral. I visited my GP practice in person early in the morning. They set up a telephone consultation to a doctor.  She phoned me back very quickly and agreed to do a new referral.  I went over again to collect it that same morning. From there I went straight to the private hospital and set up an appointment for Fri 2 Aug first thing.
+
+When I returned home I phoned In-Health to cancel the referral.  They confirmed the cancellation and thanked me for contacting them.
+
+Despite this I received four more texts from them, inviting me to make an appointment. I assumed these would stop overnight when their system caught up.
+
+Thu 1 Aug
+Yet another text from In-Health (11.06) reminding me to make the appointment. In the afternoon I phoned them a second time. They apologised  profusely and said that my GP had sent TWO referrals (both for the same scan – I checked) But they would now cancel what they called ‘the second one’.
+
+I later received yet another text reminder to make an appointment that evening.  But once again I assumed that their system would catch up overnight.
+
+Fri 2 Aug
+Having had the MRI in the morning I came home and at 13:44 a ninth text message arrived from In-Health about making an appointment. 
+I completely lost my temper at this point. I phoned them and threatened a personal visit to Rochdale if they did not stop these texts immediately. By this point I was indeed rude, partly anger and partly physical pain.  They said no more would arrive.  (Instead they have said they will not accept any more referrals for me for anything) .  This is an appalling service.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-08-06T10:38:55.793Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;8&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;InHealth Group Limited&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;fa7a0150-18e9-e911-a812-000d3a7ed30d&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X183&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamG5QNaRFfyaQX4VCSwHHA2C3vPPNxJNmcUVWX3MFbdWXLN9nrHrBfrYNa30ucknqebXacVdMtZE-aXzdT3Ia47kZ-tlYzpQdNHBOIaPuRnBuDmcbuzNBua7I1Qe5ZBMVRA"/></form>

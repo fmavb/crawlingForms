@@ -1,0 +1,17 @@
+<form action="" class="bg-white" name="search">
+<label class="color-black">Location:</label>
+<div class="search-input search-location">
+<button class="bg-cyan" data-analytics-category="Search">
+<i class="i-search-q-cyan"></i>
+</button>
+<span class="mod-suggest suggest-location geolocation-available">
+<input id="lat" name="lat" type="hidden" value="51.5178879"/>
+<input id="lng" name="lng" type="hidden" value="-0.12327"/>
+<input autocomplete="off" class="suggest-query placeholder" id="Search" name="Search" placeholder="Start typing the name of a town, city or postcode" type="text" value=""/>
+</span>
+</div>
+<div class="search-radio cf" style="display:none;">
+<label class="checked"><span class="radio-icon checked" data-placeholder-text="Enter a location or post code"></span><input checked="checked" name="searchBy" type="radio" value="loc"/>Closest to</label>
+<label><span class="radio-icon unchecked" data-placeholder-text="eg Guildford Bupa Centre"></span><input name="searchBy" type="radio" value="practice"/>Centre name</label>
+</div>
+</form>

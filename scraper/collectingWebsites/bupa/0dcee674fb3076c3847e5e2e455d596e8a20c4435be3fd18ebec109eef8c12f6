@@ -1,0 +1,10 @@
+<form accept-charset="UTF-8" action="/teachers" id="ys-search-block-form--2" method="get">
+<div class="form-item js-form-item form-type-search js-form-type-search form-item-name js-form-item-name form-no-label form-group">
+<label class="control-label sr-only js-form-required form-required" for="edit-name">Find a Yoga Teacher</label>
+<div class="input-group"><input aria-describedby="edit-name--description" aria-required="true" class="form-search required form-control" data-drupal-selector="edit-name" id="edit-name" maxlength="128" name="name" placeholder="Find a Yoga Teacher" required="required" size="20" title="Enter a first name or surname" type="search" value=""/><span class="input-group-btn"><button class="button js-form-submit form-submit btn-primary btn icon-only" name="" type="submit" value="Search"><span class="sr-only">Search</span><span aria-hidden="true" class="icon glyphicon glyphicon-search"></span></button></span></div>
+<div class="description help-block" id="edit-name--description">
+      Enter a first name or surname
+    </div>
+</div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions--2"></div>
+</form>

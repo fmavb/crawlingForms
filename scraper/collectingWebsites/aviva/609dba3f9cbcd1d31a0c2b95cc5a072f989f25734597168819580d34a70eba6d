@@ -1,0 +1,71 @@
+<form action="./saveandretrieveloginpage.aspx" autocomplete="off" id="aspnetForm" method="post" name="aspnetForm">
+<input id="__CUSTOMDVIEWSTATE" name="__CUSTOMDVIEWSTATE" type="hidden" value="H4sIAAAAAAAEAPvPyC/ByCoXH++cn1dSlJ9THJRaWJpZlBqQX1zilJic7Z1aGR8vxsgq6ptYXJJapOKbmJmnkpybElyalJtZws/KpWtubmhhYGJsaMyfIsaUBiRYmARATCZ2MJsRzGaEizAxMfPzizHJsYfk5+eEZBakpqQARSBqwOJhmcWZSTmpGUBxMaCAPGN6CgDKZLoipQAAAA=="/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value=""/>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="/wEdAASvVXD1oYELeveMr0vHCmYP8LVS2l1KM6AXXUmu9IgAO1y8gTYnpP0bWggafVPiD9SHjtq9QrI4qAyBxK06LghUxhc+j6Vrjz1XhYR9iK5nmD7yKxc="/>
+<div id="Master_Main_LoginTopBG">
+<div id="Master_Main_LoginBottomBG">
+<p> If you have already saved a quote on a previous visit, please enter the email address and password that you used at that time to access your details </p>
+<div style="padding: 15px 0px 15px 0px;">
+</div>
+<div id="Master_Main_divEmailAddress">
+<div class="labelbox">
+<label for="user">
+                                Your email address
+                            </label>
+</div>
+<input id="Master_Main_userID" maxlength="64" name="Master$Main$userID" type="text"/>
+<div class="errorHolder emailerrorholder">
+<span id="Master_Main_emailValid"><font color="Red"></font></span>
+</div>
+</div>
+<div style="padding: 20px 0px 20px 0px;">
+</div>
+<div id="Master_Main_divPassword">
+<div class="labelbox">
+<label for="pass">
+                                Your password
+                            </label>
+</div>
+<input id="Master_Main_password" maxlength="15" name="Master$Main$password" type="password"/>
+<div class="errorHolder">
+<span id="Master_Main_pswdValid"><font color="Red"></font></span>
+</div>
+</div>
+<br/>
+<br/>
+<!-- Forgot Password : Mail service Implementation -->
+<!-- Forgot Password : Mail service Implementation -->
+<div style="padding: 30px 0px 30px 0px;">
+</div>
+                        Your Password should be something unique to you and:
+                        <div id="Master_Main_divLoginPassword">
+<div class="rowclear15">
+</div>
+<div id="Master_Main_btntick1">
+<div>
+<img alt="Tick" class="btn-fi_tick" id="Master_Main_Image2" src="../images/transparent-image.gif"/>
+                                    At least 6 characters
+                                </div>
+</div>
+<div class="rowclear5">
+</div>
+<div id="Master_Main_btntick2">
+<div>
+<img alt="Tick" class="btn-fi_tick" id="Master_Main_Image1" src="../images/transparent-image.gif"/>
+                                    A Combination of letters, numbers
+                                </div>
+</div>
+</div>
+<!-- Forgot Password : Mail service Implementation -->
+<div>
+</div>
+<!-- Forgot Password : Mail service Implementation -->
+</div>
+</div>
+<div>
+<span style="float: left; margin-left: 5px"> </span>
+<span style="float: right; margin-left: 5px">
+<input alt="Button. Enter Your Login details" border="0" class="btn-enterYel" id="Master_Main_cmdSubmit" name="Master$Main$cmdSubmit" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("Master$Main$cmdSubmit", "", true, "", "", false, false))' src="../images/transparent-image.gif" title="Button. Enter Your Login details" type="image"/>
+</span>
+</div>
+</form>

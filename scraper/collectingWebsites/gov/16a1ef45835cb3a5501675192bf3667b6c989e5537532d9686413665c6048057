@@ -1,0 +1,63 @@
+<form accept-charset="UTF-8" action="/vehicles-can-drive/y" method="get">
+<input id="response" name="response" type="hidden" value=""/>
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+<span class="govuk-caption-l">Vehicles you can drive</span>
+<h1 class="gem-c-radio__heading-text govuk-fieldset__heading">1. What kind of vehicle do you want to drive?</h1>
+</legend>
+<div class="govuk-body">
+<div class="gem-c-govspeak govuk-govspeak" data-module="govspeak">
+<p>Choose the kind of vehicle you want to drive from the list. If you know the <a href="/driving-licence-categories">vehicle category</a> these are also shown.</p>
+</div>
+</div>
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-0" name="response" type="radio" value="car-category-b"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-0">Car (category B)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-1" name="response" type="radio" value="motorbike-categories-a1-a2-and-a"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-1">Motorbike (categories A1, A2 and A)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-2" name="response" type="radio" value="moped-category-p-or-am"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-2">Moped (category P or AM)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-3" name="response" type="radio" value="medium-sized-vehicles-category-c1"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-3">Medium-sized vehicles (category C1)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-4" name="response" type="radio" value="large-vehicles-and-lorries-category-c"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-4">Large vehicles and lorries (category C)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-5" name="response" type="radio" value="minibus-category-d1"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-5">Minibus (category D1)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-6" name="response" type="radio" value="bus-category-d"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-6">Bus (category D)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-7" name="response" type="radio" value="agricultural-tractor-category-f"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-7">Agricultural tractor (category F)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-8" name="response" type="radio" value="other-specialist-vehicles-categories-g-h-and-k"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-8">Other specialist vehicles (categories G, H and K)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-9" name="response" type="radio" value="quad-bikes-category-b1"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-9">Quad bikes (category B1)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-4048b79c-10" name="response" type="radio" value="motor-tricycle-categories-a-and-a1"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-4048b79c-10">Motor tricycle (categories A and A1)</label>
+</div>
+</div>
+</fieldset>
+</div>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Next step</button>
+</form>

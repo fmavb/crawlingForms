@@ -1,0 +1,46 @@
+<form action="/quote/Direct/Motor/SoleTrader/Quote/retrieveQuote" method="post" name="frm"> <h1 class="a-heading a-heading--1">Retrieve quote</h1>
+<h2 class="a-heading a-heading--2 a-heading--semibold">Please enter the following details to access your saved quote.</h2>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="QuoteReferenceNumber"><label for="QuoteVerification_QuoteReferenceNumber">Quote reference number</label></label>
+<div class="helpText"><p>Your quote reference number can be found on your quote confirmation email and is made up of letters ‘QTE’ and 9 numbers.</p></div>
+<div class="m-form-row__content">
+<input class="a-textbox toAllCaps" id="QuoteVerification_QuoteReferenceNumber" maxlength="12" name="QuoteVerification.QuoteReferenceNumber" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="FirstName"><label for="QuoteVerification_FirstName">First name</label></label>
+<div class="helpText"><p>Please enter your first name as you did on your original quote.</p></div>
+<div class="m-form-row__content">
+<input class="a-textbox" id="QuoteVerification_FirstName" name="QuoteVerification.FirstName" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="Surname"><label for="QuoteVerification_Surname">Last name</label></label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="QuoteVerification_Surname" name="QuoteVerification.Surname" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="PostCode"><label for="QuoteVerification_PostCode">Postcode</label></label>
+<div class="helpText"><p>The postcode must match the one used for your original quote.</p></div>
+<div class="m-form-row__content">
+<input class="a-textbox" id="QuoteVerification_PostCode" maxlength="8" name="QuoteVerification.PostCode" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--light">
+<label class="a-label" for="DateOfBirthDay"><label for="QuoteVerification_DateOfBirth">Date of birth</label></label>
+<div class="m-form-row__content m-form-dob group">
+<input class="a-textbox a-textbox--2-character" id="QuoteVerification_DateOfBirthDay" maxlength="2" name="QuoteVerification.DateOfBirthDay" pattern="[0-9]*" placeholder="DD" type="tel" value=""/>
+<input class="a-textbox a-textbox--2-character" id="QuoteVerification_DateOfBirthMonth" maxlength="2" name="QuoteVerification.DateOfBirthMonth" pattern="[0-9]*" placeholder="MM" type="tel" value=""/>
+<input class="a-textbox a-textbox--4-character" id="QuoteVerification_DateOfBirthYear" maxlength="4" name="QuoteVerification.DateOfBirthYear" pattern="(?:[0-9]{2}){1,2}" placeholder="YYYY" type="tel" value=""/>
+</div>
+</div>
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<span class="a-button a-button--input a-button--primary">
+<input class="a-button a-button__inner" id="nextButton" name="nextButton" type="submit" value="Retrieve Quote"/>
+</span>
+</li>
+</ul>
+<p class="right"> Don't know your details? <a href="/quote/Direct/Motor/SoleTrader">Start a new quote here</a></p>
+</form>

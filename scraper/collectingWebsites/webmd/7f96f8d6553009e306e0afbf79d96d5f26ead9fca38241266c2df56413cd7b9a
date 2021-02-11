@@ -1,0 +1,31 @@
+<form class="content">
+<section class="section clearfix">
+<div class="header">
+<h2>Is Low Testosterone Affecting Your Life?</h2>
+</div>
+<div class="body clearfix">
+<!-- Start screen content, you can put your own code here if you need to. -->
+<!-- CHANGE -->
+<!--p>Descriptive text</p-->
+<!-- Make sure your button or whatever is used to start the assessment has the "next" class on it so that the functionality can be bound to it. -->
+<a class="webmd-btn webmd-btn-pr webmd-btn-m next" href="#">Get Started</a>
+<h3>Answer a few questions, and you'll get:</h3>
+<ul>
+<li class="check two-line">Personalized report addressing your symptoms</li>
+<li class="clipboard two-line">Information about treatments for low testosterone</li>
+<li class="download two-line">Tips from WebMD experts to help you deal with symptoms</li>
+</ul>
+<!-- If there is no start screen... -->
+<!--div class="loading_large">Loading ...</div-->
+<!-- /CHANGE -->
+</div>
+</section>
+<div class="npnav">
+<a class="prev" href="#" id="hc-prevbtn"><span>Back</span></a>
+<a class="next loading" href="#" id="hc-nextbtn"><span>Continue</span><i class="spinner"></i></a>
+</div>
+<div class="progress">
+<!-- Progress bar -->
+<div class="progress-fill"></div>
+</div>
+</form>

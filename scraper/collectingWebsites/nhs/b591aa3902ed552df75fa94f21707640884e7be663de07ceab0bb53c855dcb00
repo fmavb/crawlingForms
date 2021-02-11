@@ -1,0 +1,67 @@
+<form action="/services/hospital/the-royal-london-hospital-for-integrated-medicine/X1820/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Neuroscience surgery short stay unit review&lt;/Title&gt;
+    &lt;ScreenName&gt;Jamie&lt;/ScreenName&gt;
+    &lt;CommentText&gt;The NSSU ward next to ward 15.
+I was in for lumbar decompression surgery from the 11th-15th of September 2020.
+During the operation the surgeons found that they had to carry out a more complicated procedure than originally planned to completely decompress the affected nerve. The extra attention hopefully means a better outcome (still only 7 days post op so early days!). This shows how skilled and knowledgeable the surgeons are that they found something unexpected and addressed it without issue. The surgeons have given me an even better chance to recover from the back trouble which has affected me for the last ten years! 
+
+The care received from the nursing staff was also of the highest standard imaginable. 
+I'd said this to several people during my stay that it was more like a stay at a health spa than a hospital. At times I felt embarrassed at how pampered I'd felt during my stay.
+Everyone was polite, helpful and patient. Nothing was a problem and despite being very busy the staff were able to find time to answer questions I had and talk about details of the operation and alleviate any worries and concerns I had.
+I was concerned about going in to hospital because of a previous stay at another hospital which turned out to be a horrendous experience  - this was when my back first went 10 years ago.  Medication was delayed and sometimes not given at all. When I complained to the ward sister I was told that 'her staff didn't have time to chase after the patients'.
+
+The motivation of the staff and overall standard of care couldn't have been any more different here. I really hope I don't have to go back into hospital again, but if I do then I'll want to be back under the care of the people who looked after me here.
+Thank you for your help everyone on the NSSU ward at the RVI,
+Regards 
+Jamie Glover 
+&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-09-18T14:17:43Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;9&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;The Royal London Hospital For Integrated Medicine&lt;/OrganisationName&gt;
+    &lt;Department&gt;Neurology&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;52927fb1-b9f9-ea11-a815-0022483ee631&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1820&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFKNL3q4NktoSJtVmOAW0Y8VuWtpmtI38zxNYJokKQEkH3afCeZAvFqFtMEz_EoVVgWQXMO4J8UJuZHy8OZRxMPxFqKRXAeDucPumSgHQ7HbFWEY8v_JAQNfAQEA0Wj85E"/></form>

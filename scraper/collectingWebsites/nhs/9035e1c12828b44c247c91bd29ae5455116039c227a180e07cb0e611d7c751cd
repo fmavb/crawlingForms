@@ -1,0 +1,59 @@
+<form action="/services/independent-provider/mediscan-diagnostics-services-limited/X90853/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;An unsatisfactory experience&lt;/Title&gt;
+    &lt;ScreenName&gt;User WS1&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I was initially impressed by the telephone booking system, and arrived as requested at a health centre at the allocated time. However, I then discovered that not only had the Mediscan staff not arrived, but they were not due to do for another 40 minutes. This was far from convenient, since I had been told to arrive with a full bladder.
+Having another appointment I left, and at 2.10 I was informed by telephone that I could be seen at 2.30. At 72, with no car, I covered a distance of a mile in 17 minutes. 
+Sitting next to me in the waiting room was a lady who, like me, had fasted for a number of hours and been told to arrive with a full bladder. She was diabetic. I was called for my scan at 2.45: the time at which her appointment was due. Thus she was forced to interrupt my scan  - which was in a tiny and cramped consulting room - in considerable distress after a few minutes. My bladder apparently scanned, I was instructed to leave and empty it while the lady’s scan was carried out. It thus turned out that she had been wrongly informed. The scan was to her shoulder, no need for fasting or full bladder. She was so distressed that other attendees had to comfort her.  
+Called back for the resumption of my scan, I noted that English was not the first language of either the scan technician or the recorder. Nor did they have a first language in common. The recorder continually queried the spelling of certain words and the recording of measurements. This was not reassuring. 
+At no time was my scan discussed with me, not was such an offer made. I was merely given a paper towel to wipe away the gel, and told that I could leave.
+&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-10-16T07:09:46Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;10&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Mediscan Diagnostics Services Limited&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;6abc22ea-e3ef-e911-a812-000d3a7ed518&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X90853&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFLo4HTREijz_ZMYy9lkLVAuGrVgm18WqpjWn3G_26EjBXP3K3sPFals6tJRpzZbjGzI4yvVbGBQ2Xh-GEVYDw0eBkkAQn03zYE5u5Cvp1U_qHiJUy-lhT7H1cUArl7_AE"/></form>

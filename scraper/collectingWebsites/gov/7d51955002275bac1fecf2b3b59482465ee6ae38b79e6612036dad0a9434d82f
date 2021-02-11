@@ -1,0 +1,39 @@
+<form accept-charset="UTF-8" action="/email-signup/confirm" data-module="track-email-alert-signup-choices" data-track-action="new_topic" data-track-category="email_subscriptions" method="get">
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-0" name="topic" type="radio" value="/transport/personal-driving-licence-information"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-0">Personal driving licence information</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-1" name="topic" type="radio" value="/transport/driving-licence-categories"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-1">Driving licence categories</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-2" name="topic" type="radio" value="/transport/foreign-driving-licences"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-2">Foreign driving licences</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-3" name="topic" type="radio" value="/transport/driving-abroad"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-3">Driving abroad</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-4" name="topic" type="radio" value="/transport/driving-licences-and-medical-conditions"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-4">Driving licences and medical conditions</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-5" name="topic" type="radio" value="/transport/driving-licence-applications-and-renewals"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-5">Driving licence applications and renewals</label>
+</div>
+<div class="govuk-radios__divider">or</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-7" name="topic" type="radio" value="/transport/driving-licences"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-7">Driving licences (all topics)</label>
+</div>
+</div>
+</fieldset>
+</div>
+<input id="link" name="link" type="hidden" value="/transport/driving-licences"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

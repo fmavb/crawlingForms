@@ -1,0 +1,5 @@
+<form action="/myfuture/Product/ApplyTransfer" data-command="key-points" id="frmTransfer" istransfer="True" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="3U3aq-j_X8LmZ0nt6HAMqLYR-OqT7WIruVfNGCuf0cbT_B8Iuk9vKf5CYkK5FygTeBZa_Cg7K_DrmCdnIpNaCXEbiEE1"/><select data-bind="options: TransferProductList, optionsText: 'Text', optionsValue: 'Value' " data-qa-dropdown="transferInvestmentType" id="SelectedProduct" name="SelectedProduct"><option value="Isa">Aviva ISA</option>
+<option value="Pension">Aviva Pension</option>
+<option value="Drawdown">Aviva Pension - Income Drawdown</option>
+</select> <button class="button yellow ApplyTransferButton topGap ladda-button block qa-button-trahsfer-product" data-bind="text: (count() &gt; 1)? 'Transfer with these funds' : 'Transfer with this fund' " data-qa-button="submitForm" id="btnTransferProduct" name="Transfer" onclick="TransferClick();" type="submit">Transfer</button>
+<input id="SedolCode" name="SedolCode" type="hidden" value=""/><input id="IsTransfer" name="IsTransfer" type="hidden" value="True"/></form>

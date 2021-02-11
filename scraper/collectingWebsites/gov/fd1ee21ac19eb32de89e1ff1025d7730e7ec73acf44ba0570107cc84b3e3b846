@@ -1,0 +1,988 @@
+<form action="/maib-reports" class="js-live-search-form" method="get">
+<input name="parent" type="hidden" value=""/>
+<div class="govuk-width-container">
+<div class="gem-c-contextual-breadcrumbs">
+<div class="gem-c-breadcrumbs govuk-breadcrumbs govuk-breadcrumbs--collapse-on-mobile" data-module="track-click">
+<ol class="govuk-breadcrumbs__list">
+<li class="govuk-breadcrumbs__list-item">
+<a class="govuk-breadcrumbs__link" data-track-action="homeBreadcrumb" data-track-category="homeLinkClicked" data-track-label="" data-track-options="{}" href="/">Home</a>
+</li>
+</ol>
+</div>
+</div>
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-two-thirds">
+<div class="gem-c-title govuk-!-margin-top-8 govuk-!-margin-bottom-8">
+<h1 class="gem-c-title__text">
+    Marine Accident Investigation Branch reports
+  </h1>
+</div>
+<div class="gem-c-metadata" data-module="gem-toggle">
+<dl data-module="track-click">
+<dt class="gem-c-metadata__term">From:</dt>
+<dd class="gem-c-metadata__definition">
+<a href="https://www.gov.uk/government/organisations/marine-accident-investigation-branch">Marine Accident Investigation Branch</a>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div class="govuk-width-container">
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-one-third">
+<div class="filter-form">
+<div aria-label="Marine Accident Investigation Branch reports" id="keywords" role="search">
+<div class="gem-c-search gem-c-search--on-white gem-c-search--separate-label" data-module="gem-toggle-input-class-on-focus">
+<label class="gem-c-search__label" for="finder-keyword-search">
+            Search <span class="govuk-visually-hidden">Marine Accident Investigation Branch reports</span>
+</label>
+<div class="gem-c-search__item-wrapper">
+<input aria-controls="js-search-results-info" class="gem-c-search__item gem-c-search__input js-class-toggle" id="finder-keyword-search" name="keywords" title="Search" type="search" value=""/>
+<div class="gem-c-search__item gem-c-search__submit-wrapper">
+<button class="gem-c-search__submit" type="submit">Search</button>
+</div>
+</div>
+</div>
+</div>
+<button class="app-c-button-as-link app-mobile-filters-link js-show-mobile-filters" data-module="track-click" data-target="facet-wrapper" data-toggle="mobile-filters-modal" data-track-action="mobile-filter-button" data-track-category="filterClicked" data-track-label="">
+        Filter <span class="govuk-visually-hidden"> results</span>
+<span class="js-selected-filter-count">(1)<span class="govuk-visually-hidden"> filters currently selected</span></span>
+</button>
+<div data-module="track-click" data-track-action="skip-Link" data-track-category="filterClicked" data-track-label="">
+<a class="gem-c-skip-link govuk-skip-link" href="#js-results">Skip to results</a>
+</div>
+<div aria-label="Search filters" class="facets" data-module="mobile-filters-modal" id="facet-wrapper" role="search">
+<div class="facets__box">
+<div class="facets__header">
+<h1 class="gem-c-heading govuk-heading-xl govuk-!-margin-bottom-0">Filter</h1>
+<button class="app-c-button-as-link facets__return-link js-close-filters" type="button">
+            Return to results
+          </button>
+</div>
+<div class="facets__content">
+<div class="app-c-option-select" data-input-aria-controls="js-search-results-info" data-module="option-select">
+<h2 class="app-c-option-select__heading js-container-heading">
+<span class="app-c-option-select__title js-container-button" id="option-select-title-vessel-type">Vessel type</span>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--up" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path></svg>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--down" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path></svg>
+</h2>
+<div aria-labelledby="option-select-title-vessel-type" class="app-c-option-select__container js-options-container" id="vessel_type" role="group" tabindex="-1">
+<div class="app-c-option-select__container-inner js-auto-height-inner">
+<div class="gem-c-checkboxes govuk-form-group govuk-checkboxes--small" data-module="govuk-checkboxes" id="checkboxes-936be1f4">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--m gem-c-checkboxes__legend--hidden">Vessel type</legend>
+<ul class="govuk-checkboxes gem-c-checkboxes__list">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Merchant vessel 100 gross tons or over" data-uncheck-track-category="filterRemoved" id="vessel_type-merchant-vessel-100-gross-tons-or-over" name="vessel_type[]" type="checkbox" value="merchant-vessel-100-gross-tons-or-over"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-merchant-vessel-100-gross-tons-or-over">Merchant vessel 100 gross tons or over</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Merchant vessel under 100 gross tons" data-uncheck-track-category="filterRemoved" id="vessel_type-merchant-vessel-under-100-gross-tons" name="vessel_type[]" type="checkbox" value="merchant-vessel-under-100-gross-tons"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-merchant-vessel-under-100-gross-tons">Merchant vessel under 100 gross tons</label>
+</li> <li class="govuk-checkboxes__item">
+<input checked="" class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Fishing vessel" data-uncheck-track-category="filterRemoved" id="vessel_type-fishing-vessel" name="vessel_type[]" type="checkbox" value="fishing-vessel"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-fishing-vessel">Fishing vessel</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Recreational craft - sail" data-uncheck-track-category="filterRemoved" id="vessel_type-recreational-craft-sail" name="vessel_type[]" type="checkbox" value="recreational-craft-sail"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-recreational-craft-sail">Recreational craft - sail</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Vessel type" data-track-category="filterClicked" data-track-label="Recreational craft - power" data-uncheck-track-category="filterRemoved" id="vessel_type-recreational-craft-power" name="vessel_type[]" type="checkbox" value="recreational-craft-power"/><label class="govuk-label govuk-checkboxes__label" for="vessel_type-recreational-craft-power">Recreational craft - power</label>
+</li>
+</ul>
+</fieldset>
+</div>
+</div>
+</div>
+</div>
+<div class="app-c-option-select" data-closed-on-load="true" data-input-aria-controls="js-search-results-info" data-module="option-select">
+<h2 class="app-c-option-select__heading js-container-heading">
+<span class="app-c-option-select__title js-container-button" id="option-select-title-report-type">Report type</span>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--up" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path></svg>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--down" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path></svg>
+</h2>
+<div aria-labelledby="option-select-title-report-type" class="app-c-option-select__container js-options-container" id="report_type" role="group" tabindex="-1">
+<div class="app-c-option-select__container-inner js-auto-height-inner">
+<div class="gem-c-checkboxes govuk-form-group govuk-checkboxes--small" data-module="govuk-checkboxes" id="checkboxes-ca2522ba">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--m gem-c-checkboxes__legend--hidden">Report type</legend>
+<ul class="govuk-checkboxes gem-c-checkboxes__list">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Investigation report" data-uncheck-track-category="filterRemoved" id="report_type-investigation-report" name="report_type[]" type="checkbox" value="investigation-report"/><label class="govuk-label govuk-checkboxes__label" for="report_type-investigation-report">Investigation report</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Safety bulletin" data-uncheck-track-category="filterRemoved" id="report_type-safety-bulletin" name="report_type[]" type="checkbox" value="safety-bulletin"/><label class="govuk-label govuk-checkboxes__label" for="report_type-safety-bulletin">Safety bulletin</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Completed preliminary examination" data-uncheck-track-category="filterRemoved" id="report_type-completed-preliminary-examination" name="report_type[]" type="checkbox" value="completed-preliminary-examination"/><label class="govuk-label govuk-checkboxes__label" for="report_type-completed-preliminary-examination">Completed preliminary examination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Overseas report" data-uncheck-track-category="filterRemoved" id="report_type-overseas-report" name="report_type[]" type="checkbox" value="overseas-report"/><label class="govuk-label govuk-checkboxes__label" for="report_type-overseas-report">Overseas report</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Report type" data-track-category="filterClicked" data-track-label="Discontinued investigation" data-uncheck-track-category="filterRemoved" id="report_type-discontinued-investigation" name="report_type[]" type="checkbox" value="discontinued-investigation"/><label class="govuk-label govuk-checkboxes__label" for="report_type-discontinued-investigation">Discontinued investigation</label>
+</li>
+</ul>
+</fieldset>
+</div>
+</div>
+</div>
+</div>
+<div class="app-c-expander" data-module="expander" data-open-on-load="false">
+<h2 class="app-c-expander__heading">
+<span class="app-c-expander__title js-toggle">Date of occurrence</span>
+<svg aria-hidden="true" class="app-c-expander__icon app-c-expander__icon--up" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path></svg>
+<svg aria-hidden="true" class="app-c-expander__icon app-c-expander__icon--down" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path></svg>
+</h2>
+<div class="app-c-expander__content js-content" id="expander-content-3d788a9e">
+<div class="app-c-date-filter govuk-!-margin-bottom-0" data-module="enable-aria-controls" id="date_of_occurrence">
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="date_of_occurrence[from]">Date of occurrence after</label>
+<div class="gem-c-hint govuk-hint govuk-!-margin-bottom-3" id="hint-b6534486">
+  For example, 2005 or 21/11/2014
+</div>
+<input aria-controls="js-search-results-info" aria-describedby="hint-b6534486" class="gem-c-input govuk-input" id="date_of_occurrence[from]" name="date_of_occurrence[from]" type="text" value=""/>
+</div>
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="date_of_occurrence[to]">Date of occurrence before</label>
+<div class="gem-c-hint govuk-hint govuk-!-margin-bottom-3" id="hint-f501fc54">
+  For example, 2005 or 21/11/2014
+</div>
+<input aria-controls="js-search-results-info" aria-describedby="hint-f501fc54" class="gem-c-input govuk-input" id="date_of_occurrence[to]" name="date_of_occurrence[to]" type="text" value=""/>
+</div>
+</div>
+</div>
+</div>
+<div class="facets__tags-block js-mobile-facet-tag-block" data-module="remove-filter">
+<span class="govuk-visually-hidden">
+    309 reports
+    
+  </span>
+<div class="facet-tags" data-module="track-click">
+<div class="facet-tags__group">
+<div class="facet-tags__wrapper">
+<span class="facet-tags__preposition">Of Type</span>
+<span class="facet-tag">
+<span class="facet-tag__text">Fishing vessel</span>
+<button aria-label="Remove filter Fishing vessel" class="facet-tag__remove" data-facet="vessel_type" data-module="remove-filter-link" data-name="" data-track-label="Fishing vessel" data-value="fishing-vessel" type="button">✕</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+<button class="app-c-button-as-link facets__clear-link js-clear-selected-filters" type="button">
+            Clear all filters
+          </button>
+</div>
+<div class="facets__footer">
+<button class="gem-c-button govuk-button js-close-filters js-show-results" type="submit">Show <span class="js-result-count">309 reports</span></button>
+</div>
+</div>
+</div>
+<div class="js-live-search-fallback button__wrapper">
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Filter results</button>
+</div>
+</div>
+</div>
+<div aria-label="Marine Accident Investigation Branch reports search results" class="govuk-grid-column-two-thirds js-live-search-results-block filtered-results" data-analytics-ecommerce="" data-ecommerce-start-index="51" data-list-title="Marine Accident Investigation Branch reports" data-search-query="" role="region">
+<div class="result-info" data-module="remove-filter" id="js-search-results-info">
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-one-third">
+<div class="result-info__header">
+<h2 class="gem-c-heading govuk-heading-s" id="js-result-count">309 reports</h2>
+</div>
+</div>
+<div class="govuk-grid-column-two-thirds subscription-links subscription-links--desktop">
+<section class="gem-c-subscription-links">
+<ul class="gem-c-subscription-links__list gem-c-subscription-links__list--small">
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/maib-reports/email-signup?vessel_type%5B%5D=fishing-vessel"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15.75" width="21" xmlns="http://www.w3.org/2000/svg"><path d="M19.687 0H1.312C.589 0 0 .587 0 1.313v13.124c0 .726.588 1.313 1.313 1.313h18.374c.725 0 1.313-.587 1.313-1.313V1.313C21 .587 20.412 0 19.687 0zm-2.625 2.625L10.5 7.875l-6.563-5.25h13.126zm1.313 10.5H2.625V3.937L10.5 10.5l7.875-6.563v9.188z"></path></svg>
+           Get emails
+</a>
+</li>
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/maib-reports.atom?vessel_type%5B%5D=fishing-vessel"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M1.996 11A2 2 0 0 0 0 12.993c0 1.101.895 1.99 1.996 1.99 1.106 0 2-.889 2-1.99a2 2 0 0 0-2-1.993zM.002 5.097V7.97c1.872 0 3.632.733 4.958 2.059A6.984 6.984 0 0 1 7.015 15h2.888c0-5.461-4.443-9.903-9.9-9.903zM.006 0v2.876c6.676 0 12.11 5.44 12.11 12.124H15C15 6.731 8.273 0 .006 0z"></path></svg>
+           Subscribe to feed
+</a>
+</li>
+</ul>
+</section>
+</div>
+</div>
+<div aria-live="assertive" class="facet-tags__container" id="js-facet-tag-wrapper">
+<span class="govuk-visually-hidden">
+    309 reports
+    
+  </span>
+<div class="facet-tags" data-module="track-click">
+<div class="facet-tags__group">
+<div class="facet-tags__wrapper">
+<span class="facet-tags__preposition">Of Type</span>
+<span class="facet-tag">
+<span class="facet-tag__text">Fishing vessel</span>
+<button aria-label="Remove filter Fishing vessel" class="facet-tag__remove" data-facet="vessel_type" data-module="remove-filter-link" data-name="" data-track-label="Fishing vessel" data-value="fishing-vessel" type="button">✕</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="govuk-caption-l live-search-loading-message" id="js-loading-message"></div>
+<div id="js-sort-options">
+</div>
+<div id="js-results">
+<div class="finder-results js-finder-results" data-module="track-click">
+<ul class="gem-c-document-list gem-c-document-list--no-underline">
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="1" data-ecommerce-path="/maib-reports/capsize-drifting-and-sinking-of-beam-trawler-flamingo-off-harwich-england-with-loss-of-4-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.1" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-drifting-and-sinking-of-beam-trawler-flamingo-off-harwich-england-with-loss-of-4-lives" data-track-options='{"dimension28":50,"dimension29":"Capsize, drifting and sinking of beam trawler Flamingo with loss of 4 lives"}' href="/maib-reports/capsize-drifting-and-sinking-of-beam-trawler-flamingo-off-harwich-england-with-loss-of-4-lives">Capsize, drifting and sinking of beam trawler Flamingo with loss of 4 lives</a>
+<p class="gem-c-document-list__item-description">Location: East of Harwich, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2002-07-07">7 July 2002</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="2" data-ecommerce-path="/maib-reports/fall-and-entanglement-while-hauling-gear-on-single-handed-trawler-wakil-ii-off-st-bees-head-england-with-1-person-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.2" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/fall-and-entanglement-while-hauling-gear-on-single-handed-trawler-wakil-ii-off-st-bees-head-england-with-1-person-injured" data-track-options='{"dimension28":50,"dimension29":"Fall and entanglement while hauling gear on single-handed trawler Wakil II with 1 person injured"}' href="/maib-reports/fall-and-entanglement-while-hauling-gear-on-single-handed-trawler-wakil-ii-off-st-bees-head-england-with-1-person-injured">Fall and entanglement while hauling gear on single-handed trawler Wakil II with 1 person injured</a>
+<p class="gem-c-document-list__item-description">Location: 3.5 miles south-west of St Bees Head, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2000-04-10">10 April 2000</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="3" data-ecommerce-path="/maib-reports/fire-and-sinking-of-fishing-vessel-ocean-harvest-ii-off-kilkeel-northern-ireland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.3" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/fire-and-sinking-of-fishing-vessel-ocean-harvest-ii-off-kilkeel-northern-ireland" data-track-options='{"dimension28":50,"dimension29":"Fire and sinking of fishing vessel Ocean Harvest II"}' href="/maib-reports/fire-and-sinking-of-fishing-vessel-ocean-harvest-ii-off-kilkeel-northern-ireland">Fire and sinking of fishing vessel Ocean Harvest II</a>
+<p class="gem-c-document-list__item-description">Location: Approximately 25 miles off Kilkeel, Northern Ireland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2006-07-03">3 July 2006</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="4" data-ecommerce-path="/maib-reports/person-overboard-from-potter-blue-angel-off-gigha-scotland-with-injuries-to-1-person" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.4" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/person-overboard-from-potter-blue-angel-off-gigha-scotland-with-injuries-to-1-person" data-track-options='{"dimension28":50,"dimension29":"Person overboard from potter Blue Angel with 1 person injured"}' href="/maib-reports/person-overboard-from-potter-blue-angel-off-gigha-scotland-with-injuries-to-1-person">Person overboard from potter Blue Angel with 1 person injured</a>
+<p class="gem-c-document-list__item-description">Location: West of Gigha, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2011-01-06">6 January 2011</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="5" data-ecommerce-path="/maib-reports/snagging-of-dredges-by-stern-trawler-guyona-while-rigged-as-scallop-dredger-off-little-sark-guernsey-channel-island-resulting-in-the-vessel-capsizing-and-sinking" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.5" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/snagging-of-dredges-by-stern-trawler-guyona-while-rigged-as-scallop-dredger-off-little-sark-guernsey-channel-island-resulting-in-the-vessel-capsizing-and-sinking" data-track-options='{"dimension28":50,"dimension29":"Snagging of dredges, capsize and sinking of stern trawler Guyona while rigged as scallop dredger"}' href="/maib-reports/snagging-of-dredges-by-stern-trawler-guyona-while-rigged-as-scallop-dredger-off-little-sark-guernsey-channel-island-resulting-in-the-vessel-capsizing-and-sinking">Snagging of dredges, capsize and sinking of stern trawler Guyona while rigged as scallop dredger</a>
+<p class="gem-c-document-list__item-description">Location: Approximately 3 miles south ofLittle Sark, Guernsey, Channel Islands. </p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2008-06-24">24 June 2008</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="6" data-ecommerce-path="/maib-reports/capsize-and-sinking-of-prawn-trawler-constancy-off-buckie-scotland-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.6" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-and-sinking-of-prawn-trawler-constancy-off-buckie-scotland-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Capsize and sinking of prawn trawler Constancy with loss of 1 life"}' href="/maib-reports/capsize-and-sinking-of-prawn-trawler-constancy-off-buckie-scotland-with-loss-of-1-life">Capsize and sinking of prawn trawler Constancy with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: 10 miles off Buckie, in the Moray Firth, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1998-07-30">30 July 1998</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="7" data-ecommerce-path="/maib-reports/grounding-of-stern-trawler-primrose-on-the-island-of-rum-scotland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.7" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/grounding-of-stern-trawler-primrose-on-the-island-of-rum-scotland" data-track-options='{"dimension28":50,"dimension29":"Grounding of stern trawler Primrose"}' href="/maib-reports/grounding-of-stern-trawler-primrose-on-the-island-of-rum-scotland">Grounding of stern trawler Primrose</a>
+<p class="gem-c-document-list__item-description">Location: Island of Rum, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-06-15">15 June 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="8" data-ecommerce-path="/maib-reports/collision-between-general-cargo-vessel-leeswig-trawler-spes-bona-v-in-the-firth-of-clyde-scotland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.8" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-general-cargo-vessel-leeswig-trawler-spes-bona-v-in-the-firth-of-clyde-scotland" data-track-options='{"dimension28":50,"dimension29":"Collision between general cargo vessel Leeswig and trawler Spes Bona V"}' href="/maib-reports/collision-between-general-cargo-vessel-leeswig-trawler-spes-bona-v-in-the-firth-of-clyde-scotland">Collision between general cargo vessel Leeswig and trawler Spes Bona V</a>
+<p class="gem-c-document-list__item-description">Location: 3.5' north-east of Pladda lighthouse, Firth of Clyde, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2010-01-27">27 January 2010</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="9" data-ecommerce-path="/maib-reports/person-overboard-from-potter-girl-alice-off-south-east-coast-of-scotland-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.9" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/person-overboard-from-potter-girl-alice-off-south-east-coast-of-scotland-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Person overboard from potter Girl Alice with loss of 1 life"}' href="/maib-reports/person-overboard-from-potter-girl-alice-off-south-east-coast-of-scotland-with-loss-of-1-life">Person overboard from potter Girl Alice with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Off the south-east coast of Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2000-11-19">19 November 2000</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="10" data-ecommerce-path="/maib-reports/collision-between-aggregates-dredger-sand-heron-and-trawler-celtit-in-the-dover-strait-of-the-south-east-coast-of-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.10" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-aggregates-dredger-sand-heron-and-trawler-celtit-in-the-dover-strait-of-the-south-east-coast-of-england" data-track-options='{"dimension28":50,"dimension29":"Collision between aggregates dredger Sand Heron and trawler Celtit"}' href="/maib-reports/collision-between-aggregates-dredger-sand-heron-and-trawler-celtit-in-the-dover-strait-of-the-south-east-coast-of-england">Collision between aggregates dredger Sand Heron and trawler Celtit</a>
+<p class="gem-c-document-list__item-description">Location: North East Traffic Lane, Dover Traffic Separation Scheme off the south east coast of England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-07-30">30 July 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="11" data-ecommerce-path="/maib-reports/grounding-of-twin-rig-stern-trawler-prospect-on-skibby-baas-and-subsequent-sinking-while-under-tow-at-entrance-to-lerwick-harbour-scotland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.11" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/grounding-of-twin-rig-stern-trawler-prospect-on-skibby-baas-and-subsequent-sinking-while-under-tow-at-entrance-to-lerwick-harbour-scotland" data-track-options='{"dimension28":50,"dimension29":"Grounding of twin-rig stern trawler Prospect and subsequent sinking while under tow"}' href="/maib-reports/grounding-of-twin-rig-stern-trawler-prospect-on-skibby-baas-and-subsequent-sinking-while-under-tow-at-entrance-to-lerwick-harbour-scotland">Grounding of twin-rig stern trawler Prospect and subsequent sinking while under tow</a>
+<p class="gem-c-document-list__item-description">Location: Grounding on Skibby Baas, sinking at entrance to Lerwick Harbour, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2013-08-05">5 August 2013</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="12" data-ecommerce-path="/maib-reports/collision-between-general-cargo-vessel-scot-venture-and-scallop-dredger-golden-promise-in-the-moray-firth-scotland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.12" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-general-cargo-vessel-scot-venture-and-scallop-dredger-golden-promise-in-the-moray-firth-scotland" data-track-options='{"dimension28":50,"dimension29":"Collision between general cargo vessel Scot Venture and scallop dredger Golden Promise"}' href="/maib-reports/collision-between-general-cargo-vessel-scot-venture-and-scallop-dredger-golden-promise-in-the-moray-firth-scotland">Collision between general cargo vessel Scot Venture and scallop dredger Golden Promise</a>
+<p class="gem-c-document-list__item-description">Location: 4 miles north of Buckie, Moray Firth, Scotland.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2008-09-13">13 September 2008</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="13" data-ecommerce-path="/maib-reports/collision-between-ro-ro-cargo-vessel-thelisis-and-trawler-our-sarah-jayne-in-the-thames-estuary-england-resulting-in-the-fishing-vessel-flooding-and-sinking" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.13" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-ro-ro-cargo-vessel-thelisis-and-trawler-our-sarah-jayne-in-the-thames-estuary-england-resulting-in-the-fishing-vessel-flooding-and-sinking" data-track-options='{"dimension28":50,"dimension29":"Collision between ro-ro cargo vessel Thelisis and trawler Our Sarah Jayne resulting in the trawler flooding and sinking"}' href="/maib-reports/collision-between-ro-ro-cargo-vessel-thelisis-and-trawler-our-sarah-jayne-in-the-thames-estuary-england-resulting-in-the-fishing-vessel-flooding-and-sinking">Collision between ro-ro cargo vessel Thelisis and trawler Our Sarah Jayne resulting in the trawler flooding and sinking</a>
+<p class="gem-c-document-list__item-description">Location: Thames Estuary, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-06-20">20 June 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="14" data-ecommerce-path="/maib-reports/flooding-and-sinking-of-twin-rig-trawler-evening-star-off-peterhead-scotland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.14" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/flooding-and-sinking-of-twin-rig-trawler-evening-star-off-peterhead-scotland" data-track-options='{"dimension28":50,"dimension29":"Flooding and sinking of twin-rig trawler Evening Star"}' href="/maib-reports/flooding-and-sinking-of-twin-rig-trawler-evening-star-off-peterhead-scotland">Flooding and sinking of twin-rig trawler Evening Star</a>
+<p class="gem-c-document-list__item-description">Location: 26 miles east of Peterhead, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2007-01-27">27 January 2007</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="15" data-ecommerce-path="/maib-reports/flooding-of-beam-trawler-marie-claire-near-the-isles-of-scilly" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.15" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/flooding-of-beam-trawler-marie-claire-near-the-isles-of-scilly" data-track-options='{"dimension28":50,"dimension29":"Flooding of beam trawler Marie Claire"}' href="/maib-reports/flooding-of-beam-trawler-marie-claire-near-the-isles-of-scilly">Flooding of beam trawler Marie Claire</a>
+<p class="gem-c-document-list__item-description">Location: Off the Isles of Scilly.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2005-09-07">7 September 2005</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="16" data-ecommerce-path="/maib-reports/flooding-in-engine-room-and-subsequent-sinking-of-fishing-vessel-maranatha-off-shetland-scotland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.16" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/flooding-in-engine-room-and-subsequent-sinking-of-fishing-vessel-maranatha-off-shetland-scotland" data-track-options='{"dimension28":50,"dimension29":"Flooding in engine room and subsequent sinking of fishing vessel Maranatha"}' href="/maib-reports/flooding-in-engine-room-and-subsequent-sinking-of-fishing-vessel-maranatha-off-shetland-scotland">Flooding in engine room and subsequent sinking of fishing vessel Maranatha</a>
+<p class="gem-c-document-list__item-description">Location: Off the Shetland Islands, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2005-10-05">5 October 2005</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="17" data-ecommerce-path="/maib-reports/person-overboard-from-potter-about-time-off-the-pembrokeshire-coast-wales-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.17" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/person-overboard-from-potter-about-time-off-the-pembrokeshire-coast-wales-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Person overboard from potter About Time with loss of 1 life"}' href="/maib-reports/person-overboard-from-potter-about-time-off-the-pembrokeshire-coast-wales-with-loss-of-1-life">Person overboard from potter About Time with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Off the coast of Pembrokeshire, Wales.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2011-06-14">14 June 2011</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="18" data-ecommerce-path="/maib-reports/capsize-and-sinking-of-prawn-trawler-amber-in-the-firth-of-forth-scotland-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.18" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-and-sinking-of-prawn-trawler-amber-in-the-firth-of-forth-scotland-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Capsize and sinking of prawn trawler Amber with loss of 1 life"}' href="/maib-reports/capsize-and-sinking-of-prawn-trawler-amber-in-the-firth-of-forth-scotland-with-loss-of-1-life">Capsize and sinking of prawn trawler Amber with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Firth of Forth, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2003-01-06">6 January 2003</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="19" data-ecommerce-path="/maib-reports/grounding-and-sinking-of-crabber-our-nicholas-near-entrance-to-stornoway-harbour-scotland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.19" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/grounding-and-sinking-of-crabber-our-nicholas-near-entrance-to-stornoway-harbour-scotland" data-track-options='{"dimension28":50,"dimension29":"Grounding and sinking of crabber Our Nicholas"}' href="/maib-reports/grounding-and-sinking-of-crabber-our-nicholas-near-entrance-to-stornoway-harbour-scotland">Grounding and sinking of crabber Our Nicholas</a>
+<p class="gem-c-document-list__item-description">Location: Near entrance to Stornoway Harbour, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-07-24">24 July 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="20" data-ecommerce-path="/maib-reports/collision-in-north-sea-between-beam-trawler-vrouw-grietje-and-ro-ro-passenger-ferry-european-tideway-which-was-on-route-from-eurooport-netherlands-to-felixstowe-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.20" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-in-north-sea-between-beam-trawler-vrouw-grietje-and-ro-ro-passenger-ferry-european-tideway-which-was-on-route-from-eurooport-netherlands-to-felixstowe-england" data-track-options='{"dimension28":50,"dimension29":"Collision between beam trawler Vrouw Grietje and ro-ro passenger ferry European Tideway"}' href="/maib-reports/collision-in-north-sea-between-beam-trawler-vrouw-grietje-and-ro-ro-passenger-ferry-european-tideway-which-was-on-route-from-eurooport-netherlands-to-felixstowe-england">Collision between beam trawler Vrouw Grietje and ro-ro passenger ferry European Tideway</a>
+<p class="gem-c-document-list__item-description">Location: North Sea.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2000-10-16">16 October 2000</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="21" data-ecommerce-path="/maib-reports/person-overboard-from-long-liner-cantara-50-miles-west-of-the-shetland-islands-scotland-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.21" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/person-overboard-from-long-liner-cantara-50-miles-west-of-the-shetland-islands-scotland-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Person overboard from long liner Cantara with loss of 1 life"}' href="/maib-reports/person-overboard-from-long-liner-cantara-50-miles-west-of-the-shetland-islands-scotland-with-loss-of-1-life">Person overboard from long liner Cantara with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: 50 miles west of the Shetland Islands, Scotland.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2008-11-24">24 November 2008</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="22" data-ecommerce-path="/maib-reports/explosion-on-board-prawn-trawler-mussel-dredger-tullaghmurry-lass-resulting-in-vessel-sinking-off-kilkeel-northern-ireland-with-loss-of-3-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.22" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/explosion-on-board-prawn-trawler-mussel-dredger-tullaghmurry-lass-resulting-in-vessel-sinking-off-kilkeel-northern-ireland-with-loss-of-3-lives" data-track-options='{"dimension28":50,"dimension29":"Explosion and subsequent sinking of prawn trawler/mussel dredger Tullaghmurry Lass with loss of 3 lives"}' href="/maib-reports/explosion-on-board-prawn-trawler-mussel-dredger-tullaghmurry-lass-resulting-in-vessel-sinking-off-kilkeel-northern-ireland-with-loss-of-3-lives">Explosion and subsequent sinking of prawn trawler/mussel dredger Tullaghmurry Lass with loss of 3 lives</a>
+<p class="gem-c-document-list__item-description">Location: In the Irish Sea off Kilkeel, Northern Ireland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2002-02-14">14 February 2002</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="23" data-ecommerce-path="/maib-reports/contact-made-by-scallop-dredger-golden-promise-with-self-elevating-barge-buzzard-in-liverpool-bay-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.23" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/contact-made-by-scallop-dredger-golden-promise-with-self-elevating-barge-buzzard-in-liverpool-bay-england" data-track-options='{"dimension28":50,"dimension29":"Contact made by scallop dredger Golden Promise with self elevating barge Buzzard"}' href="/maib-reports/contact-made-by-scallop-dredger-golden-promise-with-self-elevating-barge-buzzard-in-liverpool-bay-england">Contact made by scallop dredger Golden Promise with self elevating barge Buzzard</a>
+<p class="gem-c-document-list__item-description">Location: Liverpool Bay, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2009-10-04">4 October 2009</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="24" data-ecommerce-path="/maib-reports/accident-to-skipper-of-scallop-dredger-ronan-orla-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.24" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/accident-to-skipper-of-scallop-dredger-ronan-orla-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Accident to skipper of scallop dredger Ronan Orla with loss of 1 life"}' href="/maib-reports/accident-to-skipper-of-scallop-dredger-ronan-orla-with-loss-of-1-life">Accident to skipper of scallop dredger Ronan Orla with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: 3 miles north-east of Porth Dinllaen, north Wales.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2014-03-30">30 March 2014</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="25" data-ecommerce-path="/maib-reports/person-overboard-from-gill-netter-harbour-lights-off-polperro-cornwall-england-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.25" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/person-overboard-from-gill-netter-harbour-lights-off-polperro-cornwall-england-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Person overboard from gill netter Harbour Lights with loss of 1 life"}' href="/maib-reports/person-overboard-from-gill-netter-harbour-lights-off-polperro-cornwall-england-with-loss-of-1-life">Person overboard from gill netter Harbour Lights with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: off Polperro, Cornwall, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2000-01-08">8 January 2000</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="26" data-ecommerce-path="/maib-reports/entanglement-while-shooting-fishing-gear-on-twin-rig-stern-trawler-solstice-ii-off-rockall-in-north-atlantic-ocean-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.26" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/entanglement-while-shooting-fishing-gear-on-twin-rig-stern-trawler-solstice-ii-off-rockall-in-north-atlantic-ocean-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Entanglement while shooting fishing gear from twin rig stern trawler Solstice II with loss of 1 life"}' href="/maib-reports/entanglement-while-shooting-fishing-gear-on-twin-rig-stern-trawler-solstice-ii-off-rockall-in-north-atlantic-ocean-with-loss-of-1-life">Entanglement while shooting fishing gear from twin rig stern trawler Solstice II with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: 25 miles south-west of Rockall in North Atlantic Ocean.
+</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2000-05-13">13 May 2000</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="27" data-ecommerce-path="/maib-reports/sinking-in-heavy-weather-of-under-12m-netter-jck-in-tor-bay-england-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.27" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/sinking-in-heavy-weather-of-under-12m-netter-jck-in-tor-bay-england-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Sinking in heavy weather of under 12m netter JCK with loss of 1 life"}' href="/maib-reports/sinking-in-heavy-weather-of-under-12m-netter-jck-in-tor-bay-england-with-loss-of-1-life">Sinking in heavy weather of under 12m netter JCK with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Tor Bay, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2013-01-28">28 January 2013</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="28" data-ecommerce-path="/maib-reports/collision-between-fishing-vessel-natalie-and-an-unlit-barge-being-towed-by-the-tug-bay-protector-off-the-south-west-coast-of-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.28" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-fishing-vessel-natalie-and-an-unlit-barge-being-towed-by-the-tug-bay-protector-off-the-south-west-coast-of-england" data-track-options='{"dimension28":50,"dimension29":"Collision between fishing vessel Natalie and unlit barge towed by tug Bay Protector"}' href="/maib-reports/collision-between-fishing-vessel-natalie-and-an-unlit-barge-being-towed-by-the-tug-bay-protector-off-the-south-west-coast-of-england">Collision between fishing vessel Natalie and unlit barge towed by tug Bay Protector</a>
+<p class="gem-c-document-list__item-description">Location: Off south west coast of England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2006-12-08">8 December 2006</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="29" data-ecommerce-path="/maib-reports/flooding-incidents-on-the-twin-rigged-stern-trawler-audacious-45-nautical-miles-east-of-aberdeen-scotland-and-beam-trawler-chloe-t-off-bolt-head-devon-england-resulting-in-both-vessels-sinking" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.29" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/flooding-incidents-on-the-twin-rigged-stern-trawler-audacious-45-nautical-miles-east-of-aberdeen-scotland-and-beam-trawler-chloe-t-off-bolt-head-devon-england-resulting-in-both-vessels-sinking" data-track-options='{"dimension28":50,"dimension29":"Flooding incidents on twin rigged stern trawler Audacious and beam trawler Chloe T resulting in both vessels sinking"}' href="/maib-reports/flooding-incidents-on-the-twin-rigged-stern-trawler-audacious-45-nautical-miles-east-of-aberdeen-scotland-and-beam-trawler-chloe-t-off-bolt-head-devon-england-resulting-in-both-vessels-sinking">Flooding incidents on twin rigged stern trawler Audacious and beam trawler Chloe T resulting in both vessels sinking</a>
+<p class="gem-c-document-list__item-description">Location: Audacious: 45 miles east of Aberdeen, Scotland. Chloe T: 17 miles south west of Bolt Head, Devon, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2012-08-10">10 August 2012</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="30" data-ecommerce-path="/maib-reports/capsize-and-sinking-of-mussel-dredger-charisma-in-carlingford-lough-near-rostrevor-pier-northern-ireland-with-1-person-injured-and-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.30" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-and-sinking-of-mussel-dredger-charisma-in-carlingford-lough-near-rostrevor-pier-northern-ireland-with-1-person-injured-and-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Capsize and sinking of mussel dredger Charisma with 1 person injured and loss of 1 life"}' href="/maib-reports/capsize-and-sinking-of-mussel-dredger-charisma-in-carlingford-lough-near-rostrevor-pier-northern-ireland-with-1-person-injured-and-loss-of-1-life">Capsize and sinking of mussel dredger Charisma with 1 person injured and loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Carlingford Lough near Rostrevor pier, Northern Ireland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2002-01-30">30 January 2002</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="31" data-ecommerce-path="/maib-reports/crush-incident-while-shooting-fishing-gear-on-scallop-dredger-philomena-in-the-moray-forth-scotland-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.31" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/crush-incident-while-shooting-fishing-gear-on-scallop-dredger-philomena-in-the-moray-forth-scotland-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Crush incident while shooting fishing gear on scallop dredger Philomena with loss of 1 life"}' href="/maib-reports/crush-incident-while-shooting-fishing-gear-on-scallop-dredger-philomena-in-the-moray-forth-scotland-with-loss-of-1-life">Crush incident while shooting fishing gear on scallop dredger Philomena with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Moray Forth, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-03-06">6 March 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="32" data-ecommerce-path="/maib-reports/capsize-and-sinking-of-side-trawler-pescalanza-south-west-of-mizen-head-republic-of-ireland-with-loss-of-6-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.32" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-and-sinking-of-side-trawler-pescalanza-south-west-of-mizen-head-republic-of-ireland-with-loss-of-6-lives" data-track-options='{"dimension28":50,"dimension29":"Capsize and sinking of side trawler Pescalanza with loss of 6 lives"}' href="/maib-reports/capsize-and-sinking-of-side-trawler-pescalanza-south-west-of-mizen-head-republic-of-ireland-with-loss-of-6-lives">Capsize and sinking of side trawler Pescalanza with loss of 6 lives</a>
+<p class="gem-c-document-list__item-description">Location: 82 miles south-west of Mizen Head, Republic of Ireland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1998-11-02">2 November 1998</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="33" data-ecommerce-path="/maib-reports/close-quarters-situation-between-feeder-container-vessel-mathilda-and-gill-netter-lady-hamilton-of-helford-off-lizard-point-cornwall-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.33" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/close-quarters-situation-between-feeder-container-vessel-mathilda-and-gill-netter-lady-hamilton-of-helford-off-lizard-point-cornwall-england" data-track-options='{"dimension28":50,"dimension29":"Close-quarters situation between feeder container vessel Mathilda and gill netter Lady Hamilton of Helford"}' href="/maib-reports/close-quarters-situation-between-feeder-container-vessel-mathilda-and-gill-netter-lady-hamilton-of-helford-off-lizard-point-cornwall-england">Close-quarters situation between feeder container vessel Mathilda and gill netter Lady Hamilton of Helford</a>
+<p class="gem-c-document-list__item-description">Location: 7 miles east-south-east of Lizard Point, Cornwall, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-06-28">28 June 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="34" data-ecommerce-path="/maib-reports/capsize-and-sinking-of-creeler-kirsteen-anne-off-oban-scotland-with-loss-of-2-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.34" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-and-sinking-of-creeler-kirsteen-anne-off-oban-scotland-with-loss-of-2-lives" data-track-options='{"dimension28":50,"dimension29":"Capsize and sinking of creeler Kirsteen Anne with loss of 2 lives"}' href="/maib-reports/capsize-and-sinking-of-creeler-kirsteen-anne-off-oban-scotland-with-loss-of-2-lives">Capsize and sinking of creeler Kirsteen Anne with loss of 2 lives</a>
+<p class="gem-c-document-list__item-description">Location: Near Oban, Firth of Lorne, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2002-12-31">31 December 2002</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="35" data-ecommerce-path="/maib-reports/capsize-and-sinking-of-beam-trawler-sally-jane-in-christchurch-bay-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.35" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-and-sinking-of-beam-trawler-sally-jane-in-christchurch-bay-england" data-track-options='{"dimension28":50,"dimension29":"Capsize and sinking of beam trawler Sally Jane"}' href="/maib-reports/capsize-and-sinking-of-beam-trawler-sally-jane-in-christchurch-bay-england">Capsize and sinking of beam trawler Sally Jane</a>
+<p class="gem-c-document-list__item-description">Location: Christchurch Bay, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2013-09-17">17 September 2013</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="36" data-ecommerce-path="/maib-reports/flooding-and-sinking-of-seiner-trawler-christine-nielsen-while-120-miles-off-the-river-tyne-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.36" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/flooding-and-sinking-of-seiner-trawler-christine-nielsen-while-120-miles-off-the-river-tyne-england" data-track-options='{"dimension28":50,"dimension29":"Flooding and sinking of seiner/trawler Christine Nielsen"}' href="/maib-reports/flooding-and-sinking-of-seiner-trawler-christine-nielsen-while-120-miles-off-the-river-tyne-england">Flooding and sinking of seiner/trawler Christine Nielsen</a>
+<p class="gem-c-document-list__item-description">Location: 120 miles north-east of River Tyne, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2001-03-18">18 March 2001</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="37" data-ecommerce-path="/maib-reports/collision-between-giller-netter-margaret-and-william-ii-and-chemical-tanker-jacobus-broere-in-the-western-approaches-resulting-in-netter-sinking-with-loss-of-2-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.37" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-giller-netter-margaret-and-william-ii-and-chemical-tanker-jacobus-broere-in-the-western-approaches-resulting-in-netter-sinking-with-loss-of-2-lives" data-track-options='{"dimension28":50,"dimension29":"Collision between gill netter Margaret And William II and chemical tanker Jacobus Broere resulting in netter sinking with loss of 2 lives"}' href="/maib-reports/collision-between-giller-netter-margaret-and-william-ii-and-chemical-tanker-jacobus-broere-in-the-western-approaches-resulting-in-netter-sinking-with-loss-of-2-lives">Collision between gill netter Margaret And William II and chemical tanker Jacobus Broere resulting in netter sinking with loss of 2 lives</a>
+<p class="gem-c-document-list__item-description">Location: In the Western Approaches. </p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1991-09-04">4 September 1991</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="38" data-ecommerce-path="/maib-reports/capsize-and-sinking-of-pair-trawler-meridian-while-on-guard-ship-duties-160-nautical-miles-east-of-aberdeen-scotland-with-loss-of-4-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.38" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/capsize-and-sinking-of-pair-trawler-meridian-while-on-guard-ship-duties-160-nautical-miles-east-of-aberdeen-scotland-with-loss-of-4-lives" data-track-options='{"dimension28":50,"dimension29":"Capsize and sinking of pair trawler Meridian while on guard ship duties with loss of 4 lives"}' href="/maib-reports/capsize-and-sinking-of-pair-trawler-meridian-while-on-guard-ship-duties-160-nautical-miles-east-of-aberdeen-scotland-with-loss-of-4-lives">Capsize and sinking of pair trawler Meridian while on guard ship duties with loss of 4 lives</a>
+<p class="gem-c-document-list__item-description">Location: 160nm east of Aberdeen, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2006-10-26">26 October 2006</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="39" data-ecommerce-path="/maib-reports/contact-made-by-scallop-dredger-diamond-with-rocks-resulting-in-vessel-sinking-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.39" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/contact-made-by-scallop-dredger-diamond-with-rocks-resulting-in-vessel-sinking-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Contact made by scallop dredger Diamond with rock resulting in vessel sinking with loss of 1 life"}' href="/maib-reports/contact-made-by-scallop-dredger-diamond-with-rocks-resulting-in-vessel-sinking-with-loss-of-1-life">Contact made by scallop dredger Diamond with rock resulting in vessel sinking with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: West Burra Firth, Shetland Islands, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2014-03-25">25 March 2014</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="40" data-ecommerce-path="/maib-reports/flooding-and-sinking-of-seine-netter-neptune-off-the-shetland-isles-scotland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.40" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/flooding-and-sinking-of-seine-netter-neptune-off-the-shetland-isles-scotland" data-track-options='{"dimension28":50,"dimension29":"Flooding and sinking of seine netter Neptune"}' href="/maib-reports/flooding-and-sinking-of-seine-netter-neptune-off-the-shetland-isles-scotland">Flooding and sinking of seine netter Neptune</a>
+<p class="gem-c-document-list__item-description">Location: Off the Shetland Isles, Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2003-05-17">17 May 2003</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="41" data-ecommerce-path="/maib-reports/collision-between-stern-trawler-beverley-ann-ii-and-ro-ro-cargo-vehicle-carrier-cypress-pass-off-river-tyne-england" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.41" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-stern-trawler-beverley-ann-ii-and-ro-ro-cargo-vehicle-carrier-cypress-pass-off-river-tyne-england" data-track-options='{"dimension28":50,"dimension29":"Collision between stern trawler Beverley Ann II and ro-ro cargo/vehicle carrier Cypress Pass"}' href="/maib-reports/collision-between-stern-trawler-beverley-ann-ii-and-ro-ro-cargo-vehicle-carrier-cypress-pass-off-river-tyne-england">Collision between stern trawler Beverley Ann II and ro-ro cargo/vehicle carrier Cypress Pass</a>
+<p class="gem-c-document-list__item-description">Location: 12 miles south-east of the River Tyne, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1999-03-09">9 March 1999</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="42" data-ecommerce-path="/maib-reports/person-overboart-from-crabber-onward-star-off-bridlington-england-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.42" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/person-overboart-from-crabber-onward-star-off-bridlington-england-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Person overboard from crabber Onward Star with loss of 1 life"}' href="/maib-reports/person-overboart-from-crabber-onward-star-off-bridlington-england-with-loss-of-1-life">Person overboard from crabber Onward Star with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Bridlington harbour area, England. </p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2003-07-12">12 July 2003</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="43" data-ecommerce-path="/maib-reports/fire-in-engine-room-on-multipurpose-trawler-kingfisher-ii-off-north-uist-in-the-outer-hebrides-of-scotland" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.43" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/fire-in-engine-room-on-multipurpose-trawler-kingfisher-ii-off-north-uist-in-the-outer-hebrides-of-scotland" data-track-options='{"dimension28":50,"dimension29":"Fire in engine room on multipurpose trawler Kingfisher II"}' href="/maib-reports/fire-in-engine-room-on-multipurpose-trawler-kingfisher-ii-off-north-uist-in-the-outer-hebrides-of-scotland">Fire in engine room on multipurpose trawler Kingfisher II</a>
+<p class="gem-c-document-list__item-description">Location: 5 miles east of North Uist in the Outer Hebrides of Scotland.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2004-04-26">26 April 2004</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="44" data-ecommerce-path="/maib-reports/grounding-and-subsequent-sinking-of-crabber-kerloch-off-linney-head-wales" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.44" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/grounding-and-subsequent-sinking-of-crabber-kerloch-off-linney-head-wales" data-track-options='{"dimension28":50,"dimension29":"Grounding and subsequent sinking of crabber Kerloch"}' href="/maib-reports/grounding-and-subsequent-sinking-of-crabber-kerloch-off-linney-head-wales">Grounding and subsequent sinking of crabber Kerloch</a>
+<p class="gem-c-document-list__item-description">Location: Crow Rock off Linney Head, Wales</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2010-02-20">20 February 2010</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="45" data-ecommerce-path="/maib-reports/safety-warning-issued-after-sinking-of-scallop-dredger-solway-harvester-with-loss-of-7-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.45" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/safety-warning-issued-after-sinking-of-scallop-dredger-solway-harvester-with-loss-of-7-lives" data-track-options='{"dimension28":50,"dimension29":"Safety warning after sinking of vessel results in loss of 7 lives"}' href="/maib-reports/safety-warning-issued-after-sinking-of-scallop-dredger-solway-harvester-with-loss-of-7-lives">Safety warning after sinking of vessel results in loss of 7 lives</a>
+<p class="gem-c-document-list__item-description">This document makes urgent recommendation to all owners/skippers of UK registered fishing vessels and to the Maritime and Coastguard Agency.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Safety bulletin
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2000-01-11">11 January 2000</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="46" data-ecommerce-path="/maib-reports/snagging-on-pipeline-by-twin-rig-trawler-westhaven-in-the-north-sea-resulting-in-the-vessel-capsizing-and-sinking-with-loss-of-4-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.46" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/snagging-on-pipeline-by-twin-rig-trawler-westhaven-in-the-north-sea-resulting-in-the-vessel-capsizing-and-sinking-with-loss-of-4-lives" data-track-options='{"dimension28":50,"dimension29":"Snagging on pipeline by twin rig trawler Westhaven resulting in capsizing and sinking with loss of 4 lives"}' href="/maib-reports/snagging-on-pipeline-by-twin-rig-trawler-westhaven-in-the-north-sea-resulting-in-the-vessel-capsizing-and-sinking-with-loss-of-4-lives">Snagging on pipeline by twin rig trawler Westhaven resulting in capsizing and sinking with loss of 4 lives</a>
+<p class="gem-c-document-list__item-description">Location: North Sea.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1997-03-10">10 March 1997</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="47" data-ecommerce-path="/maib-reports/fire-on-long-liner-ross-alcedo-off-the-isles-of-scilly-england-with-2-people-injured" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.47" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/fire-on-long-liner-ross-alcedo-off-the-isles-of-scilly-england-with-2-people-injured" data-track-options='{"dimension28":50,"dimension29":"Fire on long liner Ross Alcedo with 2 people injured"}' href="/maib-reports/fire-on-long-liner-ross-alcedo-off-the-isles-of-scilly-england-with-2-people-injured">Fire on long liner Ross Alcedo with 2 people injured</a>
+<p class="gem-c-document-list__item-description">Location: Approximately 32 miles north-west of the Isles of Scilly.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2000-01-16">16 January 2000</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="48" data-ecommerce-path="/maib-reports/collision-between-container-vessel-merkur-and-purse-seiner-and-trawler-silvery-sea-resulting-in-the-fishing-vessel-sinking-with-loss-of-5-lives" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.48" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-container-vessel-merkur-and-purse-seiner-and-trawler-silvery-sea-resulting-in-the-fishing-vessel-sinking-with-loss-of-5-lives" data-track-options='{"dimension28":50,"dimension29":"Collision between container vessel Merkur and purse seiner/trawler Silvery Sea, sinking the trawler with loss of 5 lives"}' href="/maib-reports/collision-between-container-vessel-merkur-and-purse-seiner-and-trawler-silvery-sea-resulting-in-the-fishing-vessel-sinking-with-loss-of-5-lives">Collision between container vessel Merkur and purse seiner/trawler Silvery Sea, sinking the trawler with loss of 5 lives</a>
+<p class="gem-c-document-list__item-description">Location: Approximately 35 miles west of Esbjerg, Denmark.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Investigation report
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="1998-06-14">14 June 1998</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="49" data-ecommerce-path="/maib-reports/fire-in-accommodation-area-on-fishing-vessel-lisa-leanne-while-moored-in-sutton-harbour-plymouth-england-with-loss-of-1-life" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.49" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/fire-in-accommodation-area-on-fishing-vessel-lisa-leanne-while-moored-in-sutton-harbour-plymouth-england-with-loss-of-1-life" data-track-options='{"dimension28":50,"dimension29":"Fire in accommodation area on fishing vessel Lisa Leanne with loss of 1 life"}' href="/maib-reports/fire-in-accommodation-area-on-fishing-vessel-lisa-leanne-while-moored-in-sutton-harbour-plymouth-england-with-loss-of-1-life">Fire in accommodation area on fishing vessel Lisa Leanne with loss of 1 life</a>
+<p class="gem-c-document-list__item-description">Location: Berthed in Sutton Harbour, Plymouth, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Fishing vessel
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2005-10-12">12 October 2005</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="50" data-ecommerce-path="/maib-reports/collision-between-fishing-vessel-aquarius-and-oil-tanker-alfa-germania" data-ecommerce-row="1" data-track-action="Marine Accident Investigation Branch reports.50" data-track-category="navFinderLinkClicked" data-track-label="/maib-reports/collision-between-fishing-vessel-aquarius-and-oil-tanker-alfa-germania" data-track-options='{"dimension28":50,"dimension29":"Collision between trawler Aquarius and oil tanker Alfa Germania"}' href="/maib-reports/collision-between-fishing-vessel-aquarius-and-oil-tanker-alfa-germania">Collision between trawler Aquarius and oil tanker Alfa Germania</a>
+<p class="gem-c-document-list__item-description">Location: Off Blyth, England.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Vessel type: Merchant vessel 100 gross tons or over and 1 others
+</li>
+<li class="gem-c-document-list__attribute">
+                    Report type: Completed preliminary examination
+</li>
+<li class="gem-c-document-list__attribute">
+                    Occurred: <time datetime="2005-01-16">16 January 2005</time>
+</li> </ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="js-pagination">
+<nav aria-label="Pagination" class="gem-c-pagination" role="navigation">
+<ul class="gem-c-pagination__list" data-module="track-click">
+<li class="gem-c-pagination__item gem-c-pagination__item--previous">
+<a class="gem-c-pagination__link" data-track-action="previous" data-track-category="contentsClicked" data-track-dimension="previous" data-track-dimension-index="29" data-track-label="/maib-reports?page=1&amp;vessel_type%5B%5D=fishing-vessel" href="/maib-reports?page=1&amp;vessel_type%5B%5D=fishing-vessel" rel="prev">
+<span class="gem-c-pagination__link-title">
+<svg class="gem-c-pagination__link-icon" height="13" viewbox="0 0 17 13" width="17" xmlns="http://www.w3.org/2000/svg">
+<path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"></path>
+</svg>
+<span class="gem-c-pagination__link-text">
+              Previous page
+            </span>
+</span>
+<span class="gem-c-pagination__link-divider visually-hidden">:</span>
+<span class="gem-c-pagination__link-label">1 of 7</span>
+</a>
+</li>
+<li class="gem-c-pagination__item gem-c-pagination__item--next">
+<a class="gem-c-pagination__link" data-track-action="next" data-track-category="contentsClicked" data-track-dimension="next" data-track-dimension-index="29" data-track-label="/maib-reports?page=3&amp;vessel_type%5B%5D=fishing-vessel" href="/maib-reports?page=3&amp;vessel_type%5B%5D=fishing-vessel" rel="next">
+<span class="gem-c-pagination__link-title">
+<svg class="gem-c-pagination__link-icon" height="13" viewbox="0 0 17 13" width="17" xmlns="http://www.w3.org/2000/svg">
+<path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
+</svg>
+<span class="gem-c-pagination__link-text">
+              Next page
+            </span>
+</span>
+<span class="gem-c-pagination__link-divider visually-hidden">:</span>
+<span class="gem-c-pagination__link-label">3 of 7</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="subscription-links" id="subscription-links-footer">
+<section class="gem-c-subscription-links">
+<ul class="gem-c-subscription-links__list gem-c-subscription-links__list--small">
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/maib-reports/email-signup?vessel_type%5B%5D=fishing-vessel"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15.75" width="21" xmlns="http://www.w3.org/2000/svg"><path d="M19.687 0H1.312C.589 0 0 .587 0 1.313v13.124c0 .726.588 1.313 1.313 1.313h18.374c.725 0 1.313-.587 1.313-1.313V1.313C21 .587 20.412 0 19.687 0zm-2.625 2.625L10.5 7.875l-6.563-5.25h13.126zm1.313 10.5H2.625V3.937L10.5 10.5l7.875-6.563v9.188z"></path></svg>
+           Get emails
+</a>
+</li>
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/maib-reports.atom?vessel_type%5B%5D=fishing-vessel"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M1.996 11A2 2 0 0 0 0 12.993c0 1.101.895 1.99 1.996 1.99 1.106 0 2-.889 2-1.99a2 2 0 0 0-2-1.993zM.002 5.097V7.97c1.872 0 3.632.733 4.958 2.059A6.984 6.984 0 0 1 7.015 15h2.888c0-5.461-4.443-9.903-9.9-9.903zM.006 0v2.876c6.676 0 12.11 5.44 12.11 12.124H15C15 6.731 8.273 0 .006 0z"></path></svg>
+           Subscribe to feed
+</a>
+</li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+</div>
+</form>

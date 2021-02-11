@@ -1,0 +1,9 @@
+<form action="//www.webmd.com/search/search_results/default.aspx" class="masthead-search-form" data-metrics-module="srch-bar" id="masthead-search-form" method="get" name="searchForm">
+<div class="masthead-search-wrapper" id="masthead-search-wrapper">
+<input autocomplete="off" class="masthead-search-input typeahead-search" maxlength="180" name="query" placeholder="SEARCH" title="Enter Search Keywords" type="text" value=""/>
+<button class="masthead-search-submit" data-metrics-link="submit" type="submit">
+<span class="masthead-search-icon"></span>
+</button>
+</div>
+<ul class="masthead-search-resultslist typeahead-output"></ul>
+</form>

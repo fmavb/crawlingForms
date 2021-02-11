@@ -1,0 +1,356 @@
+<form id="regForm" method="post" name="registration" novalidate="novalidate">
+<input id="registration__token" name="registration[_token]" type="hidden" value="TzeVQeUqyzOa45ezVMNc6P2-TylS8T8b7nMy5PprX9A"/>
+<input id="formStage" name="formStage" type="hidden" value="0"/>
+<input id="goBack" name="goBack" type="hidden" value="0"/>
+<div class="l-section reg-step-0">
+<div class="l-content-container">
+<div class="m-form-row">
+<div class="m-heading-group">
+<h1 class="a-heading a-heading--1 a-heading--1-form">Welcome to Aviva Save</h1>
+<h3 class="a-heading a-heading--3 a-heading--light">Register for Aviva Save now.</h3>
+</div>
+</div>
+<div class="m-form-row">
+<fieldset>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_emailAddress">Email address</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_emailAddress" name="registration[emailAddress]" placeholder="Enter your email here" type="email"/>
+</div>
+</div>
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<button class="a-button a-button--primary reg-form-continue" data-form-cur-step="reg-step-0" data-form-next-step="reg-step-1" type="submit">Register</button>
+</li>
+</ul>
+<div class="m-form-row__content">
+<div class="m-form-row__content">
+<p>Read <a href="/privacy-policy" target="_blank">Aviva Save's privacy policy</a> to understand how your personal data will be collected and used by us and our partners.</p>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width u-margin--top-none">
+<div class="m-form-row__content">
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid a-keyline-divider--30-all"/>
+<h3 class="a-heading a-heading--3">Already registered with Aviva Save?</h3>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<a class="a-button a-button--secondary" href="/login" role="button">Log in</a>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+<div class="l-section reg-step-1 u-hidden">
+<div class="l-content-container">
+<div class="m-form-row">
+<div class="m-heading-group">
+<div class="a-progress-bar a-progress-bar--4-steps a-progress-bar--1-4">
+<p class="a-progress-bar__step">Aviva Save <strong>Step 1 of 4</strong></p>
+<div class="a-progress-bar__ui"><div></div></div>
+<div class="a-progress-bar__line"><div></div></div>
+</div>
+</div>
+<div class="m-heading-group">
+<h1 class="a-heading a-heading--1 u-margin--top-none">Registration</h1>
+<p class="a-heading a-heading--3 a-heading--light">Let's get started. Registration only takes a few minutes</p>
+</div>
+</div>
+<div class="m-form-row">
+<fieldset class="m-form-row m-form-row--full-width">
+<fieldset class="m-form-row m-form-row--full-width" role="radiogroup">
+<legend class="a-label"><label class="required">Title</label></legend>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--3 m-radio-group--segmented m-radio-group--short-label" data-module="m-radio-segmented"> <li class="m-radio-group__item">
+<label class="a-radio" for="registration_title_0"><input class="a-radio__input" id="registration_title_0" name="registration[title]" required="required" type="radio" value="mr"/><span class="a-radio__label"><span class="a-radio__label-inner"><label class="required" for="registration_title_0">Mr</label></span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="registration_title_1"><input class="a-radio__input" id="registration_title_1" name="registration[title]" required="required" type="radio" value="mrs"/><span class="a-radio__label"><span class="a-radio__label-inner"><label class="required" for="registration_title_1">Mrs</label></span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="registration_title_2"><input class="a-radio__input" id="registration_title_2" name="registration[title]" required="required" type="radio" value="ms"/><span class="a-radio__label"><span class="a-radio__label-inner"><label class="required" for="registration_title_2">Ms</label></span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_firstNames">First name</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_firstNames" name="registration[firstNames]" placeholder="Enter your first name" type="text"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_lastName">Last name</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_lastName" name="registration[lastName]" placeholder="Enter your last name" type="text"/>
+</div>
+</div>
+<fieldset class="m-form-row m-form-row--full-width" role="group">
+<legend class="a-label">Date of birth</legend>
+<div class="m-form-row__content">
+<ul class="m-textbox-group">
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="test-date-1">Day</label>
+<input class="a-textbox a-textbox--2-character" id="registration_dobDay" maxlength="2" minlength="2" name="registration[dobDay]" placeholder="DD" type="text"/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="test-date-2">Month</label>
+<input class="a-textbox a-textbox--2-character" id="registration_dobMonth" maxlength="2" minlength="2" name="registration[dobMonth]" placeholder="MM" type="text"/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="test-date-3">Year</label>
+<input class="a-textbox a-textbox--4-character" id="registration_dobYear" maxlength="4" minlength="4" name="registration[dobYear]" placeholder="YYYY" type="text"/>
+</li>
+</ul>
+</div>
+</fieldset>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_mobilePhone">Mobile number</label>
+<p class="m-form-row__explanatory-text">Your Aviva Save login is protected by mobile verification.</p>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_mobilePhone" maxlength="11" minlength="11" name="registration[mobilePhone]" placeholder="Enter your mobile number" type="text"/>
+</div>
+</div>
+<div class="" id="addressSearchCont">
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_finderPostcode">Your postcode</label>
+<p class="m-form-row__explanatory-text">To register with Aviva Save, you must be a UK tax resident (excluding the Channel Islands and Isle of Man).</p>
+<div id="addressFinderErrors"> </div>
+</div>
+<div class="l-columns l-columns--33-66-large">
+<div class="l-columns__column">
+<input class="a-textbox" id="registration_finderPostcode" name="registration[finderPostcode]" type="text"/>
+</div>
+<div class="l-columns__column">
+<div class="l-columns l-columns--66-33-large">
+<div class="l-columns__column">
+<button class="a-button a-button--full-width a-button--secondary a-button--search" id="findMyAddress">Find my address</button>
+</div>
+<div class="l-columns__column">
+<div aria-role="alert" class="a-loading-indicator a-loading-indicator--small u-hidden" id="addressFinderLoader">
+<span class="a-loading-indicator__message">...</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width u-hidden" id="triggerManualAddress">
+<div class="m-form-row__content">
+<p><a class="allowManualAddress" href="#">Add address manually</a></p>
+</div>
+</div>
+<div class="u-hidden" id="addressFinderResultsCont">
+<div class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<select class="a-dropdown__select" id="addressFinderResults" name="addressFinderResults"></select>
+<span class="a-dropdown__ui"></span>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<p><a class="allowManualAddress" href="#">I can't find my address in the list</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="u-hidden" id="chosenAddressCont">
+<div class="m-heading-group">
+<p class="a-heading a-heading--3 a-heading--light">Your address</p>
+</div>
+<div class="m-card m-card-notification m-card-notification--success t-accent-light t-accent-light--white" role="status">
+<div class="m-card-content">
+<p id="chosenAddress"></p>
+</div>
+</div>
+<ul class="m-button-group u-margin--bottom-none">
+<li class="m-button-group__item"><button class="a-button a-button--full-width a-button--secondary" id="changeMyAddress">Change address</button></li>
+</ul>
+</div>
+<fieldset class="u-hidden" id="addressFields">
+<div class="m-heading-group">
+<p class="a-heading a-heading--3 a-heading--light">Your address</p>
+<p><a href="#" id="showAddressLookup">&lt; Back to address lookup</a></p>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_addressFlatNumber">Apartment / flat number</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_addressFlatNumber" name="registration[addressFlatNumber]" type="text"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_addressHouseName">House name</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_addressHouseName" name="registration[addressHouseName]" type="text"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_addressHouseNumber">House number</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_addressHouseNumber" name="registration[addressHouseNumber]" type="text"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_addressStreet">Street</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_addressStreet" name="registration[addressStreet]" type="text"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_addressTown">Town</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_addressTown" name="registration[addressTown]" type="text"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_addressCity">City</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_addressCity" name="registration[addressCity]" type="text"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_addressPostcode">Post code</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_addressPostcode" name="registration[addressPostcode]" type="text"/>
+</div>
+</div>
+</fieldset>
+<div class="m-form-row m-form-row--full-width">
+<div class="m-heading-group">
+<h2 class="a-heading a-heading--2 a-heading--semibold u-margin--top-none">Financial details</h2>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid"/>
+</div>
+<p>Please enter the details of a UK bank or building society account held in your name.
+                            Funds that you withdraw from Aviva Save will transfer to this account.</p>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_refAccountSortCode">Sort code</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_refAccountSortCode" maxlength="6" minlength="6" name="registration[refAccountSortCode]" type="text"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_refAccountNumber">Bank account number</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_refAccountNumber" maxlength="8" minlength="8" name="registration[refAccountNumber]" type="text"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_income">Annual net income</label>
+<p class="m-form-row__explanatory-text">We may need to verify your income and source of funds.
+                                This helps us to prevent fraud and money laundering.</p>
+<div class="m-form-row__content">
+<select class="a-dropdown__select" id="registration_income" name="registration[income]"><option selected="selected" value="">Please select</option><option value="income_range.1">Less than £20,000.00</option><option value="income_range.2">£20,000 to £40,000</option><option value="income_range.3">£40,000 to £60,000</option><option value="income_range.4">£60,000 to £80,000</option><option value="income_range.5">£80,000 to £100,000</option><option value="income_range.6">£100,000 to £120,000</option><option value="income_range.7">£120,000 to £140,000</option><option value="income_range.8">£140,000 +</option></select><span class="a-dropdown__ui"></span>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_fundsSource">Source of funds</label>
+<div class="m-form-row__content">
+<select class="a-dropdown__select" id="registration_fundsSource" name="registration[fundsSource]"><option selected="selected" value="">Please select</option><option value="benefits">Benefits</option><option value="friends_and_family">Friends and Family</option><option value="investment">Investment</option><option value="loans">Loans</option><option value="monthly_salary">Monthly Salary</option><option value="pension">Pension</option><option value="property">Property</option><option value="weekly_wages">Weekly Wages</option></select><span class="a-dropdown__ui"></span>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_niNumber">National insurance number</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="registration_niNumber" name="registration[niNumber]" type="text"/>
+</div>
+</div>
+<fieldset class="m-form-row m-form-row--full-width" role="radiogroup">
+<legend class="a-label"><label class="required">Are you a UK tax resident?</label></legend>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--2 m-radio-group--segmented m-radio-group--short-label" data-module="m-radio-segmented"> <li class="m-radio-group__item">
+<label class="a-radio" for="registration_ukTaxResident_0"><input class="a-radio__input" id="registration_ukTaxResident_0" name="registration[ukTaxResident]" required="required" type="radio" value="1"/><span class="a-radio__label"><span class="a-radio__label-inner"><label class="required" for="registration_ukTaxResident_0">Yes</label></span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="registration_ukTaxResident_1"><input class="a-radio__input" id="registration_ukTaxResident_1" name="registration[ukTaxResident]" required="required" type="radio" value="0"/><span class="a-radio__label"><span class="a-radio__label-inner"><label class="required" for="registration_ukTaxResident_1">No</label></span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<div class="m-form-row__content">
+<div class="m-heading-group">
+<h2 class="a-heading a-heading--2 a-heading--semibold u-margin--top-50-all">Declaration</h2>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid"/>
+</div>
+</div>
+<div class="m-form-row__content">
+<div class="m-form-row__content">
+<p>By registering with Aviva Save, I hereby confirm and acknowledge that:</p>
+</div>
+<div class="m-form-row__content">
+<p>I agree to the <a href="/download-terms/aviva_terms_and_conditions.pdf">Aviva Save terms and conditions</a>.</p>
+</div>
+<div class="m-form-row__content">
+<p>I wish to open an FSCS protected holding account powered by Starling Bank Limited ("Starling") and I agree to the
+                                <a href="/download-terms/starling_terms_and_conditions.pdf">Starling holding account terms and conditions</a>.
+                                I authorise Starling to undertake checks using the information I have provided in order to process my application.</p>
+</div>
+<div class="m-form-row__content">
+<p>I am the beneficial owner of all funds I deposit with Starling and partner banks. I act on my own behalf and the information I have provided is accurate.</p>
+</div>
+</div>
+<ul class="m-button-group u-margin--bottom-none">
+<li class="m-button-group__item"><button class="a-button a-button--primary" type="submit">Agree and continue</button></li>
+</ul>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+<div class="l-section reg-step-2 u-hidden">
+<div class="l-content-container">
+<div class="m-form-row">
+<div class="m-heading-group">
+<div class="a-progress-bar a-progress-bar--4-steps a-progress-bar--2-4">
+<p class="a-progress-bar__step">Aviva Save <strong>Step 2 of 4</strong></p>
+<div class="a-progress-bar__ui"><div></div></div>
+<div class="a-progress-bar__line"><div></div></div>
+</div>
+</div>
+<div class="m-heading-group u-margin--bottom-none">
+<h1 class="a-heading a-heading--1 u-margin--top-none">Success</h1>
+<p class="a-heading a-heading--3 a-heading--light">Only a few more steps and you'll be registered.</p>
+</div>
+</div>
+<div class="m-form-row">
+<fieldset>
+<div class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<div>
+<label class="a-label" for="registration_password_first">Choose a password</label>
+<p>Your password will be case sensitive and must contain</p>
+</div>
+<ul class="a-list-unordered">
+<li>Between 7-30 characters</li>
+<li>At least 1 number</li>
+<li>Uppercase and lowercase letters</li>
+<li>No spaces</li>
+</ul>
+<input always_empty="always_empty" autocomplete="off" class="a-textbox" id="registration_password_first" name="registration[password][first]" placeholder="Enter your password" type="password"/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<label class="a-label" for="registration_password_second">Confirm Password</label>
+<div class="m-form-row__content">
+<input autocomplete="off" class="a-textbox" id="registration_password_second" name="registration[password][second]" placeholder="Re-enter your password" type="password"/>
+</div>
+</div>
+<ul class="m-button-group u-margin--bottom-none">
+<li class="m-button-group__item"><button class="a-button a-button--primary" type="submit">Continue</button></li>
+<li class="m-button-group__item"><button class="a-button a-button--secondary registerBackButton" type="submit">Back</button></li>
+</ul>
+</fieldset>
+</div>
+</div>
+</div>
+</form>

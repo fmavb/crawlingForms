@@ -1,0 +1,60 @@
+<form action="/api/sitecore/BusinessHealthInsuranceGetQuoteStep1/IndexSMERedesignRedirectTest" method="post"><input name="__RequestVerificationToken" type="hidden" value="9tEFQ0Ly6o6iuXR670tBSMXbRWHgAfx_gfyCpLg19CbWjSCppfz4o0FV5-NOJHoSf6EWAIsw0ybqO_DWZc-HBK1hND-S3ODUwAdIZ33Caqw1"/> <h3 class="getAquoteTitle">Get a guide price on small business health insurance for 50 or less employees</h3>
+<h4 class="getAquoteTitle-sub">Step 1 of 3 - Your details</h4>
+<p class="yourdetails-text">
+</p><p class="yourdetails-text">                           Fill out your details to get a guide price. You'd be best giving us a call on <strong><span class="rTapNumber15878"> 0808 271 7248</span></strong><sup>^</sup> if you'd rather get a full quote straight away, are looking to cover more than 50 of your employees or if you're already covered with another provider.                        </p>
+<div class="form">
+<div class="grid">
+<div class="field-section">
+<div class="col w-100 input-100">
+<div class="pad">
+<div class="validation-err">
+<label class="screen-reader" for="Firstname"><b>First Name</b></label>
+</div>
+<input class="sme-field fname" data-val="true" data-val-required="First name" data-val-validate="Please re-enter your first name using only letters" data-val-validate-regex="^[a-zA-Z'\-\s]+$" id="Firstname" maxlength="30" name="PersonalDetails.Firstname" placeholder="First Name" tabindex="2" type="text" value=""/>
+</div>
+</div>
+<div class="col w-100 input-100">
+<div class="pad">
+<div class="validation-err">
+<label class="screen-reader" for="Lastname"><b>Last Name</b></label>
+</div>
+<input class="sme-field lname" data-val="true" data-val-required="Last name" data-val-validate="Please re-enter your last name using only letters" data-val-validate-regex="^[a-zA-Z'\-\s]+$" id="Lastname" maxlength="50" name="PersonalDetails.Lastname" placeholder="Last Name" tabindex="3" type="text" value=""/>
+</div>
+</div>
+</div>
+</div>
+<div class="grid">
+<div class="field-section">
+<div class="col w-100 input-100">
+<div class="pad">
+<div class="validation-err">
+<label class="screen-reader" for="EmailAddress"><b>Email Address</b></label>
+</div>
+<input class="sme-field show-tooltip email" data-val="true" data-val-required="Email address" data-val-validate="Please enter a valid email address" data-val-validate-regex="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$" id="EmailAddress" maxlength="60" name="PersonalDetails.EmailAddress" placeholder="Email Address" tabindex="4" type="text" value=""/>
+<div class="bubble-facts"><div class="arrow-left"></div><div class="bubble">We'll only use your email address to get in touch with you about this quote.</div></div>
+</div>
+</div>
+<div class="col w-100">
+<div class="pad">
+<div class="validation-err">
+<label class="screen-reader" for="Telephone"><b>Phone Number</b></label>
+</div>
+<input class="sme-field show-tooltip telephone" data-val="true" data-val-required="Phone number" data-val-validate="Please enter a valid phone number" data-val-validate-regex="^[0-9]{10,11}$" id="PhoneNumber" maxlength="25" name="PersonalDetails.PhoneNumber" placeholder="Phone Number" tabindex="5" type="tel" value=""/>
+<div class="bubble-facts"><div class="arrow-left"></div><div class="bubble">Please enter your preferred contact number, we'll only use this to contact you about your quote.</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid">
+<div class="field-section">
+</div>
+</div>
+<div class="grid">
+<div class="field-section">
+</div>
+</div>
+<div class="sme-continue">
+<button class="href-analytics btn-primary-color-orange" name="Continue" tabindex="6" type="submit" value="Continue">Continue</button>
+</div>
+</div>
+</form>

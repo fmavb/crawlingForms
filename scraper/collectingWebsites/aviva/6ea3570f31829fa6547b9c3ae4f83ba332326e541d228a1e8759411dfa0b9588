@@ -1,0 +1,421 @@
+<form action="/protection/direct/pagesSq/quoteInputPage.xhtml" autocomplete="off" enctype="application/x-www-form-urlencoded" id="quoteInputForm" method="post" name="quoteInputForm" novalidate="novalidate">
+<input name="quoteInputForm" type="hidden" value="quoteInputForm"/>
+<!-- Page title : start -->
+<!-- &lt;ui:insert name=&quot;strapline&quot; /&gt; -->
+<div class="padding-bottom-50px">
+<div class="l-section l-section--in-out t-accent-dark t-accent-dark--teal">
+<div class="l-content-container">
+<h1 class="a-heading a-heading--1"><strong>Life insurance</strong>
+</h1>
+<div class="l-columns l-columns--66-33-large u-margin--top-none">
+<div class="l-columns__column" id="main" role="main">
+<p class="u-margin--top-none a-heading a-heading--3 a-heading--light">Our Life Insurance Plan pays out a lump sum if you pass away or you’re diagnosed with a terminal illness, and we’re proud that we paid out 98.6% of life claims in 2019. We’ve got different types of cover, so you can find the right option for you.
+	                        </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-wrapper">
+<div class="content-wrapper">
+<fieldset class="l-section">
+<div class="l-content-container">
+<div class="l-columns l-columns--66-33-large">
+<div class="l-columns__column" id="main" role="main"><div class="m-form-row__content" id="id_dummyErrorDiv"><input id="id_dummyErrors" name="id_dummyErrors" type="hidden"/></div>
+<h2 class="a-heading a-heading--2 a-heading--semibold u-margin--top-none">Your cover
+	</h2>
+<hr class="a-keyline-divider--horizontal-solid"/>
+<!--  formRow start --><div id="id_ExplanatoryText">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large is-error">
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<p class="u-margin--top-none"><strong>Family protection</strong>
+</p>
+<ul class="a-list-unordered u-margin--top-none u-margin--bottom-none">
+<li>Choose a lump sum to leave behind for your family.</li>
+<li>Help your loved ones cover living costs and monthly rental or mortgage repayments if you pass away.</li>
+<li>This is also called level cover</li>
+</ul>
+<p class="u-margin--top-none padding-top-15px"><strong>Mortgage protection</strong>
+</p>
+<ul class="a-list-unordered u-margin--top-none u-margin--bottom-none">
+<li>Specifically helps your family pay off a repayment mortgage if you pass away.</li>
+<li>You’ll pay the same amount each month, but cover gradually decreases in line with your repayment mortgage.</li>
+<li>This is also called decreasing cover</li>
+</ul>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<div class="u-divider u-margin--top-none">
+<h2 class="a-heading a-heading--3 u-margin--top-none u-margin--bottom-none padding-bottom-15px">Which cover type would you like?</h2>
+</div>
+<!--  formRow start --><div id="id_coverTypeSelection">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large u-margin--top-none">
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content"><ul class="m-radio-group m-radio-group--pictorial m-radio-group--2" data-module="m-radio-segmented" id="id_quoteCoverRadios"><li class="m-radio-group__item family-protection-icon"><label class="a-radio" for="id_quoteCoverRadios:0"><input class="a-radio__input" id="id_quoteCoverRadios:0" name="id_quoteCoverRadios" onclick="mojarra.ab(this,event,'click',0,'coverPanel family_inflation_term',{'onevent':$p.ajax.handleAjax})" type="radio" value="Family protection"/><span class="a-radio__label"><span class="a-radio__label-image"><img src="/protection/direct/resourcesSq/images/icons/family.png"/></span><span class="a-radio__label-inner"> Family protection</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item mortgage-protection-icon"><label class="a-radio" for="id_quoteCoverRadios:1"><input class="a-radio__input" id="id_quoteCoverRadios:1" name="id_quoteCoverRadios" onclick="mojarra.ab(this,event,'click',0,'coverPanel family_inflation_term',{'onevent':$p.ajax.handleAjax})" type="radio" value="Mortgage protection"/><span class="a-radio__label"><span class="a-radio__label-image"><img src="/protection/direct/resourcesSq/images/icons/mortgage.png"/></span><span class="a-radio__label-inner"> Mortgage protection</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li></ul>
+</div>
+</fieldset></div>
+<!--  formRow end --><span class="m-form-row__content" id="coverPanel"></span><span class="m-form-row__content" id="family_inflation_term"></span>
+<div class="u-divider u-margin--top-none padding-bottom-15px">
+<h2 class="a-heading a-heading--3 u-margin--bottom-none">Who would you like to cover?</h2>
+</div>
+<!--  formRow start --><div id="id_quoteLives">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large u-margin--top-none">
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content"><ul class="m-radio-group m-radio-group--pictorial m-radio-group--2" data-module="m-radio-segmented" id="id_quoteLivesRadio"><li class="m-radio-group__item"><label class="a-radio" for="id_quoteLivesRadio:0"><input class="a-radio__input" id="id_quoteLivesRadio:0" name="id_quoteLivesRadio" onclick="mojarra.ab(this,event,'click',0,'livesPanel otherPersonDetails',{'onevent':$p.ajax.handleAjax})" type="radio" value="1"/><span class="a-radio__label"><span class="a-radio__label-image"><img src="/protection/direct/resourcesSq/images/icons/me.png"/></span><span class="a-radio__label-inner"> Me</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" for="id_quoteLivesRadio:1"><input class="a-radio__input" id="id_quoteLivesRadio:1" name="id_quoteLivesRadio" onclick="mojarra.ab(this,event,'click',0,'livesPanel otherPersonDetails',{'onevent':$p.ajax.handleAjax})" type="radio" value="2"/><span class="a-radio__label"><span class="a-radio__label-image"><img src="/protection/direct/resourcesSq/images/icons/meandsomeonelse.png"/></span><span class="a-radio__label-inner"> Me and someone else</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li></ul>
+</div>
+</fieldset></div>
+<!--  formRow end --><span class="m-form-row__content" id="livesPanel"></span>
+<div class="u-divider u-margin--top-none padding-top-50px">
+<h2 class="a-heading a-heading--2 a-heading--semibold u-margin--top-none">Critical illness cover</h2>
+</div>
+<hr class="a-keyline-divider--horizontal-solid"/>
+<div class="m-form-row l-max l-max--left l-max--9-column-large">
+<p class="u-margin--top-none">Critical illness cover pays out a lump sum if you’re diagnosed with a life-changing illness. It’s designed to help ease any immediate financial worries you might have, and can pay towards treatment or the cost of everyday living.
+		</p>
+<p class="u-margin--bottom-none">We cover <a class="a-link-icon a-link-icon--download" href="https://www.aviva.co.uk/life/critical-illness-cover/policy-conditions.html" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank"><span class="a-link-icon__inner">53 conditions</span></a> , including nearly all cancers, heart attacks and strokes.
+		</p>
+</div>
+<h2 class="a-label u-margin--bottom-none">Do you want to add critical illness cover?</h2>
+<!--  formRow start --><div id="id_FF122_CriticalIllnessChoice">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large u-margin--top-none">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<div class="padding-top-5px"></div><ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented" id="id_ctiticalIllnesRadio"><li class="m-radio-group__item"><label class="a-radio" for="id_ctiticalIllnesRadio:0"><input class="a-radio__input" id="id_ctiticalIllnesRadio:0" name="id_ctiticalIllnesRadio" onclick="mojarra.ab(this,event,'click',0,'coverPanelCI',{'onevent':$p.ajax.handleAjax})" type="radio" value="Yes"/><span class="a-radio__label"><span class="a-radio__label-inner"> Yes</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" for="id_ctiticalIllnesRadio:1"><input class="a-radio__input" id="id_ctiticalIllnesRadio:1" name="id_ctiticalIllnesRadio" onclick="mojarra.ab(this,event,'click',0,'coverPanelCI',{'onevent':$p.ajax.handleAjax})" type="radio" value="No"/><span class="a-radio__label"><span class="a-radio__label-inner"> No</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li></ul>
+</div>
+</fieldset></div>
+<!--  formRow end --><span class="m-form-row__content" id="coverPanelCI"></span>
+<div class="u-divider u-margin--top-none padding-top-50px">
+<h2 class="a-heading a-heading--2 a-heading--semibold u-margin--top-none">Your personal details</h2>
+</div>
+<hr class="a-keyline-divider--horizontal-solid"/>
+<!--  formRow start --><div id="id_FF151_forename_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+					
+						Your first name
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content"><input class="a-textbox tealeafHide" id="id_forename_" maxlength="30" name="id_forename_" placeholder="Enter your first name" size="20" type="text" value=""/>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<!--  formRow start --><div id="id_FF151_surname_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+					
+						Your last name
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content"><input class="a-textbox tealeafHide" id="id_surname_" maxlength="30" name="id_surname_" placeholder="Enter your last name" size="20" type="text" value=""/>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<!-- Adding DOB and smoker status below in the form -->
+<!--  formRow start --><div id="id_FF155_dob_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large form-inline" id="dateOfBirth_">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+					
+						Your date of birth
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content"><input class="a-textbox a-textbox--7-character tealeafHide" data-format="224" data-module="a-textbox-format" data-spacer="/" id="id_FF104_dateOfBirth_" maxlength="10" name="id_FF104_dateOfBirth_" pattern="\d{2}\/\d{2}\/\d{4}" placeholder="DD/MM/YYYY" type="text"/>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<!--  formRow start --><div id="id_FF179_smokerStatus_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+					
+						Do you smoke?
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<p>We need to know about your use of cigarettes, cigars, a pipe or any other tobacco or nicotine products including nicotine gums, patches, inhalers, tablets, lozenges, sprays and electronic products, even if only on an occasional basis. If you need to claim, we might carry out tests to confirm this.</p><div class="m-form-row__content"><ul class="m-radio-group m-radio-group--3" data-di-mask="" data-module="m-radio-segmented" id="id_smokerStatusRadio_"><li class="m-radio-group__item"><label class="a-radio" data-di-mask="" for="id_smokerStatusRadio_:0"><input class="a-radio__input" data-di-mask="" id="id_smokerStatusRadio_:0" name="id_smokerStatusRadio_" onclick="mojarra.ab(this,event,'click',0,'exSmokerStatusOption_',{'onevent':$p.ajax.handleAjax})" type="radio" value="1"/><span class="a-radio__label" data-di-mask=""><span class="a-radio__label-inner" data-di-mask=""> I've never smoked </span></span><span class="a-radio__ui" data-di-mask=""></span></label><div data-di-mask="" style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" data-di-mask="" for="id_smokerStatusRadio_:1"><input class="a-radio__input" data-di-mask="" id="id_smokerStatusRadio_:1" name="id_smokerStatusRadio_" onclick="mojarra.ab(this,event,'click',0,'exSmokerStatusOption_',{'onevent':$p.ajax.handleAjax})" type="radio" value="2"/><span class="a-radio__label" data-di-mask=""><span class="a-radio__label-inner" data-di-mask=""> Regularly, occasionally or socially</span></span><span class="a-radio__ui" data-di-mask=""></span></label><div data-di-mask="" style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" data-di-mask="" for="id_smokerStatusRadio_:2"><input class="a-radio__input" data-di-mask="" id="id_smokerStatusRadio_:2" name="id_smokerStatusRadio_" onclick="mojarra.ab(this,event,'click',0,'exSmokerStatusOption_',{'onevent':$p.ajax.handleAjax})" type="radio" value="8"/><span class="a-radio__label" data-di-mask=""><span class="a-radio__label-inner" data-di-mask=""> I have in the past</span></span><span class="a-radio__ui" data-di-mask=""></span></label><div data-di-mask="" style="clear:both"></div></li></ul></div>
+<noscript>
+<div class="btn--margin--top">
+<span class="a-button a-button--secondary a-button--input"><input class="a-button__inner" id="id_confirmSmokerStatus_" name="id_confirmSmokerStatus_" onclick="mojarra.ab(this,event,'action','@form','exSmokerStatusOption_');return false" title="Confirm details" type="submit" value="Confirm details"/>
+</span>
+<span class="a-button a-button--secondary a-button--input u-hidden"><input class="a-button__inner" id="id_confirmSmokerStatus__disabled" name="id_confirmSmokerStatus__disabled" title="Confirm details" type="submit" value="Confirm details"/>
+</span>
+</div>
+</noscript><div class="m-form-row__content" id="exSmokerStatusOption_"></div>
+<!-- &lt;h:panelGroup layout=&quot;block&quot; rendered=&quot;false&quot;&gt;
+				&lt;div class=&quot;a-dropdown&quot;&gt;
+					&lt;h:selectOneMenu id=&quot;id_smokerStatusDropDown_&quot; value=&quot;&quot; class=&quot;a-dropdown__select&quot;&gt;
+						&lt;f:selectItems value=&quot;[com.aviva.uklife.presentation.faces.models.SelectItemWithInfo@625fb8fc, com.aviva.uklife.presentation.faces.models.SelectItemWithInfo@746ec4f6, com.aviva.uklife.presentation.faces.models.SelectItemWithInfo@3e3c7e28]&quot; /&gt;
+					&lt;/h:selectOneMenu&gt;
+					&lt;span class=&quot;a-dropdown__ui&quot;&gt;&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/h:panelGroup&gt; -->
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<!--  formRow start --><div id="id_FF156_email_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+					
+						Your email
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<div class="m-form-row__help">
+<p class="padding-bottom-5px"><span class="m-form-row__help">We’ll use this to send your quote.</span>
+</p>
+</div><input class="verifyemailaddress a-textbox tealeafHide" id="id_emailAddress_" name="id_emailAddress_" placeholder="Enter your email address" type="email" value=""/>
+</div>
+</fieldset></div>
+<!--  formRow end --><div class="form-container" id="ajax_address_container__currentAddress">
+<span class="a-label">Your postcode
+		</span>
+<p class="u-margin--bottom-none">To apply you must be a UK resident, as defined in the policy conditions.
+		</p>
+<!--  formRow start --><div id="id_FF158_postcode_screen_row__currentAddress">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large u-margin--top-none">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<div class="padding-top-5px"></div>
+<ul class="m-textbox-group m-textbox-group">
+<li class="m-textbox-group__item"><input class="a-textbox tealeafHide a-textbox--8-character" id="id_postcode_screen__currentAddress" name="id_postcode_screen__currentAddress" type="text" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<span class="a-button a-button--input a-button--secondary"><input class="a-button__inner" id="id_FF159_findAddress__currentAddress_nojs" name="id_FF159_findAddress__currentAddress_nojs" onclick="mojarra.ab(this,event,'action','@form','ajax_address_container__currentAddress',{'onevent':function(data) { $p.ajax.handleAddressSearchAjax(data,'id_FF170_select_address_row__currentAddress');},'onerror':$p.ajax.handleAjaxError});return false" title="" type="submit" value="Find my address"/>
+</span>
+<span class="a-button a-button--input a-button--secondary is-disabled hidden displayNone"><input class="a-button__inner disabled-button" id="id_FF159_findAddress__currentAddress_nojs_disabled" name="id_FF159_findAddress__currentAddress_nojs_disabled" title="" type="submit" value="Find my address"/>
+</span>
+</li>
+<li class="m-textbox-group__item">
+<div class="a-loading-indicator-container" id="ajaxloader_0" style="display: none;">
+<div aria-role="alert" class="a-loading-indicator">
+</div>
+</div>
+</li>
+</ul>
+</div>
+</fieldset></div>
+<!--  formRow end --></div>
+<div class="m-form-row m-form-row--full-width u-divider u-margin--bottom-none padding-bottom-5px">
+<span class="a-label">Keeping you informed
+		</span>
+</div>
+<div class="m-form-row l-max l-max--left l-max--9-column-large u-margin--top-none u-margin--bottom-none">
+<p class="u-margin--top-none u-margin--bottom-none padding-bottom-15px">From time to time, we'd like to send you offers and discounts we think you'd be interested in.
+		</p>
+</div>
+<div class="m-form-row m-form-row--full-width m-showhide u-margin--top-none" data-module="m-showhide">
+<h3 class="a-heading a-heading--3 a-heading--light m-showhide__heading">
+		   Tell us if you don’t want to hear from us.
+		</h3>
+<div class="m-showhide__content">
+<!--  formRow start --><div id="id_FF151_accordion_row_">
+<fieldset class="m-form-row m-form-row--light m-form-row--full-width l-max l-max--left l-max--9-column-large u-margin--top-none u-margin--bottom-none">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<p><strong>How we keep you informed</strong></p>
+<p>If you would prefer not to receive communications about our products and promotions, please indicate below.  You can always tell us if you change your mind.</p><ul class="m-checkbox-group checkbox-width" id="id_preferedWayRadio_"><li class="m-checkbox-group__item"><label class="a-checkbox" for="id_preferedWayRadio_:0"><input class="a-checkbox__input" id="id_preferedWayRadio_:0" name="id_preferedWayRadio_" type="checkbox" value="2"/><span class="a-checkbox__label"><span class="a-checkbox__label-inner"> Email</span></span><span class="a-checkbox__ui"></span></label><div style="clear:both"></div></li><li class="m-checkbox-group__item"><label class="a-checkbox" for="id_preferedWayRadio_:1"><input class="a-checkbox__input" id="id_preferedWayRadio_:1" name="id_preferedWayRadio_" type="checkbox" value="3"/><span class="a-checkbox__label"><span class="a-checkbox__label-inner"> Phone</span></span><span class="a-checkbox__ui"></span></label><div style="clear:both"></div></li><li class="m-checkbox-group__item"><label class="a-checkbox" for="id_preferedWayRadio_:2"><input class="a-checkbox__input" id="id_preferedWayRadio_:2" name="id_preferedWayRadio_" type="checkbox" value="1"/><span class="a-checkbox__label"><span class="a-checkbox__label-inner"> Post</span></span><span class="a-checkbox__ui"></span></label><div style="clear:both"></div></li></ul>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+</div>
+</div><span class="m-form-row__content" id="otherPersonDetails"></span>
+<div class="m-form-row m-form-row--full-width padding-bottom-50px">
+<ul class="m-button-group u-margin--bottom-none">
+<li class="m-button-group__item">
+<span class="a-button a-button--primary a-button--input"><input class="a-button__inner" id="id_FF811_continue_nojs" name="id_FF811_continue_nojs" onclick="disableDoubleClick();" onmousedown="$p.ui.page.setShowNavigationWarning(false);" title="" type="submit" value="See your quote"/>
+</span>
+<span class="a-button a-button--primary a-button--input is-disabled hidden displayNone"><input class="a-button__inner disabled-button" disabled="disabled" id="id_FF811_continue_nojs_disabled" name="id_FF811_continue_nojs_disabled" title="" type="submit" value="See your quote"/>
+</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="l-columns__column" role="complementary">
+<div class="l-columns__column m-card t-accent-light t-accent-light--grey slick-slide slick-active">
+<div class="m-card-content">
+<div class="m-card-content__inner">
+<div class="a-heading a-heading--2 a-heading--semibold padding-bottom-20px">Your data</div>
+<div>
+		You can find out how we use your data and how to contact us with any queries 
+		<a data-module="o-modal" href="#yourDataModal">here</a>
+</div>
+<div class="o-modal__content-container" id="yourDataModal">
+<div class="a-heading a-heading--2 a-heading--semibold">Your data
+		</div>
+<p class="u-margin--top-none u-margin--bottom-none">The data controllers responsible for processing this personal information are Aviva Life &amp; Pensions UK Limited as the insurer of the product and Aviva UK Digital Limited who is responsible for the sale and distribution of the product.
+		</p>
+<p class="padding-top-20px u-margin--top-none u-margin--bottom-none">We will use the information you have given us to decide if we can offer you insurance and to generate a quote for you. This information will include personal and health data for all those to be covered. We will need to share this information within the Aviva Group and with our reinsurers and other specific third parties. See our <a href="https://www.aviva.co.uk/legal/privacy-policy.html" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank">Privacy Policy</a> for more about how we share your personal data within the Aviva Group.
+		</p>
+<p class="padding-top-20px u-margin--top-none u-margin--bottom-none">You have various rights in relation to your personal information, including requests for: access to your information, to correct any mistakes, erase or restrict records, and in some circumstances objecting to our use of your personal data, and to data portability for electronically provided information.
+		</p>
+<p class="padding-top-20px u-margin--top-none u-margin--bottom-none">If you have any questions about how we use personal information, or if you want to exercise your rights about your data, please contact our Data Protection Officer by either emailing them at <a href="mailto:DATAPRT@aviva.com">DATAPRT@aviva.com</a> or writing to them at:
+		</p>
+<p class="padding-top-20px u-margin--top-none u-margin--bottom-none">Aviva<br/>Pitheavlis<br/> Perth<br/>PH2 0NH
+		</p>
+</div>
+</div>
+</div>
+</div>
+<div class="l-columns__column m-card t-accent-light t-accent-light--grey slick-slide slick-active">
+<div class="m-card-content m-card-content__inner">
+<div class="a-heading a-heading--2 a-heading--semibold">Get in touch</div>
+<p> If you’re unsure about what protection you need, or have any other questions, just give us a call.</p>
+<div class="a-heading a-heading--3 a-heading--semibold">0800 046 2753
+					</div>
+<div>
+<dl class="u-align--center a-list-opening-times">
+<dt>Monday to Friday</dt>
+<dd>8.00am - 6.00pm</dd>
+<dt>Saturday</dt>
+<dd>9.00am - 2.00pm</dd>
+<dt>Sunday</dt>
+<dd>Closed</dd>
+</dl>
+</div>
+<p> For our joint protection, telephone calls may be recorded and/or monitored and will be saved for a minimum of five years. Calls to 0800 numbers from UK landlines and mobiles are free.</p>
+</div>
+</div>
+<!--  livechat div -->
+<div class="col-sm-6 col-md-12">
+<div class="livechat-container" id="LP_DIV_DIRECT_ALPS_QUOTE">
+</div>
+</div>
+<div class="l-columns__column m-card t-accent-light t-accent-light--grey slick-slide slick-active">
+<div class="m-card-content">
+<div class="m-card-content__inner">
+<p><span class="a-heading a-heading--2 a-heading--semibold">More information</span></p>
+<p><span class="a-heading a-heading--3 a-heading--semibold">Want to know more about life insurance?</span></p>
+<p>Read our <a href="https://www.aviva.co.uk/insurance/life-products/life-insurance/" target="_blank">Life Insurance Plan</a>, so you know what you’re buying.</p>
+<hr class="a-keyline-divider a-keyline-divider--horizontal-solid"/>
+<ul class="a-list-plain m-card-download-list">
+<li class="m-card-download-list-item">
+<div class="m-card-flex__inner">
+<p class="m-card-flex__inner-top">Life Insurance Plan Policy Summary</p>
+<p class="m-card-flex__inner-bottom m-card-tagline">PDF (105 KB) 
+									<a class="a-link-icon a-link-icon--download" href="http://www.aviva.co.uk/life/policy-summary.html" id="id_FF905_keyfeatures_0" target="_blank">
+</a>
+</p>
+</div>
+</li>
+<li><hr class="a-keyline-divider a-keyline-divider--horizontal-solid"/></li>
+<li class="m-card-download-list-item">
+<div class="m-card-flex__inner">
+<p class="m-card-flex__inner-top">Life Insurance Plan Policy Conditions</p>
+<p class="m-card-flex__inner-bottom m-card-tagline">PDF (146 KB) 
+											<a class="a-link-icon a-link-icon--download" href="http://www.aviva.co.uk/life/policy-conditions.html" id="id_FF905_terms_0" target="_blank">
+</a>
+</p>
+</div>
+</li>
+<li><hr class="a-keyline-divider a-keyline-divider--horizontal-solid"/></li>
+<li class="m-card-download-list-item">
+<div class="m-card-flex__inner">
+<p class="m-card-flex__inner-top">Critical Illness Plan Policy Summary</p>
+<p class="m-card-flex__inner-bottom m-card-tagline">PDF (128 KB) 
+									<a class="a-link-icon a-link-icon--download" href="http://www.aviva.co.uk/life/critical-illness-cover/policy-summary.html" id="id_FF905_keyfeatures_1" target="_blank">
+</a>
+</p>
+</div>
+</li>
+<li><hr class="a-keyline-divider a-keyline-divider--horizontal-solid"/></li>
+<li class="m-card-download-list-item">
+<div class="m-card-flex__inner">
+<p class="m-card-flex__inner-top">Critical Illness Plan Policy Conditions</p>
+<p class="m-card-flex__inner-bottom m-card-tagline">PDF (204 KB) 
+											<a class="a-link-icon a-link-icon--download" href="http://www.aviva.co.uk/life/critical-illness-cover/policy-conditions.html" id="id_FF905_terms_1" target="_blank">
+</a>
+</p>
+</div>
+</li>
+<li><hr class="a-keyline-divider a-keyline-divider--horizontal-solid"/></li>
+<li class="m-card-download-list-item">
+<div class="m-card-flex__inner">
+<p class="m-card-flex__inner-top">Privacy Notice</p>
+<p class="m-card-flex__inner-bottom m-card-tagline">PDF (114 KB)
+									<a class="a-link-icon a-link-icon--download" href="https://www.aviva.co.uk/legal/privacy-notice/life/" id="id_FF905_static_0" target="_blank">
+</a>
+</p>
+</div>
+</li>
+<li><hr class="a-keyline-divider a-keyline-divider--horizontal-solid"/></li>
+<li class="m-card-download-list-item">
+<div class="m-card-flex__inner">
+<p class="m-card-flex__inner-top">About our insurance services</p>
+<p class="m-card-flex__inner-bottom m-card-tagline">PDF (73 KB)
+									<a class="a-link-icon a-link-icon--download" href="http://www.aviva.co.uk/life/key-facts.html" id="id_FF905_static_1" target="_blank">
+</a>
+</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="l-columns__column m-card t-accent-light t-accent-light--grey slick-slide slick-active">
+<div class="m-card-content">
+<h3 class="a-heading a-heading--2 a-heading--semibold">We’re secure</h3>
+<div class="m-card-content__inner">
+<p>Buy with confidence. We offer the highest level of security available on the internet.</p>
+<div>
+<a href="https://ssl.comodo.com" target="_blank"><img alt="SSL Certificate" class="" src="/protection/direct/resourcesFw/images/comodo-secure-logo-new.png"/>
+</a>
+</div>
+<p>
+<a data-rel="externalLink" href="https://secure.comodo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC5&amp;v_search=direct.aviva.co.uk&amp;x=6&amp;y=5" target="_blank" title="This link will open in a new browser window or tab">More information 
+					</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+</div>
+</div><input id="j_id1:javax.faces.ViewState:0" name="javax.faces.ViewState" type="hidden" value="6327887481797799387:-2244728335854860467"/>
+</form>

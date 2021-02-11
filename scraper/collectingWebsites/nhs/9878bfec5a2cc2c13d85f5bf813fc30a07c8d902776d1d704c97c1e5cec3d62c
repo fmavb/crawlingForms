@@ -1,0 +1,55 @@
+<form action="/services/hospital/chorley-and-south-ribble-hospital/X1314/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Very professional, efficient and staff are human&lt;/Title&gt;
+    &lt;ScreenName&gt;E Eccles&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I have recently been in Preston Royal, and Chorley and the difference is unbelievable Preston you are treated like an inconvenience, the staff are rude and the food is terrible. Chorley on the other hand cannot do enough for you they treat you with respect, kindness and compassion and nothing is to much for all the staff from doctors, nurses, porters etc. In the ward I was in there were some elderly ladies and the nurses were wonderful with them. Preston needs to take a look at how Chorley is managed and how the staff are trained  it costs nothing to be polite, inform and reassure a patient who just by being there in hospital are anxious and the way some of the nurses spoke to some of the elderly patients in Preston left a lot to be desired, I wonder how these same nurses/staff would feel,if someone talked to there Mother, daughter or wife with the same rudeness and couldn’t care less attitude.
+I could go on and on but we’ll done Chorley you certainly know how to treat your patients well and to the catering staff the food is great perhaps you could teach Preston royal a thing or to you all are a credit to the Nhs&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-10-25T17:35:17Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;10&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Chorley and South Ribble Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Cardiology&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;46b75e6f-e816-eb11-a813-0022483ee631&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1314&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFEB390UJGJVhY8ftB-ImsJZt_uey6pSY22aRjagKl_-vlkshIDhDMGHrqN7p5gavS1EoIVDQl0A07gLrma3edSvq_3kkSV2x-9IHBSr40XXELgICS0M1SF02lrh8SfKbI"/></form>

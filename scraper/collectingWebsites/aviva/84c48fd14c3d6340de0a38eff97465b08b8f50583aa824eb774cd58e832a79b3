@@ -1,0 +1,25 @@
+<form autocomplete="off" data-val="true" id="loginForm" method="post" novalidate="novalidate">
+<fieldset>
+<legend>Log in form</legend>
+<div class="m-form-row m-form-row--has-explanatory-text-link">
+<label class="a-label" for="emailAddress">Email address</label>
+<p class="m-form-row__explanatory-text-link"><a href="/forgotten-email">Forgot email</a></p>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="emailAddress" data-valmsg-replace="true"></span>
+<input aria-required="True" autocomplete="off" class="a-textbox" data-val="true" data-val-required="Please enter your email address" id="emailAddress" maxlength="50" name="emailAddress" type="email" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--has-explanatory-text-link">
+<label class="a-label" for="password">Password</label>
+<p class="m-form-row__explanatory-text-link"><a href="/forgotten-password">Forgot password</a></p>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="password" data-valmsg-replace="true"></span>
+<input aria-required="True" autocomplete="off" class="a-textbox" data-val="true" data-val-required="Please enter your password" id="password" maxlength="50" name="password" type="password"/>
+</div>
+</div>
+<div class="m-form-row">
+<input class="a-button a-button--primary" id="loginButton" name="loginButton" type="submit" value="Log in"/>
+</div>
+</fieldset>
+<input id="csrfToken" name="_csrf_token" type="hidden" value="bnO8gFCYWiUQzW16EWnS4BeOzyBvSUcaFF8YALgpDCY"/>
+</form>

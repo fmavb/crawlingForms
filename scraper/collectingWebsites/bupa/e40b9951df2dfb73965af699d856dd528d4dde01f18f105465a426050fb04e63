@@ -1,0 +1,29 @@
+<form class="formRegister" name="formRegister" novalidate="">
+<div class="ifholderhalf">
+<input data-ng-class="{ 'required' : (formRegister.firstName.$touched &amp;&amp; formRegister.firstName.$invalid) || (formRegister.firstName.$invalid &amp;&amp; isSubmit ),  '' : !formRegister.firstName.$invalid}" id="fname" name="firstName" ng-maxlength="58" ng-model="Purchase.User.FirstName" ng-pattern="/^[a-zA-Z àáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð]+$/u" placeholder="{{(fieldsLable['First_Name'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : (formRegister.firstName.$touched &amp;&amp; formRegister.firstName.$invalid) || (formRegister.firstName.$invalid &amp;&amp; isSubmit ),  '' : !formRegister.firstName.$invalid}" for="fname" ng-bind="(fieldsLable['First_Name'])[language]"></label>
+</div>
+<div class="ifholderhalf">
+<input data-ng-class="{ 'required' : formRegister.lastName.$touched &amp;&amp; formRegister.lastName.$invalid,  '' : !formRegister.lastName.$dirty &amp;&amp; !formRegister.lastName.$invalid}" id="lname" name="lastName" ng-maxlength="58" ng-model="Purchase.User.LastName" ng-pattern="/^[a-zA-Z àáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð]+$/u" placeholder="{{(fieldsLable['Last_Name'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : formRegister.lastName.$touched &amp;&amp; formRegister.lastName.$invalid,  '' : !formRegister.lastName.$dirty &amp;&amp; !formRegister.lastName.$invalid}" for="lname" ng-bind="(fieldsLable['Last_Name'])[language]"></label>
+</div>
+<div class="ifholderhalf">
+<div class="emailId_container">
+<input data-ng-class="{ 'required' : formRegister.emailId.$touched &amp;&amp; formRegister.emailId.$invalid,  '' : !formRegister.emailId.$dirty &amp;&amp; !formRegister.emailId.$invalid}" id="emailId" name="emailId" ng-blur="validateEmail($event, 'Email')" ng-model="Purchase.User.Email" ng-pattern="/^([a-zA-Z0-9_\+\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/" placeholder="{{(fieldsLable['Email'])[language]}}" required="" type="email"/>
+<label data-ng-class="{ 'required' : formRegister.emailId.$touched &amp;&amp; formRegister.emailId.$invalid,  '' : !formRegister.emailId.$touched &amp;&amp; !formRegister.emailId.$invalid}" for="email" ng-bind="(fieldsLable['Email'])[language]"></label>
+</div>
+</div>
+<div class="ifholderhalf halfwidth">
+<input data-ng-class="{ 'required' : formRegister.dob.$touched &amp;&amp; formRegister.dob.$invalid,  '' : !formRegister.dob.$dirty &amp;&amp; !formRegister.dob.$invalid}" id="birthday1" maxlength="10" name="dob" ng-if="!isHelixOrder" ng-model="Purchase.User.DOB__c" ng-pattern="/^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](18|19|20)\d\d$/" onkeypress="checkOnlyNumber(event)" onkeyup="AddSlash(event)" placeholder="DD/MM/YYYY" required="" type="text"/>
+<input data-ng-class="{ 'required' : formRegister.dob.$touched &amp;&amp; formRegister.dob.$invalid,  '' : !formRegister.dob.$dirty &amp;&amp; !formRegister.dob.$invalid}" id="birthday2" maxlength="10" name="dob" ng-if="isHelixOrder" ng-model="Purchase.User.DOB__c" ng-pattern="/^(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/(19|20)\d{2}$/" onkeypress="checkOnlyNumber(event)" onkeyup="AddSlash(event)" placeholder="MM/DD/YYYY" required="" type="text"/>
+<label data-ng-class="{ 'required' : formRegister.dob.$touched &amp;&amp; formRegister.dob.$invalid,  '' : !formRegister.dob.$touched &amp;&amp; !formRegister.dob.$invalid}" for="birthday" ng-bind="(fieldsLable['Dob'])[language]"></label>
+</div>
+<div class="ifholderhalf halfwidth">
+<select data-ng-class="{ 'required' : formRegister.gender.$touched &amp;&amp; formRegister.gender.$invalid,  '' : !formRegister.gender.$touched &amp;&amp; !formRegister.gender.$invalid}" id="gender" name="gender" ng-model="Purchase.User.Gender__c" ng-options="option.code as option.genderName for option in Gender[language]" required=""></select>
+<label data-ng-class="{ 'required' : formRegister.gender.$touched &amp;&amp; formRegister.gender.$invalid,  '' : !formRegister.gender.$dirty &amp;&amp; !formRegister.gender.$invalid}" for="gender" ng-bind="(fieldsLable['Gender'])[language]"></label>
+</div>
+<div class="ifholderhalf">
+<input data-ng-class="{ 'required' : formRegister.Phone1.$touched &amp;&amp; formRegister.Phone1.$invalid,  '' : !formRegister.Phone1.$dirty &amp;&amp; !formRegister.Phone1.$invalid}" id="Phone1" name="Phone1" ng-maxlength="80" ng-model="Purchase.User.Account.Phone1" ng-pattern="/^([0-9\(\)\/\+ \-]*)$/" placeholder="{{(fieldsLable['Phone'])[language]}}" required="" type="text"/>
+<label data-ng-class="{ 'required' : formRegister.Phone1.$touched &amp;&amp; formRegister.Phone1.$invalid,  '' : !formRegister.Phone1.$dirty &amp;&amp; !formRegister.Phone1.$invalid}" for="Phone1" ng-bind="(fieldsLable['Phone'])[language]"></label>
+</div>
+</form>

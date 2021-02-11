@@ -1,0 +1,26 @@
+<form accept-charset="UTF-8" action="/state-pension-age/y" data-module="track-responses" data-question-key="What would you like to calculate?" data-type="radio_question" method="get">
+<div class="govuk-!-margin-bottom-6 govuk-!-margin-top-8" id="current-question">
+<div class="govuk-form-group">
+<fieldset aria-describedby="hint-b93a4c79" class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+<span class="govuk-caption-l">Check your State Pension age</span>
+<h1 class="gem-c-radio__heading-text govuk-fieldset__heading">What would you like to calculate?</h1>
+</legend>
+<div class="gem-c-hint govuk-hint govuk-!-margin-bottom-3" id="hint-b93a4c79">
+</div>
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="response-0" name="response" type="radio" value="age"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="response-0">State Pension age - including Pension Credit qualifying age</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="response-1" name="response" type="radio" value="bus_pass"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="response-1">Bus pass age - find out when you’ll get free bus travel</label>
+</div>
+</div>
+</fieldset>
+</div>
+<input name="next" type="hidden" value="1"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</div>
+</form>

@@ -1,0 +1,863 @@
+<form action="/MComm/site/process/steps/smallBusiness/risk/generalInformation" autocomplete="off" method="post" name="processDataForm">
+<script type="text/javascript">
+var formName = 'processDataForm';
+	preNavigate = coverPreNavigate;
+	
+	function coverPreNavigate(navMethod, page, command, subcommand)
+	{
+		navigateForm = document.forms[formName];
+		defaultCommand = 'generalInformation';
+		defaultSubCommand = '';
+		return true;
+	}
+	
+	function removeFirstTrade() {
+		showLoading();
+		setScrollPosition();
+		removeCommas();
+		navigate( 'forward', null, 'generalInformation', 'removeFirstTrade' );
+	}
+	
+	function addSecondTrade() {
+		showLoading();
+		setScrollPosition();
+		removeCommas();
+		navigate( 'forward', null, 'generalInformation', 'addSecondTrade' );
+	}
+	
+	function removeSecondTrade() {
+		showLoading();
+		setScrollPosition();
+		removeCommas();
+		navigate( 'forward', null, 'generalInformation', 'removeSecondTrade' );
+	}
+	
+	function addThirdTrade() {
+		showLoading();
+		setScrollPosition();
+		removeCommas();
+		navigate( 'forward', null, 'generalInformation', 'addThirdTrade' );
+	}
+	
+	function removeThirdTrade() {
+		showLoading();
+		setScrollPosition();
+		removeCommas();
+		navigate( 'forward', null, 'generalInformation', 'removeThirdTrade' );
+	}
+	
+	function clearCoverSelections() {
+		$('.cover.selected').each(function() {
+			var id = $(this).attr('id').substring(6);
+			$('#coverRequired-'+id).val('No');
+			$('#amount-'+id+' input').val('');
+		});
+	}
+	
+	function refreshPage(businessPremisesIndChanged) {
+		if (businessPremisesIndChanged === true) {
+			clearCoverSelections();
+		}
+		showLoading();
+		setScrollPosition();
+		removeCommas();
+		navigate( 'forward', null, 'generalInformation', 'refresh' );
+	}
+	
+	function boldMatchedString(text, searchString) {
+		searchString = searchString.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+		var re = new RegExp(searchString, 'gi');
+		return text.replace(re, function(match) {
+			return "<span style='font-weight:bold'>"+match+"</span>";
+		});
+	}
+
+	function getTradeFromCode(code) {
+		var selectedTrade = $.grep(tradeList, function(trade) { return trade.code == code });
+		if (selectedTrade.length > 0) {
+			return selectedTrade[0];
+		} else {
+			return false;
+		}
+	}
+	
+	function checkTradesCompatible(onLoad, businessPremisesIndChanged) {
+		if ($('#businessPremisesIndYes').is(':checked') || $('#businessPremisesIndNo').is(':checked')) {
+			var compatible = true;
+			if ($('#tradeCodes').val() !== '') {
+				var trade = getTradeFromCode($('#tradeCodes').val());
+				if (trade !== false) {
+					if ((trade.homeAcceptable === false && $('#businessPremisesIndNo').is(':checked')) || (trade.businessAcceptable === false && $('#businessPremisesIndYes').is(':checked'))) {
+						compatible = false;
+					}
+				}
+			}
+			if ($('#tradeCodes2').val() !== '') {
+				var trade2 = getTradeFromCode($('#tradeCodes2').val());
+				if (trade2 !== false) {
+					if ((trade2.homeAcceptable === false && $('#businessPremisesIndNo').is(':checked')) || (trade2.businessAcceptable === false && $('#businessPremisesIndYes').is(':checked'))) {
+						compatible = false;
+					}
+				}
+			}
+			if ($('#tradeCodes3').val() !== '') {
+				var trade3 = getTradeFromCode($('#tradeCodes3').val());
+				if (trade3 !== false) {
+					if ((trade3.homeAcceptable === false && $('#businessPremisesIndNo').is(':checked')) || (trade3.businessAcceptable === false && $('#businessPremisesIndYes').is(':checked'))) {
+						compatible = false;
+					}
+				}
+			}
+			if (compatible === true) {
+				if (onLoad === true) {
+					$('#premisesIncompatible').hide();
+					$('#tradeAssumptions').show();
+					checkStatus();
+				} else {
+					$('#premisesIncompatible').slideUp();
+					if ($('#tradeAssumptions').length > 0) {
+						$('#tradeAssumptions').slideDown();
+						if (($('#highRiskIndYes').is(':checked') || $('#highRiskIndNo').is(':checked')) && $('#tradeCodes').val() !== '') {
+							refreshPage(businessPremisesIndChanged);
+						} else {
+							$('#tradeErrorType').html('');
+						}
+					} else {
+						if ($('#tradeCodes').val() !== '') {
+							refreshPage(businessPremisesIndChanged);
+						}
+					}
+				}
+			} else {
+				if (onLoad === true) {
+					$('#tradeAssumptions').slideUp();
+					$('#premisesIncompatible').slideDown();
+					$('#tradeErrorType').html('premisesIncompatible');
+					tradesAcceptable = false;
+					checkStatus();
+				} else {
+					if ($('#tradeCodes').val() !== '') {
+						refreshPage(businessPremisesIndChanged);
+					}
+				}
+			}
+		} else {
+			checkStatus();
+		}
+	}
+	
+	function checkTradeCompatability(trade) {
+		var compatible = true;
+		if ($('#tradeCodes2').val() !== '') {
+			var trade2 = getTradeFromCode($('#tradeCodes2').val());
+			if (trade2 !== false) {
+				if (trade.health !== trade2.health || ((trade.segment == 'Retail' || trade.segment == 'Leisure') && trade2.segment != 'Retail' && trade2.segment != 'Leisure') || ((trade2.segment == 'Retail' || trade2.segment == 'Leisure') && trade.segment != 'Retail' && trade.segment != 'Leisure')) {
+					compatible = false;
+				}
+			}
+		}
+		if ($('#tradeCodes3').val() !== '') {
+			var trade3 = getTradeFromCode($('#tradeCodes3').val());
+			if (trade3 !== false) {
+				if (trade.health !== trade3.health || ((trade.segment == 'Retail' || trade.segment == 'Leisure') && trade3.segment != 'Retail' && trade3.segment != 'Leisure') || ((trade3.segment == 'Retail' || trade3.segment == 'Leisure') && trade.segment != 'Retail' && trade.segment != 'Leisure')) {
+					compatible = false;
+				}
+			}
+		}
+		return compatible;
+	}
+	
+	function checkTradeCompatability2(trade) {
+		var compatible = true;
+		if ($('#tradeCodes').val() !== '') {
+			var trade2 = getTradeFromCode($('#tradeCodes').val());
+			if (trade2 !== false) {
+				if (trade.health !== trade2.health || ((trade.segment == 'Retail' || trade.segment == 'Leisure') && trade2.segment != 'Retail' && trade2.segment != 'Leisure') || ((trade2.segment == 'Retail' || trade2.segment == 'Leisure') && trade.segment != 'Retail' && trade.segment != 'Leisure')) {
+					compatible = false;
+				}
+			}
+		}
+		if ($('#tradeCodes3').val() !== '') {
+			var trade3 = getTradeFromCode($('#tradeCodes3').val());
+			if (trade3 !== false) {
+				if (trade.health !== trade3.health || ((trade.segment == 'Retail' || trade.segment == 'Leisure') && trade3.segment != 'Retail' && trade3.segment != 'Leisure') || ((trade3.segment == 'Retail' || trade3.segment == 'Leisure') && trade.segment != 'Retail' && trade.segment != 'Leisure')) {
+					compatible = false;
+				}
+			}
+		}
+		return compatible;
+	}
+	
+	function checkTradeCompatability3(trade) {
+		var compatible = true;
+		if ($('#tradeCodes2').val() !== '') {
+			var trade2 = getTradeFromCode($('#tradeCodes2').val());
+			if (trade2 !== false) {
+				if (trade.health !== trade2.health || ((trade.segment == 'Retail' || trade.segment == 'Leisure') && trade2.segment != 'Retail' && trade2.segment != 'Leisure') || ((trade2.segment == 'Retail' || trade2.segment == 'Leisure') && trade.segment != 'Retail' && trade.segment != 'Leisure')) {
+					compatible = false;
+				}
+			}
+		}
+		if ($('#tradeCodes').val() !== '') {
+			var trade3 = getTradeFromCode($('#tradeCodes').val());
+			if (trade3 !== false) {
+				if (trade.health !== trade3.health || ((trade.segment == 'Retail' || trade.segment == 'Leisure') && trade3.segment != 'Retail' && trade3.segment != 'Leisure') || ((trade3.segment == 'Retail' || trade3.segment == 'Leisure') && trade.segment != 'Retail' && trade.segment != 'Leisure')) {
+					compatible = false;
+				}
+			}
+		}
+		return compatible;
+	}
+	
+	function setTradeCode(code) {
+		var selectedTrade = getTradeFromCode(code);
+		if (selectedTrade !== false) {
+			$("#tradeCodeText").val(selectedTrade.description);
+			$("#tradeCodeResults").hide();
+			if (selectedTrade.acceptable === false) {
+				if ($('#milesSmithDecline1').length > 0) {
+					if (selectedTrade.milesSmithDecline === true) {
+						$('#milesSmithDecline1').slideDown();
+						$('#tradeDeclined').slideDown();
+						$('#standardDecline1').hide();
+						$('#consultancyDecline1').hide();
+
+					} else {
+						$('#milesSmithDecline1').hide();
+						$('#tradeDeclined').slideDown();
+						$('#standardDecline1').slideDown();
+						$('#consultancyDecline1').hide();
+					}
+				}
+				
+				else if( code === 'B566 165' )
+				{
+					$('#standardDecline1').hide();
+					$('#tradeDeclined').slideDown();
+					$('#consultancyDecline1').slideDown();
+					$('#generalDecline').hide();
+					$('#tradeErrorType').html('tradeDeclined');
+					tradesAcceptable = false;
+					checkStatus();
+				}
+				else
+				{
+					$('#tradeDeclined').slideDown();
+					$('#tradeErrorType').html('tradeDeclined');
+					$('#consultancyDecline1').hide();
+					tradesAcceptable = false;
+					checkStatus();
+				}
+			} else if (checkTradeCompatability(selectedTrade) === false) {
+				$('#tradesIncompatible').slideDown();
+				$('#tradeErrorType').html('tradesIncompatible');
+				tradesAcceptable = false;
+				checkStatus();
+			} else {
+				$('#tradeErrorType').html('');
+				$("#tradeCodes").val(code).on('change');
+				showLoading();
+				setScrollPosition();
+				removeCommas();
+				navigate( 'forward', null, 'generalInformation', 'tradeInfo' );
+			}
+		}
+	}
+	
+	function setTradeCode2(code) {
+		var selectedTrade = getTradeFromCode(code);
+		if (selectedTrade !== false) {
+			$("#tradeCodeText2").val(selectedTrade.description);
+			$("#tradeCodeResults2").hide();
+			if (selectedTrade.acceptable === false) {
+				if ($('#milesSmithDecline2').length > 0) {
+					if (selectedTrade.milesSmithDecline === true) {
+						$('#milesSmithDecline2').slideDown();
+						$('#standardDecline2').hide();
+					} else {
+						$('#milesSmithDecline2').hide();
+						$('#standardDecline2').slideDown();
+					}
+				}
+				else if( code === 'B566 165' )
+				{
+					$('#standardDecline2').hide();
+					$('#tradeDeclined2').slideDown();
+					$('#consultancyDecline2').slideDown();
+					$('#generalDecline2').hide();
+					$('#tradeErrorType2').html('tradeDeclined');
+					tradesAcceptable = false;
+					checkStatus();
+				}
+				else
+				{
+					$('#tradeDeclined2').slideDown();
+					$('#tradeErrorType').html('tradeDeclined');
+					$('#consultancyDecline2').hide();
+					tradesAcceptable = false;
+					checkStatus();
+				}
+			} else if (checkTradeCompatability2(selectedTrade) === false) {
+				$('#tradesIncompatible2').slideDown();
+				$('#tradeErrorType').html('tradesIncompatible');
+				tradesAcceptable = false;
+				checkStatus();
+			} else {
+				$('#tradeErrorType').html('');
+				$("#tradeCodes2").val(code).on('change');
+				showLoading();
+				setScrollPosition();
+				removeCommas();
+				navigate( 'forward', null, 'generalInformation', 'tradeInfo2' );
+			}
+		}
+	}
+	
+	function setTradeCode3(code) {
+		var selectedTrade = getTradeFromCode(code);
+		if (selectedTrade !== false) {
+			$("#tradeCodeText3").val(selectedTrade.description);
+			$("#tradeCodeResults3").hide();
+			if (selectedTrade.acceptable === false) {
+				$('#tradeDeclined3').slideDown();
+				if ($('#milesSmithDecline3').length > 0) {
+					if (selectedTrade.milesSmithDecline === true) {
+						$('#milesSmithDecline3').slideDown();
+						$('#standardDecline3').hide();
+					} else {
+						$('#milesSmithDecline3').hide();
+						$('#standardDecline3').slideDown();
+					}
+				}
+				else if( code === 'B566 165' )
+				{
+					$('#standardDecline3').hide();
+					$('#tradeDeclined3').slideDown();
+					$('#consultancyDecline3').slideDown();
+					$('#generalDecline3').hide();
+					$('#tradeErrorType3').html('tradeDeclined');
+					tradesAcceptable = false;
+					checkStatus();
+				}
+				else
+				{
+					$('#tradeDeclined3').slideDown();
+					$('#tradeErrorType').html('tradeDeclined');
+					$('#consultancyDecline3').hide();
+					tradesAcceptable = false;
+					checkStatus();
+				}
+			} else if (checkTradeCompatability3(selectedTrade) === false) {
+				$('#tradesIncompatible3').slideDown();
+				$('#tradeErrorType').html('tradesIncompatible');
+				tradesAcceptable = false;
+				checkStatus();
+			} else {
+				$('#tradeErrorType').html('');
+				$("#tradeCodes3").val(code).on('change');
+				showLoading();
+				setScrollPosition();
+				removeCommas();
+				navigate( 'forward', null, 'generalInformation', 'tradeInfo3' );
+			}
+		}
+	}
+
+	function checkTradeCode() {
+		if ($("#tradeCodes").val() != '') {
+			var selectedTrade = $.grep(tradeList, function(trade) { return trade.code == $("#tradeCodes").val() });
+			if (selectedTrade.length > 0) {
+				$("#tradeCodeText").val(selectedTrade[0].description);
+			}
+		}
+		$("#tradeCodeText").on('focus keyup', function() {
+			$("#tradeCodes").val("");
+			$('#tradeDeclined').slideUp();
+			if ($(this).val().length >= 3) {
+				var searchString = $(this).val();
+				var trade2 = $('#tradeCodes2') !== '' ? $('#tradeCodes2').val() : '';
+				var trade3 = $('#tradeCodes3') !== '' ? $('#tradeCodes3').val() : '';
+				var firstResults = tradeList.filter(function(match) { return match.description.toLowerCase().indexOf(searchString.toLowerCase()) === 0 && match.code !== trade2 && match.code !== trade3; }).sort(function(a, b) {
+					return a.description.toLowerCase() < b.description.toLowerCase() ? -1 : a.description.toLowerCase() > b.description.toLowerCase() ? 1 : 0;
+				});
+				var otherResults = firstResults.length <= 70 ? tradeList.filter(function(match) { return match.description.toLowerCase().indexOf(searchString.toLowerCase()) !== -1 && firstResults.indexOf(match) === -1 && match.code !== trade2 && match.code !== trade3; }).sort(function(a, b) {
+					return a.description.toLowerCase() < b.description.toLowerCase() ? -1 : a.description.toLowerCase() > b.description.toLowerCase() ? 1 : 0;
+				}) : new Array();
+				var searchResults = firstResults.concat(otherResults);
+				var results = '<div class="result">Please select an option from the list to tell us what your business does</div>';
+				$("#tradeCodeResults").html('');
+				for (var i = 0; i < searchResults.length; i++) {
+					results = results + '<div class="result tradeSearchResult" data-tradecode="' + searchResults[i].code + '">' + boldMatchedString(searchResults[i].description, searchString) + '</div>';
+				}
+				if (searchResults.length > 0) {
+					$("#tradeCodeResults").html(results).show();
+				} else {
+					$("#tradeCodeResults").html('<div class="result" style="font-style:italic">Sorry, no matching options found</div>').show();
+				}
+				$('#tradeCodeResults .tradeSearchResult').off('click').on('click', function() {
+					setTradeCode($(this).attr('data-tradecode'));
+				});
+			} else {
+				$("#tradeCodeResults").hide();
+			}
+		});
+	}
+	
+	function checkTradeCode2() {
+		if ($("#tradeCodes2").val() != '') {
+			var selectedTrade = $.grep(tradeList, function(trade) { return trade.code == $("#tradeCodes2").val() });
+			if (selectedTrade.length > 0) {
+				$("#tradeCodeText2").val(selectedTrade[0].description);
+			}
+		}
+		$("#tradeCodeText2").on('focus keyup', function() {
+			$("#tradeCodes2").val("");
+			$('#tradeDeclined2').slideUp();
+			if ($(this).val().length >= 3) {
+				var searchString = $(this).val();
+				var trade1 = $('#tradeCodes') !== '' ? $('#tradeCodes').val() : '';
+				var trade3 = $('#tradeCodes3') !== '' ? $('#tradeCodes3').val() : '';
+				var firstResults = tradeList.filter(function(match) { return match.description.toLowerCase().indexOf(searchString.toLowerCase()) === 0 && match.code !== trade1 && match.code !== trade3; }).sort(function(a, b) {
+					return a.description.toLowerCase() < b.description.toLowerCase() ? -1 : a.description.toLowerCase() > b.description.toLowerCase() ? 1 : 0;
+				});
+				var otherResults = firstResults.length <= 70 ? tradeList.filter(function(match) { return match.description.toLowerCase().indexOf(searchString.toLowerCase()) !== -1 && firstResults.indexOf(match) === -1 && match.code !== trade1 && match.code !== trade3; }).sort(function(a, b) {
+					return a.description.toLowerCase() < b.description.toLowerCase() ? -1 : a.description.toLowerCase() > b.description.toLowerCase() ? 1 : 0;
+				}) : new Array();
+				var searchResults = firstResults.concat(otherResults);
+				var results = '<div class="result">Please select an option from the list to tell us what your business does</div>';
+				$("#tradeCodeResults2").html('');
+				for (var i = 0; i < searchResults.length; i++) {
+					results = results + '<div class="result tradeSearchResult" data-tradecode="' + searchResults[i].code + '">' + boldMatchedString(searchResults[i].description, searchString) + '</div>';
+				}
+				if (searchResults.length > 0) {
+					$("#tradeCodeResults2").html(results).show();
+				} else {
+					$("#tradeCodeResults2").html('<div class="result" style="font-style:italic">Sorry, no matching options found</div>').show();
+				}
+				$('#tradeCodeResults2 .tradeSearchResult').off('click').on('click', function() {
+					setTradeCode2($(this).attr('data-tradecode'));
+				});
+			} else {
+				$("#tradeCodeResults2").hide();
+			}
+		});
+	}
+	
+	function checkTradeCode3() {
+		if ($("#tradeCodes3").val() != '') {
+			var selectedTrade = $.grep(tradeList, function(trade) { return trade.code == $("#tradeCodes3").val() });
+			if (selectedTrade.length > 0) {
+				$("#tradeCodeText3").val(selectedTrade[0].description);
+			}
+		}
+		$("#tradeCodeText3").on('focus keyup', function() {
+			$("#tradeCodes3").val("");
+			$('#tradeDeclined3').slideUp();
+			if ($(this).val().length >= 3) {
+				var searchString = $(this).val();
+				var trade1 = $('#tradeCodes') !== '' ? $('#tradeCodes').val() : '';
+				var trade2 = $('#tradeCodes2') !== '' ? $('#tradeCodes2').val() : '';
+				var firstResults = tradeList.filter(function(match) { return match.description.toLowerCase().indexOf(searchString.toLowerCase()) === 0 && match.code !== trade1 && match.code !== trade2; }).sort(function(a, b) {
+					return a.description.toLowerCase() < b.description.toLowerCase() ? -1 : a.description.toLowerCase() > b.description.toLowerCase() ? 1 : 0;
+				});
+				var otherResults = firstResults.length <= 70 ? tradeList.filter(function(match) { return match.description.toLowerCase().indexOf(searchString.toLowerCase()) !== -1 && firstResults.indexOf(match) === -1 && match.code !== trade1 && match.code !== trade2; }).sort(function(a, b) {
+					return a.description.toLowerCase() < b.description.toLowerCase() ? -1 : a.description.toLowerCase() > b.description.toLowerCase() ? 1 : 0;
+				}) : new Array();
+				var searchResults = firstResults.concat(otherResults);
+				var results = '<div class="result">Please select an option from the list to tell us what your business does</div>';
+				$("#tradeCodeResults3").html('');
+				for (var i = 0; i < searchResults.length; i++) {
+					results = results + '<div class="result tradeSearchResult" data-tradecode="' + searchResults[i].code + '">' + boldMatchedString(searchResults[i].description, searchString) + '</div>';
+				}
+				if (searchResults.length > 0) {
+					$("#tradeCodeResults3").html(results).show();
+				} else {
+					$("#tradeCodeResults3").html('<div class="result" style="font-style:italic">Sorry, no matching options found</div>').show();
+				}
+				$('#tradeCodeResults3 .tradeSearchResult').off('click').on('click', function() {
+					setTradeCode3($(this).attr('data-tradecode'));
+				});
+			} else {
+				$("#tradeCodeResults3").hide();
+			}
+		});
+	}
+
+	function setScrollPosition() {
+		var form = document.forms[formName];
+		var scroll = 0;
+		if (typeof scrollPosition != typeof undefined && scrollPosition != 0) {
+			scroll = scrollPosition;
+		} else {
+			scroll = $(document).scrollTop();
+		}
+		form["controlData(scrollPosition)"].value = scroll;
+	}
+
+	function clearScrollPosition() {
+		var form = document.forms[formName];
+		form["controlData(scrollPosition)"].value = '';
+	}
+
+	function checkScrollPosition() {
+		var form = document.forms[formName];
+		var scroll = form["controlData(scrollPosition)"].value;
+		$(document).scrollTop(scroll);
+	}
+	
+	function showLoading() {
+		$('#loading').show();
+	}
+
+	function addCommas(str) {
+		
+		str = str.replace(/\,/g,'');
+		str = str.replace(/£/g,'');
+		str += '';
+		x = str.split('.');
+		x1 = x[0];
+		x2 = x.length > 1 ? '.' + x[1] : '';
+		var rgx = /(\d+)(\d{3})/;
+		while (rgx.test(x1)) {
+			x1 = x1.replace(rgx, '$1' + ',' + '$2');
+		}
+		return x1 + x2;
+		
+		
+	}
+
+	function removeCommas() {
+		
+		$(".money").each(function() {
+			var str = $(this).val();
+			str = str.replace(/\,/g,'');
+			str = str.replace(/£/g,'');
+			$(this).val(str);
+		});
+		
+	}
+	
+	function removeCommasFromStr(str) {
+		
+			str = str.replace(/\,/g,'');
+			str = str.replace(/£/g,'');
+			return str;
+		
+		
+	}
+	
+	function checkStatus() {
+		var continueAllowed = false;
+		$('#tempstockSIError').slideUp();
+		if (tradesAcceptable === true) {
+			if ($('#tradeCodes').val() !== '') {
+				if ($('#businessPremisesIndYes').is(':checked') || $('#businessPremisesIndNo').is(':checked')) {
+					if ($('#tradeAssumptions').length === 0 || ($('#tradeAssumptions').length > 0 && ($('#highRiskIndYes').is(':checked') || $('#highRiskIndNo').is(':checked')))) {
+						if (($('#businessPremisesIndNo').is(':checked') && $('.cover.selected').length > 0) || ($('#businessPremisesIndYes').is(':checked') && $('.requiredCover.selected').length > 0)) {
+							if ($('#coverRequired-stock').length > 0 && $('#coverRequired-stock').val() == 'Yes' && $('#coverRequired-tempstock').length > 0 && $('#coverRequired-tempstock').val() == 'Yes' && +removeCommasFromStr($('#deteriorationStockAmount').val()) > +removeCommasFromStr($('#stockAmount').val())) {
+								continueAllowed = false;
+								$('#tempstockSIError').slideDown();
+							} else {
+								continueAllowed = true;
+							}
+						} else {
+							continueAllowed = false;
+						}
+					} else {
+						continueAllowed = false;
+					}
+				} else {
+					continueAllowed = false;
+				}
+			} else {
+				continueAllowed = false;
+			}
+		} else {
+			continueAllowed = false;
+		}
+		if (continueAllowed === true) {
+			$('#continueButton').prop('disabled', false);
+		} else {
+			$('#continueButton').prop('disabled', true);
+		}
+	}
+	
+	var tradeList = new Array();
+	var tradesAcceptable = true;
+	
+	function buildTradeList() {
+		$.ajax({
+			type: 'GET',
+			url: '/MComm/htmlfiles/staticTradeList.html',
+			timeout: 25000,
+			success: function(data) {
+				var tmpDiv = document.createElement('div');
+				$(tmpDiv).html(data);
+				var trades = $(tmpDiv).find("#tradeList");
+				trades.children('.trade').each(function() {
+					var trade = new Object();
+					trade.id = $(this).attr('id');
+					trade.code = $(this).attr('data-tradecode');
+					trade.description = $(this).attr('data-tradedescription');
+					trade.acceptable = ($(this).attr('data-tradeacceptable') == 'true');
+					trade.homeAcceptable = ($(this).attr('data-tradehome') == 'true');
+					trade.businessAcceptable = ($(this).attr('data-tradebusiness') == 'true');
+					trade.health = ($(this).attr('data-tradehealth') == 'true');
+					trade.segment = $(this).attr('data-tradesegment');
+					trade.milesSmithDecline = ($(this).attr('data-milessmithdecline') == 'true');
+					tradeList.push(trade);
+				});
+				$(tmpDiv).remove();
+				checkTradeCode();
+				checkTradeCode2();
+				checkTradeCode3();
+				checkTradesCompatible(true, false);
+			},
+			cache: true
+		});
+	}	
+	function checkPrereqs(prereq) {
+		var coreCovers = $('div[data-prereqs*="' + prereq + '"]');
+		var selectedCoreCover = false;
+		for (var i = 0; i < coreCovers.length; i++) {
+			var id = $(coreCovers[i]).attr('id').substring(6);
+			if ($('#coverRequired-'+id).val() == 'Yes') {
+				selectedCoreCover = true;
+			}
+		}
+		if (selectedCoreCover === false) {
+			$('#cover-'+prereq).find('.input input[type=radio]').each(function() {
+				var id = $(this).attr('id');
+				$(this).prop('checked', false);
+				$('label[for=' + id + ']').removeClass('selected');
+			});
+			$('#cover-'+prereq).find('.input input[type=text]').val('£');
+			$('#cover-'+prereq).addClass('disabled').removeClass('selected');
+			$('#coverRequired-'+prereq).val('No');
+			$('#amount-'+prereq).slideUp();
+		}
+	}
+
+	$(function() {
+		buildTradeList();
+		checkScrollPosition();
+		fbq('init', '307316013012376');
+		fbq('track', 'PageView');
+		$("#continueButton").validate({
+			navMethod: "forward",
+			page: null,
+			command: "generalInformation",
+			subcommand: "",
+			validateClass: "validate",
+			forceFocus: false,
+			autoSyntax: true,
+			postValidate: "removeCommas();clearScrollPosition()",
+			onFail: "updateErrorCounter()"
+		});
+		$('#businessPremisesIndYes, #businessPremisesIndNo').on('click', function() {
+			checkTradesCompatible(false, true);
+		});
+		$('#highRiskIndYes, #highRiskIndNo').on('click', function() {
+			refreshPage();
+		});
+		if ($('#highRiskIndNo').is(':checked')) {
+			$('#tradeAssumptionsDecline').show();
+		}
+		$("#highRiskInfoLink").on('click', function() {
+			$("#highRiskInfo").show();
+			$("#highRiskInfoLink").hide();
+			$("#highRiskInfoLinkClose").show();
+		});
+		$("#highRiskInfoLinkClose").on('click', function() {
+			$("#highRiskInfo").hide();
+			$("#highRiskInfoLink").show();
+			$("#highRiskInfoLinkClose").hide();
+		});
+		$('#nonSoleEmployeesDirectors').on('keyup', function() {
+			showOtherPerson(parseInt($(this).val()));
+		});
+		$('#tradeCodeText').watermark('Start typing to see options');
+		$('#tradeCodeText2').watermark('Start typing to see options');
+		$('#tradeCodeText3').watermark('Start typing to see options');
+		$('.cover').each(function() {
+			if ($(this).hasClass('selected')) {
+				var id = $(this).attr('id').substring(6);
+				$('#amount-'+id).show();
+			}
+		});
+
+		$('#sourceCodePageValue').ready(function() {
+			var affiliateName = $('#sourceCodePageValue').val();
+			switch(affiliateName){
+				case "H101" :
+					$('#furtherInfoHSBC').show();
+					break;
+				case "AVIVA" :
+					$('#furtherInfoHSBC').hide();
+					break;
+				case "" :
+					$('#furtherInfoHSBC').hide();
+			}
+		});
+
+		$('#select-electronics').on('change', function() {
+			$('#elecAmount').val('£');
+		})		
+
+		$('#sourceCodePageValue').on('change', function() {
+			showLoading();
+			setScrollPosition();
+			removeCommas();
+			navigate( 'forward', null, 'generalInformation', 'refresh' );
+		});
+
+		$('.selection .tick').on('click', function() {
+			var id = $(this).attr('id').substring(7);
+			if (!$('#cover-'+id).hasClass('disabled')) {
+				if ($('#coverRequired-'+id).val() !== 'Yes') {
+					$('#coverRequired-'+id).val('Yes');
+					$('#cover-'+id).addClass('selected');
+					$('#amount-'+id).slideDown();
+					if (typeof $('#cover-'+id).attr('data-prereqs') !== typeof undefined) {
+						var prereqs = $('#cover-'+id).attr('data-prereqs');
+						if (prereqs.indexOf(',') >= 0) {
+							prereqs = prereqs.split(',');
+							for (var i = 0; i < prereqs.length; i++) {
+								$('#cover-'+prereqs[i]).removeClass('disabled');
+							}
+						} else {
+							$('#cover-'+prereqs).removeClass('disabled');
+						}
+					}
+				} else {
+					$('#coverRequired-'+id).val('No');
+					$('#cover-'+id).removeClass('selected');
+					$('#amount-'+id).slideUp();
+					$('#amount-'+id).find('.input input[type=text]').val('£');
+					$('#cover-'+id).find('.input input[type=radio]').each(function() {
+						var _id = $(this).attr('id');
+						$(this).prop('checked', false);
+						$('label[for=' + _id + ']').removeClass('selected');
+					});
+
+					if (typeof $('#cover-'+id).attr('data-prereqs') !== typeof undefined) {
+						var prereqs = $('#cover-'+id).attr('data-prereqs');
+						if (prereqs.indexOf(',') >= 0) {
+							prereqs = prereqs.split(',');
+							for (var i = 0; i < prereqs.length; i++) {
+								checkPrereqs(prereqs[i]);
+							}
+						} else {
+							checkPrereqs(prereqs);
+						}
+					}
+				}
+				checkStatus();
+			}
+		});
+		
+		$(".money").each(function() {
+			$(this).val("£" + addCommas($(this).val()));
+			$(this).on('keyup', function(e) {
+				var code = (e.keyCode || e.which);
+				if(code == 37 || code == 38 || code == 39 || code == 40) {
+					return;
+				}
+				var str = addCommas($(this).val());
+				$(this).val("£" + str);
+			});
+		});
+		
+
+		if ($('#publicLiability1').is(':checked')) {
+			$('#pl1mWarning').show();
+		}
+		$('#publicLiability1').on('click', function() {
+			$('#pl1mWarning').slideDown();
+		});
+		$('#publicLiability2').on('click', function() {
+			$('#pl1mWarning').slideUp();
+		});
+		$('#publicLiability5').on('click', function() {
+			$('#pl1mWarning').slideUp();
+		});
+		$('#publicLiability10').on('click', function() {
+			$('#pl1mWarning').slideUp();
+		});
+
+		if ($('#publicLiability1').length > 0) {
+			if ($('input[name="data.client.policies.policy.commercialPolicy.covers.cover(B205 L20).amount"]:checked').length == 0) {
+				$('label[for=publicLiability2]').on('click');
+			}
+		}
+
+		$('#stockAmount').on('blur', function() {
+			$('#stockValue').html(addCommas(removeCommasFromStr($(this).val())));
+			checkStatus();
+		});
+		$('#deteriorationStockAmount').on('blur', function() {
+			checkStatus();
+		});
+
+	});
+</script>
+<noscript>
+<img height="1" src="https://www.facebook.com/tr?id=307316013012376&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/>
+</noscript>
+<input name="command" type="hidden" value=""/>
+<input name="navigation" type="hidden" value=""/>
+<input name="forwardPath" type="hidden" value=""/>
+<input name="controlData(scrollPosition)" type="hidden" value=""/>
+<div class="pageForm">
+<h1>About your business</h1>
+<div class="formItem">
+<label>What does your business do?</label>
+<div class="input">
+<input class="validate large" id="tradeCodeText" type="text"/>
+<div class="tradeCodeResults" id="tradeCodeResults"></div>
+<input class="hidden" id="tradeCodes" name="data.client.policies.policy.commercialPolicy.trades.trade[0].code" type="text" value=""/>
+</div>
+<div class="help" id="help-tradeCode">
+<a href="/MComm/htmlfiles/help/smallBusiness/cover/businessCode.html">
+<img alt="More information" src="/MComm/images/info.png"/>
+</a>
+</div>
+<div class="validation">
+<div class="required">true</div>
+<div class="requiredMsg">Please select your trade / occupation</div>
+<div class="syntax">addressLine</div>
+<div class="syntaxMsg">Please select your trade / occupation</div>
+</div>
+</div>
+<div class="toggleBox" id="tradeDeclined" style="display:none">
+<p class="error" id="generalDecline">It looks like we can't offer you a quote online for this industry or occupation. Why not get in touch with <a href="https://www.biba.org.uk/find-insurance/" target="_blank">an insurance broker</a> who might be able to help you find cover?</p>
+<p class="error" id="consultancyDecline1">Please specify the type of consultancy using the drop down menu, if you cannot find a description to fit your industry or occupation we are unable to quote on this occasion. Why not get in touch with <a href="https://www.biba.org.uk/find-insurance/" target="_blank">an insurance broker</a> who might be able to help you find cover?</p>
+</div>
+<div class="toggleBox" id="tradesIncompatible" style="display:none">
+<p class="error">We're unable to provide a quote online for the combination of industries or occupations you've selected. However, you can contact <a href="https://www.biba.org.uk/find-insurance/" target="_blank">an insurance broker</a>, who might be able to help you find cover to suit your needs.</p>
+</div>
+<div class="formItem required">
+<label>Do you own or rent any fixed business premises?</label>
+<div class="input"><input class="validate" id="businessPremisesIndYes" name="data.client.policies.policy.commercialPolicy.businessPremisesInd" type="radio" value="Yes"/><label for="businessPremisesIndYes">Yes</label>
+<input class="validate" id="businessPremisesIndNo" name="data.client.policies.policy.commercialPolicy.businessPremisesInd" type="radio" value="No"/><label for="businessPremisesIndNo">No</label>
+<div class="validation">
+<div class="required">true</div>
+<div class="requiredMsg">Please select 'Yes' or 'No'</div>
+<div class="syntax">booleanYesNo</div>
+<div class="syntaxMsg">Please select 'Yes' or 'No'</div>
+</div></div>
+<div class="help" id="help-businessPremises"><a href="/MComm/htmlfiles/help/smallBusiness/cover/businessPremises.html" target="_blank" title=""><img alt=" " src="/MComm/images/info.png"/></a></div>
+</div>
+<div class="toggleBox" id="premisesIncompatible" style="display:none">
+<p class="error">Unfortunately, we're unable to insure this industry or occupation when it's run from this type of premises.<br/>However, you can <a href="https://www.biba.org.uk/find-insurance/" target="_blank">contact an insurance broker</a> who might be able to find the cover you're looking for.</p>
+</div>
+</div>
+<div class="pageForm" id="selectCovers">
+<h1>Choose your cover</h1>
+<p>The cover we can offer you depends on what your business does and where it's based.</p>
+</div>
+<div class="navigationButtons">
+<input class="button forwardButton" id="continueButton" name="commandNavData(command%61generalInformation%59navigation%61forward)" onclick="navigate('forward', null, 'generalInformation', ''); return false;" onkeypress="navigate('forward', null, 'generalInformation', ''); return false;" type="submit" value="Continue"/>
+</div>
+<div class="hidden" id="tradeErrorType"></div>
+</form>

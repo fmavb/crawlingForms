@@ -1,0 +1,13 @@
+<form action="." method="post" name="reviewSortForm"><input name="csrfmiddlewaretoken" type="hidden" value="l1yTRcls6n3vhrloNn5F9LHqYSmXViI8CY11bIvfxhjLnAx18AKrfvp8u6s0tkzO"/>
+<fieldset class="reviewSort">
+<legend>Sort reviews</legend>
+<label for="frm_sort">Sort by:</label>
+<select id="frm_sort" name="review_sort">
+<option value="highrating">Highest rating</option>
+<option value="lowrating">Lowest rating</option>
+<option selected="" value="newest">Newest</option>
+<option value="oldest">Oldest</option>
+</select>
+<input class="btn" id="sortSubmit" name="sort" type="submit" value="Sort"/>
+</fieldset>
+</form>

@@ -1,0 +1,189 @@
+<form action="/PDA/home/continue" class="" id="detailsForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="Ql4sNcHedg__-XfnEsc9DXmvkfsOURehFr2bt1MaHVyZx_3RvsD75gC4EyGKbDtDNYZiN6D9y8L2XAE_vlVaXdVu-1k1"/> <div class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<div class="validation-summary-valid m-form-row__error-message" data-valmsg-summary="true"><span>Uh-oh, something’s not right. Take another look at the boxes marked below.</span>
+<ul><li style="display:none"></li>
+</ul></div>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width validated-input">
+<span class="a-label a-heading--semibold"><legend>Title</legend></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="Title" data-valmsg-replace="true"></span>
+<div class="m-form-row__content group">
+<ul class="m-radio-group m-radio-group--5" data-module="m-radio-segmented" id="titleList">
+<li class="m-radio-group__item">
+<label class="a-radio" for="Mr">
+<input class="a-radio__input" data-val="true" data-val-required="Tell us your title." id="Mr" name="Title" type="radio" value="Mr"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Mr</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="Mrs">
+<input class="a-radio__input" id="Mrs" name="Title" type="radio" value="Mrs"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Mrs</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="Ms">
+<input class="a-radio__input" id="Ms" name="Title" type="radio" value="Ms"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Ms</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="Miss">
+<input class="a-radio__input" id="Miss" name="Title" type="radio" value="Miss"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Miss</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="Dr">
+<input class="a-radio__input" id="Dr" name="Title" type="radio" value="Dr"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Dr</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width genderSelect validated-input u-hidden">
+<span class="a-label a-heading--semibold"><legend>Gender</legend></span>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="Gender" data-valmsg-replace="true"></span>
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="M">
+<input class="a-radio__input" data-val="true" data-val-required="Please select." id="M" name="Gender" type="radio" value="M"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Male</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="F">
+<input class="a-radio__input" id="F" name="Gender" type="radio" value="F"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Female</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width validated-input">
+<label class="a-label a-heading--semibold" for="FirstName">First name</label>
+<div class="m-form-row__content">
+<span class="m-show-more" data-module="m-show-more">
+                    Your name as it appears on your household bills. We use this to identify you – if we can’t identify you, we can’t give you our best price.
+                </span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+<input class="a-textbox a-textbox-30" data-val="true" data-val-maxlength="Please enter no more than 32 letters." data-val-maxlength-max="32" data-val-minlength="Please enter at least 2 letters." data-val-minlength-min="2" data-val-regex="Please remove the numbers and special characters from your first name." data-val-regex-pattern="^[a-zA-Z]([a-zA-Z]|['\-] *[a-zA-Z])([a-zA-Z'\- ]*[a-zA-Z])* *$" data-val-required="Tell us your first name." id="FirstName" maxlength="32" name="FirstName" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width validated-input">
+<label class="a-label a-heading--semibold" for="LastName">Last name</label>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+<input class="a-textbox a-textbox-30" data-val="true" data-val-maxlength="Please enter no more than 32 letters." data-val-maxlength-max="32" data-val-minlength="Please enter at least 2 letters." data-val-minlength-min="2" data-val-regex="Please remove the numbers and special characters from your last name." data-val-regex-pattern="^[a-zA-Z]([a-zA-Z]|['\-] *[a-zA-Z])([a-zA-Z'\- ]*[a-zA-Z])* *$" data-val-required="Tell us your last name." id="LastName" maxlength="32" name="LastName" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width validated-input" role="group">
+<label class="a-label a-heading--semibold" for="DateOfBirth">Date of birth</label>
+<div class="m-form-row__content">
+<span class="m-show-more" data-module="m-show-more">
+                    Tell us your date of birth. We need this to help us identify you and also to make sure we can insure you.<br/>
+                    For Home, we can't insure you if you're aged under 16 or over 115. <br/>
+                    For Car, we can't insure you if you're under 17 or over 84. <a href="https://insurance.biba.org.uk/find-insurance/">Click here</a> for a link to Biba where you will be able to <br/>
+                    find advisers who can help you to find insurance for your specific needs.
+                </span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirthDay" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirthMonth" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirthYear" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="DateOfBirth" data-valmsg-replace="true"></span>
+<a class="u-hidden" data-module="o-modal" href="#ageModal" id="open-age-eligibility-modal"></a>
+<div id="ageEligibility">
+<div class="o-modal__content-container" data-show-error="False" id="ageModal">
+<div class="m-heading-group">
+<h2 class="a-heading a-heading--2">Insurance age eligibility</h2>
+</div>
+<h4>
+        Are you 0
+            years
+        old?
+    </h4>
+<p class="ageErrorMessage" data-error-message="">
+<br/>
+        What would you like to do?
+    </p>
+<div class="m-form-row m-form-row--full-width m-form-row-no-border btn-group">
+<button class="a-button a-button--secondary" id="tryAgainButton" name="tryAgainButton">Try again</button>
+<a class="a-button a-button--secondary" id="ageCancelButton" name="ageCancelButton">
+<text>Back to Build your plan</text>
+</a>
+</div>
+</div>
+</div>
+<input data-val="true" data-val-date="The field Date of birth must be a date." data-val-required="The date must be in this format: dd/mm/yyyy" id="DateOfBirth" name="DateOfBirth" type="hidden" value=""/>
+<ul class="m-textbox-group">
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--2-character dateOfBirthDay" data-val="true" data-val-length="Please enter a valid day." data-val-length-max="2" data-val-length-min="1" data-val-regex="Please enter a valid day." data-val-regex-pattern="^(([1-9])|([ 0][1-9])|([1-2][0-9])|(3[0-1]))$" data-val-required="Please enter a day." id="DateOfBirthDay" maxlength="2" name="DateOfBirthDay" pattern="[0-9]*" placeholder="DD" size="2" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--2-character dateOfBirthMonth" data-val="true" data-val-length="Please enter a valid month." data-val-length-max="2" data-val-length-min="1" data-val-regex="Please enter a valid month." data-val-regex-pattern="^(([1-9])|([ 0][1-9])|(1[0-2]))$" data-val-required="Please enter a month." id="DateOfBirthMonth" maxlength="2" name="DateOfBirthMonth" pattern="[0-9]*" placeholder="MM" size="2" type="tel" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<input class="a-textbox a-textbox--4-character dateOfBirthYear" data-val="true" data-val-length="Please enter a valid year." data-val-length-max="4" data-val-length-min="2" data-val-regex="Please enter a valid year." data-val-regex-pattern="^(([0-9]{2})|((19|20)[0-9]{2}))$" data-val-required="Please enter a year." id="DateOfBirthYear" maxlength="4" name="DateOfBirthYear" pattern="[0-9]*" placeholder="YYYY" size="4" type="tel" value=""/>
+</li>
+</ul>
+</div>
+</div>
+<div class="validated-input" id="addressLookupWrapper">
+<div class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<label class="a-label a-heading--semibold" for="Postcode">Postcode</label>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="Postcode" data-valmsg-replace="true"></span>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="MultiplePostcodeList" data-valmsg-replace="true"></span>
+<ul class="m-textbox-group">
+<li class="m-textbox-group__item postcode-group">
+<input autocomplete="off" class="a-textbox a-textbox--8-character postcode" data-val="true" data-val-regex="Your postcode is not in the correct format. Please check and try again." data-val-regex-pattern="^(([gG][iI][rR] {0,}0[aA]{2})|((([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y]?[0-9][0-9]?)|(([a-pr-uwyzA-PR-UWYZ][0-9][a-hjkstuwA-HJKSTUW])|([a-pr-uwyzA-PR-UWYZ][a-hk-yA-HK-Y][0-9][abehmnprv-yABEHMNPRV-Y]))) {0,}[0-9][abd-hjlnp-uw-zABD-HJLNP-UW-Z]{2}))$" data-val-required="Tell us your postcode." id="Postcode" maxlength="8" name="Postcode" type="text" value=""/>
+</li>
+<li class="m-textbox-group__item">
+<button class="a-button a-button--search a-pda--button-inverted findAddress" id="addressButton" name="addressButton">Find my address</button>
+</li>
+<li class="m-textbox-group__item">
+<div aria-role="alert" class="a-loading-indicator a-loading-indicator--small" id="addressLoader" style="display: none">
+<span class="a-loading-indicator__message"></span>
+</div>
+</li>
+</ul>
+</div>
+<div class="clearFix clear"></div>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width validated-input">
+<label class="a-label a-heading--semibold" for="Email">Email address</label>
+<div class="m-form-row__content">
+<div class="m-form-row__help" data-module="m-form-row__help">
+<p>We’ll send your quote to this address.</p>
+</div>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+<input class="verifyemailaddress a-textbox a-textbox-30" data-val="true" data-val-length="Email address has to have between 5 and 72 letters." data-val-length-max="72" data-val-length-min="5" data-val-regex="Please enter a valid email address." data-val-regex-pattern="^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" data-val-required="Make sure you enter a valid email address." id="Email" maxlength="72" name="Email" type="email" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width validated-input">
+<label class="a-label a-heading--semibold" for="TelephoneNumber">Phone number</label>
+<div class="m-form-row__content">
+<div class="m-form-row__help" data-module="m-form-row__help">
+<p>In case we need to call you about your cover.</p>
+</div>
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="TelephoneNumber" data-valmsg-replace="true"></span>
+<input class="a-textbox a-textbox-30" data-val="true" data-val-maxlength="Telephone number can't be longer than 21 numbers." data-val-maxlength-max="21" data-val-minlength="Please enter at least 6 numbers." data-val-minlength-min="6" data-val-regex="Please enter a valid telephone number." data-val-regex-pattern="^[0-9+\-#() ]+$" data-val-required="Tell us your mobile number or your landline number, including the area code." id="TelephoneNumber" maxlength="21" name="TelephoneNumber" type="tel" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width m-form-row-no-border btn-group">
+<input id="FieldsWithErrors" name="FieldsWithErrors" type="hidden" value=""/>
+<input data-val="true" data-val-required="'ShowAllInputs' must not be empty." id="ShowAllInputs" name="ShowAllInputs" type="hidden" value="True"/>
+<input id="OriginatingSystem" name="OriginatingSystem" type="hidden" value="Aviva"/>
+<input id="PdaIncomingPostData_DataExchangeKey" name="PdaIncomingPostData.DataExchangeKey" type="hidden" value=""/><input id="PdaIncomingPostData_JourneyIndicator" name="PdaIncomingPostData.JourneyIndicator" type="hidden" value="Home"/><input id="PdaIncomingPostData_SourceCode" name="PdaIncomingPostData.SourceCode" type="hidden" value="ZVC4"/><input id="PdaIncomingPostData_RequestingSystem" name="PdaIncomingPostData.RequestingSystem" type="hidden" value="Aviva.co.uk"/> <button class="a-button a-button--primary" id="continueButton" name="continueButton" type="submit">Continue</button>
+</div>
+</form>

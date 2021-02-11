@@ -1,0 +1,4 @@
+<form action="/search" id="searchForm" method="GET" name="searchForm">
+<input class="ng-pristine ng-invalid ng-invalid-required" id="searchField" name="query" placeholder="e.g. ‘How do I make a claim?’" required="" type="text"/>
+<button id="searchSubmit" name="submit" type="submit">Search</button>
+</form>

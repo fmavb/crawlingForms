@@ -1,0 +1,80 @@
+<form action="/protection/direct/pagesFw/retrieveQuoteAndApplication.xhtml" autocomplete="off" enctype="application/x-www-form-urlencoded" id="retrieveLandingPageForm" method="post" name="retrieveLandingPageForm" novalidate="novalidate">
+<input name="retrieveLandingPageForm" type="hidden" value="retrieveLandingPageForm"/>
+<!-- Page title : start -->
+<!-- &lt;ui:insert name=&quot;strapline&quot; /&gt; -->
+<div class="page-wrapper">
+<div class="content-wrapper">
+<fieldset class="l-section padding-top-0px">
+<div class="l-content-container">
+<div>
+<h1 class="a-heading a-heading--1 u-margin--top-none u-margin--bottom-none padding-top-0px padding-bottom-50px">Retrieve your quote or application</h1>
+</div>
+<div class="l-columns l-columns--66-33-large">
+<div class="l-columns__column" id="main" role="main">
+</div>
+</div>
+<div class="l-columns l-columns--66-33-large">
+<div class="l-columns__column" id="main" role="main"><div class="m-form-row__content" id="id_dummyErrorDiv"><input id="id_dummyErrors" name="id_dummyErrors" type="hidden"/></div>
+<!--  formRow start --><div id="id_quoteandapp">
+<fieldset class="m-form-row m-form-row--full-width margin-top-0px margin-bottom-30px l-max l-max--left l-max--9-column-large">
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<h2 class="a-heading a-heading--2 a-heading--semibold">What would you like to retrieve ?</h2>
+<div class="m-form-row__content">
+<p class="padding-bottom-15px u-margin--bottom-none">Select <strong> Quote </strong> to view your quote summary. Choose <strong> Application </strong> if you’ve accepted your quote and started providing us with your medical information. We’ll then send a verification email just to make sure it’s you.
+					</p><div class="m-form-row__content"><ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented" id="id_coverChoiceRadio"><li class="m-radio-group__item"><label class="a-radio" for="id_coverChoiceRadio:0"><input class="a-radio__input" id="id_coverChoiceRadio:0" name="id_coverChoiceRadio" onclick="mojarra.ab(this,event,'click',0,'quoteAppPanel')" type="radio" value="Quote"/><span class="a-radio__label"><span class="a-radio__label-inner"> Quote</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" for="id_coverChoiceRadio:1"><input class="a-radio__input" id="id_coverChoiceRadio:1" name="id_coverChoiceRadio" onclick="mojarra.ab(this,event,'click',0,'quoteAppPanel')" type="radio" value="Application"/><span class="a-radio__label"><span class="a-radio__label-inner"> Application</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li></ul></div>
+</div>
+</div>
+</fieldset></div>
+<!--  formRow end --><span class="m-form-row__content" id="quoteAppPanel"></span>
+</div>
+<!-- &lt;div id=&quot;main&quot; role=&quot;main&quot;&gt;
+									&lt;a id=&quot;myLink&quot; href=&quot;#&quot; &gt;js test&lt;/a&gt;
+								&lt;/div&gt;
+								invoke a function defined in a module that was exported to the window namespace 
+								
+								&lt;div id=&quot;main&quot; role=&quot;main&quot;&gt;
+									&lt;a id=&quot;myLink&quot; href=&quot;#&quot; onClick=&quot;globalAlert('clicked global');&quot; &gt;js test 2&lt;/a&gt;
+								&lt;/div&gt; -->
+<div class="l-columns__column" role="complementary">
+<div class="l-columns__column m-card t-accent-light t-accent-light--grey slick-slide slick-active">
+<div class="m-card-content m-card-content__inner">
+<div class="a-heading a-heading--2 a-heading--semibold">Start a new quote</div>
+<div>
+<dl class="u-align--center a-list-opening-times u-margin--top-none u-margin--bottom-none">
+<dt><a href="https://www.direct.aviva.co.uk/protection/direct/life" onmousedown="$p.ui.page.setShowNavigationWarning(false);">Life insurance</a></dt>
+<dt><a href="https://www.direct.aviva.co.uk/protection/direct/ci" onmousedown="$p.ui.page.setShowNavigationWarning(false);">Critical illness</a></dt>
+</dl>
+</div>
+</div>
+</div>
+<!--  livechat div -->
+<div class="col-sm-6 col-md-12">
+<div class="livechat-container" id="LP_DIV_DIRECT_ALPS_RETRIEVE">
+</div>
+</div>
+<div class="l-columns__column m-card t-accent-light t-accent-light--grey slick-slide slick-active">
+<div class="m-card-content m-card-content__inner">
+<div class="a-heading a-heading--2 a-heading--semibold">Call us</div>
+<div class="a-heading a-heading--2 a-heading--semibold">0800 068 0140
+					</div>
+<div>
+<dl class="u-align--center a-list-opening-times">
+<dt>Monday to Friday</dt>
+<dd>8.00am - 6.00pm</dd>
+<dt>Saturday</dt>
+<dd>9:00am - 2:00pm </dd>
+<dt>Sunday</dt>
+<dd>Closed</dd>
+</dl>
+</div>
+<p> For our joint protection, telephone calls may be recorded and/or monitored and will be saved for a minimum of five years. Calls to 0800 numbers from UK landlines and mobiles are free.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+</div>
+</div><input id="j_id1:javax.faces.ViewState:0" name="javax.faces.ViewState" type="hidden" value="828734162626316236:1528356687045037434"/>
+</form>

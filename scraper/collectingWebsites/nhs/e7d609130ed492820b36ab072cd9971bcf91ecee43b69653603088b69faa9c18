@@ -1,0 +1,54 @@
+<form action="/services/hospital/royal-preston-hospital/X907/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Referral to Ward 4&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I was referred to Ward 4 following a dog bite to my finger. I was advised by my local hospital that it was because I had an open fracture to the finger with a risk of infection developing &amp;amp;amp; required the Plastics expertise. I sat for over an hour in a waiting room with no communication from anyone after being booked in...until I asked if they could inform me where they were up to. No-one seemed remotely interested but eventually after another hour and a half a Dr said he would see me instead of the Dr that was going to see me who was busy. My original and excellent dressing was removed, I was asked to put my finger in a pot of iodine for 5 mins &amp;amp;amp; then I was told to put my wound under the running water from the tap over the sink in the treatment room. So iodine and blood ran into a clean area sink. At no point did the Dr wash his hands but he had put gloves on which he kept on even when leaving the room. He returned after Id done this and then placed a non sterile bit of gauze over the wound and wrapped tape around the finger a few times. I said its still bleeding and requires a non adherent dressing on but he said no its not bleeding (as blood oozed out). I then had to wait for 1 dose of an IV antibiotic so I asked the nurse if I could have a new dressing and she shrugged and walked off. Luckily it was handover and the night nurse put a new dressing on and sorted my abx out. By this time I was in agony but just glad to be leaving. My finger is now bleeding more heavily, is absolute agony but I dont suppose anyone would be remotely interested from a medical perspective. Why did they ask me to go there...they didnt examine it, they didnt dress it as well as the referring place, and I think its shocking that I didnt have an aseptic procedure. The pot of iodine I had my finger stuck in was left on the side so my husband threw it in the bin just in case someone was tempted to use it on some other person.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-07-26T20:17:02.62Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;7&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Royal Preston Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;48e76692-14e9-e911-a812-000d3a7ed518&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X907&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamH9hD45LDZBxHvm-6wm9DuiDtk0NZYaed1XXdGFY9sQ3qlw7tXLmz03tmrJ_1tZAkEPC8bGCb-EuK-G3J9gq4J7S0bTsteZoClyUEKeyGsLAENrPMpHCtAUoe6vefS0buU"/></form>

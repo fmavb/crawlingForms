@@ -1,0 +1,35 @@
+<form action="" method="post">
+<input name="csrfmiddlewaretoken" type="hidden" value="2OxTHaomca9b89fw99jf1JbdwLGoer3KjL011Gy9D4preir9umY17tTV2ZMrMtUq"/>
+<input name="xen_page_vector" type="hidden" value="3"/>
+<input name="xen_vector_sec_hash" type="hidden" value=""/>
+<input name="Step1_cover-product_name" type="hidden" value="Hospital Cash Plan"/>
+<input name="Step1_cover-refNo" type="hidden" value="8120434446"/>
+<div class="podContent noBorder">
+<table class="hcpOptionsTable">
+<col class="col1 col"/>
+<col class="col2 col"/>
+<col class="col3 col"/>
+<col class="col4 col"/>
+<thead>
+<tr>
+<th scope="col">Adult only</th>
+<th scope="col">Adult and partner</th>
+<th scope="col">Adult and children</th>
+<th scope="col">Adult, partner and children</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><input id="id_Step1_cover-coverOptions_0" name="Step1_cover-coverOptions" type="radio" value="1"/><label for="id_Step1_cover-coverOptions_0">£2.89 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_1" name="Step1_cover-coverOptions" type="radio" value="2"/><label for="id_Step1_cover-coverOptions_1">£5.79 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_2" name="Step1_cover-coverOptions" type="radio" value="4"/><label for="id_Step1_cover-coverOptions_2">£4.64 / month</label></td>
+<td><input id="id_Step1_cover-coverOptions_3" name="Step1_cover-coverOptions" type="radio" value="6"/><label for="id_Step1_cover-coverOptions_3">£7.55  / month</label></td>
+</tr>
+</tbody>
+</table>
+<p>Monthly premium inclusive of Insurance Premium Tax</p>
+</div>
+<div class="podContent">
+<input class="btn btn--primary right" id="submit" name="event(next_page)" tabindex="1" type="submit" value="Submit"/>
+</div>
+</form>

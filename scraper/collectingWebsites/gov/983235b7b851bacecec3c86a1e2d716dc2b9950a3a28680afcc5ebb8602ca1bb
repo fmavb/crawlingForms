@@ -1,0 +1,19 @@
+<form action="/contact/govuk/email-survey-signup" class="gem-c-feedback__form gem-c-feedback__form--email gem-c-feedback__js-show js-feedback-form js-hidden" data-track-action="Send Form" data-track-category="yesNoFeedbackForm" id="page-is-not-useful" method="post">
+<button aria-controls="page-is-not-useful" aria-expanded="true" class="govuk-button govuk-button--secondary gem-c-feedback__close js-close-form" data-track-action="ffFormClose" data-track-category="yesNoFeedbackForm">
+    Close
+  </button>
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-two-thirds" id="survey-wrapper">
+<div class="gem-c-feedback__error-summary js-hidden js-errors" tabindex="-1"></div>
+<input name="email_survey_signup[survey_id]" type="hidden" value="footer_satisfaction_survey"/>
+<input name="email_survey_signup[survey_source]" type="hidden" value="/government/news/relationships-education-relationships-and-sex-education-rse-and-health-education-faqs"/>
+<h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+<p class="gem-c-feedback__form-paragraph" id="survey_explanation">To help us improve GOV.UK, we’d like to know more about your visit today. We’ll send you a link to a feedback form. It will take only 2 minutes to fill in. Don’t worry we won’t send you spam or share your email address with anyone.</p>
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="input-96b03b36">Email address</label>
+<input aria-describedby="survey_explanation" autocomplete="email" class="gem-c-input govuk-input" id="input-96b03b36" name="email_survey_signup[email_address]" type="email"/>
+</div>
+<button class="gem-c-button govuk-button" type="submit">Send me the survey</button>
+</div>
+</div>
+</form>

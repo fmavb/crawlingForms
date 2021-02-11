@@ -1,0 +1,71 @@
+<form action="" method="post">
+<fieldset class="findlocationsearch">
+<legend class="hidden">Find services</legend>
+<div class="row">
+<label for="Location_Name">Location</label>
+<input class="fclocation ui-autocomplete-input" id="Location_Name" name="Location.Name" type="text" value="e.g. postcode or town"/><input class="autocomplete-url" type="hidden" value="/service-search/other-services/Location/PredictiveSearch"/><input class="autocomplete-id" id="Location_Id" name="Location.Id" type="hidden" value="0"/><div class="autocomplete-suggestions"></div>
+<input id="Service_Name" name="Service.Name" type="hidden" value="Maternity services"/>
+<input id="Service_Id" name="Service.Id" type="hidden" value="1802"/>
+<a href="#" id="geobutton"><img alt="Locate me" src="/service-search/other-services/Content/img/geolocation.png"/></a>
+</div>
+<div class="submit-container">
+<input class="fcsubmit" type="submit" value="Search"/>
+</div>
+</fieldset>
+<div class="fcfilters clear">
+<span class="fctriangle"></span>
+<fieldset>
+<legend class="hidden">Narrow your search</legend>
+<div class="row items-4 row-first clear">
+<div class="inner distance-rating">
+<label for="options-distance">By distance</label>
+<select id="options-distance" name="distance">
+<option value="5">Within 5 miles</option>
+<option value="10">Within 10 miles</option>
+<option selected="selected" value="25">Within 25 miles</option>
+<option value="50">Within 50 miles</option>
+</select>
+</div><div class="filter-dropdown inner">
+<label for="filters_4">By Hospital type</label>
+<select id="filters_4" name="filters.metrics">
+<option value="-1">No preference</option>
+<option value="126">Independent Hospital only</option>
+<option value="127">NHS Hospitals only</option>
+</select>
+</div>
+<div class="inner">
+<fieldset>
+<legend>By onsite facilities</legend>
+<p>
+<input id="filter_128" name="filters.metrics" type="checkbox" value="128"/>
+<label for="filter_128" id="filter_128_label">Onsite car parking</label>
+</p>
+<p>
+<input id="filter_129" name="filters.metrics" type="checkbox" value="129"/>
+<label for="filter_129" id="filter_129_label">Disabled access</label>
+</p>
+<p>
+<input id="filter_130" name="filters.metrics" type="checkbox" value="130"/>
+<label for="filter_130" id="filter_130_label">Induction loop</label>
+</p>
+</fieldset>
+</div><div class="filter-dropdown inner inner-last">
+<label for="filters_6">By user rating</label>
+<select id="filters_6" name="filters.metrics">
+<option value="-1">No preference</option>
+<option value="131">1 Star rating only</option>
+<option value="132">2 Star rating only</option>
+<option value="133">3 Star rating only</option>
+<option value="134">4 Star rating only</option>
+<option value="135">5 Star rating only</option>
+</select>
+</div>
+<input name="filters.metriclist" type="hidden" value="-1"/>
+<input name="filters.servicelist" type="hidden" value="-1"/>
+</div>
+</fieldset>
+<div class="row clear row-submit">
+<input class="filtersubmit" type="submit" value="Update results"/>
+</div>
+</div>
+</form>

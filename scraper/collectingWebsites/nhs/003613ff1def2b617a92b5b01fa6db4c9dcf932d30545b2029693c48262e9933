@@ -1,0 +1,60 @@
+<form action="/services/hospital/musgrove-park-hospital/X461/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;We are tremendously grateful for the work of NHS staff&lt;/Title&gt;
+    &lt;ScreenName&gt;Beans and potatoes&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Our gorgeous baby girl presented with seizures affecting her left side. The seizures deteriorated rapidly until she was having episodes every couple of hours. We were treated at the Acorn Ward, Musgrove, Taunton. The consultant paediatrician took our case very seriously and a range of tests were done quickly facilitating early diagnosis and treatment. Luckily her condition is now stable. We are tremendously grateful for the work of NHS staff in giving us our little girl back. Feedback to improve service:  
+- 24hour pharmacy should be available nationwide to provide unusual medicines quickly to all hospitals even at weekends. The staff had to ring around several hospitals to find medicine and rely on charity to transport it.  
+- advice on presentation of infantile spasms could be improved through video examples for parents/ practitioners  
+- estate facilities need improving. Rooms are poor quality and difficult to clean. Doors not automatic which I believe increases risk of infection.  
+- Supplies of basic equipment seemed to be lacking due to under-resourcing or bad suppliers. NHS should be big enough to have good buying power. It seems that a lack of funding obviously causing problems.  
+- food, better to provide basic, cheap food than try to do too much and fail to do it well. Suggest reducing menu to soup, sandwiches and jacket potatoes.  
+The NHS is a wonderful service and a shining example of putting care above profit. Without it many lives would be lost or damaged. Political fads come and go but the needs of the population to have an effective, well-resourced health service free at point of use is absolutely critical.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-12-23T22:40:02Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;12&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Musgrove Park Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;ce7c6022-d525-ea11-a810-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X461&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHW_0fSirs6M5w2x5wYSL66Yor67UtwPmndgoioxINlK3pPggJhXM8AdEQa6NsxbLRCFeQ2B_NN7w38IVz5vXDQ_1jZVdAQzR2d0GhcnjLrimYGXntnTYfLzm15yE8hpeg"/></form>

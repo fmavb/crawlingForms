@@ -1,0 +1,35 @@
+<form accept-charset="UTF-8" action="/calculate-your-redundancy-pay/y" data-module="track-responses" data-question-key="What date were you made redundant?" data-type="date_question" method="get">
+<div class="govuk-!-margin-bottom-6 govuk-!-margin-top-8" id="current-question">
+<span class="govuk-caption-l">Calculate your statutory redundancy pay</span>
+<div class="gem-c-fieldset govuk-form-group">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+<h1 class="govuk-fieldset__heading">What date were you made redundant?</h1>
+</legend>
+<p class="govuk-hint">Use the original redundancy date even if your notice is brought forward, you’re paid in lieu of notice or made redundant after trialing a new job.</p>
+<div class="govuk-form-group">
+<div class="gem-c-date-input govuk-date-input" id="input-d7304714">
+<div class="govuk-date-input__item">
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="input-a9aaf209">Day</label>
+<input class="gem-c-input govuk-input govuk-input--width-2" id="input-a9aaf209" inputmode="numeric" name="response[day]" pattern="[0-9]*" type="text"/>
+</div>
+</div> <div class="govuk-date-input__item">
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="input-39281cc6">Month</label>
+<input class="gem-c-input govuk-input govuk-input--width-2" id="input-39281cc6" inputmode="numeric" name="response[month]" pattern="[0-9]*" type="text"/>
+</div>
+</div> <div class="govuk-date-input__item">
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="input-7acc858b">Year</label>
+<input class="gem-c-input govuk-input govuk-input--width-4" id="input-7acc858b" inputmode="numeric" name="response[year]" pattern="[0-9]*" type="text"/>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+</div>
+<input name="next" type="hidden" value="1"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</div>
+</form>

@@ -1,0 +1,28 @@
+<form accept-charset="UTF-8" action="/search/transparency-and-freedom-of-information-releases/email-signup?subscriber_list_params%5Ball_part_of_taxonomy_tree%5D%5B%5D=bdcfeeac-8482-46c1-8a8a-7fb746fb289c" class="signup-choices" method="post">
+<input name="authenticity_token" type="hidden" value="Yjly0BehSf1xSHM8IFhr+bLRfmNo+O86ttw9ntUG1TvjnDgDuLF7kBQvb8PBjKP0eLzPJcb1giXetNj/T3NTfQ=="/>
+<div class="gem-c-title govuk-!-margin-top-8 govuk-!-margin-bottom-8">
+<h1 class="gem-c-title__text">
+    Transparency and freedom of information releases
+  </h1>
+</div>
+<div class="gem-c-checkboxes govuk-form-group" data-module="govuk-checkboxes" id="signup-choices-options">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--m">What do you want to get emails about?</legend>
+<ul class="govuk-checkboxes gem-c-checkboxes__list" data-nested="true">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0" type="checkbox" value="content_store_document_type"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0">All releases</label>
+<ul class="govuk-checkboxes govuk-checkboxes--nested" data-parent="signup-choices-options-0" id="signup-choices-options-nested-0">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-0" name="filter[content_store_document_type][]" type="checkbox" value="corporate_report"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-0">Corporate report</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-1" name="filter[content_store_document_type][]" type="checkbox" value="foi_release"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-1">FOI release</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="signup-choices-options-0-2" name="filter[content_store_document_type][]" type="checkbox" value="transparency"/><label class="govuk-label govuk-checkboxes__label" for="signup-choices-options-0-2">Transparency data</label>
+</li>
+</ul>
+</li>
+</ul>
+</fieldset>
+</div>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

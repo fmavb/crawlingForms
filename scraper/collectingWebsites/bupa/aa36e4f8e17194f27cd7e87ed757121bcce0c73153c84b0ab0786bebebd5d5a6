@@ -1,0 +1,23 @@
+<form action="" name="search">
+<div class="searchInput search-location">
+<label>Location: </label>
+<span class="mod-suggest suggest-location geolocation-available">
+<input id="lat" name="lat" type="hidden"/>
+<input id="lng" name="lng" type="hidden"/>
+<input autocomplete="off" class="suggest-query" id="Search" name="Search" placeholder="eg. London or SW1A OAA" type="text" value=""/>
+</span>
+<button><i class="i-search-q-cyan"></i><span class="search-btn"></span></button>
+</div>
+<div class="searchRadio cf" style="display:none;">
+<label class="checked">
+<span class="radio-icon checked" data-placeholder-text="eg. London or SW1A OAA"></span>
+<input checked="checked" name="searchBy" type="radio" value="loc"/>Location closest to
+                                </label>
+<label class="">
+<span class="radio-icon checked" data-placeholder-text="eg. London or SW1A OAA"></span>
+<input name="searchBy" type="radio" value="home"/>Care home name
+                                </label>
+</div>
+<div id="map_canvas" style="display:none">
+</div>
+</form>

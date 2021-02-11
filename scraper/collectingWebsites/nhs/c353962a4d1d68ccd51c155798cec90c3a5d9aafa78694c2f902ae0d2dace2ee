@@ -1,0 +1,444 @@
+<form action="DefaultView.aspx?id=3303" id="aspnetForm" method="post" name="aspnetForm">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="/wEPDwULLTIxMTUwODE5ODRkGAUFU2N0bDAwJGN0bDAwJGN0bDAwJFBsYWNlSG9sZGVyTWFpbiRjb2x1bW4xQ29udGVudCRjb2x1bW4xQ29udGVudCRjdGwwMiRMb2NhdGlvbnNMaXN0DzwrAAoCBxQrAAJkZAgCAmQFWmN0bDAwJGN0bDAwJGN0bDAwJFBsYWNlSG9sZGVyTWFpbiRjb2x1bW4xQ29udGVudCRjb2x1bW4xQ29udGVudCRjdGwwMCRWaXNpYmxlSG9zcGl0YWxzTGlzdA88KwAKAQhmZAVXY3RsMDAkY3RsMDAkY3RsMDAkUGxhY2VIb2xkZXJNYWluJGNvbHVtbjFDb250ZW50JGNvbHVtbjFDb250ZW50JGN0bDAxJEhpZGRlbkNsaW5pY3NMaXN0D2dkBVhjdGwwMCRjdGwwMCRjdGwwMCRQbGFjZUhvbGRlck1haW4kY29sdW1uMUNvbnRlbnQkY29sdW1uMUNvbnRlbnQkY3RsMDEkVmlzaWJsZUNsaW5pY3NMaXN0DzwrAAoCBzwrACoACAIqZAVZY3RsMDAkY3RsMDAkY3RsMDAkUGxhY2VIb2xkZXJNYWluJGNvbHVtbjFDb250ZW50JGNvbHVtbjFDb250ZW50JGN0bDAwJEhpZGRlbkhvc3BpdGFsc0xpc3QPZ2RsZ6tDkehk/DsO3qRuVfhrBnrBTQ=="/>
+<script type="text/javascript">
+//<![CDATA[
+
+                $(document).ready(function() {
+                    incrementHitCounter('3303');
+                });
+                var keyValueTreatments = new Array();
+                $(document).ready(function(){$('#divColWidgets').createColWidget();});
+                var aPresetFormElements = new Array('_txtSearch');var APP_ROOT = '/Services'; var FULL_PATH ='http://www.nhs.uk';//]]>
+</script>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="E5C32365"/>
+<div class="fs content-wrap clear profile pims">
+<script type="text/javascript">var onSuccessCallbackf3de92542d8b451e86de2f62d6ac7cbf = function(action, moduleGuid){
+feedManagedOnSuccess(action, moduleGuid);}
+;</script>
+<div class="module profile-details clear" id="modulef3de92542d8b451e86de2f62d6ac7cbf">
+<div class="col five clear profile-info acute-trust-info">
+<div class="panel panel-nonedit module panel-profile-summary notranslate">
+<div class="panel-content">
+<div class="pad clear">
+<div typeof="Organization" vocab="http://schema.org/">
+<h1 class="independent-sector notranslate" id="org-title" property="name">Medway Community Healthcare</h1>
+<p>
+<span class="tel-box">
+<span class="tel-no" property="telephone">0300 123 3444</span>
+</span>
+<span typeof="PostalAddress">
+<span property="streetAddress">MCH House</span>
+                        , <span property="addressLocality">Gillingham</span>, <span property="addressRegion">Kent</span>, <span property="postalCode">ME8 0PZ</span>
+</span>
+<br/>
+<strong><a href="http://www.medwaycommunityhealthcare.nhs.uk" property="url">http://www.medwaycommunityhealthcare.nhs.uk</a></strong>
+</p>
+<span class="hidden" typeof="Place">
+<span property="geo" typeof="GeoCoordinates">
+<meta content="51.3688" property="latitude"/>
+<meta content="0.5742571" property="longitude"/>
+</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tabs-nav">
+<span class="crnr tl"></span><ul class="tabs clear" id="ctl00_ctl00_ctl00_PlaceHolderMain_navigationTabsContent_navigationMenu_TabStrip">
+<li><span><a href="/Services/Trusts/Overview/DefaultView.aspx?id=3303">Overview</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li><li class="active"><span class="crnr tl"></span><span class="active-text">Hospitals and clinics</span><span class="crnr tr"></span></li><li><span><a href="/Services/Trusts/Services/DefaultView.aspx?id=3303">Departments and services</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li><li><span><a href="/Services/Trusts/ContactDetails/DefaultView.aspx?id=3303">Contact details</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li><li class="review-ratings-tabs"><span><a href="/Services/Trusts/ReviewsAndRatings/DefaultView.aspx?id=3303">Reviews and ratings</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li><li class="review-ratings-tabs"><span><a href="/Services/Trusts/LeaveReview/DefaultView.aspx?id=3303">Leave review</a></span><span class="crnr tl"></span><span class="crnr tr"></span></li>
+</ul><span class="crnr tr"></span>
+</div>
+<div class="col five border">
+<div class="pad clear">
+<div class="col five-sm clear">
+</div>
+<div class="col four-sm">
+</div>
+<div class="col three-sm" id="ctl00_ctl00_ctl00_PlaceHolderMain_contentColumn1">
+<h2>Hospitals</h2>
+<div class="panel">
+<div class="panel-content">
+<div class="pad clear">
+</div>
+</div>
+</div>
+<div class="box-list clear hospital-list" id="listContainerba3575adeb8e41ffba534ab323050ba3">
+</div>
+<h2>Clinics </h2>
+<div class="panel">
+<div class="panel-content">
+<div class="pad clear">
+<p>
+</p><p>As we are a community provider our services are delivered at many venues within the community including peoples homes. The list below shows the main bases where are staff are located:-</p>
+</div>
+</div>
+</div>
+<div class="box-list clear clinic-list" id="listContainer08114020f54b40f3a4c37ac320a99bec">
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=97868">5, Ambley Green</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Unit 5<br/>Gillingham Business Park<br/>Gillingham<br/>Kent<br/>ME8 0NJ</dd><dt>Tel:</dt><dd>01634 334600</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=3304">7, Ambley Green</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Unit 7, Ambley Green<br/>Gillingham Business Park<br/>Gillingham<br/>Kent<br/>ME8 0NJ</dd><dt>Tel:</dt><dd>01634 334600</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129378">Advanced Computer Software Group Plc</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Unit 4<br/>The Eurogate Business Park<br/>Ashford<br/>Kent<br/>TN24 8SB</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129448">Archery House</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Bow Arrow Lane<br/>Dartford<br/>Kent<br/>DA2 6PB</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129476">Balmoral Lift</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">12 Balmoral Road<br/>Gillingham<br/>Kent<br/>ME7 4PG</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129377">Blackburn Lodge</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Broadway<br/>Sheerness<br/>Kent<br/>ME12 1TS</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128428">Cels Unit</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Rochester Trade Park<br/>Rochester Airport Industrial Estate<br/>Maidstone Road<br/>Rochester<br/>Kent<br/>ME1 3QY</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129478">Courtyard (Ground Floor)</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">6 The Courtyard<br/>Campus Way<br/>Gillingham Business Park<br/>Gillingham<br/>Kent<br/>ME8 0NZ</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=98462">Darland House Nursing Home</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">29 Darland Avenue<br/>Gillingham<br/>Kent<br/>ME7 3AL</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129479">Eastcourt Lift</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">52 Eastcourt Lane<br/>Gillingham<br/>Kent<br/>ME8 6EY</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129529">Grovehurst Surgery</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Grovehurst Road<br/>Kemsley<br/>Sittingbourne<br/>Kent<br/>ME10 2ST</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128606">Keystone Centre</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Gun Lane<br/>Strood<br/>Rochester<br/>Kent<br/>ME2 4UL</dd><dt>Tel:</dt><dd>0300 790 0245</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129480">Kingsley House</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">First Floor, North Block<br/>37-39 Balmoral Road<br/>Gillingham<br/>Kent<br/>ME7 4PF</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129477">Lift Canterbury</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">547-563 Canterbury Street<br/>Gillingham<br/>Kent<br/>ME7 5LF</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=97281">MCH House</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">MCH House<br/>Bailey Drive<br/>Gillingham<br/>Kent<br/>ME8 0WG</dd><dt>Tel:</dt><dd>0300 123 3444</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=95556">MedOCC</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Medway Maritime Hospital<br/>Windmill Road<br/>Gillingham<br/>Kent<br/>ME7 5NY</dd><dt>Tel:</dt><dd>01634 830000</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=124649">Medway Pct Hq</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Unit 7-8, Ambley Green<br/>Bailey Drive<br/>Gillingham Business Park<br/>Gillingham<br/>Kent<br/>ME8 0NJ</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129481">Nelson Lift</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">105 Nelson Road<br/>Gillingham<br/>Kent<br/>ME7 4LT</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129394">New Court</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">1 New Road<br/>Rochester<br/>Kent<br/>ME1 1BD</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129409">Pilgrim's House And Hospice Site</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">High Bank<br/>St Williams Way<br/>Rochester<br/>Kent<br/>ME1 2NU</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129375">Platters Farm Lodge</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">156 Nelson Road<br/>Gillingham<br/>Kent<br/>ME7 4LU</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129447">Preston Hall</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Royal British Legion Village<br/>Aylesford<br/>Kent<br/>ME20 7NJ</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129412">Quayside House</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Pembroke Road<br/>Chatham Maritime<br/>Chatham<br/>Kent<br/>ME4 4UH</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128542">Rainham Medical Centre</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Medical Centre<br/>103-107 High Street<br/>Rainham<br/>Gillingham<br/>Kent<br/>ME8 8AA</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129410">Recreation Hall</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">High Halstow<br/>Rochester<br/>Kent<br/>ME3 8SF</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128543">Sanderson Child Development Centre</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">172-178 Delce Road<br/>Rochester<br/>Kent<br/>ME1 2EP</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129449">St Lawrence House</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">48A West Hill<br/>Dartford<br/>Kent<br/>DA1 2EU</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129482">Sterling House</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Second Avenue<br/>Chatham<br/>Kent<br/>ME4 5AU</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128540">Sunlight Centre</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">105 Richmond Road<br/>Gillingham<br/>Kent<br/>ME7 1LX</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129450">Sure Start (Gravesham)</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">C/O Kings Farm School<br/>Cedar Avenue<br/>Gravesend<br/>Kent<br/>DA12 5JT</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129451">Sure Start (Sheerness)</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Sheerness Children &amp; Families Centr<br/>Seashells<br/>Rose Street<br/>Sheerness<br/>Kent<br/>ME12 1AW</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128447">Swale Language Unit</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Minterne Junior School<br/>Minterne Avenue<br/>Sittingbourne<br/>Kent<br/>ME10 1SB</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129528">The Forge Surgery</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Fleet Health Centre<br/>Vale Road<br/>Northfleet<br/>Gravesend<br/>Kent<br/>DA11 8BZ</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=127516">The Meads Medical Practice</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">29 Quartz Way<br/>Sittingbourne<br/>Kent<br/>ME10 5AA</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128448">Thorndike Centre</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Longley Road<br/>Rochester<br/>Kent<br/>ME1 2TH</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128426">Unit B</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Compass Centre<br/>Pembroke<br/>Chatham Maritime<br/>Chatham<br/>Kent<br/>ME4 4YH</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=135108">Village Hall</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Chapel Road<br/>Isle Of Grain<br/>Rochester<br/>Kent<br/>ME3 0BY</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=103926">Walter Brice Centre</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Walter Brice Centre<br/>Tilley Close,<br/>Main Road<br/>Hoo, Rochester<br/>Kent<br/>ME3 9AE</dd><dt>Tel:</dt><dd>01634 253611</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128446">Warren Wood Language Unit</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Arethusa Road<br/>Rochester<br/>Kent<br/>ME1 2UR</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=129376">Westminster Weenies</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">West Minster Primary School<br/>St. Georges Avenue<br/>Sheerness<br/>Kent<br/>ME12 1ET</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=97095">Wisdom Hospice</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">High Bank<br/>St Williams Way<br/>Rochester<br/>Kent<br/>ME1 2NU</dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3><a href="/Services/clinics/Overview/DefaultView.aspx?id=128541">York Road Language Unit</a></h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">York Road<br/>Dartford<br/>Kent<br/>DA1 1SQ</dd></dl>
+</div>
+</div></div>
+</div>
+<h2>Other locations</h2>
+<div class="box-list clear hospital-list" id="listContainerc1159c49fbea461dbaa74491854c3856">
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3>Community equipment loan store</h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Unit 4, Rochester Trade Park, Rochester Airport Industrial Estate, Maidstone Road, Rochester</dd><dt class="hidden">PostCode:</dt><dd class="addrss">ME1 3QY</dd><dt>Tel:</dt><dd>01634 334860</dd><dt>Website:</dt><dd class="address"><a href="http://www.medwaycommunityhealthcare.nhs.uk/cels">http://www.medwaycommunityhealthcare.nhs.uk/cels</a></dd></dl>
+</div>
+</div></div>
+<div class="panel box"><div class="panel-content">
+<div class="pad clear">
+<h3>our Zone</h3>
+<dl><dt class="hidden">Address:</dt><dd class="addrss">Balfour Centre, Pattens Lane, Rochester</dd><dt class="hidden">PostCode:</dt><dd class="addrss">ME1 2RB</dd><dt>Tel:</dt><dd>01634 335580</dd><dt>Website:</dt><dd class="address"><a href="http://www.medwaycommunityhealthcare.nhs.uk/ourzone">http://www.medwaycommunityhealthcare.nhs.uk/ourzone</a></dd></dl>
+</div>
+</div></div>
+</div>
+</div>
+<div class="col two-sm last" id="ctl00_ctl00_ctl00_PlaceHolderMain_contentColumn2">
+<div class="panel">
+<div class="panel-content">
+<div class="pad clear">
+<div class="compare-hospitals clear">
+<script src="/includes/jquery.autocomplete.js" type="text/javascript"></script>
+<script src="/includes/chooseservices.js" type="text/javascript"></script>
+<script src="/includes/jquery.rememberpostcode.js" type="text/javascript"></script>
+<div class="clear" id="divColWidgets">
+<div class="panel find-hospital col-one" id="ctl00_ctl00_ctl00_PlaceHolderMain_column2Content_column2Content_FindServicesControl_divColServices">
+<div class="panel-top" id="hubsearch">
+<h2>Find and choose Hospitals and Clinics</h2>
+<div class="message">
+<img alt="its your choice" src="/img/pims/panel-its-your-choice.gif"/>
+<h3>Did you know...</h3>
+<p>You can choose anywhere in England for an appointment with a specialist?</p>
+</div>
+<fieldset id="main-search">
+<legend class="hidden">Find and choose Hospitals and Clinics</legend>
+<div id="ctl00_ctl00_ctl00_PlaceHolderMain_column2Content_column2Content_FindServicesControl_pnlSearch">
+<div class="hub-search-box clear" id="hub-search-box">
+<div class="hub-search">
+<!-- <label for="_txtSearch">Postcode, location or Hospital name</label>-->
+<input class="service-search" id="_txtSearch" maxlength="100" name="_txtSearch" type="text" value="postcode, location or name"/>
+</div>
+<div class="row clear" id="_ucColumnWidget_divPostCode">
+<span class="chk-postcode clear" id="chk-postcode">
+<input id="_chkRemPostCode" name="_chkRemPostCode" type="hidden" value="False"/>
+</span>
+</div>
+<div class="row clear" id="_ucColumnWidget_divAtoZLink">
+<p id="pAtoZLink"><a href="/ServiceDirectories/Pages/ServiceSearchTreatmentAtoZ.aspx" id="TreatmentAtoZLink">Select from our treatment and condition list</a></p>
+<input id="_ucColWidget_txtTreatmentInput" name="_ucColWidget_txtTreatmentInput" type="hidden" value="e.g. hip replacement or diabetes"/>
+</div>
+<div class="hub-submit">
+<div class="submit-container">
+<div class="submit">
+<input class="search" type="submit" value="Find Hospitals and Clinics"/>
+<!--[if IE]><label for="hidden-input" class="hidden"><input type="text" id="hidden-input" class="hidden" disabled="disabled" size="1" /></label><![endif]-->
+</div>
+</div>
+</div>
+<div class="clear hidden" id="hub-compare-container">
+<div class="compare-box">
+<div class="top">
+<div class="border-t">
+<span class="crnr tl"></span>
+<span class="crnr tr"></span>
+</div>
+</div>
+<div class="middle">
+<div class="pad-rl border-rl">
+</div>
+</div>
+<div class="bottom">
+<div class="border-b">
+<span class="crnr br"></span>
+<span class="crnr bl"></span>
+</div>
+</div>
+</div>
+</div>
+<input id="_ucColWidget_HiddenTreatmentId" name="_ucColWidget_HiddenTreatmentId" type="hidden"/>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</div><!-- end compare-hospitals -->
+</div>
+</div>
+</div>
+</div>
+<div class="col tertiary-content">
+</div>
+<div class="col three-sm">
+<div class="module" id="modulea7cfd347a06749cda7dea82690ff94b6">
+<div class="panel panel-nonedit module panel-profile-site">
+<div class="panel-content">
+<div class="pad clear">
+</div>
+</div>
+</div>
+<div class="last-updated">
+<p id="ctl00_ctl00_ctl00_PlaceHolderMain_informationSuppliedByControl_lastUpdatedDate">Last updated on <span class="date-value">11 August 2017</span>.</p>
+<p>Information supplied by Medway Community Healthcare</p>
+</div>
+</div>
+</div>
+<div class="col two-sm serv-info-qual-wrap last">
+<p class="serv-info-qual"><a href="/aboutNHSChoices/Pages/InformationQualityForm.aspx?PageTitle=Hospitals+and+clinics+-+Medway+Community+Healthcare+-+NHS&amp;Address=MCH+House%2c%2c%2cGillingham%2cKent%2cME8+0PZ&amp;Name=Medway+Community+Healthcare">Report an issue with the information on this page</a></p>
+</div>
+</div>
+</div>
+</div>
+</form>

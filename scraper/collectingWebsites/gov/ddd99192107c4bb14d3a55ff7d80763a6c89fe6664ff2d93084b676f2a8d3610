@@ -1,0 +1,6 @@
+<form action="/search/all">
+<label for="search-box">Search this manual</label>
+<input name="manual[]" type="hidden" value="/guidance/healthcare-waste-appropriate-measures-for-permitted-facilities"/>
+<input class="in-manual-search-box" id="search-box" name="q" type="text"/>
+<button type="submit">search</button>
+</form>

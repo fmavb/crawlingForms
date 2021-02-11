@@ -1,0 +1,50 @@
+<form action="/access/doLogin.do" autocomplete="off" id="loginForm" method="post"> <fieldset>
+<legend>MyAvivaBusiness</legend>
+<div class="m-form-row u-margin--top-none">
+<!-- InfoPodLoginPage
+<div class="m-card m-card-notification m-card-notification--information t-accent-light t-accent-light--1" role="status">
+<div class="m-card-content">
+<p>You won&rsquo;t be able to log into MyAvivaBusiness, get a quote, buy, renew or make changes to your scheme online or on the phone from 5pm on Friday 20 November &ndash; as we&rsquo;re making improvements to our systems. We&rsquo;ll be back up and running on Monday 23 November. If you need to make a claim or need to talk to us, <a href="https://www.aviva.co.uk/business/contact-us/">give us a call</a></p>
+</div>
+</div>
+-->
+</div>
+<div class="m-form-row u-margin--top-none">
+<h1 class="a-heading a-heading--1 u-margin--top-none">MyAvivaBusiness</h1>
+</div>
+<div class="m-form-row m-form-row--has-explanatory-text-link">
+<label class="a-label" for="text">
+<label for="username">Username</label>
+</label>
+<p class="m-form-row__explanatory-text-link"><a href="/MyAccount/ForgottenYourDetails/ForgottenUsername">Forgot username</a></p>
+<p class="m-form-row__explanatory-text">This might be your email address</p>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="username" data-valmsg-replace="true"></span>
+<input class="a-textbox" data-val="true" data-val-required="Please enter your username" id="username" maxlength="50" name="username" type="text" value=""/>
+<label class="a-checkbox a-checkbox--standalone" for="RememberUsername">
+<input class="a-checkbox__input" id="RememberUsername" name="RememberUsername" type="checkbox" value="2"/><input name="RememberUsername" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">Remember me</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+</div>
+<div class="m-form-row m-form-row--has-explanatory-text-link">
+<label class="a-label" for="password">
+<label for="password">Password</label>
+</label>
+<p class="m-form-row__explanatory-text-link"><a href="/MyAccount/ForgottenYourDetails/ForgottenPassword">Forgot password</a></p>
+<input id="HOSTNAME" name="HOSTNAME" type="hidden" value="mybusiness-aviva"/>
+<input id="URL" name="URL" type="hidden" value="direct"/>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="password" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox" data-val="true" data-val-required="Please enter your password" id="password" maxlength="100" name="password" type="password"/>
+</div>
+</div>
+<div class="m-form-row">
+                        By accessing MyAvivaBusiness you agree to our <a class="termsOfUse" data-module="o-modal" href="/MyAccount/Public/AuthTermsOfUse" id="termsOfUseLink">terms of use</a>.
+                    </div>
+<div class="m-form-row">
+<button class="a-button a-button--primary" id="loginButton" name="loginButton" type="submit" value="Log in">Log in</button>
+</div>
+</fieldset>
+</form>

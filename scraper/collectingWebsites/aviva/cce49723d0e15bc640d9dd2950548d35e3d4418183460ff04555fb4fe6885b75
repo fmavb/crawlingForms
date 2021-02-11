@@ -1,0 +1,46 @@
+<form action="/ecol/quoteret/retrieve.action" autocomplete="off" class="new-design" id="retrieve" method="post" name="retrieve">
+<div id="formError">
+</div>
+<div class="div-align width100 allBorSolid allBorderRadius left botGap">
+<div class="form-container noBorder content-main-help-left">
+<input name="struts.token.name" type="hidden" value="token"/>
+<input name="token" type="hidden" value="1SL56LDWWCUAEYDKO4DPYY0937YM3Z18"/>
+<div class="details noBottomMargin">
+<h1>Please enter the following details to retrieve your saved quotes.</h1>
+</div>
+<div class="form-area noPadding width100" id="quoteRetrieve-form">
+<div class="noTopBorder field-row date-field">
+<div class="required">
+<label for="retrieve_customerDetails_dob_day">Date of Birth<span>*</span></label>
+<input id="retrieve_customerDetails_dob_day" maxlength="2" name="customerDetails.dob.day" placeholder="DD" type="text" value=""/>
+<input id="retrieve_customerDetails_dob_month" maxlength="2" name="customerDetails.dob.month" placeholder="MM" type="text" value=""/>
+<input id="retrieve_customerDetails_dob_year" maxlength="4" name="customerDetails.dob.year" placeholder="YYYY" type="text" value=""/>
+</div>
+</div>
+<div class="field-row">
+<div class="required">
+<label for="retrieve_customerDetails_emailId">Email<span>*</span></label>
+<input class="shorterLabel mobile-resize" id="retrieve_customerDetails_emailId" name="customerDetails.emailId" type="text" value=""/></div>
+<div class="helpContent">Please use the email address used to obtain the original quote</div>
+</div>
+<div class="field-row bottomLeftBorderRadius">
+<div class="required">
+<label for="retrieve_customerDetails_postCode">Postcode<span>*</span></label>
+<input class="shorterLabel mobile-resize" id="retrieve_customerDetails_postCode" name="customerDetails.postCode" type="text" value=""/></div>
+</div>
+</div>
+</div>
+<div class="hidden leftPad rightPad content-main-help-right" id="helpTextContainer">
+<div id="helpTextContentHolder"></div>
+</div>
+</div>
+<p class="clear"><small><b>*</b><small>Indicates mandatory fields</small></small></p>
+<div class="buttonContainer clear">
+<div class="submitBtn right">
+<input class="button yellow-continue buttonClick" id="retrieve_link_retrieve_text" name="method:next" style="right" type="submit" value="Retrieve Quote"/>
+</div>
+<div class="submitBtn right">
+<input class="rightGap button grey-back buttonClick" id="getNewQuote" name="method:getNewQuote" style="right" type="submit" value="Get a New Quote"/>
+</div>
+</div>
+</form>

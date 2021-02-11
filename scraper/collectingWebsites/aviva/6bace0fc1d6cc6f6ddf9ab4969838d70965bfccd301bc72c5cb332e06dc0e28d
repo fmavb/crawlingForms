@@ -1,0 +1,68 @@
+<form method="post" name="forgotten_email" novalidate="novalidate">
+<input id="forgotten_email__token" name="forgotten_email[_token]" type="hidden" value="ZUPqrvKQvXDc-8a5CUETGPu-JaO2Gmf5wRSDoOJegf4"/>
+<div class="l-section">
+<div class="l-content-container">
+<div class="m-form-row">
+<div class="m-heading-group">
+<h1 class="a-heading a-heading--1 a-heading--1-form">Forgotten email</h1>
+<h3 class="a-heading a-heading--3">Before we can reveal your email, please enter the following information:</h3>
+</div>
+</div>
+<div class="m-form-row u-hidden">
+<div class="m-card m-card-notification m-card-notification--warning" role="status">
+<div class="m-card-content" id="m-card-content">
+<p>The details entered do no match your Aviva Save account.</p>
+</div>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<fieldset>
+<div class="m-form-row">
+<label class="a-label" for="forgotten_email_firstNames">First name</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="forgotten_email_firstNames" name="forgotten_email[firstNames]" placeholder="Enter your first name" type="text"/>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="forgotten_email_lastName">Last name</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="forgotten_email_lastName" name="forgotten_email[lastName]" placeholder="Enter your last name" type="text"/>
+</div>
+</div>
+<fieldset class="m-form-row" role="group">
+<legend class="a-label">Date of birth</legend>
+<div class="m-form-row__content">
+<ul class="m-textbox-group">
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="test-date-1">Day</label>
+<input class="a-textbox a-textbox--2-character" id="forgotten_email_dobDay" maxlength="2" minlength="2" name="forgotten_email[dobDay]" placeholder="DD" type="text"/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="test-date-2">Month</label>
+<input class="a-textbox a-textbox--2-character" id="forgotten_email_dobMonth" maxlength="2" minlength="2" name="forgotten_email[dobMonth]" placeholder="MM" type="text"/>
+</li>
+<li class="m-textbox-group__item">
+<label class="m-textbox-group__item-label" for="test-date-3">Year</label>
+<input class="a-textbox a-textbox--4-character" id="forgotten_email_dobYear" maxlength="4" minlength="4" name="forgotten_email[dobYear]" placeholder="YYYY" type="text"/>
+</li>
+</ul>
+</div>
+</fieldset>
+<div class="m-form-row">
+<label class="a-label" for="forgotten_email_mobilePhone">Mobile number</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="forgotten_email_mobilePhone" maxlength="11" minlength="11" name="forgotten_email[mobilePhone]" placeholder="Enter your mobile number" type="text"/>
+</div>
+</div>
+<div class="m-form-row">
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<button class="a-button a-button--primary" type="submit">Submit</button>
+</li>
+</ul>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</form>

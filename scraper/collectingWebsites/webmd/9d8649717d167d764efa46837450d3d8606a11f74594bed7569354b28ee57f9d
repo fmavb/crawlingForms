@@ -1,0 +1,950 @@
+<form action="https://sdcstaging.webmd.com/sdclive/processor.aspx" method="post" name="rmq" onsubmit="return false;" target="sdc_submit">
+<input id="redirectUrl" name="redirectUrl" type="hidden" value="about:blank"/>
+<input name="system_formId" type="hidden"/>
+<input name="system_firstLandingPage" type="hidden"/>
+<input name="env" type="hidden" value="desktop"/>
+<ul id="rmq_slides">
+<li class="slide question" data-correct-answer="b" data-slide-number="1" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Taking fish oil supplements is as good for you as eating fish.</h2>
+</div>
+<div class="slide_text">
+<input id="q1" name="q1" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>Taking fish oil supplements is as good for you as eating fish.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Fish like salmon, tuna, and mackerel, as well as fish oil capsules all have heart-healthy omega-3 fatty acids.</p>
+<p> </p>
+<p>But adding fish to your diet has bonuses you won't get from a supplement: calcium and vitamins B2 and D. It's also an excellent source of protein.</p>
+<p> </p>
+<p>So try to eat fish more often. Have it two times a week instead of meat.</p>
+<p> </p>
+<p>If you have heart problems, though, you may need to boost your omega-3s with a supplement or a prescription if you have very high triglycerides. Talk to your doctor.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="a" data-slide-number="2" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Fish oil is good for your heart because it:</h2>
+</div>
+<div class="slide_text">
+<input id="q2" name="q2" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Lowers high triglycerides</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Helps you lose weight</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Makes your heart muscle stronger</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>Fish oil is good for your heart because it:</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Omega-3s like DHA and EPA, which are found mainly in fish, can help lower triglycerides, a type of fat in your blood. To lower those levels, you should take 2-4 grams of DHA/EPA a day under the supervision of your doctor.</p>
+<p>If you don't have high triglycerides, find a favorite fish to eat.</p>
+<p> </p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="c" data-slide-number="3" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>If you don't eat fish, where else can you get omega-3s?</h2>
+</div>
+<div class="slide_text">
+<input id="q3" name="q3" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Walnuts</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Liver</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Both</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>If you don't eat fish, where else can you get omega-3s?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Fish is still your best bet for omega-3s. While organ meats, like liver, do have some omega-3s, you can't rely on them to give you all you need.</p>
+<p>Walnuts provide an omega-3 called ALA, which your body doesn't make. ALA is also found in:</p>
+<ul>
+<li>Some vegetable oils, especially flaxseed oil</li>
+<li>Green vegetables like kale or spinach</li>
+</ul>
+<p>Your body can turn ALA into small amounts of EPA and DHA, the omega-3s found in fish. There's more proof that they protect against heart disease.</p>
+<p>Vegetarians and vegans can try algae oils as a source of omega-3s.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="4" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Krill oil contains fewer omega-3s than fish oil.</h2>
+</div>
+<div class="slide_text">
+<input id="q4" name="q4" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>Krill oil contains fewer omega-3s than fish oil.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Krill oil, made from shrimp-like creatures, has about as much DHA as fish oil. And it has even more EPA. Krill oil is at least as good a source of omega-3s as fish oil is for lowering triglycerides and cholesterol.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="c" data-slide-number="5" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>How much fish should most people eat?</h2>
+</div>
+<div class="slide_text">
+<input id="q5" name="q5" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>No more than 3 ounces per week</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>5 ounces per week</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>At least 7 ounces per week</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>How much fish should most people eat?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Eat fish -- preferably oily fish like salmon, herring, lake trout, sardines, or albacore tuna -- twice a week. A serving is 3.5 ounces, or about 3/4 cup of flaked fish.</p>
+<p> </p>
+<p>It's generally safe to eat up to 12 ounces of fish or shellfish a week, if they don’t have much mercury.</p>
+<p> </p>
+<p>Fish that are low in it include:</p>
+<ul>
+<li>Shrimp</li>
+<li>Canned light tuna</li>
+<li>Salmon</li>
+<li>Pollock</li>
+<li>Catfish</li>
+</ul>
+<p> </p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="a" data-slide-number="6" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Which fish has the least amount of potential contaminants?</h2>
+</div>
+<div class="slide_text">
+<input id="q6" name="q6" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Salmon</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Swordfish</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>King mackerel</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>Which fish has the least amount of potential contaminants?</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Fish can come in contact with things like mercury, PCBs, and other contaminants through the environment, as well as household and industrial waste. Over time, these things can cause health problems, particularly for pregnant women and young children.</p>
+<p> </p>
+<p>Wild Alaskan salmon is rich in omega-3s and has low levels of chemicals.</p>
+<p> </p>
+<p>But swordfish and mackerel are among a group of fish high in contaminants like mercury and PCB. This list also includes:</p>
+<p> </p>
+<ul>
+<li>Shark</li>
+<li>Marlin</li>
+<li>Tilefish</li>
+<li>Tuna steak</li>
+<li>Bluefin</li>
+<li>Bigeye</li>
+</ul>
+<p> </p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="7" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>If you're pregnant, you should take fish oil supplements to help your baby's brain develop.</h2>
+</div>
+<div class="slide_text">
+<input id="q7" name="q7" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Yes</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>No</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>If you're pregnant, you should take fish oil supplements to help your baby's brain develop.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>DHA in a mom's diet has been linked to a brainpower boost in their babies. But studies haven't always found that same benefit from taking fish oil supplements.</p>
+<p>Pregnant women should eat some, but not a lot, of fish that's low in mercury. In most cases, you should try to get the same amount of omega-3s as other healthy adults. Have low-mercury fish twice a week -- just make sure those two servings don't add up to more than 12 ounces.</p>
+<p>DHA does help your baby's brain and eyes develop. It also reduces the risk of premature birth. Remember, your body can turn healthy fats in dark leafy greens or flaxseed oil into this important nutrient</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="8" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>You can cut down “fishy” burps by taking fish oil capsules:</h2>
+</div>
+<div class="slide_text">
+<input id="q8" name="q8" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Once a day</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>At the start of a meal</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Right before you go to bed</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>You can cut down “fishy” burps by taking fish oil capsules:</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Some people who take fish oil capsules are bothered by fish burps or a fishy taste in their mouth. Often, there's a simple answer: Take them with meals.</p>
+<p>Also, you can swallow them frozen.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="b" data-slide-number="9" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>If you already have heart disease, fish oil won't help.</h2>
+</div>
+<div class="slide_text">
+<input id="q9" name="q9" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>True</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>False</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>If you already have heart disease, fish oil won't help.</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Fish oil supplements seem to help prevent more troubles for people with heart disease. Heart patients should get about 1 gram of EPA and DHA combined, preferably from fish, every day. Supplements may also help, but check with your doctor.</p>
+<p>If you take aspirin, warfarin, or other drugs for heart patients, know that fish oil can thin the blood. At high doses, it might thin it too much.</p>
+<p> </p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide question" data-correct-answer="c" data-slide-number="10" data-slide-type="question">
+<div class="slide_content">
+<div class="rmq_progress">
+<span class="cur_prog_title">Question </span>
+<span class="cur_prog_num">1</span>/<span class="tot_pro_num">10</span></div>
+<div class="slide_media">
+<div class="slide_controls">
+<ul>
+<li>
+<a class="rmq_next" href="#" title="Continue">
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+<div class="rsImg-wrap">
+<img alt="slide image" class="rsImg" src="https://img.webmd.com/dtmcms/live/webmd
+
+/consumer_assets/site_images/rich_media_quiz/topic/rmq_fish_oil/getty_rf_photo_of_fish_oil_capsule.jpg?resize=692px:*"/>
+</div>
+</div>
+<div class="slide_question">
+<h2>Omega-3s may:</h2>
+</div>
+<div class="slide_text">
+<input id="q10" name="q10" type="hidden" value=""/>
+<ul class="radio_inputs">
+<li>
+<a data-selected-answer="a" href="#">
+<div class="answer_input_text">
+<div class="input">a</div>
+<p>Ward off Alzheimer's disease</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="b" href="#">
+<div class="answer_input_text">
+<div class="input">b</div>
+<p>Cure asthma</p>
+</div> </a>
+</li>
+<li>
+<a data-selected-answer="c" href="#">
+<div class="answer_input_text">
+<div class="input">c</div>
+<p>Help diabetes</p>
+</div> </a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide answer" data-slide-type="answer">
+<div class="slide_content">
+<div class="slide_media"> <div class="rmq_progress"><span class="cur_prog_title">Answer </span><span class="cur_prog_num">1</span>/<span class="tot_prog_num">10</span></div><div class="slide_question"><h2>Omega-3s may:</h2></div></div>
+<div class="slide_text">
+<ul class="rmq_answers">
+<li class="user_answer">
+<span class="answered_title"> </span>
+<span class="you_answered_text">You answered: </span>
+<span class="answer_text"> </span>
+</li>
+<li class="correct_answer">
+<span class="answer_text_title">Correct Answer: </span>
+<span class="answer_text"> </span>
+</li>
+</ul>
+<div class="answer_expl">
+<div class="expl_content">
+<p>Studies show that omega-3 fatty acids lower high triglycerides, a common problem in people with diabetes. Talk with your doctor about taking fish oil if you have high triglycerides for any reason.</p>
+<p> </p>
+<p>Research hasn't shown consistently that omega-3s help asthma. Research on Alzheimer's and dementia patients has found a link between low levels of DHA and those diseases, but taking more omega-3s hasn't been found to improve either condition. Studies have shown that adding DHA does improve memory and learning in older healthy adults.</p>
+</div>
+</div>
+</div>
+<div class="slide_controls">
+<ul>
+<li class="next">
+<hr/>
+<a class="rmq_next" href="#" title="Continue">
+<span class="rmq_next_text">Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="slide results" data-slide-type="results">
+<div class="slide_content">
+<div class="slide_text">
+<div class="results_top_container">
+<div class="results_header">
+<p class="results_score_title">Your Score:</p>
+<div class="score_summary">
+<span class="total_correct icon-check">
+<span> </span>
+</span>
+<span class="total_incorrect icon-close">
+<span> </span>
+</span>
+</div>
+<div class="results_share">
+<span class="results_share_title">Share your score:</span>
+<span id="share_your_results">
+</span>
+</div>
+</div>
+<div class="results_graphic">
+<div class="results_score">
+<div class="results_score_percentage">
+<span class="num">0</span>
+</div>
+<div id="rmq_score_graphic"> </div>
+</div>
+</div>
+<div class="results_share_mobile">
+<span class="results_share_title">Share your score:</span>
+<span id="share_your_results_mobile">
+</span>
+</div>
+</div>
+<div class="results_text">
+<div id="rmq_total_rank">Your Score: <span class="score_rank"> </span><p class="score_text">You correctly answered <span class="score_num_correct"> </span> out of <span class="score_num_total"> </span> questions.</p></div>
+<div class="rmq_results" id="results_1">
+<h5 class="results_title">Results:</h5>
+<p>Congratulations! You handled this quiz swimmingly!</p>
+</div>
+<div class="rmq_results" id="results_2">
+<h5 class="results_title">Results:</h5>
+<p>Pretty good! You don't need much schooling on fish and fish oil.</p>
+</div>
+<div class="rmq_results" id="results_3">
+<h5 class="results_title">Results:</h5>
+<p>You might want to supplement your fish oil knowledge.</p>
+</div>
+</div>
+<div id="results_controls">
+<a class="rmq_next_quiz" href="#">
+<span>Next</span>
+<i class="icon-arrow-right"> </i>
+</a>
+<a class="rmq_retake" href="#">
+<i class="icon-arrow-left"> </i>
+<span>Retake Quiz</span>
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</form>

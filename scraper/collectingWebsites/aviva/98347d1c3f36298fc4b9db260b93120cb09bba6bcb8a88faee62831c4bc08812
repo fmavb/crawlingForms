@@ -1,0 +1,105 @@
+<form action="/myfuture/ShapeMyFuture/LandingPage" method="post"><input name="__RequestVerificationToken" type="hidden" value="6zokZ5PuWy-xY7JtQPoi9J2krQH2KYFz6F4hq48c1irvu0V_Vai3IjJg2beJxBzNK32rtJKlm6prbGwVw7dsVYbWMBM1"/><input id="IsCorporateUser" name="IsCorporateUser" type="hidden" value="False"/> <div class="m-card-split-promo">
+<div class="m-card m-card-split-promo__item t-accent-light t-accent-light--yellow">
+<div class="m-card-content u-pt--1 u-pb--1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h2 class="a-heading a-heading--1 a-heading--light u-margin--bottom-none">Welcome to</h2>
+<h3 class="a-heading a-heading--1 a-heading--regular u-mt--0">Shape my Future</h3>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom u-pt--2">
+<p class="a-heading a-heading--3 a-heading--light">This tool is here to help you daydream about the lifestyle you might like to have in the future. <strong>First</strong>, discover what your retirement income might be, <strong>second</strong>, take a light-hearted look at how much the lifestyle you want could cost; and <strong>third</strong>, plan how you might make it happen.</p>
+</div>
+</div>
+<div class="openingImageRoad">
+<div class="openingImage"></div>
+</div>
+<div class="m-card-content t-accent-light t-accent-light--yellow u-pb--2 u-pt--3">
+<p class="a-heading a-heading--2 a-heading--light startJourney"><a href="/myfuture/ShapeMyFuture/Login">I've done this before</a></p>
+</div>
+</div>
+<div class="m-card m-card-split-promo__item t-accent-light t-accent-light--grey" id="startJourney">
+<div class="m-card-content u-pt--1 u-pb--1">
+<div class="m-card-content__inner m-card-content__inner--top">
+<h2 class="a-heading a-heading--2 a-heading--light">About You</h2>
+</div>
+<div class="m-card-content__inner m-card-content__inner--bottom">
+<h3 class="a-heading a-heading--3 a-heading--light">1 of 8</h3>
+</div>
+<div>
+<h3 class="a-heading a-heading--1 a-heading--light">When were you born?</h3>
+<h4 class="a-heading a-heading--3 a-heading--light u-margin--bottom-none">DD/MM/YYYY</h4>
+</div>
+<div class="m-form-row">
+<div class="m-form-row__content">
+<fieldset>
+<legend>Step 1 of 2</legend>
+<label class="u-hidden--visually" for="DateOfBirth">Date of birth</label>
+<input class="a-textbox u-text--center" data-bind="textInput: DateOfBirth" data-qa-textbox="dateOfBirth" data-val="true" data-val-date="The field Date of birth must be a date." id="DateOfBirth" maxlength="10" name="DateOfBirth" placeholder="DD/MM/YYYY" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="DateOfBirth" data-valmsg-replace="true"></span>
+</fieldset>
+</div>
+<div>
+<p class="a-heading a-heading--3 a-heading--light">This will affect when we assume you will retire.</p>
+</div>
+</div>
+</div>
+<div class="m-form-row">
+<div class="m-form-row__content">
+<div class="m-card-content u-pb--1">
+<span class="a-button a-button--primary a-button--input"><input class="a-button__inner" data-qa-button="submitForm" type="submit" value="Let's go"/></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="l-section">
+<div class="l-content-container">
+<h2 class="a-heading a-heading--2 a-heading--light u-text--center u-margin--top-none">Here are some we made earlier</h2>
+</div>
+</div>
+<div class="pane idealRetirementPane">
+<div class="caseStudyCarousel clearFix">
+<div class="carouselPrev"></div>
+<div class="carouselSliderContainer clearFix">
+<div class="carouselSlider caseStudyRoad">
+<div class="caseStudyItem active">
+<div class="caseStudyProfile clearFix">
+<p class="caseStudyName male">Matthew <span>22, NEWCASTLE</span></p>
+</div>
+<div class="caseStudyImage matthew"></div>
+<p class="caseStudyDescription">Take a look at the future lifestyle that Matthew created.  He wants to be living in the town centre, cooking lots of meals at home and getting around on public transport. He’s a bookworm, so he’ll keep himself entertained by reading. Will his retirement income be enough to support his dream lifestyle? Shape my Future can start to give him an idea.</p>
+</div>
+<div class="caseStudyItem">
+<div class="caseStudyProfile clearFix">
+<p class="caseStudyName male">Joe <span>24, NORWICH</span></p>
+</div>
+<div class="caseStudyImage joe"></div>
+<p class="caseStudyDescription">Here’s Joe’s ideal future lifestyle.  He’ll be living in the suburbs, eating out a few times a week, working out at the gym and indulging his inner film buff at the cinema. But will he be able to afford to do all that on his retirement income? Shape My Future can help him start to find out.</p>
+</div>
+<div class="caseStudyItem">
+<div class="caseStudyProfile clearFix">
+<p class="caseStudyName female">Marie <span>27, LONDON</span></p>
+</div>
+<div class="caseStudyImage marie"></div>
+<p class="caseStudyDescription">Marie wants to be living in a big house, eating organic food, heading out regularly to the cinema with lots of days out and a few holidays each year. She’ll need a good retirement income to do all that, and Shape my Future can start to give her an idea of how much she’ll have. </p>
+</div>
+</div>
+</div>
+<div class="carouselNext"></div>
+</div>
+</div>
+<div class="l-section t-accent-light t-accent-light--grey">
+<div class="l-content-container u-text--center">
+<a class="a-button a-button--primary u-mt--2 u-align--left" href="#startJourney">Ok, let's start!</a>
+</div>
+</div>
+<div class="l-section t-accent-light t-accent-light--grey">
+<div class="l-content-container u-text--center">
+<h2 class="a-heading a-heading--2 a-heading--light u-margin--top-none">Share</h2>
+<p class="a-heading a-heading--3 a-heading--light">Tell your friends and followers about the Aviva Shape My Future tool</p>
+<ul class="a-social-links a-list-plain">
+<li><a class="a-social-links__icon a-social-links__icon--facebook fbShare" href="https://www.facebook.com/AvivaUK" itemprop="sameAs"><span></span></a></li>
+<li><a class="a-social-links__icon a-social-links__icon--twitter" href="https://twitter.com/intent/tweet?text=I%E2%80%99m%20about%20to%20find%20out%20what%20my%20life%20might%20be%20like%20when%20I%20retire.%20Want%20to%20see%20yours%3F%20http%3A%2F%2Fbit.ly%2F2dcpKFn%20%23shapemyfuture" itemprop="sameAs"><span></span></a></li>
+</ul>
+</div>
+</div>
+</form>

@@ -1,0 +1,52 @@
+<form action="/quote/Direct/AvivaPlus/Quote/RetrieveQuote" method="post"> <div class="l-columns l-columns--66-33-large">
+<div class="l-columns__column">
+<h1>Let's find your saved quote</h1>
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label" for="FirstName">First name</label>
+<p>Your first name, as you typed it on your quote</p>
+<div class="m-form-row__content">
+<input class="a-textbox" id="FirstName" name="FirstName" type="text" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label" for="LastName">Last name</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="LastName" name="LastName" type="text" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label" for="PostCode">Postcode</label>
+<p> The postcode for your home - the place we gave you the quote for</p>
+<div class="m-form-row__content">
+<input class="a-textbox" id="PostCode" name="PostCode" type="text" value=""/>
+</div>
+</fieldset>
+<fieldset class="m-form-row m-form-row--full-width">
+<label class="a-label" for="Dob">Date of birth</label>
+<div class="m-form-row__content m-form-dob group">
+<input class="a-textbox a-textbox--2-character" id="DateOfBirthDay" maxlength="2" name="DateOfBirthDay" pattern="[0-9]*" placeholder="DD" type="number" value=""/>
+<input class="a-textbox a-textbox--2-character" id="DateOfBirthMonth" maxlength="2" name="DateOfBirthMonth" pattern="[0-9]*" placeholder="MM" type="number" value=""/>
+<input class="a-textbox a-textbox--4-character" id="DateOfBirthYear" maxlength="4" name="DateOfBirthYear" pattern="(?:[0-9]{2}){1,2}" placeholder="YYYY" type="number" value=""/>
+</div>
+</fieldset>
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<button class="a-button a-button--primary" data-dd-avivaplus="button-retrievecontinue" data-dd-group="continue" type="submit" value="Retrieve quote">
+                        Find quote
+                    </button>
+</li>
+<li class="m-button-group__item">
+<a data-dd-avivaplus="link-retrieve-startnewquote" href="https://www.aviva.co.uk/insurance/avivaplus">Start a new quote</a>
+</li>
+</ul>
+</div>
+<div class="l-columns__column l-columns--paddinng">
+<h3 class="a-heading a-heading--3 a-heading--semibold">Important documents</h3>
+<ul class="linkList">
+<li class="pdf"><a data-dd-avivaplus="link-aboutourinsuranceservices" data-rel="externalLink" href="https://www.aviva.co.uk/content/dam/aviva-public/gb/pdfs/personal/insurance/generic/about-our-insurance-services-to-you-ngnag14361-v2.pdf " id="insuranceProductLink" target="_blank"><span class="pdfLink">About our insurance services</span><small>PDF (237 kb)</small></a></li>
+</ul>
+<div class="m-showhide" data-module="m-showhide">
+</div>
+</div>
+</div>
+</form>

@@ -1,0 +1,141 @@
+<form action="/myfuture/PensionWithdrawalTaxCalculator" method="post" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="rMqG94PkIUy3rP6YIOnOOfXnphhPlAIRdUEj3OOyfLJa3STgtBe9VYIYv03LEzytW20bxmoTFUSpz3s9_3Wl53yV-fE1"/> <div class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<legend>Step 1 of 2</legend>
+<h2 class="a-heading a-heading--2">Step 1 of 2</h2>
+<h2 class="a-heading a-heading--2">Pension withdrawal</h2>
+<p><strong>Enter the cash lump sum amount you want to take from your pension pot</strong> within the tax year 06 Apr 2020 to 05 Apr 2021</p>
+<span class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="AmountToTakeOutFromPension" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Pension withdrawal amount must be a number." data-val-range="Please enter a value greater than 0 and less than £10,000,000" data-val-range-max="9999999" data-val-range-min="1" data-val-required="Pension withdrawal amount is required." id="amountToTakeOutFromPension" maxlength="9" name="AmountToTakeOutFromPension" step="any" type="tel" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<div class="m-form-row__content">
+<label class="a-label u-clear--left" for="otherIncomeAmount">Other taxable income</label>
+<p>This could include any salary, state pension and income from a defined benefit pension scheme<a class="svg tooltip" href="#tooltip-defined-benefit-pension">(Help?)</a>but excludes savings and dividend income.</p>
+<span class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="OtherIncomeAmount" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Other taxable income received in the same year must be a number." data-val-range="Value must be greater than or equal to zero." data-val-range-max="7.92281625142643E+28" data-val-range-min="0" id="otherIncomeAmount" name="OtherIncomeAmount" step="any" type="tel" value=""/>
+</div>
+</div>
+<div class="validation-summary-errors" hidden="" id="lightboxError">
+<div class="m-card m-card-notification m-card-notification--warning" role="status">
+<div class="m-card-content">
+<p>There was a problem with your tax free cash inputs. Please check the values below and resubmit.</p>
+</div>
+</div>
+</div>
+<fieldset class="m-form-row m-form-row--full-width row radio" id="taxFreeCashOption" role="radiogroup">
+<legend class="a-label">Tax-free cash</legend>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="TaxFreeCashOption" data-valmsg-replace="true"></span>
+<ul class="m-radio-group m-radio-group--3 imageRadioInput" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio radio" for="inputMaxTaxFreeCashOption" id="maxTaxFreeCash">
+<input class="a-radio__input YourSavingsPlansRadio" data-val="true" data-val-required="This field is required." id="inputMaxTaxFreeCashOption" name="TaxFreeCashOption" type="radio" value="MaxTaxFreeCash"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">All of my tax-free cash first</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio radio" for="inputTwentyFivePercentOption" id="twentyFivePercent">
+<input class="a-radio__input YourSavingsPlansRadio" id="inputTwentyFivePercentOption" name="TaxFreeCashOption" type="radio" value="TwentyFivePercent"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">25% of each withdrawal as tax-free cash</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio radio" for="inputSpecificAmountOption" id="specifyAmount">
+<input class="a-radio__input YourSavingsPlansRadio" id="inputSpecificAmountOption" name="TaxFreeCashOption" type="radio" value="SpecificAmount"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Specify my tax-free cash amount</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<div id="maxpotAmountWithdrawText">
+<p>We assume the maximum amount of tax-free cash you can take from your total pension pot is 25%.</p>
+</div>
+<div class="m-form-row m-form-row--full-width" id="inputSpecificAmount">
+<label class="a-label" for="taxFreeCashRequired">Tax-free cash amount</label>
+<div class="m-form-row__content">
+<div hidden="" id="specificAmountZeroError">
+<span class="m-form-row__error-message">The Specific Tax Free Cash amount must be greater than zero</span>
+</div>
+<div hidden="" id="specificAmountAboveTotalPension">
+<span class="m-form-row__error-message">You can't take more than 25% of your pension pot as tax free cash</span>
+</div>
+<div hidden="" id="specificAmountAboveUncrystallisedPension">
+<span class="m-form-row__error-message">You can't take more than 25% of your uncrystallised pension pot as tax free cash</span>
+</div>
+<span class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="TaxFreeCashRequiredAmount" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Tax-free cash amount must be a number." id="taxFreeCashRequired" name="TaxFreeCashRequiredAmount" step="any" type="tel" value=""/>
+<div hidden="" id="specificAmountError">
+<div class="m-card m-card-notification m-card-notification--warning" role="status">
+<div class="m-card-content">
+<p>Please enter a value that is less than or equal to your Pension Withdrawal amount</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<fieldset class="m-form-row m-form-row--full-width row radio" id="previousTaxFreeCashOption" role="radiogroup">
+<legend class="a-label">Have you previously taken tax free cash from this pension?</legend>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--2 imageRadioInput" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="HasTaxFreeCashBeenTakenYes" id="previousTaxFreeCashYes">
+<span class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="HasPreviousTaxFreeCashBeenTaken" data-valmsg-replace="true"></span>
+<input class="a-radio__input" id="HasTaxFreeCashBeenTakenYes" name="HasPreviousTaxFreeCashBeenTaken" type="radio" value="Yes"/>
+<span class="a-radio__label"><span class="a-radio__label-inner LifeExpectancyGenderRadio">Yes</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="HasTaxFreeCashBeenTakenNo" id="previousTaxFreeCashNo">
+<input checked="checked" class="a-radio__input YourSavingsPlansRadio" id="HasTaxFreeCashBeenTakenNo" name="HasPreviousTaxFreeCashBeenTaken" type="radio" value="No"/>
+<span class="a-radio__label"><span class="a-radio__label-inner LifeExpectancyGenderRadio">No</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<div aria-required="true" class="m-form-row m-form-row--full-width" id="inputTotalPotSize">
+<label class="a-label" for="totalPotSize">Total pot size</label>
+<div class="m-form-row__content">
+<div hidden="" id="totalPotSizeError">
+<p class="m-form-row__error-message">Total Pot Size cannot be less than the Pension Withdrawal amount</p>
+</div>
+<div hidden="" id="totalPotSizeZeroError">
+<p class="m-form-row__error-message">The Total Pot Size must be greater than zero</p>
+</div>
+<span class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="TotalPotSize" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Total pot size must be a number." id="totalPotSize" name="TotalPotSize" step="any" type="tel" value=""/>
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width" id="inputUncrystallisedPotSize">
+<label class="a-label" for="UncrystallisedPotSize">Total uncrystallised pension pot size</label>
+<div class="m-showhide" data-module="m-showhide">
+<h2 class="a-heading a-heading--2 a-heading--light m-showhide__heading">What does uncrystallised mean?</h2>
+<div class="m-showhide__content">
+<ul>
+<li>If you have only taken UFPLS<a class="svg tooltip" href="#tooltip-uncrystallised-funds-pension">(Help?)</a>withdrawals, and/or pension withdrawals that included 25% tax-free cash, then your uncrystallised pension pot is simply your remaining pension pot.</li>
+<li>If you've previously taken pension withdrawals which were made up of more than 25% tax free cash, then you will have money within your pension that will now be fully subject to income tax when you withdraw again. This is because you've already used your tax-free allowance on this money. The money is now fully subject to income tax and is known as your ‘crystallised pension pot or drawdown pot'.</li>
+<li>The remaining money in your pension, if any, is known as your ‘uncrystallised pension pot'. You can still take 25% tax-free cash on any withdrawals from this pot.</li>
+</ul>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<div hidden="" id="uncrystallisedPotSizeZeroError">
+<span class="m-form-row__error-message">The Uncrystallised Pot Size must be greater than zero</span>
+</div>
+<span class="field-validation-valid m-form-row__error-message u-hidden-if-empty" data-valmsg-for="UncrystallisedPotSize" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox a-textbox--symbol a-textbox--symbol-pound" data-val="true" data-val-number="The field Total uncrystallised pension pot size must be a number." id="uncrystallisedPotSize" name="UncrystallisedPotSize" step="any" type="tel" value=""/>
+</div>
+</div>
+</div> <p>Results are based on the assumption that this total includes all defined contribution pension pots you hold.</p>
+<p>This calculator is based on general information including the standard Personal Allowance<a class="svg tooltip" href="#tooltip-personal-allowance">(Help?)</a>and tax bands used by HMRC for 06 Apr 2020 to 05 Apr 2021 tax year using UK rates for England and Northern Ireland. Scottish and Welsh income tax thresholds may differ.</p>
+<p>It's designed to help you by producing an illustrative example of how much tax you may have to pay.  This is not a personal recommendation.</p>
+<span class="a-button a-button--primary a-button--input">
+<input class="a-button__inner" data-qa-button="submitForm" id="test-button-one" type="submit" value="Get results"/>
+</span>
+</form>

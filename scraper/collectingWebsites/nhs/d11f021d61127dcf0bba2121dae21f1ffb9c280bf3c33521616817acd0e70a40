@@ -1,0 +1,54 @@
+<form action="/services/hospital/stepping-hill-hospital/X1760/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Amazing team and A&amp;amp;amp;E service.&lt;/Title&gt;
+    &lt;ScreenName&gt;Hannah Whitaker&lt;/ScreenName&gt;
+    &lt;CommentText&gt;What an utterly amazing team and all around A&amp;amp;amp;E experience I had at stepping hill A&amp;amp;amp;E last night. I came in after being told by the emergency out of hour doctors that I needed to be urgently seen as I was having heart palpitations since the night before and had a heart rate of 144 bpm . As soon as I arrived  at stepping hill I was greeted by a lovely receptionist who gave me a card that said urgent ECG on it immediately after hearing about my palpitations and heart rate . The system the hospital has in place for urgent ECG’s I think is amazing and allowed me to get seen within ten minutes of my arrival. When I was assessed by Triage I was incredibly anxious and felt incredibly light headed and uncomfortable but the individual that did my ECG and checked my obs immediately put me at ease. They joked about and told me to imagine I was somewhere nice which calmed me down so much which I’m extremely grateful for. As soon as my ECG was completed the individual I was triaged by calmly told me that my heart rate was 160 bpm and that he needed to go and speak to the team about what was needed to be done next which showed great communication between the A&amp;amp;amp;E team. Blood was then immediately taken from me and a drip line put in and the triage nurse was so gentle with me . I was then taken to a bed in resus as it was the only bed available as it was an extremely busy night. The doctors and nurses that then cared for me were all amazing especially my main doctor and nurse who both put me at ease through the whole process and explained everything they were doing and were going to do to get my heart rate down and find the cause. The porters who took me down for my X-ray also put me at ease introducing themselves and asking about myself and having a laugh with me . The staff in the X-ray department were also amazing and explained to me what I needed to do and why I needed the X-ray. I was treated with the upmost respect and dignity throughout my whole visit and the staff were amazing with dealing with my anxiety about the whole experience. What a truly amazing team of staff and system in place to care for people. Can’t thank the staff enough for making my first serious A&amp;amp;amp;E visit for myself an amazing experience. They quickly an immediately got me on the mend and I can’t complain one bit about any part of the treatment I received. Thankyou to everyone at the A&amp;amp;amp; E department .&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-04-28T22:00:59.497Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;4&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Stepping Hill Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;951f6e59-45d5-e911-a812-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1760&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFYEzz5K1PWR4wuys_UecURfQqmN0ss9GzcpSwq9cxSMAW5phOpSMOHvQbYsfATwpKKuIhvgrxkUalQ5rgHeYWN2YGODWPsLO7BXsT5A_kIiwhBjDoRgv66GIG3ky0KFOM"/></form>

@@ -1,0 +1,790 @@
+<form action="/employment-tribunal-decisions" class="js-live-search-form" method="get">
+<input name="parent" type="hidden" value=""/>
+<div class="govuk-width-container">
+<div class="gem-c-phase-banner govuk-phase-banner">
+<p class="govuk-phase-banner__content">
+<strong class="govuk-tag govuk-phase-banner__content__tag">beta</strong>
+<span class="govuk-phase-banner__text">This part of GOV.UK is being rebuilt – <a class="govuk-link" href="/help/beta">find out what beta means</a></span>
+</p>
+</div>
+<div class="gem-c-contextual-breadcrumbs">
+<div class="gem-c-breadcrumbs govuk-breadcrumbs govuk-breadcrumbs--collapse-on-mobile" data-module="track-click">
+<ol class="govuk-breadcrumbs__list">
+<li class="govuk-breadcrumbs__list-item">
+<a class="govuk-breadcrumbs__link" data-track-action="homeBreadcrumb" data-track-category="homeLinkClicked" data-track-label="" data-track-options="{}" href="/">Home</a>
+</li>
+</ol>
+</div>
+</div>
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-two-thirds">
+<div class="gem-c-title govuk-!-margin-top-8 govuk-!-margin-bottom-8">
+<h1 class="gem-c-title__text">
+    Employment tribunal decisions
+  </h1>
+</div>
+<div class="gem-c-metadata" data-module="gem-toggle">
+<dl data-module="track-click">
+<dt class="gem-c-metadata__term">From:</dt>
+<dd class="gem-c-metadata__definition">
+<a href="https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service">HM Courts &amp; Tribunals Service</a> and <a href="https://www.gov.uk/courts-tribunals/employment-tribunal">Employment Tribunal</a>
+</dd>
+</dl>
+</div>
+</div>
+<div class="govuk-grid-column-two-thirds">
+<div class="metadata-summary">
+<div class="gem-c-govspeak govuk-govspeak" data-module="govspeak">
+<p>Find decisions on Employment Tribunal cases in England, Wales and Scotland from February 2017 onwards.</p>
+<p>If the decision was made before February 2017, contact <a href="https://courttribunalfinder.service.gov.uk/courts/bury-st-edmunds-county-court-and-family-court">Bury St Edmunds County Court</a> for cases in England or Wales, or <a href="https://courttribunalfinder.service.gov.uk/courts/glasgow-employment-and-immigration-tribunals-eagle-building">Glasgow Employment and Immigration Tribunals</a> for cases in Scotland.</p>
+<p>Decisions are not affected by GDPR rules and cannot be removed from GOV.UK.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="govuk-width-container">
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-one-third">
+<div class="filter-form">
+<div aria-label="Employment tribunal decisions" id="keywords" role="search">
+<div class="gem-c-search gem-c-search--on-white gem-c-search--separate-label" data-module="gem-toggle-input-class-on-focus">
+<label class="gem-c-search__label" for="finder-keyword-search">
+            Search <span class="govuk-visually-hidden">Employment tribunal decisions</span>
+</label>
+<div class="gem-c-search__item-wrapper">
+<input aria-controls="js-search-results-info" class="gem-c-search__item gem-c-search__input js-class-toggle" id="finder-keyword-search" name="keywords" title="Search" type="search" value=""/>
+<div class="gem-c-search__item gem-c-search__submit-wrapper">
+<button class="gem-c-search__submit" type="submit">Search</button>
+</div>
+</div>
+</div>
+</div>
+<button class="app-c-button-as-link app-mobile-filters-link js-show-mobile-filters" data-module="track-click" data-target="facet-wrapper" data-toggle="mobile-filters-modal" data-track-action="mobile-filter-button" data-track-category="filterClicked" data-track-label="">
+        Filter <span class="govuk-visually-hidden"> results</span>
+<span class="js-selected-filter-count">(1)<span class="govuk-visually-hidden"> filters currently selected</span></span>
+</button>
+<div data-module="track-click" data-track-action="skip-Link" data-track-category="filterClicked" data-track-label="">
+<a class="gem-c-skip-link govuk-skip-link" href="#js-results">Skip to results</a>
+</div>
+<div aria-label="Search filters" class="facets" data-module="mobile-filters-modal" id="facet-wrapper" role="search">
+<div class="facets__box">
+<div class="facets__header">
+<h1 class="gem-c-heading govuk-heading-xl govuk-!-margin-bottom-0">Filter</h1>
+<button class="app-c-button-as-link facets__return-link js-close-filters" type="button">
+            Return to results
+          </button>
+</div>
+<div class="facets__content">
+<div class="app-c-option-select" data-input-aria-controls="js-search-results-info" data-module="option-select">
+<h2 class="app-c-option-select__heading js-container-heading">
+<span class="app-c-option-select__title js-container-button" id="option-select-title-country">Country</span>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--up" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path></svg>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--down" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path></svg>
+</h2>
+<div aria-labelledby="option-select-title-country" class="app-c-option-select__container js-options-container" id="tribunal_decision_country" role="group" tabindex="-1">
+<div class="app-c-option-select__container-inner js-auto-height-inner">
+<div class="gem-c-checkboxes govuk-form-group govuk-checkboxes--small" data-module="govuk-checkboxes" id="checkboxes-cb8d7bce">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--m gem-c-checkboxes__legend--hidden">Country</legend>
+<ul class="govuk-checkboxes gem-c-checkboxes__list">
+<li class="govuk-checkboxes__item">
+<input checked="" class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Country" data-track-category="filterClicked" data-track-label="England and Wales" data-uncheck-track-category="filterRemoved" id="tribunal_decision_country-england-and-wales" name="tribunal_decision_country[]" type="checkbox" value="england-and-wales"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_country-england-and-wales">England and Wales</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Country" data-track-category="filterClicked" data-track-label="Scotland" data-uncheck-track-category="filterRemoved" id="tribunal_decision_country-scotland" name="tribunal_decision_country[]" type="checkbox" value="scotland"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_country-scotland">Scotland</label>
+</li>
+</ul>
+</fieldset>
+</div>
+</div>
+</div>
+</div>
+<div class="app-c-option-select" data-closed-on-load="true" data-input-aria-controls="js-search-results-info" data-module="option-select">
+<h2 class="app-c-option-select__heading js-container-heading">
+<span class="app-c-option-select__title js-container-button" id="option-select-title-jurisdiction-code">Jurisdiction code</span>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--up" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path></svg>
+<svg aria-hidden="true" class="app-c-option-select__icon app-c-option-select__icon--down" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path></svg>
+</h2>
+<div aria-labelledby="option-select-title-jurisdiction-code" class="app-c-option-select__container js-options-container" id="tribunal_decision_categories" role="group" tabindex="-1">
+<div class="app-c-option-select__container-inner js-auto-height-inner">
+<div class="gem-c-checkboxes govuk-form-group govuk-checkboxes--small" data-module="govuk-checkboxes" id="checkboxes-d4791487">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--m gem-c-checkboxes__legend--hidden">Jurisdiction code</legend>
+<ul class="govuk-checkboxes gem-c-checkboxes__list">
+<li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Age Discrimination" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-age-discrimination" name="tribunal_decision_categories[]" type="checkbox" value="age-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-age-discrimination">Age Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Agency Workers" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-agency-workers" name="tribunal_decision_categories[]" type="checkbox" value="agency-workers"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-agency-workers">Agency Workers</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Blacklisting Regulations" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-blacklisting-regulations" name="tribunal_decision_categories[]" type="checkbox" value="blacklisting-regulations"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-blacklisting-regulations">Blacklisting Regulations</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Breach of Contract" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-breach-of-contract" name="tribunal_decision_categories[]" type="checkbox" value="breach-of-contract"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-breach-of-contract">Breach of Contract</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Central Arbitration Committee (CAC)" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-central-arbitration-committee-cac" name="tribunal_decision_categories[]" type="checkbox" value="central-arbitration-committee-cac"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-central-arbitration-committee-cac">Central Arbitration Committee (CAC)</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Certification Officer" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-certification-officer" name="tribunal_decision_categories[]" type="checkbox" value="certification-officer"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-certification-officer">Certification Officer</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Contract of Employment" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-contract-of-employment" name="tribunal_decision_categories[]" type="checkbox" value="contract-of-employment"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-contract-of-employment">Contract of Employment</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Disability Discrimination" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-disability-discrimination" name="tribunal_decision_categories[]" type="checkbox" value="disability-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-disability-discrimination">Disability Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Employment Agencies Act 1973" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-employment-agencies-act-1973" name="tribunal_decision_categories[]" type="checkbox" value="employment-agencies-act-1973"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-employment-agencies-act-1973">Employment Agencies Act 1973</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Equal Pay Act" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-equal-pay-act" name="tribunal_decision_categories[]" type="checkbox" value="equal-pay-act"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-equal-pay-act">Equal Pay Act</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="European Material" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-european-material" name="tribunal_decision_categories[]" type="checkbox" value="european-material"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-european-material">European Material</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Fixed Term Regulations" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-fixed-term-regulations" name="tribunal_decision_categories[]" type="checkbox" value="fixed-term-regulations"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-fixed-term-regulations">Fixed Term Regulations</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Flexible Working" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-flexible-working" name="tribunal_decision_categories[]" type="checkbox" value="flexible-working"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-flexible-working">Flexible Working</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Harassment" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-harassment" name="tribunal_decision_categories[]" type="checkbox" value="harassment"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-harassment">Harassment</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Health &amp; Safety" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-health-safety" name="tribunal_decision_categories[]" type="checkbox" value="health-safety"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-health-safety">Health &amp; Safety</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Human Rights" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-human-rights" name="tribunal_decision_categories[]" type="checkbox" value="human-rights"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-human-rights">Human Rights</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Improvement Notice" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-improvement-notice" name="tribunal_decision_categories[]" type="checkbox" value="improvement-notice"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-improvement-notice">Improvement Notice</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Interim Relief" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-interim-relief" name="tribunal_decision_categories[]" type="checkbox" value="interim-relief"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-interim-relief">Interim Relief</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Jurisdictional Points" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-jurisdictional-points" name="tribunal_decision_categories[]" type="checkbox" value="jurisdictional-points"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-jurisdictional-points">Jurisdictional Points</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Maternity and Pregnancy Rights" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-maternity-and-pregnancy-rights" name="tribunal_decision_categories[]" type="checkbox" value="maternity-and-pregnancy-rights"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-maternity-and-pregnancy-rights">Maternity and Pregnancy Rights</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="National Minimum Wage" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-national-minimum-wage" name="tribunal_decision_categories[]" type="checkbox" value="national-minimum-wage"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-national-minimum-wage">National Minimum Wage</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="National Security" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-national-security" name="tribunal_decision_categories[]" type="checkbox" value="national-security"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-national-security">National Security</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Notice Appeal" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-notice-appeal" name="tribunal_decision_categories[]" type="checkbox" value="notice-appeal"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-notice-appeal">Notice Appeal</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Parental and Maternity Leave" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-parental-and-maternity-leave" name="tribunal_decision_categories[]" type="checkbox" value="parental-and-maternity-leave"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-parental-and-maternity-leave">Parental and Maternity Leave</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Part Time Workers" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-part-time-workers" name="tribunal_decision_categories[]" type="checkbox" value="part-time-workers"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-part-time-workers">Part Time Workers</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Pension" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-pension" name="tribunal_decision_categories[]" type="checkbox" value="pension"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-pension">Pension</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Practice and Procedure Issues" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-practice-and-procedure-issues" name="tribunal_decision_categories[]" type="checkbox" value="practice-and-procedure-issues"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-practice-and-procedure-issues">Practice and Procedure Issues</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Protective Award" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-protective-award" name="tribunal_decision_categories[]" type="checkbox" value="protective-award"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-protective-award">Protective Award</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Public Interest Disclosure" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-public-interest-disclosure" name="tribunal_decision_categories[]" type="checkbox" value="public-interest-disclosure"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-public-interest-disclosure">Public Interest Disclosure</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Race Discrimination" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-race-discrimination" name="tribunal_decision_categories[]" type="checkbox" value="race-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-race-discrimination">Race Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Redundancy" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-redundancy" name="tribunal_decision_categories[]" type="checkbox" value="redundancy"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-redundancy">Redundancy</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Religion or Belief Discrimination" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-religion-or-belief-discrimination" name="tribunal_decision_categories[]" type="checkbox" value="religion-or-belief-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-religion-or-belief-discrimination">Religion or Belief Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Renumeration" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-renumeration" name="tribunal_decision_categories[]" type="checkbox" value="renumeration"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-renumeration">Renumeration</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Reorganisation" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-reorganisation" name="tribunal_decision_categories[]" type="checkbox" value="reorganisation"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-reorganisation">Reorganisation</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Reserved Forces Act" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-reserved-forces-act" name="tribunal_decision_categories[]" type="checkbox" value="reserved-forces-act"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-reserved-forces-act">Reserved Forces Act</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Right To Be Accompanied" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-right-to-be-accompanied" name="tribunal_decision_categories[]" type="checkbox" value="right-to-be-accompanied"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-right-to-be-accompanied">Right To Be Accompanied</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Rights on Insolvency" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-rights-on-insolvency" name="tribunal_decision_categories[]" type="checkbox" value="rights-on-insolvency"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-rights-on-insolvency">Rights on Insolvency</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Sex Discrimination" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-sex-discrimination" name="tribunal_decision_categories[]" type="checkbox" value="sex-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-sex-discrimination">Sex Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Sexual Orientation Discrimination/Transexualism" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-sexual-orientation-discrimination-transexualism" name="tribunal_decision_categories[]" type="checkbox" value="sexual-orientation-discrimination-transexualism"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-sexual-orientation-discrimination-transexualism">Sexual Orientation Discrimination/Transexualism</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Statutory Discipline and Grievance Procedures" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-statutory-discipline-and-grievance-procedures" name="tribunal_decision_categories[]" type="checkbox" value="statutory-discipline-and-grievance-procedures"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-statutory-discipline-and-grievance-procedures">Statutory Discipline and Grievance Procedures</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Tax" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-tax" name="tribunal_decision_categories[]" type="checkbox" value="tax"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-tax">Tax</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Temporary Employment" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-temporary-employment" name="tribunal_decision_categories[]" type="checkbox" value="temporary-employment"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-temporary-employment">Temporary Employment</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Time Limits" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-time-limits" name="tribunal_decision_categories[]" type="checkbox" value="time-limits"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-time-limits">Time Limits</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Time Off" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-time-off" name="tribunal_decision_categories[]" type="checkbox" value="time-off"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-time-off">Time Off</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Time to Train" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-time-to-train" name="tribunal_decision_categories[]" type="checkbox" value="time-to-train"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-time-to-train">Time to Train</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Trade Union Membership" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-trade-union-membership" name="tribunal_decision_categories[]" type="checkbox" value="trade-union-membership"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-trade-union-membership">Trade Union Membership</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Trade Union Rights" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-trade-union-rights" name="tribunal_decision_categories[]" type="checkbox" value="trade-union-rights"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-trade-union-rights">Trade Union Rights</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Transfer of Undertakings" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-transfer-of-undertakings" name="tribunal_decision_categories[]" type="checkbox" value="transfer-of-undertakings"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-transfer-of-undertakings">Transfer of Undertakings</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Unfair Dismissal" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-unfair-dismissal" name="tribunal_decision_categories[]" type="checkbox" value="unfair-dismissal"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-unfair-dismissal">Unfair Dismissal</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Unlawful Deduction from Wages" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-unlawful-deduction-from-wages" name="tribunal_decision_categories[]" type="checkbox" value="unlawful-deduction-from-wages"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-unlawful-deduction-from-wages">Unlawful Deduction from Wages</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Victimisation Discrimination" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-victimisation-discrimination" name="tribunal_decision_categories[]" type="checkbox" value="victimisation-discrimination"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-victimisation-discrimination">Victimisation Discrimination</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Working Time Regulations" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-working-time-regulations" name="tribunal_decision_categories[]" type="checkbox" value="working-time-regulations"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-working-time-regulations">Working Time Regulations</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Written Pay Statement" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-written-pay-statement" name="tribunal_decision_categories[]" type="checkbox" value="written-pay-statement"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-written-pay-statement">Written Pay Statement</label>
+</li> <li class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" data-controls="js-search-results-info" data-track-action="Jurisdiction code" data-track-category="filterClicked" data-track-label="Written Statements" data-uncheck-track-category="filterRemoved" id="tribunal_decision_categories-written-statements" name="tribunal_decision_categories[]" type="checkbox" value="written-statements"/><label class="govuk-label govuk-checkboxes__label" for="tribunal_decision_categories-written-statements">Written Statements</label>
+</li>
+</ul>
+</fieldset>
+</div>
+</div>
+</div>
+</div>
+<div class="app-c-expander" data-module="expander" data-open-on-load="false">
+<h2 class="app-c-expander__heading">
+<span class="app-c-expander__title js-toggle">Decision date</span>
+<svg aria-hidden="true" class="app-c-expander__icon app-c-expander__icon--up" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m798.16 609.84l-256-256c-16.683-16.683-43.691-16.683-60.331 0l-256 256c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.84-225.84 225.84 225.84c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path></svg>
+<svg aria-hidden="true" class="app-c-expander__icon app-c-expander__icon--down" focusable="false" version="1.1" viewbox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="m225.84 414.16l256 256c16.683 16.683 43.691 16.683 60.331 0l256-256c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.84 225.84-225.84-225.84c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"></path></svg>
+</h2>
+<div class="app-c-expander__content js-content" id="expander-content-e3ccb092">
+<div class="app-c-date-filter govuk-!-margin-bottom-0" data-module="enable-aria-controls" id="tribunal_decision_decision_date">
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="tribunal_decision_decision_date[from]">Decision date after</label>
+<div class="gem-c-hint govuk-hint govuk-!-margin-bottom-3" id="hint-68b5ac0e">
+  For example, 2005 or 21/11/2014
+</div>
+<input aria-controls="js-search-results-info" aria-describedby="hint-68b5ac0e" class="gem-c-input govuk-input" id="tribunal_decision_decision_date[from]" name="tribunal_decision_decision_date[from]" type="text" value=""/>
+</div>
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="tribunal_decision_decision_date[to]">Decision date before</label>
+<div class="gem-c-hint govuk-hint govuk-!-margin-bottom-3" id="hint-16349fe9">
+  For example, 2005 or 21/11/2014
+</div>
+<input aria-controls="js-search-results-info" aria-describedby="hint-16349fe9" class="gem-c-input govuk-input" id="tribunal_decision_decision_date[to]" name="tribunal_decision_decision_date[to]" type="text" value=""/>
+</div>
+</div>
+</div>
+</div>
+<div class="facets__tags-block js-mobile-facet-tag-block" data-module="remove-filter">
+<span class="govuk-visually-hidden">
+    63,108 decisions
+    
+  </span>
+<div class="facet-tags" data-module="track-click">
+<div class="facet-tags__group">
+<div class="facet-tags__wrapper">
+<span class="facet-tags__preposition">By Country</span>
+<span class="facet-tag">
+<span class="facet-tag__text">England and Wales</span>
+<button aria-label="Remove filter England and Wales" class="facet-tag__remove" data-facet="tribunal_decision_country" data-module="remove-filter-link" data-name="" data-track-label="England and Wales" data-value="england-and-wales" type="button">✕</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+<button class="app-c-button-as-link facets__clear-link js-clear-selected-filters" type="button">
+            Clear all filters
+          </button>
+</div>
+<div class="facets__footer">
+<button class="gem-c-button govuk-button js-close-filters js-show-results" type="submit">Show <span class="js-result-count">63,108 decisions</span></button>
+</div>
+</div>
+</div>
+<div class="js-live-search-fallback button__wrapper">
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Filter results</button>
+</div>
+</div>
+</div>
+<div aria-label="Employment tribunal decisions search results" class="govuk-grid-column-two-thirds js-live-search-results-block filtered-results" data-analytics-ecommerce="" data-ecommerce-start-index="101" data-list-title="Employment tribunal decisions" data-search-query="" role="region">
+<div class="result-info" data-module="remove-filter" id="js-search-results-info">
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-one-third">
+<div class="result-info__header">
+<h2 class="gem-c-heading govuk-heading-s" id="js-result-count">63,108 decisions</h2>
+</div>
+</div>
+<div class="govuk-grid-column-two-thirds subscription-links subscription-links--desktop">
+<section class="gem-c-subscription-links">
+<ul class="gem-c-subscription-links__list gem-c-subscription-links__list--small">
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/employment-tribunal-decisions/email-signup?tribunal_decision_country%5B%5D=england-and-wales"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15.75" width="21" xmlns="http://www.w3.org/2000/svg"><path d="M19.687 0H1.312C.589 0 0 .587 0 1.313v13.124c0 .726.588 1.313 1.313 1.313h18.374c.725 0 1.313-.587 1.313-1.313V1.313C21 .587 20.412 0 19.687 0zm-2.625 2.625L10.5 7.875l-6.563-5.25h13.126zm1.313 10.5H2.625V3.937L10.5 10.5l7.875-6.563v9.188z"></path></svg>
+           Get emails
+</a>
+</li>
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/employment-tribunal-decisions.atom?tribunal_decision_country%5B%5D=england-and-wales"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M1.996 11A2 2 0 0 0 0 12.993c0 1.101.895 1.99 1.996 1.99 1.106 0 2-.889 2-1.99a2 2 0 0 0-2-1.993zM.002 5.097V7.97c1.872 0 3.632.733 4.958 2.059A6.984 6.984 0 0 1 7.015 15h2.888c0-5.461-4.443-9.903-9.9-9.903zM.006 0v2.876c6.676 0 12.11 5.44 12.11 12.124H15C15 6.731 8.273 0 .006 0z"></path></svg>
+           Subscribe to feed
+</a>
+</li>
+</ul>
+</section>
+</div>
+</div>
+<div aria-live="assertive" class="facet-tags__container" id="js-facet-tag-wrapper">
+<span class="govuk-visually-hidden">
+    63,108 decisions
+    
+  </span>
+<div class="facet-tags" data-module="track-click">
+<div class="facet-tags__group">
+<div class="facet-tags__wrapper">
+<span class="facet-tags__preposition">By Country</span>
+<span class="facet-tag">
+<span class="facet-tag__text">England and Wales</span>
+<button aria-label="Remove filter England and Wales" class="facet-tag__remove" data-facet="tribunal_decision_country" data-module="remove-filter-link" data-name="" data-track-label="England and Wales" data-value="england-and-wales" type="button">✕</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="govuk-caption-l live-search-loading-message" id="js-loading-message"></div>
+<div id="js-sort-options">
+</div>
+<div id="js-results">
+<div class="finder-results js-finder-results" data-module="track-click">
+<ul class="gem-c-document-list gem-c-document-list--no-underline">
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="1" data-ecommerce-path="/employment-tribunal-decisions/mr-m-willis-v-gwb-harthills-llp-and-others-1802068-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.1" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-m-willis-v-gwb-harthills-llp-and-others-1802068-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr M Willis v GWB Harthills LLP and others: 1802068/2020"}' href="/employment-tribunal-decisions/mr-m-willis-v-gwb-harthills-llp-and-others-1802068-slash-2020">Mr M Willis v GWB Harthills LLP and others: 1802068/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-06">6 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="2" data-ecommerce-path="/employment-tribunal-decisions/mr-j-wild-v-gillian-and-baines-ltd-1803833-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.2" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-j-wild-v-gillian-and-baines-ltd-1803833-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr J Wild v Gillian \u0026 Baines Ltd: 1803833/2020"}' href="/employment-tribunal-decisions/mr-j-wild-v-gillian-and-baines-ltd-1803833-slash-2020">Mr J Wild v Gillian &amp; Baines Ltd: 1803833/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-08">8 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="3" data-ecommerce-path="/employment-tribunal-decisions/miss-a-ahmed-v-ministry-of-justice-2202370-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.3" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-a-ahmed-v-ministry-of-justice-2202370-2019" data-track-options='{"dimension28":50,"dimension29":"Miss A Ahmed v Ministry Of Justice: 2202370/2019"}' href="/employment-tribunal-decisions/miss-a-ahmed-v-ministry-of-justice-2202370-2019">Miss A Ahmed v Ministry Of Justice: 2202370/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-12">12 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="4" data-ecommerce-path="/employment-tribunal-decisions/miss-e-bernard-v-the-yorkshire-traction-company-ltd-1805467-slash-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.4" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-e-bernard-v-the-yorkshire-traction-company-ltd-1805467-slash-2019" data-track-options='{"dimension28":50,"dimension29":"Miss E Bernard v The Yorkshire Traction Company Ltd: 1805467/2019"}' href="/employment-tribunal-decisions/miss-e-bernard-v-the-yorkshire-traction-company-ltd-1805467-slash-2019">Miss E Bernard v The Yorkshire Traction Company Ltd: 1805467/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-08">8 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="5" data-ecommerce-path="/employment-tribunal-decisions/mrs-k-keighley-v-age-uk-leeds-1804955-2018" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.5" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mrs-k-keighley-v-age-uk-leeds-1804955-2018" data-track-options='{"dimension28":50,"dimension29":"Mrs K Keighley v Age UK Leeds: 1804955/2018"}' href="/employment-tribunal-decisions/mrs-k-keighley-v-age-uk-leeds-1804955-2018">Mrs K Keighley v Age UK Leeds: 1804955/2018</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-04">4 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="6" data-ecommerce-path="/employment-tribunal-decisions/mr-z-burton-v-massey-truck-engineering-ltd-1805354-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.6" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-z-burton-v-massey-truck-engineering-ltd-1805354-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr Z Burton v Massey Truck Engineering Ltd: 1805354/2020"}' href="/employment-tribunal-decisions/mr-z-burton-v-massey-truck-engineering-ltd-1805354-slash-2020">Mr Z Burton v Massey Truck Engineering Ltd: 1805354/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-12-22">22 December 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="7" data-ecommerce-path="/employment-tribunal-decisions/mr-l-mbuisa-v-care-ak-ltd-t-a-kare-plus-huddersfield-1802005-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.7" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-l-mbuisa-v-care-ak-ltd-t-a-kare-plus-huddersfield-1802005-2019" data-track-options='{"dimension28":50,"dimension29":"Mr L Mbuisa v Care AK Ltd T/a Kare Plus Huddersfield: 1802005/2019"}' href="/employment-tribunal-decisions/mr-l-mbuisa-v-care-ak-ltd-t-a-kare-plus-huddersfield-1802005-2019">Mr L Mbuisa v Care AK Ltd T/a Kare Plus Huddersfield: 1802005/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-12-16">16 December 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="8" data-ecommerce-path="/employment-tribunal-decisions/mr-shaw-v-south-yorkshire-housing-association-1805674-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.8" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-shaw-v-south-yorkshire-housing-association-1805674-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr Shaw v South Yorkshire Housing Association: 1805674/2020"}' href="/employment-tribunal-decisions/mr-shaw-v-south-yorkshire-housing-association-1805674-slash-2020">Mr Shaw v South Yorkshire Housing Association: 1805674/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-12-02">2 December 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="9" data-ecommerce-path="/employment-tribunal-decisions/ms-wong-v-masce-ltd-1805606-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.9" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/ms-wong-v-masce-ltd-1805606-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Ms Wong v Masce Ltd: 1805606/2020"}' href="/employment-tribunal-decisions/ms-wong-v-masce-ltd-1805606-slash-2020">Ms Wong v Masce Ltd: 1805606/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-12-03">3 December 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="10" data-ecommerce-path="/employment-tribunal-decisions/miss-a-timmins-v-asd-uk-trading-ltd-1803744-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.10" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-a-timmins-v-asd-uk-trading-ltd-1803744-2019" data-track-options='{"dimension28":50,"dimension29":"Miss A Timmins v ASD UK Trading Ltd: 1803744/2019"}' href="/employment-tribunal-decisions/miss-a-timmins-v-asd-uk-trading-ltd-1803744-2019">Miss A Timmins v ASD UK Trading Ltd: 1803744/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision. </p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-11-11">11 November 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="11" data-ecommerce-path="/employment-tribunal-decisions/mr-j-mcgill-v-vgc-leeds-ltd-1804791-slash-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.11" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-j-mcgill-v-vgc-leeds-ltd-1804791-slash-2019" data-track-options='{"dimension28":50,"dimension29":"Mr J McGill v VGC Leeds Ltd: 1804791/2019"}' href="/employment-tribunal-decisions/mr-j-mcgill-v-vgc-leeds-ltd-1804791-slash-2019">Mr J McGill v VGC Leeds Ltd: 1804791/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-11-12">12 November 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="12" data-ecommerce-path="/employment-tribunal-decisions/mr-a-dobson-v-ms-c-howarth-1805167-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.12" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-a-dobson-v-ms-c-howarth-1805167-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr A Dobson v Ms C Howarth: 1805167/2020"}' href="/employment-tribunal-decisions/mr-a-dobson-v-ms-c-howarth-1805167-slash-2020">Mr A Dobson v Ms C Howarth: 1805167/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-11-13">13 November 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="13" data-ecommerce-path="/employment-tribunal-decisions/mr-g-simpson-v-chemence-graphics-uk-ltd-in-administration-1800493-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.13" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-g-simpson-v-chemence-graphics-uk-ltd-in-administration-1800493-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr G Simpson v Chemence Graphics UK Ltd (in administration): 1800493/2020"}' href="/employment-tribunal-decisions/mr-g-simpson-v-chemence-graphics-uk-ltd-in-administration-1800493-slash-2020">Mr G Simpson v Chemence Graphics UK Ltd (in administration): 1800493/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-10-28">28 October 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="14" data-ecommerce-path="/employment-tribunal-decisions/mrs-m-simpson-v-chemence-graphics-uk-ltd-in-administration-1800494-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.14" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mrs-m-simpson-v-chemence-graphics-uk-ltd-in-administration-1800494-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mrs M Simpson v Chemence Graphics UK Ltd (in administration): 1800494/2020"}' href="/employment-tribunal-decisions/mrs-m-simpson-v-chemence-graphics-uk-ltd-in-administration-1800494-slash-2020">Mrs M Simpson v Chemence Graphics UK Ltd (in administration): 1800494/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-10-28">28 October 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="15" data-ecommerce-path="/employment-tribunal-decisions/mr-w-mack-v-chemence-graphics-uk-ltd-in-administration-1800492-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.15" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-w-mack-v-chemence-graphics-uk-ltd-in-administration-1800492-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr W Mack v Chemence Graphics UK Ltd (in administration): 1800492/2020"}' href="/employment-tribunal-decisions/mr-w-mack-v-chemence-graphics-uk-ltd-in-administration-1800492-slash-2020">Mr W Mack v Chemence Graphics UK Ltd (in administration): 1800492/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-10-28">28 October 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="16" data-ecommerce-path="/employment-tribunal-decisions/mr-n-daniel-v-keyline-builders-merchants-ltd-1800362-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.16" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-n-daniel-v-keyline-builders-merchants-ltd-1800362-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr N Daniel v Keyline Builders Merchants Ltd: 1800362/2020"}' href="/employment-tribunal-decisions/mr-n-daniel-v-keyline-builders-merchants-ltd-1800362-slash-2020">Mr N Daniel v Keyline Builders Merchants Ltd: 1800362/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-03-17">17 March 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="17" data-ecommerce-path="/employment-tribunal-decisions/miss-b-pawlicka-v-gregory-park-holding-ltd-t-a-four-seasons-hotel-hampshire-2203057-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.17" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-b-pawlicka-v-gregory-park-holding-ltd-t-a-four-seasons-hotel-hampshire-2203057-2019" data-track-options='{"dimension28":50,"dimension29":"Miss B Pawlicka v Gregory Park Holding Ltd T/a Four Seasons Hotel Hampshire: 2203057/2019"}' href="/employment-tribunal-decisions/miss-b-pawlicka-v-gregory-park-holding-ltd-t-a-four-seasons-hotel-hampshire-2203057-2019">Miss B Pawlicka v Gregory Park Holding Ltd T/a Four Seasons Hotel Hampshire: 2203057/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-22">22 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="18" data-ecommerce-path="/employment-tribunal-decisions/mr-k-adams-and-others-v-simonstone-bristol-ltd-in-administration-and-the-secretary-of-state-for-business-energy-and-industrial-strategy-1401693-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.18" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-k-adams-and-others-v-simonstone-bristol-ltd-in-administration-and-the-secretary-of-state-for-business-energy-and-industrial-strategy-1401693-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr K Adams and others v Simonstone (Bristol) Ltd (In Administration) and The Secretary of State For Business, Energy and Industrial Strategy: 1401693/2020"}' href="/employment-tribunal-decisions/mr-k-adams-and-others-v-simonstone-bristol-ltd-in-administration-and-the-secretary-of-state-for-business-energy-and-industrial-strategy-1401693-slash-2020">Mr K Adams and others v Simonstone (Bristol) Ltd (In Administration) and The Secretary of State For Business, Energy and Industrial Strategy: 1401693/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-22">22 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="19" data-ecommerce-path="/employment-tribunal-decisions/mr-a-hayward-v-royal-mail-group-ltd-1404285-slash-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.19" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-a-hayward-v-royal-mail-group-ltd-1404285-slash-2019" data-track-options='{"dimension28":50,"dimension29":"Mr A Hayward v Royal Mail Group Ltd: 1404285/2019"}' href="/employment-tribunal-decisions/mr-a-hayward-v-royal-mail-group-ltd-1404285-slash-2019">Mr A Hayward v Royal Mail Group Ltd: 1404285/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-20">20 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="20" data-ecommerce-path="/employment-tribunal-decisions/mr-d-proffitt-v-first-greater-western-ltd-t-slash-a-great-western-railway-1404733-slash-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.20" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-d-proffitt-v-first-greater-western-ltd-t-slash-a-great-western-railway-1404733-slash-2019" data-track-options='{"dimension28":50,"dimension29":"Mr D Proffitt v First Greater Western Ltd T/a Great Western Railway: 1404733/2019"}' href="/employment-tribunal-decisions/mr-d-proffitt-v-first-greater-western-ltd-t-slash-a-great-western-railway-1404733-slash-2019">Mr D Proffitt v First Greater Western Ltd T/a Great Western Railway: 1404733/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-27">27 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="21" data-ecommerce-path="/employment-tribunal-decisions/mr-j-blackman-v-jordan-manufacturing-ltd-in-administration-1403521-slash-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.21" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-j-blackman-v-jordan-manufacturing-ltd-in-administration-1403521-slash-2019" data-track-options='{"dimension28":50,"dimension29":"Mr J Blackman v Jordan Manufacturing Ltd (In Administration): 1403521/2019"}' href="/employment-tribunal-decisions/mr-j-blackman-v-jordan-manufacturing-ltd-in-administration-1403521-slash-2019">Mr J Blackman v Jordan Manufacturing Ltd (In Administration): 1403521/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-12-21">21 December 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="22" data-ecommerce-path="/employment-tribunal-decisions/mr-robbie-appleton-sas-v-sulacress-ltd-1404428-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.22" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-robbie-appleton-sas-v-sulacress-ltd-1404428-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr Robbie Appleton-Sas v Sulacress Ltd: 1404428/2020"}' href="/employment-tribunal-decisions/mr-robbie-appleton-sas-v-sulacress-ltd-1404428-slash-2020">Mr Robbie Appleton-Sas v Sulacress Ltd: 1404428/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-22">22 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="23" data-ecommerce-path="/employment-tribunal-decisions/mr-a-brown-v-quilter-plc-and-old-mutual-wealth-business-services-1403679-slash-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.23" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-a-brown-v-quilter-plc-and-old-mutual-wealth-business-services-1403679-slash-2019" data-track-options='{"dimension28":50,"dimension29":"Mr A Brown v Quilter plc and Old Mutual Wealth Business Services: 1403679/2019"}' href="/employment-tribunal-decisions/mr-a-brown-v-quilter-plc-and-old-mutual-wealth-business-services-1403679-slash-2019">Mr A Brown v Quilter plc and Old Mutual Wealth Business Services: 1403679/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-25">25 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="24" data-ecommerce-path="/employment-tribunal-decisions/mr-g-coates-v-bionica-systems-ltd-1405757-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.24" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-g-coates-v-bionica-systems-ltd-1405757-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr G Coates v Bionica Systems Ltd: 1405757/2020"}' href="/employment-tribunal-decisions/mr-g-coates-v-bionica-systems-ltd-1405757-slash-2020">Mr G Coates v Bionica Systems Ltd: 1405757/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-21">21 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="25" data-ecommerce-path="/employment-tribunal-decisions/mr-c-bunghez-v-work-experience-ltd-1403078-slash-2020-and-1405234-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.25" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-c-bunghez-v-work-experience-ltd-1403078-slash-2020-and-1405234-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr C Bunghez v Work Experience Ltd: 1403078/2020 and 1405234/2020"}' href="/employment-tribunal-decisions/mr-c-bunghez-v-work-experience-ltd-1403078-slash-2020-and-1405234-slash-2020">Mr C Bunghez v Work Experience Ltd: 1403078/2020 and 1405234/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-21">21 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="26" data-ecommerce-path="/employment-tribunal-decisions/mrs-k-campbell-v-david-roberts-1404656-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.26" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mrs-k-campbell-v-david-roberts-1404656-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mrs K Campbell v David Roberts: 1404656/2020"}' href="/employment-tribunal-decisions/mrs-k-campbell-v-david-roberts-1404656-slash-2020">Mrs K Campbell v David Roberts: 1404656/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-22">22 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="27" data-ecommerce-path="/employment-tribunal-decisions/mr-wl-rodrigues-junior-v-tom-valzini-1405698-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.27" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-wl-rodrigues-junior-v-tom-valzini-1405698-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr WL Rodrigues Junior v Tom Valzini: 1405698/2020"}' href="/employment-tribunal-decisions/mr-wl-rodrigues-junior-v-tom-valzini-1405698-slash-2020">Mr WL Rodrigues Junior v Tom Valzini: 1405698/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-21">21 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="28" data-ecommerce-path="/employment-tribunal-decisions/miss-j-parker-v-lws-interior-solutions-ltd-1403021-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.28" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-j-parker-v-lws-interior-solutions-ltd-1403021-2019" data-track-options='{"dimension28":50,"dimension29":"Miss J Parker v LWS Interior Solutions Ltd: 1403021/2019"}' href="/employment-tribunal-decisions/miss-j-parker-v-lws-interior-solutions-ltd-1403021-2019">Miss J Parker v LWS Interior Solutions Ltd: 1403021/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-15">15 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="29" data-ecommerce-path="/employment-tribunal-decisions/mr-m-carroll-v-cape-industrial-services-ltd-1400315-slash-2019-and-1805405-slash-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.29" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-m-carroll-v-cape-industrial-services-ltd-1400315-slash-2019-and-1805405-slash-2019" data-track-options='{"dimension28":50,"dimension29":"Mr M Carroll v Cape Industrial Services Ltd: 1400315/2019 and 1805405/2019"}' href="/employment-tribunal-decisions/mr-m-carroll-v-cape-industrial-services-ltd-1400315-slash-2019-and-1805405-slash-2019">Mr M Carroll v Cape Industrial Services Ltd: 1400315/2019 and 1805405/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-20">20 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="30" data-ecommerce-path="/employment-tribunal-decisions/mrs-z-cockles-v-devon-partnership-nhs-trust-1406067-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.30" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mrs-z-cockles-v-devon-partnership-nhs-trust-1406067-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mrs Z Cockles v Devon Partnership Nhs Trust: 1406067/2020"}' href="/employment-tribunal-decisions/mrs-z-cockles-v-devon-partnership-nhs-trust-1406067-slash-2020">Mrs Z Cockles v Devon Partnership Nhs Trust: 1406067/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-18">18 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="31" data-ecommerce-path="/employment-tribunal-decisions/miss-l-brewer-v-southern-health-nhs-foundation-trust-1405904-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.31" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-l-brewer-v-southern-health-nhs-foundation-trust-1405904-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Miss L Brewer v Southern Health Nhs Foundation Trust: 1405904/2020"}' href="/employment-tribunal-decisions/miss-l-brewer-v-southern-health-nhs-foundation-trust-1405904-slash-2020">Miss L Brewer v Southern Health Nhs Foundation Trust: 1405904/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-20">20 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="32" data-ecommerce-path="/employment-tribunal-decisions/ms-anita-howarth-v-genesis-cancer-care-uk-ltd-1403938-slash-2018" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.32" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/ms-anita-howarth-v-genesis-cancer-care-uk-ltd-1403938-slash-2018" data-track-options='{"dimension28":50,"dimension29":"Ms Anita Howarth v Genesis Cancer Care UK Ltd: 1403938/2018"}' href="/employment-tribunal-decisions/ms-anita-howarth-v-genesis-cancer-care-uk-ltd-1403938-slash-2018">Ms Anita Howarth v Genesis Cancer Care UK Ltd: 1403938/2018</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-18">18 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="33" data-ecommerce-path="/employment-tribunal-decisions/mrs-e-gargaro-v-michelle-rook-1405645-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.33" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mrs-e-gargaro-v-michelle-rook-1405645-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mrs E Gargaro v Michelle Rook: 1405645/2020"}' href="/employment-tribunal-decisions/mrs-e-gargaro-v-michelle-rook-1405645-slash-2020">Mrs E Gargaro v Michelle Rook: 1405645/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-22">22 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="34" data-ecommerce-path="/employment-tribunal-decisions/mr-g-sexton-v-thomas-square-ltd-1403606-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.34" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-g-sexton-v-thomas-square-ltd-1403606-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr G Sexton v Thomas Square Ltd: 1403606/2020"}' href="/employment-tribunal-decisions/mr-g-sexton-v-thomas-square-ltd-1403606-slash-2020">Mr G Sexton v Thomas Square Ltd: 1403606/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-12">12 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="35" data-ecommerce-path="/employment-tribunal-decisions/ms-f-green-v-pizzaexpress-restaurants-ltd-2200180-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.35" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/ms-f-green-v-pizzaexpress-restaurants-ltd-2200180-2020" data-track-options='{"dimension28":50,"dimension29":"Ms F Green v PizzaExpress Restaurants Ltd: 2200180/2020"}' href="/employment-tribunal-decisions/ms-f-green-v-pizzaexpress-restaurants-ltd-2200180-2020">Ms F Green v PizzaExpress Restaurants Ltd: 2200180/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-12-15">15 December 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="36" data-ecommerce-path="/employment-tribunal-decisions/ms-alison-lindley-v-sed-conveyors-ltd-t-slash-a-rti-western-320092-slash-2019" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.36" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/ms-alison-lindley-v-sed-conveyors-ltd-t-slash-a-rti-western-320092-slash-2019" data-track-options='{"dimension28":50,"dimension29":"Ms Alison Lindley v SED Conveyors Ltd T/a RTI Western: 320092/2019"}' href="/employment-tribunal-decisions/ms-alison-lindley-v-sed-conveyors-ltd-t-slash-a-rti-western-320092-slash-2019">Ms Alison Lindley v SED Conveyors Ltd T/a RTI Western: 320092/2019</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision. </p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2020-12-08">8 December 2020</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="37" data-ecommerce-path="/employment-tribunal-decisions/mr-s-lowden-v-artel-rubber-holdings-ltd-1302297-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.37" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-s-lowden-v-artel-rubber-holdings-ltd-1302297-2020" data-track-options='{"dimension28":50,"dimension29":"Mr S Lowden v Artel Rubber Holdings Ltd: 1302297/2020"}' href="/employment-tribunal-decisions/mr-s-lowden-v-artel-rubber-holdings-ltd-1302297-2020">Mr S Lowden v Artel Rubber Holdings Ltd: 1302297/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-26">26 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="38" data-ecommerce-path="/employment-tribunal-decisions/miss-emma-gazi-v-ministry-of-defence-2410354-slash-2018" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.38" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-emma-gazi-v-ministry-of-defence-2410354-slash-2018" data-track-options='{"dimension28":50,"dimension29":"Miss Emma Gazi v Ministry of Defence: 2410354/2018"}' href="/employment-tribunal-decisions/miss-emma-gazi-v-ministry-of-defence-2410354-slash-2018">Miss Emma Gazi v Ministry of Defence: 2410354/2018</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision. </p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-13">13 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="39" data-ecommerce-path="/employment-tribunal-decisions/lisa-nutt-v-meggitt-aerospace-ltd-1309530-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.39" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/lisa-nutt-v-meggitt-aerospace-ltd-1309530-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Lisa Nutt v Meggitt Aerospace Ltd: 1309530/2020"}' href="/employment-tribunal-decisions/lisa-nutt-v-meggitt-aerospace-ltd-1309530-slash-2020">Lisa Nutt v Meggitt Aerospace Ltd: 1309530/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-23">23 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="40" data-ecommerce-path="/employment-tribunal-decisions/ms-s-said-and-mr-i-bojang-v-kembrooke-clothing-manufacturers-ltd-1309554-slash-2020-and-1309625-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.40" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/ms-s-said-and-mr-i-bojang-v-kembrooke-clothing-manufacturers-ltd-1309554-slash-2020-and-1309625-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Ms S Said and Mr I Bojang v Kembrooke Clothing Manufacturers Ltd: 1309554/2020 and 1309625/2020"}' href="/employment-tribunal-decisions/ms-s-said-and-mr-i-bojang-v-kembrooke-clothing-manufacturers-ltd-1309554-slash-2020-and-1309625-slash-2020">Ms S Said and Mr I Bojang v Kembrooke Clothing Manufacturers Ltd: 1309554/2020 and 1309625/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-20">20 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="41" data-ecommerce-path="/employment-tribunal-decisions/miss-e-dewick-v-cambridge-care-company-ltd-3305175-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.41" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-e-dewick-v-cambridge-care-company-ltd-3305175-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Miss E Dewick v Cambridge Care Company Ltd: 3305175/2020"}' href="/employment-tribunal-decisions/miss-e-dewick-v-cambridge-care-company-ltd-3305175-slash-2020">Miss E Dewick v Cambridge Care Company Ltd: 3305175/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision. </p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-21">21 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="42" data-ecommerce-path="/employment-tribunal-decisions/ms-m-melbourne-v-sun-valley-foods-ltd-1306262-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.42" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/ms-m-melbourne-v-sun-valley-foods-ltd-1306262-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Ms M Melbourne v Sun Valley Foods Ltd: 1306262/2020"}' href="/employment-tribunal-decisions/ms-m-melbourne-v-sun-valley-foods-ltd-1306262-slash-2020">Ms M Melbourne v Sun Valley Foods Ltd: 1306262/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-26">26 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="43" data-ecommerce-path="/employment-tribunal-decisions/ryan-jackson-v-northwood-tissue-chesterfield-ltd-1306165-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.43" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/ryan-jackson-v-northwood-tissue-chesterfield-ltd-1306165-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Ryan Jackson v Northwood Tissue (Chesterfield) Ltd: 1306165/2020"}' href="/employment-tribunal-decisions/ryan-jackson-v-northwood-tissue-chesterfield-ltd-1306165-slash-2020">Ryan Jackson v Northwood Tissue (Chesterfield) Ltd: 1306165/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-25">25 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="44" data-ecommerce-path="/employment-tribunal-decisions/miss-nicola-trinder-v-trevethin-activity-barn-c-dot-g-1601677-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.44" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-nicola-trinder-v-trevethin-activity-barn-c-dot-g-1601677-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Miss Nicola Trinder v Trevethin Activity Barn C.G.: 1601677/2020"}' href="/employment-tribunal-decisions/miss-nicola-trinder-v-trevethin-activity-barn-c-dot-g-1601677-slash-2020">Miss Nicola Trinder v Trevethin Activity Barn C.G.: 1601677/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-11">11 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="45" data-ecommerce-path="/employment-tribunal-decisions/mr-a-ellaway-v-vale-sports-arena-1600157-2018" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.45" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-a-ellaway-v-vale-sports-arena-1600157-2018" data-track-options='{"dimension28":50,"dimension29":"Mr A Ellaway v Vale Sports Arena: 1600157/2018"}' href="/employment-tribunal-decisions/mr-a-ellaway-v-vale-sports-arena-1600157-2018">Mr A Ellaway v Vale Sports Arena: 1600157/2018</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-25">25 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="46" data-ecommerce-path="/employment-tribunal-decisions/mrs-t-rowlett-v-gary-ata-1805161-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.46" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mrs-t-rowlett-v-gary-ata-1805161-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mrs T Rowlett v Gary Ata: 1805161/2020 "}' href="/employment-tribunal-decisions/mrs-t-rowlett-v-gary-ata-1805161-slash-2020">Mrs T Rowlett v Gary Ata: 1805161/2020 </a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-26">26 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="47" data-ecommerce-path="/employment-tribunal-decisions/miss-s-kiley-v-west-coast-conveyancing-ltd-1602059-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.47" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/miss-s-kiley-v-west-coast-conveyancing-ltd-1602059-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Miss S Kiley v West Coast Conveyancing Ltd: 1602059/2020"}' href="/employment-tribunal-decisions/miss-s-kiley-v-west-coast-conveyancing-ltd-1602059-slash-2020">Miss S Kiley v West Coast Conveyancing Ltd: 1602059/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-26">26 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="48" data-ecommerce-path="/employment-tribunal-decisions/mr-l-de-rose-v-coleg-llanymddyfri-cymru-1600392-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.48" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mr-l-de-rose-v-coleg-llanymddyfri-cymru-1600392-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mr L de Rose v Coleg Llanymddyfri (Cymru): 1600392/2020"}' href="/employment-tribunal-decisions/mr-l-de-rose-v-coleg-llanymddyfri-cymru-1600392-slash-2020">Mr L de Rose v Coleg Llanymddyfri (Cymru): 1600392/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-21">21 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="49" data-ecommerce-path="/employment-tribunal-decisions/mrs-s-mogane-v-bradford-teaching-hospitals-nhs-foundation-trust-and-karen-regan-1802857-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.49" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/mrs-s-mogane-v-bradford-teaching-hospitals-nhs-foundation-trust-and-karen-regan-1802857-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Mrs S Mogane v Bradford Teaching Hospitals NHS Foundation Trust and Karen Regan: 1802857/2020"}' href="/employment-tribunal-decisions/mrs-s-mogane-v-bradford-teaching-hospitals-nhs-foundation-trust-and-karen-regan-1802857-slash-2020">Mrs S Mogane v Bradford Teaching Hospitals NHS Foundation Trust and Karen Regan: 1802857/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-25">25 January 2021</time>
+</li> </ul>
+</li>
+<li class="gem-c-document-list__item">
+<a class="gem-c-document-list__item-title gem-c-document-list__item-link" data-ecommerce-index="50" data-ecommerce-path="/employment-tribunal-decisions/ms-p-hussain-v-calderdale-college-1802907-slash-2020" data-ecommerce-row="1" data-track-action="Employment tribunal decisions.50" data-track-category="navFinderLinkClicked" data-track-label="/employment-tribunal-decisions/ms-p-hussain-v-calderdale-college-1802907-slash-2020" data-track-options='{"dimension28":50,"dimension29":"Ms P Hussain v Calderdale College: 1802907/2020"}' href="/employment-tribunal-decisions/ms-p-hussain-v-calderdale-college-1802907-slash-2020">Ms P Hussain v Calderdale College: 1802907/2020</a>
+<p class="gem-c-document-list__item-description">Employment Tribunal decision.</p>
+<ul class="gem-c-document-list__item-metadata">
+<li class="gem-c-document-list__attribute">
+                    Decided: <time datetime="2021-01-20">20 January 2021</time>
+</li> </ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="js-pagination">
+<nav aria-label="Pagination" class="gem-c-pagination" role="navigation">
+<ul class="gem-c-pagination__list" data-module="track-click">
+<li class="gem-c-pagination__item gem-c-pagination__item--previous">
+<a class="gem-c-pagination__link" data-track-action="previous" data-track-category="contentsClicked" data-track-dimension="previous" data-track-dimension-index="29" data-track-label="/employment-tribunal-decisions?page=2&amp;tribunal_decision_country%5B%5D=england-and-wales" href="/employment-tribunal-decisions?page=2&amp;tribunal_decision_country%5B%5D=england-and-wales" rel="prev">
+<span class="gem-c-pagination__link-title">
+<svg class="gem-c-pagination__link-icon" height="13" viewbox="0 0 17 13" width="17" xmlns="http://www.w3.org/2000/svg">
+<path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"></path>
+</svg>
+<span class="gem-c-pagination__link-text">
+              Previous page
+            </span>
+</span>
+<span class="gem-c-pagination__link-divider visually-hidden">:</span>
+<span class="gem-c-pagination__link-label">2 of 1263</span>
+</a>
+</li>
+<li class="gem-c-pagination__item gem-c-pagination__item--next">
+<a class="gem-c-pagination__link" data-track-action="next" data-track-category="contentsClicked" data-track-dimension="next" data-track-dimension-index="29" data-track-label="/employment-tribunal-decisions?page=4&amp;tribunal_decision_country%5B%5D=england-and-wales" href="/employment-tribunal-decisions?page=4&amp;tribunal_decision_country%5B%5D=england-and-wales" rel="next">
+<span class="gem-c-pagination__link-title">
+<svg class="gem-c-pagination__link-icon" height="13" viewbox="0 0 17 13" width="17" xmlns="http://www.w3.org/2000/svg">
+<path d="m10.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
+</svg>
+<span class="gem-c-pagination__link-text">
+              Next page
+            </span>
+</span>
+<span class="gem-c-pagination__link-divider visually-hidden">:</span>
+<span class="gem-c-pagination__link-label">4 of 1263</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="subscription-links" id="subscription-links-footer">
+<section class="gem-c-subscription-links">
+<ul class="gem-c-subscription-links__list gem-c-subscription-links__list--small">
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/employment-tribunal-decisions/email-signup?tribunal_decision_country%5B%5D=england-and-wales"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15.75" width="21" xmlns="http://www.w3.org/2000/svg"><path d="M19.687 0H1.312C.589 0 0 .587 0 1.313v13.124c0 .726.588 1.313 1.313 1.313h18.374c.725 0 1.313-.587 1.313-1.313V1.313C21 .587 20.412 0 19.687 0zm-2.625 2.625L10.5 7.875l-6.563-5.25h13.126zm1.313 10.5H2.625V3.937L10.5 10.5l7.875-6.563v9.188z"></path></svg>
+           Get emails
+</a>
+</li>
+<li class="gem-c-subscription-links__list-item gem-c-subscription-links__list-item--small">
+<a class="gem-c-subscription-links__item gem-c-subscription-links__item--link" href="/employment-tribunal-decisions.atom?tribunal_decision_country%5B%5D=england-and-wales"> <svg aria-hidden="true" class="gem-c-subscription-links__icon" fill="currentColor" focusable="false" height="15" width="15" xmlns="http://www.w3.org/2000/svg"><path d="M1.996 11A2 2 0 0 0 0 12.993c0 1.101.895 1.99 1.996 1.99 1.106 0 2-.889 2-1.99a2 2 0 0 0-2-1.993zM.002 5.097V7.97c1.872 0 3.632.733 4.958 2.059A6.984 6.984 0 0 1 7.015 15h2.888c0-5.461-4.443-9.903-9.9-9.903zM.006 0v2.876c6.676 0 12.11 5.44 12.11 12.124H15C15 6.731 8.273 0 .006 0z"></path></svg>
+           Subscribe to feed
+</a>
+</li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+</div>
+</form>

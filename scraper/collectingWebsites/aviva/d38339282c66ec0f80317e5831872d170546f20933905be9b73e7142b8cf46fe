@@ -1,0 +1,14 @@
+<form action="/health-insurance/practitioner-zone/online-fee-schedule/search" id="searchOnlineFee" method="post"><input name="csrfmiddlewaretoken" type="hidden" value="TQeRqzreTLYjfJPBvvIa9qTqWhRDVMZxaNHZK5B1kFezlS1eQInWfaB8svXGtOQd"/>
+<fieldset>
+<legend>Search for a medical procedure</legend>
+<div class="row">
+<label for="search_string">Search for a code or description</label>
+<div>
+<input id="search_string" name="search_string" type="text" value=""/>
+</div>
+</div>
+<div class="row noBorder">
+<input class="btn btn--primary right" name="Go" type="submit" value="Go"/>
+</div>
+</fieldset>
+</form>

@@ -1,0 +1,22 @@
+<form action="/contact/govuk/problem_reports" class="gem-c-feedback__form js-feedback-form js-hidden" data-track-action="GOV.UK Send Form" data-track-category="Onsite Feedback" id="something-is-wrong" method="post">
+<button aria-controls="something-is-wrong" aria-expanded="true" class="govuk-button govuk-button--secondary gem-c-feedback__close gem-c-feedback__js-show js-close-form" data-track-action="GOV.UK Close Form" data-track-category="Onsite Feedback">
+    Close
+  </button>
+<div class="govuk-grid-row">
+<div class="govuk-grid-column-two-thirds">
+<div class="gem-c-feedback__error-summary gem-c-feedback__js-show js-hidden js-errors" tabindex="-1"></div>
+<input name="url" type="hidden" value="https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/health"/>
+<h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+<p class="gem-c-feedback__form-paragraph" id="feedback_explanation">Don’t include personal or financial information like your National Insurance number or credit card details.</p>
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="input-9987fb24">What were you doing?</label>
+<input aria-describedby="feedback_explanation" class="gem-c-input govuk-input" id="input-9987fb24" name="what_doing" type="text"/>
+</div>
+<div class="govuk-form-group">
+<label class="gem-c-label govuk-label" for="input-b947d918">What went wrong?</label>
+<input class="gem-c-input govuk-input" id="input-b947d918" name="what_wrong" type="text"/>
+</div>
+<button class="gem-c-button govuk-button" type="submit">Send</button>
+</div>
+</div>
+</form>

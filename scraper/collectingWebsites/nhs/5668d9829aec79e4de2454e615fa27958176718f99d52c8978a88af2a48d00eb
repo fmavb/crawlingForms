@@ -1,0 +1,11 @@
+<form action="" method="post">
+<h2>Enter Email address to share this post</h2>
+<div class="form-group">
+<label>Enter Email:</label>
+<input name="email" required="" type="text"/>
+<input id="po_title" name="title" type="hidden"/>
+<input id="po_url" name="url" type="hidden"/>
+<input id="shcesc" name="shcesc" type="hidden"/>
+<button class="btn btn-default" name="sharepost" type="submit">Share Post</button>
+</div>
+</form>

@@ -1,0 +1,13 @@
+<form action="/vitamins-supplements/search.aspx" autocomplete="off" class="clearfix" id="NaturalTreatmentSearchForm" method="get" name="NaturalTreatmentSearchForm" onsubmit="if(isNothing(document.getElementById('vitsearchfield').value)) {return false;} else {return wmdTrackReferring('srch-vitamin_sub',document.getElementById('vitsearchfield').value);}">
+<fieldset>
+<legend>Search for a <span>Vitamin or Supplement</span></legend>
+<label for="vitsearchfield">Enter a vitamin or supplement name or a medical condition</label><br/>
+<input id="vitsearchfield" maxlength="100" name="query" title="Enter a vitamin or supplement name or a medical condition" type="text" value=""/> <input alt="Look Up" class="submit" name="submit" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/modules/vitamins_supplements/btn_lookup.png" type="image" value="submit"/><br/>
+<p>Ex. Ginseng, Vitamin C, Depression</p>
+<input id="stype" name="stype" type="hidden" value="both"/>
+<input id="source" name="source" type="hidden" value="2"/>
+</fieldset>
+<!-- <div id="nat-suggest-wrap">
+                    <div id="nat-suggest" style="display:none"></div>
+                    </div> -->
+</form>

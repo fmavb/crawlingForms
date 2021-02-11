@@ -1,0 +1,15 @@
+<form action="/vitamins-supplements/ingredientreview-1024-TAURINE.aspx?drugid=1024&amp;drugname=TAURINE&amp;conditionFilter=-500" method="post">
+<fieldset class="sortForm"><label for="sortTop">Sort By:</label><select id="sortTop" name="sortBy" onchange="
+							if(this.value &gt; 0){TrackReviewSort(this.value);this.form.submit();}
+						"><option value="0">Select One</option>
+<option value="2">Most Helpful
+						</option>
+<option selected="" value="3">Most Recent
+						</option>
+<option value="4">Highest Total Rating
+						</option>
+<option value="5">High Satisfaction
+						</option>
+<option value="6">Low Satisfaction
+						</option></select></fieldset>
+</form>

@@ -1,0 +1,26 @@
+<form method="post"><input name="csrfmiddlewaretoken" type="hidden" value="DCpHWEP55qbuKMlZC95muFYb0QdwVgx3UzSPgaZSwkrKQVxCXmK8ApGTw4jztioJ"/>
+<fieldset class="m-form-row">
+<span class="a-label"><legend>Are there existing pension funds which will be transferring to Aviva?</legend></span>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented" id="id_transferring_scheme">
+<li class="m-radio-group__item">
+<label class="a-radio" for="id_transferring_scheme_0">
+<input class="a-radio__input" id="id_transferring_scheme_0" name="transferring_scheme" type="radio" value="True"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Yes</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="id_transferring_scheme_1">
+<input class="a-radio__input" id="id_transferring_scheme_1" name="transferring_scheme" type="radio" value="False"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">No</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row">
+<button class="a-button a-button--primary" type="submit">Continue</button>
+</fieldset>
+</form>

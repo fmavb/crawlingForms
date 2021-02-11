@@ -1,0 +1,56 @@
+<form action="/services/hospital/the-royal-london-hospital-for-integrated-medicine/X1820/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Amazing experiences at the insomnia clinic&lt;/Title&gt;
+    &lt;ScreenName&gt;They Can Probably Guess&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I will start with the only complaint I have which is that I don't get to go the clinic often. Honestly though, I don't hold it against the service at all. My experiences have been so good and I know how rare getting to see an actual sleep specialist under the NHS is that I understand why they're always booked up for six months to a year in advance.  
+Despite the fact that I see Dr Selsick only a few times a year, more seems to be achieved in the appointments with him than a decade of mental health services elsewhere. He was the first doctor to take my issues seriously, to treat me with respect and dignity, never scolding and always listening to my limitations and concerns. I've been so used to being labelled as too complicated or dismissed as uncooperative because my fatigue puts such great limits on my ability to engage in a lot of therapeutic work, but he has always remained curious and considerate and genuinely seems to want to improve my quality of life. Despite my issues not falling within strict diagnostic criteria he has been keen to investigate what might be causing my sleep issues and experiment with different ways of treating it.  
+After years of being told my sleep issues weren't important I cried with relief in the car home after getting my sleep study back that demonstrated just how messed up my sleep really was. I've cried in his office when he's told me, in good humour, the demands of previous clinicians that were impossible to meet. was poor advice and I ought to be doing the opposite for my health. My sleep really has been transformed over the past few years of seeing him and I always leave my appointments feeling invigorated and hopeful and most importantly listened to. I don't think I can express just how much the way I've been treated means to me after so many years of punitive care, just how unbelievable it is that he's never given up on me or gotten frustrated with me.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-07-28T16:13:23Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;7&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;The Royal London Hospital For Integrated Medicine&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;fb726aac-14e9-e911-a812-000d3a7ed588&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1820&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHXVARWyoAqt4YeZfsn-WRSnGkFauIU4nJN6W9_RxzKInEOO6r-WS3bU7tmk7-DgDiEs_sxA40JeSqGSBrndHbXBSVgLrEwP6ykagV_CYmcxRt3pQqqNhqhuSE3Qa23xDQ"/></form>

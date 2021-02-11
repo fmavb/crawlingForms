@@ -1,0 +1,14 @@
+<form name="logininfo" novalidate="">
+<div class="ifholderhalf">
+<input data-ng-class="{ 'required' : logininfo.username.$touched &amp;&amp; logininfo.username.$invalid,  '' : !logininfo.username.$dirty &amp;&amp; !logininfo.username.$invalid}" id="username" name="username" ng-keydown="onKeyDownLogin($event)" ng-model="formData.username" ng-pattern="/^([a-zA-Z0-9_\+\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/" placeholder="{{(fieldsLable['Username'])[language]}}" required="" type="text"/>
+<label class="infieldlabel" data-ng-class="{ 'required' : logininfo.username.$touched &amp;&amp; logininfo.username.$invalid,  '' : !logininfo.username.$dirty &amp;&amp; !logininfo.username.$invalid}" for="username" ng-bind="(fieldsLable['Username'])[language]"></label>
+</div>
+<div class="ifholderhalf">
+<input data-ng-class="{ 'required' : logininfo.password.$touched &amp;&amp; logininfo.password.$invalid,  '' : !logininfo.password.$dirty &amp;&amp; !logininfo.password.$invalid}" id="password" name="password" ng-keydown="onKeyDownLogin($event)" ng-model="formData.password" placeholder="{{(fieldsLable['Password'])[language]}}" required="" type="password"/>
+<label data-ng-class="{ 'required' : logininfo.password.$touched &amp;&amp; logininfo.password.$invalid,  '' : !logininfo.password.$dirty &amp;&amp; !logininfo.password.$invalid}" for="password" ng-bind="(fieldsLable['Password'])[language]"></label>
+</div>
+<input id="inputHidden1" ng-init="formData.operation = 'login'" ng-model="formData.operation" type="hidden"/>
+<input id="inputHidden2" ng-model="formData.orderurl" type="hidden"/>
+<input ng-click="sendForm()" type="submit" value="{{(fieldsLable['Login_Now'])[language]}}"/>
+<p>{{(fieldsLable['Forgot'])[language]}}<a href="/resetpassword?returnUrl=" target="_blank">{{' '+(fieldsLable['Password'])[language] + '?'}}</a></p>
+</form>

@@ -1,0 +1,258 @@
+<form action="/ecol/pmi/details.action" autocomplete="off" class="new-design" id="details" method="post" name="details">
+<input id="CUSTOMER_JOURNEY" name="CUSTOMER_JOURNEY" type="hidden" value="Pmi"/>
+<input id="membersShown" name="membersShown" type="hidden" value="false"/>
+<div id="pcqInfo">
+</div>
+<div id="prePop">
+</div>
+<div id="unrecError">
+<div class="form-error overflow clear">
+<div class="topPadHalf leftPad left" id="FormError">
+<strong>An error has occured</strong><br/>
+<br/>
+	    Sorry, we are having technical problems with our website which has caused the quote to restart, please feel free to try again or if the error persists please call us on the number listed in our Contact us pod(calls may be recorded).
+	   </div>
+</div>
+</div>
+<div class="topBorderRadius bottomBorderRadius overflow field-row-noHelpPod allBorSolid botGap topaligns">
+<div class="botGap">
+<div class="noTopPadding">
+<p>
+						You can find out how we collect, use and share your data and how to contact us to exercise your rights
+							<a class="yourDataPopup external" data-target="#YourData" data-toggle="modal" href="../popup_YourData.action" target="_blank">
+								here
+							</a>
+</p>
+</div>
+</div>
+<div class="modal hide" id="YourData">
+<a name="DirectDebitGuarantee"></a>
+<div class="modal-header">
+<a class="close hide" data-dismiss="modal">?</a>
+<h3>Your Data</h3>
+</div>
+<div class="modal-body printable" id="directDebitGuarantee-content">
+<p>
+		The data controllers responsible for processing this personal information are Aviva Health UK Limited as the administrator of the product, Aviva Insurance Limited as the insurer of the product and Aviva UK Digital Limited who are responsible for the sale and distribution of the product.
+	</p>
+<p>
+		To get a quote from us, we (and our third parties) need to collect and use personal and health information relating to you and anyone else to be covered by this insurance. We will collect this information from what you tell us, from data we already hold (including from other quotes and policies with us), from publicly available sources and other organisations we trust and from data from your device, general location and how you interact with our website. 
+	</p>
+<p>
+		We will use this information to verify your identity and help prevent fraud, calculate our risk to insure you, calculate your price, set up, assess and maintain your insurance contract with us, renew and make changes to your cover, process claims and carry out marketing and analytics. 
+			</p>
+<p>We will share this information within the Aviva Group, our insurers, reinsurers, brokers and other specific organisations for these purposes. 
+			</p>
+<p>We will also use automated software to make decisions relating to the above activities, including deciding what to charge for your cover. To ask us about how we make automatic decisions, call us on 0800 056 3008*.
+
+			</p>
+<p>You have various rights in relation to your personal data including accessing your data, and in some limited circumstances objecting to processing or having your data erased.
+
+	</p>
+<p>
+To find out more details about your rights and how we use your personal data, please read the Privacy Policy or write to our Data Protection Officer by either emailing <a dataprt="" href="mailto:">DATAPRT@aviva.com</a> or writing to: AVIVA, Level 5, Pitheavlis, Perth, PH2 0NH
+ 
+	</p><p>NOTE: If you have any concerns about our use of your data, you should not proceed with this application as we may be unable to provide you with a policy. You can also contact us at any time if you would like us to stop using your information but this may prevent us assessing future claims and the policy may be cancelled. </p>
+</div>
+<div class="modal-footer hide">
+<a class="grey-button" data-dismiss="modal">Close</a>
+</div>
+</div>
+</div>
+<div class="mainContainer div-align width100 allBorSolid allBorderRadius left botGap">
+<div class="form-container noBorder content-main-help-left" id="myDetails-main">
+<input name="struts.token.name" type="hidden" value="token"/>
+<input name="token" type="hidden" value="4J437CCA7X81DCL83BSSC22JCW3ZOUJ"/>
+<div class="details noBottomMargin">
+<h1>About you</h1>
+</div>
+<noscript><div class="bg-paleYellow allPad allBor"><strong>Your javascript is currently disabled.</strong>Please enable to take advantage of our enhanced quote functionality.</div></noscript>
+<div class="form-area noPadding width100" id="myDetails-form">
+<div class="noTopBorder field-row">
+<label>Title	</label>
+<div class="imageRadioInputType2 width100 width107 left" id="details_customer_title">
+<label for="details_customer_titleMr">Mr<input class="" id="details_customer_titleMr" name="customer.title" type="radio" value="Mr"/></label>
+<label for="details_customer_titleMrs">Mrs<input class="" id="details_customer_titleMrs" name="customer.title" type="radio" value="Mrs"/></label>
+<label for="details_customer_titleMiss">Miss<input class="" id="details_customer_titleMiss" name="customer.title" type="radio" value="Miss"/></label>
+<label for="details_customer_titleMs">Ms<input class="" id="details_customer_titleMs" name="customer.title" type="radio" value="Ms"/></label>
+</div>
+<div class="clear"></div>
+</div>
+<div class="field-row"><div>
+<label for="details_customer_forename">First name</label>
+<input class="mobile-resize" id="details_customer_forename" name="customer.forename" size="20" type="text" value=""/></div></div>
+<div class="field-row"><div>
+<label for="details_customer_surname">Last name</label>
+<input class="mobile-resize" id="details_customer_surname" name="customer.surname" size="20" type="text" value=""/></div></div>
+<div class="field-row date-field">
+<div>
+<label for="details_dob_day">Date of birth</label>
+<input id="details_dob_day" maxlength="2" name="dob.day" placeholder="DD" type="text" value=""/>
+<input id="details_dob_month" maxlength="2" name="dob.month" placeholder="MM" type="text" value=""/>
+<input id="details_dob_year" maxlength="4" name="dob.year" placeholder="YYYY" type="text" value=""/>
+</div>
+</div>
+<div class="field-row bottom-border">
+<a class="helpControl hidden" href="javascript:void(0);"></a>
+<div>
+<label for="details_customer_emailAddress">Email</label>
+<input class="mobile-resize" id="details_customer_emailAddress" name="customer.emailAddress" size="30" type="text" value=""/></div>
+<div class="helpContent">We need your email address to allow you access to retrieve your quote.See our <a href="https://www.aviva.co.uk/healthcarezone/documents/view/gen6424.pdf" target="_blank">Privacy Notice</a> for more details.</div>
+</div>
+<div class="clear"></div>
+<div class="clearFix" id="address-lookup-section">
+<input id="FOUND_ADDRESSES" name="FOUND_ADDRESSES" type="hidden" value=""/>
+<div class="field-row noTopBorder noBottomBorder" id="notesUpdate">
+<a class="helpControl hidden" href="javascript:void(0);"></a>
+<div>
+<label for="details_customer_address_postCode">Postcode</label>
+<input id="details_customer_address_postCode" maxlength="8" name="customer.address.postCode" size="10" type="text" value=""/></div>
+<div class="topPad clear findAddressDiv">
+<div class="submitBtn">
+<input align="left" class="button-medium yellow-continue buttonClick" id="findAddress" name="method:search" onclick="return handleAddressLookUpAction('SearchAddress');" type="submit" value="Find Address"/>
+</div>
+</div>
+<div class="helpContent">
+		
+			You must permanently live in the UK, this means 6 months or more of every year. The postcode must be for your main residence and be in Great Britain, Isle of Man or Channel Islands.
+		
+	</div>
+</div>
+</div>
+<div class="field-row">
+<a class="helpControl hidden" href="javascript:void(0);"></a>
+<div>
+<label for="details_customer_telephoneNumber">Telephone number</label>
+<input class="mobile-resize" id="details_customer_telephoneNumber" maxlength="26" name="customer.telephoneNumber" size="20" type="tel" value=""/></div>
+<div class="helpContent">Please give us a valid phone number. We will use this to contact you about your policy if we need to. We may send you a text when you buy a product.</div>
+</div>
+<input id="minStartDate" name="minStartDate" type="hidden" value="11/02/2021"/>
+<input id="maxStartDate" name="maxStartDate" type="hidden" value="13/03/2021"/>
+<div class="field-row date-field">
+<a class="helpControl hidden" href="javascript:void(0);"></a>
+<div>
+<label for="details_customer_quote_coverStartDateDay">When would you like cover to start for this policy?</label>
+<select class="dd" id="details_customer_quote_coverStartDateDay" name="customer.quote.coverStartDateDay" onchange="return handleCoverDateAction();">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option selected="selected" value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select class="mm" id="details_customer_quote_coverStartDateMonth" name="customer.quote.coverStartDateMonth" onchange="return handleCoverDateAction();">
+<option selected="selected" value="Feb">Feb</option>
+<option value="Mar">Mar</option>
+</select>
+<select class="yyyy" id="details_customer_quote_coverStartDateYear" name="customer.quote.coverStartDateYear" onchange="return handleCoverDateAction();">
+<option selected="selected" value="2021">2021</option>
+</select>
+<span class="leftGapHalf"><i class="calendar-button-small" id="coverStartDateButtonYP"></i></span>
+</div>
+<div class="helpContent">The date you choose to start your cover will be your monthly payment date. If you do not wish your cover to start today, choose a different start day. The date you choose must be within the next 30 days and between the 1st and the 28th of the month. If you're paying by credit card we'll take your first payment today and then the date you choose will be your monthly payment date from next month.</div>
+</div>
+</div></div>
+<div class="hidden leftPad rightPad content-main-help-right" id="helpTextContainer">
+<div id="helpTextContentHolder"></div>
+</div>
+</div>
+<div class="displayTable width100 allBorSolid allBorderRadius left botGap setdivh">
+<div class="details-noHelpPod noBottomMargin"><h1>Keeping you informed</h1></div>
+<br/> <p class="noTopBorder overflow field-row-noHelpPod">We would like to send you promotions, offers, news and discounts relating to our insurance, investments and other products from within the Aviva group which we believe may be of interest to you. <br/></p>
+<button class="accordionb spaceleft accord" id="test"> 	    <b>Tell us if you don't want to hear from us</b> </button>
+<div class="panel setpanelwidth">
+<div class="botPad downalign">
+							If you would prefer not to receive communication about our products and promotions, please indicate below. You can always tell us if you change your mind.
+							</div>
+<div class="checkbox">
+<div class="right width92_check botPad">
+								  Email
+						</div>
+<input id="customer.canBeMailedtestemail" name="customer.canBeMailedtestemail" type="checkbox" value="true"/><input id="__checkbox_customer.canBeMailedtestemail" name="__checkbox_customer.canBeMailedtestemail" type="hidden" value="true"/>
+</div>
+<div class="checkbox">
+<div class="right width92_check botPad">
+								  Post
+							</div>
+<input id="customer.canBeMailedtestpost" name="customer.canBeMailedtestpost" type="checkbox" value="true"/><input id="__checkbox_customer.canBeMailedtestpost" name="__checkbox_customer.canBeMailedtestpost" type="hidden" value="true"/>
+</div>
+<div class="checkbox">
+<div class="right width92_check divlen">
+								  Telephone
+							</div>
+<input id="customer.canBeMailedtesttelephone" name="customer.canBeMailedtesttelephone" type="checkbox" value="true"/><input id="__checkbox_customer.canBeMailedtesttelephone" name="__checkbox_customer.canBeMailedtesttelephone" type="hidden" value="true"/>
+</div>
+</div></div>
+<div class="displayTable width100 allBorSolid allBorderRadius left botGap">
+<div class="form-container noBorder" id="dependantDetails-main">
+<div id="myDependant-wrapper">
+<div id="myDependant-main">
+<script src="/ecol/ecolweb/library/js/dependants.js"></script>
+<div class="overflow no-dependants" id="dependants">
+<div class="form-area-member allBorderRadius allBorSolid">
+<div class="details-noHelpPod noBottomMargin">
+<h1>
+				Additional Family Members
+			</h1>
+</div>
+<div class="noTopBorder overflow field-row-noHelpPod" id="anyDependants">
+<div class="additionalMembersPod">
+			      You'll pay 9% less if you add your partner to your policy, when compared to the combined price of taking individual insurance. Plus, add more than one child aged 19 or under and you'll only pay for the eldest. We reserve the right to amend or withdraw these rates at renewal. 
+			</div>
+<strong><label for="details_anyDependantsStr">Would you like to add family members?</label></strong>
+<div class="imageRadioInputType1 width100 width107 left">
+<label class="selected" for="details_anyDependantsStrNone">None<input checked="checked" id="details_anyDependantsStrNone" name="anyDependantsStr" onclick="toggleDependantSection('None')" type="radio" value="None"/></label>
+<label for="details_anyDependantsStr1">1<input id="details_anyDependantsStr1" name="anyDependantsStr" onclick="toggleDependantSection('1')" type="radio" value="1"/></label>
+<label for="details_anyDependantsStr2">2<input id="details_anyDependantsStr2" name="anyDependantsStr" onclick="toggleDependantSection('2')" type="radio" value="2"/></label>
+<label for="details_anyDependantsStr3">3<input id="details_anyDependantsStr3" name="anyDependantsStr" onclick="toggleDependantSection('3')" type="radio" value="3"/></label>
+<label for="details_anyDependantsStr4">4<input id="details_anyDependantsStr4" name="anyDependantsStr" onclick="toggleDependantSection('4')" type="radio" value="4"/></label>
+<label for="details_anyDependantsStr5">5<input id="details_anyDependantsStr5" name="anyDependantsStr" onclick="toggleDependantSection('5')" type="radio" value="5"/></label>
+<label for="details_anyDependantsStr6">6<input id="details_anyDependantsStr6" name="anyDependantsStr" onclick="toggleDependantSection('6')" type="radio" value="6"/></label>
+</div>
+<noscript>
+<div class="submitBtn">
+<input align="right rightPad" class="button-small yellow" id="details_button_submit" name="method:anyDependantSubmit" type="submit" value="Submit"/>
+</div>
+</noscript>
+</div>
+<div class="noTopBorder overflow field-row-noHelpPod bottomBorderRadius" id="members">
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+<div>
+		All the personal information you provide will be processed and used to generate a price automatically.
+	</div>
+<div class="buttonContainer clear">
+<div class="submitBtn continueBtn clear right">
+<input class="button yellow-continue buttonClick" id="details_button_continue" name="method:next" style="continueBtn clear right" type="submit" value="Continue"/>
+</div>
+</div>
+</form>

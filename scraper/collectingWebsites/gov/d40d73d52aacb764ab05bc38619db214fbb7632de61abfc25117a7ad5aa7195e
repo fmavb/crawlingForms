@@ -1,0 +1,30 @@
+<form accept-charset="UTF-8" action="/check-customs-declaration/y" method="get">
+<input id="response" name="response" type="hidden" value=""/>
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+<span class="govuk-caption-l">Check if you need to declare goods you bring into or take out of the UK</span>
+<h1 class="gem-c-radio__heading-text govuk-fieldset__heading">1. Where are the goods coming from?</h1>
+</legend>
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-b6f03d12-0" name="response" type="radio" value="england-scotland-or-wales-great-britain"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-b6f03d12-0">England, Scotland or Wales (Great Britain)</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-b6f03d12-1" name="response" type="radio" value="northern-ireland"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-b6f03d12-1">Northern Ireland</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-b6f03d12-2" name="response" type="radio" value="an-eu-country"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-b6f03d12-2">An EU country</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-b6f03d12-3" name="response" type="radio" value="another-country-outside-the-eu"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-b6f03d12-3">Another country, outside the EU</label>
+</div>
+</div>
+</fieldset>
+</div>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Next step</button>
+</form>

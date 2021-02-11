@@ -1,0 +1,62 @@
+<form action="/quote/Direct/Home/Quote/RetrieveQuoteClientSearch" method="post"><input name="__RequestVerificationToken" type="hidden" value="bp8B51G5OH7KoiCQ0rGVjGqdVNaKUNU-hAD3zWMx49YdcwgPn4rSlIyYsYHxyDfL9KjRwxNTJolJxmS0ej4Cwn1RSpo1"/> <h1>Please enter the following details to access your saved quote.</h1>
+<span class="field-validation-valid" data-valmsg-for="QuoteVerification.IsCorrectDetail" data-valmsg-replace="true"></span><span class="field-validation-valid" data-valmsg-for="IsValidAttempt" data-valmsg-replace="true"></span> <div class="m-form-row">
+<label class="a-label" for="FirstName"><label for="QuoteVerification_FirstName">First name</label></label>
+<div class="m-form-row__content">
+<div class="m-show-more dd-data-link" data-contract="Less info" data-dd-group="retrieveallquotes" data-dd-link="showmore" data-dd-loc="firstname" data-expand="More info" data-module="m-show-more">
+<p>Please enter your first name as you did on your original quote.</p>
+</div>
+<input class="a-textbox" data-di-unmask-field="" data-val="true" data-val-length="First Name can't be more then 32 letters" data-val-length-max="32" data-val-regex="Please remove the number(s) from your first name" data-val-regex-pattern="\D*\d*[\D*]" data-val-required="Please enter your first name." id="QuoteVerification_FirstName" name="QuoteVerification.FirstName" type="text" value=""/>
+</div>
+<span class="field-validation-valid" data-valmsg-for="QuoteVerification.FirstName" data-valmsg-replace="true"></span>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="Surname"><label for="QuoteVerification_Surname">Last name</label></label>
+<div class="m-form-row__content">
+<input class="a-textbox" data-di-unmask-field="" data-val="true" data-val-length="Last name can't be more then 32 letters" data-val-length-max="32" data-val-regex="Please remove the number(s) from your last name" data-val-regex-pattern="\D*\d*[\D*]" data-val-required="Please enter your last name." id="QuoteVerification_Surname" name="QuoteVerification.Surname" type="text" value=""/>
+</div>
+<span class="field-validation-valid" data-valmsg-for="QuoteVerification.Surname" data-valmsg-replace="true"></span>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="PostCode"><label for="QuoteVerification_PostCode">Postcode</label></label>
+<div class="m-form-row__content">
+<div class="m-show-more dd-data-link" data-contract="Less info" data-dd-group="retrieveallquotes" data-dd-link="showmore" data-dd-loc="postcode" data-expand="More info" data-module="m-show-more">
+<p>Please enter the postcode for the property you wish to insure.</p>
+</div>
+<input class="a-textbox" data-di-unmask-field="" data-val="true" data-val-required="Please enter your post code." id="QuoteVerification_PostCode" maxlength="8" name="QuoteVerification.PostCode" type="text" value=""/>
+</div>
+<span class="field-validation-valid" data-valmsg-for="QuoteVerification.PostCode" data-valmsg-replace="true"></span>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="DateOfBirthDay"><label for="QuoteVerification_DateOfBirth">Date of birth</label></label>
+<div class="m-form-row__content m-form-dob group">
+<input class="a-textbox a-textbox--2-character" data-di-unmask-field="" id="QuoteVerification_DateOfBirthDay" maxlength="2" name="QuoteVerification.DateOfBirthDay" pattern="[0-9]*" placeholder="DD" type="tel" value=""/>
+<input class="a-textbox a-textbox--2-character" data-di-unmask-field="" id="QuoteVerification_DateOfBirthMonth" maxlength="2" name="QuoteVerification.DateOfBirthMonth" pattern="[0-9]*" placeholder="MM" type="tel" value=""/>
+<input class="a-textbox a-textbox--4-character" data-di-unmask-field="" id="QuoteVerification_DateOfBirthYear" maxlength="4" name="QuoteVerification.DateOfBirthYear" pattern="[0-9]*" placeholder="YYYY" type="tel" value=""/>
+</div>
+<span class="field-validation-valid" data-valmsg-for="QuoteVerification.DateOfBirth" data-valmsg-replace="true"></span>
+</div>
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<input data-val="true" data-val-number="The field RetrieveButtonCount must be a number." id="RetrieveButtonCount" name="RetrieveButtonCount" type="hidden" value="0"/>
+<a class="a-button quoteBackButton dd-data-link" data-dd-group="retrieveallquotes" data-dd-link="startnew" data-dd-loc="form" href="/quote/Direct/Home/YourDetails?Length=5">Start a new quote</a>
+</li>
+<li class="m-button-group__item">
+<button class="a-button a-button--primary dd-data-link" data-dd-group="retrieveallquotes" data-dd-link="continue" data-dd-loc="form" id="nextButton" name="nextButton" type="submit">Retrieve Quote</button>
+</li>
+</ul>
+<div id="lightboxWrapper">
+<div class="o-modal__content-container" id="whyChooseUsInfo">
+<h2>Why choose us…</h2>
+<h3>Named personal claim manager</h3>
+<p>Who will manage your claim and keep you updated from beginning to end.</p>
+<h3>A tradesperson, to secure your home, in 4 hours</h3>
+<p>Within 4 hours of your call, we'll send you an approved tradesperson to secure your home and make it safe after a break-in (this service is for homes which are unsecured or unsafe as a result of damage).</p>
+<h3>UK claims team</h3>
+<p>Our claims team is available 24/7, 365 days a year.</p>
+<h3>Manage your policy online</h3>
+<p>At MyAviva, you can access your documents online. These are normally available within 5 minutes of purchase.</p>
+<h3>Defaqto 5 Star rated cover</h3>
+<p>Our Defaqto 5 Star Rating provides you with independent expert reassurance about the quality of cover we provide as standard, as well as options to tailor your cover.</p>
+</div>
+</div>
+</form>

@@ -1,0 +1,24 @@
+<form action="/search" aria-label="???search-banner.title???" autocomplete="off" class="search-strip" id="search" method="get" role="search">
+<div class="search-strip__contents">
+<div class="search-strip__table-cell">
+<input aria-label="Search" class="search-strip__input" id="query" name="query" placeholder="Search" type="text" value=""/>
+<label class="visually-hidden" for="query">Search</label>
+</div>
+<div class="search-strip__table-cell search-strip__table-cell--button">
+<button aria-label="Search" class="search-strip__button" data-uipath="search.button" id="search_button">
+<img alt="Magnifying glass" aria-hidden="true" class="search-strip__icon" src="/webfiles/1611576516075/images/icon-search-white.png"/>
+<img alt="Spinning circle graphic" aria-hidden="true" class="search-strip__icon search-strip__icon--loading" src="/webfiles/1611576516075/images/icon-loading.svg"/>
+</button>
+</div>
+</div>
+<script type="text/javascript">
+        document.getElementById("search_button").addEventListener("click", myFunction);
+        document.getElementsByName("query")[0].addEventListener("click", myFunction);
+        function myFunction() {
+            var searchData = {};
+            searchData["q"] = document.querySelector("#query").value;;
+            searchData["catalogs"] = [{ "name" : "content_en" }];
+            BrTrk.getTracker().logEvent("suggest", "submit",searchData,{},true);
+        }
+     </script>
+</form>

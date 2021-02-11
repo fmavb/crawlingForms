@@ -1,0 +1,26 @@
+<form action="/MyAccount/ForgottenYourDetails/ForgottenUsername" method="post"><input name="__RequestVerificationToken" type="hidden" value="VbugSlH_mjem1xVSSHMR1SJur9nmxC6_38ePPG8-pojrqzOYGUjVpPR6YqdDqRDOQsuHDH5IRGM5Lgs5mv3uOCFvUy41"/> <div class="l-content-container">
+<div class="l-section l-section--in">
+<div class="m-form-row m-heading-group u-margin-top--none">
+<h1 class="a-heading m-heading-group__item a-heading--1">Forgot username?</h1>
+<p class="a-heading m-heading-group__item a-heading--3 a-heading--light">Not sure of your username or if you've already registered? Use your email to find out.</p>
+</div>
+<fieldset>
+<legend>Forgotten your username</legend>
+<div class="m-form-row" data-module="app/is-error">
+<label class="a-label" for="email-address">Enter your email address</label>
+<div class="m-form-row__content">
+<input class="a-textbox" id="email-address" maxlength="63" name="EmailAddress" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<button class="a-button a-button--primary" type="submit">Submit</button>
+</li>
+<li class="m-button-group__item"><a class="a-button a-button--secondary" href="/MyAccount/Login">Back</a></li>
+</ul>
+</div>
+</fieldset>
+</div>
+</div>
+</form>

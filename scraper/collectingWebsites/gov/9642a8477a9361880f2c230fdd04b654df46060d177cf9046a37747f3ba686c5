@@ -1,0 +1,55 @@
+<form accept-charset="UTF-8" action="/email-signup/confirm" data-module="track-email-alert-signup-choices" data-track-action="new_topic" data-track-category="email_subscriptions" method="get">
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-0" name="topic" type="radio" value="/world/emergency-help-for-british-nationals-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-0">Emergency help for British nationals</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-1" name="topic" type="radio" value="/world/birth-death-and-marriage-abroad-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-1">Birth, death and marriage abroad</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-2" name="topic" type="radio" value="/world/living-in-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-2">Living in North Korea</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-3" name="topic" type="radio" value="/world/coming-to-the-uk-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-3">Coming to the UK</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-4" name="topic" type="radio" value="/world/passports-and-emergency-travel-documents-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-4">Passports and emergency travel documents</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-5" name="topic" type="radio" value="/world/travelling-to-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-5">Travelling to North Korea</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-6" name="topic" type="radio" value="/world/tax-benefits-pensions-and-working-abroad-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-6">Tax, benefits, pensions and working abroad</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-7" name="topic" type="radio" value="/world/trade-and-invest-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-7">Trade and invest</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-8" name="topic" type="radio" value="/world/news-and-events-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-8">News and events</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-9" name="topic" type="radio" value="/world/british-embassy-or-high-commission-north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-9">British embassy or high commission</label>
+</div>
+<div class="govuk-radios__divider">or</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="topic-11" name="topic" type="radio" value="/world/north-korea"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="topic-11">UK help and services in North Korea (all topics)</label>
+</div>
+</div>
+</fieldset>
+</div>
+<input id="link" name="link" type="hidden" value="/world/north-korea"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Continue</button>
+</form>

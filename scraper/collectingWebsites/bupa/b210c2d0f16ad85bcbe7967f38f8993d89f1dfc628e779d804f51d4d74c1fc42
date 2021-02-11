@@ -1,0 +1,62 @@
+<form action="/api/sitecore/BusinessHealthInsuranceGetQuoteStep1" class="frm-your-details" id="frmYourDetails" method="post"> <div class="form-title">
+<h3>1. Your Details</h3>
+<p class="subtitle">Please enter your personal details.</p>
+</div>
+<div class="form-body">
+<div class="form-group">
+<label for="Firstname">
+                                First Name
+                                <span class="bupa-tooltip">
+</span>
+</label>
+<input class="input-field form-control required pattern" data-val="true" data-val-required="First name" data-val-validate="Please re-enter your first name using only letters" data-val-validate-regex="^[a-zA-Z'\-\s]+$" id="Firstname" maxlength="30" name="PersonalDetails.Firstname" placeholder="First Name" tabindex="2" type="text" value=""/>
+<span class="bupa-validation-icon"></span>
+<p class="validation-msg"></p>
+</div>
+<div class="form-group">
+<label for="Lastname">
+                                Last Name
+                                <span class="bupa-tooltip">
+</span>
+</label>
+<input class="input-field form-control required pattern" data-val="true" data-val-required="Last name" data-val-validate="Please re-enter your last name using only letters" data-val-validate-regex="^[a-zA-Z'\-\s]+$" id="Lastname" maxlength="50" name="PersonalDetails.Lastname" placeholder="Last Name" tabindex="3" type="text" value=""/>
+<span class="bupa-validation-icon"></span>
+<p class="validation-msg"></p>
+</div>
+<div class="form-group">
+<label for="EmailAddress">
+                                Email Address
+                                <span class="bupa-tooltip">
+<img alt="Tool Tip Icon Alt" src="https://assets.bupa.co.uk/~/media/images/global/components/common/icons/i-icon.svg"/>
+<span class="bupa-tooltip-text">
+                                            We'll only use your email address to get in touch with you about this quote.
+                                        </span>
+</span>
+</label>
+<input class="input-field form-control required pattern" data-val="true" data-val-required="Email address" data-val-validate="Please enter a valid email address" data-val-validate-regex="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$" id="EmailAddress" name="PersonalDetails.EmailAddress" placeholder="Email Address" tabindex="4" type="text" value=""/>
+<span class="bupa-validation-icon"></span>
+<p class="validation-msg"></p>
+</div>
+<div class="form-group">
+<label for="PhoneNumber">
+                                Phone Number
+                                <span class="bupa-tooltip">
+<img alt="Tool Tip Icon Alt" src="https://assets.bupa.co.uk/~/media/images/global/components/common/icons/i-icon.svg"/>
+<span class="bupa-tooltip-text">
+                                            Please enter your preferred contact number, we'll only use this to contact you about your quote.
+                                        </span>
+</span>
+</label>
+<input class="input-field form-control required pattern" data-val="true" data-val-required="Phone number" data-val-validate="Please enter a valid phone number" data-val-validate-regex="^[0-9]{10,11}$" id="PhoneNumber" maxlength="20" name="PersonalDetails.PhoneNumber" placeholder="Phone Number" tabindex="5" type="tel" value=""/>
+<span class="bupa-validation-icon"></span>
+<p class="validation-msg"></p>
+</div>
+<div class="cta-wrap">
+<button class="smc-continue step1 btn" data-analytics-name="your-details" data-next-analytics-name="business-details" disabled="disabled" showchevron="true" type="button">Continue</button>
+</div>
+<span class="hidden-all" id="enquirySource"></span>
+<span class="hidden-all" id="enquiryType"></span>
+<span class="hidden-all" id="enquiryPageName"></span>
+<span class="hidden-all" id="sendDatatocrm"></span>
+</div>
+</form>

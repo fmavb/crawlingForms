@@ -1,0 +1,37 @@
+<form action="" method="post">
+<fieldset class="findlocationsearch">
+<legend class="hidden">Find services</legend>
+<div class="row">
+<label for="Location_Name">Location</label>
+<input class="fclocation ui-autocomplete-input" id="Location_Name" name="Location.Name" type="text" value="e.g. postcode or town"/><input class="autocomplete-url" type="hidden" value="/service-search/other-services/Location/PredictiveSearch"/><input class="autocomplete-id" id="Location_Id" name="Location.Id" type="hidden" value="0"/><div class="autocomplete-suggestions"></div>
+<input id="Service_Name" name="Service.Name" type="hidden" value="Local Authority Adult  Social Care"/>
+<input id="Service_Id" name="Service.Id" type="hidden" value="1918"/>
+<a href="#" id="geobutton"><img alt="Locate me" src="/service-search/other-services/Content/img/geolocation.png"/></a>
+</div>
+<div class="submit-container">
+<input class="fcsubmit" type="submit" value="Search"/>
+</div>
+</fieldset>
+<div class="fcfilters clear">
+<span class="fctriangle"></span>
+<fieldset>
+<legend class="hidden">Narrow your search</legend>
+<div class="row items-1 row-first clear">
+<div class="inner distance-rating">
+<label for="options-distance">By distance</label>
+<select id="options-distance" name="distance">
+<option value="5">Within 5 miles</option>
+<option value="10">Within 10 miles</option>
+<option selected="selected" value="25">Within 25 miles</option>
+<option value="50">Within 50 miles</option>
+</select>
+</div>
+<input name="filters.metriclist" type="hidden" value="-1"/>
+<input name="filters.servicelist" type="hidden" value="-1"/>
+</div>
+</fieldset>
+<div class="row clear row-submit">
+<input class="filtersubmit" type="submit" value="Update results"/>
+</div>
+</div>
+</form>

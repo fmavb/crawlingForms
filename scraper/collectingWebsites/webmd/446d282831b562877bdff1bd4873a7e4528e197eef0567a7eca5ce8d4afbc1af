@@ -1,0 +1,24 @@
+<form class="content">
+<section class="section clearfix">
+<div class="header">
+<h2>How Well Are You Living With AFib?</h2>
+</div>
+<div class="body clearfix">
+<a class="webmd-btn webmd-btn-pr webmd-btn-m next" href="#">Get Started</a>
+<h3>Answer a few questions, and you'll get:</h3>
+<ul>
+<li class="check two-line">Information about your current treatment options</li>
+<li class="clipboard two-line">Tips for lifestyle changes that could improve your symptoms</li>
+<li class="download two-line">Help with managing AFib's effects on your life</li>
+</ul>
+</div>
+</section>
+<div class="npnav">
+<a class="prev" href="#" id="hc-prevbtn"><span>Back</span></a>
+<a class="next loading" href="#" id="hc-nextbtn"><span>Continue</span><i class="spinner"></i></a>
+</div>
+<div class="progress">
+<!-- Progress bar -->
+<div class="progress-fill"></div>
+</div>
+</form>

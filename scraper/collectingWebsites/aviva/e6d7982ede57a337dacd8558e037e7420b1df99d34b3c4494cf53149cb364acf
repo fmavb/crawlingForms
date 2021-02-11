@@ -1,0 +1,44 @@
+<form action="/myfuture/RiskProfiler/Question1" id="riskProfilerForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="9HEanR9mQXenG01ALlhOXRZOubDJOlBH5FC_5FXbCBfT4eBd3q2sHuWY72o5cK-v-820PFicO6BQ5dNSLvPYQdNb1xA1"/> <fieldset class="m-form-row m-form-row--full-width" role="radiogroup">
+<legend class="a-label">How much investment experience do you have?</legend>
+<p>
+                    Think about the type of investments and investment decisions you've made
+                </p>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message" data-valmsg-for="Answer" data-valmsg-replace="false">Please select an option</span>
+<ul class="m-radio-group">
+<li class="m-radio-group__item">
+<label class="a-radio" for="Answer1">
+<input class="a-radio__input" data-val="true" data-val-required="Please select an option" id="Answer1" name="Answer" type="radio" value="Answer1"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">I'm not experienced - I haven't made any investment decisions before.</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="Answer2">
+<input class="a-radio__input" id="Answer2" name="Answer" type="radio" value="Answer2"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">I have invested before, but only where investment options were limited and I don't feel confident in making investment decisions.</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="Answer3">
+<input class="a-radio__input" id="Answer3" name="Answer" type="radio" value="Answer3"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">I'm not an expert, but I understand how financial markets work and I'm comfortable in my ability to make most investment decisions.</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="Answer4">
+<input class="a-radio__input" id="Answer4" name="Answer" type="radio" value="Answer4"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">I would consider myself an experienced investor and have made many investment decisions.</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<ul class="m-button-group u-margin--bottom-none">
+<li class="m-button-group__item"><button class="a-button a-button--next a-button--primary" data-qa-button="submitForm" type="submit">Next</button></li>
+<li class="m-button-group__item"><a class="a-button a-button--secondary" href="/myfuture/RiskProfiler/Landing">Back</a></li>
+</ul>
+</form>

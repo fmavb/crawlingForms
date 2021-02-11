@@ -1,0 +1,13 @@
+<form action="https://www.nhs.uk/search/" class="c-search" id="gs" method="get" role="search">
+<div class="c-search__container">
+<label class="c-search__label visually-hidden" for="q">Search the NHS website</label>
+<input autocomplete="off" class="c-search__input" id="q" name="q" placeholder="Search" type="search"/>
+<button class="c-search__submit" type="submit">
+<svg aria-hidden="true" class="nhsuk-icon nhsuk-icon__search" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.71 18.29l-4.11-4.1a7 7 0 1 0-1.41 1.41l4.1 4.11a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z"></path>
+<image class="nhsuk-icon__search nhsuk-icon__search--fallback" src="/apps-library/static/apps_library/images/icon-search-blue.352e1118d687.png" xlink:href="">
+</image></svg>
+<span class="visually-hidden">Search</span>
+</button>
+</div>
+</form>

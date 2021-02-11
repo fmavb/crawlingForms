@@ -1,0 +1,58 @@
+<form action="/services/hospital/royal-preston-hospital/X907/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Colonoscopy without sufficient sedation&lt;/Title&gt;
+    &lt;ScreenName&gt;Iamstrong&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I was in extreme pain almost immediately. I was given sedation at the start of the procedure but this had no effect and my cry’s of pain and shouts of no resulted in the doctor terminating the procedure. This is was my second Colonoscopy, my first was done 3 years ago and was painful but they increased the sedation which allowed them to carry on. On this, second occasion, the doctor asked if I’d ever had surgery to my stomach- I informed the dr that I had a hysterectomy in the past - they thought this might be the reason for the difficulty- they turned me over to the right hand side and a nurse pressed down on my stomach. When this didn’t work they turned me onto my stomach.  
+I could sense the doctor and nurses frustration in their voices in response to my crying out which only served to make me feel I was a nuisance . After I was taken to recovery I was left with the feelings of having failed. Looking at some comments on the web I know that others have also endured similar difficulties. As I was as being escorted from the unit the doctor heard me questioning the nurse about what I’d experienced and doctor told me that they had had no option to but to stop the procedure because I’d been crying and saying no . I was not tearful but did cry out . The doctor did mention a CT scan .  
+I will not have a Colonoscopy again unless there is sufficient sedation. Why is it that I feel I have done something wrong. Why did the doctor or the nurse spend time with me after to discuss how I was feeling and explain in more detail what had happened?  
+I was kept waiting a long time in the changing room (which Was dreary) and the doctor apologised for my wait telling me they had booked everyone in for the morning at the same time. I felt she was rushed when completing my consent form and eager to get going.  
+I would appreciate some feedback and advice.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-09-21T23:38:59Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;9&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Royal Preston Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;09780f9d-13e9-e911-a812-000d3a7ed518&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X907&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGp57C84dHFAjK8iDUlBeANT9nKUFLwsbCojAEANpRGAMJXdnj-0YYF4UWFmLGSPfQULClTN1qu8-Eu_T54NaXUB58xXh1o1fprZk0TwfGlPNLaa8HuR6745l_PGHRBY-8"/></form>

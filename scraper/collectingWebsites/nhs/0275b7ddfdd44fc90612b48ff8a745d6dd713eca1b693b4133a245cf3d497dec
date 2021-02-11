@@ -1,0 +1,64 @@
+<form action="/services/hospital/west-midlands-hospital/X408/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Excellent Care &lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I would highly recommend this hospital to anyone who has gynaecological problems, the Gynaecologist who I was referred to is exceptionally talented and a Godsend in my case as I was going to doctors near enough every month to find out what was wrong with me and had no luck. The Gynae consultant here sent me for further tests immediately with no delay and for the first time I felt someone was actually concerned about getting to the bottom of what was wrong with me, they went above and beyond and I can’t thank them enough. I was told I needed surgery and now 6 weeks after my operation, I feel I am getting back to the normal me and the only reason why this was possible was because of the Gynae consultant. Not only did they get me back to my normal self but also the incision made was neat and clean, considering the problem was much worse than expected and yet they had kept the incision minimal and avoided further cuts. Thank you! 
+
+However the Outpatient Department Receptionists is one element in the hospital which should be reconsidered as patients lives aren’t something that can be played around with, the amounts of times I have had booking problems where I have been sent letters for bookings but on arrival, I was told there was nothing there booked for me is ridiculous and if it wasn’t for the bookings department leader I would have had my procedure delayed and that would have been the fault of the receptionists for not communicating, you guys also have the responsibility to do your part. The Outpatient Department personally needs more receptionists like the Inpatient Department, sociable and friendly! Inpatient receptionist has all the qualities that one needs and is amazing! Furthermore, the night of my stay on the 14th January 2020, the nurse who was on a night shift, is outstanding, quick to respond, patient and just an angel, you were one of my best nurses I’ve had and I am talking from experience!! 
+
+Lastly, the hygiene of this hospital is faultless, better than other hospitals, love how you have your own personal room feels more like a hotel than a typical hospital with an ensuite bathroom making it easier, shows they take patients seriously! 
+ 
+Overall, although there are flaws in one area, this hospital is the best hospital I would recommend especially if one has gynaecological problems! 
+
+To all those especially my consultant who attended to me, thank you!  
+
+&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-02-28T22:39:21Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;1&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;West Midlands Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Gynaecology&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;c6972123-7b5a-ea11-a811-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X408&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGIugTYDsQ4L0aySIBQTtSR1AH5Hpdk6q3RxuCHDa6dokN8y8b0tiXQRsvLuLtBF7asEOQu39HG82B2Y5QUoTLG_x2blvg3FnqWvtOXNDleZkB1GkgkmyH3KQ3zwMkNtZc"/></form>

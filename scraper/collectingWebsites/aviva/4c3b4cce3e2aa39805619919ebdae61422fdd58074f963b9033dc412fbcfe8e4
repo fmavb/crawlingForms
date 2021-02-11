@@ -1,0 +1,561 @@
+<form action="/sales/complaints/make" class="form-vertical" enctype="multipart/form-data" id="Form" method="post" name="Form">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="/wEPDwUJMzgwMTI5MjY0ZGTzxorA8Y40AAJinqWy/vjF20dqwQ=="/>
+<script type="text/javascript">initializeSessionExpirationPopup(1200, 120, false);</script>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="EA3FFDE7"/>
+<div class="top-header">
+<div class="container">
+<div class="logo-link">
+<a class="logo-link-desktop"><img class="logodesktop" src="/images/AV\Logo/logo.gif?v=3016080620"/></a>
+<a class="logo-link-mobile"><img class="logomobile" src="/images/AV\Logo/logo_mobile.gif?v=3016080620"/></a>
+<div class="navbar-text-right">
+                    Aviva Online Motor Insurance
+                </div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="header">
+</div>
+</div>
+<div class="row">
+<div class="container top-wizard-container">
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 questions main">
+<input id="ctl00_body_pid" name="ctl00$body$pid" type="hidden" value="7397"/><input id="ctl00_body_lid" name="ctl00$body$lid" type="hidden" value="487"/><input id="ctl00_body_tid" name="ctl00$body$tid" type="hidden" value="2118063354"/><input id="ctl00_body_CSLSP" name="ctl00$body$CSLSP" type="hidden" value="/sales/Service/EventLogService.asmx/LogEvent"/><script src="/js/bundles/myAccountScripts/event-logging.min.js" type="text/javascript"></script>
+<div class="node nohelp white-box large-padding" id="content-1285635">
+<div class="node nohelp col-md-8 col-md-offset-2" id="introductiongroup-1285636">
+<div class="node nohelp" id="introductiontext-1285657">
+<div class="clearfix" id="introductiontextcomplaint-1285653">
+<h1>Not happy?</h1>
+<p>We work hard to give you great customer service, but sometimes things may go wrong. We're an online only insurer and we only use call centres when dealing with claims. This helps us keep our costs - and your premiums - low.</p>
+<p>However, please rest assured this doesn't mean that we will not handle your complaint any less urgently and we will be in touch with you as soon as we can.</p>
+<p>Please fill in the below form and we will be in touch with you as soon as possible to resolve your issue.</p>
+</div>
+</div>
+</div>
+<div class="node nohelp col-md-8 col-md-offset-2" id="contactinfogroup-1285651">
+<div class="form-group" id="firstname-1285638">
+<div class="question no-side-padding row no-side-magin w-100">
+<div class="label-group">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_firstname-1285638_tb">First name</label>
+</div>
+<div class="no-side-padding row no-side-magin answer error"></div>
+</div>
+<div class="column no-side-padding row no-side-magin w-100">
+<div class="no-side-padding">
+<input autocomplete="off" class="form-control input-lg textbox" id="ctl00_body_content-1285635_contactinfogroup-1285651_firstname-1285638_tb" name="ctl00$body$content-1285635$contactinfogroup-1285651$firstname-1285638$tb" type="text"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+    $(function () {
+        
+        $("#ctl00_body_content-1285635_contactinfogroup-1285651_firstname-1285638_tb").attr("placeholder", "");
+
+        var pattern = '';
+
+        bamboo.userControls.validations.inputMask("#ctl00_body_content-1285635_contactinfogroup-1285651_firstname-1285638_tb", [pattern, "False"],
+            {
+                inputMask: 'Please use between 2 and 20 characters - these can be letters, spaces, apostrophes or hyphens.',
+                required: 'Please use between 2 and 20 characters - these can be letters, spaces, apostrophes or hyphens.'
+            }, "True");
+
+        $("#firstname-1285638").answers("input").setupUpdatePI("False");
+        
+    });
+
+    
+    //]]></script>
+<div class="form-group" id="lastnameset-1285642">
+<div class="question no-side-padding row no-side-magin w-100">
+<div class="label-group">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_lastnameset-1285642_tb">Last name</label>
+</div>
+<div class="no-side-padding row no-side-magin answer error"></div>
+</div>
+<div class="column no-side-padding row no-side-magin w-100">
+<div class="no-side-padding">
+<input autocomplete="off" class="form-control input-lg textbox" id="ctl00_body_content-1285635_contactinfogroup-1285651_lastnameset-1285642_tb" name="ctl00$body$content-1285635$contactinfogroup-1285651$lastnameset-1285642$tb" type="text"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+    $(function () {
+        
+        $("#ctl00_body_content-1285635_contactinfogroup-1285651_lastnameset-1285642_tb").attr("placeholder", "");
+
+        var pattern = '';
+
+        bamboo.userControls.validations.inputMask("#ctl00_body_content-1285635_contactinfogroup-1285651_lastnameset-1285642_tb", [pattern, "False"],
+            {
+                inputMask: 'Please use between 2 and 20 characters - these can be letters, spaces, apostrophes or hyphens.',
+                required: 'Please use between 2 and 20 characters - these can be letters, spaces, apostrophes or hyphens.'
+            }, "True");
+
+        $("#lastnameset-1285642").answers("input").setupUpdatePI("False");
+        
+    });
+
+    
+    //]]></script>
+<div class="form-group" id="confirmation_1_emailaddresswithconfirmation-1285650">
+<div class="label-group">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_emailaddresswithconfirmation-1285650_tb">What's your email address?</label>
+</div>
+<div class="answer"></div>
+<input autocomplete="off" class="password form-control input-lg textbox" id="ctl00_body_content-1285635_contactinfogroup-1285651_emailaddresswithconfirmation-1285650_tb" maxlength="120" name="ctl00$body$content-1285635$contactinfogroup-1285651$emailaddresswithconfirmation-1285650$tb" type="text"/>
+</div>
+<div class="form-group" id="confirmation_2_emailaddresswithconfirmation-1285650">
+<div class="label-group">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_emailaddresswithconfirmation-1285650_tb">Please confirm your email address</label>
+</div>
+<div class="answer"></div>
+<input class="password form-control input-lg textbox confirmation" id="ctl00_body_content-1285635_contactinfogroup-1285651_emailaddresswithconfirmation-1285650_tbConfirmation" maxlength="120" name="ctl00$body$content-1285635$contactinfogroup-1285651$emailaddresswithconfirmation-1285650$tbConfirmation" type="text"/>
+<span class="input-group-addon" style="display: none;">
+<a class="popover-trigger">
+</a>
+</span>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    $(function() {
+        var tbId = '#ctl00_body_content-1285635_contactinfogroup-1285651_emailaddresswithconfirmation-1285650_tb';
+        var tbConfirmationId = '#ctl00_body_content-1285635_contactinfogroup-1285651_emailaddresswithconfirmation-1285650_tbConfirmation';
+
+        $.validator.addMethod(
+            'ctl00_body_content-1285635_contactinfogroup-1285651_emailaddresswithconfirmation-1285650_validate_both',
+            function() {
+                if (false) {
+                    return true;
+                }
+
+                var tbEmpty = CheckIfInputEmpty(tbId);
+                var tbConfirmEmpty = CheckIfInputEmpty(tbConfirmationId);
+
+                //Error has not been highlighted and one of the fields is empty
+                if ($(tbId).closest('.form_row.error').length === 0 && (tbEmpty || tbConfirmEmpty)) {
+                    return true;
+                }
+
+                return $(tbId).val() === $(tbConfirmationId).val();
+            },
+            ''
+        );
+        
+        function CheckIfInputEmpty(element) {
+            return $(element).val() === '' || $(element).val() === $(element).attr('placeholder');
+        }
+        
+        ValidateBothFieldsRule(tbId);
+        ValidateBothFieldsRule(tbConfirmationId);
+
+        function ValidateBothFieldsRule(element) {
+            $(element).rules(
+                "add",
+                {
+                    'ctl00_body_content-1285635_contactinfogroup-1285651_emailaddresswithconfirmation-1285650_validate_both': true,
+                    messages: {
+                        'ctl00_body_content-1285635_contactinfogroup-1285651_emailaddresswithconfirmation-1285650_validate_both': 'The email address doesn\'t match. Please check and try again.'
+                    }
+                }
+            );
+        }
+
+        UserControlInputValidation(tbId);
+        UserControlInputValidation(tbConfirmationId);
+        
+        function UserControlInputValidation(element) {
+            bamboo.userControls.validations.inputMask(
+                element,
+                '^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,})$',
+                {
+                    inputMask: 'Please enter in the correct format, example: yourname@email.com.',
+                    required: 'Is this your correct email address?'
+                },
+                "True"
+            );
+        }
+
+        CutInputString(tbId);
+        CutInputString(tbConfirmationId);
+
+        function CutInputString(element) {
+            $(element).bind(
+                'paste', 
+                function(event) {
+                    var maxLengthValue = 120;
+                    var stringValue = event.currentTarget.value;
+                    if (stringValue.length > maxLengthValue) {
+                        stringValue.substring(stringValue.length - maxLength);
+                    }
+                }
+            );
+        }
+    });
+    //]]>
+</script>
+<div class="date-control form-group clearfix multi-input three" id="dateofbirth-1285647">
+<div class="question">
+<div class="label-group small-label-mobile">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_dateofbirth-1285647_DAY">
+                Date of birth: (DD/MM/YYYY)
+            </label>
+</div>
+</div>
+<div class="answer"></div>
+<div class="padding-left-desktop input-placeholder column">
+<input class="control-style form-control input-lg control-style-d-text" id="ctl00_body_content-1285635_contactinfogroup-1285651_dateofbirth-1285647_DAY" maxlength="2" name="ctl00$body$content-1285635$contactinfogroup-1285651$dateofbirth-1285647$DAY" placeholder="DD" type="text"/><select class="control-style form-control input-lg control-style-m-list-abbreviated" id="ctl00_body_content-1285635_contactinfogroup-1285651_dateofbirth-1285647_MONTH" name="ctl00$body$content-1285635$contactinfogroup-1285651$dateofbirth-1285647$MONTH">
+<option value="-1">MM</option>
+<option value="01">JAN</option>
+<option value="02">FEB</option>
+<option value="03">MAR</option>
+<option value="04">APR</option>
+<option value="05">MAY</option>
+<option value="06">JUN</option>
+<option value="07">JUL</option>
+<option value="08">AUG</option>
+<option value="09">SEP</option>
+<option value="10">OCT</option>
+<option value="11">NOV</option>
+<option value="12">DEC</option>
+</select><input class="control-style form-control input-lg control-style-y-text" id="ctl00_body_content-1285635_contactinfogroup-1285651_dateofbirth-1285647_YEAR" maxlength="4" name="ctl00$body$content-1285635$contactinfogroup-1285651$dateofbirth-1285647$YEAR" placeholder="YYYY" type="text"/>
+</div>
+<div style="display: none;"></div>
+</div>
+<script type="text/javascript">    //<![CDATA[
+    $(function () {
+
+        var idDay = '#ctl00_body_content-1285635_contactinfogroup-1285651_dateofbirth-1285647_DAY';
+        var idMonth = '#ctl00_body_content-1285635_contactinfogroup-1285651_dateofbirth-1285647_MONTH';
+        var idYear = '#ctl00_body_content-1285635_contactinfogroup-1285651_dateofbirth-1285647_YEAR'; 
+
+        if ("False" == "True") {
+            $(idDay).prop('readonly', true);
+            $(idMonth).prop('readonly', true);
+            $(idYear).prop('readonly', true);
+        }
+
+        $(idDay).setupDobUpdatePI("False", $(idMonth), $(idYear));
+        $(idMonth).setupDobUpdatePI("False", $(idDay), $(idYear));
+        $(idYear).setupDobUpdatePI("False", $(idDay), $(idMonth));
+
+        var isMandatory = 'True' == 'True';
+
+        if (isMandatory) {
+
+            var maxDay = 31;
+            var minYear = 1920;
+            var maxYear = 2021;
+
+            var mandatoryErrorMessage = '' || 'Please check your data.' || 'Date is mandatory. Please specify valid date.';
+            var invalidDateMessage = 'Please check your data.' || 'Invalid date input. Please check days, month and year ranges.';
+            var invalidDayMessage = '' || 'Please check your data.' || 'Invalid day. Please input valid day.';
+            var invalidMonthMessage = '' || 'Please check your data.' || 'Invalid month. Please input valid month.';
+            var invalidYearMessage = '' || 'Please check your data.' || 'Invalid year. Please input valid year.';
+
+            // Mandatory field mark "*" and add validation rules
+            bamboo.userControls.validations.SetDateGroupMandatory($(idDay), $(idMonth), $(idYear), 
+                mandatoryErrorMessage, invalidDateMessage, invalidDayMessage, invalidMonthMessage, invalidYearMessage,
+                maxDay, minYear, maxYear);
+        }
+
+        
+        $("#Form").validate().element(this);
+
+        $(idDay).focus(function () {
+            removeError();
+        });
+        $(idMonth).focus(function () {
+            removeError();
+        });
+        $(idYear).focus(function () {
+            removeError();
+        });
+
+        function removeError() {
+            $("#dateofbirth-1285647 .error_message").hide();
+            $("#dateofbirth-1285647").removeClass('has-error');
+        }
+    });
+//]]></script>
+<div class="form-group" id="postcode-1285648">
+<div class="question no-side-padding row no-side-magin w-100">
+<div class="label-group">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_postcode-1285648_tb">Postcode</label>
+</div>
+<div class="no-side-padding row no-side-magin answer error"></div>
+</div>
+<div class="column no-side-padding row no-side-magin w-100">
+<div class="no-side-padding">
+<input autocomplete="off" class="form-control input-lg textbox" id="ctl00_body_content-1285635_contactinfogroup-1285651_postcode-1285648_tb" name="ctl00$body$content-1285635$contactinfogroup-1285651$postcode-1285648$tb" type="text"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+    $(function () {
+        
+        $("#ctl00_body_content-1285635_contactinfogroup-1285651_postcode-1285648_tb").attr("placeholder", "");
+
+        var pattern = '';
+
+        bamboo.userControls.validations.inputMask("#ctl00_body_content-1285635_contactinfogroup-1285651_postcode-1285648_tb", [pattern, "False"],
+            {
+                inputMask: 'Please check your data.',
+                required: ''
+            }, "True");
+
+        $("#postcode-1285648").answers("input").setupUpdatePI("False");
+        
+    });
+
+    
+    //]]></script>
+<div class="form-group" id="quotepolicynumbernonmandatory-1285649">
+<div class="question no-side-padding row no-side-magin w-100">
+<div class="label-group">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_quotepolicynumbernonmandatory-1285649_tb">What's your quote/policy number?</label>
+</div>
+<div class="no-side-padding row no-side-magin answer error"></div>
+</div>
+<div class="column no-side-padding row no-side-magin w-100">
+<div class="no-side-padding">
+<input autocomplete="off" class="form-control input-lg textbox" id="ctl00_body_content-1285635_contactinfogroup-1285651_quotepolicynumbernonmandatory-1285649_tb" name="ctl00$body$content-1285635$contactinfogroup-1285651$quotepolicynumbernonmandatory-1285649$tb" type="text"/>
+</div>
+</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+    $(function () {
+        
+        $("#ctl00_body_content-1285635_contactinfogroup-1285651_quotepolicynumbernonmandatory-1285649_tb").attr("placeholder", "");
+
+        var pattern = '';
+
+        bamboo.userControls.validations.inputMask("#ctl00_body_content-1285635_contactinfogroup-1285651_quotepolicynumbernonmandatory-1285649_tb", [pattern, "False"],
+            {
+                inputMask: 'Please enter your quote or policy number',
+                required: ''
+            }, "False");
+
+        $("#quotepolicynumbernonmandatory-1285649").answers("input").setupUpdatePI("False");
+        
+    });
+
+    
+    //]]></script>
+<div class="form-group" id="complaintsgonewrongtext-1285643">
+<div class="question no-side-padding row no-side-magin w-100">
+<div class="label-group">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_complaintsgonewrongtext-1285643_tb">Please tell us what's gone wrong?</label>
+</div>
+<div class="no-side-padding row no-side-magin answer error"></div>
+</div>
+<div class="column no-side-padding row no-side-magin w-100">
+<div class="no-side-padding">
+<textarea autocomplete="off" class="form-control input-lg textbox" cols="20" id="ctl00_body_content-1285635_contactinfogroup-1285651_complaintsgonewrongtext-1285643_tb" name="ctl00$body$content-1285635$contactinfogroup-1285651$complaintsgonewrongtext-1285643$tb" rows="2">
+</textarea>
+</div>
+</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+    $(function () {
+        
+        $("#ctl00_body_content-1285635_contactinfogroup-1285651_complaintsgonewrongtext-1285643_tb").attr("placeholder", "");
+
+        var pattern = '';
+
+        bamboo.userControls.validations.inputMask("#ctl00_body_content-1285635_contactinfogroup-1285651_complaintsgonewrongtext-1285643_tb", [pattern, "False"],
+            {
+                inputMask: 'Please tell us what\'s gone wrong.',
+                required: 'Please tell us what\'s gone wrong.'
+            }, "True");
+
+        $("#complaintsgonewrongtext-1285643").answers("input").setupUpdatePI("False");
+        
+    });
+
+    
+    //]]></script>
+<div class="form-group" id="complaintshowtofixtext-1285644">
+<div class="question no-side-padding row no-side-magin w-100">
+<div class="label-group">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_complaintshowtofixtext-1285644_tb">How do you want us to fix this?</label>
+</div>
+<div class="no-side-padding row no-side-magin answer error"></div>
+</div>
+<div class="column no-side-padding row no-side-magin w-100">
+<div class="no-side-padding">
+<textarea autocomplete="off" class="form-control input-lg textbox" cols="20" id="ctl00_body_content-1285635_contactinfogroup-1285651_complaintshowtofixtext-1285644_tb" name="ctl00$body$content-1285635$contactinfogroup-1285651$complaintshowtofixtext-1285644$tb" rows="2">
+</textarea>
+</div>
+</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+    $(function () {
+        
+        $("#ctl00_body_content-1285635_contactinfogroup-1285651_complaintshowtofixtext-1285644_tb").attr("placeholder", "");
+
+        var pattern = '';
+
+        bamboo.userControls.validations.inputMask("#ctl00_body_content-1285635_contactinfogroup-1285651_complaintshowtofixtext-1285644_tb", [pattern, "False"],
+            {
+                inputMask: 'Please enter your question',
+                required: ''
+            }, "False");
+
+        $("#complaintshowtofixtext-1285644").answers("input").setupUpdatePI("False");
+        
+    });
+
+    
+    //]]></script>
+<div class="form-group" id="contactquestiontext-1285646" style="display: none;">
+<div class="question no-side-padding row no-side-magin w-100">
+<div class="label-group">
+<label for="ctl00_body_content-1285635_contactinfogroup-1285651_contactquestiontext-1285646_tb">Question</label>
+</div>
+<div class="no-side-padding row no-side-magin answer error"></div>
+</div>
+<div class="column no-side-padding row no-side-magin w-100">
+<div class="no-side-padding">
+<textarea autocomplete="off" class="form-control input-lg textbox" cols="20" id="ctl00_body_content-1285635_contactinfogroup-1285651_contactquestiontext-1285646_tb" name="ctl00$body$content-1285635$contactinfogroup-1285651$contactquestiontext-1285646$tb" rows="2">
+</textarea>
+</div>
+</div>
+</div>
+<script type="text/javascript">//<![CDATA[
+    $(function () {
+        
+        $("#ctl00_body_content-1285635_contactinfogroup-1285651_contactquestiontext-1285646_tb").attr("placeholder", "");
+
+        var pattern = '';
+
+        bamboo.userControls.validations.inputMask("#ctl00_body_content-1285635_contactinfogroup-1285651_contactquestiontext-1285646_tb", [pattern, "False"],
+            {
+                inputMask: 'Please enter your question',
+                required: 'Please enter your question'
+            }, "True");
+
+        $("#contactquestiontext-1285646").answers("input").setupUpdatePI("False");
+        
+    });
+
+    
+    //]]></script>
+</div>
+<div class="node nohelp" id="buttonsgroup-1292536">
+<div class="node nohelp col-md-8 col-md-offset-2" id="table-1286122">
+<div class="node nohelp row padding-bottom-lg padding-top-sm no-side-padding" id="row-1286123">
+<div class="node nohelp col-xs-6" id="next-1286124">
+<div class="col-xs-12 no-side-padding" id="navigation-1285891">
+<a class="button col-xs-12 no-side-padding btn btn-action btn-lg block-xs" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$body$content-1285635$buttonsgroup-1292536$table-1286122$row-1286123$next-1286124$navigation-1285891$pbNextLink", "", true, "", "", false, true))' id="ctl00_body_content-1285635_buttonsgroup-1292536_table-1286122_row-1286123_next-1286124_navigation-1285891_pbNextLink">Send</a>
+</div>
+<script type="text/javascript">
+    function preloadimages(arr) {
+        var newimages = [], loadedimages = 0
+        var postaction = function () { }
+        var arr = (typeof arr != "object") ? [arr] : arr
+        function imageloadpost() {
+            loadedimages++
+            if (loadedimages == arr.length) {
+                postaction(newimages) //call postaction and pass in newimages array as parameter
+            }
+        }
+        for (var i = 0; i < arr.length; i++) {
+            newimages[i] = new Image()
+            newimages[i].src = arr[i]
+            newimages[i].onload = function () {
+                imageloadpost()
+            }
+            newimages[i].onerror = function () {
+                imageloadpost()
+            }
+        }
+        return { //return blank object with done() method
+            done: function (f) {
+                postaction = f || postaction //remember user defined callback functions to be called when images load
+            }
+        }
+    };
+
+    //<![CDATA[
+    $(function () {
+        var causesValidation = 'true' == 'true';
+        var hasClickCommand = 'true' == 'true';
+        var blockBeforeAction = 'false';
+
+        $('#navigation-1285891').children().bind('click', function (e) {
+
+            var validationResult = causesValidation ? validate(e) : true;
+            var clickResult = true;
+
+            
+            if (validationResult && hasClickCommand) {
+                var clickFunc = function() { $.blockUI({
+  message: null
+});; };
+                clickResult = clickFunc() != false;
+            }
+            
+            return validationResult && clickResult;
+        });
+
+        var blockUi = blockBeforeAction === 'true' && typeof (hideUserControl) === 'function';
+
+        if (blockUi)
+            preloadimages(['/images/RTB/eSalesRuntime/misc/loading_blockUI.gif']);
+
+        function validate(e) {
+            var isValid = $.isValidUserInputs();
+
+            if (isValid && blockUi) {
+
+                hideUserControl(e, '/images/RTB/eSalesRuntime/misc/loading_blockUI.gif', '<h1>Thank you. Your payment is being processed.</h1>', '<h2>This may take up to 2 minutes.</h2><p>In the mean time please don&apos;t refresh the page or click the back button as this may result in multiple payments being taken from your account.</p>');
+
+            }
+
+            return isValid;
+        };
+    });
+    //]]>
+</script>
+</div>
+</div>
+</div>
+</div>
+<div class="node nohelp col-md-8 col-md-offset-2" id="complaintsgroup-1292521">
+<div class="node nohelp" id="complaintfaq-1292522">
+<div class="clearfix question-padding padding-top-lg" id="complainttext-1292523">
+<h3>What we'll do to resolve your complaint:</h3>
+<ul>
+<li>We'll get it to the right person</li>
+<li>We'll be in touch with you as soon as we can and let you know what will happen next</li>
+<li>We'll treat your complaint fairly</li>
+<li>We'll resolve your complaint as soon as possible and we will try to do this within 10 working days</li>
+<li>For more complex issues it's likely that we will need longer to look into what's happened and we may ask you for further information to help us reach a decision</li>
+<li>We'll give you regular updates</li>
+</ul>
+<p>And once we've dealt with your complaint, we'll go back and see what we can learn from your experience.</p>
+<h3>If you're not happy with our response to your complaint:</h3>
+<p>If you feel we've not considered all of your issues or you can provide further information, please let us know and we'll be happy to review it. But if you're unhappy with the outcome you can ask the Financial Ombudsman Service to carry out an independent review of your complaint. In any event, you have the right to ask them to review your complaint if we've been unable to resolve it within 8 weeks.</p>
+<p>If you are unsure whether the Financial Ombudsman Service will consider your complaint, please contact them directly for advice. The service they provide is free and impartial and contacting them at any stage of your complaint will not affect your legal rights.</p>
+<p>
+The contact details are: <br/><br/>
+Financial Ombudsman Service<br/>
+Exchange Tower<br/>
+London<br/>
+E14 9SR
+</p>
+<p>You can send an e-mail to: <a href="mailto:complaint.info@financial-ombudsman.org.uk">complaint.info@financial-ombudsman.org.uk</a><br/>
+Or you can log on to their website: <a href="http://www.financial-ombudsman.org.uk" target="_blank">www.financial-ombudsman.org.uk</a></p>
+<p>If you are unhappy with the product or the service you received, you can also use the European Commission’s <a href="http://ec.europa.eu/odr" target="_blank">Online Dispute Resolution</a> service to make a complaint. The purpose of this platform is to identify a suitable Alternative Dispute Resolution (ADR) provider and we expect that this will be the Financial Ombudsman Service. Please be aware that the Financial Ombudsman Service will only be able to consider your complaint after Aviva have had the opportunity to consider and resolve this.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>

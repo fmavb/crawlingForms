@@ -1,0 +1,25 @@
+<form action="/health-information/GetQuizDataAjax" class="mod-quiz" id="quiz" method="post">
+<!-- START: quiz-intro -->
+<input name="contextItemId" type="hidden" value="fzLKcEJcwHRzr9ExvTk3iCx8JAZGfmmD3ef7OdyWItdiEx6/GiooPw=="/>
+<input name="id" type="hidden" value="start"/>
+<input name="count" type="hidden" value="0"/>
+<input name="result" type="hidden" value="0"/>
+<div class="quiz-box quiz-intro">
+<div class="backdrop">
+<img alt="Image of someone's blood pressure being taken" src="https://assets.bupa.co.uk/~/media/images/healthmanagement/tools-and-calculators/images/taking-blood-pressure-1110-546.jpg"/>
+</div>
+<div class="body">
+<div class="icon">
+<i class="i-quiz-intro"></i>
+</div>
+<h2 class="title">Blood pressure quiz</h2>
+<p class="impact"><strong>How much do you know about blood pressure?</strong></p>
+<p>
+</p>
+<div class="controls">
+<button class="btn btn-cta" data-analytics-category="BupaQuizStart" type="submit">Start the quiz</button>
+</div>
+</div>
+</div>
+<!-- END: quiz-intro -->
+</form>

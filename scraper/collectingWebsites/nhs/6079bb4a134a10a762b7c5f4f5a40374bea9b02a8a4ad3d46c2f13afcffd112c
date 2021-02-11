@@ -1,0 +1,62 @@
+<form action="/service-search/other-services/Home%20care/LocationSearch/1833" method="post"> <div><input id="Service_Id" name="Service.Id" type="hidden" value="1833"/></div>
+<div><input id="Service_Name" name="Service.Name" type="hidden" value="Homecare"/></div>
+<fieldset class="findlocationsearch specialty-search">
+<legend class="hidden">Find services</legend>
+<div class="row">
+<label for="Location_Name">Location</label>
+<input class="fclocation ui-autocomplete-input" id="Location_Name" maxlength="100" name="Location.Name" type="text" value="e.g. postcode or town"/><input class="autocomplete-url" type="hidden" value="/service-search/other-services/Location/PredictiveSearch"/><input class="autocomplete-id" id="Location_Id" name="Location.Id" type="hidden" value="0"/><div class="autocomplete-suggestions"></div>
+<a href="#" id="geobutton"><img alt="Locate me" src="/service-search/other-services/Content/img/geolocation.png"/></a>
+</div>
+<div class="clear">
+<div class="submit-container">
+<input class="fcsubmit" type="submit" value="Search"/>
+</div>
+</div>
+</fieldset>
+<div class="fcfilters clear">
+<span class="fctriangle"></span>
+<fieldset>
+<legend class="hidden">Narrow your search</legend>
+<div class="row items-3 row-first clear">
+<div class="inner distance-rating">
+<label for="options-distance">By distance</label>
+<select id="options-distance" name="distance">
+<option value="5">Within 5 miles</option>
+<option value="10">Within 10 miles</option>
+<option selected="selected" value="25">Within 25 miles</option>
+<option value="50">Within 50 miles</option>
+</select>
+</div><div class="filter-dropdown inner">
+<label for="filters_8">By age</label>
+<select id="filters_8" name="filters.services">
+<option value="-1">No preference</option>
+<option value="464">Caring for adults over 65</option>
+<option value="470">Caring for adults under 65</option>
+<option value="459">Caring for children 0-18 years</option>
+</select>
+</div>
+<div class="filter-dropdown inner inner-last">
+<label for="filters_9">Type of service</label>
+<select id="filters_9" name="filters.services">
+<option value="-1">No preference</option>
+<option value="461">Dementia</option>
+<option value="467">Eating disorders</option>
+<option value="463">Mental health conditions</option>
+<option value="465">People subject to the mental health act</option>
+<option value="468">Physical disabilities</option>
+<option value="469">Sensory impairments</option>
+<option value="466">Substance Misuses</option>
+<option value="462">Learning disabilities</option>
+<option value="474">Personal Care</option>
+<option value="475">Palliative care</option>
+</select>
+</div>
+<input name="filters.metriclist" type="hidden" value="-1"/>
+<input name="filters.servicelist" type="hidden" value="-1"/>
+</div>
+</fieldset>
+<div class="row clear row-submit">
+<input class="filtersubmit" type="submit" value="Update results"/>
+</div>
+</div>
+</form>

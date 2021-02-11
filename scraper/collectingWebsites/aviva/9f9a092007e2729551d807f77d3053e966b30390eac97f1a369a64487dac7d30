@@ -1,0 +1,58 @@
+<form action="/MyAccount/Register/Details/DWD" autocomplete="off" method="post"> <fieldset>
+<legend>Set up your account</legend>
+<div class="l-content-container">
+<div class="m-form-row">
+<label class="a-label" for="EmailAddress">Personal email</label> <p class="m-form-row__explanatory-text">We recommend to use your personal email as your circumstances may change.</p>
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+<div class="m-form-row__content">
+<input aria-required="true" autocomplete="off" class="a-textbox" data-di-unmask-field="" data-val="true" data-val-checkusername="" data-val-checkusername-type="POST" data-val-checkusername-url="/MyAccount/Register/ValidateUsername?RegistrationType=Workplace" data-val-nospaces="The email entered has spaces in it which are not allowed. Please correct and try again." data-val-regex="Please enter a valid email address" data-val-regex-pattern="^[a-zA-Z0-9._+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" data-val-required="Please enter your email address" id="EmailAddress" maxlength="50" name="EmailAddress" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="ConfirmEmailAddress">Confirm personal email</label> <p class="m-form-row__explanatory-text">This will be your username next time you login.</p>
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="ConfirmEmailAddress" data-valmsg-replace="true"></span>
+<input autocomplete="off" class="a-textbox" data-di-unmask-field="" data-val="true" data-val-equalto="The emails you entered don't match. Please try again" data-val-equalto-other="*.EmailAddress" data-val-nospaces="The email entered has spaces in it which are not allowed. Please correct and try again." data-val-regex="Please enter a valid email address" data-val-regex-pattern="^[a-zA-Z0-9._+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" data-val-required="Please confirm your email address" id="ConfirmEmailAddress" name="ConfirmEmailAddress" type="text" value=""/>
+<div class="m-form-row__content">
+<p class="hidden" id="emailAddressAvailableMessage"></p>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label u-margin--bottom-none" for="Password">Choose a password</label>
+<div class="m-form-row__content">
+<p>Your password will be case sensitive and must contain</p>
+<ul class="a-list-unordered js-password-criteria">
+<li class="js-check-length">Between 8-30 characters</li>
+<li class="js-check-number">At least 1 number</li>
+<li class="js-check-captial">Uppercase and lowercase letters</li>
+<li class="js-check-spaces">No spaces</li>
+</ul>
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+<input aria-required="true" autocomplete="off" class="a-textbox no-validate" data-val="true" data-val-regex="&lt;li&gt;Between 8-30 characters&lt;/li&gt;
+&lt;li&gt;At least 1 number&lt;/li&gt;
+&lt;li&gt;Uppercase and lowercase letters&lt;/li&gt;
+&lt;li&gt;No spaces&lt;/li&gt;" data-val-regex-pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=^[^&gt;])[^\s]{7,29}[^&lt;\s]$" data-val-required='&lt;span class="field-validation-error"&gt;Please enter your password&lt;/span&gt;' data-val-shouldnotbesameas='&lt;li class="usernameAsPassword"&gt;Must not be the same as your email address&lt;/li&gt;' data-val-shouldnotbesameas-stringprop="EmailAddress" id="Password" maxlength="30" minlength="7" name="Password" type="password"/>
+</div>
+</div>
+<div class="m-form-row">
+<legend class="a-label">Only get the emails you want from us</legend>
+<div class="m-form-row__content">
+<p>We'd like to let you know about Aviva promotions, offers, news and discounts. You can opt out anytime. You'll still get essential service emails if you have insurance or another product with us. For more about how we collect and use your data, see our <a href="https://www.aviva.co.uk/legal/privacy-policy.html">Privacy Policy</a>.</p>
+<label class="a-checkbox a-checkbox--standalone" for="CustomerEmailMarketingOptOut">
+<input class="a-checkbox__input" id="" name="" type="checkbox" value=""/>
+<input class="a-checkbox__input" id="CustomerEmailMarketingOptOut" name="CustomerEmailMarketingOptOut" type="checkbox" value="true"/><input name="CustomerEmailMarketingOptOut" type="hidden" value="false"/>
+<span class="a-checkbox__label"><span class="a-checkbox__label-inner">I don't wish to receive promotional emails from Aviva.</span></span>
+<span class="a-checkbox__ui"></span>
+</label>
+</div>
+</div>
+<div class="m-form-row">
+<input name="__RequestVerificationToken" type="hidden" value="na0fc9jL6vO261M90rCq1pCMsO7JBMtfyxpeWp3wp7gL5Q6tU4EAQqIKHfpeRrrxi3-1VSFTPQuU6X-CXIedM-eUlco1"/>
+<input id="SetUsernameForRedirectsUrl" name="SetUsernameForRedirectsUrl" type="hidden" value="/MyAccount/Public/SetUsernameForRedirects"/>
+<input id="RegistrationType" name="RegistrationType" type="hidden" value="Workplace"/>
+<input class="a-button a-button--primary" id="loginButton" name="SubmitButton" type="submit" value="Continue"/>
+<p class="u-margin--bottom-none"> <small>By accessing MyWorkplace you agree to our <a aria-label="Read our terms of use" data-module="o-modal" href="/MyPortfolio/Public/TermsOfUse/#bodyContentOnly">terms of use</a>.</small></p>
+<p class="u-margin--top-none"><small>To understand how we will use your data for this registration, read our <a aria-label="Read our privacy notice" data-module="o-modal" href="/MyAccount/Public/MyAvivaPrivacyNotice/#bodyContentOnly">Privacy Notice</a>.</small></p>
+</div>
+</div>
+</fieldset>
+</form>

@@ -1,0 +1,58 @@
+<form action="/services/hospital/russells-hall-hospital/X882/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Saved my life&lt;/Title&gt;
+    &lt;ScreenName&gt;Rachel winwood&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Apologies that this review is so late but didn’t know you could leave feedback!
+
+I attended A&amp;amp;E in September 2019 after being ill for 3 weeks and visiting my GP 3 times during that time with what they diagnosed as a viral throat infection.  I was eventually diagnosed with tonsillitis on the Friday of the 3rd week and given antibiotics.  Unfortunately by the Sunday I was poorly that my parents made the decision to take me to A&amp;amp;E as I couldn’t even tolerate water!  When arriving at A&amp;amp;E I was out in the urgent waiting area, I must have looked very poorly.  Within an hour I was called into cubicles where 2 nurses assessed me and told me that my tonsils were so swollen and infected that they were touching and had closed my airway and I was borderline sepsis.  I was seen within 5 mins by a doctor who gave me IV antibiotics, steroid injection and I have no idea what else.  I was put on oxygen to make sure I was able to breathe.  He told me I needed to be admitted and would be transferred by ambulance due to my compromised airway to wolverhampton as there was no ENT admittance at Russell’s Hall on a weekend.  I was so poorly that I didn’t care what they did to me or where they needed to send me.  I was just so grateful that I was actually being taken serious and was getting the treatment that I so desperately needed.  I have suffered from tonsillitis since I was a child but I have never experienced anything like this and had my parents left it another few hours then I don’t know what would have happened but I genuinely believe that the outcome would have been very different &amp;amp; I would have been septic!!  
+
+The staff were all amazing, including the receptionist that made the decision that I was so poorly that I needed to be seen urgently.  That decision was the difference from being seen within the hour and waiting up to 3 hrs for “normal” waiting time on that afternoon.  I did say thank you when I was well enough after being released from hospital where I spent 4 days with chocolates (which is always a winner) but I want to show my gratitude again to the amazing NHS staff. Your fast action and professional I believe literally saved my life and all from tonsillitis. Thank you, thank you, thank you xx&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-04-30T14:51:15Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;9&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Russells Hall Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Accident and emergency services&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;8f933e08-f28a-ea11-a811-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X882&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamEUfVD1z1WXhiN5gnG-RTIr_Af3e0edHZodQsXeaP1Qk470_1tF9wkSZ21lJlEcH6YyUAYCCY2EJZDoFoD1me8m_Wf51loLnX9CoHWOP7MgssGX8O7A1B-IkY0AGauL3wo"/></form>

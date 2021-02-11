@@ -1,0 +1,13 @@
+<form id="faq-search">
+<fieldset>
+<legend>Products</legend>
+<div class="m-form-row">
+<label class="u-hidden--visually" for="question">Question</label>
+<div class="m-form-row__content">
+<p class="m-form-row__error-message u-hidden">Please enter a question</p>
+<input id="question" name="question" placeholder="Type your question here..." required="" type="text"/>
+</div>
+</div>
+<input class="a-button a-button--secondary" disabled="disabled" id="submit-query" type="submit" value="Ask"/>
+</fieldset>
+</form>

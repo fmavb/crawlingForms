@@ -1,0 +1,58 @@
+<form action="/services/hospital/manchester-royal-infirmary/X134557/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Renal clinic&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I would have to say that attending this clinic in suite E on 28.03.19 was not a good experience and I am glad that my main care is at Salford and that I was only attending for transplant clinic. This was my first visit and I didn't know what the system was. I sat down and noticed that no-one was checking patients in. The a woman arrived and eventually called patients for the afternoon clinic so I joined the queue. I got to the desk and was told that she couldn't check me in as it was someone else doing the transplant clinic. Not only that but the person i needed to see wasn't there. This woman was actually talking to patients with her  mouth full of food. I pointed this out to a student nurse and explained that when I worked in the NHS we would be disciplined for something like this. It is dis respectful and rude to talk with with your mouth full of food but in the NHS anything seems to go these days because no-one actually manages staff and many staff act don't know the meaning of the word professional. Standards are slipping fatser than a juggernuaght going down a hill without brakes!. Observing the waiting room I could only say that organised chaos was the order of the day and that was being polite. Salford have a much better system for patients and I suggest that you go there and learn.
+
+I would also suggest that there are signs on the desks so patients know which desk to check in for. Not exactly rocket science. I almost had bloods done that I didn't need and knew that because I'd spoken with someone earlier in the week to check because I had to have EPO bloods done at Salford en route. Communication needs to be better as no-one should be waiting in the waiting area with no clue what is happening especially when they aren't a MRI patient. This was a massive day for me which I'd waited for with anxiety about the outcome and anticipated with hope.. The surgeon and nurse were great and answered questions but the system needs improved. 
+
+As I sat there and saw the goings on with the left hand not knowing what the right was doing I actually thought I am going to have to put my life in the hands of this hospital and this isn't a good advert. The waiting area didn't fill me with confidence about MRI and perhaps more thought should be given to those attending to find out if they can have a transplant or not and make the occasion for them a lot better than mine was. That should mean more communication, a separate area to sit especially if post transplant and giving time frames for seeing various staff. This system I experienced today wasn't patient orientated and again Salford is miles better. I've had a more pleasant experience waiting to see my vet with a sick cat.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-03-28T20:03:25.787Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;3&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Manchester Royal Infirmary&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;99d37bf3-44d5-e911-a812-000d3a7ed30d&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X134557&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFcE1NWbuNykBpgOHZgzHFlgrRxTcnHd0sCvLMncemwTTQfzmQrModNtUwOhnOFgPHYzzjdu_GbS9_xjPcQdnGJ-5AqdQluGAWGEEs18ddaisTF_w9Btb2SkwOc9U5DFgs"/></form>

@@ -1,0 +1,23 @@
+<form action="https://www.webmd.com/Services/PollVoteSubmit.aspx" method="post">
+<input name="uri" type="hidden" value="https://pets.webmd.com/dogs/flea-tick-map-tool/flea-tick-poll"/>
+<input name="poll_chronicle_id" type="hidden" value="091e9c5e8111a682"/>
+<h4>When do you most often find fleas or ticks on your dog?</h4>
+<ul>
+<li>
+<input id="p7022" name="q1Choice" type="radio" value="7022"/>
+<label for="p7022">After a romp in the yard.</label>
+</li>
+<li>
+<input id="p7023" name="q1Choice" type="radio" value="7023"/>
+<label for="p7023">After a visit to the dog park.</label>
+</li>
+<li>
+<input id="p7024" name="q1Choice" type="radio" value="7024"/>
+<label for="p7024">After a hike in the woods.</label>
+</li>
+</ul>
+<div class="vote_area">
+<button class="poll_vote" onclick="wmdTrack('poll_vote');" title="Vote Now" type="submit">Vote Now</button>
+<a class="results" href="https://pets.webmd.com/dogs/flea-tick-map-tool/flea-tick-poll" onclick="return sl(this,'','poll_viewresults');">View Results</a>
+</div>
+</form>

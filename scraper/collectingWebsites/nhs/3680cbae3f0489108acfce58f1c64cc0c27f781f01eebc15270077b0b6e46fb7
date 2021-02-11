@@ -1,0 +1,54 @@
+<form action="/services/hospital/castle-hill-hospital/X1998/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Great ENT Surgery Staff - Awful nurse care&lt;/Title&gt;
+    &lt;ScreenName&gt;Robert&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I am still at home in recovery after a 6+ hours of major surgery. I want this review to help people in urgent need of ENT care to improve their info/decision making re coming to castle hill. Hopefully it might help change some things too. My symptoms were first reported to my GP  20 months ago, and I had been on the waiting list for almost a year, when I was seen and confirmed something is up, scanned etc - by the time I was treated,  things were much worse. I believe having to wait almost 2 years contributed - my advice is for people to push - and if your thing spreads and feel like you are dying - you need someone to push for you. I didn't have knowledge so didn't know - please - thats a huge tip. The care is a VERY mixed bag, so I want to make a BIG distinction between the surgery/Professor/anesthetist side, and the nursing/ward/aftercare side. The Professor/Surgery side is second to none - both surgeons appear knowledgeable and determined to help - the professor is especially good at making you feel involved and like it matters you know what's going on. Both are good, so this is a big plus. However, after such big surgery, you feel incredibly unwell and in pain afterwards, you can't eat, your bleeding on and off, all while phasing in and out of consciousness. You cant sit up without help, you are totally helpless for a few days, literally healthy adult to wheelchair bound, the bigger the op - the longer the aftereffects. I was not able to eat, and still bleeding, using what strength i had to hold tissues to my nose, between losing consciousness. I was told I can't have drink hot drinks, then woken to ask if I want coffee, I was asked to fill what i wanted for dinner, but couldn't move to fill the form in, and then I was discharged first thing in the morning, like a beached whale, unable to move, losing consciousness every few minutes. Although I was out of it, I knew enough to know that something was wrong about all this. The ward was empty other than myself, I realised the nursing staff would have it easier if it was completely emptied out.At least the nursing staff I encountered, are friendly enough, but they didn't seem to want to provide any care - like wiping some blood away or dabbing the area etc. They let none ward staff - like the tea lady and the canteen/food staff, come in waking you, without a thought that you can't do the thing they are even there for - eat, drink hot drinks - or fill in forms. The most ironic thing was, the nurse on my admission wanting this patient feedback form, saying we don't get enough of these please fill it in - i can't help thinking - if you didn't discharge people in wheelchairs while unconscious - perhaps you'd get more filled in! That sick irony will be how I get over what was just awful. My advice here, the person going in for the major surgery lasting more than a couple hours, needs someone with them afterwards and don't leave them there alone. Take a few days to help them properly at home.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-07-17T14:49:50.15Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;7&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Castle Hill Hospital&lt;/OrganisationName&gt;
+    &lt;Department /&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;6bee2854-14e9-e911-a812-000d3a7ed2f2&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1998&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGI1rErjU57bp2x7C_9sXg7oJ4SI-78khGLzG6m4BYK9E22srd_d8f5UPpt4wzrYFZDTfdH54ojdPChP-wLnXuYmeb08GtQ6Xjz92fRAk-OXCcDGg3LPUHfFrTvjyJ3fdc"/></form>

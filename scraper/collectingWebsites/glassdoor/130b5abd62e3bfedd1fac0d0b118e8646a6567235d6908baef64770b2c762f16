@@ -1,0 +1,8 @@
+<form action="https://feedburner.google.com/fb/a/mailverify" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=glassdoor', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true;" target="popupwindow">
+<input class="std loc med gradient" name="email" placeholder="Email Address" type="text"/>
+<input name="uri" type="hidden" value="glassdoor"/>
+<input name="loc" type="hidden" value="en_US"/>
+<button class="gd-btn gd-btn-submit gd-btn-1" href="#" name="Subscribe" onclick="javascript:$(this).parentsUntil('subscribe').find('form').trigger('onsubmit');" type="submit">
+<span>Subscribe</span>
+</button>
+</form>

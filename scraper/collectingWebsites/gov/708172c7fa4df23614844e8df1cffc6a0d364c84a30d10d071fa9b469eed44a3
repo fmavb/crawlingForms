@@ -1,0 +1,30 @@
+<form accept-charset="UTF-8" action="/new-employee-tax-code/y" method="get">
+<input id="response" name="response" type="hidden" value=""/>
+<div class="govuk-form-group">
+<fieldset class="govuk-fieldset">
+<legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+<span class="govuk-caption-l">Work out your new employee's tax code</span>
+<h1 class="gem-c-radio__heading-text govuk-fieldset__heading">1. On their P45, when did your employee leave their last job?</h1>
+</legend>
+<div class="govuk-radios">
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-b0b64f30-0" name="response" type="radio" value="on-or-after-6-april-2020"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-b0b64f30-0">On or after 6 April 2020</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-b0b64f30-1" name="response" type="radio" value="6-april-2019-to-5-april-2020"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-b0b64f30-1">6 April 2019 to 5 April 2020</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-b0b64f30-2" name="response" type="radio" value="before-6-april-2019"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-b0b64f30-2">Before 6 April 2019</label>
+</div>
+<div class="gem-c-radio govuk-radios__item">
+<input class="govuk-radios__input" id="radio-b0b64f30-3" name="response" type="radio" value="you-do-not-have-their-p45"/>
+<label class="gem-c-label govuk-label govuk-radios__label" for="radio-b0b64f30-3">You do not have their P45</label>
+</div>
+</div>
+</fieldset>
+</div>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" type="submit">Next step</button>
+</form>

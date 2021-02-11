@@ -1,0 +1,54 @@
+<form action="/services/hospital/salford-royal/X2132/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Patient-centred care not on offer here&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;The Salford Royal Hospital is rated as 'outstanding' by the CQC, but whatever boxes it ticks must not relate to things that matter to patients. When attended this hospital patient-centred care was certainly not on offer. I shall deal with each of the visit here in turn. First, the parking system. It is abysmal! You have to queue up, for some considerable time, on the public highway. Why? Central Manchester Hospitals is a much larger complex and does not have this problem. Next, this hospital seems not to use the 'Hello, my name is ...' system. No one dealt with provided their name and only the consultant told her status. Well I suppose you would if you are that important. Although the instructions in the appointment letter were followed we were told off like naughty children, as were all other patients whose arrival we saw, because we had not booked-in at a place we were not told about in the appointment letter. It seems you have to book-in at the ante-natal reception desk. Who would have thought to book-in there for dermatology, especially when not informed this is required? Then no consideration to one's dignity is given. You are told to go into a room, completely undress, put on a gown and wait until the consultant is ready to grace you with her presence. The consultant then revealed a diagnosis of cancer given with as much care as being told you have a cold take some paracetamol. Although cancer is a very scary term to a patient the consultant clearly did not want to hang around and answer any questions or address any concerns but instead rushed off. After this unceremonious dismissal we were firmly instructed to go and book-in where we recalcitrant patients should have done so early. It seems if we did not we would be shown as not attending and get discharged even with cancer. Perhaps it is beneath nursing staff to hit a few keys on a keyboard and show you did actually come to your appointment. May be trades unions have insisted only receptionists with finely honed skills can do this. Then an immediate visit to clinical photography was ordered. To go wondering around an unfamiliar place looking for another department after being given a diagnosis of cancer is not the easiest thing to do. I can see why it may be a first-class idea for dermatologists to obtain photographs of skin conditions for future comparison. They must do this quite frequently. Would it not make sense to have someone in dermatology clinics to take photographs to that stressed and concerned patients are not sent on what really is an unnecessary journey? However, that should not be expected I suppose because that would mean showing some care of and consideration towards patients. I suppose we really cannot possibly have that. Unfortunately, further visits to this hospital will be required. They are anticipated with dread. I hope next time it will be possible to be a much better-behaved patient who knows their place.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-11-11T01:20:00Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;11&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Salford Royal&lt;/OrganisationName&gt;
+    &lt;Department&gt;Dermatology&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;500ed55b-2104-ea11-a811-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X2132&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFGtCKHOQW4kqkpHXebMZJDYmnpnJbtF8MbI7wW5kIx7YpBEq6KCpmTIuMEqlFubJwKdgTooQ2LauQkPcewxFXLaoyN-Zjh0z4Dy6Xt_p3WE4S3iGlrRuJDwnHi-pkrrhQ"/></form>

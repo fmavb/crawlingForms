@@ -1,0 +1,126 @@
+<form action="/apps-library/filter/" class="nhsuk-form-group" id="aaw-filter-form" method="post">
+<input name="csrfmiddlewaretoken" type="hidden" value="cw0U0SsUKAz8EOzb9hEQdecjnFXbCOZovaB2YCq8oHMLxbycUdvNQHDnXXOR7OIA"/>
+<details class="aaw-section aaw-section--categories aaw-filter">
+<summary class="aaw-filter-summary">
+<span class="aaw-filter-summary-text">Filter apps</span>
+</summary>
+<div class="aaw-filter-details-text" id="filters-group">
+<div class="aaw-first-filter">
+<details class="nhsuk-details aaw-filter-list">
+<summary class="nhsuk-details__summary">
+<span class="nhsuk-details__summary-text">By category</span>
+</summary>
+<div class="nhsuk-details__text aaw-filter-container">
+<fieldset class="aaw-categories-details">
+<div class="govuk-checkboxes nhsuk-o-grid__item nhsuk-o-grid__item--one-quarter aaw-category-column">
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Cancer" name="categories" type="checkbox" value="Cancer"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Cancer">Cancer</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Child health" name="categories" type="checkbox" value="Child health"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Child health">Child health</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Covid" name="categories" type="checkbox" value="Covid"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Covid">Covid</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Dental" name="categories" type="checkbox" value="Dental"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Dental">Dental</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Diabetes" name="categories" type="checkbox" value="Diabetes"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Diabetes">Diabetes</label>
+</div>
+</div>
+<div class="govuk-checkboxes nhsuk-o-grid__item nhsuk-o-grid__item--one-quarter aaw-category-column">
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_First aid" name="categories" type="checkbox" value="First aid"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_First aid">First aid</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Healthy living" name="categories" type="checkbox" value="Healthy living"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Healthy living">Healthy living</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Learning disabilities" name="categories" type="checkbox" value="Learning disabilities"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Learning disabilities">Learning disabilities</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Memory and communication" name="categories" type="checkbox" value="Memory and communication"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Memory and communication">Memory and communication</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Mental health" name="categories" type="checkbox" value="Mental health"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Mental health">Mental health</label>
+</div>
+</div>
+<div class="govuk-checkboxes nhsuk-o-grid__item nhsuk-o-grid__item--one-quarter aaw-category-column">
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_NHS services" name="categories" type="checkbox" value="NHS services"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_NHS services">NHS services</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Online community" name="categories" type="checkbox" value="Online community"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Online community">Online community</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Pregnancy and baby" name="categories" type="checkbox" value="Pregnancy and baby"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Pregnancy and baby">Pregnancy and baby</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Respiratory" name="categories" type="checkbox" value="Respiratory"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Respiratory">Respiratory</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Sleep" name="categories" type="checkbox" value="Sleep"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Sleep">Sleep</label>
+</div>
+</div>
+<div class="govuk-checkboxes nhsuk-o-grid__item nhsuk-o-grid__item--one-quarter aaw-category-column">
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Social care" name="categories" type="checkbox" value="Social care"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Social care">Social care</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Body areas" name="categories" type="checkbox" value="Body areas"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Body areas">Body areas</label>
+</div>
+</div>
+</fieldset>
+</div>
+</details>
+</div>
+<div>
+<details class="nhsuk-details aaw-filter-list">
+<summary class="nhsuk-details__summary">
+<span class="nhsuk-details__summary-text">By price</span>
+</summary>
+<div class="nhsuk-details__text aaw-filter-container">
+<fieldset class="aaw-categories-details">
+<div class="govuk-checkboxes nhsuk-o-grid__item nhsuk-o-grid__item--half aaw-category-column">
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Free" name="prices" type="checkbox" value="Free"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Free">Free (some apps offer in-app purchases)</label>
+</div>
+<div class="govuk-checkboxes__item">
+<input class="govuk-checkboxes__input" id="checkbox_Paid" name="prices" type="checkbox" value="Paid"/>
+<label class="aaw-category-label govuk-checkboxes__label" for="checkbox_Paid">Paid</label>
+</div>
+</div>
+</fieldset>
+</div>
+</details>
+</div>
+<div class="aaw-filter-submit nhsuk-o-grid">
+<div class="nhsuk-o-grid__item nhsuk-o-grid__item--full">
+<button class="nhsuk-button" type="submit">Apply filters</button>
+</div>
+<div class="nhsuk-o-grid__item nhsuk-o-grid__item--full">
+<a class="aaw-clear-filters-link" href="/apps-library/" role="button"><b>Clear filters</b></a>
+</div>
+</div>
+</div>
+</details>
+</form>

@@ -1,0 +1,17 @@
+<form id="faq-browse-select">
+<fieldset>
+<legend>FAQ Categories</legend>
+<label class="u-hidden--visually" for="category-choice">Category</label>
+<select id="category-choice" name="redirect">
+<option value="all">All</option>
+<option value="claims">Claims</option>
+<option value="making changes">Making Changes</option>
+<option value="cover">Cover</option>
+<option value="quote">Quote</option>
+<option value="renewals">Renewals</option>
+<option value="documents">Documents</option>
+<option value="contact us">Contact Us</option>
+</select>
+<input class="a-button a-button--secondary" disabled="disabled" id="category-submit" type="submit" value="Go"/>
+</fieldset>
+</form>

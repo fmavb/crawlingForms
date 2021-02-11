@@ -1,0 +1,1295 @@
+<form action="#1" autocomplete="off" class="form clearfix" data-isajax="true" data-tracking-type="form_submit" id="general" method="post">
+<div class="row width-100">
+<label>What does your enquiry relate to?*</label>
+<div class="field-container">
+<input class="field forminput hidden-field" data-invalid="" data-no-validate="false" data-required="Please select one" id="f048ca2b-8666-499b-87a6-56aa8a976691" name="enquiryRelatesTo" type="text" value=""/>
+<div class="dropdown dropdown-dental field dropdown-field-title" id="f048ca2b-8666-499b-87a6-56aa8a976691">
+<button class="dropdown-toggle search-filter-dropdown contact-form-dropdown form-button titleMenu" data-input-id="f048ca2b-8666-499b-87a6-56aa8a976691" data-toggle="dropdown" id="f048ca2b-8666-499b-87a6-56aa8a976691" type="button">
+<span class="selected-text"></span>
+<span class="caret"></span>
+</button>
+<ul aria-labelledby="dLabel" class="dropdown-menu" role="menu">
+<li value="Request a call back"><a option-value="1" role="menuitem" tabindex="-1">Request a call back</a></li>
+<li value="New private patient check-up"><a option-value="2" role="menuitem" tabindex="-1">New private patient check-up</a></li>
+<li value="Registering as a new patient"><a option-value="3" role="menuitem" tabindex="-1">Registering as a new patient</a></li>
+<li value="Treatment or service information"><a option-value="4" role="menuitem" tabindex="-1">Treatment or service information</a></li>
+<li value="Booking an appointment"><a option-value="5" role="menuitem" tabindex="-1">Booking an appointment</a></li>
+<li value="General enquiry"><a option-value="6" role="menuitem" tabindex="-1">General enquiry</a></li>
+<li value="Complaint"><a option-value="7" role="menuitem" tabindex="-1">Complaint</a></li>
+<li value="Facial aesthetics"><a option-value="8" role="menuitem" tabindex="-1">Facial aesthetics</a></li>
+<li value="Invisalign treatment"><a option-value="9" role="menuitem" tabindex="-1">Invisalign treatment</a></li>
+<li value="Orthodontics"><a option-value="10" role="menuitem" tabindex="-1">Orthodontics</a></li>
+<li value="Smile assessment"><a option-value="11" role="menuitem" tabindex="-1">Smile assessment</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row width-15">
+<label>Title</label>
+<div class="field-container">
+<input class="field forminput hidden-field" data-invalid="" data-no-validate="true" data-required="Please select one" id="e22c3b09-b8d4-4cbd-9cfc-1fb0727f22a6" name="title" type="text" value=""/>
+<div class="dropdown dropdown-dental field dropdown-field-title" id="e22c3b09-b8d4-4cbd-9cfc-1fb0727f22a6">
+<button class="dropdown-toggle search-filter-dropdown contact-form-dropdown form-button titleMenu" data-input-id="e22c3b09-b8d4-4cbd-9cfc-1fb0727f22a6" data-toggle="dropdown" id="e22c3b09-b8d4-4cbd-9cfc-1fb0727f22a6" type="button">
+<span class="selected-text"></span>
+<span class="caret"></span>
+</button>
+<ul aria-labelledby="dLabel" class="dropdown-menu" role="menu">
+<li value=""><a option-value="1" role="menuitem" tabindex="-1"> </a></li>
+<li value="Mr"><a option-value="1" role="menuitem" tabindex="-1">Mr</a></li>
+<li value="Ms"><a option-value="2" role="menuitem" tabindex="-1">Ms</a></li>
+<li value="Mrs"><a option-value="3" role="menuitem" tabindex="-1">Mrs</a></li>
+<li value="Miss"><a option-value="4" role="menuitem" tabindex="-1">Miss</a></li>
+<li value="Dr"><a option-value="5" role="menuitem" tabindex="-1">Dr</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row width-20">
+<label>First Name* </label>
+<div class="field-container">
+<input class="field forminput lrg" data-crmfield="firstname" data-invalid="Invalid name" data-regex="^([a-zA-Z-]{1,50})$" data-required="Please enter first name" data-tracking="firstname" data-val="true" data-val-regex="Invalid name ^([a-zA-Z-]{1,50})$" data-val-regex-pattern="^([a-zA-Z-]{1,50})$" data-val-required="Please enter first name" id="6b450df4-41db-4582-9aed-108443ead8cb" maxlength="50" name="firstname" type="text" value=""/>
+</div>
+</div>
+<div class="row width-20">
+<label>Last Name* </label>
+<div class="field-container">
+<input class="field forminput lrg" data-crmfield="lastname" data-invalid="Invalid last name" data-regex="^([a-zA-Z-]{1,50})$" data-required="Please enter last name" data-tracking="lastname" data-val="true" data-val-regex="Invalid last name ^([a-zA-Z-]{1,50})$" data-val-regex-pattern="^([a-zA-Z-]{1,50})$" data-val-required="Please enter last name" id="cc366ddf-1ea4-4a47-8442-9a84098fef04" maxlength="50" name="lastname" type="text" value=""/>
+</div>
+</div>
+<div class="row width-25">
+<label>Contact Number </label>
+<div class="field-container">
+<input class="field forminput lrg" data-crmfield="telephone" data-invalid="Invalid phone number" data-regex="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{4})|^([+]{0,1}0[1-8]{1}[0-9]{3}\)?[ ]?[0-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$" data-required="" data-tracking="telephone" data-val="true" data-val-regex="Invalid phone number ^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{4})|^([+]{0,1}0[1-8]{1}[0-9]{3}\)?[ ]?[0-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$" data-val-regex-pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{4})|^([+]{0,1}0[1-8]{1}[0-9]{3}\)?[ ]?[0-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$" data-val-required="" id="ca96f9bd-41df-4582-84de-b0d30565fd06" maxlength="50" name="telephone" type="text" value=""/>
+</div>
+</div>
+<div class="row width-20">
+<label>Email address* </label>
+<div class="field-container">
+<input class="field forminput lrg" data-crmfield="email" data-invalid="Invalid email" data-regex="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-required="Please enter valid email" data-tracking="email" data-val="true" data-val-regex="Invalid email ^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-val-regex-pattern="^(?=.{1,100}$)([a-zA-Z0-9_\.\-])+\@+([a-zA-Z0-9\-]{1,})+\.+([a-zA-Z0-9\.]{2,6})$" data-val-required="Please enter valid email" id="fe75dec8-b3aa-4267-81bc-531d43bfdb12" maxlength="50" name="email" type="text" value=""/>
+</div>
+</div>
+<input id="dataid2" type="hidden" value=""/>
+<div class="row width-20">
+<label>Region</label>
+<div class="field-container">
+<input class="field forminput hidden-field" data-invalid="" data-no-validate="true" data-required="" id="6af3a4ee-4560-474f-9ca4-315ea34ed202" name="city" type="text" value=""/>
+<div class="dropdown dropdown-dental field dropdown-field-title" id="6af3a4ee-4560-474f-9ca4-315ea34ed202">
+<button class="dropdown-toggle search-filter-dropdown contact-form-dropdown form-button titleMenu" data-input-id="6af3a4ee-4560-474f-9ca4-315ea34ed202" data-toggle="dropdown" id="6af3a4ee-4560-474f-9ca4-315ea34ed202" type="button">
+<span class="selected-text"></span>
+<span class="caret"></span>
+</button>
+<ul aria-labelledby="dLabel" class="dropdown-menu mulitilist city" data-campaign="False" data-child="region" data-itemid="6af3a4ee-4560-474f-9ca4-315ea34ed202" data-level="0" role="menu">
+<li class="emptyvalue"><a data-itemid="" data-level1="" data-level2="" role="menuitem" tabindex="-1"> </a></li>
+<li>
+<a data-itemid="14ac6998-3e35-4f18-ad1b-a1e381c22a0c" data-level1="" data-level2="" data-practice="" option-value="east midlands" role="menuitem" tabindex="-1">East Midlands</a>
+</li>
+<li>
+<a data-itemid="126969df-9ea9-46dd-b529-b684114e77fc" data-level1="" data-level2="" data-practice="" option-value="east of england" role="menuitem" tabindex="-1">East of England</a>
+</li>
+<li>
+<a data-itemid="00c6dc3b-dae0-4b53-be61-982515b7ace6" data-level1="" data-level2="" data-practice="" option-value="greater london" role="menuitem" tabindex="-1">Greater London</a>
+</li>
+<li>
+<a data-itemid="4f6211de-366d-40ee-85c2-3718f261bcb6" data-level1="" data-level2="" data-practice="" option-value="north east" role="menuitem" tabindex="-1">North East</a>
+</li>
+<li>
+<a data-itemid="6d930dbd-5614-41c2-a4c8-39ab907e6d45" data-level1="" data-level2="" data-practice="" option-value="north west" role="menuitem" tabindex="-1">North West</a>
+</li>
+<li>
+<a data-itemid="b888692b-781c-46b5-8f61-8e24e470e275" data-level1="" data-level2="" data-practice="" option-value="northern ireland" role="menuitem" tabindex="-1">Northern Ireland</a>
+</li>
+<li>
+<a data-itemid="81f12d31-3e97-4e99-9cce-23e22494336d" data-level1="" data-level2="" data-practice="" option-value="scotland" role="menuitem" tabindex="-1">Scotland</a>
+</li>
+<li>
+<a data-itemid="ffbe8871-6264-489f-a26a-964c8951827a" data-level1="" data-level2="" data-practice="" option-value="south east" role="menuitem" tabindex="-1">South East</a>
+</li>
+<li>
+<a data-itemid="0334dd5f-8731-4587-b479-fe1016dec13e" data-level1="" data-level2="" data-practice="" option-value="south west" role="menuitem" tabindex="-1">South West</a>
+</li>
+<li>
+<a data-itemid="31cee28a-f5d4-4ec7-917c-ccfadbcc83be" data-level1="" data-level2="" data-practice="" option-value="wales" role="menuitem" tabindex="-1">Wales</a>
+</li>
+<li>
+<a data-itemid="0c1a3611-ebcb-49b9-9b8a-826060d05082" data-level1="" data-level2="" data-practice="" option-value="west midlands" role="menuitem" tabindex="-1">West Midlands</a>
+</li>
+<li>
+<a data-itemid="562519fc-9091-48d4-95f1-95763b0ede44" data-level1="" data-level2="" data-practice="" option-value="yorkshire and the humber" role="menuitem" tabindex="-1">Yorkshire and the Humber</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row width-20">
+<label>City</label>
+<div class="field-container">
+<input class="field forminput hidden-field" data-invalid="" data-no-validate="true" data-required="" id="0a173fff-f45c-4a3b-bf0f-cd68f8343a7c" name="region" type="text" value=""/>
+<div class="dropdown dropdown-dental field dropdown-field-title" id="0a173fff-f45c-4a3b-bf0f-cd68f8343a7c">
+<button class="dropdown-toggle search-filter-dropdown contact-form-dropdown form-button titleMenu" data-input-id="0a173fff-f45c-4a3b-bf0f-cd68f8343a7c" data-toggle="dropdown" id="0a173fff-f45c-4a3b-bf0f-cd68f8343a7c" type="button">
+<span class="selected-text"></span>
+<span class="caret"></span>
+</button>
+<ul aria-labelledby="dLabel" class="dropdown-menu mulitilist region" data-campaign="False" data-child="practice" data-itemid="0a173fff-f45c-4a3b-bf0f-cd68f8343a7c" data-level="1" role="menu">
+<li class="emptyvalue"><a data-itemid="" data-level1="" data-level2="" role="menuitem" tabindex="-1"> </a></li>
+<li>
+<a data-itemid="7c7616bb-398a-4a01-853b-663992fe39d7" data-level1="Scotland" data-level2="" data-practice="" option-value="7c7616bb-398a-4a01-853b-663992fe39d7" role="menuitem" tabindex="-1">Aberdeen</a>
+</li>
+<li>
+<a data-itemid="ec3ac41d-cc74-4daa-b8dc-80b4e25a54f0" data-level1="Wales" data-level2="" data-practice="" option-value="ec3ac41d-cc74-4daa-b8dc-80b4e25a54f0" role="menuitem" tabindex="-1">Abergavenny</a>
+</li>
+<li>
+<a data-itemid="8a3da884-2a5d-4286-891c-827a91de1e66" data-level1="North West" data-level2="" data-practice="" option-value="8a3da884-2a5d-4286-891c-827a91de1e66" role="menuitem" tabindex="-1">Accrington</a>
+</li>
+<li>
+<a data-itemid="6833cace-e6ec-42cf-bdde-795df3beca0e" data-level1="South East" data-level2="" data-practice="" option-value="6833cace-e6ec-42cf-bdde-795df3beca0e" role="menuitem" tabindex="-1">Addlestone</a>
+</li>
+<li>
+<a data-itemid="c26a00e6-2e9d-43f4-8e0b-2d2f8c7613a6" data-level1="North West" data-level2="" data-practice="" option-value="c26a00e6-2e9d-43f4-8e0b-2d2f8c7613a6" role="menuitem" tabindex="-1">Alderley Edge</a>
+</li>
+<li>
+<a data-itemid="b1709924-6ad4-4552-96eb-caa8dfa660d8" data-level1="South East" data-level2="" data-practice="" option-value="b1709924-6ad4-4552-96eb-caa8dfa660d8" role="menuitem" tabindex="-1">Amersham</a>
+</li>
+<li>
+<a data-itemid="f8c34078-d15b-4a36-a0fc-a381ae5df936" data-level1="East of England" data-level2="" data-practice="" option-value="f8c34078-d15b-4a36-a0fc-a381ae5df936" role="menuitem" tabindex="-1">Andover</a>
+</li>
+<li>
+<a data-itemid="8d0e0271-7d9d-4bd0-bc5c-022f8484c8de" data-level1="North West" data-level2="" data-practice="" option-value="8d0e0271-7d9d-4bd0-bc5c-022f8484c8de" role="menuitem" tabindex="-1">Ashton-in-Makerfield</a>
+</li>
+<li>
+<a data-itemid="d8ce79d3-483b-43b1-be87-75109a6a4a43" data-level1="South East" data-level2="" data-practice="" option-value="d8ce79d3-483b-43b1-be87-75109a6a4a43" role="menuitem" tabindex="-1">Aylesbury</a>
+</li>
+<li>
+<a data-itemid="e0b08f36-c025-4632-8878-2309f94fcac9" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="e0b08f36-c025-4632-8878-2309f94fcac9" role="menuitem" tabindex="-1">Ballymena</a>
+</li>
+<li>
+<a data-itemid="2455dbad-5bdf-4744-8270-1e75a58d1925" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="2455dbad-5bdf-4744-8270-1e75a58d1925" role="menuitem" tabindex="-1">Banbridge</a>
+</li>
+<li>
+<a data-itemid="65309575-ee45-4b96-a6e0-f41aefaa8b48" data-level1="Wales" data-level2="" data-practice="" option-value="65309575-ee45-4b96-a6e0-f41aefaa8b48" role="menuitem" tabindex="-1">Bangor</a>
+</li>
+<li>
+<a data-itemid="8ab312b3-f9a0-4d76-85fb-91880a47b6ed" data-level1="North West" data-level2="" data-practice="" option-value="8ab312b3-f9a0-4d76-85fb-91880a47b6ed" role="menuitem" tabindex="-1">Barnton</a>
+</li>
+<li>
+<a data-itemid="d160934b-15bd-4743-9ce0-a43228dbfd9d" data-level1="North West" data-level2="" data-practice="" option-value="d160934b-15bd-4743-9ce0-a43228dbfd9d" role="menuitem" tabindex="-1">Barrow-in-Furness</a>
+</li>
+<li>
+<a data-itemid="d6e9dacb-dc27-4a73-b481-743fb29947e8" data-level1="South East" data-level2="" data-practice="" option-value="d6e9dacb-dc27-4a73-b481-743fb29947e8" role="menuitem" tabindex="-1">Basingstoke</a>
+</li>
+<li>
+<a data-itemid="78abb83b-e7a2-4a3f-bdfd-dbb3f7dbda13" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="78abb83b-e7a2-4a3f-bdfd-dbb3f7dbda13" role="menuitem" tabindex="-1">Belcoo</a>
+</li>
+<li>
+<a data-itemid="e370390c-80a4-4bc2-800d-9abbd1c7b514" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="e370390c-80a4-4bc2-800d-9abbd1c7b514" role="menuitem" tabindex="-1">Belfast</a>
+</li>
+<li>
+<a data-itemid="00537086-805a-4983-b043-ab77c9770f5a" data-level1="South East" data-level2="" data-practice="" option-value="00537086-805a-4983-b043-ab77c9770f5a" role="menuitem" tabindex="-1">Binfield</a>
+</li>
+<li>
+<a data-itemid="0cc353ea-d740-4ed6-a6d7-1ea32af9c6bb" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="0cc353ea-d740-4ed6-a6d7-1ea32af9c6bb" role="menuitem" tabindex="-1">Bingley</a>
+</li>
+<li>
+<a data-itemid="6c67d05f-9c08-458d-97b6-6679ff5dacff" data-level1="West Midlands" data-level2="" data-practice="" option-value="6c67d05f-9c08-458d-97b6-6679ff5dacff" role="menuitem" tabindex="-1">Birmingham</a>
+</li>
+<li>
+<a data-itemid="e81296f1-0898-4dd5-b906-ea4d6ca8a839" data-level1="North East" data-level2="" data-practice="" option-value="e81296f1-0898-4dd5-b906-ea4d6ca8a839" role="menuitem" tabindex="-1">Bishop Auckland</a>
+</li>
+<li>
+<a data-itemid="cb739a9c-4914-4052-bd7e-5c26f66cccc3" data-level1="East of England" data-level2="" data-practice="" option-value="cb739a9c-4914-4052-bd7e-5c26f66cccc3" role="menuitem" tabindex="-1">Bishop's Stortford</a>
+</li>
+<li>
+<a data-itemid="43a14840-7428-4460-ae1c-17b67b391ee6" data-level1="North West" data-level2="" data-practice="" option-value="43a14840-7428-4460-ae1c-17b67b391ee6" role="menuitem" tabindex="-1">Blackpool</a>
+</li>
+<li>
+<a data-itemid="50776a67-5cc2-47f8-ab2f-b011361ef63f" data-level1="South East" data-level2="" data-practice="" option-value="50776a67-5cc2-47f8-ab2f-b011361ef63f" role="menuitem" tabindex="-1">Bognor Regis</a>
+</li>
+<li>
+<a data-itemid="3972270c-dd3c-40bf-a81b-9b3b4d608f6b" data-level1="East Midlands" data-level2="" data-practice="" option-value="3972270c-dd3c-40bf-a81b-9b3b4d608f6b" role="menuitem" tabindex="-1">Bolsover</a>
+</li>
+<li>
+<a data-itemid="069488e2-e313-40ce-b1f3-d0f22a3d1d30" data-level1="North West" data-level2="" data-practice="" option-value="069488e2-e313-40ce-b1f3-d0f22a3d1d30" role="menuitem" tabindex="-1">Bolton</a>
+</li>
+<li>
+<a data-itemid="f7ea7b4b-fb52-47ec-a8b5-d5abccbf2a4c" data-level1="East Midlands" data-level2="" data-practice="" option-value="f7ea7b4b-fb52-47ec-a8b5-d5abccbf2a4c" role="menuitem" tabindex="-1">Boston</a>
+</li>
+<li>
+<a data-itemid="8027d03a-fc2a-4d99-823a-f6ae7ad300b2" data-level1="South East" data-level2="" data-practice="" option-value="8027d03a-fc2a-4d99-823a-f6ae7ad300b2" role="menuitem" tabindex="-1">Bournemouth</a>
+</li>
+<li>
+<a data-itemid="e720a7e9-45ec-48a5-b7f3-cf986069509e" data-level1="East Midlands" data-level2="" data-practice="" option-value="e720a7e9-45ec-48a5-b7f3-cf986069509e" role="menuitem" tabindex="-1">Brackley</a>
+</li>
+<li>
+<a data-itemid="ae51af9e-12a8-42e8-bc36-bf5a649a3e80" data-level1="North East" data-level2="" data-practice="" option-value="ae51af9e-12a8-42e8-bc36-bf5a649a3e80" role="menuitem" tabindex="-1">Bradford</a>
+</li>
+<li>
+<a data-itemid="ecea7037-af61-4672-afc6-fccfef00cd44" data-level1="North West" data-level2="" data-practice="" option-value="ecea7037-af61-4672-afc6-fccfef00cd44" role="menuitem" tabindex="-1">Bramhall</a>
+</li>
+<li>
+<a data-itemid="b8a22098-4ef6-4f10-b842-b7094829a3f9" data-level1="North West" data-level2="" data-practice="" option-value="b8a22098-4ef6-4f10-b842-b7094829a3f9" role="menuitem" tabindex="-1">Brampton</a>
+</li>
+<li>
+<a data-itemid="124fb43e-4a7e-47dd-8e5d-7dfb7fd47e5e" data-level1="North East" data-level2="" data-practice="" option-value="124fb43e-4a7e-47dd-8e5d-7dfb7fd47e5e" role="menuitem" tabindex="-1">Bridlington</a>
+</li>
+<li>
+<a data-itemid="42bed9e1-4d31-4938-9e1b-707bd1b02e85" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="42bed9e1-4d31-4938-9e1b-707bd1b02e85" role="menuitem" tabindex="-1">Brigg</a>
+</li>
+<li>
+<a data-itemid="e9187c30-6918-4292-9547-79c356065078" data-level1="South East" data-level2="" data-practice="" option-value="e9187c30-6918-4292-9547-79c356065078" role="menuitem" tabindex="-1">Brighton</a>
+</li>
+<li>
+<a data-itemid="5fb62b1e-963e-4878-b7a6-3d12decb2374" data-level1="South West" data-level2="" data-practice="" option-value="5fb62b1e-963e-4878-b7a6-3d12decb2374" role="menuitem" tabindex="-1">Bristol</a>
+</li>
+<li>
+<a data-itemid="853ba0e4-7f41-475c-8268-58f9f6cee42a" data-level1="South West" data-level2="" data-practice="" option-value="853ba0e4-7f41-475c-8268-58f9f6cee42a" role="menuitem" tabindex="-1">Brixham</a>
+</li>
+<li>
+<a data-itemid="023e8a6d-8f52-451e-8a2a-877dc811c870" data-level1="South West" data-level2="" data-practice="" option-value="023e8a6d-8f52-451e-8a2a-877dc811c870" role="menuitem" tabindex="-1">Bude</a>
+</li>
+<li>
+<a data-itemid="d962dae5-58e1-4a42-ad2d-63b5ccd2264d" data-level1="North West" data-level2="" data-practice="" option-value="d962dae5-58e1-4a42-ad2d-63b5ccd2264d" role="menuitem" tabindex="-1">Burnley</a>
+</li>
+<li>
+<a data-itemid="ebeab2c9-83ae-4a04-b7fb-93f61a2f3418" data-level1="West Midlands" data-level2="" data-practice="" option-value="ebeab2c9-83ae-4a04-b7fb-93f61a2f3418" role="menuitem" tabindex="-1">Burton on Trent</a>
+</li>
+<li>
+<a data-itemid="5953dafe-6460-4c3f-9ef7-8051ccaa14f4" data-level1="East of England" data-level2="" data-practice="" option-value="5953dafe-6460-4c3f-9ef7-8051ccaa14f4" role="menuitem" tabindex="-1">Bushey</a>
+</li>
+<li>
+<a data-itemid="f936e7c5-c210-4322-93ce-b35cc543f295" data-level1="Wales" data-level2="" data-practice="" option-value="f936e7c5-c210-4322-93ce-b35cc543f295" role="menuitem" tabindex="-1">Caernarfon</a>
+</li>
+<li>
+<a data-itemid="6cd2eeea-5e19-46c6-bcd7-927e7fe86f40" data-level1="Wales" data-level2="" data-practice="" option-value="6cd2eeea-5e19-46c6-bcd7-927e7fe86f40" role="menuitem" tabindex="-1">Caernarfon</a>
+</li>
+<li>
+<a data-itemid="139b1d07-e336-4dc3-9a1e-7d1ef274a5e2" data-level1="Wales" data-level2="" data-practice="" option-value="139b1d07-e336-4dc3-9a1e-7d1ef274a5e2" role="menuitem" tabindex="-1">Caerphilly</a>
+</li>
+<li>
+<a data-itemid="1ac47ee1-9ac7-4fb5-9afa-4a1f7e597aa3" data-level1="East of England" data-level2="" data-practice="" option-value="1ac47ee1-9ac7-4fb5-9afa-4a1f7e597aa3" role="menuitem" tabindex="-1">Cambridge</a>
+</li>
+<li>
+<a data-itemid="84d1c873-8439-40ee-b459-a6d382d6cff9" data-level1="West Midlands" data-level2="" data-practice="" option-value="84d1c873-8439-40ee-b459-a6d382d6cff9" role="menuitem" tabindex="-1">Cannock</a>
+</li>
+<li>
+<a data-itemid="4086cdb3-f40f-4263-ac41-7de759d89735" data-level1="South East" data-level2="" data-practice="" option-value="4086cdb3-f40f-4263-ac41-7de759d89735" role="menuitem" tabindex="-1">Canterbury</a>
+</li>
+<li>
+<a data-itemid="9562d717-2776-4166-81da-845584b530f7" data-level1="Wales" data-level2="" data-practice="" option-value="9562d717-2776-4166-81da-845584b530f7" role="menuitem" tabindex="-1">Cardiff</a>
+</li>
+<li>
+<a data-itemid="7ef5fac7-b10a-4d6c-a993-a35c890b5dc3" data-level1="North West" data-level2="" data-practice="" option-value="7ef5fac7-b10a-4d6c-a993-a35c890b5dc3" role="menuitem" tabindex="-1">Carlisle</a>
+</li>
+<li>
+<a data-itemid="c4881cee-f88d-4478-83c9-2b2a97175469" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="c4881cee-f88d-4478-83c9-2b2a97175469" role="menuitem" tabindex="-1">Carrickfergus</a>
+</li>
+<li>
+<a data-itemid="e5cff6f5-4998-430d-8b67-812820d4c56f" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="e5cff6f5-4998-430d-8b67-812820d4c56f" role="menuitem" tabindex="-1">Castleford</a>
+</li>
+<li>
+<a data-itemid="4ebdd05b-b835-4d49-a7ed-64634e0d0206" data-level1="South East" data-level2="" data-practice="" option-value="4ebdd05b-b835-4d49-a7ed-64634e0d0206" role="menuitem" tabindex="-1">Chatham</a>
+</li>
+<li>
+<a data-itemid="7a9e00d3-3b2c-44bc-85cf-f8d05b2f0b6d" data-level1="East of England" data-level2="" data-practice="" option-value="7a9e00d3-3b2c-44bc-85cf-f8d05b2f0b6d" role="menuitem" tabindex="-1">Chelmsford</a>
+</li>
+<li>
+<a data-itemid="438437a3-85b7-4b9d-ab11-0baa7bf82ccc" data-level1="South West" data-level2="" data-practice="" option-value="438437a3-85b7-4b9d-ab11-0baa7bf82ccc" role="menuitem" tabindex="-1">Cheltenham</a>
+</li>
+<li>
+<a data-itemid="d3c5ef1f-ad9f-44e2-89b7-ed5d4aff3176" data-level1="Wales" data-level2="" data-practice="" option-value="d3c5ef1f-ad9f-44e2-89b7-ed5d4aff3176" role="menuitem" tabindex="-1">Chepstow</a>
+</li>
+<li>
+<a data-itemid="32177026-292c-435b-9aa5-c2b891732496" data-level1="North West" data-level2="" data-practice="" option-value="32177026-292c-435b-9aa5-c2b891732496" role="menuitem" tabindex="-1">Chester</a>
+</li>
+<li>
+<a data-itemid="be84899e-93d4-4e58-8a07-febcafcb337f" data-level1="East Midlands" data-level2="" data-practice="" option-value="be84899e-93d4-4e58-8a07-febcafcb337f" role="menuitem" tabindex="-1">Chesterfield</a>
+</li>
+<li>
+<a data-itemid="a40b150f-c8f8-4449-bd97-64a3df160fec" data-level1="North West" data-level2="" data-practice="" option-value="a40b150f-c8f8-4449-bd97-64a3df160fec" role="menuitem" tabindex="-1">Cleveleys</a>
+</li>
+<li>
+<a data-itemid="def74c12-4a46-439a-bf4b-3fffd2d74294" data-level1="South East" data-level2="" data-practice="" option-value="def74c12-4a46-439a-bf4b-3fffd2d74294" role="menuitem" tabindex="-1">Colchester</a>
+</li>
+<li>
+<a data-itemid="3345c4a7-69a6-40b2-8f78-b6f6b4b89358" data-level1="Wales" data-level2="" data-practice="" option-value="3345c4a7-69a6-40b2-8f78-b6f6b4b89358" role="menuitem" tabindex="-1">Colwyn Bay</a>
+</li>
+<li>
+<a data-itemid="d99a2fd9-d8e3-4557-97c2-b5d6833cab33" data-level1="North West" data-level2="" data-practice="" option-value="d99a2fd9-d8e3-4557-97c2-b5d6833cab33" role="menuitem" tabindex="-1">Congleton</a>
+</li>
+<li>
+<a data-itemid="15ae62a0-7821-4c48-a9ca-67dc1c0044b9" data-level1="West Midlands" data-level2="" data-practice="" option-value="15ae62a0-7821-4c48-a9ca-67dc1c0044b9" role="menuitem" tabindex="-1">Conventry</a>
+</li>
+<li>
+<a data-itemid="ecd2c4a2-ed2d-476a-b6d1-b5bb9ff65410" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="ecd2c4a2-ed2d-476a-b6d1-b5bb9ff65410" role="menuitem" tabindex="-1">Cookstown</a>
+</li>
+<li>
+<a data-itemid="26468e49-9516-4a01-aec0-327af9205840" data-level1="East of England" data-level2="" data-practice="" option-value="26468e49-9516-4a01-aec0-327af9205840" role="menuitem" tabindex="-1">Corby</a>
+</li>
+<li>
+<a data-itemid="d0709cdf-d81c-48c6-93d8-6aaa0de1c9a8" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="d0709cdf-d81c-48c6-93d8-6aaa0de1c9a8" role="menuitem" tabindex="-1">Cottingham</a>
+</li>
+<li>
+<a data-itemid="3f26d541-735c-4503-92a0-ff0b3fb2bbdd" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="3f26d541-735c-4503-92a0-ff0b3fb2bbdd" role="menuitem" tabindex="-1">Coulby Newham</a>
+</li>
+<li>
+<a data-itemid="fddd888b-9a02-4c37-bc9c-14bcd764f39e" data-level1="Scotland" data-level2="" data-practice="" option-value="fddd888b-9a02-4c37-bc9c-14bcd764f39e" role="menuitem" tabindex="-1">Cove Bay</a>
+</li>
+<li>
+<a data-itemid="3c5d02a2-6817-4fc1-9889-df24dae561c1" data-level1="South East" data-level2="" data-practice="" option-value="3c5d02a2-6817-4fc1-9889-df24dae561c1" role="menuitem" tabindex="-1">Cranbrook</a>
+</li>
+<li>
+<a data-itemid="3920dc45-cbd4-48db-800d-d316e562a0d0" data-level1="South West" data-level2="" data-practice="" option-value="3920dc45-cbd4-48db-800d-d316e562a0d0" role="menuitem" tabindex="-1">Crewkerne</a>
+</li>
+<li>
+<a data-itemid="8c366ed6-9826-4f4e-a71f-1ebba9b57915" data-level1="East of England" data-level2="" data-practice="" option-value="8c366ed6-9826-4f4e-a71f-1ebba9b57915" role="menuitem" tabindex="-1">Danbury</a>
+</li>
+<li>
+<a data-itemid="42aafaa7-e328-4fbf-a7af-d105d1b59ecd" data-level1="North East" data-level2="" data-practice="" option-value="42aafaa7-e328-4fbf-a7af-d105d1b59ecd" role="menuitem" tabindex="-1">Darlington</a>
+</li>
+<li>
+<a data-itemid="97f36637-c4de-4d63-b400-0e2e802fb9e1" data-level1="East Midlands" data-level2="" data-practice="" option-value="97f36637-c4de-4d63-b400-0e2e802fb9e1" role="menuitem" tabindex="-1">Derby</a>
+</li>
+<li>
+<a data-itemid="bc3b5304-d09d-46f7-b0df-a46a86d2fc80" data-level1="East of England" data-level2="" data-practice="" option-value="bc3b5304-d09d-46f7-b0df-a46a86d2fc80" role="menuitem" tabindex="-1">Dereham</a>
+</li>
+<li>
+<a data-itemid="1c9a336c-d6eb-48c7-9f0e-1b4c273ba50d" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="1c9a336c-d6eb-48c7-9f0e-1b4c273ba50d" role="menuitem" tabindex="-1">Derry</a>
+</li>
+<li>
+<a data-itemid="10e84805-3021-46d7-9b7e-3b6d3655e45b" data-level1="Scotland" data-level2="" data-practice="" option-value="10e84805-3021-46d7-9b7e-3b6d3655e45b" role="menuitem" tabindex="-1">Dingwall</a>
+</li>
+<li>
+<a data-itemid="e57edb9b-4a44-4226-93ad-62ee55ed94df" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="e57edb9b-4a44-4226-93ad-62ee55ed94df" role="menuitem" tabindex="-1">Doncaster</a>
+</li>
+<li>
+<a data-itemid="3a1906e3-0352-42a1-a247-0779ede6bb21" data-level1="South West" data-level2="" data-practice="" option-value="3a1906e3-0352-42a1-a247-0779ede6bb21" role="menuitem" tabindex="-1">Dorchester</a>
+</li>
+<li>
+<a data-itemid="d4334cc5-f0ef-4aef-a277-b611ccb7718d" data-level1="South West" data-level2="" data-practice="" option-value="d4334cc5-f0ef-4aef-a277-b611ccb7718d" role="menuitem" tabindex="-1">Dorchester</a>
+</li>
+<li>
+<a data-itemid="6efef387-6440-4a12-b9ef-2bc5886e0fd1" data-level1="South West" data-level2="" data-practice="" option-value="6efef387-6440-4a12-b9ef-2bc5886e0fd1" role="menuitem" tabindex="-1">Dorchester</a>
+</li>
+<li>
+<a data-itemid="5ccafd38-7521-43d0-afd4-8f8bf084d738" data-level1="South East" data-level2="" data-practice="" option-value="5ccafd38-7521-43d0-afd4-8f8bf084d738" role="menuitem" tabindex="-1">Dover</a>
+</li>
+<li>
+<a data-itemid="b5b1a3d0-e8a5-4a0d-b035-c28fdaad0ce6" data-level1="East Midlands" data-level2="" data-practice="" option-value="b5b1a3d0-e8a5-4a0d-b035-c28fdaad0ce6" role="menuitem" tabindex="-1">Dronfield</a>
+</li>
+<li>
+<a data-itemid="3c9baa80-4882-40ee-a0af-acba57360031" data-level1="East Midlands" data-level2="" data-practice="" option-value="3c9baa80-4882-40ee-a0af-acba57360031" role="menuitem" tabindex="-1">Dronfield</a>
+</li>
+<li>
+<a data-itemid="98efe6a8-5b62-438b-9451-82b1f8fe6191" data-level1="Scotland" data-level2="" data-practice="" option-value="98efe6a8-5b62-438b-9451-82b1f8fe6191" role="menuitem" tabindex="-1">Dundee</a>
+</li>
+<li>
+<a data-itemid="84fd59fe-2ea2-42bc-9451-290aeae657ae" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="84fd59fe-2ea2-42bc-9451-290aeae657ae" role="menuitem" tabindex="-1">Dundonald</a>
+</li>
+<li>
+<a data-itemid="215ab13d-03cd-454a-b98e-0504f2f6e375" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="215ab13d-03cd-454a-b98e-0504f2f6e375" role="menuitem" tabindex="-1">Dungannon</a>
+</li>
+<li>
+<a data-itemid="d6a87c3c-05f7-4305-8ae6-2f81462d8bbb" data-level1="North East" data-level2="" data-practice="" option-value="d6a87c3c-05f7-4305-8ae6-2f81462d8bbb" role="menuitem" tabindex="-1">Durham</a>
+</li>
+<li>
+<a data-itemid="74854c2a-a092-4237-ab82-9d6e87aab9f6" data-level1="South East" data-level2="" data-practice="" option-value="74854c2a-a092-4237-ab82-9d6e87aab9f6" role="menuitem" tabindex="-1">East Grinstead</a>
+</li>
+<li>
+<a data-itemid="1de49aad-eb26-4ba0-94e8-0aecca755ac7" data-level1="South East" data-level2="" data-practice="" option-value="1de49aad-eb26-4ba0-94e8-0aecca755ac7" role="menuitem" tabindex="-1">Eastbourne</a>
+</li>
+<li>
+<a data-itemid="1b95479f-68ee-4335-836f-40ce77374390" data-level1="Scotland" data-level2="" data-practice="" option-value="1b95479f-68ee-4335-836f-40ce77374390" role="menuitem" tabindex="-1">Edinburgh</a>
+</li>
+<li>
+<a data-itemid="dd6dc69c-99b7-4494-9fc3-307667bef131" data-level1="North West" data-level2="" data-practice="" option-value="dd6dc69c-99b7-4494-9fc3-307667bef131" role="menuitem" tabindex="-1">Egremont</a>
+</li>
+<li>
+<a data-itemid="8ca947f5-f74a-4160-862b-c30bb6ee4e5d" data-level1="Scotland" data-level2="" data-practice="" option-value="8ca947f5-f74a-4160-862b-c30bb6ee4e5d" role="menuitem" tabindex="-1">Elgin</a>
+</li>
+<li>
+<a data-itemid="8bc9744f-6d4c-43db-a4da-c95b374eaf0b" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="8bc9744f-6d4c-43db-a4da-c95b374eaf0b" role="menuitem" tabindex="-1">Enniskillen</a>
+</li>
+<li>
+<a data-itemid="00632aed-008a-402e-a7ba-6bdccd01e2c1" data-level1="South East" data-level2="" data-practice="" option-value="00632aed-008a-402e-a7ba-6bdccd01e2c1" role="menuitem" tabindex="-1">Epsom</a>
+</li>
+<li>
+<a data-itemid="27d5c839-800e-4402-81ab-75a94d0c9a2b" data-level1="Wales" data-level2="" data-practice="" option-value="27d5c839-800e-4402-81ab-75a94d0c9a2b" role="menuitem" tabindex="-1">Ewloe</a>
+</li>
+<li>
+<a data-itemid="b6349654-7868-459f-b67f-8606aa83a64b" data-level1="South West" data-level2="" data-practice="" option-value="b6349654-7868-459f-b67f-8606aa83a64b" role="menuitem" tabindex="-1">Exeter</a>
+</li>
+<li>
+<a data-itemid="0b355d42-8495-4ccd-995e-3a8defd43727" data-level1="East of England" data-level2="" data-practice="" option-value="0b355d42-8495-4ccd-995e-3a8defd43727" role="menuitem" tabindex="-1">Eye</a>
+</li>
+<li>
+<a data-itemid="c44fcc12-13bc-4840-b077-ebd9db9dd313" data-level1="South East" data-level2="" data-practice="" option-value="c44fcc12-13bc-4840-b077-ebd9db9dd313" role="menuitem" tabindex="-1">Fareham</a>
+</li>
+<li>
+<a data-itemid="42f4726e-2f25-48b9-a393-8681e1090e24" data-level1="South East" data-level2="" data-practice="" option-value="42f4726e-2f25-48b9-a393-8681e1090e24" role="menuitem" tabindex="-1">Flackwell Heath</a>
+</li>
+<li>
+<a data-itemid="6701569c-dfe6-4aeb-b393-5e42c4a49e6a" data-level1="South East" data-level2="" data-practice="" option-value="6701569c-dfe6-4aeb-b393-5e42c4a49e6a" role="menuitem" tabindex="-1">Fleet</a>
+</li>
+<li>
+<a data-itemid="11bf5d24-c404-4e40-b2cf-ac92086ef561" data-level1="Wales" data-level2="" data-practice="" option-value="11bf5d24-c404-4e40-b2cf-ac92086ef561" role="menuitem" tabindex="-1">Flint</a>
+</li>
+<li>
+<a data-itemid="ec881eaf-8597-40c5-ad7d-5f7efbe30ad8" data-level1="South East" data-level2="" data-practice="" option-value="ec881eaf-8597-40c5-ad7d-5f7efbe30ad8" role="menuitem" tabindex="-1">Folkstone</a>
+</li>
+<li>
+<a data-itemid="1378d3d8-211a-40ed-8e82-e7504974f78e" data-level1="North West" data-level2="" data-practice="" option-value="1378d3d8-211a-40ed-8e82-e7504974f78e" role="menuitem" tabindex="-1">Garstang</a>
+</li>
+<li>
+<a data-itemid="fbd64864-16b1-4584-a64e-dfb448223092" data-level1="North East" data-level2="" data-practice="" option-value="fbd64864-16b1-4584-a64e-dfb448223092" role="menuitem" tabindex="-1">Gateshead</a>
+</li>
+<li>
+<a data-itemid="bd075ca2-0bec-4d07-9a96-e2605615fa03" data-level1="South East" data-level2="" data-practice="" option-value="bd075ca2-0bec-4d07-9a96-e2605615fa03" role="menuitem" tabindex="-1">Gillingham</a>
+</li>
+<li>
+<a data-itemid="9c0fcaf2-507f-4998-af01-e5a74de2d5f6" data-level1="Scotland" data-level2="" data-practice="" option-value="9c0fcaf2-507f-4998-af01-e5a74de2d5f6" role="menuitem" tabindex="-1">Glasgow</a>
+</li>
+<li>
+<a data-itemid="b39b7ab3-f6aa-4586-a2c0-fbef7035ea37" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="b39b7ab3-f6aa-4586-a2c0-fbef7035ea37" role="menuitem" tabindex="-1">Glengormley</a>
+</li>
+<li>
+<a data-itemid="17a6f698-19b0-4a8c-8898-3a41c62c36ec" data-level1="Scotland" data-level2="" data-practice="" option-value="17a6f698-19b0-4a8c-8898-3a41c62c36ec" role="menuitem" tabindex="-1">Glenrothes</a>
+</li>
+<li>
+<a data-itemid="6ba26bd6-d184-436b-aa2d-3427f12ce706" data-level1="South West" data-level2="" data-practice="" option-value="6ba26bd6-d184-436b-aa2d-3427f12ce706" role="menuitem" tabindex="-1">Gloucester</a>
+</li>
+<li>
+<a data-itemid="e0d35723-645e-44f6-85ff-a7c4ecf4b5b5" data-level1="East of England" data-level2="" data-practice="" option-value="e0d35723-645e-44f6-85ff-a7c4ecf4b5b5" role="menuitem" tabindex="-1">Gorleston</a>
+</li>
+<li>
+<a data-itemid="4916973b-68bf-4a05-833f-6c4f0ae2e8af" data-level1="North West" data-level2="" data-practice="" option-value="4916973b-68bf-4a05-833f-6c4f0ae2e8af" role="menuitem" tabindex="-1">Grange-over-Sands</a>
+</li>
+<li>
+<a data-itemid="f08ec794-2173-41b3-8615-5a5e397452df" data-level1="East of England" data-level2="" data-practice="" option-value="f08ec794-2173-41b3-8615-5a5e397452df" role="menuitem" tabindex="-1">Great Dunmow</a>
+</li>
+<li>
+<a data-itemid="eccdcdb5-3a58-4621-ae06-8c3c5e31fbd7" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="eccdcdb5-3a58-4621-ae06-8c3c5e31fbd7" role="menuitem" tabindex="-1">Grimsby</a>
+</li>
+<li>
+<a data-itemid="22e33e98-1929-42dd-8cd4-65a0c263c86a" data-level1="South East" data-level2="" data-practice="" option-value="22e33e98-1929-42dd-8cd4-65a0c263c86a" role="menuitem" tabindex="-1">Guildford</a>
+</li>
+<li>
+<a data-itemid="366887df-c4bf-4d10-b372-38e7f112fd51" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="366887df-c4bf-4d10-b372-38e7f112fd51" role="menuitem" tabindex="-1">Guiseley</a>
+</li>
+<li>
+<a data-itemid="2ef569cb-461b-421c-acb3-ead0a34f9ce8" data-level1="Wales" data-level2="" data-practice="" option-value="2ef569cb-461b-421c-acb3-ead0a34f9ce8" role="menuitem" tabindex="-1">Gwent</a>
+</li>
+<li>
+<a data-itemid="9645a432-f808-4ff1-97f6-b645766a2971" data-level1="South East" data-level2="" data-practice="" option-value="9645a432-f808-4ff1-97f6-b645766a2971" role="menuitem" tabindex="-1">Hailsham</a>
+</li>
+<li>
+<a data-itemid="adeefdba-e5d3-47d3-80f8-cde68f2c59a2" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="adeefdba-e5d3-47d3-80f8-cde68f2c59a2" role="menuitem" tabindex="-1">Halifax</a>
+</li>
+<li>
+<a data-itemid="84c31dd0-7e72-4fda-a440-31ea2f8aac86" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="84c31dd0-7e72-4fda-a440-31ea2f8aac86" role="menuitem" tabindex="-1">Halifax</a>
+</li>
+<li>
+<a data-itemid="673e1a4e-4043-4c0c-9976-e2fa91afc7db" data-level1="South East" data-level2="" data-practice="" option-value="673e1a4e-4043-4c0c-9976-e2fa91afc7db" role="menuitem" tabindex="-1">Halstead</a>
+</li>
+<li>
+<a data-itemid="521e8697-e68d-4b2a-a9ed-e8a46a93f801" data-level1="East of England" data-level2="" data-practice="" option-value="521e8697-e68d-4b2a-a9ed-e8a46a93f801" role="menuitem" tabindex="-1">Harleston</a>
+</li>
+<li>
+<a data-itemid="3dcb3a85-ac13-4ede-9e8c-6bcfbb1c5607" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="3dcb3a85-ac13-4ede-9e8c-6bcfbb1c5607" role="menuitem" tabindex="-1">Heckmondwike</a>
+</li>
+<li>
+<a data-itemid="d5bc1718-5666-46f0-baab-e413a2a3409c" data-level1="West Midlands" data-level2="" data-practice="" option-value="d5bc1718-5666-46f0-baab-e413a2a3409c" role="menuitem" tabindex="-1">Hereford</a>
+</li>
+<li>
+<a data-itemid="0db295b9-9489-43e7-af88-e7332217f5e6" data-level1="East of England" data-level2="" data-practice="" option-value="0db295b9-9489-43e7-af88-e7332217f5e6" role="menuitem" tabindex="-1">Holt</a>
+</li>
+<li>
+<a data-itemid="4c39822c-d8f7-49e9-a38e-991139d36892" data-level1="South East" data-level2="" data-practice="" option-value="4c39822c-d8f7-49e9-a38e-991139d36892" role="menuitem" tabindex="-1">Hove</a>
+</li>
+<li>
+<a data-itemid="9dc59136-e94e-49d7-935a-192b660691e5" data-level1="East Midlands" data-level2="" data-practice="" option-value="9dc59136-e94e-49d7-935a-192b660691e5" role="menuitem" tabindex="-1">Hucknall</a>
+</li>
+<li>
+<a data-itemid="1d3561d9-b084-40cd-aff7-be638238b829" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="1d3561d9-b084-40cd-aff7-be638238b829" role="menuitem" tabindex="-1">Hull</a>
+</li>
+<li>
+<a data-itemid="2c19d3fa-4b65-4dde-b67c-6171b6ab25d7" data-level1="South West" data-level2="" data-practice="" option-value="2c19d3fa-4b65-4dde-b67c-6171b6ab25d7" role="menuitem" tabindex="-1">Ivybridge</a>
+</li>
+<li>
+<a data-itemid="95d3cb39-780f-4e38-9bda-012494eb1a99" data-level1="North West" data-level2="" data-practice="" option-value="95d3cb39-780f-4e38-9bda-012494eb1a99" role="menuitem" tabindex="-1">Kendal</a>
+</li>
+<li>
+<a data-itemid="8c55f905-74cc-448b-9464-350bb64d89ab" data-level1="North West" data-level2="" data-practice="" option-value="8c55f905-74cc-448b-9464-350bb64d89ab" role="menuitem" tabindex="-1">Keswick</a>
+</li>
+<li>
+<a data-itemid="bd079c0a-2845-4dfa-ad3a-fa32290464cb" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="bd079c0a-2845-4dfa-ad3a-fa32290464cb" role="menuitem" tabindex="-1">Knaresborough</a>
+</li>
+<li>
+<a data-itemid="33d747db-6f7a-467b-9739-6dd9430c5303" data-level1="East of England" data-level2="" data-practice="" option-value="33d747db-6f7a-467b-9739-6dd9430c5303" role="menuitem" tabindex="-1">Knebworth</a>
+</li>
+<li>
+<a data-itemid="8c23b4d6-703d-4bf7-a67d-9e72017274f5" data-level1="South West" data-level2="" data-practice="" option-value="8c23b4d6-703d-4bf7-a67d-9e72017274f5" role="menuitem" tabindex="-1">Launceston</a>
+</li>
+<li>
+<a data-itemid="75c1bd29-382d-4029-98d1-f5ec492bd063" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="75c1bd29-382d-4029-98d1-f5ec492bd063" role="menuitem" tabindex="-1">Leeds</a>
+</li>
+<li>
+<a data-itemid="0207f7c5-84d9-4f8a-bdd2-771c4ffaab15" data-level1="East Midlands" data-level2="" data-practice="" option-value="0207f7c5-84d9-4f8a-bdd2-771c4ffaab15" role="menuitem" tabindex="-1">Leicester</a>
+</li>
+<li>
+<a data-itemid="ba09b79d-de8f-46cd-8bbf-c5d0ae513785" data-level1="East of England" data-level2="" data-practice="" option-value="ba09b79d-de8f-46cd-8bbf-c5d0ae513785" role="menuitem" tabindex="-1">Leiston</a>
+</li>
+<li>
+<a data-itemid="8815cf7b-0d28-46f9-89ff-96eb64c65f45" data-level1="East of England" data-level2="" data-practice="" option-value="8815cf7b-0d28-46f9-89ff-96eb64c65f45" role="menuitem" tabindex="-1">Leiston</a>
+</li>
+<li>
+<a data-itemid="a98f2bc3-b4bd-4167-950e-7ccd17fea29a" data-level1="West Midlands" data-level2="" data-practice="" option-value="a98f2bc3-b4bd-4167-950e-7ccd17fea29a" role="menuitem" tabindex="-1">Leominster</a>
+</li>
+<li>
+<a data-itemid="71a25857-bf55-4f0a-88f7-455d51f2f2e1" data-level1="Scotland" data-level2="" data-practice="" option-value="71a25857-bf55-4f0a-88f7-455d51f2f2e1" role="menuitem" tabindex="-1">Leslie</a>
+</li>
+<li>
+<a data-itemid="0cfe8ae7-467f-481e-978c-c5655d224c51" data-level1="East Midlands" data-level2="" data-practice="" option-value="0cfe8ae7-467f-481e-978c-c5655d224c51" role="menuitem" tabindex="-1">Lincoln</a>
+</li>
+<li>
+<a data-itemid="5f89e4e1-e84b-4a64-9c49-88e0cc060230" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="5f89e4e1-e84b-4a64-9c49-88e0cc060230" role="menuitem" tabindex="-1">Lisburn</a>
+</li>
+<li>
+<a data-itemid="c6726f09-189a-4851-954e-4f901a516475" data-level1="South West" data-level2="" data-practice="" option-value="c6726f09-189a-4851-954e-4f901a516475" role="menuitem" tabindex="-1">Liskeard</a>
+</li>
+<li>
+<a data-itemid="85646d46-05d0-45f2-bacb-d5eb7fa7552c" data-level1="North West" data-level2="" data-practice="" option-value="85646d46-05d0-45f2-bacb-d5eb7fa7552c" role="menuitem" tabindex="-1">Liverpool</a>
+</li>
+<li>
+<a data-itemid="cad4ffbc-6fca-48ac-a463-9b9fd0b49927" data-level1="Greater London" data-level2="" data-practice="" option-value="cad4ffbc-6fca-48ac-a463-9b9fd0b49927" role="menuitem" tabindex="-1">London</a>
+</li>
+<li>
+<a data-itemid="14f6297a-bf24-4df3-9471-6fb590d0290b" data-level1="East Midlands" data-level2="" data-practice="" option-value="14f6297a-bf24-4df3-9471-6fb590d0290b" role="menuitem" tabindex="-1">Long Eaton</a>
+</li>
+<li>
+<a data-itemid="9f036a9f-49d1-44e9-968e-2735208c8576" data-level1="South East" data-level2="" data-practice="" option-value="9f036a9f-49d1-44e9-968e-2735208c8576" role="menuitem" tabindex="-1">Longfield</a>
+</li>
+<li>
+<a data-itemid="e353bfee-b437-4756-b7c0-5994c9597a29" data-level1="East Midlands" data-level2="" data-practice="" option-value="e353bfee-b437-4756-b7c0-5994c9597a29" role="menuitem" tabindex="-1">Loughborough</a>
+</li>
+<li>
+<a data-itemid="5d1f1680-6939-4fcb-b57c-e81d36a63f7b" data-level1="East of England" data-level2="" data-practice="" option-value="5d1f1680-6939-4fcb-b57c-e81d36a63f7b" role="menuitem" tabindex="-1">Luton</a>
+</li>
+<li>
+<a data-itemid="f2e8edbe-3694-4fb4-9cc6-a352d51b2b53" data-level1="South West" data-level2="" data-practice="" option-value="f2e8edbe-3694-4fb4-9cc6-a352d51b2b53" role="menuitem" tabindex="-1">Lydney</a>
+</li>
+<li>
+<a data-itemid="fba3493a-5c96-4a89-840e-f585e41a2147" data-level1="South East" data-level2="" data-practice="" option-value="fba3493a-5c96-4a89-840e-f585e41a2147" role="menuitem" tabindex="-1">Lymington</a>
+</li>
+<li>
+<a data-itemid="0d3c2976-96f7-4998-83aa-cc658d3d490d" data-level1="North West" data-level2="" data-practice="" option-value="0d3c2976-96f7-4998-83aa-cc658d3d490d" role="menuitem" tabindex="-1">Lymm</a>
+</li>
+<li>
+<a data-itemid="4baf13d4-acdd-46b0-a716-7797058768e4" data-level1="North West" data-level2="" data-practice="" option-value="4baf13d4-acdd-46b0-a716-7797058768e4" role="menuitem" tabindex="-1">Manchester</a>
+</li>
+<li>
+<a data-itemid="f5d62e62-d2fd-4d1e-a5be-43793625ec22" data-level1="South East" data-level2="" data-practice="" option-value="f5d62e62-d2fd-4d1e-a5be-43793625ec22" role="menuitem" tabindex="-1">Marden</a>
+</li>
+<li>
+<a data-itemid="efdef84f-ce4c-4672-a133-f877ccc80bae" data-level1="East Midlands" data-level2="" data-practice="" option-value="efdef84f-ce4c-4672-a133-f877ccc80bae" role="menuitem" tabindex="-1">Market Harborough</a>
+</li>
+<li>
+<a data-itemid="c15f9041-2e5c-4a3d-b6be-89c27c702f60" data-level1="East Midlands" data-level2="" data-practice="" option-value="c15f9041-2e5c-4a3d-b6be-89c27c702f60" role="menuitem" tabindex="-1">Market Rasen</a>
+</li>
+<li>
+<a data-itemid="1cf3e93d-a8c0-4fa7-97aa-ac81dbc0808d" data-level1="North West" data-level2="" data-practice="" option-value="1cf3e93d-a8c0-4fa7-97aa-ac81dbc0808d" role="menuitem" tabindex="-1">Maryport</a>
+</li>
+<li>
+<a data-itemid="fe673d41-79c5-445d-a44c-48ad59d893a5" data-level1="West Midlands" data-level2="" data-practice="" option-value="fe673d41-79c5-445d-a44c-48ad59d893a5" role="menuitem" tabindex="-1">Matlock</a>
+</li>
+<li>
+<a data-itemid="8d028c10-3733-47bd-8c8b-5f5ec996442c" data-level1="East Midlands" data-level2="" data-practice="" option-value="8d028c10-3733-47bd-8c8b-5f5ec996442c" role="menuitem" tabindex="-1">Melton Mowbray</a>
+</li>
+<li>
+<a data-itemid="29f0e78b-2485-40c8-aa0e-914361fe44bc" data-level1="Wales" data-level2="" data-practice="" option-value="29f0e78b-2485-40c8-aa0e-914361fe44bc" role="menuitem" tabindex="-1">Menai Bridge</a>
+</li>
+<li>
+<a data-itemid="a94e3895-8d55-4ef9-b01d-3d932ce0afe3" data-level1="South East" data-level2="" data-practice="" option-value="a94e3895-8d55-4ef9-b01d-3d932ce0afe3" role="menuitem" tabindex="-1">Merrow</a>
+</li>
+<li>
+<a data-itemid="6518470e-b78d-426a-a20f-766f7498f408" data-level1="South East" data-level2="" data-practice="" option-value="6518470e-b78d-426a-a20f-766f7498f408" role="menuitem" tabindex="-1">Milford-on-Sea</a>
+</li>
+<li>
+<a data-itemid="c91742e2-4a4f-4fd3-9c4d-f5a359f43c23" data-level1="North West" data-level2="" data-practice="" option-value="c91742e2-4a4f-4fd3-9c4d-f5a359f43c23" role="menuitem" tabindex="-1">Millom</a>
+</li>
+<li>
+<a data-itemid="08667251-deff-4bdf-9c0a-51a46a312058" data-level1="Scotland" data-level2="" data-practice="" option-value="08667251-deff-4bdf-9c0a-51a46a312058" role="menuitem" tabindex="-1">Mintlaw</a>
+</li>
+<li>
+<a data-itemid="92c16a05-9bee-4718-8cea-ada6ebbf2a89" data-level1="Wales" data-level2="" data-practice="" option-value="92c16a05-9bee-4718-8cea-ada6ebbf2a89" role="menuitem" tabindex="-1">Mold</a>
+</li>
+<li>
+<a data-itemid="1697be7e-7bba-4362-8596-a052b95ac65c" data-level1="North West" data-level2="" data-practice="" option-value="1697be7e-7bba-4362-8596-a052b95ac65c" role="menuitem" tabindex="-1">Morecambe</a>
+</li>
+<li>
+<a data-itemid="0f226027-2876-4d95-b9d3-2e7204342181" data-level1="North West" data-level2="" data-practice="" option-value="0f226027-2876-4d95-b9d3-2e7204342181" role="menuitem" tabindex="-1">Morecambe</a>
+</li>
+<li>
+<a data-itemid="1dc9cbf5-d69a-431c-a97f-416831edf179" data-level1="North East" data-level2="" data-practice="" option-value="1dc9cbf5-d69a-431c-a97f-416831edf179" role="menuitem" tabindex="-1">Morpeth</a>
+</li>
+<li>
+<a data-itemid="fe69e4ed-0b98-4524-a20b-8d099de1c16b" data-level1="North West" data-level2="" data-practice="" option-value="fe69e4ed-0b98-4524-a20b-8d099de1c16b" role="menuitem" tabindex="-1">Mytholmroyd</a>
+</li>
+<li>
+<a data-itemid="01f97daf-af0e-4d0d-80eb-855cd9a84810" data-level1="Wales" data-level2="" data-practice="" option-value="01f97daf-af0e-4d0d-80eb-855cd9a84810" role="menuitem" tabindex="-1">Neath</a>
+</li>
+<li>
+<a data-itemid="d8aa405d-d144-4d57-afc1-8a3abc5980ab" data-level1="East Midlands" data-level2="" data-practice="" option-value="d8aa405d-d144-4d57-afc1-8a3abc5980ab" role="menuitem" tabindex="-1">Netherfield</a>
+</li>
+<li>
+<a data-itemid="35a97619-892b-462b-b665-0be0bd24590f" data-level1="East Midlands" data-level2="" data-practice="" option-value="35a97619-892b-462b-b665-0be0bd24590f" role="menuitem" tabindex="-1">Newark</a>
+</li>
+<li>
+<a data-itemid="455e1156-ab1d-4614-b7ae-80bfd04e160a" data-level1="South East" data-level2="" data-practice="" option-value="455e1156-ab1d-4614-b7ae-80bfd04e160a" role="menuitem" tabindex="-1">Newbury</a>
+</li>
+<li>
+<a data-itemid="cbe25823-bf4b-488a-8d0f-83c132748f03" data-level1="North East" data-level2="" data-practice="" option-value="cbe25823-bf4b-488a-8d0f-83c132748f03" role="menuitem" tabindex="-1">Newcastle</a>
+</li>
+<li>
+<a data-itemid="87517a78-445a-4f91-9ae4-e5f55d91f132" data-level1="West Midlands" data-level2="" data-practice="" option-value="87517a78-445a-4f91-9ae4-e5f55d91f132" role="menuitem" tabindex="-1">Newcastle-under-Lyme</a>
+</li>
+<li>
+<a data-itemid="39719489-d523-42f0-89d5-504d9fb4b623" data-level1="Wales" data-level2="" data-practice="" option-value="39719489-d523-42f0-89d5-504d9fb4b623" role="menuitem" tabindex="-1">Newport</a>
+</li>
+<li>
+<a data-itemid="29bbce9c-74e7-40f2-ba24-cfe031cc1595" data-level1="Wales" data-level2="" data-practice="" option-value="29bbce9c-74e7-40f2-ba24-cfe031cc1595" role="menuitem" tabindex="-1">Newport</a>
+</li>
+<li>
+<a data-itemid="b749d625-8001-4ad3-87ee-3946c63c986a" data-level1="West Midlands" data-level2="" data-practice="" option-value="b749d625-8001-4ad3-87ee-3946c63c986a" role="menuitem" tabindex="-1">Newport Shropshire</a>
+</li>
+<li>
+<a data-itemid="240bddf0-e610-4445-92b2-3ce1ad72d09b" data-level1="South West" data-level2="" data-practice="" option-value="240bddf0-e610-4445-92b2-3ce1ad72d09b" role="menuitem" tabindex="-1">Newton Abbot</a>
+</li>
+<li>
+<a data-itemid="b900a98c-343e-481d-a3e1-2d563e8daa2c" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="b900a98c-343e-481d-a3e1-2d563e8daa2c" role="menuitem" tabindex="-1">Newtownabbey</a>
+</li>
+<li>
+<a data-itemid="d60b041e-8c26-4392-acf2-3fdbb471b6ff" data-level1="East of England" data-level2="" data-practice="" option-value="d60b041e-8c26-4392-acf2-3fdbb471b6ff" role="menuitem" tabindex="-1">Norfolk</a>
+</li>
+<li>
+<a data-itemid="2708775c-d63f-430c-aa0b-1252869c212a" data-level1="North East" data-level2="" data-practice="" option-value="2708775c-d63f-430c-aa0b-1252869c212a" role="menuitem" tabindex="-1">North Shields</a>
+</li>
+<li>
+<a data-itemid="f6af40d8-f07a-4582-9a0e-3231bca5147b" data-level1="East of England" data-level2="" data-practice="" option-value="f6af40d8-f07a-4582-9a0e-3231bca5147b" role="menuitem" tabindex="-1">North Walsham</a>
+</li>
+<li>
+<a data-itemid="f047a1a3-20b2-4bf6-a8e5-5514513000f1" data-level1="East Midlands" data-level2="" data-practice="" option-value="f047a1a3-20b2-4bf6-a8e5-5514513000f1" role="menuitem" tabindex="-1">Northampton</a>
+</li>
+<li>
+<a data-itemid="2c775b78-e4a1-4220-af89-4488db23fab0" data-level1="East Midlands" data-level2="" data-practice="" option-value="2c775b78-e4a1-4220-af89-4488db23fab0" role="menuitem" tabindex="-1">Nottingham</a>
+</li>
+<li>
+<a data-itemid="0f9ccf91-4d7c-4b87-96e3-2b4a4c820849" data-level1="West Midlands" data-level2="" data-practice="" option-value="0f9ccf91-4d7c-4b87-96e3-2b4a4c820849" role="menuitem" tabindex="-1">Nuneaton</a>
+</li>
+<li>
+<a data-itemid="40e2f8ac-b29e-4f2d-ab4a-109a02dad186" data-level1="North West" data-level2="" data-practice="" option-value="40e2f8ac-b29e-4f2d-ab4a-109a02dad186" role="menuitem" tabindex="-1">Oldham</a>
+</li>
+<li>
+<a data-itemid="d4ead6f5-c9a4-405f-8529-663ab08f1622" data-level1="Northern Ireland" data-level2="" data-practice="" option-value="d4ead6f5-c9a4-405f-8529-663ab08f1622" role="menuitem" tabindex="-1">Omagh</a>
+</li>
+<li>
+<a data-itemid="f6ea1e70-d136-4591-86a7-3d2f24b94fef" data-level1="South East" data-level2="" data-practice="" option-value="f6ea1e70-d136-4591-86a7-3d2f24b94fef" role="menuitem" tabindex="-1">Oxford</a>
+</li>
+<li>
+<a data-itemid="0e65fc86-154a-4ef8-b47b-f4c6b434777f" data-level1="North East" data-level2="" data-practice="" option-value="0e65fc86-154a-4ef8-b47b-f4c6b434777f" role="menuitem" tabindex="-1">Pelton</a>
+</li>
+<li>
+<a data-itemid="3e9a659f-1a8c-4af9-9fdc-2c36ebe2fd94" data-level1="Wales" data-level2="" data-practice="" option-value="3e9a659f-1a8c-4af9-9fdc-2c36ebe2fd94" role="menuitem" tabindex="-1">Penarth</a>
+</li>
+<li>
+<a data-itemid="2130ee90-d731-42d6-9883-9b43d2daca6e" data-level1="Wales" data-level2="" data-practice="" option-value="2130ee90-d731-42d6-9883-9b43d2daca6e" role="menuitem" tabindex="-1">Penrhyndeudraeth</a>
+</li>
+<li>
+<a data-itemid="21cbfecd-ac4f-4047-be0b-0341cd0fccf5" data-level1="South West" data-level2="" data-practice="" option-value="21cbfecd-ac4f-4047-be0b-0341cd0fccf5" role="menuitem" tabindex="-1">Penzance</a>
+</li>
+<li>
+<a data-itemid="7080ca3d-c05a-4dab-ba39-2d48e448c301" data-level1="West Midlands" data-level2="" data-practice="" option-value="7080ca3d-c05a-4dab-ba39-2d48e448c301" role="menuitem" tabindex="-1">Pershore</a>
+</li>
+<li>
+<a data-itemid="920d3e1c-b376-4583-8524-39b4e72b5008" data-level1="East of England" data-level2="" data-practice="" option-value="920d3e1c-b376-4583-8524-39b4e72b5008" role="menuitem" tabindex="-1">Peterborough</a>
+</li>
+<li>
+<a data-itemid="55c6a91e-d122-47c5-803a-4137bea7a6bb" data-level1="South West" data-level2="" data-practice="" option-value="55c6a91e-d122-47c5-803a-4137bea7a6bb" role="menuitem" tabindex="-1">Plymouth</a>
+</li>
+<li>
+<a data-itemid="0ee70c57-0689-47a1-8f09-a0ecf83a2f6d" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="0ee70c57-0689-47a1-8f09-a0ecf83a2f6d" role="menuitem" tabindex="-1">Pontefract</a>
+</li>
+<li>
+<a data-itemid="2e83612b-cfcc-4ee3-b319-735e785e61d5" data-level1="South West" data-level2="" data-practice="" option-value="2e83612b-cfcc-4ee3-b319-735e785e61d5" role="menuitem" tabindex="-1">Poole</a>
+</li>
+<li>
+<a data-itemid="94d2fc44-3fc4-49cd-932d-ab114977f445" data-level1="South East" data-level2="" data-practice="" option-value="94d2fc44-3fc4-49cd-932d-ab114977f445" role="menuitem" tabindex="-1">Portsmouth</a>
+</li>
+<li>
+<a data-itemid="5926f4fc-bf25-4715-9def-150d515933c7" data-level1="North West" data-level2="" data-practice="" option-value="5926f4fc-bf25-4715-9def-150d515933c7" role="menuitem" tabindex="-1">Preston</a>
+</li>
+<li>
+<a data-itemid="7c69a757-cf38-4d17-8f56-ba04c211dade" data-level1="South East" data-level2="" data-practice="" option-value="7c69a757-cf38-4d17-8f56-ba04c211dade" role="menuitem" tabindex="-1">Princes Risborough</a>
+</li>
+<li>
+<a data-itemid="dffa7534-4b7e-4343-b075-6ece4303e57c" data-level1="East of England" data-level2="" data-practice="" option-value="dffa7534-4b7e-4343-b075-6ece4303e57c" role="menuitem" tabindex="-1">Radlett</a>
+</li>
+<li>
+<a data-itemid="e818f883-798a-407a-87a8-a9ea64586fa1" data-level1="West Midlands" data-level2="" data-practice="" option-value="e818f883-798a-407a-87a8-a9ea64586fa1" role="menuitem" tabindex="-1">Rayleigh</a>
+</li>
+<li>
+<a data-itemid="3eb060cd-c91f-446f-9510-2791f4772c28" data-level1="South East" data-level2="" data-practice="" option-value="3eb060cd-c91f-446f-9510-2791f4772c28" role="menuitem" tabindex="-1">Reading</a>
+</li>
+<li>
+<a data-itemid="261b1c5f-545d-4b89-bc96-6db2ef558462" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="261b1c5f-545d-4b89-bc96-6db2ef558462" role="menuitem" tabindex="-1">Ripon</a>
+</li>
+<li>
+<a data-itemid="a9d7f9c8-4b5f-4b53-8af4-2d78b388dc9a" data-level1="North West" data-level2="" data-practice="" option-value="a9d7f9c8-4b5f-4b53-8af4-2d78b388dc9a" role="menuitem" tabindex="-1">Rochdale</a>
+</li>
+<li>
+<a data-itemid="57ba8e3e-4dea-410e-bc40-7010bf527aad" data-level1="West Midlands" data-level2="" data-practice="" option-value="57ba8e3e-4dea-410e-bc40-7010bf527aad" role="menuitem" tabindex="-1">Ross-on-Wye</a>
+</li>
+<li>
+<a data-itemid="4e98ec35-50ea-4707-81ff-66d619454b8f" data-level1="South East" data-level2="" data-practice="" option-value="4e98ec35-50ea-4707-81ff-66d619454b8f" role="menuitem" tabindex="-1">Ryde</a>
+</li>
+<li>
+<a data-itemid="837b2726-6e4c-4e64-b50c-6a9cfb36506a" data-level1="East of England" data-level2="" data-practice="" option-value="837b2726-6e4c-4e64-b50c-6a9cfb36506a" role="menuitem" tabindex="-1">Saint Neots</a>
+</li>
+<li>
+<a data-itemid="7050dbf5-16f5-467c-89f6-78f5e49e93a6" data-level1="North West" data-level2="" data-practice="" option-value="7050dbf5-16f5-467c-89f6-78f5e49e93a6" role="menuitem" tabindex="-1">Sale</a>
+</li>
+<li>
+<a data-itemid="80c507c0-0825-4c58-a588-c98c2c5c0a82" data-level1="North West" data-level2="" data-practice="" option-value="80c507c0-0825-4c58-a588-c98c2c5c0a82" role="menuitem" tabindex="-1">Sale</a>
+</li>
+<li>
+<a data-itemid="3ab9ac6b-14fc-49ef-904a-c43e0e69c09f" data-level1="South West" data-level2="" data-practice="" option-value="3ab9ac6b-14fc-49ef-904a-c43e0e69c09f" role="menuitem" tabindex="-1">Salisbury</a>
+</li>
+<li>
+<a data-itemid="a8bc8682-b27c-4c54-bad4-de3098f2e0a4" data-level1="North East" data-level2="" data-practice="" option-value="a8bc8682-b27c-4c54-bad4-de3098f2e0a4" role="menuitem" tabindex="-1">Settle</a>
+</li>
+<li>
+<a data-itemid="957cf124-1d8a-4897-bcbd-d3423ecdd02c" data-level1="South East" data-level2="" data-practice="" option-value="957cf124-1d8a-4897-bcbd-d3423ecdd02c" role="menuitem" tabindex="-1">Sevenoaks</a>
+</li>
+<li>
+<a data-itemid="9cc1c104-94ec-4cde-88eb-10a2d771e57a" data-level1="South West" data-level2="" data-practice="" option-value="9cc1c104-94ec-4cde-88eb-10a2d771e57a" role="menuitem" tabindex="-1">Shaftesbury</a>
+</li>
+<li>
+<a data-itemid="e50235d9-4f7b-4417-9a84-3623faab1bc7" data-level1="South East" data-level2="" data-practice="" option-value="e50235d9-4f7b-4417-9a84-3623faab1bc7" role="menuitem" tabindex="-1">Shanklin</a>
+</li>
+<li>
+<a data-itemid="9032ba79-01b0-4fea-a7a1-9c12d81d80dc" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="9032ba79-01b0-4fea-a7a1-9c12d81d80dc" role="menuitem" tabindex="-1">Sheffield</a>
+</li>
+<li>
+<a data-itemid="c0deb4e8-5a1a-45e3-89dc-eb4033c2e381" data-level1="South West" data-level2="" data-practice="" option-value="c0deb4e8-5a1a-45e3-89dc-eb4033c2e381" role="menuitem" tabindex="-1">Sherborne</a>
+</li>
+<li>
+<a data-itemid="2e1ca0a9-d43b-4195-88d5-43a3b7d5b74f" data-level1="North East" data-level2="" data-practice="" option-value="2e1ca0a9-d43b-4195-88d5-43a3b7d5b74f" role="menuitem" tabindex="-1">Shildon</a>
+</li>
+<li>
+<a data-itemid="58ec2649-5708-4483-ae19-19e790cec8e8" data-level1="South West" data-level2="" data-practice="" option-value="58ec2649-5708-4483-ae19-19e790cec8e8" role="menuitem" tabindex="-1">Sidmouth</a>
+</li>
+<li>
+<a data-itemid="bd60d45c-1108-4cff-a666-679b3965561c" data-level1="South West" data-level2="" data-practice="" option-value="bd60d45c-1108-4cff-a666-679b3965561c" role="menuitem" tabindex="-1">Sidmouth</a>
+</li>
+<li>
+<a data-itemid="6524f603-fa91-424c-af06-8cef35d1adc4" data-level1="East of England" data-level2="" data-practice="" option-value="6524f603-fa91-424c-af06-8cef35d1adc4" role="menuitem" tabindex="-1">Skegness</a>
+</li>
+<li>
+<a data-itemid="80ab609e-8b82-4e95-b9ef-9bdd21d3c9ff" data-level1="East of England" data-level2="" data-practice="" option-value="80ab609e-8b82-4e95-b9ef-9bdd21d3c9ff" role="menuitem" tabindex="-1">Sleaford</a>
+</li>
+<li>
+<a data-itemid="c586a561-29bd-4d33-b334-705813579e44" data-level1="South East" data-level2="" data-practice="" option-value="c586a561-29bd-4d33-b334-705813579e44" role="menuitem" tabindex="-1">Southampton</a>
+</li>
+<li>
+<a data-itemid="434985b7-9d0c-42b1-a11d-8008eb593ef7" data-level1="North West" data-level2="" data-practice="" option-value="434985b7-9d0c-42b1-a11d-8008eb593ef7" role="menuitem" tabindex="-1">Southport</a>
+</li>
+<li>
+<a data-itemid="4321bdf8-aa38-40a4-9cf4-6f00309367eb" data-level1="South East" data-level2="" data-practice="" option-value="4321bdf8-aa38-40a4-9cf4-6f00309367eb" role="menuitem" tabindex="-1">St Albans</a>
+</li>
+<li>
+<a data-itemid="63ae5ff8-d313-45b3-9878-5202faa9b12f" data-level1="Scotland" data-level2="" data-practice="" option-value="63ae5ff8-d313-45b3-9878-5202faa9b12f" role="menuitem" tabindex="-1">St Andrews</a>
+</li>
+<li>
+<a data-itemid="50e959b3-4be1-43c6-8689-8dc8b909b262" data-level1="South West" data-level2="" data-practice="" option-value="50e959b3-4be1-43c6-8689-8dc8b909b262" role="menuitem" tabindex="-1">St Leonards on Sea</a>
+</li>
+<li>
+<a data-itemid="3e68c9b0-71f4-4b7a-bfa9-ecf8c68bd0cf" data-level1="West Midlands" data-level2="" data-practice="" option-value="3e68c9b0-71f4-4b7a-bfa9-ecf8c68bd0cf" role="menuitem" tabindex="-1">Stafford</a>
+</li>
+<li>
+<a data-itemid="2532aa2f-ad9d-472c-a974-43e47a2e265f" data-level1="South East" data-level2="" data-practice="" option-value="2532aa2f-ad9d-472c-a974-43e47a2e265f" role="menuitem" tabindex="-1">Staines</a>
+</li>
+<li>
+<a data-itemid="9ccd1e29-1e45-4a06-bb34-a2014e972a0e" data-level1="North West" data-level2="" data-practice="" option-value="9ccd1e29-1e45-4a06-bb34-a2014e972a0e" role="menuitem" tabindex="-1">Stalybridge</a>
+</li>
+<li>
+<a data-itemid="367afe26-0760-418b-a93b-13006304ce90" data-level1="East of England" data-level2="" data-practice="" option-value="367afe26-0760-418b-a93b-13006304ce90" role="menuitem" tabindex="-1">Stamford</a>
+</li>
+<li>
+<a data-itemid="dc79104c-ce88-4124-adb6-626023f302de" data-level1="North West" data-level2="" data-practice="" option-value="dc79104c-ce88-4124-adb6-626023f302de" role="menuitem" tabindex="-1">Stockport</a>
+</li>
+<li>
+<a data-itemid="fa420590-a650-4144-a606-cd98c1a7c2f5" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="fa420590-a650-4144-a606-cd98c1a7c2f5" role="menuitem" tabindex="-1">Stockton-on-Tees</a>
+</li>
+<li>
+<a data-itemid="f0231764-e379-4562-b98f-c8c442ca882c" data-level1="South East" data-level2="" data-practice="" option-value="f0231764-e379-4562-b98f-c8c442ca882c" role="menuitem" tabindex="-1">Sturry</a>
+</li>
+<li>
+<a data-itemid="07d0a973-f5e5-4934-b159-bd29e578bbb4" data-level1="East of England" data-level2="" data-practice="" option-value="07d0a973-f5e5-4934-b159-bd29e578bbb4" role="menuitem" tabindex="-1">Suffolk</a>
+</li>
+<li>
+<a data-itemid="a6c557f4-8c8a-47a2-9fc7-cd35cf2e8eaf" data-level1="North East" data-level2="" data-practice="" option-value="a6c557f4-8c8a-47a2-9fc7-cd35cf2e8eaf" role="menuitem" tabindex="-1">Sunderland</a>
+</li>
+<li>
+<a data-itemid="41221b8e-40c2-4f4a-af22-3599d01bb351" data-level1="South East" data-level2="" data-practice="" option-value="41221b8e-40c2-4f4a-af22-3599d01bb351" role="menuitem" tabindex="-1">Surrey</a>
+</li>
+<li>
+<a data-itemid="1940e6f8-28b4-4edb-a4d4-aeb3189a8f2f" data-level1="South East" data-level2="" data-practice="" option-value="1940e6f8-28b4-4edb-a4d4-aeb3189a8f2f" role="menuitem" tabindex="-1">Surrey</a>
+</li>
+<li>
+<a data-itemid="991d8fc7-5fbf-498d-9b0d-40110aa5a402" data-level1="East of England" data-level2="" data-practice="" option-value="991d8fc7-5fbf-498d-9b0d-40110aa5a402" role="menuitem" tabindex="-1">Sutton-in-Ashfield</a>
+</li>
+<li>
+<a data-itemid="9d9976a3-a0fd-460f-9af2-4ed14343901e" data-level1="South West" data-level2="" data-practice="" option-value="9d9976a3-a0fd-460f-9af2-4ed14343901e" role="menuitem" tabindex="-1">Swindon</a>
+</li>
+<li>
+<a data-itemid="f53323ed-88d6-40f2-a6ee-b1fc00dc335a" data-level1="South West" data-level2="" data-practice="" option-value="f53323ed-88d6-40f2-a6ee-b1fc00dc335a" role="menuitem" tabindex="-1">Taunton</a>
+</li>
+<li>
+<a data-itemid="17996486-1ffe-4dd4-be04-36c495c68a6d" data-level1="South West" data-level2="" data-practice="" option-value="17996486-1ffe-4dd4-be04-36c495c68a6d" role="menuitem" tabindex="-1">Teignmouth</a>
+</li>
+<li>
+<a data-itemid="9bba6934-4ef5-4126-a0f6-7d9b257a52fa" data-level1="North West" data-level2="" data-practice="" option-value="9bba6934-4ef5-4126-a0f6-7d9b257a52fa" role="menuitem" tabindex="-1">Tewkesbury</a>
+</li>
+<li>
+<a data-itemid="a5661be2-9dde-4a2d-a181-e9bc97ef6841" data-level1="North West" data-level2="" data-practice="" option-value="a5661be2-9dde-4a2d-a181-e9bc97ef6841" role="menuitem" tabindex="-1">Timperley</a>
+</li>
+<li>
+<a data-itemid="72c7fc40-3d45-40c4-b777-964fc1450f47" data-level1="North West" data-level2="" data-practice="" option-value="72c7fc40-3d45-40c4-b777-964fc1450f47" role="menuitem" tabindex="-1">Timperley</a>
+</li>
+<li>
+<a data-itemid="0e084e21-6f4f-48c9-91ca-99aba8acf7df" data-level1="West Midlands" data-level2="" data-practice="" option-value="0e084e21-6f4f-48c9-91ca-99aba8acf7df" role="menuitem" tabindex="-1">Tipton</a>
+</li>
+<li>
+<a data-itemid="26fc852a-3b8a-46d8-b8f0-d11fdd5b69bb" data-level1="South West" data-level2="" data-practice="" option-value="26fc852a-3b8a-46d8-b8f0-d11fdd5b69bb" role="menuitem" tabindex="-1">Torquay</a>
+</li>
+<li>
+<a data-itemid="fdee7a62-9c3d-40f9-ade0-c7ca102094cf" data-level1="East of England" data-level2="" data-practice="" option-value="fdee7a62-9c3d-40f9-ade0-c7ca102094cf" role="menuitem" tabindex="-1">Towcester</a>
+</li>
+<li>
+<a data-itemid="73fd5d44-5de9-49d3-b9f6-2f38c030b72d" data-level1="South West" data-level2="" data-practice="" option-value="73fd5d44-5de9-49d3-b9f6-2f38c030b72d" role="menuitem" tabindex="-1">Trowbridge</a>
+</li>
+<li>
+<a data-itemid="7434a37a-8233-4c24-b9dc-683ba49de899" data-level1="South East" data-level2="" data-practice="" option-value="7434a37a-8233-4c24-b9dc-683ba49de899" role="menuitem" tabindex="-1">Tunbridge Wells</a>
+</li>
+<li>
+<a data-itemid="f218a75f-4156-4522-b0e7-bbde461b992c" data-level1="South West" data-level2="" data-practice="" option-value="f218a75f-4156-4522-b0e7-bbde461b992c" role="menuitem" tabindex="-1">Tunbridge Wells</a>
+</li>
+<li>
+<a data-itemid="04eddc8d-f046-4569-8866-0185148d8d00" data-level1="South East" data-level2="" data-practice="" option-value="04eddc8d-f046-4569-8866-0185148d8d00" role="menuitem" tabindex="-1">Uckfield</a>
+</li>
+<li>
+<a data-itemid="5daa2ab1-a8c9-4872-a44f-391b7f6bd2b2" data-level1="North West" data-level2="" data-practice="" option-value="5daa2ab1-a8c9-4872-a44f-391b7f6bd2b2" role="menuitem" tabindex="-1">Ulverston</a>
+</li>
+<li>
+<a data-itemid="d4b12d75-abff-4801-bd7b-7ffc687312f2" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="d4b12d75-abff-4801-bd7b-7ffc687312f2" role="menuitem" tabindex="-1">Wakefield</a>
+</li>
+<li>
+<a data-itemid="d08e99fc-5e66-456c-b935-302671530932" data-level1="East of England" data-level2="" data-practice="" option-value="d08e99fc-5e66-456c-b935-302671530932" role="menuitem" tabindex="-1">Waltham Cross</a>
+</li>
+<li>
+<a data-itemid="3857b47d-fcdb-4036-b70a-cbbc677c5259" data-level1="South East" data-level2="" data-practice="" option-value="3857b47d-fcdb-4036-b70a-cbbc677c5259" role="menuitem" tabindex="-1">Wantage</a>
+</li>
+<li>
+<a data-itemid="d1ecc677-4f2b-40a5-abac-1b1d3bce73c3" data-level1="South West" data-level2="" data-practice="" option-value="d1ecc677-4f2b-40a5-abac-1b1d3bce73c3" role="menuitem" tabindex="-1">Warminster</a>
+</li>
+<li>
+<a data-itemid="5bbe5c80-112b-4b71-9619-cd14843d08ac" data-level1="North West" data-level2="" data-practice="" option-value="5bbe5c80-112b-4b71-9619-cd14843d08ac" role="menuitem" tabindex="-1">Warrington</a>
+</li>
+<li>
+<a data-itemid="7198a3c2-dac4-456b-aaa5-85c87431c011" data-level1="North West" data-level2="" data-practice="" option-value="7198a3c2-dac4-456b-aaa5-85c87431c011" role="menuitem" tabindex="-1">Warrington</a>
+</li>
+<li>
+<a data-itemid="46465784-41bc-4259-aad2-8ae6a683cb3d" data-level1="South East" data-level2="" data-practice="" option-value="46465784-41bc-4259-aad2-8ae6a683cb3d" role="menuitem" tabindex="-1">Waterlooville</a>
+</li>
+<li>
+<a data-itemid="5f5fb909-0260-4efe-8480-fa199ddae099" data-level1="East of England" data-level2="" data-practice="" option-value="5f5fb909-0260-4efe-8480-fa199ddae099" role="menuitem" tabindex="-1">Watford</a>
+</li>
+<li>
+<a data-itemid="c7ed30a9-7413-4741-b22a-330d633cbeba" data-level1="East of England" data-level2="" data-practice="" option-value="c7ed30a9-7413-4741-b22a-330d633cbeba" role="menuitem" tabindex="-1">Wellingborough</a>
+</li>
+<li>
+<a data-itemid="5d1d0fff-3a71-4739-8488-e2c022093e0b" data-level1="West Midlands" data-level2="" data-practice="" option-value="5d1d0fff-3a71-4739-8488-e2c022093e0b" role="menuitem" tabindex="-1">Wellington</a>
+</li>
+<li>
+<a data-itemid="aaa4ad92-2fdf-4e9d-bfff-5de7b945b057" data-level1="South West" data-level2="" data-practice="" option-value="aaa4ad92-2fdf-4e9d-bfff-5de7b945b057" role="menuitem" tabindex="-1">Wells</a>
+</li>
+<li>
+<a data-itemid="2b236ac0-b3a3-42c5-8caf-37cfde80de54" data-level1="South East" data-level2="" data-practice="" option-value="2b236ac0-b3a3-42c5-8caf-37cfde80de54" role="menuitem" tabindex="-1">Weybridge</a>
+</li>
+<li>
+<a data-itemid="7c066d07-05da-468e-beed-5d9309654ecf" data-level1="North West" data-level2="" data-practice="" option-value="7c066d07-05da-468e-beed-5d9309654ecf" role="menuitem" tabindex="-1">Whitehaven</a>
+</li>
+<li>
+<a data-itemid="9006f008-47fb-4187-9d91-e8d8ef2b66d3" data-level1="North West" data-level2="" data-practice="" option-value="9006f008-47fb-4187-9d91-e8d8ef2b66d3" role="menuitem" tabindex="-1">Whitehaven</a>
+</li>
+<li>
+<a data-itemid="ed9fa8c0-eabf-454e-a156-1231cfdbad6d" data-level1="North West" data-level2="" data-practice="" option-value="ed9fa8c0-eabf-454e-a156-1231cfdbad6d" role="menuitem" tabindex="-1">Wigton</a>
+</li>
+<li>
+<a data-itemid="9cfa72d0-10f0-495c-bc12-6138148dcda5" data-level1="South East" data-level2="" data-practice="" option-value="9cfa72d0-10f0-495c-bc12-6138148dcda5" role="menuitem" tabindex="-1">Winchester</a>
+</li>
+<li>
+<a data-itemid="dd78b6d2-75c2-4e9a-9f6a-2d20b9081257" data-level1="South East" data-level2="" data-practice="" option-value="dd78b6d2-75c2-4e9a-9f6a-2d20b9081257" role="menuitem" tabindex="-1">Windsor</a>
+</li>
+<li>
+<a data-itemid="25238863-962d-44c5-98d8-b028d3657b7e" data-level1="East of England" data-level2="" data-practice="" option-value="25238863-962d-44c5-98d8-b028d3657b7e" role="menuitem" tabindex="-1">Wisbech</a>
+</li>
+<li>
+<a data-itemid="0d2cbe4d-b8a1-44a3-b76d-025cdfef4de5" data-level1="East of England" data-level2="" data-practice="" option-value="0d2cbe4d-b8a1-44a3-b76d-025cdfef4de5" role="menuitem" tabindex="-1">Witham</a>
+</li>
+<li>
+<a data-itemid="b22b3541-5ef5-418f-b6e6-936a24f390be" data-level1="South East" data-level2="" data-practice="" option-value="b22b3541-5ef5-418f-b6e6-936a24f390be" role="menuitem" tabindex="-1">Woking</a>
+</li>
+<li>
+<a data-itemid="9111c131-5a12-4891-a876-2b447a953345" data-level1="West Midlands" data-level2="" data-practice="" option-value="9111c131-5a12-4891-a876-2b447a953345" role="menuitem" tabindex="-1">Wolverhampton</a>
+</li>
+<li>
+<a data-itemid="6b8c0e96-feb7-42d8-b482-dc9958e77718" data-level1="South East" data-level2="" data-practice="" option-value="6b8c0e96-feb7-42d8-b482-dc9958e77718" role="menuitem" tabindex="-1">Woolston</a>
+</li>
+<li>
+<a data-itemid="9cda5924-5511-40e3-938f-205d4eb3b613" data-level1="West Midlands" data-level2="" data-practice="" option-value="9cda5924-5511-40e3-938f-205d4eb3b613" role="menuitem" tabindex="-1">Worcester</a>
+</li>
+<li>
+<a data-itemid="e3cd51f2-93f8-4c1a-8c05-bb157ab60c29" data-level1="North West" data-level2="" data-practice="" option-value="e3cd51f2-93f8-4c1a-8c05-bb157ab60c29" role="menuitem" tabindex="-1">Workington</a>
+</li>
+<li>
+<a data-itemid="b07da15c-41f9-450b-ba8c-c4c621a4fa61" data-level1="South East" data-level2="" data-practice="" option-value="b07da15c-41f9-450b-ba8c-c4c621a4fa61" role="menuitem" tabindex="-1">Worthing</a>
+</li>
+<li>
+<a data-itemid="da614251-74d7-41b3-b94b-1fdaffbde53a" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="da614251-74d7-41b3-b94b-1fdaffbde53a" role="menuitem" tabindex="-1">Yarm</a>
+</li>
+<li>
+<a data-itemid="4c49a342-b0f8-464f-aadb-1061c2aaae0e" data-level1="Yorkshire and the Humber" data-level2="" data-practice="" option-value="4c49a342-b0f8-464f-aadb-1061c2aaae0e" role="menuitem" tabindex="-1">York</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row width-60">
+<label>Practice*</label>
+<div class="field-container">
+<input class="field forminput hidden-field" data-invalid="" data-no-validate="false" data-required="Please select practice " id="ecf9931e-0227-4a0a-bfcf-6169225afedd" name="practice" type="text" value=""/>
+<div class="dropdown dropdown-dental field dropdown-field-title" id="ecf9931e-0227-4a0a-bfcf-6169225afedd">
+<button class="dropdown-toggle search-filter-dropdown contact-form-dropdown form-button titleMenu" data-input-id="ecf9931e-0227-4a0a-bfcf-6169225afedd" data-toggle="dropdown" id="ecf9931e-0227-4a0a-bfcf-6169225afedd" type="button">
+<span class="selected-text"></span>
+<span class="caret"></span>
+</button>
+<ul aria-labelledby="dLabel" class="dropdown-menu mulitilist practice" data-campaign="False" data-child="" data-itemid="ecf9931e-0227-4a0a-bfcf-6169225afedd" data-level="2" role="menu">
+<li>
+<a data-itemid="2e6b3e56-0745-4919-b6fe-56d22e0fbd49" data-level1="Greater London" data-level2="London" data-practice="DWP-0176" option-value="2e6b3e56-0745-4919-b6fe-56d22e0fbd49" role="menuitem" tabindex="-1">b dental</a>
+</li>
+<li>
+<a data-itemid="d0f22348-889c-4e7c-a805-9afda6b2f1a5" data-level1="North West" data-level2="Accrington" data-practice="DWP-0003" option-value="d0f22348-889c-4e7c-a805-9afda6b2f1a5" role="menuitem" tabindex="-1">Bupa Dental Care Accrington</a>
+</li>
+<li>
+<a data-itemid="b0ff07b0-5bac-400b-bdad-72d029050c0c" data-level1="North West" data-level2="Ashton-in-Makerfield" data-practice="DWP-0010" option-value="b0ff07b0-5bac-400b-bdad-72d029050c0c" role="menuitem" tabindex="-1">Bupa Dental Care Ashton-in-Makerfield</a>
+</li>
+<li>
+<a data-itemid="1292691c-afd7-43aa-9cac-4fed9ba3c652" data-level1="South East" data-level2="Aylesbury" data-practice="DWP-0012" option-value="1292691c-afd7-43aa-9cac-4fed9ba3c652" role="menuitem" tabindex="-1">Bupa Dental Care Aylesbury</a>
+</li>
+<li>
+<a data-itemid="23dec662-e0aa-466e-9770-e4d8ca82e87d" data-level1="Northern Ireland" data-level2="Banbridge" data-practice="DWP-0013" option-value="23dec662-e0aa-466e-9770-e4d8ca82e87d" role="menuitem" tabindex="-1">Bupa Dental Care Banbridge</a>
+</li>
+<li>
+<a data-itemid="d414d15e-ffb4-4b45-80b5-a91c7f684e96" data-level1="Wales" data-level2="Bangor" data-practice="DWP-0015" option-value="d414d15e-ffb4-4b45-80b5-a91c7f684e96" role="menuitem" tabindex="-1">Bupa Dental Care Bangor</a>
+</li>
+<li>
+<a data-itemid="ea5a0e30-6227-4e2c-8131-2df3fc18d617" data-level1="North West" data-level2="Barnton" data-practice="DWP-0017" option-value="ea5a0e30-6227-4e2c-8131-2df3fc18d617" role="menuitem" tabindex="-1">Bupa Dental Care Barnton</a>
+</li>
+<li>
+<a data-itemid="e0f5ccf5-f585-419b-b3c0-c0fed32ab946" data-level1="South East" data-level2="Binfield" data-practice="DWP-0026" option-value="e0f5ccf5-f585-419b-b3c0-c0fed32ab946" role="menuitem" tabindex="-1">Bupa Dental Care Binfield</a>
+</li>
+<li>
+<a data-itemid="7e4f5269-7851-4165-8086-f5372bc1ee91" data-level1="North West" data-level2="Blackpool" data-practice="DWP-0033" option-value="7e4f5269-7851-4165-8086-f5372bc1ee91" role="menuitem" tabindex="-1">Bupa Dental Care Blackpool Station Road</a>
+</li>
+<li>
+<a data-itemid="9350ee8c-28fd-4a45-b787-dbb670fb39e8" data-level1="South East" data-level2="Bognor Regis" data-practice="DWP-0034" option-value="9350ee8c-28fd-4a45-b787-dbb670fb39e8" role="menuitem" tabindex="-1">Bupa Dental Care Bognor Regis</a>
+</li>
+<li>
+<a data-itemid="6a78be4b-fc99-4a16-b37d-4f7c1d2571ae" data-level1="North West" data-level2="Bolton" data-practice="DWP-0036" option-value="6a78be4b-fc99-4a16-b37d-4f7c1d2571ae" role="menuitem" tabindex="-1">Bupa Dental Care Bolton - Chorley New Road</a>
+</li>
+<li>
+<a data-itemid="11cfd315-4bbb-488d-bf5d-701cc1bd2848" data-level1="North West" data-level2="Bolton" data-practice="DWP-0419" option-value="11cfd315-4bbb-488d-bf5d-701cc1bd2848" role="menuitem" tabindex="-1">Bupa Dental Care Bolton, Silverwell Street</a>
+</li>
+<li>
+<a data-itemid="cfae53bb-611c-48aa-940c-1a51488a020f" data-level1="South East" data-level2="Bournemouth" data-practice="DWP-0039" option-value="cfae53bb-611c-48aa-940c-1a51488a020f" role="menuitem" tabindex="-1">Bupa Dental Care Bournemouth</a>
+</li>
+<li>
+<a data-itemid="bf1231b0-8c75-4736-81b6-157cf40681fc" data-level1="South East" data-level2="Bournemouth" data-practice="DWP-0040" option-value="bf1231b0-8c75-4736-81b6-157cf40681fc" role="menuitem" tabindex="-1">Bupa Dental Care Bournemouth Central</a>
+</li>
+<li>
+<a data-itemid="5e400dd7-64a2-462d-b755-119188abf47e" data-level1="Greater London" data-level2="London" data-practice="DWP-0065" option-value="5e400dd7-64a2-462d-b755-119188abf47e" role="menuitem" tabindex="-1">Bupa Dental Care Canary Wharf Columbus Courtyard</a>
+</li>
+<li>
+<a data-itemid="d23fb3b5-36e3-4c04-b69b-a64cc8ec0ad8" data-level1="Northern Ireland" data-level2="Carrickfergus" data-practice="DWP-0074" option-value="d23fb3b5-36e3-4c04-b69b-a64cc8ec0ad8" role="menuitem" tabindex="-1">Bupa Dental Care Carrickfergus</a>
+</li>
+<li>
+<a data-itemid="f0952d42-a32f-42bc-ad43-95b0a15e74d7" data-level1="East of England" data-level2="Chelmsford" data-practice="DWP-0077" option-value="f0952d42-a32f-42bc-ad43-95b0a15e74d7" role="menuitem" tabindex="-1">Bupa Dental Care Chelmsford</a>
+</li>
+<li>
+<a data-itemid="ff9eee64-0e48-4849-bcb8-f1554801b6b0" data-level1="North West" data-level2="Southport" data-practice="DWP-0305" option-value="ff9eee64-0e48-4849-bcb8-f1554801b6b0" role="menuitem" tabindex="-1">Bupa Dental Care Churchtown</a>
+</li>
+<li>
+<a data-itemid="58276ca4-083c-4108-8736-b2ed3dfb6f7b" data-level1="South West" data-level2="Bristol" data-practice="DWP-0052" option-value="58276ca4-083c-4108-8736-b2ed3dfb6f7b" role="menuitem" tabindex="-1">Bupa Dental Care Clifton</a>
+</li>
+<li>
+<a data-itemid="70d55f22-e6a0-4a5d-8a08-334a47ffc0b1" data-level1="South East" data-level2="Colchester" data-practice="DWP-0086" option-value="70d55f22-e6a0-4a5d-8a08-334a47ffc0b1" role="menuitem" tabindex="-1">Bupa Dental Care Colchester Ipswich Road</a>
+</li>
+<li>
+<a data-itemid="d88b6f5f-a8c0-4fdc-8a62-82fb6bee1503" data-level1="North West" data-level2="Congleton" data-practice="DWP-0088" option-value="d88b6f5f-a8c0-4fdc-8a62-82fb6bee1503" role="menuitem" tabindex="-1">Bupa Dental Care Congleton</a>
+</li>
+<li>
+<a data-itemid="5a2bc2c8-4b42-4bcd-ac4f-26cd5f7bc96f" data-level1="Scotland" data-level2="Cove Bay" data-practice="DWP-0094" option-value="5a2bc2c8-4b42-4bcd-ac4f-26cd5f7bc96f" role="menuitem" tabindex="-1">Bupa Dental Care Cove Bay</a>
+</li>
+<li>
+<a data-itemid="10c7abac-2b7d-4356-978b-03ccf487af0d" data-level1="West Midlands" data-level2="Conventry" data-practice="DWP-0095" option-value="10c7abac-2b7d-4356-978b-03ccf487af0d" role="menuitem" tabindex="-1">Bupa Dental Care Coventry</a>
+</li>
+<li>
+<a data-itemid="60220220-ff10-406f-828d-8f2db6657d08" data-level1="North West" data-level2="Liverpool" data-practice="DWP-0098" option-value="60220220-ff10-406f-828d-8f2db6657d08" role="menuitem" tabindex="-1">Bupa Dental Care Crosby</a>
+</li>
+<li>
+<a data-itemid="c9e12359-5a72-4cb4-bc1d-fd07470ae38c" data-level1="East of England" data-level2="Dereham" data-practice="DWP-0107" option-value="c9e12359-5a72-4cb4-bc1d-fd07470ae38c" role="menuitem" tabindex="-1">Bupa Dental Care Dereham</a>
+</li>
+<li>
+<a data-itemid="9097170c-694e-4795-9121-706567af146a" data-level1="North West" data-level2="Liverpool" data-practice="DWP-0111" option-value="9097170c-694e-4795-9121-706567af146a" role="menuitem" tabindex="-1">Bupa Dental Care Deysbrook</a>
+</li>
+<li>
+<a data-itemid="3720bf43-4ce5-47d8-bdb8-739f8a393b8e" data-level1="Scotland" data-level2="Dingwall" data-practice="DWP-0112" option-value="3720bf43-4ce5-47d8-bdb8-739f8a393b8e" role="menuitem" tabindex="-1">Bupa Dental Care Dingwall</a>
+</li>
+<li>
+<a data-itemid="e76d24f1-a78d-4a3a-b497-df724b45f5a0" data-level1="Scotland" data-level2="Elgin" data-practice="DWP-0126" option-value="e76d24f1-a78d-4a3a-b497-df724b45f5a0" role="menuitem" tabindex="-1">Bupa Dental Care Elgin</a>
+</li>
+<li>
+<a data-itemid="36188fe6-49aa-4eca-941f-922b6a4c3c2e" data-level1="West Midlands" data-level2="Birmingham" data-practice="DWP-0129" option-value="36188fe6-49aa-4eca-941f-922b6a4c3c2e" role="menuitem" tabindex="-1">Bupa Dental Care Erdington</a>
+</li>
+<li>
+<a data-itemid="fcb60524-41c1-4dd2-9d14-c6b231dd937a" data-level1="South East" data-level2="Fleet" data-practice="DWP-0137" option-value="fcb60524-41c1-4dd2-9d14-c6b231dd937a" role="menuitem" tabindex="-1">Bupa Dental Care Fleet Fleet Road</a>
+</li>
+<li>
+<a data-itemid="d02f293e-e06a-4ee5-9384-06e98fe50ffc" data-level1="South East" data-level2="Folkstone" data-practice="DWP-0139" option-value="d02f293e-e06a-4ee5-9384-06e98fe50ffc" role="menuitem" tabindex="-1">Bupa Dental Care Folkstone</a>
+</li>
+<li>
+<a data-itemid="927ae587-c8d9-446d-908b-7c322daf4577" data-level1="Wales" data-level2="Newport" data-practice="DWP-0240" option-value="927ae587-c8d9-446d-908b-7c322daf4577" role="menuitem" tabindex="-1">Bupa Dental Care Gaer</a>
+</li>
+<li>
+<a data-itemid="a71d8d4a-e213-4d40-9b46-a1f845f54813" data-level1="Northern Ireland" data-level2="Glengormley" data-practice="DWP-0148" option-value="a71d8d4a-e213-4d40-9b46-a1f845f54813" role="menuitem" tabindex="-1">Bupa Dental Care Glengormley</a>
+</li>
+<li>
+<a data-itemid="88931bf8-c68a-48d5-9c57-e4814f659397" data-level1="Yorkshire and the Humber" data-level2="Guiseley" data-practice="DWP-0158" option-value="88931bf8-c68a-48d5-9c57-e4814f659397" role="menuitem" tabindex="-1">Bupa Dental Care Guiseley</a>
+</li>
+<li>
+<a data-itemid="74e99991-5a35-41e9-914a-3e00a05bf9de" data-level1="South East" data-level2="Halstead" data-practice="DWP-0160" option-value="74e99991-5a35-41e9-914a-3e00a05bf9de" role="menuitem" tabindex="-1">Bupa Dental Care Halstead</a>
+</li>
+<li>
+<a data-itemid="c892e352-9028-4baa-b2b0-a3aef3bfe3ed" data-level1="South West" data-level2="Swindon" data-practice="DWP-0400" option-value="c892e352-9028-4baa-b2b0-a3aef3bfe3ed" role="menuitem" tabindex="-1">Bupa Dental Care Highworth</a>
+</li>
+<li>
+<a data-itemid="6fcd6347-5960-47bf-b88b-ed586f7963bb" data-level1="Yorkshire and the Humber" data-level2="Hull" data-practice="DWP-0174" option-value="6fcd6347-5960-47bf-b88b-ed586f7963bb" role="menuitem" tabindex="-1">Bupa Dental Care Hull - 590 Holderness Road</a>
+</li>
+<li>
+<a data-itemid="63fe96af-ed64-4ea3-b5ac-b1c7c550ef9c" data-level1="North East" data-level2="Newcastle" data-practice="DWP-0237" option-value="63fe96af-ed64-4ea3-b5ac-b1c7c550ef9c" role="menuitem" tabindex="-1">Bupa Dental Care Kelvin Lodge</a>
+</li>
+<li>
+<a data-itemid="f35c0ab5-f16b-49e1-92df-12266595cb04" data-level1="Greater London" data-level2="London" data-practice="DWP-0181" option-value="f35c0ab5-f16b-49e1-92df-12266595cb04" role="menuitem" tabindex="-1">Bupa Dental Care Kensington - High Street</a>
+</li>
+<li>
+<a data-itemid="f930e851-9358-4228-ad11-7c75df002a6a" data-level1="Scotland" data-level2="Aberdeen" data-practice="DWP-0183" option-value="f930e851-9358-4228-ad11-7c75df002a6a" role="menuitem" tabindex="-1">Bupa Dental Care Kingseat</a>
+</li>
+<li>
+<a data-itemid="782af70c-3c00-49b1-9dfb-fd1336296361" data-level1="South West" data-level2="Launceston" data-practice="DWP-0189" option-value="782af70c-3c00-49b1-9dfb-fd1336296361" role="menuitem" tabindex="-1">Bupa Dental Care Launceston</a>
+</li>
+<li>
+<a data-itemid="b8ab6df5-9fc8-4567-af11-45261d482213" data-level1="Greater London" data-level2="London" data-practice="DWP-0202" option-value="b8ab6df5-9fc8-4567-af11-45261d482213" role="menuitem" tabindex="-1">Bupa Dental Care London Bank</a>
+</li>
+<li>
+<a data-itemid="ac4f4a06-391c-4df0-8228-d3a7331ae160" data-level1="South East" data-level2="Longfield" data-practice="DWP-0204" option-value="ac4f4a06-391c-4df0-8228-d3a7331ae160" role="menuitem" tabindex="-1">Bupa Dental Care Longfield</a>
+</li>
+<li>
+<a data-itemid="8c6a432d-5151-434f-9542-30e655710151" data-level1="East of England" data-level2="Luton" data-practice="DWP-0206" option-value="8c6a432d-5151-434f-9542-30e655710151" role="menuitem" tabindex="-1">Bupa Dental Care Luton</a>
+</li>
+<li>
+<a data-itemid="7fe50add-64c1-487c-991b-c1fa224a7ab8" data-level1="South East" data-level2="Marden" data-practice="DWP-0217" option-value="7fe50add-64c1-487c-991b-c1fa224a7ab8" role="menuitem" tabindex="-1">Bupa Dental Care Marden</a>
+</li>
+<li>
+<a data-itemid="447bab86-a3a8-4e21-b442-cdce16c0c143" data-level1="Greater London" data-level2="London" data-practice="DWP-0220" option-value="447bab86-a3a8-4e21-b442-cdce16c0c143" role="menuitem" tabindex="-1">Bupa Dental Care Marylebone</a>
+</li>
+<li>
+<a data-itemid="419e59b4-ce36-4b68-be07-240fc52d556a" data-level1="Scotland" data-level2="Mintlaw" data-practice="DWP-0226" option-value="419e59b4-ce36-4b68-be07-240fc52d556a" role="menuitem" tabindex="-1">Bupa Dental Care Mintlaw</a>
+</li>
+<li>
+<a data-itemid="6c92a973-0068-431a-9c03-69707512eff5" data-level1="Greater London" data-level2="London" data-practice="DWP-0228" option-value="6c92a973-0068-431a-9c03-69707512eff5" role="menuitem" tabindex="-1">Bupa Dental Care Moorgate</a>
+</li>
+<li>
+<a data-itemid="ef5ce9cc-912a-4468-8db9-0ec7808b504b" data-level1="Wales" data-level2="Neath" data-practice="DWP-0232" option-value="ef5ce9cc-912a-4468-8db9-0ec7808b504b" role="menuitem" tabindex="-1">Bupa Dental Care Neath</a>
+</li>
+<li>
+<a data-itemid="98477c75-32a4-4664-9388-09fdc7bf2188" data-level1="Wales" data-level2="Newport" data-practice="DWP-0238" option-value="98477c75-32a4-4664-9388-09fdc7bf2188" role="menuitem" tabindex="-1">Bupa Dental Care Newport</a>
+</li>
+<li>
+<a data-itemid="7466ff92-92e1-4b1e-b98f-42e508c25c5c" data-level1="East of England" data-level2="Corby" data-practice="DWP-0249" option-value="7466ff92-92e1-4b1e-b98f-42e508c25c5c" role="menuitem" tabindex="-1">Bupa Dental Care Oakley Vale</a>
+</li>
+<li>
+<a data-itemid="c8f6e36b-37b4-4e42-a0dc-2d8d9753c11c" data-level1="Scotland" data-level2="Glasgow" data-practice="DWP-0145" option-value="c8f6e36b-37b4-4e42-a0dc-2d8d9753c11c" role="menuitem" tabindex="-1">Bupa Dental Care Partick East</a>
+</li>
+<li>
+<a data-itemid="64a90b8b-bc81-4f64-8c57-2c426d371aaa" data-level1="East of England" data-level2="Peterborough" data-practice="DWP-0259" option-value="64a90b8b-bc81-4f64-8c57-2c426d371aaa" role="menuitem" tabindex="-1">Bupa Dental Care Peterborough - Broadway</a>
+</li>
+<li>
+<a data-itemid="49b5adb6-56e5-4ba8-a174-d38a7f4e0833" data-level1="Scotland" data-level2="Aberdeen" data-practice="DWP-0264" option-value="49b5adb6-56e5-4ba8-a174-d38a7f4e0833" role="menuitem" tabindex="-1">Bupa Dental Care Peterhead</a>
+</li>
+<li>
+<a data-itemid="54bc3dc0-4eee-438b-a354-50a43cbd09ff" data-level1="South West" data-level2="Plymouth" data-practice="DWP-0266" option-value="54bc3dc0-4eee-438b-a354-50a43cbd09ff" role="menuitem" tabindex="-1">Bupa Dental Care Plymstock</a>
+</li>
+<li>
+<a data-itemid="5169c95f-d32b-43d2-9839-8a730347bf9b" data-level1="Yorkshire and the Humber" data-level2="Pontefract" data-practice="DWP-0267" option-value="5169c95f-d32b-43d2-9839-8a730347bf9b" role="menuitem" tabindex="-1">Bupa Dental Care Pontefract</a>
+</li>
+<li>
+<a data-itemid="6998d9d2-a9a0-4aeb-ab5e-74e8765fa05d" data-level1="South West" data-level2="Poole" data-practice="DWP-0268" option-value="6998d9d2-a9a0-4aeb-ab5e-74e8765fa05d" role="menuitem" tabindex="-1">Bupa Dental Care Poole</a>
+</li>
+<li>
+<a data-itemid="7e98e995-4ba9-411d-9121-3dfe230a9e64" data-level1="South East" data-level2="Princes Risborough" data-practice="DWP-0404" option-value="7e98e995-4ba9-411d-9121-3dfe230a9e64" role="menuitem" tabindex="-1">Bupa Dental Care Princes Risborough | Dentist</a>
+</li>
+<li>
+<a data-itemid="6aa6d45e-dc51-48a3-8f66-3e5af43d5720" data-level1="Scotland" data-level2="Aberdeen" data-practice="DWP-0002" option-value="6aa6d45e-dc51-48a3-8f66-3e5af43d5720" role="menuitem" tabindex="-1">Bupa Dental Care Queens Road</a>
+</li>
+<li>
+<a data-itemid="d9d53f17-3743-419a-94bc-2a4d857c722e" data-level1="West Midlands" data-level2="Rayleigh" data-practice="DWP-0274" option-value="d9d53f17-3743-419a-94bc-2a4d857c722e" role="menuitem" tabindex="-1">Bupa Dental Care Rayleigh</a>
+</li>
+<li>
+<a data-itemid="f887ff62-a576-40bb-9dc5-5830801e8715" data-level1="West Midlands" data-level2="Birmingham" data-practice="DWP-0275" option-value="f887ff62-a576-40bb-9dc5-5830801e8715" role="menuitem" tabindex="-1">Bupa Dental Care Redditch</a>
+</li>
+<li>
+<a data-itemid="6b2797fc-cf8c-4673-9bd9-0b3bff4b4a39" data-level1="South East" data-level2="Surrey" data-practice="DWP-0276" option-value="6b2797fc-cf8c-4673-9bd9-0b3bff4b4a39" role="menuitem" tabindex="-1">Bupa Dental Care Reigate</a>
+</li>
+<li>
+<a data-itemid="02bc2f25-669b-4164-8c76-55c452f951a4" data-level1="West Midlands" data-level2="Ross-on-Wye" data-practice="DWP-0281" option-value="02bc2f25-669b-4164-8c76-55c452f951a4" role="menuitem" tabindex="-1">Bupa Dental Care Ross-on-Wye</a>
+</li>
+<li>
+<a data-itemid="155c68a2-603d-482e-a502-c061b4c5b857" data-level1="South East" data-level2="Sevenoaks" data-practice="DWP-0290" option-value="155c68a2-603d-482e-a502-c061b4c5b857" role="menuitem" tabindex="-1">Bupa Dental Care Sevenoaks</a>
+</li>
+<li>
+<a data-itemid="c3b92b01-0dfa-42e1-b33a-c69b3956d2b9" data-level1="Scotland" data-level2="Glasgow" data-practice="DWP-0293" option-value="c3b92b01-0dfa-42e1-b33a-c69b3956d2b9" role="menuitem" tabindex="-1">Bupa Dental Care Shawlands</a>
+</li>
+<li>
+<a data-itemid="7c6720c4-0556-4f9f-aa54-317e8f9f6926" data-level1="South West" data-level2="Sidmouth" data-practice="DWP-0297" option-value="7c6720c4-0556-4f9f-aa54-317e8f9f6926" role="menuitem" tabindex="-1">Bupa Dental Care Sidmouth</a>
+</li>
+<li>
+<a data-itemid="f4bc41d2-3282-41af-b3c0-2a0a8ff721c3" data-level1="East of England" data-level2="Skegness" data-practice="DWP-0298" option-value="f4bc41d2-3282-41af-b3c0-2a0a8ff721c3" role="menuitem" tabindex="-1">Bupa Dental Care Skegness</a>
+</li>
+<li>
+<a data-itemid="37c04e54-ded6-49f2-b104-f50de5c7b91e" data-level1="Greater London" data-level2="London" data-practice="DWP-0300" option-value="37c04e54-ded6-49f2-b104-f50de5c7b91e" role="menuitem" tabindex="-1">Bupa Dental Care Soho</a>
+</li>
+<li>
+<a data-itemid="7d74f174-f332-425e-8a73-78123708fbfe" data-level1="North West" data-level2="Southport" data-practice="DWP-0304" option-value="7d74f174-f332-425e-8a73-78123708fbfe" role="menuitem" tabindex="-1">Bupa Dental Care Southport</a>
+</li>
+<li>
+<a data-itemid="1b77254c-4d6c-4253-a715-925e05d10c87" data-level1="Scotland" data-level2="St Andrews" data-practice="DWP-0308" option-value="1b77254c-4d6c-4253-a715-925e05d10c87" role="menuitem" tabindex="-1">Bupa Dental Care St Andrews</a>
+</li>
+<li>
+<a data-itemid="dbe83706-c6ba-4fb0-a1f4-ccc6e816458a" data-level1="Greater London" data-level2="London" data-practice="DWP-0310" option-value="dbe83706-c6ba-4fb0-a1f4-ccc6e816458a" role="menuitem" tabindex="-1">Bupa Dental Care St Mary Axe</a>
+</li>
+<li>
+<a data-itemid="1c8cddd7-8f83-4205-bb6c-1782df5095d7" data-level1="East of England" data-level2="Stamford" data-practice="DWP-0315" option-value="1c8cddd7-8f83-4205-bb6c-1782df5095d7" role="menuitem" tabindex="-1">Bupa Dental Care Stamford</a>
+</li>
+<li>
+<a data-itemid="c9579934-e8c9-49b4-85df-a85401fe9f6f" data-level1="West Midlands" data-level2="Burton on Trent" data-practice="DWP-0320" option-value="c9579934-e8c9-49b4-85df-a85401fe9f6f" role="menuitem" tabindex="-1">Bupa Dental Care Stretton</a>
+</li>
+<li>
+<a data-itemid="f93aceb7-dde9-4b05-9b97-965ac2b97076" data-level1="North East" data-level2="Sunderland" data-practice="DWP-0323" option-value="f93aceb7-dde9-4b05-9b97-965ac2b97076" role="menuitem" tabindex="-1">Bupa Dental Care Sunderland Wessington</a>
+</li>
+<li>
+<a data-itemid="5298b80e-21ef-4d72-85a4-1e85e8a08177" data-level1="West Midlands" data-level2="Birmingham" data-practice="DWP-0325" option-value="5298b80e-21ef-4d72-85a4-1e85e8a08177" role="menuitem" tabindex="-1">Bupa Dental Care Sutton Coldfield While Road</a>
+</li>
+<li>
+<a data-itemid="593547fa-8c4f-4ce2-9cbd-1019ac162335" data-level1="South East" data-level2="Surrey" data-practice="DWP-0331" option-value="593547fa-8c4f-4ce2-9cbd-1019ac162335" role="menuitem" tabindex="-1">Bupa Dental Care Thames Ditton</a>
+</li>
+<li>
+<a data-itemid="2c45a6b2-227e-4660-aa41-1db70fa64fff" data-level1="North West" data-level2="Blackpool" data-practice="DWP-0396" option-value="2c45a6b2-227e-4660-aa41-1db70fa64fff" role="menuitem" tabindex="-1">Bupa Dental Care Thornton-Cleveleys</a>
+</li>
+<li>
+<a data-itemid="2c45a6b2-227e-4660-aa41-1db70fa64fff" data-level1="North West" data-level2="Timperley" data-practice="DWP-0396" option-value="2c45a6b2-227e-4660-aa41-1db70fa64fff" role="menuitem" tabindex="-1">Bupa Dental Care Thornton-Cleveleys</a>
+</li>
+<li>
+<a data-itemid="4a32d892-9000-4e69-bb98-a32becfe7cd8" data-level1="West Midlands" data-level2="Burton on Trent" data-practice="DWP-0341" option-value="4a32d892-9000-4e69-bb98-a32becfe7cd8" role="menuitem" tabindex="-1">Bupa Dental Care Tutbury</a>
+</li>
+<li>
+<a data-itemid="d0c179d1-a53d-470b-8bd3-3d4e7efed1c7" data-level1="South East" data-level2="Uckfield" data-practice="DWP-0342" option-value="d0c179d1-a53d-470b-8bd3-3d4e7efed1c7" role="menuitem" tabindex="-1">Bupa Dental Care Uckfield</a>
+</li>
+<li>
+<a data-itemid="e196ddbd-145f-452c-b592-cf68c3a6f549" data-level1="East of England" data-level2="Waltham Cross" data-practice="DWP-0347" option-value="e196ddbd-145f-452c-b592-cf68c3a6f549" role="menuitem" tabindex="-1">Bupa Dental Care Waltham Cross</a>
+</li>
+<li>
+<a data-itemid="348bb528-80f3-437c-adf9-7b9e5a8a715e" data-level1="North West" data-level2="Warrington" data-practice="DWP-0350" option-value="348bb528-80f3-437c-adf9-7b9e5a8a715e" role="menuitem" tabindex="-1">Bupa Dental Care Warrington</a>
+</li>
+<li>
+<a data-itemid="124bc4bf-cbbe-4355-9798-678b3c082642" data-level1="South East" data-level2="Bournemouth" data-practice="DWP-0358" option-value="124bc4bf-cbbe-4355-9798-678b3c082642" role="menuitem" tabindex="-1">Bupa Dental Care Westbourne</a>
+</li>
+<li>
+<a data-itemid="e5327da1-8d4c-4c85-b152-008412132d93" data-level1="South East" data-level2="Winchester" data-practice="DWP-0364" option-value="e5327da1-8d4c-4c85-b152-008412132d93" role="menuitem" tabindex="-1">Bupa Dental Care Winchester</a>
+</li>
+<li>
+<a data-itemid="38cce35c-3f3f-4e27-aaa0-0851cbb186d0" data-level1="South East" data-level2="Woolston" data-practice="DWP-0375" option-value="38cce35c-3f3f-4e27-aaa0-0851cbb186d0" role="menuitem" tabindex="-1">Bupa Dental Care Woolston</a>
+</li>
+<li>
+<a data-itemid="4d770c58-be21-43ca-a174-1d4e46a97851" data-level1="West Midlands" data-level2="Worcester" data-practice="DWP-0377" option-value="4d770c58-be21-43ca-a174-1d4e46a97851" role="menuitem" tabindex="-1">Bupa Dental Care Worcester - St Johns</a>
+</li>
+<li>
+<a data-itemid="27baaabc-e4dc-45d5-b9ab-1333dba9de1e" data-level1="Northern Ireland" data-level2="Belfast" data-practice="DWP-0023" option-value="27baaabc-e4dc-45d5-b9ab-1333dba9de1e" role="menuitem" tabindex="-1">Cranmore Excellence in Dentistry</a>
+</li>
+<li>
+<a data-itemid="139a86fd-3dc3-4484-9699-97761c603123" data-level1="South West" data-level2="Exeter" data-practice="DWP-0133" option-value="139a86fd-3dc3-4484-9699-97761c603123" role="menuitem" tabindex="-1">Exeter Dental Centre</a>
+</li>
+<li>
+<a data-itemid="d8c4ff9a-19cb-4725-a0c4-60f6c21ca199" data-level1="East of England" data-level2="Radlett" data-practice="DWP-0273" option-value="d8c4ff9a-19cb-4725-a0c4-60f6c21ca199" role="menuitem" tabindex="-1">Gingerbread House Dental and Health Centre</a>
+</li>
+<li>
+<a data-itemid="e8c98c45-41dd-4658-9470-9484b4845bfa" data-level1="North West" data-level2="Manchester" data-practice="DWP-0214" option-value="e8c98c45-41dd-4658-9470-9484b4845bfa" role="menuitem" tabindex="-1">Malt House Specialist Dental Centre</a>
+</li>
+<li>
+<a data-itemid="67dc0197-8dff-42da-92f5-3773c5e412be" data-level1="North West" data-level2="Morecambe" data-practice="DWP-0424" option-value="67dc0197-8dff-42da-92f5-3773c5e412be" role="menuitem" tabindex="-1">Moreton Dental Care</a>
+</li>
+<li>
+<a data-itemid="91431423-c6c4-4f8c-be59-3a7f9e00f559" data-level1="South West" data-level2="Torquay" data-practice="DWP-0335" option-value="91431423-c6c4-4f8c-be59-3a7f9e00f559" role="menuitem" tabindex="-1">Shiphay Dental and Torbay Implant Centre</a>
+</li>
+<li>
+<a data-itemid="d62b0ce8-1c1a-4c0b-b26a-077fedee304f" data-level1="Wales" data-level2="Cardiff" data-practice="DWP-0072" option-value="d62b0ce8-1c1a-4c0b-b26a-077fedee304f" role="menuitem" tabindex="-1">The Parade Specialist Dental Centre</a>
+</li>
+<li>
+<a data-itemid="9c0a605d-ddd5-4515-8fc6-716eb7b15f95" data-level1="Yorkshire and the Humber" data-level2="Halifax" data-practice="DWP-0423" option-value="9c0a605d-ddd5-4515-8fc6-716eb7b15f95" role="menuitem" tabindex="-1">The Raglan Suite</a>
+</li>
+<li>
+<a data-itemid="2d155d6b-6941-4aa3-8935-79f16f7458ea" data-level1="South East" data-level2="Fareham" data-practice="DWP-0356" option-value="2d155d6b-6941-4aa3-8935-79f16f7458ea" role="menuitem" tabindex="-1">The Wessex Dental Specialist Centre</a>
+</li>
+<li>
+<a data-itemid="90939061-a077-467f-a7f4-c1fc36cbcb47" data-level1="Scotland" data-level2="Glasgow" data-practice="DWP-0147" option-value="90939061-a077-467f-a7f4-c1fc36cbcb47" role="menuitem" tabindex="-1">Visage Cosmetic Dental Clinic</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row width-100">
+<label>Message*</label>
+<div class="field-container">
+<textarea class="field forminput lrg" cols="1" data-invalid="" data-regex="" data-required="Please enter the message" data-val="true" data-val-regex="Please enter valid text. (.\s)*" data-val-regex-pattern="" data-val-required="Please enter the message" id="d17eebbb-82e6-4e46-b0bd-1d60520efb81" maxlength="" name="comments" rows="5"></textarea>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="formgroup">
+<div class="marketing-text">
+<p></p><p>We recognise that when you give us personal information (which includes health information) you’re trusting us to take good care of it.</p>
+<p>Please see our <a class="color : 0079c8" href="/legal-notices/privacy-and-cookies">privacy policy</a> for more information about how we collect, use and protect your data.
+If you don’t want to receive marketing about Bupa products and services that we think are relevant to you, please contact us at <a class="color : 0079c8" href="mailto:optmeout@bupa.com?subject=Opt me out">optmeout@bupa.com</a>.</p>
+</div>
+</div>
+<div class="row controls">
+<button class="btn-form-submit btn-primary-color-orange" id="submit-general" type="submit">Submit</button>
+</div>
+<div id="reqguideform"></div>
+</form>

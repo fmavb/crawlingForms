@@ -1,0 +1,348 @@
+<form action="/protection/direct/pagesFw/quoteInputPage.xhtml" autocomplete="off" enctype="application/x-www-form-urlencoded" id="quoteInputForm" method="post" name="quoteInputForm" novalidate="novalidate">
+<input name="quoteInputForm" type="hidden" value="quoteInputForm"/>
+<!-- Page title : start -->
+<!-- &lt;ui:insert name=&quot;strapline&quot; /&gt; -->
+<div class="page-wrapper">
+<div class="content-wrapper">
+<fieldset class="l-section">
+<div class="l-content-container">
+<div class="progressArea">
+<div class="a-progress-bar a-progress-bar--4-steps a-progress-bar--1-4">
+<p class="a-progress-bar__step">Critical illness quote
+				<strong>Step 1 of 4</strong>
+</p>
+<div class="a-progress-bar__ui">
+<div></div>
+</div>
+<div class="a-progress-bar__line">
+<div></div>
+</div>
+</div>
+</div>
+<div>
+<h1 class="a-heading a-heading--1 u-margin--top-none u-margin--bottom-none padding-top-15px padding-bottom-40px">Your details</h1>
+</div>
+<div class="l-columns l-columns--66-33-large">
+<div class="l-columns__column" id="main" role="main"><div class="m-form-row__content" id="id_dummyErrorDiv"><input id="id_dummyErrors" name="id_dummyErrors" type="hidden"/></div>
+<div class="your_data_link_mobile padding-bottom-20px">
+<div>
+		You can find out how we use your data and how to contact us with any queries 
+		<a data-module="o-modal" href="#yourDataModal">here</a>
+</div>
+<div class="o-modal__content-container" id="yourDataModal">
+<div class="a-heading a-heading--2 a-heading--semibold">Your data
+		</div>
+<p class="u-margin--top-none u-margin--bottom-none">The data controllers responsible for processing this personal information are Aviva Life &amp; Pensions UK Limited as the insurer of the product and Aviva UK Digital Limited who is responsible for the sale and distribution of the product.
+		</p>
+<p class="padding-top-20px u-margin--top-none u-margin--bottom-none">We will use the information you have given us to decide if we can offer you insurance and to generate a quote for you. This information will include personal and health data for all those to be covered. We will need to share this information within the Aviva Group and with our reinsurers and other specific third parties. See our <a href="https://www.aviva.co.uk/legal/privacy-policy.html" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank">Privacy Policy</a> for more about how we share your personal data within the Aviva Group.
+		</p>
+<p class="padding-top-20px u-margin--top-none u-margin--bottom-none">You have various rights in relation to your personal information, including requests for: access to your information, to correct any mistakes, erase or restrict records, and in some circumstances objecting to our use of your personal data, and to data portability for electronically provided information.
+		</p>
+<p class="padding-top-20px u-margin--top-none u-margin--bottom-none">If you have any questions about how we use personal information, or if you want to exercise your rights about your data, please contact our Data Protection Officer by either emailing them at <a href="mailto:DATAPRT@aviva.com">DATAPRT@aviva.com</a> or writing to them at:
+		</p>
+<p class="padding-top-20px u-margin--top-none u-margin--bottom-none">Aviva<br/>Pitheavlis<br/> Perth<br/>PH2 0NH
+		</p>
+</div>
+</div>
+<div aria-live="polite" class="m-card m-card-notification m-card-notification--information t-accent-light t-accent-light--white u-margin--bottom-none" data-module="m-card-close" id="quoteNotificationInfo" role="status">
+<div class="m-card-content">
+<p>Before you start, make sure you’ve read our <a href="http://www.aviva.co.uk/life/critical-illness-cover" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank">Critical Illness Plan page</a>, so you know exactly what you’re buying. If you’re still unsure while getting your quote, the <a href="http://www.aviva.co.uk/life/critical-illness-cover/policy-summary.html" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank">Critical Illness Plan Policy Summary</a> and <a href="http://www.aviva.co.uk/life/critical-illness-cover/policy-conditions.html" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank">Critical Illness Plan Policy Conditions</a> will be on each page and will always be on hand to help out.
+				</p>
+</div>
+<a aria-controls="quoteNotificationInfo" class="m-card__close" href="#quoteNotificationInfo">Close</a>
+</div>
+<div class="u-divider u-margin--top-none padding-top-40px">
+<h2 class="a-heading a-heading--2 a-heading--semibold">Who would you like to cover?</h2>
+</div>
+<!--  formRow start --><div id="id_quoteLives">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content"><ul class="m-radio-group m-radio-group--pictorial m-radio-group--2" data-module="m-radio-segmented" id="id_quoteLivesRadio"><li class="m-radio-group__item single-life-icon"><label class="a-radio" for="id_quoteLivesRadio:0"><input class="a-radio__input" id="id_quoteLivesRadio:0" name="id_quoteLivesRadio" type="radio" value="1"/><span class="a-radio__label"><span class="a-radio__label-inner"> Just me</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item joint-lives-icon"><label class="a-radio" for="id_quoteLivesRadio:1"><input class="a-radio__input" id="id_quoteLivesRadio:1" name="id_quoteLivesRadio" type="radio" value="2"/><span class="a-radio__label"><span class="a-radio__label-inner"> Me and someone else</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li></ul>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<!-- formRow start --><div class="form-group has-error" id="id_FF151_aboutYou_row_">
+<!-- formRow label  -->
+<div class="m-form-row__content">
+<div class="form-label">
+</div>
+</div>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<div class="u-divider m-form-row m-form-row--full-width padding-top-20px">
+<h2 class="a-heading a-heading--2 a-heading--semibold">About you
+				</h2>
+</div>
+<!-- formRow help icon (optional)  -->
+</div>
+<!-- formRow help (optional)  --></div>
+<!--  formRow end -->
+<!--  formRow start --><div id="id_FF151_title_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large form-group">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+						Title
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content"><div class="m-form-row__content"><ul class="m-radio-group m-radio-group--5 tealeafHide" data-module="m-radio-segmented" id="id_titleRadio_"><li class="m-radio-group__item"><label class="a-radio" for="id_titleRadio_:0"><input class="a-radio__input" id="id_titleRadio_:0" name="id_titleRadio_" type="radio" value="Mr"/><span class="a-radio__label"><span class="a-radio__label-inner"> Mr</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" for="id_titleRadio_:1"><input class="a-radio__input" id="id_titleRadio_:1" name="id_titleRadio_" type="radio" value="Mrs"/><span class="a-radio__label"><span class="a-radio__label-inner"> Mrs</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" for="id_titleRadio_:2"><input class="a-radio__input" id="id_titleRadio_:2" name="id_titleRadio_" type="radio" value="Dr"/><span class="a-radio__label"><span class="a-radio__label-inner"> Dr</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" for="id_titleRadio_:3"><input class="a-radio__input" id="id_titleRadio_:3" name="id_titleRadio_" type="radio" value="Miss"/><span class="a-radio__label"><span class="a-radio__label-inner"> Miss</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" for="id_titleRadio_:4"><input class="a-radio__input" id="id_titleRadio_:4" name="id_titleRadio_" type="radio" value="Ms"/><span class="a-radio__label"><span class="a-radio__label-inner"> Ms</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li></ul></div>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<!--  formRow start --><div id="id_FF151_forename_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+						First name 
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content"><input class="a-textbox tealeafHide" id="id_forename_" maxlength="30" name="id_forename_" placeholder="First name" size="20" type="text" value=""/>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<!--  formRow start --><div id="id_FF151_surname_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+						Last name
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content"><input class="a-textbox tealeafHide" id="id_surname_" maxlength="30" name="id_surname_" placeholder="Last name" size="20" type="text" value=""/><input id="hiddenText_" name="hiddenText_" type="hidden" value=""/>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<!-- Adding DOB and smoker status below in the form -->
+<!--  formRow start --><div id="id_FF155_dob_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large form-inline" id="dateOfBirth_">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+						Date of birth
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<div class="m-textbox-group m-form-row__content">
+<ul class="m-textbox-group m-textbox-group--visible-label">
+<li class="m-textbox-group__item"><span class="m-textbox-group__item-label" id="id_FF104_dateOfBirthDayText_">DD</span><input class="a-textbox a-textbox--2-character tealeafHide" id="id_FF104_dateOfBirthDay_" maxlength="2" name="id_FF104_dateOfBirthDay_" type="text"/>
+</li>
+<li class="m-textbox-group__item"><span class="m-textbox-group__item-label" id="id_FF104_dateOfBirthMonthText_">MM</span><input class="a-textbox a-textbox--2-character tealeafHide" id="id_FF104_dateOfBirthMonth_" maxlength="2" name="id_FF104_dateOfBirthMonth_" type="text"/>
+</li>
+<li class="m-textbox-group__item"><span class="m-textbox-group__item-label" id="id_FF104_dateOfBirthYearText_">YYYY</span><input class="a-textbox a-textbox--4-character tealeafHide" id="id_FF104_dateOfBirthYear_" maxlength="4" name="id_FF104_dateOfBirthYear_" type="text"/>
+</li>
+</ul>
+</div>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<!--  formRow start --><div id="id_FF179_smokerStatus_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+						Smoker Status
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<p>We need accurate information about your use of cigarettes, cigars, a pipe or any other tobacco or nicotine products including nicotine gums, patches, inhalers, tablets, lozenges, sprays and electronic products, even if only on an occasional basis. It’s an important factor in our assessment of terms and payment of claims and we carry out tests to confirm use.</p>
+<div class="m-form-row__help" data-module="m-form-row__help">
+</div><div class="m-form-row__content"><ul class="m-radio-group m-radio-group--3" data-module="m-radio-segmented" id="id_smokerStatusRadio_"><li class="m-radio-group__item"><label class="a-radio" for="id_smokerStatusRadio_:0"><input class="a-radio__input" id="id_smokerStatusRadio_:0" name="id_smokerStatusRadio_" onclick="mojarra.ab(this,event,'click',0,'exSmokerStatusOption_',{'onevent':$p.ajax.handleAjax})" type="radio" value="1"/><span class="a-radio__label"><span class="a-radio__label-inner"> Never used</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" for="id_smokerStatusRadio_:1"><input class="a-radio__input" id="id_smokerStatusRadio_:1" name="id_smokerStatusRadio_" onclick="mojarra.ab(this,event,'click',0,'exSmokerStatusOption_',{'onevent':$p.ajax.handleAjax})" type="radio" value="2"/><span class="a-radio__label"><span class="a-radio__label-inner"> Regular, occasional or social use</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li><li class="m-radio-group__item"><label class="a-radio" for="id_smokerStatusRadio_:2"><input class="a-radio__input" id="id_smokerStatusRadio_:2" name="id_smokerStatusRadio_" onclick="mojarra.ab(this,event,'click',0,'exSmokerStatusOption_',{'onevent':$p.ajax.handleAjax})" type="radio" value="8"/><span class="a-radio__label"><span class="a-radio__label-inner"> Not a current smoker but have smoked in the past</span></span><span class="a-radio__ui"></span></label><div style="clear:both"></div></li></ul></div>
+<noscript>
+<div class="btn--margin--top">
+<span class="a-button a-button--secondary a-button--input"><input class="a-button__inner" id="id_confirmSmokerStatus_" name="id_confirmSmokerStatus_" onclick="mojarra.ab(this,event,'action','@form','exSmokerStatusOption_');return false" title="Confirm details" type="submit" value="Confirm details"/>
+</span>
+<span class="a-button a-button--secondary a-button--input u-hidden"><input class="a-button__inner" id="id_confirmSmokerStatus__disabled" name="id_confirmSmokerStatus__disabled" title="Confirm details" type="submit" value="Confirm details"/>
+</span>
+</div>
+</noscript><div class="m-form-row__content" id="exSmokerStatusOption_"></div>
+</div>
+</fieldset></div>
+<!--  formRow end --><div class="form-container" id="ajax_address_container__currentAddress">
+<!--  formRow start --><div id="id_FF158_postcode_screen_row__currentAddress">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+						Postcode
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<p>To apply you must be a UK resident (excluding the Channel Islands and Isle of Man) or have a BFPO address and have permission to legally remain in the UK on a permanent basis.   
+				</p><input class="a-textbox tealeafHide" id="id_postcode_screen__currentAddress" name="id_postcode_screen__currentAddress" type="text" value=""/>
+<div class="btn--margin--top">
+<span class="a-button a-button--input a-button--secondary"><input class="a-button__inner" id="id_FF159_findAddress__currentAddress_nojs" name="id_FF159_findAddress__currentAddress_nojs" onclick="mojarra.ab(this,event,'action','@form','ajax_address_container__currentAddress',{'onevent':function(data) { $p.ajax.handleAddressSearchAjax(data,'id_FF170_select_address_row__currentAddress');},'onerror':$p.ajax.handleAjaxError});return false" title="" type="submit" value="Find address"/>
+</span>
+<span class="a-button a-button--input a-button--secondary hidden is-disabled displayNone"><input class="a-button__inner disabled-button" id="id_FF159_findAddress__currentAddress_nojs_disabled" name="id_FF159_findAddress__currentAddress_nojs_disabled" title="" type="submit" value="Find address"/>
+</span>
+</div>
+<div class="padding-top-40px">Moving house? If you are moving soon please use your current address. You can tell us your new address once you’ve moved.
+				</div>
+</div>
+</fieldset></div>
+<!--  formRow end --></div>
+<!--  formRow start --><div id="id_FF156_email_row_">
+<fieldset class="m-form-row m-form-row--full-width l-max l-max--left l-max--9-column-large">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+						Email address
+						<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<div class="m-form-row__help" data-module="m-form-row__help">
+<p><span class="m-form-row__help">Please enter your preferred email address. We need your email address to allow you access to retrieve your quote. See our <a href="https://www.aviva.co.uk/legal/privacy-notice/life/" onmousedown="$p.ui.page.setShowNavigationWarning(false);" target="_blank">Privacy Notice</a> for more details.</span>
+</p>
+</div><input class="verifyemailaddress a-textbox tealeafHide" id="id_emailAddress_" name="id_emailAddress_" placeholder="you@yahoo.com" type="email" value=""/>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+<div class="m-form-row m-form-row--full-width u-divider">
+<h2 class="a-heading a-heading--2 a-heading--semibold">Keeping you informed</h2>
+</div>
+<div class="m-form-row l-max l-max--left l-max--9-column-large">
+<p>From time to time, we'd like to send you offers and discounts we think you'd be interested in.
+			</p>
+</div>
+<div class="m-form-row m-form-row--full-width m-showhide" data-module="m-showhide">
+<h3 class="a-heading a-heading--3 a-heading--light m-showhide__heading">
+		   Tell us if you do not want to hear from us.
+		</h3>
+<div class="m-showhide__content">
+<!--  formRow start --><div id="id_FF151_accordion_row_">
+<fieldset class="m-form-row m-form-row--light m-form-row--full-width l-max l-max--left l-max--9-column-large u-margin--top-none u-margin--bottom-none">
+<span class="a-label">
+<!-- formRow label  -->
+<legend>
+<!-- optional further text -->
+<!-- formRow help icon (optional)  -->
+</legend>
+</span>
+<!-- formRow help (optional)  -->
+<div class="m-form-row__content">
+<p><strong>How we keep you informed</strong></p>
+<p>If you would prefer not to receive communications about our products and promotions, please indicate below.  You can always tell us if you change your mind.</p><ul class="m-checkbox-group checkbox-width" id="id_preferedWayRadio_"><li class="m-checkbox-group__item"><label class="a-checkbox" for="id_preferedWayRadio_:0"><input class="a-checkbox__input" id="id_preferedWayRadio_:0" name="id_preferedWayRadio_" type="checkbox" value="2"/><span class="a-checkbox__label"><span class="a-checkbox__label-inner"> Email</span></span><span class="a-checkbox__ui"></span></label><div style="clear:both"></div></li><li class="m-checkbox-group__item"><label class="a-checkbox" for="id_preferedWayRadio_:1"><input class="a-checkbox__input" id="id_preferedWayRadio_:1" name="id_preferedWayRadio_" type="checkbox" value="3"/><span class="a-checkbox__label"><span class="a-checkbox__label-inner"> Phone</span></span><span class="a-checkbox__ui"></span></label><div style="clear:both"></div></li><li class="m-checkbox-group__item"><label class="a-checkbox" for="id_preferedWayRadio_:2"><input class="a-checkbox__input" id="id_preferedWayRadio_:2" name="id_preferedWayRadio_" type="checkbox" value="1"/><span class="a-checkbox__label"><span class="a-checkbox__label-inner"> Post</span></span><span class="a-checkbox__ui"></span></label><div style="clear:both"></div></li></ul>
+</div>
+</fieldset></div>
+<!--  formRow end -->
+</div>
+</div>
+<div class="m-form-row m-form-row--full-width">
+<ul class="m-button-group">
+<li class="m-button-group__item">
+<span class="a-button a-button--primary a-button--input"><input class="a-button__inner" id="id_FF811_continue_nojs" name="id_FF811_continue_nojs" onclick="disableDoubleClick();" onmousedown="$p.ui.page.setShowNavigationWarning(false);" title="" type="submit" value="Continue"/>
+</span>
+<span class="a-button a-button--primary a-button--input is-disabled hidden displayNone"><input class="a-button__inner disabled-button" disabled="disabled" id="id_FF811_continue_nojs_disabled" name="id_FF811_continue_nojs_disabled" title="" type="submit" value="Continue"/>
+</span>
+</li>
+<li class="m-button-group__item">
+</li>
+</ul>
+</div>
+</div>
+<!-- &lt;div id=&quot;main&quot; role=&quot;main&quot;&gt;
+									&lt;a id=&quot;myLink&quot; href=&quot;#&quot; &gt;js test&lt;/a&gt;
+								&lt;/div&gt;
+								invoke a function defined in a module that was exported to the window namespace 
+								
+								&lt;div id=&quot;main&quot; role=&quot;main&quot;&gt;
+									&lt;a id=&quot;myLink&quot; href=&quot;#&quot; onClick=&quot;globalAlert('clicked global');&quot; &gt;js test 2&lt;/a&gt;
+								&lt;/div&gt; -->
+<div class="l-columns__column" role="complementary">
+<div class="l-columns__column m-card t-accent-light t-accent-light--grey slick-slide slick-active">
+<div class="m-card-content">
+<div class="m-card-content__inner">
+<div class="a-heading a-heading--2 a-heading--semibold">Further information</div>
+<p>
+<a href="http://www.aviva.co.uk/life/critical-illness-cover/policy-summary.html" id="id_FF905_keyfeatures_0" target="_blank"> 
+		 
+		Critical Illness Plan Policy Summary
+	</a>
+</p>
+<p>
+<a href="http://www.aviva.co.uk/life/critical-illness-cover/policy-conditions.html" id="id_FF905_terms_0" target="_blank"> 
+		
+		Critical Illness Plan Policy Conditions
+		
+	</a>
+</p>
+<p>
+<a href="https://www.aviva.co.uk/legal/privacy-notice/life/" id="id_FF905_static_0" target="_blank">
+<span class="link-icon__inner">Privacy Notice</span>
+</a>
+</p>
+<p>
+<a href="http://www.aviva.co.uk/life/key-facts.html" id="id_FF905_static_1" target="_blank">
+<span class="link-icon__inner">About our insurance services</span>
+</a>
+</p>
+</div>
+</div>
+</div>
+<!--  livechat div -->
+<div class="col-sm-6 col-md-12">
+<div class="livechat-container" id="LP_DIV_DIRECT_ALPS_QUOTE">
+</div>
+</div>
+<div class="l-columns__column m-card t-accent-light t-accent-light--grey slick-slide slick-active">
+<div class="m-card-content m-card-content__inner">
+<div class="a-heading a-heading--2 a-heading--semibold">Call us</div>
+<div class="a-heading a-heading--2 a-heading--semibold">0800 068 0140
+					</div>
+<div>
+<dl class="u-align--center a-list-opening-times">
+<dt>Monday to Friday</dt>
+<dd>8.00am - 6.00pm</dd>
+<dt>Saturday</dt>
+<dd>9:00am - 2:00pm </dd>
+<dt>Sunday</dt>
+<dd>Closed</dd>
+</dl>
+</div>
+<p> For our joint protection, telephone calls may be recorded and/or monitored and will be saved for a minimum of five years. Calls to 0800 numbers from UK landlines and mobiles are free.</p>
+</div>
+</div>
+<div class="l-columns__column m-card t-accent-light t-accent-light--grey slick-slide slick-active">
+<div class="m-card-content">
+<h3 class="a-heading a-heading--2 a-heading--semibold">We’re secure</h3>
+<div class="m-card-content__inner">
+<p>Buy with confidence. We offer the highest level of security available on the internet.</p>
+<div class="m-card-image">
+<a href="https://ssl.comodo.com" target="_blank"><img alt="SSL Certificate" class="" src="/protection/direct/resourcesFw/images/comodo-secure-logo-new.png"/>
+</a>
+</div>
+<p>
+<a data-rel="externalLink" href="https://secure.comodo.com/ttb_searcher/trustlogo?v_querytype=W&amp;v_shortname=SC5&amp;v_search=direct.aviva.co.uk&amp;x=6&amp;y=5" target="_blank" title="This link will open in a new browser window or tab">More information 
+					</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+</div>
+</div><input id="j_id1:javax.faces.ViewState:0" name="javax.faces.ViewState" type="hidden" value="7229894598884132305:-4447789482608548174"/>
+</form>

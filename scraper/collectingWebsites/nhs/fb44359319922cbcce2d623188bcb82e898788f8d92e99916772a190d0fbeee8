@@ -1,0 +1,56 @@
+<form action="/services/hospital/russells-hall-hospital/X882/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Extremely  disappointed&lt;/Title&gt;
+    &lt;ScreenName&gt;Anxious&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Four weeks ago today at seven o'clock in the evening, out of the blue my wife had a phone call from 111 regarding a blood test she had had the previous day (Good Friday). She was told to go to AE immediately as her thyroxin levels were dangerously high. So in a state of some apprehension  we drove to Russels Hall. At first she was told she was going to be admitted to hospital, but that decision was reversed ( some of the nurses seemed surprised at this ) for some reason by an attending doctor who, after three hours, sent my wife home after being given a beta blocker to control her tachycardia and an appointment to return the next day (Easter Sunday) to the AEC at 11:40. At that appointment, during the six hours she was there, she was seen by about three different medics and had further tests to confirm she had an overactive thyroid gland. The final doctor she saw couldn't prescribe an appropriate course of treatment, saying she needed to see an endocrinologist. He apparently did speak an endocrinologist on the phone, who was too busy to see my wife that day, and told the doctor to prescribe corbimazole and beta blockers for now. The doctor said he would send a referral for her to get an appointment. At this point he seems to have totally forgotten to submit the referral, because, not having heard anything after nearly three weeks, we rang the endocrinology department and they had never heard of my wife. What possible excuse can there be for this incompetence? It cannot be that they were too busy because the unit it wasn't. Was he a supply doctor only working that day? 
+My wife's own doctor has now contacted the endocrinology dept to ensure she has been referred, which she has, but after four weeks she still has not received an appointment, she doesn't know if she is on the correct medication, or if what medication she has is the correct dosage. 
+At first we were impressed that following the blood test one day swift action was taken the next day to address the problem, but from thereon it's been downhill, particularly as various medics on the media have urged people to go to A&amp;amp;E units because they are not busy.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-05-09T17:51:32Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;4&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Russells Hall Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Endocrinology and Metabolic Medicine&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;cdb350b1-1d92-ea11-a811-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X882&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamELQV7Cgm0jpTW1ixCG8Hr3YLGpcKIxYJiq6lkEvF9NLMerrwKMET9Vj1Br4tH-yHwBHeRJV8BGsZVkzIoH_OiCdohlSmWT4iiCAbt86GwMFORyOzFYFc1wRg1w4TzOTOU"/></form>

@@ -1,0 +1,6 @@
+<form action="/api/sitecore/FreeTextEnquiry/EnquiryMail" method="post"> <h3 class="user-feedback-form__title"> </h3>
+<div class="user-feedback-form__input-wrap">
+<textarea class="user-feedback-form__input" maxlength="400" name="userFeedback" placeholder="Enter some text..."></textarea>
+</div>
+<a class="btn user-feedback-form__submit rte-remove-float" href="#">Submit</a>
+</form>

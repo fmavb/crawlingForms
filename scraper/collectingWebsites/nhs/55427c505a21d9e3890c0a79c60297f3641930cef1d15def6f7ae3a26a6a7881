@@ -1,0 +1,63 @@
+<form action="/services/hospital/the-royal-marsden-hospital-london/X1416/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Excellent  staff, hospital&lt;/Title&gt;
+    &lt;ScreenName&gt;Anonymous&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Dear Sir
+On the 18th of September I had an operation at Royal Marsden Hospital, as I was diagnosed with a carcinoma.
+The night I had the operation I was looked after a fantastic nurse, she was extremely kind, careful, delicate, funny, and sensitive. I was discharged, maybe too early and on the 21st I was back again in hospital. I arrived and my bed was ready in Ellis Ward, I was relieved to be there as I could not eat, drink because of my nausea. Promptly a nurse prepared me for the first bag of intravenous fluids, and one after the other, anti sickness, painkiller etc.... 
+What surprised me was the staff. I mean the whole staff from permanent to temp, from nurses to cleaners, not to mention doctors or hospitality team. Always with a smile on their face, always ready to help, it was never too much of an effort to satisfy patients’ requests, calls. Always super busy, sometimes running from one patient to the other, still giving the right attention to everybody. During my stay in that week I had nothing to do but observing them working with such a dedication, kindness, support towards us all that I felt I learned a lesson. 
+The amount of work they do is absolutely unbelievable, often not pleasant, often during unsociable hours, often having to deal with difficult situations and/or patients. They still have a smile on their face, treating us patient with such a level of dignity and care I never came across in my life before.
+Praising them does not give justice for what they really do. I cannot thank enough the whole team in Ellis Ward, I never had such great support and help. In addition I would like to thank Macmillan Hotline services and nurses for their unbelievable support and care throughout my convalescence. 
+In Ellis ward we had very good facilities and comfort in a moment in my life I needed most, as they make a real difference when someone is really unwell and unable to accomplish the simples tasks. They made my life easier for that week I was a patient there, and I thank so much the kind donation which made possible to restructure Ellis Ward.
+I am wondering do really common people realise that these members of our community are saving lives, they support vulnerable people often till their final moment. 
+Thank you so much for everything you did for me, I shall never forget for the rest of my life.
+&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-02-06T16:05:55Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;9&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;The Royal Marsden Hospital (London)&lt;/OrganisationName&gt;
+    &lt;Department&gt;Gynaecology&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;f5f4018b-fa48-ea11-a812-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1416&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamFzC2kBaMPhjg80xZ8iYO8Zo1BtA1EP7L0-Epv3lU-2jOs11aIbUSWlsZmnBy9blJnAG18bNQWQWNBpCEOB3TdQV13ayfuXEH3O3_BI3LMxF1-ZILzlN-X8lUwlWNyLSGY"/></form>

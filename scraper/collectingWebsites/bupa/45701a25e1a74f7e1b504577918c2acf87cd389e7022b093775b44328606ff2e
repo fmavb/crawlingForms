@@ -1,0 +1,80 @@
+<form action="/Oneidentity/Registration/Register" class="register-form common-validate-form" id="register-form" method="post">
+<h3 class="primary-heading"> Create a Bupa account</h3>
+<p>If you’re already on our system, enter the same details here so we can match you to your Bupa products or schemes.</p>
+<input id="AppType" name="AppType" type="hidden" value="touchdashboard"/>
+<div class="register-form-wrapper">
+<div class="row">
+<div class="col-12 col-sm-6 col-lg-3 offset-lg-9">
+<div class="form-group">
+<label>First name</label>
+<input class="form-control text-box single-line" datarequired="Please enter a valid name" id="FirstName" name="FirstName" type="text" value=""/>
+</div>
+<div class="form-group">
+<label>Last name</label>
+<input class="form-control text-box single-line" datarequired="Please enter a valid name" id="LastName" name="LastName" type="text" value=""/>
+</div>
+<div class="form-group">
+<div class="date-wrapper">
+<label>Date of birth<span class="date-format"> (DD/MM/YYYY)</span></label>
+<div class="date-input-box">
+<input class="c-date no-key-validation" maxlength="2" placeholder="DD" type="tel"/>
+<input class="c-month no-key-validation" maxlength="2" placeholder="MM" type="tel"/>
+<input class="c-year no-key-validation" maxlength="4" placeholder="YYYY" type="tel"/>
+<input class="hidden-date form-control text-box single-line" datarequired="Please enter a valid date of birth" id="DOB" maxageattribute="Please enter a valid date of birth" maxlength="10" minageattribute="You must be 16 or over to register" name="DOB" type="date" value=""/>
+</div>
+</div>
+</div>
+<div class="form-group">
+<label>Post code</label>
+<input class="form-control text-box single-line" datarequired="Please enter a valid postcode" id="PostCode" name="PostCode" type="text" validpostcodeattribute="Please enter a valid postcode" value=""/>
+</div>
+</div>
+<div class="col-12 col-sm-12 col-lg-10">
+<div class="row">
+<div class="col-12 col-md-5 offset-md-7">
+<div class="form-group">
+<label>Email address</label>
+<input class="form-control text-box single-line" dataemailattribute="Please enter a valid email" datarequired="Please enter a valid email" datavalidate="Please enter a valid email" emailvalidateattribute="Please enter a valid email" id="EmailId" name="EmailId" type="email" value=""/>
+</div>
+</div>
+<div class="col-12 col-md-5 offset-md-1">
+<div class="password-input-wrap">
+<div class="form-group">
+<label>Create password</label>
+<div class="show-password-wrap">
+<input autocomplete="new-password" class="form-control" datarequired="Minimum of 8 characters, at least one uppercase one lowercase and one number" id="password" name="Password" type="password"/>
+<span class="show-password"></span>
+</div>
+</div>
+<div class="form-group">
+<label>Confirm password</label>
+<div class="show-password-wrap">
+<input autocomplete="new-password" class="form-control" datarequired="Your passwords don't match" equaltopasswordattribute="Your passwords don't match" id="regConfirmPassword" name="ConfirmPassword" type="password"/>
+<span class="show-password"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6">
+<p class="password-list">Passwords need to include:</p>
+<ul class="password-list">
+<li>Eight or more characters</li>
+<li>At least one upper and lower case character</li>
+<li>At least one number</li>
+</ul>
+</div>
+</div>
+<div class="reg-terms-wrapper">
+<label class="terms-checkbox">
+<input class="reg-checkbox" data-val="true" data-val-required="The TermsAndConditions field is required." id="TermsAndConditions" name="TermsAndConditions" type="checkbox" value="true"/><input name="TermsAndConditions" type="hidden" value="false"/>
+<span class="reg-checkmark"></span>
+</label>
+<label class="termsContent">Check this box to accept the <a href="https://www.bupa.co.uk/legal-notices" target="_blank"><strong>Terms of Use</strong></a> and acknowledge that you have read our <a href="https://www.bupa.co.uk/legal-notices/privacy-and-cookies" target="_blank"><strong>Privacy Policy</strong></a>.</label>
+<p>If you don't want to receive marketing about Bupa products, please contact us at <a href="mailto:optmeout@bupa.com"><strong>optmeout@bupa.com</strong></a></p>
+</div>
+</div>
+</div>
+<div class="error otp-error-msg"></div>
+<input class="btn submit-btn btn-continue" disabled="" type="submit" value="Continue"/>
+</div>
+</form>

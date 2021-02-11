@@ -1,0 +1,37 @@
+<form action="/results" class="content-section pd-search-form doct-form enhanced-search-form search-form-overlay" id="pdSearch">
+<div class="search-area" id="search-area">
+<input class="so" name="so" type="hidden" value="distance"/>
+<input class="city" name="city" type="hidden" value=""/>
+<input class="state" name="state" type="hidden" value=""/>
+<input class="zip" name="zip" type="hidden" value=""/>
+<input class="lat" name="lat" type="hidden" value=""/>
+<input class="lon" name="lon" type="hidden" value=""/>
+<fieldset>
+<div class="new-search"><p class="new-search-header">NEW SEARCH</p><span class="source-icon-close"><a></a></span></div>
+<div id="pdSearchButtonContainer">
+<div id="pdSearchContainer">
+<div id="s-doctor-name-container">
+<label class="search-form" for="ln" id="s-doctor-name">
+<span class="small-doctor-name-label">Doctor Name, Specialty, Condition</span>
+<span class="large-doctor-name-label">Doctor Name, Specialty, Condition or Procedure</span>
+</label>
+<input autocomplete="off" class="name" id="ln" maxlength="255" name="ln" tabindex="1" type="text" value=""/>
+<div id="s-doctor-name-right-container"><div id="s-doctor-name-right-line"></div></div>
+</div>
+<div id="s-location-container">
+<label class="search-form" for="loc" id="s-location">Zip Code or City, State</label>
+<input autocomplete="off" class="location" id="loc" maxlength="255" name="loc" tabindex="2" type="text" value=""/>
+<!--<div id="s-location-right-container"><div id="s-location-right-line"></div></div>-->
+</div>
+<!-- Reactivate when insurance functionality is available -->
+<!-- <div id='s-insurance-container'>
+                        <label id="s-insurance" for="ins" class="search-form">Insurance Plans Accepted</label>
+                        <input type="text" id="ins" class="insurance" maxlength="255" name="ins" tabindex="3" value="" autocomplete="off">
+                    </div>
+                    -->
+</div>
+<input class="blue-btn" id="btn-submit" tabindex="4" type="submit" value="Find Doctors"/>
+</div>
+</fieldset>
+</div>
+</form>

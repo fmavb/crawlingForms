@@ -1,0 +1,57 @@
+<form action="/services/hospital/cannock-chase-hospital/X102309/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value='&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ReportWizardViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName="nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null"&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;visit to orthopaedic outpatients and xray dept&lt;/Title&gt;
+    &lt;ScreenName&gt;Pat Edwards&lt;/ScreenName&gt;
+    &lt;CommentText&gt;Arrived approx 9.30am 7th Jan 2021.  No one visible manning door.  As i approached Outpatient Dept man had obviously walked in not wearing a mask and was arguing with nurses saying he didn`t need to wear one. They then called me through ,and continued to deal with this idiot.  I have nothing but praise for all aspects of my visit,
+but on exiting the building by the cafe,i stopped to pick up a coffee to take out and if i hadn`t have had my hands full would have taken a photo of the man would was manning the door !!!   He was slumped in a chair (hence i didn`t see him when i entered) engrossed in his mobile phone.  oblivious to who was walking in,mask or not.    The Staff are so busy ,attentive and caring,not to mention the risk they put themselves in daily and i was so angry that this person was clearly not bothered who was entering the hospital and putting everyone at risk...   I understand he may need a walkie talkie to contact others but not his mobile phone to occupy himself when being paid to do a responsible job.
+I have nothing but praise for the Hospital and Staff,and thank you all for your efforts , but please review the people who allow visitors to enter and not take the necessary precautions to safeguard us all.
+Thank you.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2021-01-09T19:59:48Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;1&lt;/Month&gt;
+      &lt;Year&gt;2021&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Cannock Chase Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Orthopaedics&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;5e6f5539-b552-eb11-a812-00224840f606&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X102309&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;'/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamEbKqzU-kLd9fcU7HCYFMeCVxT8LE7qeLzTWBFEQgIMKYBJ_3hhEl_fdgzTcVtcAPMRC6jBAmDGHaK6gt1ssgAMwlbSiAGZsjA5HQecUdhSX8rLly0c08VEYe6wUE3YdsY"/></form>

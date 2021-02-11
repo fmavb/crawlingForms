@@ -1,0 +1,32 @@
+<form action="/MyAccount/Create/Step1" method="post"> <fieldset>
+<legend>Register</legend>
+<div class="l-content-container">
+<div class="m-form-row">
+<label class="a-label u-hidden--visually" for="ActivationCode">Please enter your activation code</label>
+<p>It starts with three letters, for example FST.</p>
+<div class="m-form-row__content">
+<span class="field-validation-valid m-form-row__error-message u-hidden--if-empty" data-valmsg-for="ActivationCode" data-valmsg-replace="true"></span>
+<input aria-required="true" class="a-textbox" data-val="true" data-val-required="Please enter your activation code. If you don't have a code, please follow the link below." id="ActivationCode" maxlength="16" name="ActivationCode" type="text" value=""/>
+<input name="__RequestVerificationToken" type="hidden" value="QSJ3ZYDbqSy-cWoDNBHJk3bSjYZAU3OJFQrqp_Aw0gebWC_hQwXrdvyTpSvWfdTevbLw0Z2yKJ4gTxh6XI7zSKHUdTM1"/>
+</div>
+</div>
+<div class="m-form-row">
+<input class="a-button a-button--primary" id="loginButton" name="loginButton" type="submit" value="Continue"/>
+</div>
+</div>
+</fieldset>
+<div class="l-content-container">
+<div class="m-form-row">
+<hr class="a-keyline-divider a-keyline-divider--20-all a-keyline-divider--horizontal-solid"/>
+<h3 class="a-heading a-heading--2 u-margin--top-none">No activation code?</h3>
+<p class="a-heading a-heading--3 a-heading--light">Don't worry, you can still register.</p>
+<a class="a-button" href="/MyAccount/Create/Step1a">Register without code</a>
+<p>
+<small>
+                        By accessing MyAviva you agree to our <a data-module="o-modal" href="/MyPortfolio/Public/TermsOfUse/#bodyContentOnly">terms of use</a>.
+                        <br/>To understand how we will use your data for this registration, read our <a aria-label="Read our privacy notice" data-module="o-modal" href="/MyAccount/Public/MyAvivaPrivacyNotice/#bodyContentOnly">Privacy Notice</a>.
+                    </small>
+</p>
+</div>
+</div>
+</form>

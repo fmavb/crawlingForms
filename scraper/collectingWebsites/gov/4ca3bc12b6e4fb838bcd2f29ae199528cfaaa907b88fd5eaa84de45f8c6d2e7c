@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action="/email-signup" method="post">
+<input name="authenticity_token" type="hidden" value="M5ZJHUHfxyQ5CxzEz4wDWl1qpTcWaW87p7y0n7PL9WfECUXOV5X03onKrj4R3pypLXRjVkjgbvJrDulGmX0wUw=="/>
+<input id="link" name="link" type="hidden" value="/transport/vessel-design"/>
+<button class="gem-c-button govuk-button gem-c-button--bottom-margin" data-module="track-click" data-track-action="new_frequency" data-track-category="email_subscriptions" data-track-label="Vessel design" type="submit">Continue</button>
+</form>

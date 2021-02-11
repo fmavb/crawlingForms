@@ -1,0 +1,10 @@
+<form>
+<div class="narrower">
+<div class="ifholder">
+<input autofocus="" class="username" id="username" name="username" ng-change="CheckUsername()" ng-model="Username" ng-pattern="/^\S+@\S+\.\S+$/" type="text"/>
+<label class="infieldlabel" for="username">Email</label>
+</div>
+<input ng-click="ResetPassword()" type="submit" value="{{languageTranslation.ResetPasswordPageSubmitText}}"/>
+<p class="hide-on-condition">Don't have an <a href="create-account">account?</a></p>
+</div>
+</form>

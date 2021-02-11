@@ -1,0 +1,488 @@
+<form action="/drugs/ingredientreviewpost-1621-STREPTOCOCCUS+THERMOPHILUS.aspx?post=new&amp;drugid=1621&amp;t=2&amp;drugname=STREPTOCOCCUS+THERMOPHILUS" id="submitRatings" method="post" name="submitRatings">
+<div class="subRating" id="content">
+<h2>Rate this treatment and share your opinion!</h2>
+<div class="ratelink"><a href="https://www.webmd.com/drug-reviews-faq" target="_blank" title="Treatment Review product">Learn about User Reviews</a></div>
+<h3 class="tips">Helpful tips to write a good review:</h3>
+<ol class="ratetips">
+<li>
+						Only share <em>your</em> first hand experience as a consumer or a care giver.
+					</li>
+<li>
+						Describe your experience in the Comments area including the benefits, side effects and how it has worked for you.  Do <em>not</em> provide personal information like email addresses or telephone numbers.
+					</li>
+<li>
+						Fill in the <em>optional information</em> to help other users benefit from your review.
+					</li>
+</ol>
+<h3 class="s1">Reason for Taking This Treatment</h3>
+<div id="condition-ec"><select class="condition" id="conditionDropDown" name="condition"><option value="-1">Select a reason</option>
+<option value="0">Other</option>
+<option value="9999999">General Health &amp; Wellness</option></select><span class="required">(required)</span></div>
+<h3 class="s2">Click the Stars to Rate This Treatment</h3>
+<div class="rateCriteria clearfix" id="rc1-ec">
+<h4 class="ttLink subForm">
+            Effectiveness <span class="required">(required)</span><span class="txtRate" id="txtRate1"></span></h4>
+<div class="catQuest">This treatment has worked for me.</div>
+<div class="inlineRating">
+<ul class="starRating" id="rq1">
+<li class="current-rating" id="catCurr1" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div>
+<div class="rateCriteria clearfix bBorder" id="rc2-ec">
+<h4 class="ttLink subForm">
+            Ease of Use <span class="required">(required)</span><span class="txtRate" id="txtRate2"></span></h4>
+<div class="catQuest">This treatment has been easy for me to use.</div>
+<div class="inlineRating">
+<ul class="starRating">
+<li class="current-rating" id="catCurr2" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div>
+<div class="rateCriteria clearfix" id="rc3-ec">
+<h4 class="ttLink subForm">
+            Satisfaction <span class="required">(required)</span><span class="txtRate" id="txtRate3"></span></h4>
+<div class="catQuest">Overall, I have been satisfied with my experience.</div>
+<div class="inlineRating">
+<ul class="starRating">
+<li class="current-rating" id="catCurr3" style="width:0%;">Current Rating</li>
+<li><a class="one-star" href="#" title="1 star out of 5">1</a></li>
+<li><a class="two-stars" href="#" title="2 stars out of 5">2</a></li>
+<li><a class="three-stars" href="#" title="3 stars out of 5">3</a></li>
+<li><a class="four-stars" href="#" title="4 stars out of 5">4</a></li>
+<li><a class="five-stars" href="#" title="5 stars out of 5">5</a></li>
+</ul>
+</div>
+</div><script type="text/javascript">initRate();</script><h3 class="s3">Write a Brief Description of Your Experience with this Treatment:</h3><textarea class="comment" cols="5" id="userComment" maxlength="2000" name="userComment" onblur="checkMaxLength(this);" onfocus="checkMaxLength(this);" onkeyup="checkMaxLength(this);" rows="5"></textarea><div class="counter"><span id="currentCharCount">2000</span> characters remaining
+				</div>
+<h3 class="s4">Optional Information</h3>
+<dl id="optInfo">
+<dt>Help others benefit from your review by filling in the information below.</dt>
+<dd class="radio"><span class="label">I am a:</span><input id="patient" name="userType" type="Radio" value="patient"/><label for="patient">Consumer</label><input id="caregiver" name="userType" type="Radio" value="caregiver"/><label for="cargiver">Caregiver</label></dd>
+<dd class="radio"><span class="label">Gender:</span><input id="gMale" name="gender" type="Radio" value="male"/><label for="gMale">Male</label><input id="gFemale" name="gender" type="Radio" value="female"/><label for="gFemale">Female</label></dd>
+<dd><label for="ageRange">Age Range:</label><select id="ageRange" name="ageRange"><option value="0">Choose One</option>
+<option value="1">0-2</option>
+<option value="2">3-6</option>
+<option value="3">7-12</option>
+<option value="4">13-18</option>
+<option value="5">19-24</option>
+<option value="6">25-34</option>
+<option value="7">35-44</option>
+<option value="8">45-54</option>
+<option value="9">55-64</option>
+<option value="10">65-74</option>
+<option value="11">75 or over</option></select></dd>
+<dd><label for="brand">Brand product used:</label><select id="brandProdUsed" name="brandProdUsed" onchange="
+								wmdTrack('dr-brandprodused_1');
+							"><option value="-1">Choose One</option>
+<option value="8486">ABC Dophilus Powder by Solgar</option>
+<option value="56380">Acidophilus Complex [Discontinued; Reformulated...
+				</option>
+<option value="78067">Acidophilus Powder by Kirkman Laboratories</option>
+<option value="56648">Acidophilus XTRA by Rexall Sundown, Inc.</option>
+<option value="76698">Activia (assorted flavors) by Dannon</option>
+<option value="14474">Activia (Plain flavor) by Dannon</option>
+<option value="85273">Advanced 40+ Acidophilus by Solgar</option>
+<option value="32395">APA Blend by Simplexity Health</option>
+<option value="33081">APA Blend Plus by Simplexity Health</option>
+<option value="56632">Ayush Probiotic 100B by R U Ved</option>
+<option value="34989">Bacid Probiotic by Insight Pharmaceuticals</option>
+<option value="91560">Belly Boost by Vidazorb</option>
+<option value="16743">Bio Lumin Essense Nightly Essense by Youngevity</option>
+<option value="98076">Bio-Kult Probiotics by Bio-Kult</option>
+<option value="32384">BioDoph 7 Plus by Biotics Research Corporation</option>
+<option value="447">Bioflora [Discontinued 2011] by PhysioLogics</option>
+<option value="33152">Biotic Boost by Neurobiologix</option>
+<option value="38735">Blood Pressure Take Care by New Chapter, Inc.</option>
+<option value="17989">Blue Heron by Integrative Therapeutics </option>
+<option value="88985">Blueberry Pomegranate Kefir by Redwood Hill Farm</option>
+<option value="94645">Blueberry Power Flip by Chobani</option>
+<option value="16527">Caprobiotics + Plus by Mt. Capra Wholefood Nutr...
+				</option>
+<option value="93131">Chewable Probiotic Complex by General Nutrition...
+				</option>
+<option value="17712">Choice Natural Multi Vitamin by Online Future Inc.</option>
+<option value="98165">Complete Prostate PM by 1st Phorm International...
+				</option>
+<option value="66704">Cream Top Fruit on the Bottom Yogurt (Strawberr...
+				</option>
+<option value="66705">Cream Top Vanilla over Chocolate Yogurt (Chocol...
+				</option>
+<option value="66702">Cream Top Yogurt (French Vanilla flavor) by Sto...
+				</option>
+<option value="66706">Cream Top Yogurt (Plain flavor) by Stonyfield F...
+				</option>
+<option value="66703">Cream Top Yogurt (White Chocolate Raspberry fla...
+				</option>
+<option value="79356">D Mannose Complex by DaVinci Laboratories</option>
+<option value="54822">DanActive by Danone</option>
+<option value="91111">Darmflora plus by Dr. Wolz Zell GmbH</option>
+<option value="91110">Darmflora plus select by Dr. Wolz Zell GmbH</option>
+<option value="14462">Digesta Guard Forte  10 + FOS by Perque</option>
+<option value="14461">Digesta Guard Forte 10 by Perque</option>
+<option value="37275">Digestive Formula by Mountain Peak Nutritionals</option>
+<option value="16608">Doctor's A-Z 6 Strain Acidophilus by Great Amer...
+				</option>
+<option value="77014">Dr. Natura Flora Protect Probiotics by Alaven C...
+				</option>
+<option value="99768">Duolac Care by Cell Biotech</option>
+<option value="89061">Exsula Iridesca Powder by Life Enthusiast Co-op...
+				</option>
+<option value="66690">Fat Free Fruit on the Bottom Yogurt (Black Cher...
+				</option>
+<option value="66687">Fat Free Fruit on the Bottom Yogurt (Blueberry ...
+				</option>
+<option value="66686">Fat Free Fruit on the Bottom Yogurt (Strawberry...
+				</option>
+<option value="66688">Fat Free Fruit on the Bottom Yogurt (Super Frui...
+				</option>
+<option value="66689">Fat Free Vanilla over Chocolate Yogurt (Chocola...
+				</option>
+<option value="66680">Fat Free Yogurt (French Vanilla flavor) by Ston...
+				</option>
+<option value="66685">Fat Free Yogurt (Key Lime flavor) by Stonyfield...
+				</option>
+<option value="66682">Fat Free Yogurt (Lemon flavor) by Stonyfield Fa...
+				</option>
+<option value="66683">Fat Free Yogurt (Peach flavor) by Stonyfield Fa...
+				</option>
+<option value="66679">Fat Free Yogurt (Plain flavor) by Stonyfield Fa...
+				</option>
+<option value="66684">Fat Free Yogurt (Pomegranate Berry flavor) by S...
+				</option>
+<option value="66681">Fat Free Yogurt (Strawberry flavor) by Stonyfie...
+				</option>
+<option value="92816">Femilac Vaginal Pessary by Unknown</option>
+<option value="37271">Fiberbiotics by Mountain Peak Nutritionals</option>
+<option value="38970">Flora Norm by Professional Botanicals</option>
+<option value="13876">Flora Q by Kenwood Therapeutics</option>
+<option value="57584">Flora Rite by HomeCure, Inc.</option>
+<option value="68099">Florametric by Gero Vita International</option>
+<option value="26502">FloraPlus by VigorAce</option>
+<option value="3377">FOS Daily by HealthSmart Vitamins</option>
+<option value="77598">G F S 2000 Powder by Douglas Laboratories</option>
+<option value="38943">Gallbladder Nano-Detox by Premier Research Labs</option>
+<option value="96213">GI-ProBalance slimsticks by Mannatech Incorporated</option>
+<option value="79308">Gingerdophilus Capsule by Biocare Ltd.</option>
+<option value="88283">Green Vibrance Powder by Vibrant Health</option>
+<option value="88290">Green Vibrance Vegicaps by Vibrant Health</option>
+<option value="95786">HardiStrain(R) Probiotics by Futureceuticals</option>
+<option value="30126">High-Potency Acidophilus by 21st Century Health...
+				</option>
+<option value="30128">High-Potency Acidophilus Probiotic Blend by 21s...
+				</option>
+<option value="39082">HM Nano Detox by Premier Research Labs</option>
+<option value="34010">IFlora Multi Probiotic Capsules by Sedona Labs</option>
+<option value="57841">iFlora Multi Probiotic Powder by Sedona Labs</option>
+<option value="34013">iFlora Nasal Health by Sedona Labs</option>
+<option value="57842">iFlora Probiotics for Women by Sedona Labs</option>
+<option value="66824">Immunition NSC-Pro Probiotic by NSC (Nutritiona...
+				</option>
+<option value="39095">Immunocidin by Premier Research Labs</option>
+<option value="39097">Inflammacidin by Premier Research Labs</option>
+<option value="52260">Intestinal Conditioner by Nature's Life</option>
+<option value="18873">KAL Acidophilus ProBiotic 4 by Nutraceutical Corp.</option>
+<option value="18874">KAL Acidophilus ProBiotic-5 by Nutraceutical Corp.</option>
+<option value="95375">Keybiotics by Whole Body Research</option>
+<option value="40492">Kibow Biotics by Kibow Biotech, Inc.</option>
+<option value="20038">Life Flora 300 mg by Source Naturals</option>
+<option value="20039">Life Flora 500 mg by Source Naturals</option>
+<option value="20037">Life Flora powder by Source Naturals</option>
+<option value="65005">Life Greens &amp; Berries by Source Naturals</option>
+<option value="66696">Limited Edition Yogurt (Maple Vanilla flavor) b...
+				</option>
+<option value="66697">Limited Edition Yogurt (Pumpkin Pie flavor) by ...
+				</option>
+<option value="39112">Liver Nano Detox by Premier Research Labs</option>
+<option value="66699">Low Fat Fruit on the Bottom Yogurt (Blueberry f...
+				</option>
+<option value="66700">Low Fat Fruit on the Bottom Yogurt (Peach flavo...
+				</option>
+<option value="66698">Low Fat Fruit on the Bottom Yogurt (Strawberry ...
+				</option>
+<option value="66701">Low Fat Yogurt (BaNilla flavor) by Stonyfield F...
+				</option>
+<option value="66695">Low Fat Yogurt (Cherry Vanilla flavor) by Stony...
+				</option>
+<option value="66692">Low Fat Yogurt (French Vanilla flavor) by Stony...
+				</option>
+<option value="66691">Low Fat Yogurt (Plain flavor) by Stonyfield Far...
+				</option>
+<option value="66694">Low Fat Yogurt (Raspberry flavor) by Stonyfield...
+				</option>
+<option value="66693">Low Fat Yogurt (Strawberry Pomegranate flavor) ...
+				</option>
+<option value="88980">Mango Orange Pineapple Kefir by Redwood Hill Farm</option>
+<option value="36697">Matol Viva 24B Probiotics by Univera Canada Ltd</option>
+<option value="38461">Max Stress B Nano Plex by Premier Research Labs</option>
+<option value="39055">Mega Probiotic ND by DaVinci Laboratories</option>
+<option value="50518">Mega Probiotic ND by FoodScience of Vermont</option>
+<option value="32648">Meijer Naturals MAX Acidophilus by Meijer</option>
+<option value="39151">Melatonin Nano Plex by Premier Research Labs</option>
+<option value="94573">MNS Max 3 [Discontinued; Reformulated] by Advoc...
+				</option>
+<option value="78377">Multi Flora Spectrum Capsule by Kirkman Laborat...
+				</option>
+<option value="27627">Multi Probiotic 4000 by Douglas Laboratories</option>
+<option value="78524">Multi Species Probiotic by Kordial Nutrients</option>
+<option value="97508">N-Fuse by Saba Products</option>
+<option value="68227">Natural Brand Acidophilus 1 Billion CFU by GNC</option>
+<option value="68228">Natural Brand Acidophilus Probiotic Complex by GNC</option>
+<option value="31909">Natural Brand Chewable Acidophilus by GNC</option>
+<option value="78854">Natural Brand Chewable Probiotic Complex (Natur...
+				</option>
+<option value="31873">Natural Brand Super Acidophilus by GNC</option>
+<option value="17975">NF Formulas LGS by Integrative Therapeutics </option>
+<option value="17982">NF Formulas Phyto-Pro by Integrative Therapeutics </option>
+<option value="17964">NF Formulas PhytoZyme by Integrative Therapeutics </option>
+<option value="6545">NF Formulas Spectra Probiotic LiveBac by Integr...
+				</option>
+<option value="18010">NF Formulas Spectrient without Iron by Integrat...
+				</option>
+<option value="8280">NutriBalance Children's Formula by NutriCology,...
+				</option>
+<option value="56079">Nutrilite IntestiFlora by Amway Global</option>
+<option value="66646">O'Soy Organic Soy Yogurt (Blueberry flavor) by ...
+				</option>
+<option value="66638">O'Soy Organic Soy Yogurt (Chocolate flavor) by ...
+				</option>
+<option value="66649">O'Soy Organic Soy Yogurt (Peach flavor) by Ston...
+				</option>
+<option value="66642">O'Soy Organic Soy Yogurt (Raspberry flavor) by ...
+				</option>
+<option value="66640">O'Soy Organic Soy Yogurt (Strawberry flavor) by...
+				</option>
+<option value="66639">O'Soy Organic Soy Yogurt (Vanilla flavor) by St...
+				</option>
+<option value="66660">OIKOS Organic Greek Yogurt (Blueberry flavor) b...
+				</option>
+<option value="66663">OIKOS Organic Greek Yogurt (Caramel flavor) by ...
+				</option>
+<option value="66664">OIKOS Organic Greek Yogurt (Chocolate flavor) b...
+				</option>
+<option value="66661">OIKOS Organic Greek Yogurt (Honey flavor) by St...
+				</option>
+<option value="66658">OIKOS Organic Greek Yogurt (Plain flavor) by St...
+				</option>
+<option value="66662">OIKOS Organic Greek Yogurt (Strawberry flavor) ...
+				</option>
+<option value="66659">OIKOS Organic Greek Yogurt (Vanilla flavor) by ...
+				</option>
+<option value="33514">Optimal 1 Digestion Formula by Optimal Health S...
+				</option>
+<option value="33578">Optimal Flora Plus by Optimal Health Systems</option>
+<option value="65106">ORAC Energy Greens by Paradise Herbs</option>
+<option value="65117">ORAC Energy Protein Greens by Paradise Herbs</option>
+<option value="39379">Ortho Dophilus by Protocol for Life Balance</option>
+<option value="57299">PB8  by Nutrition Now</option>
+<option value="6672">PCA Rx by Maxam Nutraceutics</option>
+<option value="17758">Perfect Prenatal [Discontinued, Reformulated] b...
+				</option>
+<option value="91526">Perfect Prenatal by New Chapter, Inc.</option>
+<option value="5601">Phytonutritional by Natural Connections, Inc.</option>
+<option value="7050">Phytotality Powder [Discontinued 2016] by Physi...
+				</option>
+<option value="26207">Polyflora O by North American Pharmacal, Inc.</option>
+<option value="17565">Primadophilus Optima by Nature's Way</option>
+<option value="37593">Pro 5 by Klaire Laboratories</option>
+<option value="78478">Pro Bio Chewable Wafers by Kirkman Laboratories</option>
+<option value="78476">Pro Bio Defense by Kirkman Laboratories</option>
+<option value="77880">Pro Bio Gold by Kirkman Laboratories</option>
+<option value="78477">Pro Bio Inulin Free  by Kirkman Laboratories</option>
+<option value="27181">Pro Biotic Flora with FOS by Enriching Gifts</option>
+<option value="32310">Pro-Biotics Plus Chewable by Natural Wellness C...
+				</option>
+<option value="38642">ProBioActive 10B by Rainbow Light Nutritional S...
+				</option>
+<option value="98757">ProbioMax 350 DF by Xymogen</option>
+<option value="58596">Probiostat Vaginal [Discontinued, 2011] by Lorn...
+				</option>
+<option value="91281">Probiostat Vaginal by Berry Naturals</option>
+<option value="74170">Probiotic 10-10 with CoQ10 by NSI - Nutraceutic...
+				</option>
+<option value="74172">Probiotic 10-20 by NSI - Nutraceutical Sciences...
+				</option>
+<option value="74174">Probiotic 15-35 by NSI - Nutraceutical Sciences...
+				</option>
+<option value="88905">Probiotic 15-35 by Vitacost</option>
+<option value="17797">Probiotic All Flora by New Chapter, Inc.</option>
+<option value="17798">Probiotic All Flora Powder by New Chapter, Inc.</option>
+<option value="17799">Probiotic Anti-Aging by New Chapter, Inc.</option>
+<option value="79014">Probiotic CD Brand Intestinal Release System by...
+				</option>
+<option value="17801">Probiotic Colon  by New Chapter, Inc.</option>
+<option value="24499">Probiotic Complex 200 mg by Biovea</option>
+<option value="82472">Probiotic Complex 4 by GNC</option>
+<option value="11542">Probiotic Eleven by Nature's Sunshine US</option>
+<option value="17800">Probiotic Immunity by New Chapter, Inc.</option>
+<option value="40753">Probiotic Quattro by Lindberg Nutrition</option>
+<option value="33730">Probiotic Quattro by VitaCeutical Labs</option>
+<option value="23396">Probiotic Replenisher by Nature's Secret</option>
+<option value="34060">Probiotic Sufficiency Capsules by InnateChoice</option>
+<option value="65344">Probiotic Supreme by Designs for Health, Inc.</option>
+<option value="65345">Probiotic Synergy Biospheres by Designs for Hea...
+				</option>
+<option value="30499">Probiotics 12 Plus by Dr. Ohhira Probiotics</option>
+<option value="90318">Probiotics Probiotic Complex Chewable Tablet (N...
+				</option>
+<option value="21808">ProGreens by NutriCology, Inc / Allergy Researc...
+				</option>
+<option value="21809">ProGreens Powder by NutriCology, Inc / Allergy ...
+				</option>
+<option value="21811">ProGreens Stick Pack by NutriCology, Inc / Alle...
+				</option>
+<option value="4901">Raspberry Super Smoothie by Stonyfield Farm, Inc.</option>
+<option value="51813">ReFlora by Vaxa International</option>
+<option value="53820">ReFlora Probiotic by Vaxa International</option>
+<option value="91271">RegeneCell by NorthStar Nutritionals</option>
+<option value="89694">Renadyl by Kibow Biotech, Inc.</option>
+<option value="81680">Shakeology (Chocolate flavor) [Discontinued, Re...
+				</option>
+<option value="91522">Shakeology (Chocolate flavor) [Discontinued, Re...
+				</option>
+<option value="81681">Shakeology (Greenberry flavor) by Beachbody, LLC</option>
+<option value="88976">So Delicious Original Coconut Milk Kefir Bevera...
+				</option>
+<option value="35201">Solaray Acidophilus Plus Carrot Juice by Nutrac...
+				</option>
+<option value="35206">Solaray Acidophilus Plus Goat's Milk by Nutrace...
+				</option>
+<option value="35170">Solaray Multidophilus 12 by Nutraceutical Corp.</option>
+<option value="21905">Solution 1 by Cell Perfect</option>
+<option value="79365">Spectra Infinite Nutrition by DaVinci Laboratories</option>
+<option value="32355">Spectrabiotic by Simplexity Health</option>
+<option value="18021">Spectrient without iron by Integrative Therapeu...
+				</option>
+<option value="33179">Springboard FloraBoost by Ortho Molecular Products</option>
+<option value="4903">Strawberry Super Smoothie by Stonyfield Farm, Inc.</option>
+<option value="20659">Super Carrot Acidophilus by Source Naturals</option>
+<option value="25298">Super Dophilus Acidophilus by Myprotein.co.uk</option>
+<option value="78380">Super Pro Bio 75 Billion by Kirkman Laboratories</option>
+<option value="4953">Superior Probiotic by NSI - Nutraceutical Scien...
+				</option>
+<option value="83076">Swanson GreenFoods Formulas Super Green Max Plu...
+				</option>
+<option value="84721">Swanson Ultra Goat Milk Probiotic Blend by Swan...
+				</option>
+<option value="84284">Swanson Ultra Probiotic Complex by Swanson Heal...
+				</option>
+<option value="99469">Swanson Ultra Probiotic Complex by Swanson Heal...
+				</option>
+<option value="84375">Swanson Ultra Soil Based Organisms by Swanson H...
+				</option>
+<option value="21912">SymBiotics with FOS Powder by NutriCology, Inc ...
+				</option>
+<option value="74483">Synergy Prenatal Plus Multi Vitamin by NSI - Nu...
+				</option>
+<option value="37573">Ther Biotic Complete by Klaire Laboratories</option>
+<option value="37574">Ther Biotic Complete Powder by Klaire Laboratories</option>
+<option value="95982">Thrive Boost by Le-Vel Brands</option>
+<option value="57419">Total Flora Support by Infinity2</option>
+<option value="88984">Traditional Plain Kefir by Redwood Hill Farm</option>
+<option value="98469">Tri Active Biotics Advanced Care by Essential S...
+				</option>
+<option value="98470">Tri Active Biotics Advanced Care Powder Blend (...
+				</option>
+<option value="98471">Tri Active Biotics Daily Care Powder Blend (Nat...
+				</option>
+<option value="98472">Tri Active Daily Care Capsule by Essential Sour...
+				</option>
+<option value="38711">Udo's Choice Adult's Probiotic by Flora Inc.</option>
+<option value="38710">Udo's Choice Children's Probiotic by Flora Inc.</option>
+<option value="38709">Udo's Choice Infant's Probiotic [Discontinued, ...
+				</option>
+<option value="22043">Udo's Choice Super 5 Lozenge Probiotic by Flora...
+				</option>
+<option value="59794">Ultimate ‘10' Probiotic by The Vitamin Shoppe</option>
+<option value="23464">VegLife FOS-idophilus by Nutraceutical Corp.</option>
+<option value="37584">Vital 10 Capsules by Klaire Laboratories</option>
+<option value="37583">Vital 10 Powder by Klaire Laboratories</option>
+<option value="94038">VSL #3 by Ferring Inc. (Canada)</option>
+<option value="4762">VSL #3 by Sigma-Tau Pharmaceuticals, Inc.</option>
+<option value="17440">Wild Berry Super Smoothie by Stonyfield Farm, Inc.</option>
+<option value="66669">YoBaby 3 in 1 Meals Apple &amp; Sweet Potato by Sto...
+				</option>
+<option value="66671">YoBaby 3 in 1 Meals Peach &amp; Squash by Stonyfiel...
+				</option>
+<option value="66670">YoBaby 3 in 1 Meals Pear &amp; Green Beans by Stony...
+				</option>
+<option value="66630">YoBaby Drinkable Yogurt Banana by Stonyfield Fa...
+				</option>
+<option value="4902">YoBaby Drinkable Yogurt Peach by Stonyfield Far...
+				</option>
+<option value="66629">YoBaby Drinkable Yogurt Pear by Stonyfield Farm...
+				</option>
+<option value="66637">YoBaby Drinkable Yogurt Vanilla by Stonyfield F...
+				</option>
+<option value="66676">YoBaby Yogurt (Apple flavor) by Stonyfield Farm...
+				</option>
+<option value="66677">YoBaby Yogurt (Banana flavor) by Stonyfield Far...
+				</option>
+<option value="66675">YoBaby Yogurt (Blueberry flavor) by Stonyfield ...
+				</option>
+<option value="66673">YoBaby Yogurt (Peach flavor) by Stonyfield Farm...
+				</option>
+<option value="66674">YoBaby Yogurt (Pear flavor) by Stonyfield Farm,...
+				</option>
+<option value="66672">YoBaby Yogurt (Simply Plain flavor) by Stonyfie...
+				</option>
+<option value="66678">YoBaby Yogurt (Vanilla flavor) by Stonyfield Fa...
+				</option>
+<option value="66667">YoBaby Yogurt Plus Fruit &amp; Cereal (Apple flavor...
+				</option>
+<option value="66668">YoBaby Yogurt Plus Fruit &amp; Cereal (Mixed Berry ...
+				</option>
+<option value="66666">YoBaby Yogurt Plus Fruit &amp; Cereal (Raspberry Pe...
+				</option>
+<option value="66665">YoBaby Yogurt Plus Fruit &amp; Cereal (Strawberry B...
+				</option>
+<option value="21275">Yogurt Starter by Natren, Inc.</option>
+<option value="66657">YoKids (Banilla flavor) by Stonyfield Farm, Inc.</option>
+<option value="66655">YoKids (Raspberry flavor) by Stonyfield Farm, Inc.</option>
+<option value="66656">YoKids (Strawberry flavor) by Stonyfield Farm, ...
+				</option>
+<option value="66651">YoKids (Strawberry Vanilla flavor) by Stonyfiel...
+				</option>
+<option value="66654">YoKids Squeezers (Berry flavor) by Stonyfield F...
+				</option>
+<option value="66653">YoKids Squeezers (Cherry flavor) by Stonyfield ...
+				</option>
+<option value="66650">YoKids Squeezers (Strawberry flavor) by Stonyfi...
+				</option>
+<option value="0">
+										Other
+									</option></select></dd>
+<dd><label for="timeRange">Time on Treatment:</label><select id="timeRange" name="timeRange"><option value="0">Choose One</option>
+<option value="1">less than 1 month</option>
+<option value="2">1 to 6 months</option>
+<option value="3">6 months to less than 1 year</option>
+<option value="4">1 to less than 2 years</option>
+<option value="5">2 to less than 5 years</option>
+<option value="6">5 to less than 10 years</option>
+<option value="7">10 years or more</option></select></dd>
+<dd><label for="sName">Screen Name:</label><input id="sName" maxlength="40" name="screenName" type="Text" value=""/></dd>
+</dl>
+<h3 class="s5">Type the Characters You See in this Picture:</h3>
+<p class="capintro">This is used to prevent illegitimate use by automated programs</p>
+<div id="capChar-ec">
+<p class="label">Picture:</p>
+<div id="codeGraphic"><img height="75" id="captchaImage" src="CaptchaImage.aspx?w=220&amp;h=75&amp;id=UICmYL72%2f%2fSLUslrsqGaV%2bk0%2f9ebkYc%2faj15UGaaQeY%3d" width="220"/><a class="refreshBtn" href="#" onclick="wmdPageLink('dr-captcha'); return RefreshCaptcha();"><img border="0" height="22" id="captchaImage" src="https://img.webmd.com/drugs/PortalLiteResources/images/refreshCapshaw_btn.gif" width="117"/></a><input id="cypherText" name="cypherText" type="hidden" value="UICmYL72%2f%2fSLUslrsqGaV%2bk0%2f9ebkYc%2faj15UGaaQeY%3d"/></div><label for="CapChar">Enter characters from the image above:</label><input autocomplete="off" id="CapChar" name="characters"/><span class="required">(required)</span></div>
+</div>
+<div id="agreement"><input id="agreeChk" name="agreement" type="Checkbox"/>I have read and agree to abide by the <a href="/policies/about-terms-and-conditions-of-use" target="_blank">WebMD Terms and Conditions</a> and <br/><a href="/policies/about-privacy-policy" target="_blank">WebMD Privacy Policy</a>.
+				  <span class="required">(required)</span></div><input id="rateValue1" name="rate1" type="Hidden"/><input id="rateValue2" name="rate2" type="Hidden"/><input id="rateValue3" name="rate3" type="Hidden"/><div id="postButtons"><button class="defaultBtn" onclick="if(CheckValidForm())ctrs('dr-reviewadd'); else return false;" type="submit">Post</button><button class="defaultBtn" onclick="RedirectToIngredientUrl();" type="reset">cancel</button></div><script type="text/javascript">
+				function RedirectToIngredientUrl()
+				{
+				//This is a workaround for single quotes in the name
+				window.location.href = "/vitamins-supplements/ingredientmono-1621-STREPTOCOCCUS+THERMOPHILUS.aspx?activeIngredientId=1621&activeIngredientName=STREPTOCOCCUS+THERMOPHILUS&source=0";
+				}
+			</script><div class="moduleSpacer_fmt"></div><script type="text/javascript">checkMaxLength(document.getElementById("userComment"));</script></form>

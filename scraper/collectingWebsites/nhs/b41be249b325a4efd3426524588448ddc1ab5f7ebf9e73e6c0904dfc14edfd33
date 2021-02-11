@@ -1,0 +1,64 @@
+<form action="/services/hospital/salford-royal/X2132/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Wrong information put me at risk.&lt;/Title&gt;
+    &lt;ScreenName&gt;Penny&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I had to pick up a prescription at the out-of-hours GP reception today (Saturday). Firstly staff chatted among themselves while I stood at the desk waiting. When I got the prescription I asked if I could get it made up at the pharmacy in the hospital, but they said no because it wasn't a hospital prescription. This hospital policy is so considerate to patients! I was handed a paper with details of some pharmacies and opening hours (supposedly) throughout the week and I was told I would have to go to one of those.
+
+There is a pharmacy only a few yards along the road from the hospital main entrance. It wasn't on the list and wasn't open in any case. In fact the only one I could get to fairly easily was in the middle of Eccles. The paper said it was open on Saturdays until 7.30 pm. As it was only about 5.30, I got on a bus and went there, risking catching covid-19 from the passengers who either were not wearing masks or had them just over their mouths. I reached the chemist's before 6 pm and it was shut! Thanks SRH for making me  risk my life on a wild goose chase. 
+
+There are two other, much larger pharmacies within yards of that one. Both were shut and neither of them was on the list I'd been given. I'd like to inquire what was the purpose of the list. It most certainly is NOT a list of the pharmacies nearest the hospital and neither does it give accurate information about opening times. It is in fact worthless.
+
+When I got home I rang the out of hours reception and told them the information was wrong. The person who answered said, &quot;That's why we tell people to phone and check,&quot; but they hadn't said that to me and I had assumed I could trust the information. I won't make that mistake again!
+
+I have since checked online and found that the only pharmacies on the list that actually are open late on Saturdays are in two large supermarkets a few miles away. 
+
+Is it asking too much to expect to be given accurate information from the hospital? There are nine pharmacies on the list. That's nine phone calls needed to check the details. In an efficient system I would have been given a choice of pharmacies within walking distance of my house and true information about opening times at the weekend and the prescription would have been sent electronically to the one I chose. Some of them, I know for a fact, deliver medicines. I could have been spared a visit to the hospital and the dangerous bus journey. Wouldn't that have been better? Yes, but it's asking too much to be kept safe by the GP out-of-hours service apparently.&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-07-04T18:48:12Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;7&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Salford Royal&lt;/OrganisationName&gt;
+    &lt;Department&gt;Accident and emergency services&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;0035dae4-26be-ea11-a812-000d3a7ed677&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X2132&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamG65pD-ULBLE2Q05tL56xL7MC72yJ2dQidDykEeCuJE7dhvPYo5nnFhxxV5HWYMP8Eko20V94fg-G9LyJCxb73xEM0Is1qif81gOQ14guas3p0rngYb_esdY9-LLGLtDEo"/></form>

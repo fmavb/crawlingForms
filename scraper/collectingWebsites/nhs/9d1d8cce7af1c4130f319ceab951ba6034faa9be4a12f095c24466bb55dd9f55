@@ -1,0 +1,62 @@
+<form action="/services/hospital/queen-elizabeth-hospital-birmingham/X1655/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Planned gallbladder operation &lt;/Title&gt;
+    &lt;ScreenName&gt;Sharon Hobbs&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I was booked into ambulatory care for a gallbladder removal. All seemed efficient and in hand up until after my operation. After I woke back in the bay I was taken from. Wike to no one around apart from other patients. So no recovery ward was i woken in. 
+First thing I was asked if I wanted something to eat and drink. This being whilst I was still half asleep from the anaesthetic and feeling very nauseous. Which I had told the anaesthetist that I had trouble after anaesthetic with these things and requested an anti sickness drug to be given at the same time. This obviously didn't happen. I kept telling the nurses I needed anti sickness and painkillers which they initially ignored and kept trying to feed me, which feeling sick you dont want to eat, but also being in pain. All the nurses wanted to do was get me out of ambulatory care, so that I didnt have to stay in. This was their main priority, not ensuring the patient was looked after and comfortable. 
+They were more intent on looking after 1 person in my bay. It was only when my husband came and he went and spoke to them that they gave me painkillers. It then took another hour or so for me to wake up and be able to move around  with no help from the nurses, my husband had to help. 
+Then when I thought I was ready to go, even though I wasnt that stable on my feet, we couldn't find the nurses to obtain my bandages and drs note to discharge. We spoke to a nurse on another bay who assisted.
+Then once we left the nurse on my bay came running after us saying she had painkillers and bandages  which she had advised us previously to get from the dispensary. 
+My issue is that no one communicates what is going on to the patient, you have to ask the right questions. But also since leaving I had no idea what to do with my wounds, if the stitches were dissolvable or not and what happens in after care. Or is there no after care. 
+This is my third time in the QE hospital in the last 2 years and I have no confidence in the hospital or its staff and this is due to my 3 experiences. 
+Its appalling in this day and age that this happens and things need to change. 
+I was scared and concerned before going into this hospital this time and my fears were upheld. &lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2019-11-21T13:58:54Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;11&lt;/Month&gt;
+      &lt;Year&gt;2019&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Queen Elizabeth Hospital Birmingham&lt;/OrganisationName&gt;
+    &lt;Department&gt;General Surgery&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;d878160b-670c-ea11-a811-000d3a7ed688&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X1655&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamHUf--raPB2mZM5gjKWOdSlGVcV539P5ksqL-mmfav9imhpb83ubchT_35e6zGujwKLCIJnJ8LI0njGVRMTS0yWfCZEtzwycE1w7D4yxe5MpKdYZmK8wL1OZxBw_r1HojU"/></form>

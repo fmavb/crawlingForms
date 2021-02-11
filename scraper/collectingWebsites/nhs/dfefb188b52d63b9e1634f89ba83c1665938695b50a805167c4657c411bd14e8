@@ -1,0 +1,58 @@
+<form action="/services/hospital/woodland-hospital/X306/report" method="post">
+<input id="wizard" name="wizard" type="hidden" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;ReportWizardViewModel xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+  &lt;CurrentStepIndex&gt;0&lt;/CurrentStepIndex&gt;
+  &lt;StepViewModelList&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step1ViewModel&gt;
+        &lt;Step&gt;1&lt;/Step&gt;
+      &lt;/Step1ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step2ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step2ViewModel&gt;
+        &lt;Step&gt;2&lt;/Step&gt;
+      &lt;/Step2ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step3ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step3ViewModel&gt;
+        &lt;Step&gt;3&lt;/Step&gt;
+      &lt;/Step3ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step4ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step4ViewModel&gt;
+        &lt;Step&gt;4&lt;/Step&gt;
+      &lt;/Step4ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+    &lt;IStepViewModel AssemblyQualifiedName=&quot;nhsuk.serviceprofiles.viewer.ViewModels.Step5ViewModel, nhsuk.serviceprofiles.viewer, Version=2021.1.28.1, Culture=neutral, PublicKeyToken=null&quot;&gt;
+      &lt;Step5ViewModel&gt;
+        &lt;Step&gt;5&lt;/Step&gt;
+      &lt;/Step5ViewModel&gt;
+    &lt;/IStepViewModel&gt;
+  &lt;/StepViewModelList&gt;
+  &lt;Comment&gt;
+    &lt;Title&gt;Exceptional department&lt;/Title&gt;
+    &lt;ScreenName&gt;Nora Parker&lt;/ScreenName&gt;
+    &lt;CommentText&gt;I had a TKR at the end of July and wanted to give a big shout out to the fantastic physiotherapy department. The staff were always, each and everyone of them that supported me, very professional and reassuring. They helped me build up my confidence at a time where I felt incredibly vulnerable. I was very worried about having this operation but the physiotherapy staff were incredibly patient  when I asked lots of questions and helped me understand how to use my new knee. They encouraged and supported me with the various  exercise programmes they gave me and contacted me regularly to ensure I was making the necessary progress. Particularly with Covid 19 they still ensured I had the support from the department to get through the first few months after the operation. I felt nothing was too much trouble and they would always thoroughly explain the exercises and how they would help my overall knee movement. 
+Please pass on my thanks to the team. I am sorry that I don't have all their names to hand but everyone I met throughout this time, both pre op, during my hospital stay and post op were a fantastic representative of the department. I had one particular lady that I spoke to regularly post op and I hope you are able to thank her particularly on my behalf.
+For any NHS patient using this hospital for a TKR you can be assured of a very professional team supporting you through. I am due for my next knee replacement on my other knee in two weeks time and although not looking forward to it know I couldn't have a better group of staff to get me through. I have already written to my surgeon about the care I received from his team and the nursing staff but I feel the physiotherapy team deserve a special mention as they are sometimes forgotten when having an operation like this 
+one. 
+Thank you all of you from a very appreciative patient!&lt;/CommentText&gt;
+    &lt;DateSubmitted&gt;2020-10-14T16:05:17Z&lt;/DateSubmitted&gt;
+    &lt;Visit&gt;
+      &lt;Month&gt;7&lt;/Month&gt;
+      &lt;Year&gt;2020&lt;/Year&gt;
+    &lt;/Visit&gt;
+    &lt;IsResponse&gt;false&lt;/IsResponse&gt;
+    &lt;OrganisationName&gt;Woodland Hospital&lt;/OrganisationName&gt;
+    &lt;Department&gt;Orthopaedics&lt;/Department&gt;
+    &lt;RatingScore&gt;0&lt;/RatingScore&gt;
+    &lt;HeadingTag&gt;h2&lt;/HeadingTag&gt;
+  &lt;/Comment&gt;
+  &lt;CommentId&gt;88f45309-370e-eb11-a813-0022483ee631&lt;/CommentId&gt;
+  &lt;SearchKey&gt;X306&lt;/SearchKey&gt;
+  &lt;Change&gt;false&lt;/Change&gt;
+&lt;/ReportWizardViewModel&gt;"/>
+<input id="StepType" name="StepType" type="hidden" value="nhsuk.serviceprofiles.viewer.ViewModels.Step1ViewModel"/>
+<input id="Change" name="Change" type="hidden"/>
+<button class="nhsuk-button" name="next" type="submit" value="next">Continue</button>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8Lzyunfm_H9Bq3B0eryfamGIoBk78a0L0zpmRLy7esqoUy-3zDUyXt4QPYQeCkmqm-jnFHbnZDytpE39cLSFC4YEGBE04R02NGR7DcZuiMp65TH5SHhR4ZlYhsTCsBtu516oT6vfDCyzEFyZC6rZC8w"/></form>

@@ -1,0 +1,208 @@
+<form action="/quote/Direct/Home/YourDetails" class="yourDetailsForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="zcq5J3pjbUa1MKFC7xneqvyzWgJwSmM64tM1K8PnUZA58S00RBDlowLUQHUwUOeNt1VdnBLd_b9Xkj0b2G0rQ9-KrIU1"/> <noscript>
+<div class="m-card m-card-notification pod--error">
+<h2 class="pod__heading">Your browser does not have JavaScript enabled, please change this setting or call us for a quote</h2>
+</div>
+</noscript>
+<h1>Your details</h1>
+<p class="retrieve--quote__link">Already have a quote?  <a class="data-dd-link" data-dd-group="yourdetails" data-dd-link="retrieve" data-dd-loc="aside" href="/quote/Direct/Home/Quote/RetrieveQuoteClientSearch?Length=5">Retrieve it here</a></p>
+<p class="gdpr_link">Find out how we use your data <a class="dd-data-link" data-dd-group="yourdetails" data-dd-link="open" data-dd-loc="yourdatalightbox" data-module="o-modal" href="#yourDataLightbox">here</a></p>
+<fieldset class="m-form-row">
+<label class="a-label"><label for="PolicyHolder_Title">Title</label></label>
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.Title" data-valmsg-replace="true"></span>
+<div class="m-form-row__content group">
+<ul class="m-radio-group m-radio-group--5">
+<li class="m-radio-group__item">
+<label class="a-radio" for="MR">
+<input class="a-radio__input driverTitle" data-val="true" data-val-required="Please enter your title" id="MR" name="PolicyHolder.Title" type="radio" value="MR"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Mr</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="MRS">
+<input class="a-radio__input driverTitle" id="MRS" name="PolicyHolder.Title" type="radio" value="MRS"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Mrs</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="MISS">
+<input class="a-radio__input driverTitle" id="MISS" name="PolicyHolder.Title" type="radio" value="MISS"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Miss</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="MS">
+<input class="a-radio__input driverTitle" id="MS" name="PolicyHolder.Title" type="radio" value="MS"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Ms</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="DR">
+<input class="a-radio__input driverTitle" id="DR" name="PolicyHolder.Title" type="radio" value="DR"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Dr</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<fieldset class="m-form-row genderSelect">
+<label class="a-label"><label for="PolicyHolder_Gender">Gender</label></label>
+<div class="m-form-row__content group">
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.Gender" data-valmsg-replace="true"></span>
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="M">
+<input class="a-radio__input" data-val="true" data-val-required="Please select" id="M" name="PolicyHolder.Gender" type="radio" value="M"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Male</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="F">
+<input class="a-radio__input" id="F" name="PolicyHolder.Gender" type="radio" value="F"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Female</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<div class="m-form-row">
+<label class="a-label" for="FirstName"><label for="PolicyHolder_FirstName">First name</label></label>
+<div class="m-form-row__content">
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.FirstName" data-valmsg-replace="true"></span>
+<div class="m-form-row__content">
+<p>To make sure you get our best deal, please enter your name as it appears on your household bills.</p>
+<input class="a-textbox" data-val="true" data-val-length="Please enter at least 2 letters" data-val-length-max="100" data-val-length-min="2" data-val-regex="Please remove all numbers and special characters from your first name" data-val-regex-pattern="^(?!.*?['\-]{2})[a-zA-Z][a-zA-Z'\s\-]{1,32}$" data-val-required="Please enter your first name" id="PolicyHolder_FirstName" maxlength="32" name="PolicyHolder.FirstName" type="text" value=""/>
+</div>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="LastName"><label for="PolicyHolder_LastName">Last name</label></label>
+<div class="m-form-row__content">
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.LastName" data-valmsg-replace="true"></span>
+<input class="a-textbox" data-val="true" data-val-length="Please enter at least 2 letters" data-val-length-max="100" data-val-length-min="2" data-val-regex="Please remove all numbers and special characters from your last name" data-val-regex-pattern="^(?!.*?['\-]{2})[a-zA-Z][a-zA-Z'\s\-]{1,32}$" data-val-required="Please enter your last name" id="PolicyHolder_LastName" maxlength="32" name="PolicyHolder.LastName" type="text" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="DateOfBirthDay"><label for="PolicyHolder_DateOfBirth">Date of birth</label></label>
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.DateOfBirthDay" data-valmsg-replace="true"></span>
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.DateOfBirthMonth" data-valmsg-replace="true"></span>
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.DateOfBirthYear" data-valmsg-replace="true"></span>
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.DateOfBirth" data-valmsg-replace="true"></span>
+<div class="m-form-row__content m-form-dob group">
+<input class="a-textbox a-textbox--2-character dateOfBirthDay" data-val="true" data-val-regex="Please enter a valid day" data-val-regex-pattern="\d+" data-val-required="Please enter a day" id="PolicyHolder_DateOfBirthDay" maxlength="2" name="PolicyHolder.DateOfBirthDay" pattern="[0-9]*" placeholder="DD" size="2" type="tel" value=""/>
+<input class="a-textbox a-textbox--2-character dateOfBirthMonth" data-val="true" data-val-regex="Please enter a valid month" data-val-regex-pattern="\d+" data-val-required="Please enter a month" id="PolicyHolder_DateOfBirthMonth" maxlength="2" name="PolicyHolder.DateOfBirthMonth" pattern="[0-9]*" placeholder="MM" size="2" type="tel" value=""/>
+<input class="a-textbox a-textbox--4-character dateOfBirthYear" data-val="true" data-val-regex="Please enter a valid year" data-val-regex-pattern="(?:[0-9]{2}){1,2}" data-val-required="Please enter a year" id="PolicyHolder_DateOfBirthYear" maxlength="4" name="PolicyHolder.DateOfBirthYear" pattern="[0-9]*" placeholder="YYYY" size="4" type="tel" value=""/>
+</div>
+<input id="Invalid_AgeError_Message" name="Invalid_AgeError_Message" type="hidden" value="Sorry the main policy holder must be 16 years or over"/>
+<input id="Invalid_DateOfBirth_Message" name="Invalid_DateOfBirth_Message" type="hidden" value="please enter a valid date"/>
+</div>
+<div id="addressLookupWrapper">
+<div class="addressContainer">
+<div class="lookupContainer">
+<a href="/quote/Direct/Home/SessionTimeout" id="sessionTimeOutUrl" style="display: none;"></a>
+<fieldset class="m-form-row">
+<label class="a-label">Postcode of the property to be insured</label>
+<span class="field-validation-valid" data-valmsg-for="PropertyToInsure.Postcode" data-valmsg-replace="true"></span>
+<div class="m-form-row__content group">
+<p>Your postcode should be in Great Britain, Northern Ireland, Isle of Man or Channel Islands.</p>
+<div class="addressInput">
+<input autocomplete="off" class="a-textbox a-textbox--8-character" data-val="true" data-val-regex="Your postcode is not in the correct format. Please check and try again." data-val-regex-pattern="^((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Zj-z][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Zj-z][0-9]?[A-Za-z]))))\s?[0-9][A-Za-z]{2})$" data-val-required="Please enter your postcode" id="PropertyToInsure_Postcode" maxlength="8" name="PropertyToInsure.Postcode" type="text" value=""/>
+</div>
+<div class="addressConfirm smallTick">
+<span class="a-button a-button--input">
+<input class="a-button__inner findAddress dd-data-link" data-dd-group="yourdetails" data-dd-link="findaddress" data-dd-loc="addresslookup" id="propertyAddressButton" name="propertyAddressButton" type="submit" value="Find address"/>
+</span>
+</div>
+<div class="clearFix clear"></div>
+</div>
+</fieldset>
+</div>
+<div aria-role="alert" class="a-loading-indicator a-loading-indicator--small" id="addressLoader" style="display: none"><span class="a-loading-indicator__message"></span></div>
+<input id="PropertyToInsure_MultiplePostcode" name="PropertyToInsure.MultiplePostcode" type="hidden" value=""/>
+</div>
+<fieldset class="m-form-row">
+<label class="a-label"><label for="IsCorrespondenceAddressDifferent">Do you have a different correspondence address?</label></label>
+<div class="m-form-row__content">
+<ul class="m-radio-group m-radio-group--2" data-module="m-radio-segmented">
+<li class="m-radio-group__item">
+<label class="a-radio" for="IsCorrespondenceAddressDifferentYes">
+<input class="IsCorrespondenceAddressDifferentRadio a-radio__input dd-data-link" data-dd-group="yourdetails" data-dd-link="differentcorrespondenceaddress" data-dd-loc="addresslookup" data-val="true" data-val-required="Please select" id="IsCorrespondenceAddressDifferentYes" name="IsCorrespondenceAddressDifferent" type="radio" value="true"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">Yes</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+<li class="m-radio-group__item">
+<label class="a-radio" for="IsCorrespondenceAddressDifferentNo">
+<input checked="checked" class="IsCorrespondenceAddressDifferentRadio a-radio__input dd-data-link" data-dd-group="yourdetails" data-dd-link="samecorrespondenceaddress" data-dd-loc="addresslookup" id="IsCorrespondenceAddressDifferentNo" name="IsCorrespondenceAddressDifferent" type="radio" value="false"/>
+<span class="a-radio__label"><span class="a-radio__label-inner">No</span></span>
+<span class="a-radio__ui"></span>
+</label>
+</li>
+</ul>
+</div>
+</fieldset>
+<div class="addressContainer" id="correspondenceAddress">
+<input id="PolicyHolder_HouseNumberOrName" name="PolicyHolder.HouseNumberOrName" type="hidden" value=""/>
+<div class="lookupContainer">
+<label class="a-label" for="Postcode"><label for="PolicyHolder_Postcode">What is your correspondence postcode?</label></label>
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.Postcode" data-valmsg-replace="true"></span>
+<div class="m-form-row__content group">
+<div class="addressInput">
+<input autocomplete="off" class="a-textbox a-textbox--8-character" data-enter-button="btnPolicyHolderFindAddress" data-val="true" data-val-regex="Your postcode is not in the correct format. Please check and try again." data-val-regex-pattern="^((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Zj-z][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Zj-z][0-9]?[A-Za-z]))))\s?[0-9][A-Za-z]{2})$" id="PolicyHolder_Postcode" maxlength="8" name="PolicyHolder.Postcode" type="text" value=""/>
+</div>
+<div class="addressConfirm">
+<span class="a-button a-button--input">
+<input class="a-button__inner findAddress dd-data-link" data-dd-group="yourdetails" data-dd-link="findpolicyaddress" data-dd-loc="addresslookup" id="policyholderAddressButton" name="policyholderAddressButton" type="submit" value="Find address"/>
+</span>
+<div class="clearFix clear"></div>
+</div>
+<div class="clearFix clear"></div>
+</div>
+<div aria-role="alert" class="a-loading-indicator a-loading-indicator--small" id="policyholderAddressLoader" style="display: none"><span class="a-loading-indicator__message"></span></div>
+<div class="clearFix clear"></div>
+</div>
+<input id="PolicyHolder_MultiplePostcode" name="PolicyHolder.MultiplePostcode" type="hidden" value=""/>
+</div>
+</div>
+<div class="m-form-row">
+<a href="/quote/Direct/Home/Quote/CheckIfEmailAddressIsValid" id="emailValidationUrl" style="display: none;"></a>
+<a href="/quote/Direct/Home/Quote/CheckIfDateOfBirthIsValid" id="dateOfBirthValidationUrl" style="display: none;"></a>
+<input id="emailAddressVerificationFeatureToggle" type="hidden" value="False"/>
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.EmailAddress" data-valmsg-replace="true"></span>
+<label class="a-label" for="EmailAddress"><label for="PolicyHolder_EmailAddress">Email address</label></label>
+<div class="m-form-row__content">
+<div class="m-show-more dd-data-link" data-contract="Less info" data-dd-group="yourdetails" data-dd-link="showmore" data-dd-loc="emailaddress" data-expand="More info" data-module="m-show-more">
+<div>
+<p>Please enter your preferred email address. We need your email address to allow you access to retrieve your quote. See the <a href="https://www.aviva.co.uk/documents/idd/home/home-insurance/" target="_blank">Privacy Notice section</a> in the Important Information for this product, for more details.</p>
+</div>
+</div>
+<input class="verifyemailaddress a-textbox" data-val="true" data-val-required="Please enter your e-mail address" id="PolicyHolder_EmailAddress" name="PolicyHolder.EmailAddress" type="email" value=""/>
+<p class="infoText invalidEmailAddressMessage" style="display: none">We'll email you your quote details, so please make sure your address is correct. If you don’t have a MyAviva account, we will send you a link to activate your new account, where you can view all your quotes in one place. We won't share your email with anyone else, but if you'd like to opt out of further emails from Aviva, you'll have the chance to do so before submitting.</p>
+</div>
+</div>
+<div class="m-form-row">
+<label class="a-label" for="TelephoneNumber"><label for="PolicyHolder_TelephoneNumber">Preferred telephone number</label></label>
+<div class="m-form-row__content">
+<span class="field-validation-valid" data-valmsg-for="PolicyHolder.TelephoneNumber" data-valmsg-replace="true"></span>
+<div class="m-form-row__content">
+<div class="m-show-more dd-data-link" data-contract="Less info" data-dd-group="yourdetails" data-dd-link="showmore" data-dd-loc="telephonenumber" data-expand="More info" data-module="m-show-more">
+<div>
+<p>Please give us your preferred telephone number. We will use this to contact you about your policy if we need to. We may send you a text when you buy a policy.</p>
+</div>
+</div>
+<input class="a-textbox" data-val="true" data-val-regex="Please enter a valid number, including the area code if applicable" data-val-regex-pattern="^(\s|\+|\()*(?:\d(\s|\-|\(|\))*){8,20}$" data-val-required="Please enter a valid number" id="PolicyHolder_TelephoneNumber" maxlength="21" name="PolicyHolder.TelephoneNumber" type="tel" value=""/>
+</div>
+</div>
+</div>
+<div class="m-form-row m-form-row-no-border btn-group">
+<input id="PropertyAddressLookup" name="PropertyAddressLookup" type="hidden" value="False"/>
+<input id="PolicyHolderAddressLookup" name="PolicyHolderAddressLookup" type="hidden" value="False"/>
+<button class="a-button a-button--primary dd-data-link" data-dd-group="yourdetails" data-dd-link="continue" data-dd-loc="form" id="continueButton" name="continueButton" type="submit">Continue</button>
+</div>
+</form>

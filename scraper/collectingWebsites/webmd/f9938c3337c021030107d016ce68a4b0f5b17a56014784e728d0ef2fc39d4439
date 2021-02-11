@@ -1,0 +1,43 @@
+<form class="mainContainer" data-metrics-module="pd-filter" name="filters">
+<div class="parent-container">
+<div class="flex-parent">
+<div class="flex-items">
+<div class="header">
+<h4>ALL FILTERS</h4><button class="flex-items closeButton" data-metrics-link="cls" data-metrics-type="ad-hoc" type="button"></button></div>
+</div>
+</div>
+<div class="form-row"><label class="srch-filter-lbl">Specialty</label><div class="pd-form-srch-filter-overlay-tag"><span class="pd-srch-filter-overlay-tag"><span>General Practice</span><a class="pd-srch-filter-overlay-tag-exclude" data-param="sd" data-value="29264" href="#"></a></span></div>
+</div>
+<div class="form-row"><label class="lbl-chkbox" for="medicareChkBox"><span class="filterCheckboxSpan">Medicare</span><input class="actualChkBox" id="medicareChkBox" name="medicare" type="checkbox" value="true"/><span class="checkmark"></span></label><label class="lbl-chkbox" for="medicaidChkBox"><span class="filterCheckboxSpan">Medicaid</span><input class="actualChkBox" id="medicaidChkBox" name="medicaid" type="checkbox" value="true"/><span class="checkmark"></span></label></div>
+<div class="form-row form-two-controls">
+<div class="dd-wrap pd-srch-overlay-yrsexp-wrap"><label class="srch-filter-lbl">Years Experience</label><div class="form-subcontainer"><select class="pd-dd-srch-filter" name="years"><option data-count="nm" value="nm">No minimum</option>
+<option data-count="0" value="5">At least 5 years</option>
+<option data-count="0" value="10">At least 10 years</option>
+<option data-count="0" value="15">At least 15 years</option>
+<option data-count="0" value="20">At least 20 years</option>
+<option data-count="0" value="25">At least 25 years</option>
+<option data-count="0" value="30">At least 30 years</option></select></div>
+</div>
+<div class="dd-wrap"><label class="srch-filter-lbl">Distance</label><div class="form-subcontainer"><select class="pd-dd-srch-filter" name="distance"><option selected="" value="25">Within 25 miles</option>
+<option value="50">Within 50 miles</option>
+<option value="75">Within 75 miles</option></select></div>
+</div>
+</div>
+<div class="form-row"><label class="srch-filter-lbl">Hospital Affiliations</label><div class="pd-form-srch-filter-hospitals-wrap">
+<ul class="pd-form-srch-filter-hospitals-list">
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox1"><span class="filterCheckboxSpan">banner washakie medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="3226" data-hospital-name="banner washakie medical center" id="hospChkBox1" name="h" type="checkbox" value="3226"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox2"><span class="filterCheckboxSpan">cheyenne va medical center</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="3201" data-hospital-name="cheyenne va medical center" id="hospChkBox2" name="h" type="checkbox" value="3201"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox3"><span class="filterCheckboxSpan">community hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="3202" data-hospital-name="community hospital" id="hospChkBox3" name="h" type="checkbox" value="3202"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox4"><span class="filterCheckboxSpan">evanston regional hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="3225" data-hospital-name="evanston regional hospital" id="hospChkBox4" name="h" type="checkbox" value="3225"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox5"><span class="filterCheckboxSpan">regional west garden county</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="6138" data-hospital-name="regional west garden county" id="hospChkBox5" name="h" type="checkbox" value="6138"/><span class="checkmark"></span></label></li>
+<li class="pd-form-srch-filter-hospitals-list-item"><label class="lbl-hosp-chkbox" for="hospChkBox6"><span class="filterCheckboxSpan">sevier valley hospital</span><input class="actualChkBox hospChkBox" data-hospital-count="1" data-hospital-id="7627" data-hospital-name="sevier valley hospital" id="hospChkBox6" name="h" type="checkbox" value="7627"/><span class="checkmark"></span></label></li>
+</ul>
+</div>
+</div>
+<div class="form-row">
+<div class="dd-wrap pd-srch-overlay-newpat-wrap"><label class="lbl-chkbox" for="newpatChkBox"><span class="filterCheckboxSpan">Accepting New Patients</span><input class="actualChkBox" id="newpatChkBox" name="newpat" type="checkbox" value="true"/><span class="checkmark"></span></label></div>
+</div>
+<div class="mobile-div"></div>
+</div>
+<div class="form-row" data-city="Torrington" data-state="WY" id="buttonRow"><button class="clearAll" data-metrics-link="clr" data-metrics-type="" name="clearAll" type="button">Clear All</button><button class="cancel" data-metrics-link="cls" data-metrics-type="ad-hoc" name="cancel" type="button">Cancel</button><button class="apply" data-metrics-link="apl" data-metrics-type="" name="apply" type="button">Apply</button></div>
+</form>

@@ -1,0 +1,4 @@
+<form action="/food-recipes/healthy-recipe-finder" class="recipe-finder-search" data-metrics-module="srch-rcp">
+<input aria-label="Search for recipes" class="recipe-finder-search-field" name="query" placeholder="Search Recipes (e.g. chicken)" title="Search for healthy recipes" type="text"/>
+<button aria-label="Search" data-metrics-link="" type="submit"></button>
+</form>

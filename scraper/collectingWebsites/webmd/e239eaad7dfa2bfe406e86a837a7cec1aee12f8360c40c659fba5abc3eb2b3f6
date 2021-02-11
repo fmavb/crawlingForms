@@ -1,0 +1,10 @@
+<form action="#" method="get">
+<label for="email">Send yourself a link to download the app</label>
+<div class="sender">
+<input class="placeholder" id="email" name="toAddress" type="text" value="Your email address"/>
+<div class="errMsg"></div>
+</div>
+<div class="controls">
+<input type="submit" value="Submit"/>
+</div>
+</form>
