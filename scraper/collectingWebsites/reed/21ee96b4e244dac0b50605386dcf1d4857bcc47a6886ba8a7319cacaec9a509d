@@ -1,0 +1,14 @@
+<form action="/courses/all" data-bind="with: searchBarModel" id="mainSearchForm" method="GET">
+<div class="row search-bar-input-group">
+<div class="col-10 col-md-9 pr-0 mb-1 mb-sm-4">
+<label class="sr-only" for="mainKeywordInput">Search</label>
+<input class="form-control" data-bind="value: keywords, keywordAutocomplete: keywords, onSuggestionClick: search" id="mainKeywordInput" maxlength="255" name="keywords" placeholder="Subject or qualification, e.g. IT" type="text"/>
+</div>
+<div class="col-2 col-md-3 pl-0">
+<button class="btn btn-primary" data-bind="click: search" id="headerSearchButton" onclick="dataLayer.push({ 'event': 'keywordSearchButtonClick' });" type="submit">
+<span class="d-none d-md-block">Search courses</span>
+<span class="d-md-none search-icon"></span>
+</button>
+</div>
+</div>
+</form>

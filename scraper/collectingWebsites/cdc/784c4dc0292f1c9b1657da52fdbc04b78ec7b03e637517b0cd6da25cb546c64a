@@ -1,0 +1,117 @@
+<form action="/niosh-mining/?facetGroups=%5EEquipment,%20tools,%20and%20parts=Programmable%20electronic%20systems;%5EDocument%20types=Conferences,%20workshops,%20and%20seminars;&amp;ResultsPerPage=Ten&amp;sf=Equipment,%20tools,%20and%20parts&amp;Sort=Relevance" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="^Equipment, tools, and parts=Programmable electronic systems;^Document types=Conferences, workshops, and seminars;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Equipment, tools, and parts"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Equipment, tools, and parts</h2>
+<p class="facetDesc">Machines, devices, tools, and components used for a purpose (see also: Products and materials).</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=^Equipment, tools, and parts=Programmable electronic systems;^Document types=Conferences, workshops, and seminars;&amp;ResultsPerPage=Ten&amp;Sort=Relevance'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Equipment, tools, and parts">Equipment, tools, and parts</label>
+<label class="d-none" for="check_Communications equipment">Communications equipment</label>
+<label class="d-none" for="check_Medium frequency communications systems">Medium frequency communications systems</label>
+<label class="d-none" for="check_Node-based communications systems">Node-based communications systems</label>
+<label class="d-none" for="check_Wireless node communications systems">Wireless node communications systems</label>
+<label class="d-none" for="check_Electronic tracking systems">Electronic tracking systems</label>
+<label class="d-none" for="check_Instruments">Instruments</label>
+<label class="d-none" for="check_Dust measurement instruments">Dust measurement instruments</label>
+<label class="d-none" for="check_CDEM">CDEM</label>
+<label class="d-none" for="check_Mining, tunneling, and excavating machinery">Mining, tunneling, and excavating machinery</label>
+<label class="d-none" for="check_Motor vehicles">Motor vehicles</label>
+<label class="d-none" for="check_Diesel vehicles">Diesel vehicles</label>
+<label class="d-none" for="check_Noise control equipment">Noise control equipment</label>
+<label class="d-none" for="check_Personal protective equipment">Personal protective equipment</label>
+<label class="d-none" for="check_Ear and hearing protection">Ear and hearing protection</label>
+<label class="d-none" for="check_Programmable electronic systems">Programmable electronic systems</label>
+<label class="d-none" for="check_Proximity detection systems">Proximity detection systems</label>
+<label class="d-none" for="check_Warning equipment">Warning equipment</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Equipment, tools, and parts">
+<a>Equipment, tools, and parts</a>
+<ul>
+<li id="Communications equipment">
+<a>Communications equipment [1]</a>
+<ul>
+<li id="Medium frequency communications systems">
+<a>Medium frequency communications systems [1]</a>
+</li>
+<li id="Node-based communications systems">
+<a>Node-based communications systems [0]</a>
+<ul>
+<li id="Wireless node communications systems">
+<a>Wireless node communications systems [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Electronic tracking systems">
+<a>Electronic tracking systems [1]</a>
+</li>
+<li id="Instruments">
+<a>Instruments [0]</a>
+<ul>
+<li id="Dust measurement instruments">
+<a>Dust measurement instruments [0]</a>
+<ul>
+<li id="CDEM">
+<a>CDEM [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Mining, tunneling, and excavating machinery">
+<a>Mining, tunneling, and excavating machinery [1]</a>
+</li>
+<li id="Motor vehicles">
+<a>Motor vehicles [0]</a>
+<ul>
+<li id="Diesel vehicles">
+<a>Diesel vehicles [3]</a>
+</li>
+</ul>
+</li>
+<li id="Noise control equipment">
+<a>Noise control equipment [2]</a>
+</li>
+<li id="Personal protective equipment">
+<a>Personal protective equipment [0]</a>
+<ul>
+<li id="Ear and hearing protection">
+<a>Ear and hearing protection [1]</a>
+</li>
+</ul>
+</li>
+<li id="Programmable electronic systems">
+<a>Programmable electronic systems [1]</a>
+</li>
+<li id="Proximity detection systems">
+<a>Proximity detection systems [1]</a>
+</li>
+<li id="Warning equipment">
+<a>Warning equipment [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=^Equipment, tools, and parts=Programmable electronic systems;^Document types=Conferences, workshops, and seminars;&amp;ResultsPerPage=Ten&amp;Sort=Relevance';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

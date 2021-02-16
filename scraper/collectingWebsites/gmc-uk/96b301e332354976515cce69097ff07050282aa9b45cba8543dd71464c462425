@@ -1,0 +1,15 @@
+<form action="loginsubmit.aspx" id="submitLoginForm" method="post">
+<table>
+<tr><td class="error"></td></tr>
+<tr><div id="PageContent"><td class="home"><h2>Login</h2></td></div></tr>
+<tr><td class="tablebody"><p>Please enter your GMC Connect user name and password.</p></td></tr>
+</table>
+<table>
+<ul>
+<tr><td><li class="formlistpaddingbold"><label for="username">User Name</label></li></td><td><input autocomplete="off" class="tablebody" id="username" name="SWEUserName" tabindex="3"/></td></tr>
+<tr><td><li class="formlistpaddingbold"><label for="password">Password</label></li></td><td><input autocomplete="off" class="tablebody" id="password" name="SWEPassword" tabindex="3" type="password"/></td></tr>
+</ul>
+<tr><td><input class="filescannerbuttonOn" id="submitLogin" tabindex="3" type="Submit" value="Login"/></td></tr>
+<tr><td class="tablebodypadding"><a href="start.swe?SWECmd=GotoView&amp;SWEView=GMC+EP+Ext+Forgotten+Password+View&amp;SWEApplet=GMC+EP+Ext+Forgotten+Password+Form+Applet" tabindex="3" title="Opens in a new window">Forgotten Password?</a></td></tr>
+</table>
+</form>

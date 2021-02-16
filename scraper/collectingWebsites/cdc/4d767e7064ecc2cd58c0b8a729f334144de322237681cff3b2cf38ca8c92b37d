@@ -1,0 +1,11 @@
+<form id="form" role="form">
+<label for="viewDropdown">Select a dashboard:</label>
+<select id="viewDropdown" style="width:100%">
+<option selected="" value="Estimated Teen Birth Rates by County: Continental U.S.">Estimated Teen Birth Rates by County: Continental U.S.</option>
+<option value="Estimated Teen Birth Rates by County: Northeast U.S.">Estimated Teen Birth Rates by County: Northeast U.S.</option>
+<option value="Estimated Teen Birth Rates by County: Alaska, Hawaii, and DC">Estimated Teen Birth Rates by County: Alaska, Hawaii, and DC</option>
+<option value="County Estimated Teen Birth Rate Medians and Credible Intervals">County Estimated Teen Birth Rate Medians and Credible Intervals</option>
+</select><p>
+<input aria-controls="tablesLabel" onclick="title=$('#viewDropdown').val();updateDashboardTitle(title);switchView(title);" type="button" value="Update Dashboard"/>
+</p>
+</form>

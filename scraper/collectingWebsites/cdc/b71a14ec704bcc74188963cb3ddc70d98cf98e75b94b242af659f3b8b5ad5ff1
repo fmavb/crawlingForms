@@ -1,0 +1,161 @@
+<form action="/NIOSH-Mining/?facetGroups=Equipment,%20tools,%20and%20parts=%5E%5EDocument%20types=Technology%20News;&amp;sf=Hazards%20and%20exposures" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Equipment, tools, and parts=^^Document types=Technology News;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Hazards and exposures"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Hazards and exposures</h2>
+<p class="facetDesc">Health and safety dangers and risks.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=^^Document types=Technology News;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Hazards and exposures">Hazards and exposures</label>
+<label class="d-none" for="check_Accidents and emergencies">Accidents and emergencies</label>
+<label class="d-none" for="check_Emergencies">Emergencies</label>
+<label class="d-none" for="check_Disasters">Disasters</label>
+<label class="d-none" for="check_Equipment accidents">Equipment accidents</label>
+<label class="d-none" for="check_Explosions">Explosions</label>
+<label class="d-none" for="check_Ignitions">Ignitions</label>
+<label class="d-none" for="check_Fires">Fires</label>
+<label class="d-none" for="check_Spontaneous combustion">Spontaneous combustion</label>
+<label class="d-none" for="check_Flyrock">Flyrock</label>
+<label class="d-none" for="check_Ground falls">Ground falls</label>
+<label class="d-none" for="check_Highwall falls">Highwall falls</label>
+<label class="d-none" for="check_Roof falls">Roof falls</label>
+<label class="d-none" for="check_Biomechanical hazards">Biomechanical hazards</label>
+<label class="d-none" for="check_Bodily motions">Bodily motions</label>
+<label class="d-none" for="check_Lifting or lowering">Lifting or lowering</label>
+<label class="d-none" for="check_Clothing contamination">Clothing contamination</label>
+<label class="d-none" for="check_Diesel exhaust">Diesel exhaust</label>
+<label class="d-none" for="check_Electricity">Electricity</label>
+<label class="d-none" for="check_Electrical arcs">Electrical arcs</label>
+<label class="d-none" for="check_Fumes">Fumes</label>
+<label class="d-none" for="check_Blasting fumes">Blasting fumes</label>
+<label class="d-none" for="check_Heat">Heat</label>
+<label class="d-none" for="check_Inhaling harmful substances">Inhaling harmful substances</label>
+<label class="d-none" for="check_Noise">Noise</label>
+<label class="d-none" for="check_Visibility hazards">Visibility hazards</label>
+<label class="d-none" for="check_Inadequate illumination">Inadequate illumination</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Hazards and exposures">
+<a>Hazards and exposures</a>
+<ul>
+<li id="Accidents and emergencies">
+<a>Accidents and emergencies [0]</a>
+<ul>
+<li id="Emergencies">
+<a>Emergencies [2]</a>
+<ul>
+<li id="Disasters">
+<a>Disasters [3]</a>
+</li>
+</ul>
+</li>
+<li id="Equipment accidents">
+<a>Equipment accidents [1]</a>
+</li>
+<li id="Explosions">
+<a>Explosions [6]</a>
+<ul>
+<li id="Ignitions">
+<a>Ignitions [2]</a>
+</li>
+</ul>
+</li>
+<li id="Fires">
+<a>Fires [4]</a>
+<ul>
+<li id="Spontaneous combustion">
+<a>Spontaneous combustion [2]</a>
+</li>
+</ul>
+</li>
+<li id="Flyrock">
+<a>Flyrock [1]</a>
+</li>
+<li id="Ground falls">
+<a>Ground falls [0]</a>
+<ul>
+<li id="Highwall falls">
+<a>Highwall falls [1]</a>
+</li>
+<li id="Roof falls">
+<a>Roof falls [7]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Biomechanical hazards">
+<a>Biomechanical hazards [0]</a>
+<ul>
+<li id="Bodily motions">
+<a>Bodily motions [0]</a>
+<ul>
+<li id="Lifting or lowering">
+<a>Lifting or lowering [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Clothing contamination">
+<a>Clothing contamination [1]</a>
+</li>
+<li id="Diesel exhaust">
+<a>Diesel exhaust [3]</a>
+</li>
+<li id="Electricity">
+<a>Electricity [0]</a>
+<ul>
+<li id="Electrical arcs">
+<a>Electrical arcs [1]</a>
+</li>
+</ul>
+</li>
+<li id="Fumes">
+<a>Fumes [0]</a>
+<ul>
+<li id="Blasting fumes">
+<a>Blasting fumes [1]</a>
+</li>
+</ul>
+</li>
+<li id="Heat">
+<a>Heat [1]</a>
+</li>
+<li id="Inhaling harmful substances">
+<a>Inhaling harmful substances [1]</a>
+</li>
+<li id="Noise">
+<a>Noise [4]</a>
+</li>
+<li id="Visibility hazards">
+<a>Visibility hazards [0]</a>
+<ul>
+<li id="Inadequate illumination">
+<a>Inadequate illumination [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=^^Document types=Technology News;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

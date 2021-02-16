@@ -1,0 +1,361 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazards%20and%20exposures=Fixed%20or%20awkward%20postures;Repetitive%20motions;Stooping;Squatting;Lifting%20or%20lowering;Crawling;%5E%5EDocument%20types=&amp;sf=Hazards%20and%20exposures" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazards and exposures=Fixed or awkward postures;Repetitive motions;Stooping;Squatting;Lifting or lowering;Crawling;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Hazards and exposures"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Hazards and exposures</h2>
+<p class="facetDesc">Health and safety dangers and risks.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Fixed or awkward postures;Repetitive motions;Stooping;Squatting;Lifting or lowering;Crawling;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Hazards and exposures">Hazards and exposures</label>
+<label class="d-none" for="check_Accidents and emergencies">Accidents and emergencies</label>
+<label class="d-none" for="check_Avalanches">Avalanches</label>
+<label class="d-none" for="check_Bumps">Bumps</label>
+<label class="d-none" for="check_Electrical accidents">Electrical accidents</label>
+<label class="d-none" for="check_Emergencies">Emergencies</label>
+<label class="d-none" for="check_Disasters">Disasters</label>
+<label class="d-none" for="check_Entrapment">Entrapment</label>
+<label class="d-none" for="check_Equipment accidents">Equipment accidents</label>
+<label class="d-none" for="check_Collisions">Collisions</label>
+<label class="d-none" for="check_HAZMAT transport accidents">HAZMAT transport accidents</label>
+<label class="d-none" for="check_Loss of vehicle control">Loss of vehicle control</label>
+<label class="d-none" for="check_Rollovers">Rollovers</label>
+<label class="d-none" for="check_Explosions">Explosions</label>
+<label class="d-none" for="check_Bursts">Bursts</label>
+<label class="d-none" for="check_Ignitions">Ignitions</label>
+<label class="d-none" for="check_Falling objects">Falling objects</label>
+<label class="d-none" for="check_Falls">Falls</label>
+<label class="d-none" for="check_Falls from heights">Falls from heights</label>
+<label class="d-none" for="check_Slips and trips">Slips and trips</label>
+<label class="d-none" for="check_Fires">Fires</label>
+<label class="d-none" for="check_Spontaneous combustion">Spontaneous combustion</label>
+<label class="d-none" for="check_Flyrock">Flyrock</label>
+<label class="d-none" for="check_Ground falls">Ground falls</label>
+<label class="d-none" for="check_Highwall falls">Highwall falls</label>
+<label class="d-none" for="check_Rib falls">Rib falls</label>
+<label class="d-none" for="check_Rib sloughage">Rib sloughage</label>
+<label class="d-none" for="check_Roof falls">Roof falls</label>
+<label class="d-none" for="check_Inundations">Inundations</label>
+<label class="d-none" for="check_Storms">Storms</label>
+<label class="d-none" for="check_Storms (electrical)">Storms (electrical)</label>
+<label class="d-none" for="check_Biomechanical hazards">Biomechanical hazards</label>
+<label class="d-none" for="check_Bodily motions">Bodily motions</label>
+<label class="d-none" for="check_Crawling">Crawling</label>
+<label class="d-none" for="check_Fixed or awkward postures">Fixed or awkward postures</label>
+<label class="d-none" for="check_Kneeling">Kneeling</label>
+<label class="d-none" for="check_Lifting or lowering">Lifting or lowering</label>
+<label class="d-none" for="check_Repetitive motions">Repetitive motions</label>
+<label class="d-none" for="check_Squatting">Squatting</label>
+<label class="d-none" for="check_Standing">Standing</label>
+<label class="d-none" for="check_Stooping">Stooping</label>
+<label class="d-none" for="check_Excessive vibration">Excessive vibration</label>
+<label class="d-none" for="check_Hand-arm vibration">Hand-arm vibration</label>
+<label class="d-none" for="check_Shock">Shock</label>
+<label class="d-none" for="check_Whole-body vibration">Whole-body vibration</label>
+<label class="d-none" for="check_Overexertion">Overexertion</label>
+<label class="d-none" for="check_Torque reaction">Torque reaction</label>
+<label class="d-none" for="check_Clothing contamination">Clothing contamination</label>
+<label class="d-none" for="check_Confined spaces">Confined spaces</label>
+<label class="d-none" for="check_Diesel exhaust">Diesel exhaust</label>
+<label class="d-none" for="check_Electricity">Electricity</label>
+<label class="d-none" for="check_Electrical arcs">Electrical arcs</label>
+<label class="d-none" for="check_Sparks">Sparks</label>
+<label class="d-none" for="check_Emotional stress">Emotional stress</label>
+<label class="d-none" for="check_Fumes">Fumes</label>
+<label class="d-none" for="check_Blasting fumes">Blasting fumes</label>
+<label class="d-none" for="check_Welding fumes">Welding fumes</label>
+<label class="d-none" for="check_Heat">Heat</label>
+<label class="d-none" for="check_Inhaling harmful substances">Inhaling harmful substances</label>
+<label class="d-none" for="check_Moving objects">Moving objects</label>
+<label class="d-none" for="check_Noise">Noise</label>
+<label class="d-none" for="check_Oxygen deficiency">Oxygen deficiency</label>
+<label class="d-none" for="check_Pollution">Pollution</label>
+<label class="d-none" for="check_Air pollution">Air pollution</label>
+<label class="d-none" for="check_Radiation">Radiation</label>
+<label class="d-none" for="check_Nonionizing radiation">Nonionizing radiation</label>
+<label class="d-none" for="check_Smoke">Smoke</label>
+<label class="d-none" for="check_Visibility hazards">Visibility hazards</label>
+<label class="d-none" for="check_Glare">Glare</label>
+<label class="d-none" for="check_Inadequate illumination">Inadequate illumination</label>
+<label class="d-none" for="check_Visibility obstructions">Visibility obstructions</label>
+<label class="d-none" for="check_Smoke obscurations">Smoke obscurations</label>
+<label class="d-none" for="check_Workplace contamination">Workplace contamination</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Hazards and exposures">
+<a>Hazards and exposures</a>
+<ul>
+<li id="Accidents and emergencies">
+<a>Accidents and emergencies [9]</a>
+<ul>
+<li id="Avalanches">
+<a>Avalanches [1]</a>
+</li>
+<li id="Bumps">
+<a>Bumps [32]</a>
+</li>
+<li id="Electrical accidents">
+<a>Electrical accidents [10]</a>
+</li>
+<li id="Emergencies">
+<a>Emergencies [25]</a>
+<ul>
+<li id="Disasters">
+<a>Disasters [25]</a>
+</li>
+</ul>
+</li>
+<li id="Entrapment">
+<a>Entrapment [5]</a>
+</li>
+<li id="Equipment accidents">
+<a>Equipment accidents [22]</a>
+<ul>
+<li id="Collisions">
+<a>Collisions [8]</a>
+</li>
+<li id="HAZMAT transport accidents">
+<a>HAZMAT transport accidents [1]</a>
+</li>
+<li id="Loss of vehicle control">
+<a>Loss of vehicle control [1]</a>
+</li>
+<li id="Rollovers">
+<a>Rollovers [1]</a>
+</li>
+</ul>
+</li>
+<li id="Explosions">
+<a>Explosions [79]</a>
+<ul>
+<li id="Bursts">
+<a>Bursts [7]</a>
+</li>
+<li id="Ignitions">
+<a>Ignitions [33]</a>
+</li>
+</ul>
+</li>
+<li id="Falling objects">
+<a>Falling objects [1]</a>
+</li>
+<li id="Falls">
+<a>Falls [7]</a>
+<ul>
+<li id="Falls from heights">
+<a>Falls from heights [8]</a>
+</li>
+<li id="Slips and trips">
+<a>Slips and trips [15]</a>
+</li>
+</ul>
+</li>
+<li id="Fires">
+<a>Fires [84]</a>
+<ul>
+<li id="Spontaneous combustion">
+<a>Spontaneous combustion [20]</a>
+</li>
+</ul>
+</li>
+<li id="Flyrock">
+<a>Flyrock [9]</a>
+</li>
+<li id="Ground falls">
+<a>Ground falls [24]</a>
+<ul>
+<li id="Highwall falls">
+<a>Highwall falls [3]</a>
+</li>
+<li id="Rib falls">
+<a>Rib falls [14]</a>
+<ul>
+<li id="Rib sloughage">
+<a>Rib sloughage [1]</a>
+</li>
+</ul>
+</li>
+<li id="Roof falls">
+<a>Roof falls [91]</a>
+</li>
+</ul>
+</li>
+<li id="Inundations">
+<a>Inundations [2]</a>
+</li>
+<li id="Storms">
+<a>Storms [0]</a>
+<ul>
+<li id="Storms (electrical)">
+<a>Storms (electrical) [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Biomechanical hazards">
+<a>Biomechanical hazards [4]</a>
+<ul>
+<li id="Bodily motions">
+<a>Bodily motions [5]</a>
+<ul>
+<li id="Crawling">
+<a>Crawling [3]</a>
+</li>
+<li id="Fixed or awkward postures">
+<a>Fixed or awkward postures [10]</a>
+</li>
+<li id="Kneeling">
+<a>Kneeling [13]</a>
+</li>
+<li id="Lifting or lowering">
+<a>Lifting or lowering [12]</a>
+</li>
+<li id="Repetitive motions">
+<a>Repetitive motions [3]</a>
+</li>
+<li id="Squatting">
+<a>Squatting [7]</a>
+</li>
+<li id="Standing">
+<a>Standing [3]</a>
+</li>
+<li id="Stooping">
+<a>Stooping [5]</a>
+</li>
+</ul>
+</li>
+<li id="Excessive vibration">
+<a>Excessive vibration [2]</a>
+<ul>
+<li id="Hand-arm vibration">
+<a>Hand-arm vibration [2]</a>
+</li>
+<li id="Shock">
+<a>Shock [5]</a>
+</li>
+<li id="Whole-body vibration">
+<a>Whole-body vibration [24]</a>
+</li>
+</ul>
+</li>
+<li id="Overexertion">
+<a>Overexertion [2]</a>
+</li>
+<li id="Torque reaction">
+<a>Torque reaction [1]</a>
+</li>
+</ul>
+</li>
+<li id="Clothing contamination">
+<a>Clothing contamination [4]</a>
+</li>
+<li id="Confined spaces">
+<a>Confined spaces [9]</a>
+</li>
+<li id="Diesel exhaust">
+<a>Diesel exhaust [53]</a>
+</li>
+<li id="Electricity">
+<a>Electricity [1]</a>
+<ul>
+<li id="Electrical arcs">
+<a>Electrical arcs [5]</a>
+</li>
+<li id="Sparks">
+<a>Sparks [2]</a>
+</li>
+</ul>
+</li>
+<li id="Emotional stress">
+<a>Emotional stress [7]</a>
+</li>
+<li id="Fumes">
+<a>Fumes [2]</a>
+<ul>
+<li id="Blasting fumes">
+<a>Blasting fumes [12]</a>
+</li>
+<li id="Welding fumes">
+<a>Welding fumes [2]</a>
+</li>
+</ul>
+</li>
+<li id="Heat">
+<a>Heat [13]</a>
+</li>
+<li id="Inhaling harmful substances">
+<a>Inhaling harmful substances [17]</a>
+</li>
+<li id="Moving objects">
+<a>Moving objects [11]</a>
+</li>
+<li id="Noise">
+<a>Noise [88]</a>
+</li>
+<li id="Oxygen deficiency">
+<a>Oxygen deficiency [1]</a>
+</li>
+<li id="Pollution">
+<a>Pollution [0]</a>
+<ul>
+<li id="Air pollution">
+<a>Air pollution [2]</a>
+</li>
+</ul>
+</li>
+<li id="Radiation">
+<a>Radiation [0]</a>
+<ul>
+<li id="Nonionizing radiation">
+<a>Nonionizing radiation [21]</a>
+</li>
+</ul>
+</li>
+<li id="Smoke">
+<a>Smoke [13]</a>
+</li>
+<li id="Visibility hazards">
+<a>Visibility hazards [5]</a>
+<ul>
+<li id="Glare">
+<a>Glare [7]</a>
+</li>
+<li id="Inadequate illumination">
+<a>Inadequate illumination [12]</a>
+</li>
+<li id="Visibility obstructions">
+<a>Visibility obstructions [0]</a>
+<ul>
+<li id="Smoke obscurations">
+<a>Smoke obscurations [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Workplace contamination">
+<a>Workplace contamination [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Fixed or awkward postures;Repetitive motions;Stooping;Squatting;Lifting or lowering;Crawling;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

@@ -1,0 +1,16 @@
+<form action="/courses/account/accounthome/oauthsignin" method="post"><input id="RegisterReturnUrl" name="ReturnUrl" type="hidden" value="/courses/buy-now/business-development/qcf/online/regulated/university/cpd/tutor-support/payment-options/beginner/advanced/south-west-england"/> <div class="mt-3 text-center">
+<div class="mb-3">
+<div class="row">
+<div class="col-sm-6 mb-3">
+<button class="btn btn-block btn-social-facebook" data-gtm="register_click" data-gtm-value="facebook" name="OAuthType" value="Facebook">Register using Facebook</button>
+</div>
+<div class="col-sm-6 mb-3">
+<button class="btn btn-block btn-social-google" data-gtm="register_click" data-gtm-value="google" name="OAuthType" value="Google">Register using Google</button>
+</div>
+</div>
+</div>
+<div class="p-2 text-md-center">
+<small><span class="icon-lock"></span> We will not post to, or share your social profiles.</small>
+</div>
+</div>
+</form>

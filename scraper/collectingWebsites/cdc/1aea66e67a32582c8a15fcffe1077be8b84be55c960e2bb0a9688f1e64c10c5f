@@ -1,0 +1,40 @@
+<form action="/NIOSH-Mining/?facetGroups=Research%20methods%20and%20measures=Electrical%20resistance;%5E&amp;sf=Document%20types" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Research methods and measures=Electrical resistance;^"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Document types"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <h2 class="facetHeader">Document types</h2>
+<p class="facetDesc">Type of web resource (publications, software, videos, data and statistics, contracts, projects, historical information, educational materials, etc.)</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Research methods and measures=Electrical resistance;^'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Publications">Publications</label>
+<label class="d-none" for="check_Conference papers">Conference papers</label>
+<label class="d-none" for="check_Safety guidelines, tips, and checklists">Safety guidelines, tips, and checklists</label>
+<label class="d-none" for="check_Unpublished documents and reports">Unpublished documents and reports</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Publications">
+<a>Publications</a>
+<ul>
+<li id="Conference papers">
+<a>Conference papers [1]</a>
+</li>
+</ul>
+</li>
+<li id="Safety guidelines, tips, and checklists">
+<a>Safety guidelines, tips, and checklists</a>
+</li>
+<li id="Unpublished documents and reports">
+<a>Unpublished documents and reports</a>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Research methods and measures=Electrical resistance;^';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

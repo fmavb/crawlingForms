@@ -1,0 +1,66 @@
+<form action="/NIOSH-Mining/?facetGroups=Population%20groups=General%20public;%5E%5EDocument%20types=Technology%20News;&amp;sf=Document%20types" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Population groups=General public;^^Document types=Technology News;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Document types"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <h2 class="facetHeader">Document types</h2>
+<p class="facetDesc">Type of web resource (publications, software, videos, data and statistics, contracts, projects, historical information, educational materials, etc.)</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Population groups=General public;^^Document types=Technology News;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Administrative pages">Administrative pages</label>
+<label class="d-none" for="check_About us">About us</label>
+<label class="d-none" for="check_News and announcements">News and announcements</label>
+<label class="d-none" for="check_Calls for participation">Calls for participation</label>
+<label class="d-none" for="check_Notices">Notices</label>
+<label class="d-none" for="check_Federal Register notices">Federal Register notices</label>
+<label class="d-none" for="check_Publications">Publications</label>
+<label class="d-none" for="check_Peer reviewed journal articles">Peer reviewed journal articles</label>
+<label class="d-none" for="check_Technology News">Technology News</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Administrative pages">
+<a>Administrative pages</a>
+<ul>
+<li id="About us">
+<a>About us [1]</a>
+</li>
+</ul>
+</li>
+<li id="News and announcements">
+<a>News and announcements</a>
+<ul>
+<li id="Calls for participation">
+<a>Calls for participation [1]</a>
+</li>
+<li id="Notices">
+<a>Notices [0]</a>
+<ul>
+<li id="Federal Register notices">
+<a>Federal Register notices [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Publications">
+<a>Publications</a>
+<ul>
+<li id="Peer reviewed journal articles">
+<a>Peer reviewed journal articles [1]</a>
+</li>
+<li id="Technology News">
+<a>Technology News [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Population groups=General public;^^Document types=Technology News;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

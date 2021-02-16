@@ -1,0 +1,125 @@
+<form accesskey="S" action="Buildqyr.asp" id="form1" method="Get" name="form1" onsubmit="return Search_onclick('new')" tabindex="2">
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="card-title h3">
+<label for="S1">New Search</label>
+</div>
+<div class="card-body">
+<div class="card-text">
+<input class="form-control" id="S1" name="S1" placeholder="Enter search terms"/>
+<input class="btn btn-primary button-font" id="SearchNew" name="SearchNew" onclick="return Search_onclick('new')" type="submit" value="Go"/>
+<input class="btn btn-primary button-font" id="SearchResult" name="SearchResult" onclick="return Search_onclick('filter')" type="button" value="Search Within Results"/>
+<p>
+<a href="advsearch2.asp">Advanced Search</a>  
+						<a href="n2help.asp">Search Help</a>  
+						<a href="n2info.asp">About NIOSHTIC-2 </a>  
+						<a href="mailto:nioshtic2@cdc.gov?subject=Nioshtic-2 feedback">Feedback</a>
+</p>
+<input name="s1" type="HIDDEN" value="20032497"/>
+<input name="f1" type="HIDDEN" value="*"/>
+<input name="Startyear" type="HIDDEN" value=""/>
+<input name="Adv" type="HIDDEN" value="0"/>
+<input name="terms" type="HIDDEN" value="1"/>
+<input name="PageNo" type="HIDDEN" value="1"/>
+<input name="D1" type="HIDDEN" value="10"/>
+<input name="View" type="HIDDEN" value="f"/>
+<input name="EndYear" type="HIDDEN" value=""/>
+<input name="Limit" type="HIDDEN" value="10000"/>
+<input name="sort" type="HIDDEN" value=""/>
+<input name="RecNo" type="HIDDEN" value="1"/>
+<input id="RecSelect" name="RecSelect" type="hidden" value="0"/>
+<input id="pagecount" name="Pagecount" type="hidden" value="1"/>
+<input id="NumRecOnPage" name="NumRecOnPage" type="hidden" value="0"/>
+<input name="hiddenURL" type="hidden"/>
+										
+					Terms: <em>  20032497</em>  
+					1 - 1
+					of <span class="emph">1</span> Bibliographic entries
+						   <span style="float:right;">
+
+													
+								All record(s) shown. 
+										
+					</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<a href="#" id="Select2" onclick="return SaveSelection('SaveAll',1)" title="Select all record(s) from this search">Save All</a>  
+                                        <a href="#" id="Select1" onclick="return SaveSelection('SavePage',1)" title="Select all record(s) on this page">Save Page</a>  
+
+                                        <a href="#" id="Disp" onclick="return DispSelection(1)" title="View all selected record(s)">View Saved</a>  
+                                        
+                                        <a href="#" onclick="return LoadDownload(1)" title="Download Search results">Download </a>  
+                                    
+                             </div>
+<div class="row">
+<em class="col-md-10 muted">Select check boxes to automatically save entries, or use 'save all' or 'save page' links above.</em>
+<div class="col-md-2">
+<span id="btr"><a href="//www2a.cdc.gov/nioshtic-2/BuildQyr.asp?s1=20032497&amp;f1=%2A&amp;Startyear=&amp;Adv=0&amp;terms=1&amp;D1=10&amp;EndYear=&amp;Limit=10000&amp;sort=&amp;PageNo=1&amp;RecNo=1&amp;View=b&amp;">Back to Results</a></span>
+</div>
+</div>
+<div class="section-highlight" id="NIOSHTIC2">
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->
+<input alt="checkbox_1" id="checkbox1_id" name="checkbox1" type="checkbox" value="43432"/><label for="checkbox1_id"> 1</label>
+<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Associations between major life events, traumatic incidents, and depression among Buffalo police officers.
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!--<small>-->Authors<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Hartley-TA; Violanti-JM; Fekedulegn-D; Andrew-ME; Burchfiel-CM
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->Source<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Int J Emerg Mental Health 2007 Winter; 9(1):25-35
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->Link<!-- </small>-->
+</div>
+<div class="col-md-10">
+<a href="https://www.omicsonline.org/open-access-pdfs/associations-between-major-life-events-traumatic-incidents-and-depression-among-buffalo-police-officers.pdf">https://www.omicsonline.org/open-access-pdfs/associations-between-major-life-events-traumatic-incidents-and-depression-among-buffalo-police-officers.pdf</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->NIOSHTIC No.<!-- </small>-->
+</div>
+<div class="col-md-10">
+<span class="highlight-search-term">20032497</span>
+</div>
+</div>
+<div class="row"><div class="col-md-2 muted"><!-- <small>-->Abstract<!-- </small>--></div><div class="col-md-10">Police officers are considered to be a highly stressed population due to the nature of the work they perform. Repeated exposures to work stress and stressful life events can affect one's psychological and physiological well-being. The objective of this study was to determine whether negative life events and traumatic police incidents are associated with depression in police officers. One hundred randomly selected urban officers completed a series of self-report measures as part of a cross-sectional pilot study. Using four negative life event categories (none, low, medium, and high) a J-shaped pattern was observed with mean depression scores (+/- SD) of 9.26 (+/- 7.41), 6.21 (+/- 5.94), 8.17 (+/- 7.42), and 14.64 (+/- 8.04), respectively (test for linear trend p = 0.0186). Adjustment for age (p = 0.0209), then age, gender and ethnicity together (p = 0.0184) did not alter this pattern appreciably. No association between traumatic police incidents and depression was observed. Results indicate that exposure to multiple negative life events is significantly associated with elevated depression scores among this sample. Police agencies should consider developing psychological assistance efforts to help affected officers cope with these events and deal with depression.</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Keywords<!-- </small>--></div><div class="col-md-10">Psychological-effects; Psychological-stress; Psychological-reactions; Psychological-responses; Emergency-responders; Police-officers; Humans; Age-groups; Epidemiology; Statistical-analysis; Women; Racial-factors; Demographic-characteristics; 
+Author Keywords: police officers; depression; life events; traumatic incidents</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Contact<!-- </small>--></div><div class="col-md-10">Tara A. Hartley, Health Effects Laboratory Division, National Institute for Occupational Safety and Health, Morgantown, WV 26505, USA</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Publication Date<!-- </small>--></div><div class="col-md-10">20071001</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Document Type<!-- </small>--></div><div class="col-md-10">Journal Article</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Email Address<!-- </small>--></div><div class="col-md-10">THartley@cdc.gov</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Funding Type<!-- </small>--></div><div class="col-md-10">Grant; Purchase Order</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Fiscal Year<!-- </small>--></div><div class="col-md-10">2008</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NTIS Accession No.<!-- </small>--></div><div class="col-md-10"></div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NTIS Price<!-- </small>--></div><div class="col-md-10"></div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Identifying No.<!-- </small>--></div><div class="col-md-10">Grant-Number-R03-OH-003772; Purchase-Order-HELD01B0088</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Issue of Publication<!-- </small>--></div><div class="col-md-10">1</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->ISSN<!-- </small>--></div><div class="col-md-10">1522-4821</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NIOSH Division<!-- </small>--></div><div class="col-md-10">HELD</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Priority Area<!-- </small>--></div><div class="col-md-10">Services: Public Safety</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Source Name<!-- </small>--></div><div class="col-md-10">International Journal of Emergency Mental Health</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->State<!-- </small>--></div><div class="col-md-10">WV; NY</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Performing Organization<!-- </small>--></div><div class="col-md-10">University of New York at Buffalo</div></div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="col-md-12" style="padding-top:5px;padding-bottom:6px;">
+                                    Page 1 of 1
+                                <span style="float:right;">
+                                    
+				                        All record(s) shown.
+                              
+                                </span>
+</div>
+</div>
+</div>
+</div>
+</form>

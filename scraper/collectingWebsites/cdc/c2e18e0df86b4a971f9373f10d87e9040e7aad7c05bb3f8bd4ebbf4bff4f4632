@@ -1,0 +1,12 @@
+<form class="browse2-search">
+<fieldset>
+<span class="browse2-search-icon icon-search"></span>
+<label class="accessible" for="browse2-search-control">
+          Search
+        </label>
+<input class="browse2-search-control searchBox" id="browse2-search-control" name="browseSearch" placeholder="Search" title="Search" type="text" value=""/>
+<span class="browse2-search-mobile-search-button">
+<span class="icon-search"></span>
+</span>
+</fieldset>
+</form>

@@ -1,0 +1,16 @@
+<form action="https://blogs.cdc.gov/niosh-science-blog/wp-comments-post.php" class="comment-form" id="commentform" method="post" novalidate=""><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea cols="45" id="comment" maxlength="65525" name="comment" required="required" rows="8"></textarea></p><div class="cdc-comment-notes">All comments posted become a part of the public domain, and users are responsible for their comments.  This is a moderated site and your comments will be reviewed before they are posted. <a href="https://blogs.cdc.gov/niosh-science-blog/policies">Read more about our comment policy »</a></div><p class="comment-form-author"><label for="author">Name</label> <input id="author" maxlength="245" name="author" size="30" type="text" value=""/></p>
+<p class="comment-form-email"><label for="email">Email</label> <input aria-describedby="email-notes" id="email" maxlength="100" name="email" size="30" type="email" value=""/></p>
+<p class="form-submit"><input class="submit" id="submit" name="submit" type="submit" value="Post Comment"/> <input id="comment_post_ID" name="comment_post_ID" type="hidden" value="121"/>
+<input id="comment_parent" name="comment_parent" type="hidden" value="593"/>
+</p>
+<!-- Anti-spam plugin v.5.3 wordpress.org/plugins/anti-spam/ -->
+<p class="antispam-group antispam-group-q" style="clear: both;">
+<label>Current ye@r <span class="required">*</span></label>
+<input class="antispam-control antispam-control-a" name="antspm-a" type="hidden" value="2021"/>
+<input autocomplete="off" class="antispam-control antispam-control-q" name="antspm-q" type="text" value="5.3"/>
+</p>
+<p class="antispam-group antispam-group-e" style="display: none;">
+<label>Leave this field empty</label>
+<input autocomplete="off" class="antispam-control antispam-control-e" name="antspm-e-email-url-website" type="text" value=""/>
+</p>
+</form>

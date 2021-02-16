@@ -1,0 +1,7 @@
+<form action="/controller/datarequest" id="wel-form" method="get" name="wel-form">
+<input name="stage" type="hidden" value="search"/>
+<input name="action" type="hidden" value="Search"/>
+<label for="wel-search" style="display:none">Search</label>
+<input id="wel-search-field" maxlength="100" name="S__search1" type="text" value=""/>
+<br/><input class="button2" title="Search for databases matching the specified terms" type="submit" value="Search"/>
+</form>

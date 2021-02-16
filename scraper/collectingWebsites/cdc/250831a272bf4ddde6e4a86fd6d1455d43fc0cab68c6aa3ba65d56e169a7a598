@@ -1,0 +1,15 @@
+<form action="https://search.cdc.gov/search" id="searchCDC" method="get">
+<fieldset>
+<div id="cdc-Query">
+<label class="overlabel search" for="searchBox">Search The CDC</label>
+<input class="searchBox" id="searchBox" maxlength="256" name="query" type="text"/>
+</div>
+<div id="cdc-Submit">
+<!-- label for="searchButton" class="searchButton">Search Button</label -->
+<input alt="Search" class="searchButton" id="searchButton" name="searchButton" src="/TemplatePackage/images/home/search_button.gif" type="image"/>
+<input name="action" type="hidden" value="search"/>
+</div>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</fieldset>
+</form>

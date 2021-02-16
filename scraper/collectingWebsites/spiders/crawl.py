@@ -6,8 +6,8 @@ import os
 
 class CrawlSpider(scrapy.Spider):
     name = 'crawl'
-    allowed_domains = ['glassdoor.com']
-    start_urls = ['http://www.glassdoor.com/']
+    allowed_domains = ['reed.co.uk']
+    start_urls = ['https://www.reed.co.uk/']
 
     def parse(self, response):
         if isinstance(response, HtmlResponse):

@@ -1,0 +1,9 @@
+<form>
+<label for="csvDropdown">Select a CSV Dataset:</label>
+<select id="csvDropdown" style="width: 100%;"><option value="https://data.cdc.gov/api/views/e6fc-ccez/rows.csv?accessType=DOWNLOAD&amp;bom=true&amp;format=true">Births and General Fertility Rates</option>
+<option value="https://data.cdc.gov/api/views/yt7u-eiyg/rows.csv?accessType=DOWNLOAD&amp;bom=true&amp;format=true">Birth Rates by Age Group</option>
+<option value="https://data.cdc.gov/api/views/isx2-c2ii/rows.csv?accessType=DOWNLOAD&amp;bom=true&amp;format=true">Percent Distribution of Births by Age Group</option>
+<option value="https://data.cdc.gov/api/views/89yk-m38d/rows.csv?accessType=DOWNLOAD&amp;bom=true&amp;format=true">Natality Measures by Race and Hispanic Origin</option>
+<option value="https://data.cdc.gov/api/views/s54h-bixi/rows.csv?accessType=DOWNLOAD&amp;bom=true&amp;format=true">Natality Measures by Hispanic Origin Subgroup</option>
+<option value="https://data.cdc.gov/api/views/e8kx-wbww/rows.csv?accessType=DOWNLOAD&amp;bom=true&amp;format=true">Teen Birth Rates by Age Group, Race, and Hispanic Origin</option></select><p><input onclick="url=$('#csvDropdown').val();window.open(url, '_blank')" type="button" value="Download CSV"/></p>
+</form>

@@ -1,0 +1,36 @@
+<form action="/courses/279389/review" id="leaveReviewForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="aJ34tJc_En0rrCIQkXo64l0O0nCC_TH3f4bIxtIY1QtEzti9GjO3h032iNaI4zvixkerjPQLj5z-hZMBYBkbS35R6Ic1"/><input id="ReviewModel_ReviewType" name="ReviewModel.ReviewType" type="hidden" value=""/> <div class="form-group mb-4">
+<label class="required-field mb-0" for="ReviewModel_Name">Display name</label>
+<p class="small">The name that will be displayed with your review</p>
+<input class="form-control" data-qa="nameTxt" data-val="true" data-val-length="Display name must not be longer than 150 characters." data-val-length-max="150" data-val-notcontainemail="Display name cannot contain email addresses." data-val-notcontainemail-regex="[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" data-val-notcontainphone="Display name cannot contain phone numbers." data-val-notcontainphone-regex="((\(?\+?\d\)?)[\d\(\)][ \d\(\)]{9,12}[\d])|((\(?\+?\d\)?)[\-\d\(\)]{9,14}[\d])|((\(?\+?\d\)?)[\.\d\(\)]{9,14}[\d])" data-val-notcontainurl="Display name cannot contain a url." data-val-notcontainurl-regex="\b((https?|ftp):\/\/)?\d+\.\d+\.\d+\.\d+|((https?|ftp):\/\/|www\.)\S+\.[a-z]{2,6}\b|[a-z0-9-\.]{4,}\.(aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|travel|tv|co\.uk|ltd\.uk|org\.uk)" data-val-required="Please provide your name." id="ReviewModel_Name" name="ReviewModel.Name" style="max-width: 420px" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="ReviewModel.Name" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label class="required-field" for="ReviewModel_QualityOfServiceRating">Quality of service</label>
+<rating-picker class="rating-picker" id="qosRating" v-bind:rating.sync="qualityOfServiceRating"></rating-picker>
+<input class="hiddenRating" data-val="true" data-val-number="The field Quality of service must be a number." data-val-range="Please rate the quality of service." data-val-range-max="5" data-val-range-min="1" data-val-required="Quality of service is required." id="ReviewModel_QualityOfServiceRating" name="ReviewModel.QualityOfServiceRating" type="hidden" v-model="qualityOfServiceRating" value="0"/>
+<span class="field-validation-valid" data-valmsg-for="ReviewModel.QualityOfServiceRating" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label class="required-field" for="ReviewModel_CourseContentRating">Course content</label>
+<rating-picker class="rating-picker" id="contentRating" v-bind:rating.sync="courseContentRating"></rating-picker>
+<input class="hiddenRating" data-val="true" data-val-number="The field Course content must be a number." data-val-range="Please rate the course content." data-val-range-max="5" data-val-range-min="1" data-val-required="Course content is required." id="ReviewModel_CourseContentRating" name="ReviewModel.CourseContentRating" type="hidden" v-model="courseContentRating" value="0"/>
+<span class="field-validation-valid" data-valmsg-for="ReviewModel.CourseContentRating" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label class="required-field" for="ReviewModel_ValueForMoneyRating">Value for money</label>
+<rating-picker class="rating-picker" id="valueRating" v-bind:rating.sync="valueForMoneyRating"></rating-picker>
+<input class="hiddenRating" data-val="true" data-val-number="The field Value for money must be a number." data-val-range="Please rate the value for money." data-val-range-max="5" data-val-range-min="1" data-val-required="Value for money is required." id="ReviewModel_ValueForMoneyRating" name="ReviewModel.ValueForMoneyRating" type="hidden" v-model="valueForMoneyRating" value="0"/>
+<span class="field-validation-valid" data-valmsg-for="ReviewModel.ValueForMoneyRating" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label for="ReviewModel_Review">Review</label> (optional)
+                            <textarea class="form-control" cols="20" data-qa="reviewTextTxt" data-val="true" data-val-length="Review must not be longer than 500 characters." data-val-length-max="500" data-val-notcontainemail="Review cannot contain email addresses." data-val-notcontainemail-regex="[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" data-val-notcontainphone="Review cannot contain phone numbers." data-val-notcontainphone-regex="((\(?\+?\d\)?)[\d\(\)][ \d\(\)]{9,12}[\d])|((\(?\+?\d\)?)[\-\d\(\)]{9,14}[\d])|((\(?\+?\d\)?)[\.\d\(\)]{9,14}[\d])" data-val-notcontainurl="Review cannot contain a url." data-val-notcontainurl-regex="\b((https?|ftp):\/\/)?\d+\.\d+\.\d+\.\d+|((https?|ftp):\/\/|www\.)\S+\.[a-z]{2,6}\b|[a-z0-9-\.]{4,}\.(aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|travel|tv|co\.uk|ltd\.uk|org\.uk)" id="ReviewModel_Review" name="ReviewModel.Review" rows="3">
+</textarea>
+<span class="field-validation-valid" data-valmsg-for="ReviewModel.Review" data-valmsg-replace="true"></span>
+</div>
+<div>
+<span id="leaveReviewPreloaderContainer">
+<input class="btn btn-primary" data-qa="leaveReviewBtn" id="leaveReview" type="submit" v-on:click="leaveReviewClick" value="Leave review"/>
+</span>
+</div>
+</form>

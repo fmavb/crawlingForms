@@ -1,0 +1,375 @@
+<form action="./forgotpassword.aspx?origin=http%3a%2f%2fhiring.monster.com%2fsignin.aspx" id="aspnetForm" method="post" name="aspnetForm">
+<div>
+<input id="__RequestVerificationToken" name="__RequestVerificationToken" type="hidden" value="DDB45ECF8CAB73949D9382687B84FB07"/>
+<input id="vsk" name="vsk" type="hidden" value="d1978390-63be-42c5-8ccc-438abe0eac82"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value=""/>
+</div>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/MicrosoftAjax40.axd" type="text/javascript"></script>
+<script src="https://hiring.monster.com/SharedUI/Services/MCF/PrepopChat.asmx/js" type="text/javascript"></script>
+<script src="https://hiring.monster.com/SharedUI/Services/KnowledgeBase/RightNow.asmx/js" type="text/javascript"></script>
+<div>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="/wEdAAWvVXD1oYELeveMr0vHCmYPXwM/5KNms+txXHL9VhyhHB6Mm47wVCZ/8YEn8dUortwgQqgJcSDJR9URfgcc7psWa8QtOPCQ/+L2u14ihtBT38zTAgmL6y5NSCJPJWM4tcWxlKqa"/>
+</div>
+<input id="ctl00_ctl00_MasterScriptManager" name="ctl00$ctl00$MasterScriptManager" type="hidden"/>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.setServerId("ctl00_ctl00_MasterScriptManager", "ctl00$ctl00$MasterScriptManager");
+Sys.Application._enableHistoryInScriptManager();
+//]]>
+</script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=adapters/common.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=global/json2.js" type="text/javascript"></script>
+<div class="hidden-xs">
+<div id="ctl00_ctl00_PrePopChatDialog_panelPrePopChat">
+<div class="mstModal prepopchat-dialog mmDialog" id="ctl00$ctl00$PrePopChatDialog$dialog_prePopChat" tabindex="0">
+<div class="mmHeader">
+<h3 class="fnt18">Live Help</h3>
+<a aria-label="Close" class="mmBtnClose" onclick="mm.hide('ctl00$ctl00$PrePopChatDialog$dialog_prePopChat');" title="Close"></a>
+</div>
+<div class="mmContent fnt4">
+<div class="ppcHeader">
+<a aria-label="Close" class="mmBtnClose" href="#" id="popupPrePopChatClose" onclick="closePrePopChatDialog(); return false;"></a>
+</div>
+<a class="prepopchat-image ppcsplashLeftPanel" id="ctl00_ctl00_PrePopChatDialog_dialog_prePopChat_ctl00_prePopImage"></a>
+<div class="ppcsplashRightPanel">
+<div class="fnt12">
+                        Need Sales Help?
+                    </div>
+<div class="fnt4">
+                        Chat live with an <strong>online sales associate</strong> to help answer your questions.
+                    </div>
+<button class="redux-button btn btn-default" id="ctl00_ctl00_PrePopChatDialog_dialog_prePopChat_ctl00_btnChat" title="" type="button"><span class="button-left"><span class="button-right"><span class="button-text">Chat With Us Live
+	</span></span></span></button>
+</div>
+<div class="clearing-div"></div>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+            Sys.Application.add_load(prePopPageLoad);
+            function prePopPageLoad() {
+                var rd = 'ctl00$ctl00$PrePopChatDialog$dialog_prePopChat';
+                if (rd != null)
+                {               
+                    var checkUserPage = $get("CheckUserPageErrors");
+                    if (checkUserPage != null){
+                        if (checkUserPage.value == 'False'){
+                            setTimeout(function prePopTimeOut() {
+                                if(mm._currentModal == null) {
+                                    mm.hide(rd); //to avoid multiple
+                                    mm.show(rd, null, null, null, null, 'Live Help', null);
+                                    var a=Monster.EBiz.Web.Services.MCF.PrePopChat.PrePopChatVisited(0);
+                                    RegisterAdobeTrackingPopupLoad();
+                                }
+                            }, 0);
+                        }
+                    }
+                }
+            }
+
+            function openPrePopChatDialog() {
+                var checkUserPage = $get("CheckUserPageErrors");
+                if (checkUserPage != null){
+                    if (checkUserPage.value == 'True'){
+                        callPrePopService();
+                    }
+                }
+            }
+
+            function closePrePopChatDialog() {
+                var rd = 'ctl00$ctl00$PrePopChatDialog$dialog_prePopChat';
+                if (rd != null) mm.hide(rd);
+                var checkUserPage = $get("CheckUserPageErrors");
+                if (checkUserPage != null){
+                    if (checkUserPage.value == 'True'){
+                        checkUserPage.value = 'False';
+                    }
+                }
+            }
+
+            function callPrePopService() {
+                Monster.EBiz.Web.Services.MCF.PrePopChat.GetChatPageVisibility(document.location.href, prePopCompleteCallback);
+            }
+
+            function prePopCompleteCallback(result)
+            {
+                if (result == true)
+                {
+                    var checkUserPage = $get("CheckUserPageErrors");
+                    if (checkUserPage != null){
+                        if (checkUserPage.value == 'True'){
+                            checkUserPage.value = 'False';
+                        }
+                    }
+                    prePopPageLoad();
+                }
+            }
+            
+            function RegisterAdobeTrackingPopupLoad() {
+                 if (_m && _m.ATM) {
+                     _m.ATM.atCall('body', 'mousedown', 'ProactiveChatServed', { 'events.event2': 'true'});
+                 }
+            }
+        </script>
+</div>
+</div>
+<div class="" id="ctl00_ctl00_pnlPageWrapper">
+<div class="messageContainerWrapper" id="ctl00_ctl00_MessagingControlHolder" style="display:none;">
+</div>
+<div class="" id="ctl00_ctl00_pnlHeaderWrapper">
+<input id="ctl00_ctl00_cphHeader_navResHeader_NavigationMenuVisibility" name="ctl00$ctl00$cphHeader$navResHeader$NavigationMenuVisibility" type="hidden" value="False"/>
+<input id="ctl00_ctl00_cphHeader_navResHeader_ShowLoginVisibility" name="ctl00$ctl00$cphHeader$navResHeader$ShowLoginVisibility" type="hidden" value="True"/>
+<a class="skip-main" href="#mainContent">
+        Skip to main content
+    </a>
+<div class="nav--flex" id="divNavHeader"></div>
+</div>
+<div class="mainContent navMainContent" id="ctl00_ctl00_pnlContentWrapper" role="main">
+<span id="mainContent"></span>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet"/>
+<link as="style" href="//cdn.materialdesignicons.com/1.7.12/css/materialdesignicons.min.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style type="text/css">.highlight{border: 1px solid red !important;background-color:#FFEBEB !important;}
+
+        @media only screen and (min-width: 600px) {
+            .security-flow { 
+                padding:195px;
+                padding-top: 50px;
+             }
+        }
+        @media (min-width: 992px){
+            .security-flow { 
+                padding:130px; 
+                padding-top: 75px;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .security-flow { padding-top:30px; }          
+        }
+        .forgetpassword-suc {
+            min-height:300px;
+        }
+        @media only screen and (max-width: 786px) {
+            .forgetpassword-suc { min-height:400px; }
+        }
+        .navbar-header{margin-right:1px !important;}
+        .btn-purpleText {
+            font-weight: 400;
+            font-size: 20px;
+        }
+        .btn-purple{
+            min-width: 100%;
+            font-weight: 500;
+            padding-top: 1px !important;
+            padding-bottom: 1px !important;
+        }
+        .ValidationErrorIcon
+        {
+            display: none;
+        }
+    </style>
+<!-- This CSS customizes the used Secondary.Master for forgot-password page -->
+<section class="forgotPassword cartFlow cartCreate" style="background-color: #f7f7f7;">
+<div class="container" id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_secure_container" style="box-shadow : none;background-color:#f7f7f7;">
+<div class="row">
+<div class="col-md-offset-3 col-sm-offset-3">
+<div class="col-md-8 col-lg-8 col-sm-8 col-xs-12 security-flow" style="padding-bottom:40px;background-color:white;
+                        -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.05);
+                        box-shadow: 1px 1px 1px 1px rgba(0,0,0,.05);">
+<h1 style="padding-bottom: 12px;text-align: left;font-weight: 500;">
+                            Forgot Password
+                        </h1>
+<!-- Email section-->
+<div class="form-group" id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_pnlEmail">
+<div class="form-group">
+                                Please enter the email address associated with your account.
+                            </div>
+<hr/>
+<label for="ctl00_ctl00_ContentPlaceHolderBase_cphBody_txtEmail" id="lblemail">
+		                        Email Address
+	                        </label>
+<input class="form-control" dcserror="Email" id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_txtEmail" maxlength="100" name="ctl00$ctl00$ContentPlaceHolderBase$cphBody$txtEmail" onchange="CheckValidation()" onkeypress="KeyPressed(event)" title="Enter email address" type="text"/>
+<div class="col-md-8 pull-right forgot-password-button" style="padding-left:1px; padding-right:1px; margin-top:40px; width: 100%">
+<a class="redux-button btn btn-purple" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ctl00$ContentPlaceHolderBase$cphBody$btnContinue", "", true, "", "", false, true))' id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_btnContinue" onclick="CheckValidation();" role="button" style="margin:1px; padding-bottom: 10px; min-width: 100%;" title=""><img alt="" class="redux-button btn btn-purpleCommon redux-button btn btn-purpleLeft" height="1" src="https://securemedia.newjobs.com/id/hiring/core/pixel.gif" width="1"/><span class="redux-button btn btn-purpleCommon redux-button btn btn-purpleText">Proceed</span><img alt="" class="redux-button btn btn-purpleCommon redux-button btn btn-purpleRight" height="1" src="https://securemedia.newjobs.com/id/hiring/core/pixel.gif" width="1"/></a>
+</div>
+<div class="form-group bottomTxt" style="padding-top:100px; margin-top: 85px; text-align:center;">
+<p style="font-weight: 400;">Forgot your email address?
+</p><p style="font-weight: 500;">Call us at <strong>1-800-666-7837</strong></p>
+</div>
+</div>
+<!-- End Email section-->
+<!-- User name section-->
+<!-- End User name section-->
+<!-- Security Section-->
+<!-- End Security section-->
+<!-- Confirmation section -->
+<!-- End Confirmation Section -->
+</div>
+</div>
+</div>
+</div>
+</section>
+<script type="text/javascript">
+
+        function CheckValidation()
+        {
+            try {
+                var isvalid = true;
+                for (var i in Page_Validators) {
+                    var control = document.getElementById(Page_Validators[i].controltovalidate);
+                    if (!Page_Validators[i].isvalid) {
+                        isvalid = false;
+                        break;
+                    } 
+                }
+                var emailtxtid =ctl00_ctl00_ContentPlaceHolderBase_cphBody_txtEmail;
+                if (isvalid) {
+                    emailtxtid.classList.remove("highlight");
+                }
+                else {
+                    emailtxtid.classList.add("highlight");                 
+                }
+                //-- To remove custom validaiton for email
+                var emailValidationId =ctl00_ctl00_ContentPlaceHolderBase_cphBody_divEmailValidation;
+                if (emailValidationId != undefined)
+                    emailValidationId.style.display = "none";   
+            } catch (e) { }
+        }
+
+    </script>
+<script type="text/javascript">
+          function KeyPressed(e) {
+            var code = (e.keyCode ? e.keyCode : e.which);
+              if (code == 13) {       
+                document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_btnContinue').click();
+            }
+        }
+    </script>
+<!--[if lt IE 9]>
+        <link href="//css-hx.newjobs.com/responsive/css/ie8.css" rel="stylesheet" />
+    <![endif]-->
+<!-- Respond JS proxy -->
+<link href="//css-hx.newjobs.com/responsive/respond-proxy.html" id="respond-proxy" rel="respond-proxy"/>
+<link href="/javascript/respond.proxy.gif" id="respond-redirect" rel="respond-redirect"/>
+<script src="/javascript/respond.proxy.js"></script>
+<div class="clearing-div">
+</div>
+</div>
+<div class="footer-region" id="ctl00_ctl00_pnlFooterWrapper">
+<div id="ctl00_ctl00_cphFooter_navFooter_footerControl_pnlFootervX">
+<div id="divFootervX">
+</div>
+</div>
+<script type="text/javascript">
+	(function(){
+	  	var interval;
+		function loadFooter()
+		{
+			if (typeof $ == 'undefined'){
+				return;
+			}
+			if(typeof interval != 'undefined'){
+				clearInterval(interval);
+			}
+			$.ajax({
+				url: '/nav/footer.ashx',
+				success: function (data) {                
+					$('#divFootervX').html(data);
+				}
+			});
+		}
+		if (typeof $ != 'undefined'){
+			loadFooter();
+		}
+		else
+		{
+			interval = setInterval(loadFooter, 1000)
+		}
+	})();
+</script>
+<div class="clearing-div">
+</div>
+</div>
+</div>
+<!--WebTrends Tags START -->
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2012 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.0  -->
+<!-- Created: 5/18/2012 4:03:08 PM -->
+<!--<script src="/scripts/webtrends.js" type="text/javascript"></script>-->
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- <script type="text/javascript">
+//<![CDATA[
+//var _tag=new WebTrends();
+//_tag.dcsGetId();
+//]]>
+</script> -->
+<!-- <script type="text/javascript">
+//<![CDATA[
+//_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+//}
+//_tag.dcsCollect();
+//]]>
+</script> -->
+<!-- <noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//statse.webtrendslive.com/DCS000045_9O7K/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=www.jobvacancies.businesslink.gov.uk"/></div>
+</noscript> -->
+<!-- END OF SmartSource Data Collector TAG -->
+<!--WebTrend Tags END -->
+<script type="text/javascript">
+//<![CDATA[
+document.UIPreferences = '';Sys.Application.add_load(function () { $('#divNavHeader').load("/Nav/Header.ashx", {showPersistentLink: "False", showMainMenu: "False", showSignin: "True", minicartcount: "0"}); }); //]]>
+</script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/redux-Common-js.axd" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=third_party/jquery.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/redux-global-js.axd" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/MicrosoftAjax40.axd" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/jquery.keyboardaccess.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/jquery.focuscatcher.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/jquery.moment.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/moment.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=lozad.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=intersection-observer.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=hx-iframe-handler.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=questionschat.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=third_party/modernizr-2.7.1.min.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=third_party/hammer.min.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=nav2/hiring_nav2.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/jquery.dropdownmenu.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=third_party/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/responsive-js.axd" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=global/html5shiv.min.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=global/respond.min.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=donotaddtop4_monster.web.globalui/monster.web.globalui.modal.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=clientframework/behaviors/reduxdialogadapter.js" type="text/javascript"></script><script type="text/javascript">
+_m.ATM.properties={"eVar2":"unrecognized","prop2":"unrecognized","channel":"58","eVar1":"D=g","prop1":"D=g","eVar20":"Prospect","eVar21":"Neither","eVar22":"Prospect","eVar38":"none","eVar4":"0","prop3":"0.00"};_m.ATM.pageName='desktop|mons|hiring|/forgotpassword.aspx';_m.ATM.version=0;_m.ATM.appID='hiring';_m.ATM.channelID=58;_m.ATM.countryID=164;_m.ATM.appConfig={version:'0',appID:'hiring',channelID:'58',countryID:'164'};_m.ATM.runOnLoad=true;
+(function () {if (typeof addMonsterReady != 'undefined') {addMonsterReady(_m.ATM.initFromOnReady);} else {$(document).ready(_m.ATM.initFromOnReady);}})();</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+var pm = Sys.Component.create(Monster.Client.Component.PageManager, {eventMap:{}, CFVersion:1});
+var c = pm.components;
+var h = pm.htmlLazyLoadControls;
+var v = pm.validators;
+var e = pm.eventMap;
+});
+//]]>
+</script>
+<script type="text/javascript"> function CallClose(value){if (window.XMLHttpRequest){ var oReq = new XMLHttpRequest();if (oReq) {
+                oReq.open('POST', '/SharedUI/Services/Globals/VSHandler.asmx/ManageVS',false); oReq.setRequestHeader('Content-Type', 'application/json; charset=utf-8');oReq.send('{"VSKey":"C|'+value+'"}');}}}</script><script type="text/javascript">
+                function $UnloadFunction() {if (document.forms[0].__EVENTTARGET && document.forms[0].__EVENTTARGET.value == '' && document.forms[0].__EVENTARGUMENT && document.forms[0].__EVENTARGUMENT.value == '')
+                    if  (window.opener == null) CallClose (document.forms[0].vsk.value);
+                    else { try {if (typeof window.opener.CallClose  !='undefined' && typeof window.opener.CallClose !='unknown') window.opener.CallClose (document.forms[0].vsk.value); } catch(err){}}}
+                function $addUnloadListener(functionToAdd){
+                    try {if (typeof window.addEventListener != 'undefined') {window.addEventListener('unload', functionToAdd, false);}
+                    else if (typeof window.document.addEventListener != 'undefined') {window.document.addEventListener('unload', functionToAdd, false);}
+                    else if (typeof window.attachEvent != 'undefined') {window.attachEvent('onunload', functionToAdd);}
+                    else if (typeof window.onunload != 'function') {window.onunload = functionToAdd;}
+                    else {var oldFunction = window.onunload;window.onunload = function() {oldFunction();functionToAdd();}}}catch(err){}};
+                $addUnloadListener($UnloadFunction);</script></form>

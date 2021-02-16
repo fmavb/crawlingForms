@@ -1,0 +1,28 @@
+<form>
+<div class="form-group" id="grantsDropDown">
+<h5 class="card-title">Filter By Topic:</h5>
+<select class="form-control filterSelect" id="mapfilter-dropdown">
+<option id="ddfood" value="grants"> All Topics... </option>
+<option id="ddgrant" value="regionLab">AR Laboratory Network: Regional Lab</option>
+<option id="ddgrant" value="detection">Detect &amp; Respond to HAI/AR Threats</option>
+<option id="ddfood" value="foodSafety">Food Safety Programs</option>
+<option id="ddgrant" value="gonorrhea">Drug-Resistant Gonorrhea Detect &amp; Respond Program</option>
+<option id="ddgrant" value="eip">Emerging Infections Program (EIP)</option>
+<option id="ddgrant" value="fungal">Fungal Disease Programs</option>
+</select>
+</div>
+<div class="form-group" id="globalDropDown">
+<h5 class="card-title">Filter By Topic:</h5>
+<select class="form-control filterSelect" id="globalMapfilter-dropdown">
+<option id="individualCountry" style="font-weight: bold;" value="individual">Single-Country AR Projects</option>
+<optgroup label="Multi-Country AR Projects (choose one)">
+<option id="afenet" value="AFENET">AFENET</option>
+<option id="paho" value="Pan American Health Organization (PAHO)">Pan American Health Organization (PAHO)</option>
+<option id="tephinet" value="TEPHINET (Task Force for Global Health)">TEPHINET (Task Force for Global Health)</option>
+<option id="bcm" value="Baylor College of Medicine">Baylor College of Medicine</option>
+<option id="hsp" value="Health Security Partners">Health Security Partners</option>
+<option id="usrdf" value="US Civilian Research and Development Foundation">US Civilian Research and Development Foundation</option>
+</optgroup>
+</select>
+</div>
+</form>

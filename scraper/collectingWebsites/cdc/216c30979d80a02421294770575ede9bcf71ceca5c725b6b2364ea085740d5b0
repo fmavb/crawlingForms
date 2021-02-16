@@ -1,0 +1,15 @@
+<form action="https://www2a.cdc.gov/nioshtic-2/BuildQyr.asp" id="searchform" method="get" name="searchform" onsubmit="return DataAction_onclick()">
+<div class="col-md-12">
+<h3>SEARCH PUBLICATIONS</h3>
+<p>Search the  <a href="https://www2a.cdc.gov/nioshtic-2/default.asp">NIOSHTIC-2 bibliographic database</a> 
+				  for all NIOSH-supported research publications and products published by NIOSH or elsewhere, including  journal articles. </p>
+<input id="s1" maxlength="200" name="s1" size="27" type="text"/>
+<input class="btn btn-primary" name="Submit" onclick="return DataAction_onclick()" type="submit" value="Search"/>
+<br/>
+<p style="margin-bottom:6px;">
+<input id="nioshpubs" name="searchtype" tabindex="1" type="checkbox"/>
+<strong>NIOSH-Published Only</strong> Check this box to search only for  NIOSH numbered publications and products.<br/>
+</p>
+<input id="searchPub" name="searchPub" type="hidden"/>
+</div>
+</form>

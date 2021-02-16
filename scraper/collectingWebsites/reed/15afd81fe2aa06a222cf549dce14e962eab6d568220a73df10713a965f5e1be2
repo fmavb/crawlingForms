@@ -1,0 +1,13 @@
+<form action="/courses/account/accounthome/preregister" method="post"><input name="__RequestVerificationToken" type="hidden" value="9JHN2whIjAEYPAv-0w_6XLbtWV7O5Jgxw1fsd-edNEDR6juI0E7Tvq7T9nultCn7yL5lqxw9e9LGfDdytE6ymd4x5Io1"/>
+<input data-val="true" data-val-required="The LockChanges field is required." id="LockChanges" name="LockChanges" type="hidden" value="False"/>
+<input id="ReturnUrl" name="ReturnUrl" type="hidden" value="/courses/discount/buy-now/qcf/online/tutor-support/beginner/advanced"/>
+<div class="form-group">
+<label for="Email">Email</label>
+<div>
+<input class="form-control" data-qa="emailTxt" data-val="true" data-val-brazecompatibleemail="Please enter a valid email address." data-val-length="Email must not be longer than 64 characters." data-val-length-max="64" data-val-remote='An account already exists with this email. Have you &lt;a href="/account/recover" title="Forgotten your password?"&gt;forgotten your password?&lt;/a&gt;' data-val-remote-additionalfields="*.Email" data-val-remote-type="POST" data-val-remote-url="/courses/account/accounthome/isemailavailable" data-val-required="Email is required." id="Email" name="Email" type="email" value=""/>
+<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+</div>
+</div> <div class="btn-container">
+<input class="btn btn-primary btn-block" data-gtm="register_click" data-gtm-value="email" data-qa="registerNowBtn" type="submit" value="Register"/>
+</div>
+</form>

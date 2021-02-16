@@ -1,0 +1,15 @@
+<form accept-charset="UTF-8" action="https://search.cdc.gov/search" autocomplete="off" method="get">
+<button aria-expanded="false" aria-haspopup="true" class="btn bg-white dropdown-toggle no-toggle" data-toggle="dropdown" type="button"><span class="sr-only">Search Dropdown</span><svg class="dropdown-menu-medium-search-icon svg-icon fill-p va-text-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#sym-search-icon"></use></svg><svg class="dropdown-menu-medium-close-icon svg-icon fill-p va-text-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#sym-close-icon"></use></svg></button>
+<div class="dropdown-menu dropdown-menu-right dropdown-menu-small-search">
+<div class="input-group mb-3">
+<input aria-label="Search" class="form-control" name="query" placeholder="Search" type="text"/>
+<div class="input-group-append">
+<button class="btn search-submit" type="button"><span class="sr-only">Submit</span><svg class="svg-icon fill-p x40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#sym-search-icon"></use></svg></button>
+</div>
+</div>
+                                    For a full list of topics: <a href="https://www.cdc.gov/az/" id="az-small">A-Z Index</a>
+</div>
+<input name="sitelimit" type="hidden" value=""/>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</form>

@@ -1,0 +1,25 @@
+<form action="https://learnmore.monster.com/processing-resource-center-future-of-work" class="NewsForm" id="NewsForm">
+<label class="sr-only">First Name</label>
+<input aria-label="First Name" class="input-field" name="FirstName" placeholder="First Name" required="" style="width: 100% !important;" type="text"/>
+<label class="sr-only">Last Name </label>
+<input aria-label="Last Name" class="input-field" name="LastName" placeholder="Last Name" required="" style="width: 100% !important;" type="text"/>
+<label class="sr-only">Company Name</label>
+<input aria-label="Company" class="input-field" name="Company" placeholder="Company Name" required="" style="width: 100% !important;" type="text"/>
+<label class="sr-only">Email</label>
+<input aria-label="Email" class="input-field" name="EmailAddress" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="Email" required="" style="width: 100% !important;" type="email"/>
+<label class="sr-only">Phone Number</label>
+<input aria-label="Phone Number" class="input-field" name="Phone" placeholder="Phone Number" required="" style="width: 100% !important;" type="text"/>
+<label class="sr-only">Zip Code</label>
+<input aria-label="Zip" class="input-field" name="PostalCode" placeholder="Zip Code" required="" style="width: 100% !important;" type="text"/>
+<p class="finePrint" style="text-align: right;">All Fields Required*</p>
+<!-- HIDDEN FIELD  -->
+<p class="formErrorMessages" id="errorMessageContainerId" style="display:none;"></p>
+<input class="defaultText buttonStyle" style="font-family: proxima-nova, sans-serif, Arial; font-size: 16px; background-color: #6e46ae;
+                    border: #6e46ae; width: 50% !important; color: #ffffff !important; min-width: 0 !important;  margin: 10px 0 !important;" type="submit" value="SUBMIT"/>
+<input name="Organization" type="hidden" value="North America"/>
+<input name="PredeterminedScore" type="hidden" value="warm"/>
+<input name="Country" type="hidden" value="United States"/>
+<input name="FormName" type="hidden" value="resourcecenterfutureofwork"/>
+<input name="IsHidden" type="hidden" value="false"/>
+<!-- END HIDDEN FIELD -->
+</form>

@@ -1,0 +1,249 @@
+<form action="/NIOSH-Mining/?facetGroups=Mine%20locations,%20excavations,%20and%20structures=Barrier%20pillars;%5E%5EDocument%20types=&amp;sf=Mine%20locations,%20excavations,%20and%20structures" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Mine locations, excavations, and structures=Barrier pillars;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Mine locations, excavations, and structures"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Mine locations, excavations, and structures</h2>
+<p class="facetDesc">Locations, structures, facilities, and excavations at a mine site.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Mine locations, excavations, and structures=Barrier pillars;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Mine locations, excavations, and structures">Mine locations, excavations, and structures</label>
+<label class="d-none" for="check_Benches">Benches</label>
+<label class="d-none" for="check_Boreholes">Boreholes</label>
+<label class="d-none" for="check_Caves">Caves</label>
+<label class="d-none" for="check_Faces">Faces</label>
+<label class="d-none" for="check_Highwalls">Highwalls</label>
+<label class="d-none" for="check_Laboratories">Laboratories</label>
+<label class="d-none" for="check_Manholes">Manholes</label>
+<label class="d-none" for="check_Material piles">Material piles</label>
+<label class="d-none" for="check_Mine surface">Mine surface</label>
+<label class="d-none" for="check_Offices">Offices</label>
+<label class="d-none" for="check_Processing plants">Processing plants</label>
+<label class="d-none" for="check_Shafts">Shafts</label>
+<label class="d-none" for="check_Slopes">Slopes</label>
+<label class="d-none" for="check_Stopes">Stopes</label>
+<label class="d-none" for="check_Stoppings">Stoppings</label>
+<label class="d-none" for="check_Storage structures">Storage structures</label>
+<label class="d-none" for="check_Hoppers">Hoppers</label>
+<label class="d-none" for="check_Silos">Silos</label>
+<label class="d-none" for="check_Sumps">Sumps</label>
+<label class="d-none" for="check_Transformer stations">Transformer stations</label>
+<label class="d-none" for="check_Trenches">Trenches</label>
+<label class="d-none" for="check_Underground">Underground</label>
+<label class="d-none" for="check_Airways">Airways</label>
+<label class="d-none" for="check_Bulkheads">Bulkheads</label>
+<label class="d-none" for="check_Crosscuts">Crosscuts</label>
+<label class="d-none" for="check_Drifts">Drifts</label>
+<label class="d-none" for="check_Entries">Entries</label>
+<label class="d-none" for="check_Belt entries">Belt entries</label>
+<label class="d-none" for="check_Bleeder entries">Bleeder entries</label>
+<label class="d-none" for="check_Intake entries">Intake entries</label>
+<label class="d-none" for="check_Panel entries">Panel entries</label>
+<label class="d-none" for="check_Escapeways">Escapeways</label>
+<label class="d-none" for="check_Gobs">Gobs</label>
+<label class="d-none" for="check_Intersections">Intersections</label>
+<label class="d-none" for="check_Longwall panels">Longwall panels</label>
+<label class="d-none" for="check_Headgates">Headgates</label>
+<label class="d-none" for="check_Recovery rooms">Recovery rooms</label>
+<label class="d-none" for="check_Tailgates">Tailgates</label>
+<label class="d-none" for="check_Ore chutes">Ore chutes</label>
+<label class="d-none" for="check_Ore passes">Ore passes</label>
+<label class="d-none" for="check_Pillars">Pillars</label>
+<label class="d-none" for="check_Barrier pillars">Barrier pillars</label>
+<label class="d-none" for="check_Chain pillars">Chain pillars</label>
+<label class="d-none" for="check_Web pillars">Web pillars</label>
+<label class="d-none" for="check_Yield pillars">Yield pillars</label>
+<label class="d-none" for="check_Returns">Returns</label>
+<label class="d-none" for="check_Tunnels">Tunnels</label>
+<label class="d-none" for="check_Wells">Wells</label>
+<label class="d-none" for="check_Drainage wells">Drainage wells</label>
+<label class="d-none" for="check_Water wells">Water wells</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Mine locations, excavations, and structures">
+<a>Mine locations, excavations, and structures</a>
+<ul>
+<li id="Benches">
+<a>Benches [7]</a>
+</li>
+<li id="Boreholes">
+<a>Boreholes [39]</a>
+</li>
+<li id="Caves">
+<a>Caves [2]</a>
+</li>
+<li id="Faces">
+<a>Faces [32]</a>
+</li>
+<li id="Highwalls">
+<a>Highwalls [11]</a>
+</li>
+<li id="Laboratories">
+<a>Laboratories [2]</a>
+</li>
+<li id="Manholes">
+<a>Manholes [1]</a>
+</li>
+<li id="Material piles">
+<a>Material piles [3]</a>
+</li>
+<li id="Mine surface">
+<a>Mine surface [1]</a>
+</li>
+<li id="Offices">
+<a>Offices [1]</a>
+</li>
+<li id="Processing plants">
+<a>Processing plants [11]</a>
+</li>
+<li id="Shafts">
+<a>Shafts [6]</a>
+</li>
+<li id="Slopes">
+<a>Slopes [11]</a>
+</li>
+<li id="Stopes">
+<a>Stopes [9]</a>
+</li>
+<li id="Stoppings">
+<a>Stoppings [15]</a>
+</li>
+<li id="Storage structures">
+<a>Storage structures [1]</a>
+<ul>
+<li id="Hoppers">
+<a>Hoppers [1]</a>
+</li>
+<li id="Silos">
+<a>Silos [2]</a>
+</li>
+</ul>
+</li>
+<li id="Sumps">
+<a>Sumps [1]</a>
+</li>
+<li id="Transformer stations">
+<a>Transformer stations [1]</a>
+</li>
+<li id="Trenches">
+<a>Trenches [1]</a>
+</li>
+<li id="Underground">
+<a>Underground [19]</a>
+<ul>
+<li id="Airways">
+<a>Airways [4]</a>
+</li>
+<li id="Bulkheads">
+<a>Bulkheads [2]</a>
+</li>
+<li id="Crosscuts">
+<a>Crosscuts [6]</a>
+</li>
+<li id="Drifts">
+<a>Drifts [5]</a>
+</li>
+<li id="Entries">
+<a>Entries [12]</a>
+<ul>
+<li id="Belt entries">
+<a>Belt entries [3]</a>
+</li>
+<li id="Bleeder entries">
+<a>Bleeder entries [4]</a>
+</li>
+<li id="Intake entries">
+<a>Intake entries [6]</a>
+</li>
+<li id="Panel entries">
+<a>Panel entries [1]</a>
+</li>
+</ul>
+</li>
+<li id="Escapeways">
+<a>Escapeways [2]</a>
+</li>
+<li id="Gobs">
+<a>Gobs [31]</a>
+</li>
+<li id="Intersections">
+<a>Intersections [2]</a>
+</li>
+<li id="Longwall panels">
+<a>Longwall panels [24]</a>
+<ul>
+<li id="Headgates">
+<a>Headgates [5]</a>
+</li>
+<li id="Recovery rooms">
+<a>Recovery rooms [5]</a>
+</li>
+<li id="Tailgates">
+<a>Tailgates [11]</a>
+</li>
+</ul>
+</li>
+<li id="Ore chutes">
+<a>Ore chutes [1]</a>
+</li>
+<li id="Ore passes">
+<a>Ore passes [9]</a>
+</li>
+<li id="Pillars">
+<a>Pillars [35]</a>
+<ul>
+<li id="Barrier pillars">
+<a>Barrier pillars [12]</a>
+</li>
+<li id="Chain pillars">
+<a>Chain pillars [4]</a>
+</li>
+<li id="Web pillars">
+<a>Web pillars [2]</a>
+</li>
+<li id="Yield pillars">
+<a>Yield pillars [1]</a>
+</li>
+</ul>
+</li>
+<li id="Returns">
+<a>Returns [2]</a>
+</li>
+<li id="Tunnels">
+<a>Tunnels [9]</a>
+</li>
+</ul>
+</li>
+<li id="Wells">
+<a>Wells [6]</a>
+<ul>
+<li id="Drainage wells">
+<a>Drainage wells [1]</a>
+</li>
+<li id="Water wells">
+<a>Water wells [3]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Mine locations, excavations, and structures=Barrier pillars;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

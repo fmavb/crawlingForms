@@ -1,0 +1,185 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazards%20and%20exposures=%5E%5EDocument%20types=&amp;sf=Research%20disciplines" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazards and exposures=^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Research disciplines"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Research disciplines</h2>
+<p class="facetDesc">Scientific fields and disciplines (includes basic research).</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Research disciplines">Research disciplines</label>
+<label class="d-none" for="check_Education">Education</label>
+<label class="d-none" for="check_Engineering">Engineering</label>
+<label class="d-none" for="check_Electrical engineering">Electrical engineering</label>
+<label class="d-none" for="check_Environmental engineering">Environmental engineering</label>
+<label class="d-none" for="check_Industrial engineering">Industrial engineering</label>
+<label class="d-none" for="check_Ergonomics">Ergonomics</label>
+<label class="d-none" for="check_Mechanical engineering">Mechanical engineering</label>
+<label class="d-none" for="check_Mining engineering">Mining engineering</label>
+<label class="d-none" for="check_Rock mechanics">Rock mechanics</label>
+<label class="d-none" for="check_Systems safety engineering">Systems safety engineering</label>
+<label class="d-none" for="check_Mathematics">Mathematics</label>
+<label class="d-none" for="check_Physical sciences">Physical sciences</label>
+<label class="d-none" for="check_Biology">Biology</label>
+<label class="d-none" for="check_Physiology">Physiology</label>
+<label class="d-none" for="check_Chemistry">Chemistry</label>
+<label class="d-none" for="check_Geosciences">Geosciences</label>
+<label class="d-none" for="check_Geology">Geology</label>
+<label class="d-none" for="check_Geophysics">Geophysics</label>
+<label class="d-none" for="check_Seismometry">Seismometry</label>
+<label class="d-none" for="check_Physics">Physics</label>
+<label class="d-none" for="check_Acoustics">Acoustics</label>
+<label class="d-none" for="check_Mechanics">Mechanics</label>
+<label class="d-none" for="check_Dynamics">Dynamics</label>
+<label class="d-none" for="check_Elasticity">Elasticity</label>
+<label class="d-none" for="check_Fluid mechanics">Fluid mechanics</label>
+<label class="d-none" for="check_Particle science">Particle science</label>
+<label class="d-none" for="check_Statics">Statics</label>
+<label class="d-none" for="check_Strength of materials">Strength of materials</label>
+<label class="d-none" for="check_Thermodynamics">Thermodynamics</label>
+<label class="d-none" for="check_Social sciences">Social sciences</label>
+<label class="d-none" for="check_Economics">Economics</label>
+<label class="d-none" for="check_Psychology">Psychology</label>
+<label class="d-none" for="check_Sociology">Sociology</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Research disciplines">
+<a>Research disciplines</a>
+<ul>
+<li id="Education">
+<a>Education [7]</a>
+</li>
+<li id="Engineering">
+<a>Engineering [2]</a>
+<ul>
+<li id="Electrical engineering">
+<a>Electrical engineering [1]</a>
+</li>
+<li id="Environmental engineering">
+<a>Environmental engineering [1]</a>
+</li>
+<li id="Industrial engineering">
+<a>Industrial engineering [1]</a>
+<ul>
+<li id="Ergonomics">
+<a>Ergonomics [29]</a>
+</li>
+</ul>
+</li>
+<li id="Mechanical engineering">
+<a>Mechanical engineering [1]</a>
+</li>
+<li id="Mining engineering">
+<a>Mining engineering [4]</a>
+</li>
+<li id="Rock mechanics">
+<a>Rock mechanics [29]</a>
+</li>
+<li id="Systems safety engineering">
+<a>Systems safety engineering [1]</a>
+</li>
+</ul>
+</li>
+<li id="Mathematics">
+<a>Mathematics [2]</a>
+</li>
+<li id="Physical sciences">
+<a>Physical sciences [0]</a>
+<ul>
+<li id="Biology">
+<a>Biology [0]</a>
+<ul>
+<li id="Physiology">
+<a>Physiology [2]</a>
+</li>
+</ul>
+</li>
+<li id="Chemistry">
+<a>Chemistry [2]</a>
+</li>
+<li id="Geosciences">
+<a>Geosciences [0]</a>
+<ul>
+<li id="Geology">
+<a>Geology [21]</a>
+</li>
+<li id="Geophysics">
+<a>Geophysics [2]</a>
+</li>
+<li id="Seismometry">
+<a>Seismometry [2]</a>
+</li>
+</ul>
+</li>
+<li id="Physics">
+<a>Physics [0]</a>
+<ul>
+<li id="Acoustics">
+<a>Acoustics [10]</a>
+</li>
+<li id="Mechanics">
+<a>Mechanics [4]</a>
+<ul>
+<li id="Dynamics">
+<a>Dynamics [4]</a>
+</li>
+<li id="Elasticity">
+<a>Elasticity [1]</a>
+</li>
+<li id="Fluid mechanics">
+<a>Fluid mechanics [6]</a>
+</li>
+<li id="Particle science">
+<a>Particle science [2]</a>
+</li>
+<li id="Statics">
+<a>Statics [2]</a>
+</li>
+<li id="Strength of materials">
+<a>Strength of materials [4]</a>
+</li>
+</ul>
+</li>
+<li id="Thermodynamics">
+<a>Thermodynamics [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Social sciences">
+<a>Social sciences [4]</a>
+<ul>
+<li id="Economics">
+<a>Economics [3]</a>
+</li>
+<li id="Psychology">
+<a>Psychology [8]</a>
+</li>
+<li id="Sociology">
+<a>Sociology [3]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

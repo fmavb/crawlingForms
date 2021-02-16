@@ -1,0 +1,7 @@
+<form action="#" id="searchSiteResults">
+<div class="search-text-wrapper">
+<input aria-label="Search text" class="input-search" id="search-text" name="search-text" placeholder="" type="text"/>
+<label class="fa fa-search search-text-icon" for="search-text">Search the site</label>
+</div>
+<button class="btn-search" id="btn-search" name="btn-search" type="submit">Search</button>
+</form>

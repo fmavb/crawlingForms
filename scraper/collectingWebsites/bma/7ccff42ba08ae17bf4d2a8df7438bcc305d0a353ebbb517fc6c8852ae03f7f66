@@ -1,0 +1,30 @@
+<form action="/members/modules/user/auth.php" autocomplete="off" class="validate-form" id="login-form" method="post">
+<div class="row">
+<div class="col-md-12">
+<div class="form-group">
+<label for="login-email">
+                    Email
+                </label>
+<input class="form-control required input-lg input_user acc-placeholder" id="login-email" name="username" placeholder="Username" type="text"/>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="form-group">
+<label for="password">
+                    Password
+                </label>
+<input autocomplete="off" class="form-control input_password input-lg required acc-placeholder" id="password" name="password" placeholder="Password" type="password"/>
+</div>
+</div>
+</div>
+<button class="btn btn-lg btn-block btn-primary margin-bottom-sm" id="login-btn" type="submit">
+                    Login
+            </button>
+<div class="nerror clear text-danger hide" id="register_error">
+</div>
+<a class="" href="/members/?view=fp&amp;nojs=Y" title="Forgot Password?">
+        Forgot Password?
+    </a>
+</form>

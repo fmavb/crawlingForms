@@ -1,0 +1,16 @@
+<form action="https://www.reed.co.uk/account/RegistrationRedirect?clickedApply=True" id="no-account-form" method="post"> <div>
+<fieldset class="form-group">
+<input name="g-recaptcha-response" type="hidden" value=""/>
+<label for="EmailAddress">Email</label>
+<input class="form-control email-address-for-registration" data-di-field-id="Email" data-qa="registerEmailTxt" data-val="true" data-val-isusernameavailable='An account already exists with this email. Have you &lt;a href="/account/recover" title="Forgotten your password?"&gt;forgotten your password?&lt;/a&gt;' data-val-isusernameavailable-parametername="username" data-val-isusernameavailable-url="/api/validation/isusernameavailable" data-val-length="Email must not be longer than 64 characters." data-val-length-max="64" data-val-required="Please enter your email." id="EmailAddress" maxlength="75" name="EmailAddress" type="email" value=""/>
+<span class="validation">
+<span class="field-validation-valid" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+</span>
+</fieldset>
+<button class="btn btn-primary" data-gtm="register_click" data-gtm-value="email" data-qa="registerContinueBtn" type="submit">Register</button>
+<input id="cvReturnURLJobId" name="returnurl" type="hidden" value="/jobs/telephony-analyst/41997986?source=searchResults"/>
+<input data-bind="value: getQuestionsString()" id="cvUploadQuestions" name="Questions" type="hidden" value=""/>
+<input data-val="true" data-val-number="The field JobId must be a number." data-val-required="The JobId field is required." id="cvUploadJobId" name="JobId" type="hidden" value="41997986"/>
+</div>
+<input id="jobShortlistUrlRegister" name="jobShortListQueryString" type="hidden"/>
+</form>

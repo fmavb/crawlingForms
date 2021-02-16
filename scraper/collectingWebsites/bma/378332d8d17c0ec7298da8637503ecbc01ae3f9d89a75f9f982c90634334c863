@@ -1,0 +1,34 @@
+<form action="https://careers.bma.org.uk/jobs/send" class="form-normal form-block" method="post">
+<input name="job_id" type="hidden" value="52"/>
+<p>
+<label for="sender_name">Your name</label>
+<input id="sender_name" name="sender_name" type="text" value=""/>
+</p>
+<span class="error"> </span>
+<p>
+<label for="sender_email">Your email address</label>
+<input id="sender_email" name="sender_email" type="text" value=""/>
+</p>
+<span class="error"> </span>
+<p>
+<label for="receiver_name">Receiver name</label>
+<input id="receiver_name" name="receiver_name" type="text" value=""/>
+</p>
+<span class="error"></span>
+<p>
+<label for="receiver_email">Your friend's email address</label>
+<input id="receiver_email" name="receiver_email" type="text" value=""/>
+</p>
+<span class="error"></span>
+<p>
+        This form is protected by Google reCAPTCHA. By using this form you agree to the
+        <a href="https://www.google.com/intl/en/policies/privacy/">Google Privacy Policy</a> and
+        <a href="https://www.google.com/intl/en/policies/terms/">Google Terms of Use</a>.
+    </p>
+<span class="error"> </span>
+<p>
+<button class="btn btn-block g-recaptcha" data-callback="referSubmit" data-sitekey="66LeRRvMZAAAAAII7zRO7Y4u9u6Sy6-o74oRTt0eH" type="submit">
+            Send            <i class="fas fa-chevron-right"></i>
+</button>
+</p>
+</form>

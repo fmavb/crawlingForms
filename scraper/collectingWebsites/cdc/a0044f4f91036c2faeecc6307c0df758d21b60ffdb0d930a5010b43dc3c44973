@@ -1,0 +1,12 @@
+<form action="javascript:getDataForEmail();" aria-label="Current Subscriber Form" class="form-inline" id="loginMain" role="form" target="_top">
+<input aria-hidden="true" class="secret" id="name1" type="text"/>
+<input aria-hidden="true" id="from1" type="hidden" value="samepage"/>
+<div class="form-group">
+<input aria-label="Enter your email address" class="form-control ml-2 mb-1" id="userID" required="" title="Enter your email address" type="email"/>
+</div>
+<div class="form-group">
+<button class="btn btn-primary ml-2 mb-1" type="submit">Manage Your Subscriptions</button>
+</div>
+<div class="form-group col-md-1 spinner" id="topMsgSpinner">
+</div>
+</form>

@@ -1,0 +1,52 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazards%20and%20exposures=Bodily%20motions;Standing;Fixed%20or%20awkward%20postures;Repetitive%20motions;Stooping;Kneeling;%5E%5EDocument%20types=&amp;sf=Document%20types" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazards and exposures=Bodily motions;Standing;Fixed or awkward postures;Repetitive motions;Stooping;Kneeling;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Document types"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <h2 class="facetHeader">Document types</h2>
+<p class="facetDesc">Type of web resource (publications, software, videos, data and statistics, contracts, projects, historical information, educational materials, etc.)</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Bodily motions;Standing;Fixed or awkward postures;Repetitive motions;Stooping;Kneeling;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Publications">Publications</label>
+<label class="d-none" for="check_Book chapters">Book chapters</label>
+<label class="d-none" for="check_Conference papers">Conference papers</label>
+<label class="d-none" for="check_Information Circulars">Information Circulars</label>
+<label class="d-none" for="check_Peer reviewed journal articles">Peer reviewed journal articles</label>
+<label class="d-none" for="check_Reports of Investigations">Reports of Investigations</label>
+<label class="d-none" for="check_Research areas">Research areas</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Publications">
+<a>Publications</a>
+<ul>
+<li id="Book chapters">
+<a>Book chapters [2]</a>
+</li>
+<li id="Conference papers">
+<a>Conference papers [9]</a>
+</li>
+<li id="Information Circulars">
+<a>Information Circulars [2]</a>
+</li>
+<li id="Peer reviewed journal articles">
+<a>Peer reviewed journal articles [12]</a>
+</li>
+<li id="Reports of Investigations">
+<a>Reports of Investigations [1]</a>
+</li>
+</ul>
+</li>
+<li id="Research areas">
+<a>Research areas</a>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Bodily motions;Standing;Fixed or awkward postures;Repetitive motions;Stooping;Kneeling;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

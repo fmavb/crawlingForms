@@ -1,0 +1,251 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazard%20prevention%20and%20control=Fire%20detection;Smoke%20detection;Thermal%20detection;CO%20detection;%5E%5EDocument%20types=Research%20projects;&amp;sf=Hazard%20prevention%20and%20control" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazard prevention and control=Fire detection;Smoke detection;Thermal detection;CO detection;^^Document types=Research projects;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Hazard prevention and control"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Hazard prevention and control</h2>
+<p class="facetDesc">Methods for eliminating/controlling hazards, reducing exposure to them, or teaching workers to avoid them.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Fire detection;Smoke detection;Thermal detection;CO detection;^^Document types=Research projects;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Hazard prevention and control">Hazard prevention and control</label>
+<label class="d-none" for="check_Administrative controls">Administrative controls</label>
+<label class="d-none" for="check_Communications, location tracking, and signalling">Communications, location tracking, and signalling</label>
+<label class="d-none" for="check_Communications">Communications</label>
+<label class="d-none" for="check_Emergency communications">Emergency communications</label>
+<label class="d-none" for="check_Personnel tracking">Personnel tracking</label>
+<label class="d-none" for="check_Health and safety management">Health and safety management</label>
+<label class="d-none" for="check_Employee management">Employee management</label>
+<label class="d-none" for="check_Safety culture">Safety culture</label>
+<label class="d-none" for="check_Health and safety programs">Health and safety programs</label>
+<label class="d-none" for="check_Behavior safety programs">Behavior safety programs</label>
+<label class="d-none" for="check_Hearing conservation programs">Hearing conservation programs</label>
+<label class="d-none" for="check_Education and training">Education and training</label>
+<label class="d-none" for="check_Hazard training">Hazard training</label>
+<label class="d-none" for="check_Engineering controls">Engineering controls</label>
+<label class="d-none" for="check_Dust control">Dust control</label>
+<label class="d-none" for="check_Electrical safety">Electrical safety</label>
+<label class="d-none" for="check_Electrical contact protection">Electrical contact protection</label>
+<label class="d-none" for="check_Lockout tagout">Lockout tagout</label>
+<label class="d-none" for="check_Emission controls">Emission controls</label>
+<label class="d-none" for="check_Diesel particulate filters">Diesel particulate filters</label>
+<label class="d-none" for="check_Equipment design">Equipment design</label>
+<label class="d-none" for="check_Maintainability design">Maintainability design</label>
+<label class="d-none" for="check_Fire and explosion prevention">Fire and explosion prevention</label>
+<label class="d-none" for="check_Explosion suppression">Explosion suppression</label>
+<label class="d-none" for="check_Rock dusting">Rock dusting</label>
+<label class="d-none" for="check_Methane control">Methane control</label>
+<label class="d-none" for="check_Fire protection">Fire protection</label>
+<label class="d-none" for="check_Fire detection">Fire detection</label>
+<label class="d-none" for="check_CO detection">CO detection</label>
+<label class="d-none" for="check_Smoke detection">Smoke detection</label>
+<label class="d-none" for="check_Thermal detection">Thermal detection</label>
+<label class="d-none" for="check_Fire suppression">Fire suppression</label>
+<label class="d-none" for="check_Ground control">Ground control</label>
+<label class="d-none" for="check_Pillar design">Pillar design</label>
+<label class="d-none" for="check_Scaling">Scaling</label>
+<label class="d-none" for="check_Slope design">Slope design</label>
+<label class="d-none" for="check_Support design and selection">Support design and selection</label>
+<label class="d-none" for="check_Improving visibility">Improving visibility</label>
+<label class="d-none" for="check_Noise and vibration control">Noise and vibration control</label>
+<label class="d-none" for="check_Proximity detection">Proximity detection</label>
+<label class="d-none" for="check_Ventilation">Ventilation</label>
+<label class="d-none" for="check_Exhaust ventilation">Exhaust ventilation</label>
+<label class="d-none" for="check_Fan ventilation">Fan ventilation</label>
+<label class="d-none" for="check_Push pull ventilation">Push pull ventilation</label>
+<label class="d-none" for="check_Ventilation control">Ventilation control</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Hazard prevention and control">
+<a>Hazard prevention and control</a>
+<ul>
+<li id="Administrative controls">
+<a>Administrative controls [2]</a>
+<ul>
+<li id="Communications, location tracking, and signalling">
+<a>Communications, location tracking, and signalling [0]</a>
+<ul>
+<li id="Communications">
+<a>Communications [0]</a>
+<ul>
+<li id="Emergency communications">
+<a>Emergency communications [3]</a>
+</li>
+</ul>
+</li>
+<li id="Personnel tracking">
+<a>Personnel tracking [1]</a>
+</li>
+</ul>
+</li>
+<li id="Health and safety management">
+<a>Health and safety management [3]</a>
+<ul>
+<li id="Employee management">
+<a>Employee management [1]</a>
+</li>
+<li id="Safety culture">
+<a>Safety culture [1]</a>
+</li>
+</ul>
+</li>
+<li id="Health and safety programs">
+<a>Health and safety programs [3]</a>
+<ul>
+<li id="Behavior safety programs">
+<a>Behavior safety programs [1]</a>
+</li>
+<li id="Hearing conservation programs">
+<a>Hearing conservation programs [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Education and training">
+<a>Education and training [2]</a>
+<ul>
+<li id="Hazard training">
+<a>Hazard training [2]</a>
+</li>
+</ul>
+</li>
+<li id="Engineering controls">
+<a>Engineering controls [1]</a>
+<ul>
+<li id="Dust control">
+<a>Dust control [5]</a>
+</li>
+<li id="Electrical safety">
+<a>Electrical safety [0]</a>
+<ul>
+<li id="Electrical contact protection">
+<a>Electrical contact protection [0]</a>
+<ul>
+<li id="Lockout tagout">
+<a>Lockout tagout [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Emission controls">
+<a>Emission controls [1]</a>
+<ul>
+<li id="Diesel particulate filters">
+<a>Diesel particulate filters [1]</a>
+</li>
+</ul>
+</li>
+<li id="Equipment design">
+<a>Equipment design [2]</a>
+<ul>
+<li id="Maintainability design">
+<a>Maintainability design [1]</a>
+</li>
+</ul>
+</li>
+<li id="Fire and explosion prevention">
+<a>Fire and explosion prevention [2]</a>
+<ul>
+<li id="Explosion suppression">
+<a>Explosion suppression [0]</a>
+<ul>
+<li id="Rock dusting">
+<a>Rock dusting [1]</a>
+</li>
+</ul>
+</li>
+<li id="Methane control">
+<a>Methane control [2]</a>
+</li>
+</ul>
+</li>
+<li id="Fire protection">
+<a>Fire protection [0]</a>
+<ul>
+<li id="Fire detection">
+<a>Fire detection [1]</a>
+<ul>
+<li id="CO detection">
+<a>CO detection [0]</a>
+</li>
+<li id="Smoke detection">
+<a>Smoke detection [0]</a>
+</li>
+<li id="Thermal detection">
+<a>Thermal detection [0]</a>
+</li>
+</ul>
+</li>
+<li id="Fire suppression">
+<a>Fire suppression [2]</a>
+</li>
+</ul>
+</li>
+<li id="Ground control">
+<a>Ground control [8]</a>
+<ul>
+<li id="Pillar design">
+<a>Pillar design [2]</a>
+</li>
+<li id="Scaling">
+<a>Scaling [1]</a>
+</li>
+<li id="Slope design">
+<a>Slope design [1]</a>
+</li>
+<li id="Support design and selection">
+<a>Support design and selection [5]</a>
+</li>
+</ul>
+</li>
+<li id="Improving visibility">
+<a>Improving visibility [1]</a>
+</li>
+<li id="Noise and vibration control">
+<a>Noise and vibration control [5]</a>
+</li>
+<li id="Proximity detection">
+<a>Proximity detection [1]</a>
+</li>
+<li id="Ventilation">
+<a>Ventilation [5]</a>
+<ul>
+<li id="Exhaust ventilation">
+<a>Exhaust ventilation [1]</a>
+</li>
+<li id="Fan ventilation">
+<a>Fan ventilation [1]</a>
+</li>
+<li id="Push pull ventilation">
+<a>Push pull ventilation [1]</a>
+</li>
+<li id="Ventilation control">
+<a>Ventilation control [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Fire detection;Smoke detection;Thermal detection;CO detection;^^Document types=Research projects;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

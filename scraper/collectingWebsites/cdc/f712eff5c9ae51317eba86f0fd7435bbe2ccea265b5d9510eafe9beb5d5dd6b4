@@ -1,0 +1,124 @@
+<form accesskey="S" action="Buildqyr.asp" id="form1" method="Get" name="form1" onsubmit="return Search_onclick('new')" tabindex="2">
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="card-title h3">
+<label for="S1">New Search</label>
+</div>
+<div class="card-body">
+<div class="card-text">
+<input class="form-control" id="S1" name="S1" placeholder="Enter search terms"/>
+<input class="btn btn-primary button-font" id="SearchNew" name="SearchNew" onclick="return Search_onclick('new')" type="submit" value="Go"/>
+<input class="btn btn-primary button-font" id="SearchResult" name="SearchResult" onclick="return Search_onclick('filter')" type="button" value="Search Within Results"/>
+<p>
+<a href="advsearch2.asp">Advanced Search</a>  
+						<a href="n2help.asp">Search Help</a>  
+						<a href="n2info.asp">About NIOSHTIC-2 </a>  
+						<a href="mailto:nioshtic2@cdc.gov?subject=Nioshtic-2 feedback">Feedback</a>
+</p>
+<input name="s1" type="HIDDEN" value="20038342"/>
+<input name="f1" type="HIDDEN" value="*"/>
+<input name="Startyear" type="HIDDEN" value=""/>
+<input name="Adv" type="HIDDEN" value="0"/>
+<input name="terms" type="HIDDEN" value="1"/>
+<input name="PageNo" type="HIDDEN" value="1"/>
+<input name="D1" type="HIDDEN" value="10"/>
+<input name="View" type="HIDDEN" value="f"/>
+<input name="EndYear" type="HIDDEN" value=""/>
+<input name="Limit" type="HIDDEN" value="10000"/>
+<input name="sort" type="HIDDEN" value=""/>
+<input name="RecNo" type="HIDDEN" value="1"/>
+<input id="RecSelect" name="RecSelect" type="hidden" value="0"/>
+<input id="pagecount" name="Pagecount" type="hidden" value="1"/>
+<input id="NumRecOnPage" name="NumRecOnPage" type="hidden" value="0"/>
+<input name="hiddenURL" type="hidden"/>
+										
+					Terms: <em>  20038342</em>  
+					1 - 1
+					of <span class="emph">1</span> Bibliographic entries
+						   <span style="float:right;">
+
+													
+								All record(s) shown. 
+										
+					</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<a href="#" id="Select2" onclick="return SaveSelection('SaveAll',1)" title="Select all record(s) from this search">Save All</a>  
+                                        <a href="#" id="Select1" onclick="return SaveSelection('SavePage',1)" title="Select all record(s) on this page">Save Page</a>  
+
+                                        <a href="#" id="Disp" onclick="return DispSelection(1)" title="View all selected record(s)">View Saved</a>  
+                                        
+                                        <a href="#" onclick="return LoadDownload(1)" title="Download Search results">Download </a>  
+                                    
+                             </div>
+<div class="row">
+<em class="col-md-10 muted">Select check boxes to automatically save entries, or use 'save all' or 'save page' links above.</em>
+<div class="col-md-2">
+<span id="btr"><a href="//www2a.cdc.gov/nioshtic-2/BuildQyr.asp?s1=20038342&amp;f1=%2A&amp;Startyear=&amp;Adv=0&amp;terms=1&amp;D1=10&amp;EndYear=&amp;Limit=10000&amp;sort=&amp;PageNo=1&amp;RecNo=1&amp;View=b&amp;">Back to Results</a></span>
+</div>
+</div>
+<div class="section-highlight" id="NIOSHTIC2">
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->
+<input alt="checkbox_1" id="checkbox1_id" name="checkbox1" type="checkbox" value="49275"/><label for="checkbox1_id"> 1</label>
+<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Assessing the risk to firefighters from chemical vapors and gases during vehicle fire suppression.
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!--<small>-->Authors<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Fent-KW; Evans-DE
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->Source<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        J Environ Monit 2011 Mar; 13(3):536-543
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->Link<!-- </small>-->
+</div>
+<div class="col-md-10">
+<a href="http://dx.doi.org/10.1039/c0em00591f">http://dx.doi.org/10.1039/c0em00591f</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->NIOSHTIC No.<!-- </small>-->
+</div>
+<div class="col-md-10">
+<span class="highlight-search-term">20038342</span>
+</div>
+</div>
+<div class="row"><div class="col-md-2 muted"><!-- <small>-->Abstract<!-- </small>--></div><div class="col-md-10">Despite the frequent occurrence of vehicle fires, very few studies investigating firefighters' potential inhalation exposures during vehicle fire suppression have been conducted. In this paper, we present an assessment of firefighters' health risk from vehicle fire suppression that accounts for the mixture of gases and vapors likely to be found in these fires. Summa canisters were used to collect emissions from the engine and cabin fires of a single vehicle and were analyzed for 75 volatile organic compounds (VOCs). Firefighters' breathing zone concentrations (BZCs) of aromatic hydrocarbons, aldehydes, isocyanates, and carbon monoxide were measured during the suppression of three vehicle fires. The Summa canister and BZC data were used to develop a simple model for predicting BZCs for the compounds that were not measured in the firefighters' breathing zones. Hazard quotients (HQs) were calculated by dividing the predicted and measured BZCs by the most conservative short-term exposure limits (STELs) or ceiling limits. Hazard indices (HIs) were determined by adding HQs for compounds grouped by the target organ for acute health effects. Any HIs above unity represented unacceptable risks. According to this mixture analysis, the estimated 95th percentile of the exposure distribution for the study population represents &gt;/= 9.2 times the acceptable level of risk to the respiratory tract and eyes. Furthermore, chemicals known or reasonably anticipated to be human carcinogens contributed to &gt;45% of these HIs. While STELs are not usually based on carcinogenicity, maintaining exposures below STELs may protect individuals from the biological stress that could result from short-term exposures to carcinogens over time. Although vehicle fires are suppressed quickly (&lt;10 min), this assessment suggests that firefighters have the potential to be overexposed to acute toxins during vehicle fire suppression and should therefore wear self-contained breathing apparatus at all times during vehicle fire response.</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Keywords<!-- </small>--></div><div class="col-md-10">Motor-vehicles; Emergency-responders; Emergency-response; Fire-fighters; Fire-fighting-equipment; Fire-fighting; Fire-hazards; Inhalants; Inhalation-studies; Exposure-assessment; Health-hazards; Risk-analysis; Gases; Vapors; Volatiles; Organic-compounds; Breathing-zone; Sampling; Aromatic-hydrocarbons; Aldehydes; Isocyanates; Exposure-limits; Respiratory-irritants; Eye-irritants; Carcinogens; Short-term-exposure; Toxins; Self-contained-breathing-apparatus; HETA 2008-0241-3113</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Contact<!-- </small>--></div><div class="col-md-10">Kenneth W. Fent, National Institute for Occupational Safety and Health, Division of Surveillance, Hazard Evaluations, and Field Studies, 4676 Columbia Parkway, MS R-11, Cincinnati, OH, 45226,  USA</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->CODEN<!-- </small>--></div><div class="col-md-10">JEMOFW</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->CAS No.<!-- </small>--></div><div class="col-md-10">630-08-0</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Publication Date<!-- </small>--></div><div class="col-md-10">20110301</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Document Type<!-- </small>--></div><div class="col-md-10">Journal Article</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Email Address<!-- </small>--></div><div class="col-md-10">kfent@cdc.gov</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Fiscal Year<!-- </small>--></div><div class="col-md-10">2011</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NTIS Accession No.<!-- </small>--></div><div class="col-md-10"></div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NTIS Price<!-- </small>--></div><div class="col-md-10"></div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Issue of Publication<!-- </small>--></div><div class="col-md-10">3</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->ISSN<!-- </small>--></div><div class="col-md-10">1464-0325</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NIOSH Division<!-- </small>--></div><div class="col-md-10">DSHEFS; DART</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Priority Area<!-- </small>--></div><div class="col-md-10">Services; Manufacturing</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Source Name<!-- </small>--></div><div class="col-md-10">Journal of Environmental Monitoring</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->State<!-- </small>--></div><div class="col-md-10">OH</div></div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="col-md-12" style="padding-top:5px;padding-bottom:6px;">
+                                    Page 1 of 1
+                                <span style="float:right;">
+                                    
+				                        All record(s) shown.
+                              
+                                </span>
+</div>
+</div>
+</div>
+</div>
+</form>

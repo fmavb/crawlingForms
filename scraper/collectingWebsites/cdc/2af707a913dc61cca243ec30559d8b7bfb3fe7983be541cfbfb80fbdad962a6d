@@ -1,0 +1,9 @@
+<form id="form" role="form">
+<label for="viewDropdown">Select a dashboard:</label>
+<select id="viewDropdown" style="width:100%;">
+<option selected="" value="Death Rates and Life Expectancy">Death Rates and Life Expectancy</option>
+<option value="Childhood Death Rates">Childhood Death Rates</option>
+<option value="Leading Causes of Death">Leading Causes of Death</option>
+</select>
+<p><input aria-controls="tablesLabel" onclick="title=$('#viewDropdown').val();updateDashboardTitle(title);switchView(title);" type="button" value="Update Dashboard"/></p>
+</form>

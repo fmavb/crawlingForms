@@ -1,0 +1,241 @@
+<form action="/NIOSH-Mining/?facetGroups=Equipment,%20tools,%20and%20parts=%5E%5EDocument%20types=Contracts%20and%20cooperative%20agreements;&amp;sf=Hazard%20prevention%20and%20control" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Equipment, tools, and parts=^^Document types=Contracts and cooperative agreements;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Hazard prevention and control"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Hazard prevention and control</h2>
+<p class="facetDesc">Methods for eliminating/controlling hazards, reducing exposure to them, or teaching workers to avoid them.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=^^Document types=Contracts and cooperative agreements;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Hazard prevention and control">Hazard prevention and control</label>
+<label class="d-none" for="check_Administrative controls">Administrative controls</label>
+<label class="d-none" for="check_Communications, location tracking, and signalling">Communications, location tracking, and signalling</label>
+<label class="d-none" for="check_Communications">Communications</label>
+<label class="d-none" for="check_Emergency communications">Emergency communications</label>
+<label class="d-none" for="check_Personnel tracking">Personnel tracking</label>
+<label class="d-none" for="check_Signalling">Signalling</label>
+<label class="d-none" for="check_Emergency planning">Emergency planning</label>
+<label class="d-none" for="check_Health and safety management">Health and safety management</label>
+<label class="d-none" for="check_Reporting systems">Reporting systems</label>
+<label class="d-none" for="check_Accident and injury recording">Accident and injury recording</label>
+<label class="d-none" for="check_Inspections">Inspections</label>
+<label class="d-none" for="check_Regulations">Regulations</label>
+<label class="d-none" for="check_Education and training">Education and training</label>
+<label class="d-none" for="check_Hazard training">Hazard training</label>
+<label class="d-none" for="check_Engineering controls">Engineering controls</label>
+<label class="d-none" for="check_Automation">Automation</label>
+<label class="d-none" for="check_Dust control">Dust control</label>
+<label class="d-none" for="check_Electrical safety">Electrical safety</label>
+<label class="d-none" for="check_Emission controls">Emission controls</label>
+<label class="d-none" for="check_Equipment design">Equipment design</label>
+<label class="d-none" for="check_Fire and explosion prevention">Fire and explosion prevention</label>
+<label class="d-none" for="check_Explosion suppression">Explosion suppression</label>
+<label class="d-none" for="check_Rock dusting">Rock dusting</label>
+<label class="d-none" for="check_Inerting atmosphere">Inerting atmosphere</label>
+<label class="d-none" for="check_Methane control">Methane control</label>
+<label class="d-none" for="check_Fire protection">Fire protection</label>
+<label class="d-none" for="check_Fire detection">Fire detection</label>
+<label class="d-none" for="check_CO detection">CO detection</label>
+<label class="d-none" for="check_Fire suppression">Fire suppression</label>
+<label class="d-none" for="check_Ground control">Ground control</label>
+<label class="d-none" for="check_Pillar design">Pillar design</label>
+<label class="d-none" for="check_Skin control">Skin control</label>
+<label class="d-none" for="check_Support design and selection">Support design and selection</label>
+<label class="d-none" for="check_Noise and vibration control">Noise and vibration control</label>
+<label class="d-none" for="check_Noise cancellation">Noise cancellation</label>
+<label class="d-none" for="check_Vibration absorption">Vibration absorption</label>
+<label class="d-none" for="check_Vibration damping">Vibration damping</label>
+<label class="d-none" for="check_Physical barriers">Physical barriers</label>
+<label class="d-none" for="check_Ventilation">Ventilation</label>
+<label class="d-none" for="check_Auxiliary ventilation">Auxiliary ventilation</label>
+<label class="d-none" for="check_Fan ventilation">Fan ventilation</label>
+<label class="d-none" for="check_Scrubber induced airflow">Scrubber induced airflow</label>
+<label class="d-none" for="check_Ventilation control">Ventilation control</label>
+<label class="d-none" for="check_Use of personal protective equipment">Use of personal protective equipment</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Hazard prevention and control">
+<a>Hazard prevention and control</a>
+<ul>
+<li id="Administrative controls">
+<a>Administrative controls [0]</a>
+<ul>
+<li id="Communications, location tracking, and signalling">
+<a>Communications, location tracking, and signalling [4]</a>
+<ul>
+<li id="Communications">
+<a>Communications [13]</a>
+<ul>
+<li id="Emergency communications">
+<a>Emergency communications [11]</a>
+</li>
+</ul>
+</li>
+<li id="Personnel tracking">
+<a>Personnel tracking [12]</a>
+</li>
+<li id="Signalling">
+<a>Signalling [6]</a>
+</li>
+</ul>
+</li>
+<li id="Emergency planning">
+<a>Emergency planning [2]</a>
+</li>
+<li id="Health and safety management">
+<a>Health and safety management [1]</a>
+<ul>
+<li id="Reporting systems">
+<a>Reporting systems [0]</a>
+<ul>
+<li id="Accident and injury recording">
+<a>Accident and injury recording [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Inspections">
+<a>Inspections [1]</a>
+</li>
+<li id="Regulations">
+<a>Regulations [2]</a>
+</li>
+</ul>
+</li>
+<li id="Education and training">
+<a>Education and training [13]</a>
+<ul>
+<li id="Hazard training">
+<a>Hazard training [1]</a>
+</li>
+</ul>
+</li>
+<li id="Engineering controls">
+<a>Engineering controls [0]</a>
+<ul>
+<li id="Automation">
+<a>Automation [2]</a>
+</li>
+<li id="Dust control">
+<a>Dust control [1]</a>
+</li>
+<li id="Electrical safety">
+<a>Electrical safety [2]</a>
+</li>
+<li id="Emission controls">
+<a>Emission controls [1]</a>
+</li>
+<li id="Equipment design">
+<a>Equipment design [5]</a>
+</li>
+<li id="Fire and explosion prevention">
+<a>Fire and explosion prevention [7]</a>
+<ul>
+<li id="Explosion suppression">
+<a>Explosion suppression [2]</a>
+<ul>
+<li id="Rock dusting">
+<a>Rock dusting [4]</a>
+</li>
+</ul>
+</li>
+<li id="Inerting atmosphere">
+<a>Inerting atmosphere [1]</a>
+</li>
+<li id="Methane control">
+<a>Methane control [1]</a>
+</li>
+</ul>
+</li>
+<li id="Fire protection">
+<a>Fire protection [0]</a>
+<ul>
+<li id="Fire detection">
+<a>Fire detection [1]</a>
+<ul>
+<li id="CO detection">
+<a>CO detection [1]</a>
+</li>
+</ul>
+</li>
+<li id="Fire suppression">
+<a>Fire suppression [3]</a>
+</li>
+</ul>
+</li>
+<li id="Ground control">
+<a>Ground control [11]</a>
+<ul>
+<li id="Pillar design">
+<a>Pillar design [4]</a>
+</li>
+<li id="Skin control">
+<a>Skin control [1]</a>
+</li>
+<li id="Support design and selection">
+<a>Support design and selection [3]</a>
+</li>
+</ul>
+</li>
+<li id="Noise and vibration control">
+<a>Noise and vibration control [1]</a>
+<ul>
+<li id="Noise cancellation">
+<a>Noise cancellation [1]</a>
+</li>
+<li id="Vibration absorption">
+<a>Vibration absorption [1]</a>
+</li>
+<li id="Vibration damping">
+<a>Vibration damping [1]</a>
+</li>
+</ul>
+</li>
+<li id="Physical barriers">
+<a>Physical barriers [2]</a>
+</li>
+<li id="Ventilation">
+<a>Ventilation [5]</a>
+<ul>
+<li id="Auxiliary ventilation">
+<a>Auxiliary ventilation [1]</a>
+</li>
+<li id="Fan ventilation">
+<a>Fan ventilation [1]</a>
+</li>
+<li id="Scrubber induced airflow">
+<a>Scrubber induced airflow [2]</a>
+</li>
+<li id="Ventilation control">
+<a>Ventilation control [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Use of personal protective equipment">
+<a>Use of personal protective equipment [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=^^Document types=Contracts and cooperative agreements;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

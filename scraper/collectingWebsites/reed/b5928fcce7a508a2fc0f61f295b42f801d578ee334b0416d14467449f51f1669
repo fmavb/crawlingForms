@@ -1,0 +1,14 @@
+<form action="/jobs/emerging-talent-manager/41692732#apply-form" data-bind="submit: jobApplication.sendApplication" id="apply-form" method="post"> <input name="InternalApplicationSource" type="hidden" value="searchResults"/>
+<input name="__RequestVerificationToken" type="hidden" value="TOT1mSsSuVSKzec9eyZIJ3Jh2fbjPcXitObOpN0ODVkGE4CIW0dNClav4sdcP93FWjpgFGOfgM__mIqBssUY38R7WR01"/>
+<section class="cv-coverletter-externalapplication" data-bind="visible: jobApplication.showApplyBox()" style="display:none;">
+<input data-val="true" data-val-number="The field JobId must be a number." data-val-required="The JobId field is required." id="JobId" name="JobId" type="hidden" value="41692732"/>
+<input id="Source" name="Source" type="hidden" value="searchResults"/>
+<input data-val="true" data-val-required="The UserHasRegisteredThroughJob field is required." id="UserHasRegisteredThroughJob" name="UserHasRegisteredThroughJob" type="hidden" value="False"/>
+</section>
+<div class="apply-options apply-options-branded text-center" data-bind="visible: !jobApplication.showApplyBox()">
+<button class="btn btn-primary external-apply-button side gtmExternalAppLinkSide gtmJobseekerRegistrationFunnelClick" data-bind="click: jobApplication.applyForJob, clickBubble: false, visible: !jobApplication.showApplyBox()" data-qa="applyBtn" data-vpv="/vpv/apply_now/signed_out/off_site_app/responsive" id="applyButtonSide">
+                                Apply now
+                            </button>
+<div class="external-app-caption">Apply on employer's website</div>
+</div>
+</form>

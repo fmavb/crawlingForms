@@ -1,0 +1,9 @@
+<form action="javascript:getDataForEmail();" class="form-inline" id="login" target="_top">
+<div class="form-group mt-2">
+<input class="secret" id="name2" type="text"/>
+<input id="from2" type="hidden" value="samepage"/>
+<input aria-label="Enter your email address" class="form-control mr-2" id="userID2" name="emailaddr" placeholder="Email Address" required="" type="email"/>
+<button class="btn btn-primary" type="submit">Subscribe</button>
+</div>
+<div class="col-md-1 spinner" id="bottomMsgSpinner"></div>
+</form>

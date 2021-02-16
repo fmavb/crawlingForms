@@ -1,0 +1,181 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazards%20and%20exposures=%5E%5EDocument%20types=&amp;sf=Mining%20types%20and%20methods" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazards and exposures=^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Mining types and methods"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Mining types and methods</h2>
+<p class="facetDesc">Mining methods, by type of extraction or commodity.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Mining types and methods">Mining types and methods</label>
+<label class="d-none" for="check_Coal mining">Coal mining</label>
+<label class="d-none" for="check_Hardrock mining">Hardrock mining</label>
+<label class="d-none" for="check_Metal mining">Metal mining</label>
+<label class="d-none" for="check_Nonmetal mining">Nonmetal mining</label>
+<label class="d-none" for="check_Oil and gas extraction">Oil and gas extraction</label>
+<label class="d-none" for="check_Sand and gravel mining">Sand and gravel mining</label>
+<label class="d-none" for="check_Stone mining">Stone mining</label>
+<label class="d-none" for="check_Surface mining">Surface mining</label>
+<label class="d-none" for="check_Benching">Benching</label>
+<label class="d-none" for="check_Highwall mining">Highwall mining</label>
+<label class="d-none" for="check_Open pit mining">Open pit mining</label>
+<label class="d-none" for="check_Outside dumping">Outside dumping</label>
+<label class="d-none" for="check_Placer mining">Placer mining</label>
+<label class="d-none" for="check_Underground mining">Underground mining</label>
+<label class="d-none" for="check_Auger mining">Auger mining</label>
+<label class="d-none" for="check_Caving">Caving</label>
+<label class="d-none" for="check_Block caving">Block caving</label>
+<label class="d-none" for="check_Drift mining">Drift mining</label>
+<label class="d-none" for="check_Hydraulic backfill">Hydraulic backfill</label>
+<label class="d-none" for="check_Hydraulic mining">Hydraulic mining</label>
+<label class="d-none" for="check_Leaching">Leaching</label>
+<label class="d-none" for="check_Longwall mining">Longwall mining</label>
+<label class="d-none" for="check_Low seam mining">Low seam mining</label>
+<label class="d-none" for="check_Multiple seam mining">Multiple seam mining</label>
+<label class="d-none" for="check_Overmining">Overmining</label>
+<label class="d-none" for="check_Undermining">Undermining</label>
+<label class="d-none" for="check_Room and pillar mining">Room and pillar mining</label>
+<label class="d-none" for="check_Continuous mining">Continuous mining</label>
+<label class="d-none" for="check_Extended cut mining">Extended cut mining</label>
+<label class="d-none" for="check_Retreat mining">Retreat mining</label>
+<label class="d-none" for="check_Stoping">Stoping</label>
+<label class="d-none" for="check_Cut and fill stoping">Cut and fill stoping</label>
+<label class="d-none" for="check_Water jet mining">Water jet mining</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Mining types and methods">
+<a>Mining types and methods</a>
+<ul>
+<li id="Coal mining">
+<a>Coal mining [283]</a>
+</li>
+<li id="Hardrock mining">
+<a>Hardrock mining [5]</a>
+</li>
+<li id="Metal mining">
+<a>Metal mining [33]</a>
+</li>
+<li id="Nonmetal mining">
+<a>Nonmetal mining [28]</a>
+</li>
+<li id="Oil and gas extraction">
+<a>Oil and gas extraction [3]</a>
+</li>
+<li id="Sand and gravel mining">
+<a>Sand and gravel mining [3]</a>
+</li>
+<li id="Stone mining">
+<a>Stone mining [45]</a>
+</li>
+<li id="Surface mining">
+<a>Surface mining [34]</a>
+<ul>
+<li id="Benching">
+<a>Benching [1]</a>
+</li>
+<li id="Highwall mining">
+<a>Highwall mining [7]</a>
+</li>
+<li id="Open pit mining">
+<a>Open pit mining [6]</a>
+</li>
+<li id="Outside dumping">
+<a>Outside dumping [1]</a>
+</li>
+<li id="Placer mining">
+<a>Placer mining [1]</a>
+</li>
+</ul>
+</li>
+<li id="Underground mining">
+<a>Underground mining [200]</a>
+<ul>
+<li id="Auger mining">
+<a>Auger mining [1]</a>
+</li>
+<li id="Caving">
+<a>Caving [0]</a>
+<ul>
+<li id="Block caving">
+<a>Block caving [1]</a>
+</li>
+</ul>
+</li>
+<li id="Drift mining">
+<a>Drift mining [5]</a>
+</li>
+<li id="Hydraulic backfill">
+<a>Hydraulic backfill [1]</a>
+</li>
+<li id="Hydraulic mining">
+<a>Hydraulic mining [2]</a>
+</li>
+<li id="Leaching">
+<a>Leaching [2]</a>
+</li>
+<li id="Longwall mining">
+<a>Longwall mining [97]</a>
+</li>
+<li id="Low seam mining">
+<a>Low seam mining [8]</a>
+</li>
+<li id="Multiple seam mining">
+<a>Multiple seam mining [12]</a>
+<ul>
+<li id="Overmining">
+<a>Overmining [5]</a>
+</li>
+<li id="Undermining">
+<a>Undermining [5]</a>
+</li>
+</ul>
+</li>
+<li id="Room and pillar mining">
+<a>Room and pillar mining [25]</a>
+<ul>
+<li id="Continuous mining">
+<a>Continuous mining [25]</a>
+</li>
+<li id="Extended cut mining">
+<a>Extended cut mining [5]</a>
+</li>
+<li id="Retreat mining">
+<a>Retreat mining [19]</a>
+</li>
+</ul>
+</li>
+<li id="Stoping">
+<a>Stoping [0]</a>
+<ul>
+<li id="Cut and fill stoping">
+<a>Cut and fill stoping [5]</a>
+</li>
+</ul>
+</li>
+<li id="Water jet mining">
+<a>Water jet mining [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

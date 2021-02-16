@@ -1,0 +1,10 @@
+<form>
+<label for="socrataDropdown">Select a dataset from Data.CDC.gov<b><sup title="Data.CDC.gov is an open platform that allows the agency to share data in more accessible way. Users can view information about the dataset, including content characterization and metadata, and download the dataset in different file formats. It also provides an API to allow users to connect, filter, query, and aggregate the data programmatically.">[?]</sup></b>:</label>
+<select id="socrataDropdown" style="width: 100%;">
+<option value="https://data.cdc.gov/NCHS/NCHS-Age-adjusted-death-rates-and-life-expectancy-/w9j2-ggv5">Death Rates and Life Expectancy</option>
+<option value="https://data.cdc.gov/NCHS/NCHS-Childhood-Mortality-Rates-by-Age-at-Death-Uni/v6ab-adf5">Childhood Death Rates</option>
+<option value="https://data.cdc.gov/NCHS/NCHS-Age-adjusted-Death-Rates-for-Selected-Major-C/6rkc-nb2q">Leading Causes of Death: Age-adjusted Death Rates for Selected Major Causes of Death</option>
+<option value="https://data.cdc.gov/NCHS/NCHS-Top-Five-Leading-Causes-of-Death-United-State/mc4y-cbbv">Leading Causes of Death: Top Five Leading Causes of Death in 1900, 1950, and 2000</option>
+</select>
+<p><input onclick="url=$('#socrataDropdown').val();window.open(url, '_blank')" type="button" value="View Dataset"/></p>
+</form>

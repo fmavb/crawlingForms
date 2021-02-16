@@ -1,0 +1,9 @@
+<form action="/vads/SearchAllVocab_search.action;jsessionid=3F45A7BA0A64611CD0B5420123E2E7EA" id="SearchAllVocab_search" method="GET" name="SearchAllVocab_search">
+<fieldset>
+<div class="bar">
+<label class="hidden" for="input-1">Text To Search:</label>
+<input class="text" id="input-1" name="searchOptions.searchText" onblur="test()" type="text" value=""/>
+<input class="btn" id="SearchAllVocab_search_0" onclick="executeSearch();" type="submit" value="Search All Vocabulary"/>
+</div>
+</fieldset>
+</form>

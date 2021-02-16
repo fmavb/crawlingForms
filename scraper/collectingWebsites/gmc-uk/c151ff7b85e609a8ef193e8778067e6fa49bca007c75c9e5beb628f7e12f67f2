@@ -1,0 +1,15 @@
+<form action="/sfts/signon.gmc" id="loginform" method="post" name="form:login">
+<div id="loginFields">
+<span class="label">User Name </span>
+<input autocomplete="off" name="username" type="text"/>
+</div>
+<div id="passwordFields">
+<span class="label">Password </span>
+<input autocomplete="off" name="password" type="password"/>
+</div>
+<div>
+<input name="submit:login" type="submit" value="Login"/>
+</div>
+<div id="errors">
+</div>
+</form>

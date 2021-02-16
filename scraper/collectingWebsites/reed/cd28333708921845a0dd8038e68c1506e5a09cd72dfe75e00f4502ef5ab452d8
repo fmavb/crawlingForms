@@ -1,0 +1,21 @@
+<form action="/jobs/nothing/nothing" data-bind="" id="jobAlertSuccess" method="post" novalidate="true"> <div class="form-group">
+<label class="frequency-label">Choose alert frequency:</label>
+<fieldset class="form-field">
+<div class="radio-inline">
+<input data-bind="checked: jobAlert.alertFrequency, checkedValue: 2, attr: { id: jobAlert.jobAlertId() + '_1', 'data-alert-id': jobAlert.jobAlertId() }" name="frequency" type="radio"/>
+<label data-bind="attr: { for: jobAlert.jobAlertId() + '_1' }" data-qa="instantFrequencyRdo">
+                                    Instant
+                                    <div class="alert-beta">Beta</div>
+</label>
+</div>
+<div class="radio-inline">
+<input data-bind="checked: jobAlert.alertFrequency, checkedValue: 1, attr: { id: jobAlert.jobAlertId() + '_2', 'data-alert-id': jobAlert.jobAlertId() }" name="frequency" type="radio"/>
+<label data-bind="attr: { for: jobAlert.jobAlertId() + '_2' }" data-qa="dailyFrequencyRdo">Daily</label>
+</div>
+</fieldset>
+</div>
+<div class="alert alert-info">
+<p><i class="icon icon-info"></i><span data-bind="text: jobAlert.frequencyNotification()"></span></p>
+</div>
+<button class="btn btn-primary" data-bind="click: function() { swal.close() }" type="submit">OK</button>
+</form>

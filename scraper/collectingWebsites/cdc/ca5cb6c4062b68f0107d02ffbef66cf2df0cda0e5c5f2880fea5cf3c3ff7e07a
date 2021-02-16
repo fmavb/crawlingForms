@@ -1,0 +1,12 @@
+<form action="javascript:subsearchheadertrack('en');" aria-label="Search" class="search-form-header" method="get" name="SearchFormHeader">
+<input name="searchSrc" type="hidden" value="news"/>
+<input aria-label="Search" autocomplete="off" autocorrect="off" class="search-input search-input-text" id="layer-search-input" maxlength="500" name="q" placeholder="Search" type="text"/>
+<button aria-label="Search" class="search-submit-button" type="submit">
+<svg viewbox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.018 12.468c-2.155 2.156-5.63 2.156-7.784 0-2.155-2.154-2.155-5.63 0-7.784 2.154-2.155 5.63-2.155 7.784 0 2.155 2.155 2.133 5.63 0 7.784M2.54 2.99c-3.078 3.08-3.078 8.07 0 11.15 2.727 2.727 6.927 3.035 10.006.946l5.168 5.167c.572.572 1.517.572 2.09 0 .57-.572.57-1.517 0-2.09l-5.17-5.166c2.09-3.08 1.782-7.28-.945-10.006-3.08-3.077-8.07-3.077-11.15 0" fill="#005B80" fill-rule="evenodd"></path>
+</svg></button>
+<div class="ilfulllist">
+<p class="il_combo_nor">No Results</p>
+<ul class="combolist"></ul>
+</div>
+</form>

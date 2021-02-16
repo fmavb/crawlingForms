@@ -1,0 +1,692 @@
+<form action="./Default.aspx" id="aspnetForm" method="post">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="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"/>
+<script src="/DOH_MWF/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvsCBMAPRehDpdKc4f9QOLWnjBqy82tajyGwvZPnMgEyhWjTpExDV4oJ9s0VRuPnOCgl0pNCKYfvU95xM3-s_OLvo4XB5sUZWay9PLvetB2pFLSyLEq0wLsdcwTAVYsFaIiRw6ObqZLIWMLzXYCDlGjA1&amp;t=ffffffffdfc97409" type="text/javascript"></script>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="1287F964"/>
+<input id="__VIEWSTATEENCRYPTED" name="__VIEWSTATEENCRYPTED" type="hidden" value=""/>
+<div class="container">
+<div id="content">
+<div class="row">
+<!-- left nav -->
+<div class="hidden-one hidden-two col-xs-3 padding-lr0" id="nav-container">
+<nav class="hidden-one hidden-two" id="left">
+<h3><a href="../Default/Default.aspx">My Water's Fluoride Home</a></h3>
+<ul id="nav-primary">
+<li>
+<a href="../Default/AboutMWF.aspx">About My Water's Fluoride</a>
+</li>
+<li>
+<a href="http://www.cdc.gov/fluoridation" target="_blank">Community Water Fluoridation</a>
+</li>
+<li>
+<a href="../Reports/Default.aspx">State Fluoridation Reports</a>
+</li>
+<li>
+<a href="../Help/MWFGlossary.aspx">My Water's Fluoride Glossary</a>
+</li>
+</ul>
+</nav>
+<div class="nav-related">
+<!--
+									The following are optional/local content includes for related
+									content that appears below the navigation in viewports 3/4.
+									NOTE:  these same includes must appear in the div.nav-related block
+									that appears after the editable area of the main content block.  Also,
+									because this content appears in the markup twice it should not contain
+									any markup with IDs as this will cause validation errors and other 
+									potential problems with scripts.
+								-->
+<div class="module-typeH">
+<h3>Related Sites</h3>
+<ul class="list-block">
+<li><a href="http://www.cdc.gov/oralhealth/index.htm" target="_blank">Oral Health Resources</a></li>
+<li><a href="https://www.cdc.gov/oralhealth/data-tools/index.htm" target="_blank">Other Data Systems</a></li>
+</ul>
+</div>
+<script src="../js/Utilities.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+    //$(function () {
+    //    var ver = getInternetExplorerVersion();
+    //    // have to do this to make it look right in IE older than v8
+    //    if (ver > -1) {
+    //        if (ver < 8.0)
+    //            $('#divBot').css("z-index", "-1");
+    //    }
+    //});
+
+</script>
+</div>
+</div>
+<div class="col-xs-9">
+<div class="hidden-one col-xs-9">
+<div>
+<ul id="Breadcrumbs">
+<li><a class="cdc-home-link" href="http://www.cdc.gov/oralhealth/">Oral Health Home</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xs-8 pagetitle">
+<!-- div class='syndicate' -->
+<!-- uncomment div for content syndication-->
+<!--<h2>Heading</h2>-->
+<!--/div-->
+<!-- uncomment div for content syndication-->
+</div>
+<div class="col-xs-8" id="pageHeader">
+<h1 class="pageHeader col-xs-12"><span class="accessibleHide">Home Page</span></h1>
+</div>
+<div class="col-xs-12 col-md-9" id="body">
+<div class="col-xs-12" id="contentArea">
+<!-- begin editable -->
+<!-- div class='syndicate' -->
+<!-- uncomment div for content syndication-->
+<!-- MAIN BODY CONTENT GOES HERE -->
+<!--/div-->
+<!-- uncomment div for content syndication-->
+<!-- /end editable -->
+<div class="col-xs-12 padding-lr0" id="default-default-page-wrapper">
+<h1 class="col-xs-12 margin-top15">Water with fluoride protects teeth from tooth decay</h1>
+<div class="col-xs-12">
+<div class="col-xs-12 default-font-size14 padding-lr0">
+<div class="padding-lr0 inline-block pull-left margin-right15">
+<img alt="my water fluoride icon" src="../images/logo.png"/>
+</div>
+<strong>It is Important to know the level of fluoride in your drinking water.</strong><br/>
+<span class="hidden-xs">My Water's Fluoride (MWF) allows consumers to learn about the fluoride level in their drinking water. 
+        Also, you can find out the number of people served by the system and the water source.</span>
+<a class="nccd-link-standalone" href="AboutMWF.aspx">Learn more <span class="icon-angle-right"></span></a>
+</div>
+</div>
+<div id="contentArea">
+<div class="col-xs-12 clearfix state-header-wrapper">
+<div class="col-xs-12 padding-lr0">
+<h3>Find Water System Information</h3>
+<div class="col-xs-12 padding-lr0">
+<div class="col-xs-12 col-sm-5 col-md-5 padding-lr0">
+<div class="module-typeF wcms_details padding8">
+<div class="error col-xs-24 col-sm-14 col-md-14" id="alertBox" style="display:none;">
+<i class="fa fa-exclamation-triangle"></i>
+<p>
+<span>Please select a participating state
+                                        </span>
+</p>
+</div>
+<div class="error col-xs-24 col-sm-14 col-md-14">
+<div class="stateterritoryselector margin-top5 padding-lr0">
+<label class="col-xs-12 custom-col-sm-4-vp3 custom-col-sm-4-vp4 custom-col-sm-4-vp1 custom-col-sm-4-vp2 col-sm-4 padding-lr0" for="ddlState" id="lblState">Participating State</label>
+<select class="col-xs-8 col-sm-6" id="ddlState" name="ctl00$contentArea2$ucMapStateSelector$ddlState">
+<option selected="selected" value="Select">Select</option>
+<option value="2;AL;2">Alabama</option>
+<option value="3;AK;2">Alaska</option>
+<option value="5;AZ;1">Arizona</option>
+<option value="6;AR;2">Arkansas</option>
+<option value="8;CO;2">Colorado</option>
+<option value="9;CT;4">Connecticut</option>
+<option value="10;DE;2">Delaware</option>
+<option value="12;FL;4">Florida</option>
+<option value="13;GA;2">Georgia</option>
+<option value="16;ID;1">Idaho</option>
+<option value="17;IL;2">Illinois</option>
+<option value="18;IN;2">Indiana</option>
+<option value="19;IA;4">Iowa</option>
+<option value="20;KS;2">Kansas</option>
+<option value="21;KY;2">Kentucky</option>
+<option value="22;LA;4">Louisiana</option>
+<option value="23;ME;2">Maine</option>
+<option value="24;MD;1">Maryland</option>
+<option value="25;MA;2">Massachusetts</option>
+<option value="26;MI;2">Michigan</option>
+<option value="27;MN;2">Minnesota</option>
+<option value="28;MS;2">Mississippi</option>
+<option value="29;MO;2">Missouri</option>
+<option value="31;NE;2">Nebraska</option>
+<option value="32;NV;2">Nevada</option>
+<option value="33;NH;4">New Hampshire</option>
+<option value="36;NY;1">New York</option>
+<option value="37;NC;1">North Carolina</option>
+<option value="38;ND;2">North Dakota</option>
+<option value="40;OK;1">Oklahoma</option>
+<option value="41;OR;1">Oregon</option>
+<option value="42;PA;1">Pennsylvania</option>
+<option value="44;RI;2">Rhode Island</option>
+<option value="45;SC;2">South Carolina</option>
+<option value="47;TN;4">Tennessee</option>
+<option value="48;TX;4">Texas</option>
+<option value="49;UT;1">Utah</option>
+<option value="50;VT;2">Vermont</option>
+<option value="52;VA;3">Virginia</option>
+<option value="54;WV;2">West Virginia</option>
+<option value="55;WI;1">Wisconsin</option>
+</select>
+</div>
+<div class="col-xs-8 col-sm-6 col-sm-offset-6 col-md-7 custom-offset-vp3 custom-offset-vp2 col-md-offset-5 margin-top10 padding-lr0">
+<a class="participatingInMWF nccd-link-standalone pull-right" data-backdrop="false" data-target="#myModal" data-toggle="modal" href="#myModal" id="" style="font-weight: normal; cursor: pointer;">
+<span class="pull-left margin-right5">Can't find your state</span><i class="fa fa-question-circle margin-left5"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-5 margin-top5 margin-bottom15 SearchByWaterSystem-link-wrapper">
+<a href="SearchByWaterSystem.aspx" id="searchByWSSelector">Search by Water System</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+<div id="cdcmap-wrapper">
+            ﻿<script src="/TemplatePackage/3.0/js/libs/jquery-ui.js" type="text/javascript"></script>
+<script src="/TemplatePackage/3.0/js/libs/d3/d3.min.js"></script>
+<script src="/TemplatePackage/3.0/js/libs/d3/queue.v1.min.js"></script>
+<script src="/TemplatePackage/3.0/js/libs/d3/topojson.v1.min.js"></script>
+<script src="/TemplatePackage/3.0/js/libs/d3/datamaps.all.min.js"></script>
+<script src="/TemplatePackage/3.0/js/libs/d3/d3.geo.projection.v0.min.js"></script>
+<script src="/NccdTemplatePackage/includes/CDCMaps/states-by-abbreviation.js"></script>
+<script src="/NccdTemplatePackage/includes/CDCMaps/cdcnavmap.js"></script>
+<script src="../js/cdcnavmap.js"></script>
+<script src="/NccdTemplatePackage/includes/CDCMaps/cdcmap.js"></script>
+<section id="group-all" style="display: block; float: left!important; position: relative; clear: both; width: 100%;">
+<div id="cdcnavmap-container-976266"></div>
+</section>
+<script type="text/javascript">
+    //Menu script
+
+        $(function () {
+            jqueryuiLoaded = true;
+
+        });
+
+
+</script>
+<a class="participatingInMWF nccd-link-standalone" data-backdrop="false" data-target="#myModal" data-toggle="modal" href="#myModal" id="" style="font-weight: normal; cursor: pointer;">
+<img alt="small maps thumb nails" class="visible-xs-block map-thumbnail" src="../images/map_thumb.PNG"/>
+</a>
+<div class="text-center cdcmap-legend-wrapper hidden-xs">
+<div class="inline-block"><span class="legend-block participating margin-right10 nccd-border-gray3"></span>Participating</div>
+<div class="inline-block"><span class="legend-block margin-right10 nccd-gray2-bg-color nccd-border-gray3"></span>Not participating</div>
+</div>
+<h3 class="hidden-xs nccd-gray4-color">Participating MWF States</h3>
+<p class="padding8">
+                Currently, <a class="participatingInMWF nccd-link-standalone" data-backdrop="false" data-target="#myModal" data-toggle="modal" href="#myModal" id="" style="font-weight: normal; cursor: pointer;">most states provide their information to MWF.</a> If your state does not participate, 
+        you can contact your community’s water provider (utility) to learn the fluoride content of your drinking water. 
+        Your community water provider is the best source for information about the quality of their water furnished to consumers.
+            </p>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal" data-dismiss="modal" id="myModal" role="dialog">
+<div class="overlay2 hide"></div>
+<div class="modal-dialog">
+<!-- Modal content-->
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">×</button>
+<h4 class="modal-title">States Participating in MWF</h4>
+</div>
+<div class="modal-body-wrapper">
+<div class="modal-content-left">
+<p>
+                            MWF is a voluntary public disclosure web site. States choose whether they will 
+                            provide their water fluoridation information to MWF.
+                            
+                           Some states choose to use
+                             other ways to notify the public about their water fluoridation program, such
+                             as a state web site. Currently, the particpating states listed provide their
+                             information to this system.
+                            
+                        </p>
+</div>
+<div class="modal-content-right">
+<p>Participating States</p>
+<div class="modal-body">
+<table class="table table-striped table-bordered table-hover-secondary" id="tbWSResults2" summary="This Counties table has 4 column headings Name, Fluoridated,   pws_ID, Primary County" tabindex="-1" title="Water Systems for County">
+<tbody>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Alabama&amp;amp;stateid=2&amp;amp;stateabbr=AL        &amp;amp;reportLevel=2" id="participatingStateLnk">Alabama</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Alaska&amp;amp;stateid=3&amp;amp;stateabbr=AK        &amp;amp;reportLevel=2" id="participatingStateLnk">Alaska</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Arizona&amp;amp;stateid=5&amp;amp;stateabbr=AZ        &amp;amp;reportLevel=1" id="participatingStateLnk">Arizona</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Arkansas&amp;amp;stateid=6&amp;amp;stateabbr=AR        &amp;amp;reportLevel=2" id="participatingStateLnk">Arkansas</a>
+</td>
+</tr>
+<tr>
+<td>
+<em>California (not participating)<em></em></em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Colorado&amp;amp;stateid=8&amp;amp;stateabbr=CO        &amp;amp;reportLevel=2" id="participatingStateLnk">Colorado</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Connecticut&amp;amp;stateid=9&amp;amp;stateabbr=CT        &amp;amp;reportLevel=4" id="participatingStateLnk">Connecticut</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Delaware&amp;amp;stateid=10&amp;amp;stateabbr=DE        &amp;amp;reportLevel=2" id="participatingStateLnk">Delaware</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Florida&amp;amp;stateid=12&amp;amp;stateabbr=FL        &amp;amp;reportLevel=4" id="participatingStateLnk">Florida</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Georgia&amp;amp;stateid=13&amp;amp;stateabbr=GA        &amp;amp;reportLevel=2" id="participatingStateLnk">Georgia</a>
+</td>
+</tr>
+<tr>
+<td>
+<em>Hawaii (not participating)<em></em></em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Idaho&amp;amp;stateid=16&amp;amp;stateabbr=ID        &amp;amp;reportLevel=1" id="participatingStateLnk">Idaho</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Illinois&amp;amp;stateid=17&amp;amp;stateabbr=IL        &amp;amp;reportLevel=2" id="participatingStateLnk">Illinois</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Indiana&amp;amp;stateid=18&amp;amp;stateabbr=IN        &amp;amp;reportLevel=2" id="participatingStateLnk">Indiana</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Iowa&amp;amp;stateid=19&amp;amp;stateabbr=IA        &amp;amp;reportLevel=4" id="participatingStateLnk">Iowa</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Kansas&amp;amp;stateid=20&amp;amp;stateabbr=KS        &amp;amp;reportLevel=2" id="participatingStateLnk">Kansas</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Kentucky&amp;amp;stateid=21&amp;amp;stateabbr=KY        &amp;amp;reportLevel=2" id="participatingStateLnk">Kentucky</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Louisiana&amp;amp;stateid=22&amp;amp;stateabbr=LA        &amp;amp;reportLevel=4" id="participatingStateLnk">Louisiana</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Maine&amp;amp;stateid=23&amp;amp;stateabbr=ME        &amp;amp;reportLevel=2" id="participatingStateLnk">Maine</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Maryland&amp;amp;stateid=24&amp;amp;stateabbr=MD        &amp;amp;reportLevel=1" id="participatingStateLnk">Maryland</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Massachusetts&amp;amp;stateid=25&amp;amp;stateabbr=MA        &amp;amp;reportLevel=2" id="participatingStateLnk">Massachusetts</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Michigan&amp;amp;stateid=26&amp;amp;stateabbr=MI        &amp;amp;reportLevel=2" id="participatingStateLnk">Michigan</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Minnesota&amp;amp;stateid=27&amp;amp;stateabbr=MN        &amp;amp;reportLevel=2" id="participatingStateLnk">Minnesota</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Mississippi&amp;amp;stateid=28&amp;amp;stateabbr=MS        &amp;amp;reportLevel=2" id="participatingStateLnk">Mississippi</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Missouri&amp;amp;stateid=29&amp;amp;stateabbr=MO        &amp;amp;reportLevel=2" id="participatingStateLnk">Missouri</a>
+</td>
+</tr>
+<tr>
+<td>
+<em>Montana (not participating)<em></em></em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Nebraska&amp;amp;stateid=31&amp;amp;stateabbr=NE        &amp;amp;reportLevel=2" id="participatingStateLnk">Nebraska</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Nevada&amp;amp;stateid=32&amp;amp;stateabbr=NV        &amp;amp;reportLevel=2" id="participatingStateLnk">Nevada</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=New Hampshire&amp;amp;stateid=33&amp;amp;stateabbr=NH        &amp;amp;reportLevel=4" id="participatingStateLnk">New Hampshire</a>
+</td>
+</tr>
+<tr>
+<td>
+<em>New Jersey (not participating)<em></em></em>
+</td>
+</tr>
+<tr>
+<td>
+<em>New Mexico (not participating)<em></em></em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=New York&amp;amp;stateid=36&amp;amp;stateabbr=NY        &amp;amp;reportLevel=1" id="participatingStateLnk">New York</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=North Carolina&amp;amp;stateid=37&amp;amp;stateabbr=NC        &amp;amp;reportLevel=1" id="participatingStateLnk">North Carolina</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=North Dakota&amp;amp;stateid=38&amp;amp;stateabbr=ND        &amp;amp;reportLevel=2" id="participatingStateLnk">North Dakota</a>
+</td>
+</tr>
+<tr>
+<td>
+<em>Ohio (not participating)<em></em></em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Oklahoma&amp;amp;stateid=40&amp;amp;stateabbr=OK        &amp;amp;reportLevel=1" id="participatingStateLnk">Oklahoma</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Oregon&amp;amp;stateid=41&amp;amp;stateabbr=OR        &amp;amp;reportLevel=1" id="participatingStateLnk">Oregon</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Pennsylvania&amp;amp;stateid=42&amp;amp;stateabbr=PA        &amp;amp;reportLevel=1" id="participatingStateLnk">Pennsylvania</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Rhode Island&amp;amp;stateid=44&amp;amp;stateabbr=RI        &amp;amp;reportLevel=2" id="participatingStateLnk">Rhode Island</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=South Carolina&amp;amp;stateid=45&amp;amp;stateabbr=SC        &amp;amp;reportLevel=2" id="participatingStateLnk">South Carolina</a>
+</td>
+</tr>
+<tr>
+<td>
+<em>South Dakota (not participating)<em></em></em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Tennessee&amp;amp;stateid=47&amp;amp;stateabbr=TN        &amp;amp;reportLevel=4" id="participatingStateLnk">Tennessee</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Texas&amp;amp;stateid=48&amp;amp;stateabbr=TX        &amp;amp;reportLevel=4" id="participatingStateLnk">Texas</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Utah&amp;amp;stateid=49&amp;amp;stateabbr=UT        &amp;amp;reportLevel=1" id="participatingStateLnk">Utah</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Vermont&amp;amp;stateid=50&amp;amp;stateabbr=VT        &amp;amp;reportLevel=2" id="participatingStateLnk">Vermont</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Virginia&amp;amp;stateid=52&amp;amp;stateabbr=VA        &amp;amp;reportLevel=3" id="participatingStateLnk">Virginia</a>
+</td>
+</tr>
+<tr>
+<td>
+<em>Washington (not participating)<em></em></em>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=West Virginia&amp;amp;stateid=54&amp;amp;stateabbr=WV        &amp;amp;reportLevel=2" id="participatingStateLnk">West Virginia</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="CountyList.aspx?state=Wisconsin&amp;amp;stateid=55&amp;amp;stateabbr=WI        &amp;amp;reportLevel=1" id="participatingStateLnk">Wisconsin</a>
+</td>
+</tr>
+<tr>
+<td>
+<em>Wyoming (not participating)<em></em></em>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button class="btn btn-gray btn-md" data-dismiss="modal" type="button">Close</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Related Nav Area -->
+<div class="nav-related hidden-three hidden-four">
+<!--
+									Should contain same content (minus any viewport 3/4 specific content) as 
+									the div.nav-related block that appears at the start of the main content block.
+								-->
+<div class="module-typeG emailupdates">
+<span class="sprite-24-govd-icon"></span>
+<h4>Get Email Updates</h4>
+<p>To receive email updates about this page, enter your email address:</p>
+<form action="https://public.govdelivery.com/accounts/USCDC/subscribers/qualify" name="govdelivery">
+<fieldset>
+<input name="topic_id" type="hidden" value="USCDC"/>
+<label>
+<span class="hidden">Enter Email Address</span>
+<input class="email" name="email" onfocus="this.value=''" type="text" value=""/>
+</label>
+<a class="explain" href="http://www.cdc.gov/emailupdates/">What's this?</a><a class="button" href="javascript:quicksubscribe();return false;">Submit</a>
+<noscript>
+<a class="explain" href="http://www.cdc.gov/emailupdates/">What's this?</a>
+<label>
+<span class="hidden">Submit Button</span>
+<input class="button submit" name="commit" type="submit" value="Submit"/>
+</label>
+</noscript>
+</fieldset>
+</form>
+</div>
+</div>
+<div class="row margin-bottom15">
+<div class="span24">
+<div class="pluginOff" id="plugin-legend">
+<h5>File Formats Help:</h5><span><a href="//www.cdc.gov/Other/plugins/">How do I view different file formats (PDF, DOC, PPT, MPEG) on this site?</a></span>
+<ul>
+<li class="plugin-pdf"><a href="//www.cdc.gov/Other/plugins/#pdf"><span class="sprite-16-pdf">Adobe PDF file</span></a></li>
+<li class="plugin-ppt"><a href="//www.cdc.gov/Other/plugins/#ppt"><span class="sprite-16-ppt">Microsoft PowerPoint file</span></a></li>
+<li class="plugin-word"><a href="//www.cdc.gov/Other/plugins/#doc"><span class="sprite-16-word">Microsoft Word file</span></a></li>
+<li class="plugin-excel"><a href="//www.cdc.gov/Other/plugins/#xls"><span class="sprite-16-excel">Microsoft Excel file</span></a></li>
+<li class="plugin-wmv"><a href="//www.cdc.gov/Other/plugins/#wmv"><span class="sprite-16-wmv">Audio/Video file</span></a></li>
+<li class="plugin-qt"><a href="//www.cdc.gov/Other/plugins/#qt"><span class="sprite-16-qt">Apple Quicktime file</span></a></li>
+<li class="plugin-real"><a href="//www.cdc.gov/Other/plugins/#ram"><span class="sprite-16-rp">RealPlayer file</span></a></li>
+<li class="plugin-text"><a href="//www.cdc.gov/Other/plugins/#text"><span class="sprite-16-txt">Text file</span></a></li>
+<li class="plugin-zip"><a href="//www.cdc.gov/Other/plugins/#zip"><span class="sprite-16-zip">Zip Archive file</span></a></li>
+<li class="plugin-sas"><a href="//www.cdc.gov/Other/plugins/#sas"><span class="sprite-16-sas">SAS file</span></a></li>
+<li class="plugin-epub"><a href="//www.cdc.gov/Other/plugins/#epub"><span class="sprite-16-ebook">ePub file</span></a></li>
+<li class="plugin-ris"><a href="//www.cdc.gov/Other/plugins/#ris"><span class="sprite-16-ris">RIS file</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- /end Related Nav Area -->
+<!-- Persistent Content Area -->
+<div id="content-secondary">
+<!-- begin editable -->
+<!--  // This area is optional 
+							    // All content in the Right Column (except for Page Option links and GovD) will be moved to the Persistent Content Area upon migration
+							    -->
+<!-- /end editable -->
+</div>
+<!-- /end #content-secondary -->
+</div>
+<!-- /end #contentArea -->
+</div>
+<!-- /end #body -->
+</div>
+<!-- /end .row -->
+<!-- left nav included after content on pages where it doesn't display -->
+</div>
+<!-- /end #content -->
+</div>
+<!-- / end .container -->
+<!-- footer -->
+<footer class="cdcSlimFooter" id="footer">
+<!-- include eng footerSubSocialMedia.html -->
+<div class="socialMedia">
+<div class="container">
+<nav class="followcdc">
+<ul>
+<li><a href="//www.cdc.gov/Other/emailupdates"><span class="sprite-24-govd"></span><span class="tp-sr-only">Email</span></a></li>
+<li><a href="https://www.facebook.com/CDC" target="_blank"><span class="sprite-24-facebook"></span><span class="tp-sr-only">Recommend</span></a></li>
+<li><a href="https://twitter.com/CDCgov" target="_blank"><span class="sprite-24-twitter"></span><span class="tp-sr-only">Tweet</span></a></li>
+<li><a href="https://www.youtube.com/user/CDCstreamingHealth" target="_blank"><span class="sprite-24-youtube"></span><span class="tp-sr-only">YouTube</span></a></li>
+<li><a href="https://www.instagram.com/CDCgov/" target="_blank"><span class="sprite-24-instagram"></span><span class="tp-sr-only">Instagram</span></a></li>
+</ul>
+</nav>
+<nav class="cdcmedia">
+<ul>
+<li><a href="//www2c.cdc.gov/podcasts"><span class="sprite-24-listen"></span><span class="tp-sr-only">Listen</span></a></li>
+<li><a href="//www.cdc.gov/cdctv"><span class="sprite-24-watch"></span><span class="tp-sr-only">Watch</span></a></li>
+<li><a href="//www2c.cdc.gov/podcasts/rss.asp"><span class="sprite-24-rss"></span><span class="tp-sr-only">RSS</span></a></li>
+</ul>
+</nav>
+</div>
+</div>
+<!-- /include eng footerSubSocialMedia.html -->
+<div class="cdcLinks">
+<div class="container padding-lr0">
+<ul class="padding-left15">
+<!-- include eng footerSubCdcLinks.html-->
+<li>
+<nav>
+<h6 class="hidden-four hidden-three">ABOUT <span class="icon-plus visible-one pull-right"></span></h6>
+<ul class="hidden-one">
+<li><a href="//www.cdc.gov/about/default.htm">About CDC</a></li>
+<li><a href="https://jobs.cdc.gov">Jobs</a></li>
+<li><a href="//www.cdc.gov/funding">Funding</a></li>
+</ul>
+</nav>
+</li>
+<li>
+<nav>
+<h6 class="hidden-four hidden-three">LEGAL <span class="icon-plus visible-one pull-right"></span></h6>
+<ul class="hidden-one">
+<li><a href="//www.cdc.gov/Other/policies.html">Policies</a></li>
+<li><a href="//www.cdc.gov/Other/privacy.html">Privacy</a></li>
+<li><a href="//www.cdc.gov/od/foia">FOIA</a></li>
+<li><a href="//www.cdc.gov/eeo/nofearact/index.htm">No Fear Act</a></li>
+<li><a class="no-link" href="https://oig.hhs.gov">OIG</a></li>
+</ul>
+</nav>
+</li>
+<!--/ include eng footerSubCdcLinks.html-->
+</ul>
+</div>
+</div>
+<div class="container padding-lr0">
+<div class="cdcContact">
+<div class="container">
+<ul>
+<li class="local-contact">
+<!-- include eng footerSubGlobalContact1.html -->
+<section>
+<address class="address" itemscope="itemscope" itemtype="https://schema.org/Organization">
+<span class="value" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
+<span itemprop="streetAddress">1600 Clifton Road</span>
+<span itemprop="addressLocality">Atlanta</span>,
+			<span itemprop="addressRegion">GA</span>
+<span itemprop="postalCode">30329-4027</span>
+<span itemprop="addressCountry">USA</span>
+</span><br/>
+<span class="value" itemprop="telephone">800-CDC-INFO (800-232-4636)</span>,
+		<span class="value" itemprop="telephone">TTY: 888-232-6348</span><br/>
+<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+<span itemprop="url"><a class="default no-link" href="//wwwn.cdc.gov/dcs/RequestForm.aspx">Email CDC-INFO</a></span>
+</span>
+</address>
+</section>
+<!-- /include eng footerSubGlobalContact1.html -->
+</li>
+<li class="contact">
+<!-- include eng footerSubGlobalContact2.html -->
+<section>
+<address class="address" itemscope="itemscope" itemtype="https://schema.org/Organization">
+<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+<span itemprop="url"><a class="no-link" href="https://www.hhs.gov">U.S. Department of Health &amp; Human Services</a></span>
+</span><br/>
+<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+<span itemprop="url"><a class="no-link" href="https://www.hhs.gov/open">HHS/Open</a></span>
+</span><br/>
+<span class="value" itemprop="contactPoint" itemscope="itemscope" itemtype="https://schema.org/ContactPoint">
+<span itemprop="url"><a class="no-link" href="https://www.usa.gov/">USA.gov</a></span>
+</span>
+</address>
+</section>
+<!-- /include eng footerSubGlobalContact2.html -->
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<!-- /#footer -->
+<div class="off visible-one" id="totop">TOP</div>
+<script src="/NCCDTemplatePackage/js/jquery-2.1.4.js"></script>
+<script src="/NCCDTemplatePackage/js/bootstrap3.3.6.js"></script>
+<script src="/TemplatePackage/3.0/js/libs.min.js" type="text/javascript"></script>
+<script src="/TemplatePackage/3.0/js/core.min.js" type="text/javascript"></script>
+<script src="/DOH_MWF/scripts/templateContentLeftNav.js" type="text/javascript"></script>
+<script src="/TemplatePackage/3.0/js/app.min.js" type="text/javascript"></script>
+<script src="/JScript/foresee/foresee-trigger.js" type="text/javascript"></script>
+<script src="/JScript/foresee-variables.js" type="text/javascript"></script>
+<script src="/DOH_MWF/scripts/local.js" type="text/javascript"></script>
+<script src="/DOH_MWF/js/custom.js" type="text/javascript"></script>
+<script src="../js/popUpWindows.js"></script>
+<script src="/TemplatePackage/3.0/js/libs/jquery-ui.js" type="text/javascript"></script>
+</form>

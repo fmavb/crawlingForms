@@ -1,0 +1,153 @@
+<form action="/niosh-mining/?facetGroups=%5EEquipment,%20tools,%20and%20parts=%5EDocument%20types=&amp;ResultsPerPage=Ten&amp;sf=Geographic%20regions&amp;Sort=Relevance" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="^Equipment, tools, and parts=^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Geographic regions"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Geographic regions</h2>
+<p class="facetDesc">Regions, states, and coal basins of the U.S.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=^Equipment, tools, and parts=^Document types=&amp;ResultsPerPage=Ten&amp;Sort=Relevance'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Geographic regions">Geographic regions</label>
+<label class="d-none" for="check_Australia">Australia</label>
+<label class="d-none" for="check_North America">North America</label>
+<label class="d-none" for="check_United States">United States</label>
+<label class="d-none" for="check_Alabama">Alabama</label>
+<label class="d-none" for="check_California">California</label>
+<label class="d-none" for="check_Colorado">Colorado</label>
+<label class="d-none" for="check_Idaho">Idaho</label>
+<label class="d-none" for="check_Illinois">Illinois</label>
+<label class="d-none" for="check_Kentucky">Kentucky</label>
+<label class="d-none" for="check_Missouri">Missouri</label>
+<label class="d-none" for="check_Montana">Montana</label>
+<label class="d-none" for="check_Nevada">Nevada</label>
+<label class="d-none" for="check_New Mexico">New Mexico</label>
+<label class="d-none" for="check_New York">New York</label>
+<label class="d-none" for="check_Oklahoma">Oklahoma</label>
+<label class="d-none" for="check_Pennsylvania">Pennsylvania</label>
+<label class="d-none" for="check_South Dakota">South Dakota</label>
+<label class="d-none" for="check_Utah">Utah</label>
+<label class="d-none" for="check_Virginia">Virginia</label>
+<label class="d-none" for="check_Washington">Washington</label>
+<label class="d-none" for="check_West Virginia">West Virginia</label>
+<label class="d-none" for="check_Wyoming">Wyoming</label>
+<label class="d-none" for="check_South America">South America</label>
+<label class="d-none" for="check_Chile">Chile</label>
+<label class="d-none" for="check_US coal basins">US coal basins</label>
+<label class="d-none" for="check_Appalachian basin">Appalachian basin</label>
+<label class="d-none" for="check_Eastern interior basin">Eastern interior basin</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Geographic regions">
+<a>Geographic regions</a>
+<ul>
+<li id="Australia">
+<a>Australia [2]</a>
+</li>
+<li id="North America">
+<a>North America [0]</a>
+<ul>
+<li id="United States">
+<a>United States [12]</a>
+<ul>
+<li id="Alabama">
+<a>Alabama [6]</a>
+</li>
+<li id="California">
+<a>California [1]</a>
+</li>
+<li id="Colorado">
+<a>Colorado [2]</a>
+</li>
+<li id="Idaho">
+<a>Idaho [9]</a>
+</li>
+<li id="Illinois">
+<a>Illinois [2]</a>
+</li>
+<li id="Kentucky">
+<a>Kentucky [2]</a>
+</li>
+<li id="Missouri">
+<a>Missouri [1]</a>
+</li>
+<li id="Montana">
+<a>Montana [2]</a>
+</li>
+<li id="Nevada">
+<a>Nevada [3]</a>
+</li>
+<li id="New Mexico">
+<a>New Mexico [1]</a>
+</li>
+<li id="New York">
+<a>New York [1]</a>
+</li>
+<li id="Oklahoma">
+<a>Oklahoma [2]</a>
+</li>
+<li id="Pennsylvania">
+<a>Pennsylvania [17]</a>
+</li>
+<li id="South Dakota">
+<a>South Dakota [1]</a>
+</li>
+<li id="Utah">
+<a>Utah [3]</a>
+</li>
+<li id="Virginia">
+<a>Virginia [2]</a>
+</li>
+<li id="Washington">
+<a>Washington [1]</a>
+</li>
+<li id="West Virginia">
+<a>West Virginia [14]</a>
+</li>
+<li id="Wyoming">
+<a>Wyoming [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="South America">
+<a>South America [0]</a>
+<ul>
+<li id="Chile">
+<a>Chile [1]</a>
+</li>
+</ul>
+</li>
+<li id="US coal basins">
+<a>US coal basins [1]</a>
+<ul>
+<li id="Appalachian basin">
+<a>Appalachian basin [7]</a>
+</li>
+<li id="Eastern interior basin">
+<a>Eastern interior basin [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=^Equipment, tools, and parts=^Document types=&amp;ResultsPerPage=Ten&amp;Sort=Relevance';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

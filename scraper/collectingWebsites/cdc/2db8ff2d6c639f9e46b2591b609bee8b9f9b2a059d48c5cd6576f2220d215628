@@ -1,0 +1,93 @@
+<form accesskey="S" action="Buildqyr.asp" id="form1" method="Get" name="form1" onsubmit="return Search_onclick('new')" tabindex="2">
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="card-title h3">
+<label for="S1">New Search</label>
+</div>
+<div class="card-body">
+<div class="card-text">
+<input class="form-control" id="S1" name="S1" placeholder="Enter search terms"/>
+<input class="btn btn-primary button-font" id="SearchNew" name="SearchNew" onclick="return Search_onclick('new')" type="submit" value="Go"/>
+<input class="btn btn-primary button-font" id="SearchResult" name="SearchResult" onclick="return Search_onclick('filter')" type="button" value="Search Within Results"/>
+<p>
+<a href="advsearch2.asp">Advanced Search</a>  
+						<a href="n2help.asp">Search Help</a>  
+						<a href="n2info.asp">About NIOSHTIC-2 </a>  
+						<a href="mailto:nioshtic2@cdc.gov?subject=Nioshtic-2 feedback">Feedback</a>
+</p>
+<input name="s1" type="HIDDEN" value="20036653"/>
+<input id="RecSelect" name="RecSelect" type="hidden" value="0"/>
+<input id="pagecount" name="Pagecount" type="hidden" value="1"/>
+<input id="NumRecOnPage" name="NumRecOnPage" type="hidden" value="0"/>
+<input name="hiddenURL" type="hidden"/>
+										
+					Terms: <em>  20036653</em>  
+					1 - 1
+					of <span class="emph">1</span> Bibliographic entries
+						   <span style="float:right;">
+
+													
+								All record(s) shown. 
+										
+					</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<a href="#" id="Select2" onclick="return SaveSelection('SaveAll',1)" title="Select all record(s) from this search">Save All</a>  
+                                        <a href="#" id="Select1" onclick="return SaveSelection('SavePage',1)" title="Select all record(s) on this page">Save Page</a>  
+
+                                        <a href="#" id="Disp" onclick="return DispSelection(1)" title="View all selected record(s)">View Saved</a>  
+                                        
+                                        <a href="#" onclick="return LoadDownload(1)" title="Download Search results">Download </a>  
+                                    
+                             </div>
+<div class="row">
+<em class="col-md-10 muted">Select check boxes to automatically save entries, or use 'save all' or 'save page' links above.</em>
+</div>
+<div class="section-highlight">
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->
+<input alt="checkbox_1" id="checkbox1_id" name="checkbox1" type="checkbox" value="47586"/><label for="checkbox1_id"> 1</label>
+<!-- </small>-->
+</div>
+<div class="col-md-10">
+<a href="//www2a.cdc.gov/nioshtic-2/BuildQyr.asp?s1=20036653&amp;PageNo=1&amp;RecNo=1&amp;View=f&amp;">Improved drill shroud capture of respirable dust utilizing air nozzles underneath the drill deck.</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!--<small>-->Authors<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Reed-WR; Potts-JD
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->Source<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Trans Soc Min Metall Explor 2010 Jan; 326:10-15
+                                    </div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="col-md-12" style="padding-top:5px;padding-bottom:6px;">
+                                    Page 1 of 1
+                                <span style="float:right;">
+                                    
+				                        All record(s) shown.
+                              
+                                </span>
+</div>
+</div>
+</div>
+</div>
+</form>

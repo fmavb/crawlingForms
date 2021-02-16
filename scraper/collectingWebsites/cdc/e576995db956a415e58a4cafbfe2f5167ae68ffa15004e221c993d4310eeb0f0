@@ -1,0 +1,203 @@
+<form action="/NIOSH-Mining/?facetGroups=Equipment,%20tools,%20and%20parts=Infrared%20cameras;%5E%5EDocument%20types=Contract%20reports;&amp;sf=Equipment,%20tools,%20and%20parts" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Equipment, tools, and parts=Infrared cameras;^^Document types=Contract reports;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Equipment, tools, and parts"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Equipment, tools, and parts</h2>
+<p class="facetDesc">Machines, devices, tools, and components used for a purpose (see also: Products and materials).</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Infrared cameras;^^Document types=Contract reports;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Equipment, tools, and parts">Equipment, tools, and parts</label>
+<label class="d-none" for="check_Antennas">Antennas</label>
+<label class="d-none" for="check_Communications equipment">Communications equipment</label>
+<label class="d-none" for="check_Leaky feeder communications systems">Leaky feeder communications systems</label>
+<label class="d-none" for="check_Medium frequency communications systems">Medium frequency communications systems</label>
+<label class="d-none" for="check_Mine phones">Mine phones</label>
+<label class="d-none" for="check_Node-based communications systems">Node-based communications systems</label>
+<label class="d-none" for="check_Wireless node communications systems">Wireless node communications systems</label>
+<label class="d-none" for="check_Pager phones">Pager phones</label>
+<label class="d-none" for="check_Radios">Radios</label>
+<label class="d-none" for="check_Through-the-earth communications systems">Through-the-earth communications systems</label>
+<label class="d-none" for="check_Electrical equipment">Electrical equipment</label>
+<label class="d-none" for="check_Batteries">Batteries</label>
+<label class="d-none" for="check_Generators">Generators</label>
+<label class="d-none" for="check_Lightning arresters">Lightning arresters</label>
+<label class="d-none" for="check_Electronic tracking systems">Electronic tracking systems</label>
+<label class="d-none" for="check_Escape and rescue equipment">Escape and rescue equipment</label>
+<label class="d-none" for="check_Infrared cameras">Infrared cameras</label>
+<label class="d-none" for="check_Instruments">Instruments</label>
+<label class="d-none" for="check_Dust measurement instruments">Dust measurement instruments</label>
+<label class="d-none" for="check_Personal dust monitors">Personal dust monitors</label>
+<label class="d-none" for="check_Gas measurement instruments">Gas measurement instruments</label>
+<label class="d-none" for="check_Methane monitors">Methane monitors</label>
+<label class="d-none" for="check_Lighting">Lighting</label>
+<label class="d-none" for="check_Cap lamps">Cap lamps</label>
+<label class="d-none" for="check_Mining, tunneling, and excavating machinery">Mining, tunneling, and excavating machinery</label>
+<label class="d-none" for="check_Motor vehicles">Motor vehicles</label>
+<label class="d-none" for="check_Diesel vehicles">Diesel vehicles</label>
+<label class="d-none" for="check_Haulage vehicles">Haulage vehicles</label>
+<label class="d-none" for="check_Noise control equipment">Noise control equipment</label>
+<label class="d-none" for="check_Rollover protection">Rollover protection</label>
+<label class="d-none" for="check_Roof fall protection">Roof fall protection</label>
+<label class="d-none" for="check_Protective canopies">Protective canopies</label>
+<label class="d-none" for="check_Utility lines">Utility lines</label>
+<label class="d-none" for="check_Communication lines">Communication lines</label>
+<label class="d-none" for="check_Power lines">Power lines</label>
+<label class="d-none" for="check_Wire ropes">Wire ropes</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Equipment, tools, and parts">
+<a>Equipment, tools, and parts</a>
+<ul>
+<li id="Antennas">
+<a>Antennas [3]</a>
+</li>
+<li id="Communications equipment">
+<a>Communications equipment [7]</a>
+<ul>
+<li id="Leaky feeder communications systems">
+<a>Leaky feeder communications systems [2]</a>
+</li>
+<li id="Medium frequency communications systems">
+<a>Medium frequency communications systems [8]</a>
+</li>
+<li id="Mine phones">
+<a>Mine phones [2]</a>
+</li>
+<li id="Node-based communications systems">
+<a>Node-based communications systems [0]</a>
+<ul>
+<li id="Wireless node communications systems">
+<a>Wireless node communications systems [9]</a>
+</li>
+</ul>
+</li>
+<li id="Pager phones">
+<a>Pager phones [6]</a>
+</li>
+<li id="Radios">
+<a>Radios [10]</a>
+</li>
+<li id="Through-the-earth communications systems">
+<a>Through-the-earth communications systems [8]</a>
+</li>
+</ul>
+</li>
+<li id="Electrical equipment">
+<a>Electrical equipment [0]</a>
+<ul>
+<li id="Batteries">
+<a>Batteries [1]</a>
+</li>
+<li id="Generators">
+<a>Generators [1]</a>
+</li>
+<li id="Lightning arresters">
+<a>Lightning arresters [1]</a>
+</li>
+</ul>
+</li>
+<li id="Electronic tracking systems">
+<a>Electronic tracking systems [1]</a>
+</li>
+<li id="Escape and rescue equipment">
+<a>Escape and rescue equipment [1]</a>
+<ul>
+<li id="Infrared cameras">
+<a>Infrared cameras [1]</a>
+</li>
+</ul>
+</li>
+<li id="Instruments">
+<a>Instruments [0]</a>
+<ul>
+<li id="Dust measurement instruments">
+<a>Dust measurement instruments [0]</a>
+<ul>
+<li id="Personal dust monitors">
+<a>Personal dust monitors [1]</a>
+</li>
+</ul>
+</li>
+<li id="Gas measurement instruments">
+<a>Gas measurement instruments [0]</a>
+<ul>
+<li id="Methane monitors">
+<a>Methane monitors [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Lighting">
+<a>Lighting [0]</a>
+<ul>
+<li id="Cap lamps">
+<a>Cap lamps [1]</a>
+</li>
+</ul>
+</li>
+<li id="Mining, tunneling, and excavating machinery">
+<a>Mining, tunneling, and excavating machinery [1]</a>
+</li>
+<li id="Motor vehicles">
+<a>Motor vehicles [0]</a>
+<ul>
+<li id="Diesel vehicles">
+<a>Diesel vehicles [1]</a>
+</li>
+<li id="Haulage vehicles">
+<a>Haulage vehicles [1]</a>
+</li>
+</ul>
+</li>
+<li id="Noise control equipment">
+<a>Noise control equipment [1]</a>
+</li>
+<li id="Rollover protection">
+<a>Rollover protection [1]</a>
+</li>
+<li id="Roof fall protection">
+<a>Roof fall protection [0]</a>
+<ul>
+<li id="Protective canopies">
+<a>Protective canopies [1]</a>
+</li>
+</ul>
+</li>
+<li id="Utility lines">
+<a>Utility lines [0]</a>
+<ul>
+<li id="Communication lines">
+<a>Communication lines [2]</a>
+</li>
+<li id="Power lines">
+<a>Power lines [1]</a>
+</li>
+</ul>
+</li>
+<li id="Wire ropes">
+<a>Wire ropes [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Infrared cameras;^^Document types=Contract reports;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

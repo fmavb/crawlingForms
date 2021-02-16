@@ -1,0 +1,23 @@
+<form action="BuildQyr.asp" class="form-search" id="form1" method="get" name="searchform">
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="card-title h3">
+<label for="S1">Search NIOSHTIC-2</label>
+</div>
+<div class="card-body">
+<div class="card-text">
+<input class="form-control" id="S1" name="S1" placeholder="Enter search terms"/>
+<input class="btn btn-primary button-font" name="Submit" onclick="return DataAction_onclick()" type="submit" value="Search"/>
+<p>
+<a href="advsearch2.asp">Advanced Search</a>  
+						<a href="n2help.asp">Search Help</a>  
+						<a href="n2info.asp">About NIOSHTIC-2 </a>  
+						<a href="mailto:nioshtic2@cdc.gov?subject=Nioshtic-2 feedback">Feedback</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>

@@ -1,0 +1,42 @@
+<form action="/jobs/senior-product-manager/41883524#apply-form" data-bind="submit: jobApplication.sendApplication" id="apply-form" method="post"> <input name="InternalApplicationSource" type="hidden" value="searchResults"/>
+<input name="__RequestVerificationToken" type="hidden" value="LeSbt5qDxUOmvNlpYzLzoUztHCEirQ2tlBNz4pfF5qzJ9ZCGVdXc9Bq3QtXvA-ipv-oqPwLjdp0HhaH4nEQ5dntzQtg1"/>
+<section class="screening-questions">
+<h2>Application question</h2>
+<fieldset class="form-field" data-bind="checked: screeningQuestions.questions()[0].UA" role="group">
+<div class="screening-legend col-xs-12 col-sm-8 col-md-8">Do you have significant Product Manager experience?</div>
+<div class="options col-xs-12 col-sm-4 col-md-4">
+<input class="" data-bind="checked: screeningQuestions.questions()[0].UA" id="ScreeningQuestions[0].UserAnswer_True" name="ScreeningQuestions[0].UserAnswer" type="radio" value="True"/> <label class="screening-label" for="ScreeningQuestions[0].UserAnswer_True">
+<a href="#">Yes</a>
+</label>
+<input class="" data-bind="checked: screeningQuestions.questions()[0].UA" id="ScreeningQuestions[0].UserAnswer_False" name="ScreeningQuestions[0].UserAnswer" type="radio" value="False"/> <label class="screening-label" for="ScreeningQuestions[0].UserAnswer_False">
+<a href="#">No</a>
+</label>
+</div>
+</fieldset>
+<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="ScreeningQuestions_0__Id" name="ScreeningQuestions[0].Id" type="hidden" value="17662042"/>
+<div class="missing-answer is-hidden">
+            Please answer all of the application questions.
+        </div>
+</section>
+<section class="cv-coverletter-externalapplication" data-bind="visible: jobApplication.showApplyBox()" style="display:none;">
+<input data-val="true" data-val-number="The field JobId must be a number." data-val-required="The JobId field is required." id="JobId" name="JobId" type="hidden" value="41883524"/>
+<input id="Source" name="Source" type="hidden" value="searchResults"/>
+<input data-val="true" data-val-required="The UserHasRegisteredThroughJob field is required." id="UserHasRegisteredThroughJob" name="UserHasRegisteredThroughJob" type="hidden" value="False"/>
+</section>
+<div class="apply-options text-center" data-bind="visible: !jobApplication.showApplyBox()">
+<button class="btn btn-primary apply-button gtmJobDetailsApplyBottom gtmJobseekerRegistrationFunnelClick" data-bind="text: draft.applyButtonText(), click: jobApplication.applyForJob, clickBubble: false, visible: !jobApplication.showApplyBox()" data-qa="applyBtn" data-vpv="/vpv/first_app/on_site/responsive" id="applyButtonDescriptionBottom" type="button">
+                        Apply now
+                    </button>
+<div class="secondary-btns visible-xs-block">
+<button class="btn btn-tertiary saved-jobs-button gtmShortlistSignInRegisterModal gtmJobDetailsSaveJob" data-bind="click: modifyShortlistStatus, css: { 'gtmJobDetailsSaveJob': !savedJob.isSavedJob(), 'has-saved-job': savedJob.isSavedJob() }" data-qa="shortListMobileBtn">
+<i class="icon"></i>
+<span data-bind="visible: savedJob.isSavedJob()" style="display:none">Shortlisted</span>
+<span data-bind="visible: !savedJob.isSavedJob()" style="">Shortlist</span>
+</button>
+<button class="btn btn-tertiary email-job-button gtmJobDetailsEmail" data-bind="click: showEmailJob" type="button">
+<i class="icon icon-share"></i>
+                        Share job
+                    </button>
+</div>
+</div>
+</form>

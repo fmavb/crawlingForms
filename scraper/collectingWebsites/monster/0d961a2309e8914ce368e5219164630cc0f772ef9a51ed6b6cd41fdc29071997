@@ -1,0 +1,28 @@
+<form action="https://learnmore.monster.com/HiringNewsProcessingStep" class="NewsForm" id="NewsForm">
+<h1 class="title">Join our mailing list!</h1>
+<!-- <p class="required" style="text-align: center; font-size: 20px; font-weight: 600; color: #00b6b4; padding-bottom: 20px !important;">
+                    Sign up for our exclusive hiring news, special sales and more.
+                  </p> -->
+<h2 class="required subtitle">Sign up for exclusive hiring news, special offers, and more delivered to your inbox.</h2>
+<label class="sr-only" for="control_formCOLUMN1">First Name</label>
+<input aria-label="First Name" id="control_formCOLUMN1" name="FirstName" placeholder="First Name" required="" style="width: 49%" type="text"/>
+<label class="sr-only" for="control_COLUMN2">Last Name </label>
+<input aria-label="Last Name" id="control_COLUMN2" name="LastName" placeholder="Last Name" required="" style="width: 49%" type="text"/>
+<label class="sr-only" for="control_EMAIL">Email</label>
+<input aria-label="Email" class="wa wa-em" id="control_EMAIL" name="EmailAddress" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="Company Email" required="" style="width: 98.8%" type="email"/>
+<label class="sr-only" for="control_COLUMN50">Company Name</label>
+<input aria-label="Company" class="wa" id="control_COLUMN50" name="Company" placeholder="Company Name" required="" style="width: 98.8%" type="text"/>
+<label class="sr-only" for="control_COLUMN4">Phone Number</label>
+<input aria-label="Company Phone Number" class="wa" id="control_COLUMN4" name="Phone" placeholder="Company Phone Number" required="" style="width: 59%" type="text"/>
+<label class="sr-only" for="control_COLUMN145">Zip Code</label>
+<input aria-label="Zip" class="wa" id="control_COLUMN145" name="PostalCode" placeholder="Zip Code" required="" style="width: 39%" type="text"/>
+<!-- DO NOT REMOVE HIDDEN FIELDS  -->
+<p class="formErrorMessages" id="errorMessageContainerId" style="display:none;"></p>
+<p class="finePrint" style="padding: 20px 0;">By continuing, you agree that Monster may provide you the requested materials and contact you regarding its products and services in accordance with the <a href="https://inside.monster.com/terms-of-use" target="_blank">Terms of Use</a> and <a href="https://inside.monster.com/policy/inside2.aspx" target="_blank">Privacy Policy</a>.</p>
+<input class="fuschia-button wa" style="margin: 0 !important;" type="submit" value="Sign up"/>
+<input id="control_COLUMN43" name="Organization" type="hidden" value="North America"/>
+<input id="control_COLUMN162" name="PredeterminedScore" type="hidden" value="warm"/>
+<input id="control_COLUMN142" name="Country" type="hidden" value="United States"/>
+<input name="FormName" type="hidden" value="NewsForm"/>
+<input name="IsHidden" type="hidden" value="false"/>
+</form>

@@ -1,0 +1,63 @@
+<form action="/members/register/go.php" class="validate-form" enctype="multipart/form-data" id="registration-form" method="post">
+<div class="hide" id="347tIlMqyu_container">
+<label for="347tIlMqyu">347tIlMqyu</label>
+<input for="347tIlMqyu" id="347tIlMqyu" name="347tIlMqyu" type="text" value="def50200db2c9428734481867f619916bfcea8f35cda5425a9e74d53b8b196963d24c8f7fc83d2c125df3861a6bd9f8e8471e3ffd626f19e39fad01feb6d31c2832f06e05cebbdc900e24a9b02be7b6047b557f5358a440da7a565be156c"/>
+<label for="Nq3mjFtlvW">Nq3mjFtlvW</label>
+<input id="Nq3mjFtlvW" name="Nq3mjFtlvW" type="text" value=""/>
+</div>
+<input name="record" type="hidden" value=""/>
+<input name="location_lat" type="hidden" value=""/>
+<input name="location_lon" type="hidden" value=""/>
+<div class="form-group">
+<label for="registration-firstname">First name</label>
+<input class="span12 form-control input-lg input-big input_user required validate-no-at" id="registration-firstname" name="name_first" type="text" value=""/>
+</div>
+<div class="form-group">
+<label for="registration-lastname">Last name</label>
+<input class="span12 form-control input-lg input-big input_user required validate-no-at" id="registration-lastname" name="name_last" type="text" value=""/>
+</div>
+<div class="form-group">
+<label for="registration-email">Email</label>
+<input class="span12 form-control input-lg input-big input_email required email validate-remote" data-errortype="invalid_email" data-remote="/members/register/username_check.php" id="registration-email" name="username" type="text" value=""/>
+</div>
+<div class="form-group">
+<label for="registration-password">Password</label>
+<input autocomplete="off" class="span12 form-control input-lg input-big input_password validate-remote" data-remote="/members/register/password_check.php" data-remote-type="post" id="registration-password" name="password" type="password"/>
+</div>
+<div class="form-group">
+<label for="registration-password-verify">
+            Confirm Password
+        </label>
+<input autocomplete="off" class="span12 form-control input-lg input-big input_password required equal-to" data-equalto="#registration-password" id="registration-password-verify" name="password_again" type="password"/>
+</div>
+<div class="clearfix"></div>
+<div class="well well-sm text-center margin-top-sm">
+<div class="form-group margin-bottom-0">
+<div class="file_upload_holder" id="registration-cv-uploader">
+<label class="file_upload_label" for="cv_file_upload">
+<i class="fa fa-upload icon-upload" role="presentation"></i> Upload a CV to create your profile automatically                         </label>
+<input aria-describedby="cv_filename" class="form-control input-lg file_upload" data-btn-block="true" id="cv_file_upload" name="cv_file_upload" type="file"/>
+<input id="third_party_file_name" name="third_party_file[name]" type="hidden"/>
+<input id="third_party_file_link" name="third_party_file[link]" type="hidden"/>
+<input id="third_party_file_token" name="third_party_file[token]" type="hidden"/>
+<input id="third_party_file_provider" name="third_party_file[provider]" type="hidden"/>
+</div>
+<span class="upload_filename" id="cv_filename" style="position:relative; top:5px; margin-bottom:0; display:block; text-align:left; margin-left:0; margin-right:0;"></span>
+</div>
+</div>
+<div class="registration-terms">
+<div class="alert alert-warning">
+<div class="opt_in_checkboxes">
+<div class="controls checkbox">
+<label class="checkbox" for="opt_in_terms_and_conditions">
+<input class="required" data-recommended="false" id="opt_in_terms_and_conditions" name="opt_ins[terms_and_conditions]" type="checkbox" value="terms_and_conditions"/>
+                                    I have read and agree to the <a href="/members/modules/hf/terms.php" target="_blank">Privacy Policy</a>
+</label>
+</div>
+</div>
+</div>
+</div>
+<button class="btn btn-large btn-lg btn-block btn-primary" type="submit">
+                    I agree. Create my account
+            </button>
+</form>

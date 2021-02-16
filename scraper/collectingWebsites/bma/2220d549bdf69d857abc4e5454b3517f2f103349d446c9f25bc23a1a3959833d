@@ -1,0 +1,33 @@
+<form action="/search" class="header-search" id="js-header-search" role="search" v-on:submit.prevent="searchFormSubmitted">
+<div class="header-search__input-area">
+<input aria-label="Search on the site" class="header-search-input" placeholder="Search bma.org.uk" ref="headerSearchInputField" type="text" v-model="inputModel"/>
+<button aria-label="Submit search" class="header-search__submit-button" type="submit">
+<svg class="icon icon--search">
+<use xlink:href="/dist/icons/icons.svg#search" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+</svg>
+</button>
+</div>
+<div :class="{'header-search-suggestions--active': showResponseItems || showRecentItems}" class="header-search-suggestions">
+<span class="header-search-suggestions__heading" v-if="showRecentItems">Recent</span>
+<ul class="header-search-suggestions-list">
+<li :key="item.id" class="header-search-suggestions-list-item" v-for="item in recentItems" v-if="showRecentItems">
+<a :href="item.Url" v-on:click="suggestedSearchTermClicked(item, $event)">
+<svg class="icon icon--time">
+<use xlink:href="/dist/icons/icons.svg#time" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+</svg>
+<span class="header-search-suggestions-list-item__suggestion-title">${ item.Term }</span>
+<span class="header-search-suggestions-list-item__subtitle">${ item.Date }</span>
+</a>
+</li>
+<li :key="item.Url + item.Title" class="header-search-suggestions-list-item header-search-suggestions-list-item--result" v-for="item in responseItems">
+<a :href="item.Url" v-on:click="resultClicked(item, $event)">
+<span class="header-search-suggestions-list-item__result-title" v-html="item.TitleHtml"></span>
+<span class="header-search-suggestions-list-item__subtitle">${ item.ContentType }</span>
+</a>
+</li>
+</ul>
+<span class="header-search-suggestions__button-container" ref="resultsButtonContainer" v-show="showMoreResultsButton">
+<a class="button" href="#" title="See all results">See all results</a>
+</span>
+</div>
+</form>

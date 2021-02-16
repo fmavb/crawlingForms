@@ -1,0 +1,24 @@
+<form action="/jobs/senior-finance-manager/41878807#apply-form" data-bind="submit: jobApplication.sendApplication" id="apply-form" method="post"> <input name="InternalApplicationSource" type="hidden" value="searchResults"/>
+<input name="__RequestVerificationToken" type="hidden" value="764kpaWJITOoJa5COtckJjtYrGST-wthYSs74SJ4SfHGqcTL3Wun62G6UtqnIFGsZN4hSGg6X3GwG6Ipz7tSxrHFuDI1"/>
+<section class="cv-coverletter-externalapplication" data-bind="visible: jobApplication.showApplyBox()" style="display:none;">
+<input data-val="true" data-val-number="The field JobId must be a number." data-val-required="The JobId field is required." id="JobId" name="JobId" type="hidden" value="41878807"/>
+<input id="Source" name="Source" type="hidden" value="searchResults"/>
+<input data-val="true" data-val-required="The UserHasRegisteredThroughJob field is required." id="UserHasRegisteredThroughJob" name="UserHasRegisteredThroughJob" type="hidden" value="False"/>
+</section>
+<div class="apply-options text-center" data-bind="visible: !jobApplication.showApplyBox()">
+<button class="btn btn-primary apply-button gtmJobDetailsApplyBottom gtmJobseekerRegistrationFunnelClick" data-bind="text: draft.applyButtonText(), click: jobApplication.applyForJob, clickBubble: false, visible: !jobApplication.showApplyBox()" data-qa="applyBtn" data-vpv="/vpv/first_app/on_site/responsive" id="applyButtonDescriptionBottom" type="button">
+                        Apply now
+                    </button>
+<div class="secondary-btns visible-xs-block">
+<button class="btn btn-tertiary saved-jobs-button gtmShortlistSignInRegisterModal gtmJobDetailsSaveJob" data-bind="click: modifyShortlistStatus, css: { 'gtmJobDetailsSaveJob': !savedJob.isSavedJob(), 'has-saved-job': savedJob.isSavedJob() }" data-qa="shortListMobileBtn">
+<i class="icon"></i>
+<span data-bind="visible: savedJob.isSavedJob()" style="display:none">Shortlisted</span>
+<span data-bind="visible: !savedJob.isSavedJob()" style="">Shortlist</span>
+</button>
+<button class="btn btn-tertiary email-job-button gtmJobDetailsEmail" data-bind="click: showEmailJob" type="button">
+<i class="icon icon-share"></i>
+                        Share job
+                    </button>
+</div>
+</div>
+</form>

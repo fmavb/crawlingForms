@@ -1,0 +1,26 @@
+<form accept-charset="UTF-8" action="https://search.cdc.gov/search" autocomplete="off" method="get">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-primary dropdown-toggle no-toggle search-button ssi d-xl-none" data-toggle="dropdown" type="button">
+<span>Search</span>
+<i aria-hidden="true" class="fi cdc-icon-magnify dropdown-menu-medium-search-icon x24"></i>
+<i aria-hidden="true" class="fi cdc-icon-close dropdown-menu-medium-close-icon x24"></i>
+</button>
+<div class="dropdown-menu dropdown-menu-right dropdown-menu-search dropdown-menu-medium-search">
+<div class="input-group">
+<!--<label id="headerSearchLabel" for="headerSearch"><span class="sr-only">Search</span></label>-->
+<input aria-label="Search" class="form-control" id="headerSearch" name="query" placeholder="Search" type="text"/>
+<span class="form-control-clear">×</span>
+<div class="input-group-append">
+<button class="btn search-submit" type="button">
+<span class="sr-only">Submit</span>
+<i aria-hidden="true" class="fi cdc-icon-magnify x24"></i>
+</button>
+</div>
+</div>
+<div class="a-z-index fs0875">
+<span class="d-xl-none">For a full list of topics: </span><a href="https://www.cdc.gov/az/" id="az-large">A-Z Index</a>
+</div>
+</div>
+<input name="sitelimit" type="hidden" value=""/>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</form>

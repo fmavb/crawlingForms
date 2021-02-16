@@ -1,0 +1,86 @@
+<form action="/jobs/hr-business-partner/41864128#apply-form" data-bind="submit: jobApplication.sendApplication" id="apply-form" method="post"> <input name="InternalApplicationSource" type="hidden" value="searchResults"/>
+<input name="__RequestVerificationToken" type="hidden" value="SHRazBB6_xPLtcGFslYeHEg5vvkdPUJCmoDFM3A4XA-ViwcBT-LVE4iNXuQX2dvdU7G7CHGF5hjI7xRBGCvHkBt3hlY1"/>
+<section class="screening-questions">
+<h2>Application questions</h2>
+<fieldset class="form-field" data-bind="checked: screeningQuestions.questions()[0].UA" role="group">
+<div class="screening-legend col-xs-12 col-sm-8 col-md-8">Are you CIPD qualified or have a relevant degree or relevant experience?</div>
+<div class="options col-xs-12 col-sm-4 col-md-4">
+<input class="" data-bind="checked: screeningQuestions.questions()[0].UA" id="ScreeningQuestions[0].UserAnswer_True" name="ScreeningQuestions[0].UserAnswer" type="radio" value="True"/> <label class="screening-label" for="ScreeningQuestions[0].UserAnswer_True">
+<a href="#">Yes</a>
+</label>
+<input class="" data-bind="checked: screeningQuestions.questions()[0].UA" id="ScreeningQuestions[0].UserAnswer_False" name="ScreeningQuestions[0].UserAnswer" type="radio" value="False"/> <label class="screening-label" for="ScreeningQuestions[0].UserAnswer_False">
+<a href="#">No</a>
+</label>
+</div>
+</fieldset>
+<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="ScreeningQuestions_0__Id" name="ScreeningQuestions[0].Id" type="hidden" value="17658374"/> <fieldset class="form-field" data-bind="checked: screeningQuestions.questions()[1].UA" role="group">
+<div class="screening-legend col-xs-12 col-sm-8 col-md-8">Do you have previous HR business partnering experience?</div>
+<div class="options col-xs-12 col-sm-4 col-md-4">
+<input class="" data-bind="checked: screeningQuestions.questions()[1].UA" id="ScreeningQuestions[1].UserAnswer_True" name="ScreeningQuestions[1].UserAnswer" type="radio" value="True"/> <label class="screening-label" for="ScreeningQuestions[1].UserAnswer_True">
+<a href="#">Yes</a>
+</label>
+<input class="" data-bind="checked: screeningQuestions.questions()[1].UA" id="ScreeningQuestions[1].UserAnswer_False" name="ScreeningQuestions[1].UserAnswer" type="radio" value="False"/> <label class="screening-label" for="ScreeningQuestions[1].UserAnswer_False">
+<a href="#">No</a>
+</label>
+</div>
+</fieldset>
+<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="ScreeningQuestions_1__Id" name="ScreeningQuestions[1].Id" type="hidden" value="17658375"/> <fieldset class="form-field" data-bind="checked: screeningQuestions.questions()[2].UA" role="group">
+<div class="screening-legend col-xs-12 col-sm-8 col-md-8">Do you have previous manufacturing or engineering experience?</div>
+<div class="options col-xs-12 col-sm-4 col-md-4">
+<input class="" data-bind="checked: screeningQuestions.questions()[2].UA" id="ScreeningQuestions[2].UserAnswer_True" name="ScreeningQuestions[2].UserAnswer" type="radio" value="True"/> <label class="screening-label" for="ScreeningQuestions[2].UserAnswer_True">
+<a href="#">Yes</a>
+</label>
+<input class="" data-bind="checked: screeningQuestions.questions()[2].UA" id="ScreeningQuestions[2].UserAnswer_False" name="ScreeningQuestions[2].UserAnswer" type="radio" value="False"/> <label class="screening-label" for="ScreeningQuestions[2].UserAnswer_False">
+<a href="#">No</a>
+</label>
+</div>
+</fieldset>
+<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="ScreeningQuestions_2__Id" name="ScreeningQuestions[2].Id" type="hidden" value="17658376"/> <fieldset class="form-field" data-bind="checked: screeningQuestions.questions()[3].UA" role="group">
+<div class="screening-legend col-xs-12 col-sm-8 col-md-8">Do you have previous TUPE and change management?</div>
+<div class="options col-xs-12 col-sm-4 col-md-4">
+<input class="" data-bind="checked: screeningQuestions.questions()[3].UA" id="ScreeningQuestions[3].UserAnswer_True" name="ScreeningQuestions[3].UserAnswer" type="radio" value="True"/> <label class="screening-label" for="ScreeningQuestions[3].UserAnswer_True">
+<a href="#">Yes</a>
+</label>
+<input class="" data-bind="checked: screeningQuestions.questions()[3].UA" id="ScreeningQuestions[3].UserAnswer_False" name="ScreeningQuestions[3].UserAnswer" type="radio" value="False"/> <label class="screening-label" for="ScreeningQuestions[3].UserAnswer_False">
+<a href="#">No</a>
+</label>
+</div>
+</fieldset>
+<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="ScreeningQuestions_3__Id" name="ScreeningQuestions[3].Id" type="hidden" value="17658377"/> <fieldset class="form-field" data-bind="checked: screeningQuestions.questions()[4].UA" role="group">
+<div class="screening-legend col-xs-12 col-sm-8 col-md-8">Do you have strong knowledge of employment law?</div>
+<div class="options col-xs-12 col-sm-4 col-md-4">
+<input class="" data-bind="checked: screeningQuestions.questions()[4].UA" id="ScreeningQuestions[4].UserAnswer_True" name="ScreeningQuestions[4].UserAnswer" type="radio" value="True"/> <label class="screening-label" for="ScreeningQuestions[4].UserAnswer_True">
+<a href="#">Yes</a>
+</label>
+<input class="" data-bind="checked: screeningQuestions.questions()[4].UA" id="ScreeningQuestions[4].UserAnswer_False" name="ScreeningQuestions[4].UserAnswer" type="radio" value="False"/> <label class="screening-label" for="ScreeningQuestions[4].UserAnswer_False">
+<a href="#">No</a>
+</label>
+</div>
+</fieldset>
+<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="ScreeningQuestions_4__Id" name="ScreeningQuestions[4].Id" type="hidden" value="17658378"/>
+<div class="missing-answer is-hidden">
+            Please answer all of the application questions.
+        </div>
+</section>
+<section class="cv-coverletter-externalapplication" data-bind="visible: jobApplication.showApplyBox()" style="display:none;">
+<input data-val="true" data-val-number="The field JobId must be a number." data-val-required="The JobId field is required." id="JobId" name="JobId" type="hidden" value="41864128"/>
+<input id="Source" name="Source" type="hidden" value="searchResults"/>
+<input data-val="true" data-val-required="The UserHasRegisteredThroughJob field is required." id="UserHasRegisteredThroughJob" name="UserHasRegisteredThroughJob" type="hidden" value="False"/>
+</section>
+<div class="apply-options text-center" data-bind="visible: !jobApplication.showApplyBox()">
+<button class="btn btn-primary external-apply-button gtmExternalAppLinkBottom gtmJobseekerRegistrationFunnelClick" data-bind="click: jobApplication.applyForJob, clickBubble: false, visible: !jobApplication.showApplyBox()" data-qa="applyBtn" data-vpv="/vpv/apply_now/signed_out/off_site_app/responsive" id="applyButtonDescriptionBottom">
+                        Apply on employer's website
+                    </button>
+<div class="secondary-btns visible-xs-block">
+<button class="btn btn-tertiary saved-jobs-button gtmShortlistSignInRegisterModal gtmJobDetailsSaveJob" data-bind="click: modifyShortlistStatus, css: { 'gtmJobDetailsSaveJob': !savedJob.isSavedJob(), 'has-saved-job': savedJob.isSavedJob() }" data-qa="shortListMobileBtn">
+<i class="icon"></i>
+<span data-bind="visible: savedJob.isSavedJob()" style="display:none">Shortlisted</span>
+<span data-bind="visible: !savedJob.isSavedJob()" style="">Shortlist</span>
+</button>
+<button class="btn btn-tertiary email-job-button gtmJobDetailsEmail" data-bind="click: showEmailJob" type="button">
+<i class="icon icon-share"></i>
+                        Share job
+                    </button>
+</div>
+</div>
+</form>

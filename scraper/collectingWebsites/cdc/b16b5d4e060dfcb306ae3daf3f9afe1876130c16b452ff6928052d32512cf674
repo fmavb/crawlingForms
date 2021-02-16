@@ -1,0 +1,18 @@
+<form _lpchecked="1" accept-charset="UTF-8" action="//search.cdc.gov/search/index.html" autocomplete="off" method="get">
+<div class="dropdown-menu dropdown-menu-right dropdown-menu-search dropdown-menu-medium-search">
+<div class="input-group">
+<input aria-label="Search" class="form-control" id="headerSearch" name="query" placeholder="Search COVID-19" type="text"/>
+<div class="input-group-append dropdown-submenu">
+<span class="form-control-clear" style="visibility: hidden;">×</span>
+</div>
+<div class="input-group-append">
+<button class="btn search-submit" type="button"><span class="sr-only">Submit</span>
+<span class="x20 cdc-icon-search-light"></span>
+</button>
+</div>
+</div>
+</div>
+<input name="sitelimit" type="hidden" value="coronavirus/2019-nCoV"/>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</form>

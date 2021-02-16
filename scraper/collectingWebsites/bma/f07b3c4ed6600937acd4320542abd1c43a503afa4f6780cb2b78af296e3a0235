@@ -1,0 +1,161 @@
+<form action="/claimform" aria-labelledby="heading-1" id="formRenewal" method="post" onsubmit="return(validateRenewal())" role="form">
+<section class="bg-dark-blue section-group" id="form-progression">
+<div class="container">
+<div class="row">
+<div class="col">
+<h1 class="heading-1 text-center mb-4" id="heading-1">Claim reduced subscription rate</h1>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-grey section-group" id="gmc-number-read-only">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h3 class="heading-3 gmc-number mb-3">
+<span>GMC Number </span>
+<input class="form-control heading-3 valid" id="GmcNumber" name="GmcNumber" readonly="" style="background-color:white" type="text" value=""/>
+<input data-val="true" data-val-required="The PaymentPlan field is required." id="PaymentPlan" name="PaymentPlan" type="hidden" value=""/>
+<input data-val="true" data-val-required="The ContactId field is required." id="ContactId" name="ContactId" type="hidden" value=""/>
+<input id="Title" name="Title" type="hidden" value=""/>
+</h3>
+</div>
+</div>
+</div>
+</section>
+<main class="section-group" id="professional-details-1" role="main">
+<div class="container">
+<div class="row">
+<div class="col">
+<section class="contact-information section-inner">
+<h3 class="heading-3 mb-3" id="heading-3">Contact information</h3>
+<p class="body-copy mb-3">Fields marked * are required</p>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="Title">Title <sup>*</sup></label>
+<input class="form-control" id="TitleEnum" readonly=""/>
+<span class="text-danger"></span>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="FirstName">First name(s) <sup>*</sup></label>
+<input class="form-control" id="FirstName" name="FirstName" readonly="" type="text" value=""/>
+</div>
+<div class="form-group col-md-5 offset-md-1">
+<label class="label mb-2" for="LastName">Surname<sup>*</sup></label>
+<input class="form-control" id="LastName" name="LastName" readonly="" type="text" value=""/>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="EmailAddress">Email address</label>
+<input class="form-control" id="EmailAddress" maxlength="100" name="EmailAddress" readonly="" type="email" value=""/>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="concession-rate">Concession rates for membership <sup>*</sup></label>
+<select class="form-control" data-val="true" data-val-required="Concession rates for membership field is required." id="ReducedMembershipFeeId" name="ReducedMembershipPriceType" onchange="enterBMA(this);">
+<option value="">Please choose </option>
+<option value="0">NoReducedMembershipPrice</option>
+<option value="1">Salary Link A - Less than £16,000</option>
+<option value="2">Salary Link B - Less than £46,000</option>
+<option value="3">Permanently retired</option>
+<option value="4">I'm the spouse or partner of BMA member</option>
+<option value="5">Doctor on LTFT contract earning less than £46,000 (claim up to 2 years)</option>
+<option value="6">Doctor new to the UK and working within the last 12 months. (claim up to 2 years)</option>
+<option value="7">Maternity/Paternity (Claim up to 2 years)</option>
+</select>
+</div>
+</div>
+<div>
+<span class="text-danger field-validation-valid" data-valmsg-for="ReducedMembershipPriceType" data-valmsg-replace="true"></span>
+<b><span class="text-danger" id="ValidationForPriceDetails"> </span></b>
+</div>
+<br/>
+<div class="row js-toggle-content js-select-concessionRate concessionRate-toggle-1-content concessionRate-toggle-2-content concessionRate-toggle-3-content toggle-content" id="MembershipConfirmation">
+<div class="col-md-6">
+<div class="checkbox-group">
+<div class="checkbox form-group">
+<input class="" data-val="true" data-val-required="" id="informationConfirmation" name="informationConfirmation" onclick="ClearErrormsg()" required="" type="checkbox" value="true"/>
+<label class="body-copy" for="informationConfirmation">By ticking this box, you are confirming that you are eligible for the reduced rate and this is an accurate reflection of my current situation <sup>*</sup></label>
+</div>
+</div>
+</div>
+</div>
+<div class="row col-md-12 text-danger" id="AddMembershipConfirmationMsg"></div>
+<div id="permanentlyRetiredMessage" style="color:#af1478"></div>
+<br/>
+<div class="row" id="ToHideBMA">
+<p class="col-md-12">Please enter spouse/partner's BMA ID <sup>*</sup></p>
+<div class="form-group col-md-2">
+<input class="form-control" data-val="true" data-val-length="Please Enter 7-digits BMA Number" data-val-length-max="7" data-val-remote="'PartnerBmaId' is invalid." data-val-remote-additionalfields="*.PartnerBmaId,*.ContactId" data-val-remote-url="/verifypartnermembernumber" id="PartnerBmaId" maxlength="50" name="PartnerBmaId" onfocusout="getPriceForValidSpouseBMAId()" type="text" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="PartnerBmaId" data-valmsg-replace="true"></span>
+<div class="text-danger" id="PartnerBmaIdValidation"></div>
+</div>
+</div>
+<div id="NewSubscription">
+<div class="row">
+<div class="col-md-12">
+<h4 class="heading-4 mb-4">New subscription rate</h4>
+<p class="body-copy mb-4">You can view <a href="https://www.bma.org.uk/membership/subscriptions" target="_blank"> BMA Membership subscription </a> rates here.</p>
+<p class="body-copy">If you pay your membership subscription annually, you maybe entitled to a refund.</p>
+<p class="body-copy mb-4"> If this is the case, we will contact you directly to discuss this further.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-5 col-lg-4">
+<div class="card card-price mb-4 mb-md-5">
+<div class="card-body">
+<h4 class="heading-4 card-price-header price-pound mb-3" id="monthlyPrice">36.91</h4>
+<p class="body-copy card-price-type mb-2">per month</p>
+<p class="body-copy card-price-date mb-4" id="monthlySubscriptionDate">Your new subscription will start from July</p>
+<div class="radio-group">
+<div class="radio radio--alt">
+<button class="btn btn-primary text-center" id="MonthSelection" onclick="selectButtonForMonth()" style="background-color:white; color:#af1478" type="button">Select monthly</button>
+<button class="btn btn-primary text-center" id="MonthSelected" style="background-color:forestgreen" type="button"><i class="fa fa-check">  </i> Monthly selected</button>
+<input data-val="true" data-val-number="The field PaymentMonthly must be a number." id="PaymentMonthly" name="PaymentMonthly" type="hidden" value=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-5 col-lg-4" id="YearlyDiv">
+<div class="card card-price mb-4 mb-md-5">
+<div class="card-body">
+<h4 class="heading-4 card-price-header price-pound mb-3" id="annualPrice">165.00</h4>
+<p class="body-copy card-price-type mb-2">Single payment</p>
+<p class="body-copy card-price-date mb-4" id="annualSubscriptionDate">Your new subscription will start from July</p>
+<div class="radio-group">
+<div class="radio radio--alt">
+<button class="btn btn-primary text-center" id="YearSelection" onclick="selectButtonForYear()" style="background-color:white; color:#af1478" type="button">Select yearly</button>
+<button class="btn btn-primary text-center" id="YearSelected" style="background-color:forestgreen" type="button"><i class="fa fa-check">  </i> Yearly selected</button>
+<input data-val="true" data-val-number="The field PaymentYearly must be a number." id="PaymentYearly" name="PaymentYearly" type="hidden" value=""/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="NextYearSubscriptionMsg" style="color:#af1478">
+</div>
+<br/>
+</div>
+<div class="clearfix">
+<div class="g-recaptcha" data-callback="recaptchaValidated" data-sitekey="6Lf2U6QUAAAAAA8ZbO6S1m9u2YzoYubKQkNhYnNX"></div>
+<div class="text-danger form-group pull-left" id="recaptchaErrorMessage"></div>
+</div>
+</section>
+<section class="continue-cancel section-inner-last">
+<div class="row">
+<div class="form-group col-md-3">
+<button class="btn btn-primary" id="submitForm" type="submit">Submit</button>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</main>
+<input name="__baft" type="hidden" value="CfDJ8IqFD8RfHIxGpdHBHK_gAQN836poa3zK-NH1ZhIvszOXVOOHvVJmrlfKj1spz_tnxn6IxQyisS9yQcYFu0IMUYWwH2OgaoqShaHAqm25_5d3m5A78ENje-eCEuFjCo7glcTbcNrTa2eZVcjw15ICM-Q"/></form>

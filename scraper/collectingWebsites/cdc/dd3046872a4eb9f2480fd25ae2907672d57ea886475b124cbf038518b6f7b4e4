@@ -1,0 +1,79 @@
+<form action="./UserLogin.aspx" id="aspnetForm" method="post" name="aspnetForm">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="Z8ye8qyr7Be5Z78ciVjxCNxxXQtRGuKeEnASsnrRcTfjwPy2CessOJkPujUpe9pIEz9iq6dV4oUWysgen6wBTxOlKIRAVIgulP6toTtVBl0AWnfYPgMtz6SZSy2NL9gfEoxD3a9gjhTjpCsqmZsyi/nLw+m/t0mHN1GDXutm/X5W2NM7rP93YKW20zCMxkhfapRc/sbxFSrXq8nEyqTZuG/e6de0XBADib06z0fn2ragqus9wlBDWc3dGM2DhiIW3VxOys0WOusrAsXD2ElWuQ5oUJArYjPnYo4RnYcgXrw0S91ZAr+q7fI+f7AMW/nyCSxBWg=="/>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="30EC22EC"/>
+<div id="warningBanner" style="font-family:Arial;font-size:10pt;color:red;display:none;">
+                               Notice: the website will be down for maintenance starting today at 3 PM until further notice.<br/>
+</div>
+<span class="errorAlert" id="ctl00_lblErrorMessage"></span>
+<script type="text/javascript">
+        // jquery dialog needs form to attach to
+        // when search taken out of CDC header, form was taken away
+        // and putting empty form in header file caused problems elsewhere
+        $('#branding-logo').append(document.createElement('form'));
+    </script>
+<input id="ctl00_MainContent_hdnShowTermsDialog" name="ctl00$MainContent$hdnShowTermsDialog" type="hidden"/>
+<div id="ctl00_MainContent_pnlLogin">
+<table style="width: 100%">
+<tr>
+<td align="left">
+<div class="module double-rule" style="width:47%;">
+<div class="inner">
+<h3>Log In</h3>
+<div class="subc">
+<table border="0" cellpadding="1" cellspacing="0" id="ctl00_MainContent_lgnUserLogin">
+<tr>
+<td><table border="0" cellpadding="0">
+<tr>
+<td align="left" valign="middle"><label for="ctl00_MainContent_lgnUserLogin_UserName">Email Address:</label></td><td><input class="formElementLogin" id="ctl00_MainContent_lgnUserLogin_UserName" name="ctl00$MainContent$lgnUserLogin$UserName" type="text"/> </td>
+</tr><tr>
+<td align="left" valign="middle"><label for="ctl00_MainContent_lgnUserLogin_Password">Password:</label></td><td><input class="formElementLogin" id="ctl00_MainContent_lgnUserLogin_Password" name="ctl00$MainContent$lgnUserLogin$Password" type="password"/> </td>
+</tr><tr>
+<td align="right" colspan="2"><input alt="Log In" border="0" id="ctl00_MainContent_lgnUserLogin_LoginImageButton" name="ctl00$MainContent$lgnUserLogin$LoginImageButton" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$MainContent$lgnUserLogin$LoginImageButton", "", true, "ctl00$MainContent$lgnUserLogin", "", false, false))' src="Graphics/loginbutton.gif" type="image"/></td>
+</tr><tr>
+<td colspan="2"><a href="Public/PasswordReset.aspx" id="ctl00_MainContent_lgnUserLogin_PasswordRecoveryLink">Forgot Password?</a></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="dialog-confirm" title="Terms of Use">
+<p style="margin: 15px;">This warning banner provides privacy and security notices consistent with 
+        applicable federal laws, directives, and other federal guidance for accessing this Government system, 
+        which includes (1) this computer network, (2) all computers connected to this network, and (3) all 
+        devices and storage media attached to this network or to a computer on this network.
+        This information system is provided for US Government-authorized use only. Unauthorized 
+        or improper use of this system may result in disciplinary action, as well as civil and 
+        criminal penalties. Personal use of social media and networking sites on this system is limited 
+        as to not interfere with official work duties and is subject to monitoring. By using this 
+        information system, you understand and consent to the 
+        following: 
+        </p><ul>
+<li>
+                The Government may monitor, record, and audit your system usage, including usage of 
+                personal devices and email systems for official duties or to conduct HHS business. Therefore, 
+                you have no reasonable expectation of privacy regarding any communication or data 
+                transiting or stored on this system. At any time, and for any lawful Government purpose, 
+                the government may monitor, intercept, and search and seize any communication or data t
+                ransiting or stored on this system.
+            </li>
+<li>
+                Any communication or data transiting or stored on this system may be disclosed or used 
+                for any lawful Government purpose. 
+            </li>
+</ul>
+<table style="width:100%;text-align:center;">
+<tr>
+<td style="width:100%;text-align:center;">
+<input class="termsButtons" id="ctl00_MainContent_btnAcceptTermsUse" name="ctl00$MainContent$btnAcceptTermsUse" onclick="$('body').css('cursor','progress');" type="submit" value="OK"/>
+<input class="termsButtons" id="ctl00_MainContent_btnCancel" name="ctl00$MainContent$btnCancel" type="submit" value="Cancel"/>
+</td>
+</tr>
+</table>
+</div>
+</form>

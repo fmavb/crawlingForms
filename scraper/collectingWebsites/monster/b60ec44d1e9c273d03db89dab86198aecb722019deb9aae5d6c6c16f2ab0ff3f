@@ -1,0 +1,67 @@
+<form action="http://careers.monster.com/en/standard-site#standard-table-search-jobs" class="form-search row" method="get">
+<div class="form-search__row col-lg-5 col-md-6">
+<label class="form-search__label" for="field-locations">Location</label>
+<div class="form-search__controls">
+<div class="select">
+<select class="form-control" id="field-locations" name="location">
+<option aria-label="all" value="all">All Locations</option>
+<option aria-label="Amsterdam, NH, NL" value="Amsterdam">Amsterdam, NH, NL
+									            (5)
+									        </option>
+<option aria-label="Brno, BK, CZ" value="Brno">Brno, BK, CZ
+									            (2)
+									        </option>
+<option aria-label="Eschborn, HS, DE" value="Eschborn">Eschborn, HS, DE
+									            (2)
+									        </option>
+<option aria-label="London, UK-GL, GB" value="London">London, UK-GL, GB
+									            (1)
+									        </option>
+<option aria-label="Mclean, VA, US" value="Mclean">Mclean, VA, US
+									            (5)
+									        </option>
+<option aria-label="Paris, IF, FR" value="Paris">Paris, IF, FR
+									            (2)
+									        </option>
+<option aria-label="Prague, PM, CZ" value="Prague">Prague, PM, CZ
+									            (5)
+									        </option>
+<option aria-label="San Jose, CA, US" value="San Jose">San Jose, CA, US
+									            (2)
+									        </option>
+<option aria-label="Weston, MA, US" value="Weston">Weston, MA, US
+									            (12)
+									        </option>
+</select>
+</div><!-- /.select -->
+</div><!-- /.form-search__controls -->
+</div><!-- /.form-search__row -->
+<div class="form-search__row col-lg-5 col-md-6">
+<label class="form-search__label" for="field-category">Category</label>
+<div class="form-search__controls">
+<div class="select">
+<select class="form-control" id="field-category" name="category">
+<option value="all">All Categories</option>
+<option value="Legal">Legal
+									            (1)
+									        </option>
+<option value="Marketing">Marketing
+									            (8)
+									        </option>
+<option value="Product">Product
+									            (4)
+									        </option>
+<option value="Sales">Sales
+									            (7)
+									        </option>
+<option value="Technologies">Technologies
+									            (16)
+									        </option>
+</select>
+</div><!-- /.select -->
+</div><!-- /.form-search__controls -->
+</div><!-- /.form-search__row -->
+<div class="form-search__row col-lg-2">
+<button class="btn btn--orange form-search__btn" type="submit">Search</button>
+</div><!-- /.for__row -->
+</form>

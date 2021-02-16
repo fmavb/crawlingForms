@@ -1,0 +1,175 @@
+<form action="/NIOSH-Mining/?facetGroups=Tasks%20and%20activities=%5E%5EDocument%20types=&amp;sf=Tasks%20and%20activities" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Tasks and activities=^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Tasks and activities"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Tasks and activities</h2>
+<p class="facetDesc">Jobs and other actions that people perform.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Tasks and activities=^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Tasks and activities">Tasks and activities</label>
+<label class="d-none" for="check_Accident investigation">Accident investigation</label>
+<label class="d-none" for="check_Arc cutting">Arc cutting</label>
+<label class="d-none" for="check_Decision making">Decision making</label>
+<label class="d-none" for="check_Emergency management">Emergency management</label>
+<label class="d-none" for="check_Emergency response">Emergency response</label>
+<label class="d-none" for="check_Escapeway management">Escapeway management</label>
+<label class="d-none" for="check_Evacuation">Evacuation</label>
+<label class="d-none" for="check_Firefighting">Firefighting</label>
+<label class="d-none" for="check_Recovery">Recovery</label>
+<label class="d-none" for="check_Rescue">Rescue</label>
+<label class="d-none" for="check_Equipment operation">Equipment operation</label>
+<label class="d-none" for="check_Extraction">Extraction</label>
+<label class="d-none" for="check_Blasting">Blasting</label>
+<label class="d-none" for="check_Cutting">Cutting</label>
+<label class="d-none" for="check_Drilling">Drilling</label>
+<label class="d-none" for="check_Hauling">Hauling</label>
+<label class="d-none" for="check_Loading">Loading</label>
+<label class="d-none" for="check_Hazard recognition">Hazard recognition</label>
+<label class="d-none" for="check_Ingress/egress">Ingress/egress</label>
+<label class="d-none" for="check_Management and supervision">Management and supervision</label>
+<label class="d-none" for="check_Materials handling">Materials handling</label>
+<label class="d-none" for="check_Bagging">Bagging</label>
+<label class="d-none" for="check_Mine closure">Mine closure</label>
+<label class="d-none" for="check_Mine sealing">Mine sealing</label>
+<label class="d-none" for="check_Mine design">Mine design</label>
+<label class="d-none" for="check_Mine development">Mine development</label>
+<label class="d-none" for="check_Support tasks">Support tasks</label>
+<label class="d-none" for="check_Inspection and monitoring">Inspection and monitoring</label>
+<label class="d-none" for="check_Installation">Installation</label>
+<label class="d-none" for="check_Maintenance and repair">Maintenance and repair</label>
+<label class="d-none" for="check_Transport">Transport</label>
+<label class="d-none" for="check_Welding">Welding</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Tasks and activities">
+<a>Tasks and activities</a>
+<ul>
+<li id="Accident investigation">
+<a>Accident investigation [11]</a>
+</li>
+<li id="Arc cutting">
+<a>Arc cutting [1]</a>
+</li>
+<li id="Decision making">
+<a>Decision making [23]</a>
+</li>
+<li id="Emergency management">
+<a>Emergency management [8]</a>
+<ul>
+<li id="Emergency response">
+<a>Emergency response [47]</a>
+</li>
+<li id="Escapeway management">
+<a>Escapeway management [1]</a>
+</li>
+<li id="Evacuation">
+<a>Evacuation [39]</a>
+</li>
+<li id="Firefighting">
+<a>Firefighting [11]</a>
+</li>
+<li id="Recovery">
+<a>Recovery [1]</a>
+</li>
+<li id="Rescue">
+<a>Rescue [43]</a>
+</li>
+</ul>
+</li>
+<li id="Equipment operation">
+<a>Equipment operation [29]</a>
+</li>
+<li id="Extraction">
+<a>Extraction [1]</a>
+<ul>
+<li id="Blasting">
+<a>Blasting [41]</a>
+</li>
+<li id="Cutting">
+<a>Cutting [1]</a>
+</li>
+<li id="Drilling">
+<a>Drilling [33]</a>
+</li>
+<li id="Hauling">
+<a>Hauling [12]</a>
+</li>
+<li id="Loading">
+<a>Loading [8]</a>
+</li>
+</ul>
+</li>
+<li id="Hazard recognition">
+<a>Hazard recognition [41]</a>
+</li>
+<li id="Ingress/egress">
+<a>Ingress/egress [5]</a>
+</li>
+<li id="Management and supervision">
+<a>Management and supervision [5]</a>
+</li>
+<li id="Materials handling">
+<a>Materials handling [5]</a>
+<ul>
+<li id="Bagging">
+<a>Bagging [8]</a>
+</li>
+</ul>
+</li>
+<li id="Mine closure">
+<a>Mine closure [0]</a>
+<ul>
+<li id="Mine sealing">
+<a>Mine sealing [3]</a>
+</li>
+</ul>
+</li>
+<li id="Mine design">
+<a>Mine design [53]</a>
+</li>
+<li id="Mine development">
+<a>Mine development [9]</a>
+</li>
+<li id="Support tasks">
+<a>Support tasks [0]</a>
+<ul>
+<li id="Inspection and monitoring">
+<a>Inspection and monitoring [12]</a>
+</li>
+<li id="Installation">
+<a>Installation [8]</a>
+</li>
+<li id="Maintenance and repair">
+<a>Maintenance and repair [11]</a>
+</li>
+<li id="Transport">
+<a>Transport [3]</a>
+</li>
+</ul>
+</li>
+<li id="Welding">
+<a>Welding [4]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Tasks and activities=^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

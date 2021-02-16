@@ -1,0 +1,167 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazards%20and%20exposures=Standing;Crawling;%5E%5EDocument%20types=Research%20areas;&amp;sf=Hazards%20and%20exposures" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazards and exposures=Standing;Crawling;^^Document types=Research areas;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Hazards and exposures"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Hazards and exposures</h2>
+<p class="facetDesc">Health and safety dangers and risks.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Standing;Crawling;^^Document types=Research areas;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Hazards and exposures">Hazards and exposures</label>
+<label class="d-none" for="check_Accidents and emergencies">Accidents and emergencies</label>
+<label class="d-none" for="check_Avalanches">Avalanches</label>
+<label class="d-none" for="check_Electrical accidents">Electrical accidents</label>
+<label class="d-none" for="check_Emergencies">Emergencies</label>
+<label class="d-none" for="check_Disasters">Disasters</label>
+<label class="d-none" for="check_Equipment accidents">Equipment accidents</label>
+<label class="d-none" for="check_Explosions">Explosions</label>
+<label class="d-none" for="check_Ignitions">Ignitions</label>
+<label class="d-none" for="check_Fires">Fires</label>
+<label class="d-none" for="check_Spontaneous combustion">Spontaneous combustion</label>
+<label class="d-none" for="check_Flyrock">Flyrock</label>
+<label class="d-none" for="check_Ground falls">Ground falls</label>
+<label class="d-none" for="check_Highwall falls">Highwall falls</label>
+<label class="d-none" for="check_Rib falls">Rib falls</label>
+<label class="d-none" for="check_Roof falls">Roof falls</label>
+<label class="d-none" for="check_Biomechanical hazards">Biomechanical hazards</label>
+<label class="d-none" for="check_Bodily motions">Bodily motions</label>
+<label class="d-none" for="check_Crawling">Crawling</label>
+<label class="d-none" for="check_Fixed or awkward postures">Fixed or awkward postures</label>
+<label class="d-none" for="check_Repetitive motions">Repetitive motions</label>
+<label class="d-none" for="check_Standing">Standing</label>
+<label class="d-none" for="check_Diesel exhaust">Diesel exhaust</label>
+<label class="d-none" for="check_Noise">Noise</label>
+<label class="d-none" for="check_Radiation">Radiation</label>
+<label class="d-none" for="check_Nonionizing radiation">Nonionizing radiation</label>
+<label class="d-none" for="check_Visibility hazards">Visibility hazards</label>
+<label class="d-none" for="check_Glare">Glare</label>
+<label class="d-none" for="check_Inadequate illumination">Inadequate illumination</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Hazards and exposures">
+<a>Hazards and exposures</a>
+<ul>
+<li id="Accidents and emergencies">
+<a>Accidents and emergencies [0]</a>
+<ul>
+<li id="Avalanches">
+<a>Avalanches [1]</a>
+</li>
+<li id="Electrical accidents">
+<a>Electrical accidents [1]</a>
+</li>
+<li id="Emergencies">
+<a>Emergencies [1]</a>
+<ul>
+<li id="Disasters">
+<a>Disasters [1]</a>
+</li>
+</ul>
+</li>
+<li id="Equipment accidents">
+<a>Equipment accidents [1]</a>
+</li>
+<li id="Explosions">
+<a>Explosions [3]</a>
+<ul>
+<li id="Ignitions">
+<a>Ignitions [1]</a>
+</li>
+</ul>
+</li>
+<li id="Fires">
+<a>Fires [3]</a>
+<ul>
+<li id="Spontaneous combustion">
+<a>Spontaneous combustion [1]</a>
+</li>
+</ul>
+</li>
+<li id="Flyrock">
+<a>Flyrock [1]</a>
+</li>
+<li id="Ground falls">
+<a>Ground falls [3]</a>
+<ul>
+<li id="Highwall falls">
+<a>Highwall falls [1]</a>
+</li>
+<li id="Rib falls">
+<a>Rib falls [3]</a>
+</li>
+<li id="Roof falls">
+<a>Roof falls [3]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Biomechanical hazards">
+<a>Biomechanical hazards [0]</a>
+<ul>
+<li id="Bodily motions">
+<a>Bodily motions [0]</a>
+<ul>
+<li id="Crawling">
+<a>Crawling [0]</a>
+</li>
+<li id="Fixed or awkward postures">
+<a>Fixed or awkward postures [1]</a>
+</li>
+<li id="Repetitive motions">
+<a>Repetitive motions [1]</a>
+</li>
+<li id="Standing">
+<a>Standing [0]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Diesel exhaust">
+<a>Diesel exhaust [2]</a>
+</li>
+<li id="Noise">
+<a>Noise [2]</a>
+</li>
+<li id="Radiation">
+<a>Radiation [0]</a>
+<ul>
+<li id="Nonionizing radiation">
+<a>Nonionizing radiation [1]</a>
+</li>
+</ul>
+</li>
+<li id="Visibility hazards">
+<a>Visibility hazards [0]</a>
+<ul>
+<li id="Glare">
+<a>Glare [1]</a>
+</li>
+<li id="Inadequate illumination">
+<a>Inadequate illumination [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Standing;Crawling;^^Document types=Research areas;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

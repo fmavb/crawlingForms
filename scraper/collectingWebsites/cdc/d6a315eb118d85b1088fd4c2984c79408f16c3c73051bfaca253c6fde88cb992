@@ -1,0 +1,821 @@
+<form action="./" id="post_back_form" method="post">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="s7cAZ9LYYEYhV79eZMB4anCNk5uedDC7lBrfCcd4p0iqPLheybok8//8dHt5DfW0f8esOhZ+DtXlVtg25poMdj6T3XR66MLjQ14oKAGvo+RKDoeuExp61dXg9LdboYvoYlKP+Fuiii6q1yQRomyYQl0eunT69xdr+OxY7RPptfJjJNR/kixUKD8WGwJKxyYyuyTGKLq5TzhXfw4rOFlOzO0WgVDbhQTwNSh5NitOe1U3OkI8jgmjX1bW7OKaFflImSfFBbszPc5z5r2FieuXhERmrW3KCVy3lBtDxxrVfaQSb8k5m/9CJq66+aKxu1gYczTPDM984w4+rFNRmrNoSgRWiX+mwHUB+aig/saLFh8NlwKT63kUiO32uJdeE6QZJiEK6INVUt9F1yybgjOCYA64eNJ6kajNi33h1MVsv9A="/>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="C1BEBCA3"/>
+<input id="__VIEWSTATEENCRYPTED" name="__VIEWSTATEENCRYPTED" type="hidden" value=""/>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="n38GQl+bR/PlpCucpsrT3IpbE1v7FaT/9JjEQMcbTecH7Jiv9BQYHtrJDYlW4kCux2FwfIXZYzB1uuiNQrm9V1e2b7cxD76XHdXjjPPkknAfz+UXK78sKY9ML28btX/PDD7cJsB0HjMspSDQarmulWvrOMi5i2zQqjSTV54Uph4NkzUIih8GfiVU3qbNWt/A5Y6UyryFDuEowYl8yeSxxs04f8+TMwsdXv/fH8/czmN2qAg5845QDNJeTkBnEM6q"/>
+<!-- left nav -->
+<div class="hidden-one hidden-two span5" id="nav-container">
+<nav class="hidden-one hidden-two" id="left">
+<h3><a href="/nndss/">NNDSS</a></h3>
+<ul id="nav-primary">
+<li><a href="/nndss/covid-19-response.html">COVID-19 Response</a>
+</li><li><a href="/nndss/infographic-intro.html">Defending America from Health Threats</a>
+<ul><li><a href="/nndss/how-we-do.html">How We Do Notifiable Disease Surveillance</a></li>
+<li><a href="/nndss/why-we-do.html">Why We Do Notifiable Disease Surveillance</a></li>
+<li><a href="/nndss/by-the-numbers.html">NNDSS By The Numbers</a></li>
+</ul></li>
+<li><a href="/nndss/conditions/">Surveillance Case Definitions</a>
+<ul>
+<li><a href="/nndss/conditions/notifiable/2021/">2021 National Notifiable Conditions</a>
+<ul>
+<li><a href="/nndss/conditions/notifiable/2021/infectious-diseases/">Infectious Diseases</a></li>
+<li><a href="/nndss/conditions/notifiable/2021/non-infectious-conditions/">Non-Infectious Conditions</a></li>
+<li><a href="/nndss/conditions/notifiable/2021/outbreaks/">Outbreaks</a></li>
+</ul>
+</li>
+</ul>
+<!--ul>
+
+        </ul-->
+</li>
+<!--li><a href="/nndss/case-definitions.html">Surveillance Case Definitions</a>
+    </li-->
+<li>
+<a href="/nndss/case-definitions-history.html">History of Surveillance Case Definitions</a>
+</li>
+<li><a href="/nndss/data-and-statistics.html">Data and Statistics</a>
+<ul>
+<li>
+<a href="/nndss/infectious.html">Notifiable Infectious Diseases &amp; Conditions Data</a>
+</li>
+<li>
+                             <a href="/nndss/infectious-tables.html">Weekly and annual tables</a>
+</li>
+<li>
+<a href="/nndss/noninfectious.html">Notifiable Noninfectious Diseases &amp; Conditions Data</a>
+</li>
+<li>
+                              <a href="/nndss/noninfectious.html#Links">Links to Data</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/nndss/case-notification/">HL7 Case Notification Resource Center</a>
+<ul>
+<li>
+<a href="/nndss/case-notification/message-mapping-guides.html">MMGs and Artifacts</a>
+</li>
+<li>
+<a href="/nndss/case-notification/related-documentation.html">MMG Related Documentation</a>
+</li>
+<li>
+<a href="/nndss/case-notification/historical-documentation.html">Historical Documentation</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/nndss/data-collection.html">Data Collection and Reporting</a>
+<ul>
+<li>
+<a href="/nndss/nedss.html">Integrated Surveillance Information Systems/NEDSS</a>
+</li>
+<li>
+<a href="/nndss/netss.html">NETSS</a>
+</li>
+<li>
+<a href="/nndss/other-data-sources.html">Other NNDSS Data Sources</a>
+</li>
+<li>
+<a href="/nndss/meaningful-use-electronic-lab-reporting.html">Electronic Laboratory Reporting</a>
+</li>
+<li>
+<a href="/nndss/electronic-case-reporting.html">Electronic Case Reporting</a>
+</li>
+<li>
+<a href="/nndss/ihr.html">International Health Regulations</a>
+</li>
+<li>
+<a href="/nndss/history.html">History</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/nndss/downloads.html">Downloads and Resources</a>
+</li>
+<!-- <li>
+        <a href="/nndss/terms.html">Key Terms</a>
+    </li> -->
+<!-- <li><a href="/nndss/message-mapping-guides.html">Draft Message Mapping Guides for HL7 Case Notifications</a></li> -->
+<li>
+<a href="/nndss/contact.html">Contact Us</a>
+</li>
+</ul>
+</nav>
+<div class="nav-related">
+<!--
+								    The following are optional/local content includes for related
+								    content that appears below the navigation in viewports 3/4.
+								    NOTE:  these same includes must appear in the div.nav-related block
+								    that appears after the editable area of the main content block.  Also,
+								    because this content appears in the markup twice it should not contain
+								    any markup with IDs as this will cause validation errors and other 
+								    potential problems with scripts.
+								    -->
+<div class="module-typeH">
+<h3>Related Links</h3>
+<ul class="list-block">
+<li><a href="http://www.cdc.gov/nmi">NNDSS Modernization Initiative (NMI)</a></li>
+<li><a href="https://www.cdc.gov/nmi/ta-trc/index.html">NMI Technical Assistance and Training Resource Center</a></li>
+<li><a href="http://www.cdc.gov/nmi/eshare.html">NMI eShare</a></li>
+<li><a href="http://www.cste.org" target="_blank">CSTE Position Statements</a></li>
+<li><a href="http://www.cdc.gov/phin/">PHIN Tools and Resources</a></li>
+<li><a href="http://www.cdc.gov/mmwr/">Morbidity and Mortality Weekly Report (MMWR)</a></li>
+<li><a href="http://wonder.cdc.gov/">WONDER</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="breadcrumbs hidden-one span19">
+<div class="bread-crumb hidden-one">
+</div>
+</div>
+<div class="span19 pagetitle">
+<div class="syndicate">
+<div class="mSyndicate">
+<h1>Surveillance Case Definitions for Current and Historical Conditions</h1>
+</div>
+</div>
+</div>
+<div class="span19" id="share-bar" style="min-height: 20px;">
+<div class="socialmediabar">
+<div class="row">
+<div class="hidden-one pull-right"></div>
+<div class="span8">
+<div id="socialMediaShareContainer">
+<div class="share_container noLinking">
+<a class="share_button_facebook" href="#" title="Facebook"><span class="tp-sr-only">Recommend on Facebook</span><span class="facebookRecommend" id="share_facebook"> </span></a>
+<a class="share_button_twitter" href="#" title="Twitter"><span class="tp-sr-only">Tweet</span><span class="twitterTweet" id="share_twitter"> </span></a>
+<a class="share_button" href="#socialMediaShareContainer"><img alt="Share" src="/TemplatePackage/3.0/images/social/addthis-32.png"/><span aria-label="Share" class="shareButtonEn tp-sr-only">Share</span><span aria-label="Compartir" class="shareButtonEs tp-sr-only">Compartir</span></a>
+</div>
+</div>
+<!-- target anchor for return to top feature in VP1 -->
+<a id="content-start" tabindex="-1"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="span19" id="body">
+<div id="contentArea">
+<div class="syndicate">
+<div class="mSyndicate">
+<!-- begin editable -->
+<div class="syndicate">
+<div class="row">
+<div class="span19">
+<div class="">
+<h3></h3>
+<div>
+<p>A surveillance case definition is a set of uniform criteria used to define a disease for public health surveillance. Surveillance case definitions enable public health officials to classify and count cases consistently across reporting jurisdictions. Surveillance case definitions are not intended to be used by healthcare providers for making a clinical diagnosis or determining how to meet an individual patient’s health needs.</p>
+<p>While the list of reportable conditions varies by state, the Council of State and Territorial Epidemiologists (CSTE) has recommended that state health departments report cases of selected diseases to CDC’s National Notifiable Diseases Surveillance System (NNDSS).  Every year, case definitions are updated using CSTE’s Position Statements.  They provide uniform criteria of national notifiable infectious and non-infectious conditions for reporting purposes.</p>
+<p>Use the search box below to search for notifiable diseases case definitions by name or year.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="print-hidden">
+<div class="row">
+<div class="span10 module-typeB">
+<h3>Search Conditions</h3>
+<div class="section_body" id="search_widget">
+<div class="input-append" style="width:100%; box-sizing:border-box;">
+<span id="widget_search_icon"><i class="icon-search"></i></span>
+<input autocomplete="off" class="widget-search-input" id="widget_search_text" name="ctl00$ContentArea$ucSearchWidgets$widget_search_text" placeholder="Condition Name" spellcheck="false" title="Search Condition Name" type="text"/>
+<button class="btn btn-default" id="widget_search_button" onclick="redirect_search()" type="button">Search All Conditions</button>
+</div>
+<br/>
+        (Leave blank to see all conditions)
+    </div>
+</div>
+<div class="span9 module-typeB">
+<h3>Notifiable Condition Lists</h3>
+<div class="section_body" style="display: inline-block; text-align: center; ">
+<div class="input-append">
+<label for="notifiable_year" style="display:none;">Year: </label>
+<label for="notifiable_year" style="display:none;">Year: </label>
+<select id="notifiable_year" name="ctl00$ContentArea$ucSearchWidgets$notifiable_year" onchange="redirect_list();" style="width:100px;">
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+</select>
+<button class="btn btn-default" id="widget_list_button" onclick="redirect_list()" style="margin-left: 6px;" type="button">Get Notifiable List by Year</button>
+</div>
+<div style="display: flex; flex-direction: row;">
+<label class="checkbox inline">
+<input class="nnctype" id="notifiable_infectious" name="ctl00$ContentArea$ucSearchWidgets$notifiable_infectious" onchange="toggle_check_on(this.name);redirect_list();" type="checkbox" value="0"/>Infectious
+            </label>
+<label class="checkbox inline">
+<input class="nnctype" id="notifiable_noninfectious" name="ctl00$ContentArea$ucSearchWidgets$notifiable_noninfectious" onchange="toggle_check_on(this.name);redirect_list();" type="checkbox" value="1"/>Non-Infectious
+            </label>
+<label class="checkbox inline">
+<input class="nnctype" id="notifiable_outbreaks" name="ctl00$ContentArea$ucSearchWidgets$notifiable_outbreaks" onchange="toggle_check_on(this.name);redirect_list();" type="checkbox" value="2"/>Outbreaks
+            </label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="span19">
+<span id="lblMsg"></span>
+</div>
+<div class="span19" id="conditions_list">
+<div class="print-noline-link">
+<div class="span9">
+<h2><a id="A" name="A"><!-- --></a>A</h2><span>
+<a href="/nndss/conditions/acanthamoeba-disease-excluding-keratitis/"><i>Acanthamoeba</i> disease (excluding keratitis)</a>
+<br/>
+</span>
+<a href="/nndss/conditions/acanthamoeba-keratitis/"><i>Acanthamoeba</i> keratitis</a>
+<br/>
+<a href="/nndss/conditions/acquired-immunodeficiency-syndrome/">Acquired immunodeficiency syndrome</a>
+<br/>
+<a href="/nndss/conditions/acute-flaccid-myelitis/">Acute Flaccid Myelitis (AFM)</a>
+<br/>
+<a href="/nndss/conditions/acute-flaccid-myelitis/">AFM</a>
+<br/>
+<a href="/nndss/conditions/acquired-immunodeficiency-syndrome/">AIDS</a>
+<br/>
+<a href="/nndss/conditions/hiv-infection/">AIDS/HIV</a>
+<br/>
+<a href="/nndss/conditions/amebiasis/">Amebiasis</a>
+<br/>
+<a href="/nndss/conditions/anaplasma-phagocytophilum-infection/"><i>Anaplasma phagocytophilum</i> infection</a>
+<br/>
+<a href="/nndss/conditions/anthrax/">Anthrax</a>
+<br/>
+<a href="/nndss/conditions/arboviral-diseases-neuroinvasive-and-non-neuroinvasive/">Arboviral diseases, neuroinvasive and non-neuroinvasive</a>
+<br/>
+<a href="/nndss/conditions/arboviral-encephalitis/">Arboviral encephalitis</a>
+<br/>
+<a href="/nndss/conditions/arboviral-encephalitis-or-meningitis/">Arboviral encephalitis or meningitis</a>
+<br/>
+<h2><a id="B" name="B"><!-- --></a>B</h2><span>
+<a href="/nndss/conditions/babesiosis/">Babesiosis</a>
+<br/>
+</span>
+<a href="/nndss/conditions/balamuthia-mandrillaris-disease/"><i>Balamuthia mandrillaris</i> disease</a>
+<br/>
+<a href="/nndss/conditions/blastomycosis/">Blastomycosis</a>
+<br/>
+<a href="/nndss/conditions/botulism/">Botulism</a>
+<br/>
+<a href="/nndss/conditions/botulism-foodborne/">Botulism, foodborne</a>
+<br/>
+<a href="/nndss/conditions/botulism-infant/">Botulism, infant</a>
+<br/>
+<a href="/nndss/conditions/botulism-other/">Botulism, other</a>
+<br/>
+<a href="/nndss/conditions/botulism-wound/">Botulism, wound</a>
+<br/>
+<a href="/nndss/conditions/brucellosis/">Brucellosis</a>
+<br/>
+<h2><a id="C" name="C"><!-- --></a>C</h2><span>
+<a href="/nndss/conditions/california-serogroup-encephalitis/">California serogroup encephalitis</a>
+<br/>
+</span>
+<a href="/nndss/conditions/california-serogroup-encephalitis-meningitis/">California serogroup encephalitis/meningitis</a>
+<br/>
+<a href="/nndss/conditions/california-serogroup-virus-diseases/">California serogroup virus diseases</a>
+<br/>
+<a href="/nndss/conditions/campylobacteriosis/">Campylobacteriosis</a>
+<br/>
+<a href="/nndss/conditions/cancer/">Cancer</a>
+<br/>
+<a href="/nndss/conditions/candida-auris/"><i>Candida auris</i></a>
+<br/>
+<a href="/nndss/conditions/candida-auris-clinical/"><i>Candida auris</i>, clinical</a>
+<br/>
+<a href="/nndss/conditions/candida-auris-colonization-screening/"><i>Candida auris</i>, colonization/screening</a>
+<br/>
+<a href="/nndss/conditions/candida-auris-screening-surveillance/"><i>Candida auris</i>, screening/surveillance</a>
+<br/>
+<a href="/nndss/conditions/carbapenemase-producing-carbapenem-resistant-enterobacteriaceae/">Carbapenemase Producing Carbapenem-Resistant Enterobacteriaceae (CP-CRE)</a>
+<br/>
+<a href="/nndss/conditions/carbon-monoxide-poisoning/">Carbon monoxide poisoning</a>
+<br/>
+<a href="/nndss/conditions/chancroid/">Chancroid</a>
+<br/>
+<a href="/nndss/conditions/varicella/">Chickenpox</a>
+<br/>
+<a href="/nndss/conditions/chikungunya-virus-disease/">Chikungunya virus disease</a>
+<br/>
+<a href="/nndss/conditions/chlamydia-trachomatis-infection/"><i>Chlamydia trachomatis</i> infection</a>
+<br/>
+<a href="/nndss/conditions/chlamydia-trachomatis-genital-infections/"><i>Chlamydia trachomatis</i>, genital infections</a>
+<br/>
+<a href="/nndss/conditions/cholera/">Cholera</a>
+<br/>
+<a href="/nndss/conditions/coccidioidomycosis/">Coccidioidomycosis</a>
+<br/>
+<a href="/nndss/conditions/congenital-syphilis/">Congenital syphilis</a>
+<br/>
+<a href="/nndss/conditions/coronavirus-disease-2019-covid-19/">Coronavirus Disease 2019 (COVID-19)</a>
+<br/>
+<a href="/nndss/conditions/cp-cre-enterobacter-spp/">CP-CRE, <em>Enterobacter</em> spp.</a>
+<br/>
+<a href="/nndss/conditions/cp-cre-escherichia-coli/">CP-CRE, <em>Escherichia coli</em> (<em>E. coli</em>)</a>
+<br/>
+<a href="/nndss/conditions/cp-cre-klebsiella-spp/">CP-CRE, <em>Klebsiella</em> spp.</a>
+<br/>
+<a href="/nndss/conditions/crimean-congo-hemorrhagic-fever-virus/">Crimean-Congo hemorrhagic fever virus</a>
+<br/>
+<a href="/nndss/conditions/rubella-congenital-syndrome/">CRS</a>
+<br/>
+<a href="/nndss/conditions/cryptococcus-gattii-infection/"><i>Cryptococcus gattii</i> infection</a>
+<br/>
+<a href="/nndss/conditions/cryptosporidiosis/">Cryptosporidiosis</a>
+<br/>
+<a href="/nndss/conditions/cyclosporiasis/">Cyclosporiasis</a>
+<br/>
+<h2><a id="D" name="D"><!-- --></a>D</h2><span>
+<a href="/nndss/conditions/dengue/">Dengue</a>
+<br/>
+</span>
+<a href="/nndss/conditions/dengue-fever/">Dengue fever</a>
+<br/>
+<a href="/nndss/conditions/dengue-hemorrhagic-fever/">Dengue hemorrhagic fever</a>
+<br/>
+<a href="/nndss/conditions/dengue-shock-syndrome/">Dengue shock syndrome</a>
+<br/>
+<a href="/nndss/conditions/dengue-virus-infections/">Dengue virus infections</a>
+<br/>
+<a href="/nndss/conditions/dengue-like-illness/">Dengue-like illness</a>
+<br/>
+<a href="/nndss/conditions/dengue-fever/">DF</a>
+<br/>
+<a href="/nndss/conditions/dengue-hemorrhagic-fever/">DHF</a>
+<br/>
+<a href="/nndss/conditions/diphtheria/">Diphtheria</a>
+<br/>
+<a href="/nndss/conditions/streptococcus-pneumoniae-drug-resistant-invasive-disease/">DRSP</a>
+<br/>
+<a href="/nndss/conditions/dengue-shock-syndrome/">DSS</a>
+<br/>
+<h2><a id="E" name="E"><!-- --></a>E</h2><span>
+<a href="/nndss/conditions/escherichia-coli-o157h7/"><i>E. coli</i> O157:H7</a>
+<br/>
+</span>
+<a href="/nndss/conditions/eastern-equine-encephalitis/">Eastern equine encephalitis</a>
+<br/>
+<a href="/nndss/conditions/eastern-equine-encephalitis-virus-disease/">Eastern equine encephalitis virus disease</a>
+<br/>
+<a href="/nndss/conditions/eastern-equine-encephalitis-meningitis/">Eastern equine encephalitis/meningitis</a>
+<br/>
+<a href="/nndss/conditions/ebola-virus/">Ebola virus</a>
+<br/>
+<a href="/nndss/conditions/enterohemorrhagic-escherichia-coli/">EHEC</a>
+<br/>
+<a href="/nndss/conditions/ehrlichia-chaffeensis-infection/"><i>Ehrlichia chaffeensis</i> infection</a>
+<br/>
+<a href="/nndss/conditions/ehrlichia-ewingii-infection/"><i>Ehrlichia ewingii</i> infection</a>
+<br/>
+<a href="/nndss/conditions/ehrlichiosis/">Ehrlichiosis</a>
+<br/>
+<a href="/nndss/conditions/ehrlichiosis-and-anaplasmosis/">Ehrlichiosis and anaplasmosis</a>
+<br/>
+<a href="/nndss/conditions/encephalitis/">Encephalitis</a>
+<br/>
+<a href="/nndss/conditions/encephalitis-arboviral/">Encephalitis, arboviral</a>
+<br/>
+<a href="/nndss/conditions/encephalitis-postinfectious-or-parainfectious/">Encephalitis, postinfectious (or parainfectious)</a>
+<br/>
+<a href="/nndss/conditions/encephalitis-primary/">Encephalitis, primary</a>
+<br/>
+<a href="/nndss/conditions/enterohemorrhagic-escherichia-coli/">Enterohemorrhagic <i>Escherichia coli</i></a>
+<br/>
+<a href="/nndss/conditions/escherichia-coli-o157h7/"><i>Escherichia coli</i> O157:H7</a>
+<br/>
+<h2><a id="F" name="F"><!-- --></a>F</h2><span>
+<a href="/nndss/conditions/foodborne-disease-outbreak/">Foodborne Disease Outbreak</a>
+<br/>
+</span>
+<a href="/nndss/conditions/free-living-amebae-infections/">Free-living amebae infections</a>
+<br/>
+<h2><a id="G" name="G"><!-- --></a>G</h2><span>
+<a href="/nndss/conditions/streptococcus-disease-invasive-group-a/">GAS</a>
+<br/>
+</span>
+<a href="/nndss/conditions/genital-herpes/">Genital herpes</a>
+<br/>
+<a href="/nndss/conditions/genital-warts/">Genital warts</a>
+<br/>
+<a href="/nndss/conditions/rubella/">German measles</a>
+<br/>
+<a href="/nndss/conditions/giardiasis/">Giardiasis</a>
+<br/>
+<a href="/nndss/conditions/gonorrhea/">Gonorrhea</a>
+<br/>
+<a href="/nndss/conditions/granuloma-inguinale/">Granuloma inguinale</a>
+<br/>
+<h2><a id="H" name="H"><!-- --></a>H</h2><span>
+<a href="/nndss/conditions/haemophilus-influenzae-invasive-disease/"><i>Haemophilus influenzae</i>, invasive disease</a>
+<br/>
+</span>
+<a href="/nndss/conditions/hansens-disease/">Hansen's disease</a>
+<br/>
+<a href="/nndss/conditions/hantavirus-infection-non-hantavirus-pulmonary-syndrome/">Hantavirus infection, non-Hantavirus pulmonary syndrome</a>
+<br/>
+<a href="/nndss/conditions/hantavirus-pulmonary-syndrome/">Hantavirus pulmonary syndrome</a>
+<br/>
+<a href="/nndss/conditions/hemolytic-uremic-syndrome-post-diarrheal/">Hemolytic uremic syndrome, post-diarrheal</a>
+<br/>
+<a href="/nndss/conditions/hepatitis-a-acute/">Hepatitis A, acute</a>
+<br/>
+<a href="/nndss/conditions/hepatitis-b-acute/">Hepatitis B, acute</a>
+<br/>
+<a href="/nndss/conditions/hepatitis-b-chronic/">Hepatitis B, chronic</a>
+<br/>
+<a href="/nndss/conditions/hepatitis-b-perinatal-virus-infection/">Hepatitis B, perinatal virus infection</a>
+<br/>
+<a href="/nndss/conditions/hepatitis-c-acute/">Hepatitis C, acute</a>
+<br/>
+<a href="/nndss/conditions/hepatitis-c-chronic/">Hepatitis C, chronic</a>
+<br/>
+<a href="/nndss/conditions/hepatitis-c-perinatal-infection/">Hepatitis C, Perinatal Infection</a>
+<br/>
+<a href="/nndss/conditions/hepatitis-viral-acute/">Hepatitis, viral, acute</a>
+<br/>
+<a href="/nndss/conditions/human-granulocytic-ehrlichiosis/">HGE</a>
+<br/>
+<a href="/nndss/conditions/histoplasmosis/">Histoplasmosis</a>
+<br/>
+<a href="/nndss/conditions/hiv-infection/">HIV infection (AIDS has been reclassified as HIV Stage III)</a>
+<br/>
+<a href="/nndss/conditions/human-monocytic-ehrlichiosis/">HME</a>
+<br/>
+<a href="/nndss/conditions/hantavirus-pulmonary-syndrome/">HPS</a>
+<br/>
+<a href="/nndss/conditions/human-granulocytic-ehrlichiosis/">Human granulocytic ehrlichiosis</a>
+<br/>
+<a href="/nndss/conditions/human-monocytic-ehrlichiosis/">Human monocytic ehrlichiosis</a>
+<br/>
+<a href="/nndss/conditions/hemolytic-uremic-syndrome-post-diarrheal/">HUS</a>
+<br/>
+<h2><a id="I" name="I"><!-- --></a>I</h2><span>
+<a href="/nndss/conditions/influenza-associated-hospitalizations/">Influenza-associated hospitalizations</a>
+<br/>
+</span>
+<a href="/nndss/conditions/influenza-associated-pediatric-mortality/">Influenza-associated pediatric mortality</a>
+<br/>
+<a href="/nndss/conditions/invasive-pneumococcal-disease/">Invasive pneumococcal disease</a>
+<br/>
+<a href="/nndss/conditions/invasive-pneumococcal-disease/">IPD</a>
+<br/>
+<h2><a id="K" name="K"><!-- --></a>K</h2><span>
+<a href="/nndss/conditions/kawasaki-syndrome/">Kawasaki syndrome</a>
+<br/>
+</span>
+<h2><a id="L" name="L"><!-- --></a>L</h2><span>
+<a href="/nndss/conditions/lassa-virus/">Lassa virus</a>
+<br/>
+</span>
+<a href="/nndss/conditions/latenttb/">Latent TB Infection (TB Infection)</a>
+<br/>
+<a href="/nndss/conditions/lead-elevated-blood-levels/">Lead, elevated blood levels</a>
+<br/>
+<a href="/nndss/conditions/lead-elevated-blood-levels-adult/">Lead, elevated blood levels, adult (≥16 Years) </a>
+<br/>
+<a href="/nndss/conditions/lead-elevated-blood-levels-children/">Lead, elevated blood levels, children (&lt;16 Years)</a>
+<br/>
+<a href="/nndss/conditions/legionellosis/">Legionellosis</a>
+<br/>
+<a href="/nndss/conditions/hansens-disease/">Leprosy</a>
+<br/>
+<a href="/nndss/conditions/leptospirosis/">Leptospirosis</a>
+<br/>
+<a href="/nndss/conditions/listeriosis/">Listeriosis</a>
+<br/>
+<a href="/nndss/conditions/lujo-virus/">Lujo virus</a>
+<br/>
+<a href="/nndss/conditions/lyme-disease/">Lyme disease</a>
+<br/>
+<a href="/nndss/conditions/lymphogranuloma-venereum/">Lymphogranuloma venereum</a>
+<br/>
+</div><div class="row span9"><h2><a id="M" name="M"><!-- --></a>M</h2><span>
+<a href="/nndss/conditions/malaria/">Malaria</a>
+<br/>
+</span>
+<a href="/nndss/conditions/marburg-virus/">Marburg virus</a>
+<br/>
+<a href="/nndss/conditions/measles/">Measles</a>
+<br/>
+<a href="/nndss/conditions/melioidosis/">Melioidosis</a>
+<br/>
+<a href="/nndss/conditions/meningitis-aseptic/">Meningitis, aseptic</a>
+<br/>
+<a href="/nndss/conditions/meningitis-other-bacterial/">Meningitis, other bacterial</a>
+<br/>
+<a href="/nndss/conditions/meningococcal-disease/">Meningococcal disease</a>
+<br/>
+<a href="/nndss/conditions/mucopurulent-cervicitis/">MPC</a>
+<br/>
+<a href="/nndss/conditions/mucopurulent-cervicitis/">Mucopurulent cervicitis</a>
+<br/>
+<a href="/nndss/conditions/mumps/">Mumps</a>
+<br/>
+<h2><a id="N" name="N"><!-- --></a>N</h2><span>
+<a href="/nndss/conditions/naegleria-fowleri-causing-primary-amebic-meningoencephalitis-pam/"><i>Naegleria fowleri</i> causing primary amebic meningoencephalitis (PAM)</a>
+<br/>
+</span>
+<a href="/nndss/conditions/neurosyphilis/">Neurosyphilis</a>
+<br/>
+<a href="/nndss/conditions/new-world-arenavirus-guanarito-virus/">New World arenavirus – Guanarito virus</a>
+<br/>
+<a href="/nndss/conditions/new-world-arenavirus-junin-virus/">New World arenavirus – Junin virus</a>
+<br/>
+<a href="/nndss/conditions/new-world-arenavirus-machupo-virus/">New World arenavirus – Machupo virus</a>
+<br/>
+<a href="/nndss/conditions/new-world-arenavirus-sabia-virus/">New World arenavirus – Sabia virus</a>
+<br/>
+<a href="/nndss/conditions/nongonococcal-urethritis/">NGU</a>
+<br/>
+<a href="/nndss/conditions/nongonococcal-urethritis/">Nongonococcal urethritis</a>
+<br/>
+<a href="/nndss/conditions/novel-influenza-a-virus-infections/">Novel influenza A virus infections</a>
+<br/>
+<h2><a id="O" name="O"><!-- --></a>O</h2><span>
+<a href="/nndss/conditions/psittacosis/">Ornithosis</a>
+<br/>
+</span>
+<a href="/nndss/conditions/other-or-unspecified-human-ehrlichiosis/">Other or unspecified human ehrlichiosis</a>
+<br/>
+<h2><a id="P" name="P"><!-- --></a>P</h2><span>
+<a href="/nndss/conditions/pelvic-inflammatory-disease/">Pelvic inflammatory disease</a>
+<br/>
+</span>
+<a href="/nndss/conditions/pertussis/">Pertussis</a>
+<br/>
+<a href="/nndss/conditions/pesticide-related-illness-and-injury-acute/">Pesticide-related illness and injury, acute</a>
+<br/>
+<a href="/nndss/conditions/pelvic-inflammatory-disease/">PID</a>
+<br/>
+<a href="/nndss/conditions/plague/">Plague</a>
+<br/>
+<a href="/nndss/conditions/poliomyelitis-paralytic/">Poliomyelitis, paralytic</a>
+<br/>
+<a href="/nndss/conditions/poliovirus-infection-nonparalytic/">Poliovirus infection, nonparalytic</a>
+<br/>
+<a href="/nndss/conditions/powassan-encephalitis-meningitis/">Powassan encephalitis/meningitis</a>
+<br/>
+<a href="/nndss/conditions/powassan-virus-disease/">Powassan virus disease</a>
+<br/>
+<a href="/nndss/conditions/psittacosis/">Psittacosis</a>
+<br/>
+<h2><a id="Q" name="Q"><!-- --></a>Q</h2><span>
+<a href="/nndss/conditions/q-fever/">Q fever</a>
+<br/>
+</span>
+<a href="/nndss/conditions/q-fever-acute/">Q fever, acute</a>
+<br/>
+<a href="/nndss/conditions/q-fever-chronic/">Q fever, chronic</a>
+<br/>
+<h2><a id="R" name="R"><!-- --></a>R</h2><span>
+<a href="/nndss/conditions/rabies-animal/">Rabies, animal</a>
+<br/>
+</span>
+<a href="/nndss/conditions/rabies-human/">Rabies, human</a>
+<br/>
+<a href="/nndss/conditions/respiratory-syncytial-virus-associated-mortality/">Respiratory Syncytial Virus-Associated Mortality (RSV-Associated Mortality)</a>
+<br/>
+<a href="/nndss/conditions/reye-syndrome/">Reye syndrome</a>
+<br/>
+<a href="/nndss/conditions/rheumatic-fever/">Rheumatic fever</a>
+<br/>
+<a href="/nndss/conditions/rocky-mountain-spotted-fever/">RMSF</a>
+<br/>
+<a href="/nndss/conditions/rocky-mountain-spotted-fever/">Rocky Mountain spotted fever</a>
+<br/>
+<a href="/nndss/conditions/rubella/">Rubella</a>
+<br/>
+<a href="/nndss/conditions/rubella-congenital-syndrome/">Rubella, congenital syndrome</a>
+<br/>
+<a href="/nndss/conditions/measles/">Rubeola</a>
+<br/>
+<h2><a id="S" name="S"><!-- --></a>S</h2><span>
+<a href="/nndss/conditions/Salmonella-Paratyphi-Infection/"><i>Salmonella</i> Paratyphi infection (<i>Salmonella enterica</i> serotypes Paratyphi A, B [tartrate negative], and C [<i>S.</i> Paratyphi])</a>
+<br/>
+</span>
+<a href="/nndss/conditions/Salmonella-Typhi-Infection/"><i>Salmonella</i> Typhi infection (<i>Salmonella enterica</i> serotype Typhi)</a>
+<br/>
+<a href="/nndss/conditions/salmonellosis/">Salmonellosis</a>
+<br/>
+<a href="/nndss/conditions/severe-acute-respiratory-syndrome-associated-coronavirus-disease/">SARS-CoV</a>
+<br/>
+<a href="/nndss/conditions/severe-acute-respiratory-syndrome-associated-coronavirus-disease/">Severe acute respiratory syndrome-associated coronavirus disease</a>
+<br/>
+<a href="/nndss/conditions/severe-dengue/">Severe dengue</a>
+<br/>
+<a href="/nndss/conditions/shiga-toxin-producing-escherichia-coli/">Shiga toxin-producing <i>Escherichia coli</i></a>
+<br/>
+<a href="/nndss/conditions/shigellosis/">Shigellosis</a>
+<br/>
+<a href="/nndss/conditions/silicosis/">Silicosis</a>
+<br/>
+<a href="/nndss/conditions/smallpox/">Smallpox</a>
+<br/>
+<a href="/nndss/conditions/spinal-cord-injury/">Spinal cord injury</a>
+<br/>
+<a href="/nndss/conditions/spotted-fever-rickettsiosis/">Spotted fever rickettsiosis</a>
+<br/>
+<a href="/nndss/conditions/st-louis-encephalitis/">St. Louis encephalitis</a>
+<br/>
+<a href="/nndss/conditions/st-louis-encephalitis-virus-disease/">St. Louis encephalitis virus disease</a>
+<br/>
+<a href="/nndss/conditions/st-louis-encephalitis-meningitis/">St. Louis encephalitis/meningitis</a>
+<br/>
+<a href="/nndss/conditions/shiga-toxin-producing-escherichia-coli/">STEC</a>
+<br/>
+<a href="/nndss/conditions/streptococcal-toxic-shock-syndrome/">Streptococcal toxic shock syndrome</a>
+<br/>
+<a href="/nndss/conditions/streptococcus-disease-invasive-group-a/">Streptococcus disease, invasive, Group A</a>
+<br/>
+<a href="/nndss/conditions/streptococcus-pneumoniae-drug-resistant-invasive-disease/"><i>Streptococcus pneumoniae</i>, drug-resistant invasive disease</a>
+<br/>
+<a href="/nndss/conditions/invasive-pneumococcal-disease/"><i>Streptococcus pneumoniae</i>, invasive disease</a>
+<br/>
+<a href="/nndss/conditions/streptococcus-pneumoniae-invasive-disease-child/"><i>Streptococcus pneumoniae</i>, invasive disease (child, &lt;5 years)</a>
+<br/>
+<a href="/nndss/conditions/streptococcus-pneumoniae-invasive-disease-non-drug-resistant-child/"><i>Streptococcus pneumoniae</i>, invasive disease non-drug resistant (child, &lt;5 years)</a>
+<br/>
+<a href="/nndss/conditions/streptococcal-toxic-shock-syndrome/">STSS</a>
+<br/>
+<a href="/nndss/conditions/syphilis/">Syphilis</a>
+<br/>
+<a href="/nndss/conditions/syphilis-congenital/">Syphilis, Congenital</a>
+<br/>
+<a href="/nndss/conditions/syphilis-early-latent/">Syphilis, early latent</a>
+<br/>
+<a href="/nndss/conditions/syphilis-early-non-primary-non-secondary/">Syphilis, early non-primary non-secondary</a>
+<br/>
+<a href="/nndss/conditions/syphilis-late-latent/">Syphilis, late latent</a>
+<br/>
+<a href="/nndss/conditions/syphilis-late-with-clinical-manifestations-including-late-benign-syphilis-and-cardiovascular-syphilis/">Syphilis, late with clinical manifestations (including late benign syphilis and cardiovascular syphilis)</a>
+<br/>
+<a href="/nndss/conditions/syphilis-late-with-clinical-manifestations-other-than-neurosyphilis/">Syphilis, late, with clinical manifestations other than neurosyphilis</a>
+<br/>
+<a href="/nndss/conditions/syphilis-latent/">Syphilis, latent</a>
+<br/>
+<a href="/nndss/conditions/syphilis-latent-unknown-duration/">Syphilis, latent unknown duration</a>
+<br/>
+<a href="/nndss/conditions/syphilis-primary/">Syphilis, primary</a>
+<br/>
+<a href="/nndss/conditions/syphilis-secondary/">Syphilis, secondary</a>
+<br/>
+<a href="/nndss/conditions/syphilis-unknown-duration-or-late/">Syphilis, unknown duration or late</a>
+<br/>
+<a href="/nndss/conditions/syphilitic-stillbirth/">Syphilitic stillbirth</a>
+<br/>
+<h2><a id="T" name="T"><!-- --></a>T</h2><span>
+<a href="/nndss/conditions/tuberculosis/">TB</a>
+<br/>
+</span>
+<a href="/nndss/conditions/tetanus/">Tetanus</a>
+<br/>
+<a href="/nndss/conditions/toxic-shock-syndrome-other-than-streptococcal/">Toxic shock syndrome (other than streptococcal)</a>
+<br/>
+<a href="/nndss/conditions/trichinellosis/">Trichinellosis</a>
+<br/>
+<a href="/nndss/conditions/trichinellosis/">Trichinosis</a>
+<br/>
+<a href="/nndss/conditions/toxic-shock-syndrome-other-than-streptococcal/">TSS</a>
+<br/>
+<a href="/nndss/conditions/tuberculosis/">Tuberculosis</a>
+<br/>
+<a href="/nndss/conditions/tularemia/">Tularemia</a>
+<br/>
+<a href="/nndss/conditions/typhoid-fever/">Typhoid fever</a>
+<br/>
+<h2><a id="U" name="U"><!-- --></a>U</h2><span>
+<a href="/nndss/conditions/undetermined-human-ehrlichiosis-anaplasmosis/">Undetermined human ehrlichiosis/anaplasmosis</a>
+<br/>
+</span>
+<h2><a id="V" name="V"><!-- --></a>V</h2><span>
+<a href="/nndss/conditions/coccidioidomycosis/">Valley fever</a>
+<br/>
+</span>
+<a href="/nndss/conditions/vancomycin-intermediate-staphylococcus-aureus-and-vancomycin-resistant-staphylococcus-aureus/">Vancomycin-intermediate <i>Staphylococcus aureus</i> and Vancomycin-resistant <i>Staphylococcus aureus</i></a>
+<br/>
+<a href="/nndss/conditions/varicella/">Varicella</a>
+<br/>
+<a href="/nndss/conditions/varicella-deaths/">Varicella deaths</a>
+<br/>
+<a href="/nndss/conditions/smallpox/">Variola</a>
+<br/>
+<a href="/nndss/conditions/viral-hemorrhagic-fever/">VHF</a>
+<br/>
+<a href="/nndss/conditions/vibriosis/">Vibriosis</a>
+<br/>
+<a href="/nndss/conditions/viral-hemorrhagic-fever/">Viral hemorrhagic fever</a>
+<br/>
+<a href="/nndss/conditions/meningitis-aseptic/">Viral meningitis</a>
+<br/>
+<a href="/nndss/conditions/vancomycin-intermediate-staphylococcus-aureus-and-vancomycin-resistant-staphylococcus-aureus/">VISA/VRSA</a>
+<br/>
+<h2><a id="W" name="W"><!-- --></a>W</h2><span>
+<a href="/nndss/conditions/waterborne-disease-outbreak/">Waterborne Disease Outbreak</a>
+<br/>
+</span>
+<a href="/nndss/conditions/west-nile-encephalitis-meningitis/">West Nile encephalitis/meningitis</a>
+<br/>
+<a href="/nndss/conditions/west-nile-virus-disease/">West Nile virus disease</a>
+<br/>
+<a href="/nndss/conditions/western-equine-encephalitis/">Western equine encephalitis</a>
+<br/>
+<a href="/nndss/conditions/western-equine-encephalitis-virus-disease/">Western equine encephalitis virus disease</a>
+<br/>
+<a href="/nndss/conditions/western-equine-encephalitis-meningitis/">Western equine encephalitis/meningitis</a>
+<br/>
+<a href="/nndss/conditions/pertussis/">Whooping cough</a>
+<br/>
+<h2><a id="Y" name="Y"><!-- --></a>Y</h2><span>
+<a href="/nndss/conditions/yellow-fever/">Yellow fever</a>
+<br/>
+</span>
+<h2><a id="Z" name="Z"><!-- --></a>Z</h2><span>
+<a href="/nndss/conditions/zika/">Zika virus disease and Zika virus infection</a>
+<br/>
+</span>
+<a href="/nndss/conditions/zika-virus-disease-congenital/">Zika virus disease, congenital</a>
+<br/>
+<a href="/nndss/conditions/zika-virus-disease-non-congenital/">Zika virus disease, non-congenital</a>
+<br/>
+<a href="/nndss/conditions/zika-virus-infection-congenital/">Zika virus infection, congenital</a>
+<br/>
+<a href="/nndss/conditions/zika-virus-infection-non-congenital/">Zika virus infection, non-congenital</a>
+<br/>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<!-- /end editable -->
+</div>
+</div>
+<!-- Related Nav Area -->
+<div class="nav-related hidden-three hidden-four">
+<br/>
+<!--
+									Should contain same content (minus any viewport 3/4 specific content) as 
+									the div.nav-related block that appears at the start of the main content block.
+								-->
+<nav class="module-typeL">
+<ul>
+<li id="ucRelatedNav_nav_related_nnc_link">
+<a href="/nndss/conditions/notifiable">
+<div>
+<h3>2021 Nationally Notifiable Conditions</h3>
+                    Conditions designated as notifiable at the national level during 2021.
+                </div>
+</a>
+</li>
+</ul>
+</nav>
+<div class="module-typeH">
+<h3>Related Links</h3>
+<ul class="list-block">
+<li><a href="http://www.cdc.gov/nmi">NNDSS Modernization Initiative (NMI)</a></li>
+<li><a href="https://www.cdc.gov/nmi/ta-trc/index.html">NMI Technical Assistance and Training Resource Center</a></li>
+<li><a href="http://www.cdc.gov/nmi/eshare.html">NMI eShare</a></li>
+<li><a href="http://www.cste.org" target="_blank">CSTE Position Statements</a></li>
+<li><a href="http://www.cdc.gov/phin/">PHIN Tools and Resources</a></li>
+<li><a href="http://www.cdc.gov/mmwr/">Morbidity and Mortality Weekly Report (MMWR)</a></li>
+<li><a href="http://wonder.cdc.gov/">WONDER</a></li>
+</ul>
+</div>
+</div>
+<!-- /end Related Nav Area -->
+<!-- Persistent Content Area -->
+<div id="content-secondary">
+<!-- begin editable -->
+<!--  // This area is optional 
+							    // All content in the Right Column (except for Page Option links and GovD) will be moved to the Persistent Content Area upon migration
+							    -->
+<!-- /end editable -->
+</div>
+<!-- /end #content-secondary -->
+</div>
+<!-- /end #contentArea -->
+</div>
+<!-- /end #body -->
+<input id="btnDisableEnter" name="ctl00$btnDisableEnter" onclick="return false;" style="display: none;" type="submit" value=""/>
+</form>

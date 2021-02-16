@@ -1,0 +1,729 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazard%20prevention%20and%20control=Short%20circuit%20protection;Ground%20monitoring%20systems;%5E%5EDocument%20types=&amp;sf=Hazard%20prevention%20and%20control" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazard prevention and control=Short circuit protection;Ground monitoring systems;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Hazard prevention and control"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Hazard prevention and control</h2>
+<p class="facetDesc">Methods for eliminating/controlling hazards, reducing exposure to them, or teaching workers to avoid them.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Short circuit protection;Ground monitoring systems;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Hazard prevention and control">Hazard prevention and control</label>
+<label class="d-none" for="check_Administrative controls">Administrative controls</label>
+<label class="d-none" for="check_Acclimatization">Acclimatization</label>
+<label class="d-none" for="check_Communications, location tracking, and signalling">Communications, location tracking, and signalling</label>
+<label class="d-none" for="check_Communications">Communications</label>
+<label class="d-none" for="check_Emergency communications">Emergency communications</label>
+<label class="d-none" for="check_Personnel tracking">Personnel tracking</label>
+<label class="d-none" for="check_Signalling">Signalling</label>
+<label class="d-none" for="check_Hand signalling">Hand signalling</label>
+<label class="d-none" for="check_Emergency planning">Emergency planning</label>
+<label class="d-none" for="check_Preparedness checklists">Preparedness checklists</label>
+<label class="d-none" for="check_Hazardous materials management">Hazardous materials management</label>
+<label class="d-none" for="check_Health and safety management">Health and safety management</label>
+<label class="d-none" for="check_Employee management">Employee management</label>
+<label class="d-none" for="check_Reporting systems">Reporting systems</label>
+<label class="d-none" for="check_Accident and injury recording">Accident and injury recording</label>
+<label class="d-none" for="check_Hazard recording">Hazard recording</label>
+<label class="d-none" for="check_Safety culture">Safety culture</label>
+<label class="d-none" for="check_Safety incentives">Safety incentives</label>
+<label class="d-none" for="check_Worker participation">Worker participation</label>
+<label class="d-none" for="check_Health and safety programs">Health and safety programs</label>
+<label class="d-none" for="check_Behavior safety programs">Behavior safety programs</label>
+<label class="d-none" for="check_Ergonomics programs">Ergonomics programs</label>
+<label class="d-none" for="check_Hearing conservation programs">Hearing conservation programs</label>
+<label class="d-none" for="check_Inspections">Inspections</label>
+<label class="d-none" for="check_Materials storage">Materials storage</label>
+<label class="d-none" for="check_Medical care management">Medical care management</label>
+<label class="d-none" for="check_Exposure tracking">Exposure tracking</label>
+<label class="d-none" for="check_Health screening">Health screening</label>
+<label class="d-none" for="check_Personal hygiene">Personal hygiene</label>
+<label class="d-none" for="check_Clothes cleaning">Clothes cleaning</label>
+<label class="d-none" for="check_Policies">Policies</label>
+<label class="d-none" for="check_Regulations">Regulations</label>
+<label class="d-none" for="check_Site security">Site security</label>
+<label class="d-none" for="check_Standards">Standards</label>
+<label class="d-none" for="check_Work design">Work design</label>
+<label class="d-none" for="check_Proper work techniques">Proper work techniques</label>
+<label class="d-none" for="check_Work scheduling">Work scheduling</label>
+<label class="d-none" for="check_Task rotation">Task rotation</label>
+<label class="d-none" for="check_Work breaks">Work breaks</label>
+<label class="d-none" for="check_Work pace control">Work pace control</label>
+<label class="d-none" for="check_Education and training">Education and training</label>
+<label class="d-none" for="check_Annual refresher training">Annual refresher training</label>
+<label class="d-none" for="check_Group training">Group training</label>
+<label class="d-none" for="check_Hazard training">Hazard training</label>
+<label class="d-none" for="check_Individual training">Individual training</label>
+<label class="d-none" for="check_Job skills training">Job skills training</label>
+<label class="d-none" for="check_New task training">New task training</label>
+<label class="d-none" for="check_Training plans">Training plans</label>
+<label class="d-none" for="check_Training theory and methodology">Training theory and methodology</label>
+<label class="d-none" for="check_Engineering controls">Engineering controls</label>
+<label class="d-none" for="check_Automation">Automation</label>
+<label class="d-none" for="check_Dust control">Dust control</label>
+<label class="d-none" for="check_Air curtain systems">Air curtain systems</label>
+<label class="d-none" for="check_Filtration systems">Filtration systems</label>
+<label class="d-none" for="check_Removal of deposited dust">Removal of deposited dust</label>
+<label class="d-none" for="check_Sealing of dust sources">Sealing of dust sources</label>
+<label class="d-none" for="check_Source wetting">Source wetting</label>
+<label class="d-none" for="check_Foam application">Foam application</label>
+<label class="d-none" for="check_Mist drilling">Mist drilling</label>
+<label class="d-none" for="check_Water infusion">Water infusion</label>
+<label class="d-none" for="check_Wet drilling">Wet drilling</label>
+<label class="d-none" for="check_Water spraying">Water spraying</label>
+<label class="d-none" for="check_Water mist systems">Water mist systems</label>
+<label class="d-none" for="check_Wetting of deposited dust">Wetting of deposited dust</label>
+<label class="d-none" for="check_Electrical safety">Electrical safety</label>
+<label class="d-none" for="check_Circuit protection">Circuit protection</label>
+<label class="d-none" for="check_Ground monitoring systems">Ground monitoring systems</label>
+<label class="d-none" for="check_Overload protection">Overload protection</label>
+<label class="d-none" for="check_Short circuit protection">Short circuit protection</label>
+<label class="d-none" for="check_Electrical contact protection">Electrical contact protection</label>
+<label class="d-none" for="check_Grounding">Grounding</label>
+<label class="d-none" for="check_Lockout tagout">Lockout tagout</label>
+<label class="d-none" for="check_Electrical insulation">Electrical insulation</label>
+<label class="d-none" for="check_Emission controls">Emission controls</label>
+<label class="d-none" for="check_Alternative fuels">Alternative fuels</label>
+<label class="d-none" for="check_Catalytic oxidation">Catalytic oxidation</label>
+<label class="d-none" for="check_Diesel particulate filters">Diesel particulate filters</label>
+<label class="d-none" for="check_Engine derating">Engine derating</label>
+<label class="d-none" for="check_Fuel additives">Fuel additives</label>
+<label class="d-none" for="check_Low emission engines">Low emission engines</label>
+<label class="d-none" for="check_Equipment design">Equipment design</label>
+<label class="d-none" for="check_Maintainability design">Maintainability design</label>
+<label class="d-none" for="check_Ergonomic design">Ergonomic design</label>
+<label class="d-none" for="check_Explosives safety">Explosives safety</label>
+<label class="d-none" for="check_Explosives blending">Explosives blending</label>
+<label class="d-none" for="check_Facility design">Facility design</label>
+<label class="d-none" for="check_Fall protection">Fall protection</label>
+<label class="d-none" for="check_Fire and explosion prevention">Fire and explosion prevention</label>
+<label class="d-none" for="check_Explosion suppression">Explosion suppression</label>
+<label class="d-none" for="check_Rock dust barriers">Rock dust barriers</label>
+<label class="d-none" for="check_Rock dusting">Rock dusting</label>
+<label class="d-none" for="check_Ignition source elimination">Ignition source elimination</label>
+<label class="d-none" for="check_Explosion proof design">Explosion proof design</label>
+<label class="d-none" for="check_Flameproof construction">Flameproof construction</label>
+<label class="d-none" for="check_Intrinsically safe design">Intrinsically safe design</label>
+<label class="d-none" for="check_Spark prevention">Spark prevention</label>
+<label class="d-none" for="check_Nonsparking tools">Nonsparking tools</label>
+<label class="d-none" for="check_Inerting atmosphere">Inerting atmosphere</label>
+<label class="d-none" for="check_Methane control">Methane control</label>
+<label class="d-none" for="check_Bleeder systems">Bleeder systems</label>
+<label class="d-none" for="check_Degasification">Degasification</label>
+<label class="d-none" for="check_Cross measure boreholes">Cross measure boreholes</label>
+<label class="d-none" for="check_Gob gas vent holes">Gob gas vent holes</label>
+<label class="d-none" for="check_Horizontal boreholes">Horizontal boreholes</label>
+<label class="d-none" for="check_Permissible explosives">Permissible explosives</label>
+<label class="d-none" for="check_Fire protection">Fire protection</label>
+<label class="d-none" for="check_Fire detection">Fire detection</label>
+<label class="d-none" for="check_CO detection">CO detection</label>
+<label class="d-none" for="check_Smoke detection">Smoke detection</label>
+<label class="d-none" for="check_Thermal detection">Thermal detection</label>
+<label class="d-none" for="check_Fire spread limitation">Fire spread limitation</label>
+<label class="d-none" for="check_Fire suppression">Fire suppression</label>
+<label class="d-none" for="check_Ground control">Ground control</label>
+<label class="d-none" for="check_Pillar design">Pillar design</label>
+<label class="d-none" for="check_Scaling">Scaling</label>
+<label class="d-none" for="check_Skin control">Skin control</label>
+<label class="d-none" for="check_Slope design">Slope design</label>
+<label class="d-none" for="check_Highwall design">Highwall design</label>
+<label class="d-none" for="check_Span design">Span design</label>
+<label class="d-none" for="check_Entry design">Entry design</label>
+<label class="d-none" for="check_Pressure arch design">Pressure arch design</label>
+<label class="d-none" for="check_Roof beam design">Roof beam design</label>
+<label class="d-none" for="check_Support design and selection">Support design and selection</label>
+<label class="d-none" for="check_Improving visibility">Improving visibility</label>
+<label class="d-none" for="check_Improving visual contrast">Improving visual contrast</label>
+<label class="d-none" for="check_Reducing glare">Reducing glare</label>
+<label class="d-none" for="check_Lightning protection">Lightning protection</label>
+<label class="d-none" for="check_Noise and vibration control">Noise and vibration control</label>
+<label class="d-none" for="check_Mechanical isolation">Mechanical isolation</label>
+<label class="d-none" for="check_Noise absorption">Noise absorption</label>
+<label class="d-none" for="check_Noise cancellation">Noise cancellation</label>
+<label class="d-none" for="check_Noise damping">Noise damping</label>
+<label class="d-none" for="check_Noise shielding">Noise shielding</label>
+<label class="d-none" for="check_Vibration absorption">Vibration absorption</label>
+<label class="d-none" for="check_Vibration damping">Vibration damping</label>
+<label class="d-none" for="check_Physical barriers">Physical barriers</label>
+<label class="d-none" for="check_Physical isolation">Physical isolation</label>
+<label class="d-none" for="check_Proximity detection">Proximity detection</label>
+<label class="d-none" for="check_Temperature controls">Temperature controls</label>
+<label class="d-none" for="check_Thermal insulation">Thermal insulation</label>
+<label class="d-none" for="check_Tool design">Tool design</label>
+<label class="d-none" for="check_Ventilation">Ventilation</label>
+<label class="d-none" for="check_Auxiliary ventilation">Auxiliary ventilation</label>
+<label class="d-none" for="check_Blowing ventilation">Blowing ventilation</label>
+<label class="d-none" for="check_Diffusion">Diffusion</label>
+<label class="d-none" for="check_Dilution ventilation">Dilution ventilation</label>
+<label class="d-none" for="check_Exhaust ventilation">Exhaust ventilation</label>
+<label class="d-none" for="check_Fan ventilation">Fan ventilation</label>
+<label class="d-none" for="check_Push pull ventilation">Push pull ventilation</label>
+<label class="d-none" for="check_Recirculating ventilation">Recirculating ventilation</label>
+<label class="d-none" for="check_Scrubber induced airflow">Scrubber induced airflow</label>
+<label class="d-none" for="check_Ventilation control">Ventilation control</label>
+<label class="d-none" for="check_Workstation design">Workstation design</label>
+<label class="d-none" for="check_Use of personal protective equipment">Use of personal protective equipment</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Hazard prevention and control">
+<a>Hazard prevention and control</a>
+<ul>
+<li id="Administrative controls">
+<a>Administrative controls [6]</a>
+<ul>
+<li id="Acclimatization">
+<a>Acclimatization [1]</a>
+</li>
+<li id="Communications, location tracking, and signalling">
+<a>Communications, location tracking, and signalling [11]</a>
+<ul>
+<li id="Communications">
+<a>Communications [61]</a>
+<ul>
+<li id="Emergency communications">
+<a>Emergency communications [34]</a>
+</li>
+</ul>
+</li>
+<li id="Personnel tracking">
+<a>Personnel tracking [32]</a>
+</li>
+<li id="Signalling">
+<a>Signalling [26]</a>
+<ul>
+<li id="Hand signalling">
+<a>Hand signalling [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Emergency planning">
+<a>Emergency planning [24]</a>
+<ul>
+<li id="Preparedness checklists">
+<a>Preparedness checklists [1]</a>
+</li>
+</ul>
+</li>
+<li id="Hazardous materials management">
+<a>Hazardous materials management [3]</a>
+</li>
+<li id="Health and safety management">
+<a>Health and safety management [33]</a>
+<ul>
+<li id="Employee management">
+<a>Employee management [6]</a>
+</li>
+<li id="Reporting systems">
+<a>Reporting systems [0]</a>
+<ul>
+<li id="Accident and injury recording">
+<a>Accident and injury recording [7]</a>
+</li>
+<li id="Hazard recording">
+<a>Hazard recording [5]</a>
+</li>
+</ul>
+</li>
+<li id="Safety culture">
+<a>Safety culture [4]</a>
+</li>
+<li id="Safety incentives">
+<a>Safety incentives [2]</a>
+</li>
+<li id="Worker participation">
+<a>Worker participation [1]</a>
+</li>
+</ul>
+</li>
+<li id="Health and safety programs">
+<a>Health and safety programs [44]</a>
+<ul>
+<li id="Behavior safety programs">
+<a>Behavior safety programs [10]</a>
+</li>
+<li id="Ergonomics programs">
+<a>Ergonomics programs [15]</a>
+</li>
+<li id="Hearing conservation programs">
+<a>Hearing conservation programs [11]</a>
+</li>
+</ul>
+</li>
+<li id="Inspections">
+<a>Inspections [9]</a>
+</li>
+<li id="Materials storage">
+<a>Materials storage [1]</a>
+</li>
+<li id="Medical care management">
+<a>Medical care management [0]</a>
+<ul>
+<li id="Exposure tracking">
+<a>Exposure tracking [7]</a>
+</li>
+<li id="Health screening">
+<a>Health screening [1]</a>
+</li>
+</ul>
+</li>
+<li id="Personal hygiene">
+<a>Personal hygiene [0]</a>
+<ul>
+<li id="Clothes cleaning">
+<a>Clothes cleaning [7]</a>
+</li>
+</ul>
+</li>
+<li id="Policies">
+<a>Policies [1]</a>
+</li>
+<li id="Regulations">
+<a>Regulations [22]</a>
+</li>
+<li id="Site security">
+<a>Site security [3]</a>
+</li>
+<li id="Standards">
+<a>Standards [10]</a>
+</li>
+<li id="Work design">
+<a>Work design [5]</a>
+<ul>
+<li id="Proper work techniques">
+<a>Proper work techniques [3]</a>
+</li>
+</ul>
+</li>
+<li id="Work scheduling">
+<a>Work scheduling [1]</a>
+<ul>
+<li id="Task rotation">
+<a>Task rotation [1]</a>
+</li>
+<li id="Work breaks">
+<a>Work breaks [2]</a>
+</li>
+<li id="Work pace control">
+<a>Work pace control [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Education and training">
+<a>Education and training [45]</a>
+<ul>
+<li id="Annual refresher training">
+<a>Annual refresher training [4]</a>
+</li>
+<li id="Group training">
+<a>Group training [16]</a>
+</li>
+<li id="Hazard training">
+<a>Hazard training [32]</a>
+</li>
+<li id="Individual training">
+<a>Individual training [15]</a>
+</li>
+<li id="Job skills training">
+<a>Job skills training [5]</a>
+</li>
+<li id="New task training">
+<a>New task training [1]</a>
+</li>
+<li id="Training plans">
+<a>Training plans [23]</a>
+</li>
+<li id="Training theory and methodology">
+<a>Training theory and methodology [30]</a>
+</li>
+</ul>
+</li>
+<li id="Engineering controls">
+<a>Engineering controls [11]</a>
+<ul>
+<li id="Automation">
+<a>Automation [16]</a>
+</li>
+<li id="Dust control">
+<a>Dust control [73]</a>
+<ul>
+<li id="Air curtain systems">
+<a>Air curtain systems [6]</a>
+</li>
+<li id="Filtration systems">
+<a>Filtration systems [26]</a>
+</li>
+<li id="Removal of deposited dust">
+<a>Removal of deposited dust [4]</a>
+</li>
+<li id="Sealing of dust sources">
+<a>Sealing of dust sources [1]</a>
+</li>
+<li id="Source wetting">
+<a>Source wetting [0]</a>
+<ul>
+<li id="Foam application">
+<a>Foam application [2]</a>
+</li>
+<li id="Mist drilling">
+<a>Mist drilling [2]</a>
+</li>
+<li id="Water infusion">
+<a>Water infusion [4]</a>
+</li>
+<li id="Wet drilling">
+<a>Wet drilling [2]</a>
+</li>
+</ul>
+</li>
+<li id="Water spraying">
+<a>Water spraying [6]</a>
+<ul>
+<li id="Water mist systems">
+<a>Water mist systems [2]</a>
+</li>
+</ul>
+</li>
+<li id="Wetting of deposited dust">
+<a>Wetting of deposited dust [1]</a>
+</li>
+</ul>
+</li>
+<li id="Electrical safety">
+<a>Electrical safety [11]</a>
+<ul>
+<li id="Circuit protection">
+<a>Circuit protection [1]</a>
+<ul>
+<li id="Ground monitoring systems">
+<a>Ground monitoring systems [1]</a>
+</li>
+<li id="Overload protection">
+<a>Overload protection [1]</a>
+</li>
+<li id="Short circuit protection">
+<a>Short circuit protection [1]</a>
+</li>
+</ul>
+</li>
+<li id="Electrical contact protection">
+<a>Electrical contact protection [2]</a>
+<ul>
+<li id="Grounding">
+<a>Grounding [2]</a>
+</li>
+<li id="Lockout tagout">
+<a>Lockout tagout [4]</a>
+</li>
+</ul>
+</li>
+<li id="Electrical insulation">
+<a>Electrical insulation [4]</a>
+</li>
+</ul>
+</li>
+<li id="Emission controls">
+<a>Emission controls [12]</a>
+<ul>
+<li id="Alternative fuels">
+<a>Alternative fuels [7]</a>
+</li>
+<li id="Catalytic oxidation">
+<a>Catalytic oxidation [3]</a>
+</li>
+<li id="Diesel particulate filters">
+<a>Diesel particulate filters [18]</a>
+</li>
+<li id="Engine derating">
+<a>Engine derating [1]</a>
+</li>
+<li id="Fuel additives">
+<a>Fuel additives [4]</a>
+</li>
+<li id="Low emission engines">
+<a>Low emission engines [1]</a>
+</li>
+</ul>
+</li>
+<li id="Equipment design">
+<a>Equipment design [37]</a>
+<ul>
+<li id="Maintainability design">
+<a>Maintainability design [6]</a>
+</li>
+</ul>
+</li>
+<li id="Ergonomic design">
+<a>Ergonomic design [17]</a>
+</li>
+<li id="Explosives safety">
+<a>Explosives safety [8]</a>
+<ul>
+<li id="Explosives blending">
+<a>Explosives blending [1]</a>
+</li>
+</ul>
+</li>
+<li id="Facility design">
+<a>Facility design [1]</a>
+</li>
+<li id="Fall protection">
+<a>Fall protection [5]</a>
+</li>
+<li id="Fire and explosion prevention">
+<a>Fire and explosion prevention [38]</a>
+<ul>
+<li id="Explosion suppression">
+<a>Explosion suppression [4]</a>
+<ul>
+<li id="Rock dust barriers">
+<a>Rock dust barriers [1]</a>
+</li>
+<li id="Rock dusting">
+<a>Rock dusting [36]</a>
+</li>
+</ul>
+</li>
+<li id="Ignition source elimination">
+<a>Ignition source elimination [1]</a>
+<ul>
+<li id="Explosion proof design">
+<a>Explosion proof design [4]</a>
+</li>
+<li id="Flameproof construction">
+<a>Flameproof construction [1]</a>
+</li>
+<li id="Intrinsically safe design">
+<a>Intrinsically safe design [5]</a>
+</li>
+<li id="Spark prevention">
+<a>Spark prevention [1]</a>
+<ul>
+<li id="Nonsparking tools">
+<a>Nonsparking tools [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Inerting atmosphere">
+<a>Inerting atmosphere [6]</a>
+</li>
+<li id="Methane control">
+<a>Methane control [39]</a>
+<ul>
+<li id="Bleeder systems">
+<a>Bleeder systems [5]</a>
+</li>
+<li id="Degasification">
+<a>Degasification [42]</a>
+<ul>
+<li id="Cross measure boreholes">
+<a>Cross measure boreholes [3]</a>
+</li>
+<li id="Gob gas vent holes">
+<a>Gob gas vent holes [14]</a>
+</li>
+<li id="Horizontal boreholes">
+<a>Horizontal boreholes [10]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Permissible explosives">
+<a>Permissible explosives [4]</a>
+</li>
+</ul>
+</li>
+<li id="Fire protection">
+<a>Fire protection [2]</a>
+<ul>
+<li id="Fire detection">
+<a>Fire detection [16]</a>
+<ul>
+<li id="CO detection">
+<a>CO detection [9]</a>
+</li>
+<li id="Smoke detection">
+<a>Smoke detection [8]</a>
+</li>
+<li id="Thermal detection">
+<a>Thermal detection [3]</a>
+</li>
+</ul>
+</li>
+<li id="Fire spread limitation">
+<a>Fire spread limitation [1]</a>
+</li>
+<li id="Fire suppression">
+<a>Fire suppression [28]</a>
+</li>
+</ul>
+</li>
+<li id="Ground control">
+<a>Ground control [72]</a>
+<ul>
+<li id="Pillar design">
+<a>Pillar design [47]</a>
+</li>
+<li id="Scaling">
+<a>Scaling [5]</a>
+</li>
+<li id="Skin control">
+<a>Skin control [4]</a>
+</li>
+<li id="Slope design">
+<a>Slope design [5]</a>
+<ul>
+<li id="Highwall design">
+<a>Highwall design [4]</a>
+</li>
+</ul>
+</li>
+<li id="Span design">
+<a>Span design [4]</a>
+<ul>
+<li id="Entry design">
+<a>Entry design [3]</a>
+</li>
+<li id="Pressure arch design">
+<a>Pressure arch design [1]</a>
+</li>
+<li id="Roof beam design">
+<a>Roof beam design [1]</a>
+</li>
+</ul>
+</li>
+<li id="Support design and selection">
+<a>Support design and selection [89]</a>
+</li>
+</ul>
+</li>
+<li id="Improving visibility">
+<a>Improving visibility [9]</a>
+<ul>
+<li id="Improving visual contrast">
+<a>Improving visual contrast [3]</a>
+</li>
+<li id="Reducing glare">
+<a>Reducing glare [8]</a>
+</li>
+</ul>
+</li>
+<li id="Lightning protection">
+<a>Lightning protection [2]</a>
+</li>
+<li id="Noise and vibration control">
+<a>Noise and vibration control [63]</a>
+<ul>
+<li id="Mechanical isolation">
+<a>Mechanical isolation [1]</a>
+</li>
+<li id="Noise absorption">
+<a>Noise absorption [4]</a>
+</li>
+<li id="Noise cancellation">
+<a>Noise cancellation [3]</a>
+</li>
+<li id="Noise damping">
+<a>Noise damping [4]</a>
+</li>
+<li id="Noise shielding">
+<a>Noise shielding [2]</a>
+</li>
+<li id="Vibration absorption">
+<a>Vibration absorption [2]</a>
+</li>
+<li id="Vibration damping">
+<a>Vibration damping [4]</a>
+</li>
+</ul>
+</li>
+<li id="Physical barriers">
+<a>Physical barriers [6]</a>
+</li>
+<li id="Physical isolation">
+<a>Physical isolation [1]</a>
+</li>
+<li id="Proximity detection">
+<a>Proximity detection [26]</a>
+</li>
+<li id="Temperature controls">
+<a>Temperature controls [1]</a>
+<ul>
+<li id="Thermal insulation">
+<a>Thermal insulation [2]</a>
+</li>
+</ul>
+</li>
+<li id="Tool design">
+<a>Tool design [2]</a>
+</li>
+<li id="Ventilation">
+<a>Ventilation [83]</a>
+<ul>
+<li id="Auxiliary ventilation">
+<a>Auxiliary ventilation [1]</a>
+</li>
+<li id="Blowing ventilation">
+<a>Blowing ventilation [4]</a>
+</li>
+<li id="Diffusion">
+<a>Diffusion [1]</a>
+</li>
+<li id="Dilution ventilation">
+<a>Dilution ventilation [1]</a>
+</li>
+<li id="Exhaust ventilation">
+<a>Exhaust ventilation [3]</a>
+</li>
+<li id="Fan ventilation">
+<a>Fan ventilation [8]</a>
+</li>
+<li id="Push pull ventilation">
+<a>Push pull ventilation [1]</a>
+</li>
+<li id="Recirculating ventilation">
+<a>Recirculating ventilation [4]</a>
+</li>
+<li id="Scrubber induced airflow">
+<a>Scrubber induced airflow [4]</a>
+</li>
+<li id="Ventilation control">
+<a>Ventilation control [24]</a>
+</li>
+</ul>
+</li>
+<li id="Workstation design">
+<a>Workstation design [4]</a>
+</li>
+</ul>
+</li>
+<li id="Use of personal protective equipment">
+<a>Use of personal protective equipment [6]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Short circuit protection;Ground monitoring systems;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

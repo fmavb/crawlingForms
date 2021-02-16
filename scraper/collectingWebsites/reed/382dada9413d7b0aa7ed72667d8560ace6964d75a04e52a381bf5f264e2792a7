@@ -1,0 +1,47 @@
+<form action="/jobs" class="main-search main-search-new container signed-out gtmSearchFormHome" id="main-search-new" method="GET" role="search">
+<div class="row row-mobile">
+<p class="job-counter job-counter-mobile">
+                        Search 205,778 new jobs - 9,288 added in the last 24 hours
+                    </p>
+<div aria-labelled-by="find-job" class="collector" role="group">
+<div class="top-section horizontal-form" data-bind="attr: {class: 'top-section horizontal-form' + (twoStepsSearchEnabled() ? ' twoStepsSearchEnabled' : '')}">
+<div class="keywords-container col-sm-5 col-md-5 keywords-container-mobile">
+<label for="main-keywords">What</label>
+<input aria-label="keywords e.g. web design" class="form-control" data-bind="valueFromElement: searchKeywords, valueUpdate: 'afterkeydown', typeahead: searchKeywords, click: enableDetails" data-minlength="1" data-recent-searches="true" data-typeahead-header="Job title" data-typeahead-header-class="job-title" data-typeahead-remote="/api/search/getjobtitlesonlyautocomplete" data-val="true" data-val-regex="Please enter a valid search criteria" data-val-regex-pattern="^[a-zA-Z0-9\s_.,/#&amp;+()\-&quot;'%*\\\u00C0-\u024F\u1E00-\u1EFFÂ¡Â¢]+$" id="main-keywords" maxlength="255" name="keywords" placeholder='e.g. "support worker"' tabindex="1" title="keywords e.g. web design" type="text"/>
+<div data-bind="click: function() { clearValue('#main-keywords'); }, attr: {'class': ('clean icon icon-clean-input' + ((searchKeywords() == '' || searchKeywords() == undefined) ? ' is-hidden' : ''))}"></div>
+</div>
+<div class="location-container col-sm-4 col-md-5 location-container-mobile">
+<label for="main-location">Where</label>
+<input aria-label="town or postcode" class="form-control" data-bind="value: searchLocation, valueUpdate: 'afterkeydown', typeahead: searchLocation" data-minlength="2" data-typeahead-remote="/api/location/getlocationsautocomplete?p=js" data-val="true" data-val-regex="Please enter a valid location" data-val-regex-pattern="^[a-zA-Z0-9\s_.,/#&amp;+()\-&quot;'%*\\\u00C0-\u024F\u1E00-\u1EFFÂ¡Â¢]+$" id="main-location" maxlength="255" name="location" placeholder="town or postcode" tabindex="2" title="town or postcode" type="text"/>
+<button class="icon icon-clean-input" data-bind="click: function() { clearValue('#location') }, css: {'is-hidden': searchLocation() === ''}" tabindex="4" type="button">Clear location input</button>
+<button class="icon icon-target-location icon-target-location-new" data-bind="click: getLocation, css: {'is-hidden': searchLocation() !== ''}" tabindex="4" title="Get current location" type="button">Get current location</button>
+</div>
+<div class="distance-container col-xs-12 col-sm-3 col-md-2" data-bind="visible: twoStepsSearchEnabled" style="display: none">
+<label for="proximity">Distance</label>
+<select class="form-control" id="proximity" name="proximity">
+<option value="0">0 miles</option>
+<option value="1">1 mile</option>
+<option value="3">3 miles</option>
+<option value="5">5 miles</option>
+<option selected="selected" value="10">10 miles</option>
+<option value="15">15 miles</option>
+<option value="20">20 miles</option>
+<option value="30">30 miles</option>
+<option value="50">50 miles</option>
+</select>
+</div>
+<div class="form-submit form-submit-mobile col-sm-3 col-md-2">
+<button class="search-button btn btn-primary desktop-content" id="homepageSearchButton" tabindex="4" type="submit">Search jobs</button>
+<button class="search-button btn btn-primary mobile-content" id="homepageSearchButton" tabindex="4" type="submit">Search 205778 jobs</button>
+</div>
+<div class="top-section top-section-mobile horizontal-form keywords-container validation validation-keywords col-sm-3 col-md-4" data-valmsg-for="keywords" data-valmsg-replace="true"></div>
+<div class="top-section top-section-mobile horizontal-form location-container validation validation-location col-sm-3 col-md-4" data-valmsg-for="location" data-valmsg-replace="true"></div>
+<div class="recent-searches-new">
+</div>
+<div class="col-xs-12 col-sm-3 col-md-2 browse-jobs-container browse-jobs-container-mobile text-left">
+<a class="" href="/popularjobs" tabindex="5">Browse jobs <i class="icon icon-arrow-white-right icon-arrow-white-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+</form>

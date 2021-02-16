@@ -1,0 +1,197 @@
+<form enctype="multipart/form-data" id="fe_1064" method="POST">
+<input name="_antiForgeryToken" type="hidden" value="d8Bz63URorJxxhdC3TN-_Ql4cx8oeauRrtHEMbdbGDrWqpJD9Tt7p9kSyzSGadnZZ9nDxPNUuiAb3d7pLmnHwxqzoE8R6c7MW1tZEGIaOzk1:h7nX8ZXNU4dOAKCs6ajvkwT5Kbl3OLmHjqqBunLsRV8VuG4Nsv01yx6chSqe1BrHo_geSdvu48zfqfmaoVMlkwiDzzjtziC9k23atSPy8981"/>
+<input name="_id" type="hidden" value="1064"/>
+<div class="container form-data">
+<div class="form-page">
+<div class="row">
+<div class="col">
+<section class="questionnaire section-inner">
+<div class="row one-column">
+<div class="cell col-md-12">
+<div class="form-group required">
+<label for="_Gender">Gender</label>
+<select class="form-control" id="_Gender" name="_Gender" onchange="setCustomValidity('')" oninvalid='setCustomValidity("The Gender is required");' required="">
+<option value="">Please select</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select>
+</div>
+<div class="form-group required">
+<label for="_Experience">Years of working experience</label>
+<select class="form-control" id="_Experience" name="_Experience" onchange="setCustomValidity('')" oninvalid='setCustomValidity("The years of working experience is required");' required="">
+<option value="">Please select</option>
+<option value="0-5 years">0-5 years</option>
+<option value="6-10 years">6-10 years</option>
+<option value="11-15 years">11-15 years</option>
+<option value="16-20 years">16-20 years</option>
+<option value="21-25 years">21-25 years</option>
+<option value="26-30 years">26-30 years</option>
+<option value="31-35 years">31-35 years</option>
+<option value="36-40 years">36-40 years</option>
+<option value="40+ years">40+ years</option>
+</select>
+</div>
+<div class="form-group required">
+<label for="_Specialty">Specialty</label>
+<select class="form-control" id="_Specialty" name="_Specialty" onchange="setCustomValidity('')" oninvalid='setCustomValidity("The speciality is required");' required="">
+<option value="">Please select</option>
+<option value="Accident &amp; emergency">Accident &amp; emergency</option>
+<option value="Anaesthetics">Anaesthetics</option>
+<option value="Community health service">Community health service</option>
+<option value="Dental">Dental</option>
+<option value="General medicine">General medicine</option>
+<option value="General practice">General practice</option>
+<option value="Obstetrics &amp; gynaecology">Obstetrics &amp; gynaecology</option>
+<option value="Oncology">Oncology</option>
+<option value="Paediatrics">Paediatrics</option>
+<option value="Pathology">Pathology</option>
+<option value="Pharmacology">Pharmacology</option>
+<option value="Psychiatry">Psychiatry</option>
+<option value="Public health medicine">Public health medicine</option>
+<option value="Radiology">Radiology</option>
+<option value="Radiotherapy">Radiotherapy</option>
+<option value="Surgery">Surgery</option>
+<option value="Other">Other</option>
+</select>
+</div>
+<div class="form-group required">
+<label for="_Working">Number of work hours per week</label>
+<select class="form-control" id="_Working" name="_Working" onchange="setCustomValidity('')" oninvalid='setCustomValidity("Number of work hours per week is required");' required="">
+<option value="">Please select</option>
+<option value="0-5 hours">0-5 hours</option>
+<option value="6-10 hours">6-10 hours</option>
+<option value="11-15 hours">11-15 hours</option>
+<option value="16-20 hours">16-20 hours</option>
+<option value="21-25 hours">21-25 hours</option>
+<option value="26-30 hours">26-30 hours</option>
+<option value="31-35 hours">31-35 hours</option>
+<option value="36-40 hours">36-40 hours</option>
+<option value="41-45 hours">41-45 hours</option>
+<option value="46-50 hours">46-50 hours</option>
+<option value="50+ hours">50+ hours</option>
+</select>
+</div>
+<div class="form-group required">
+<label>1. How soon after you wake up do you smoke your first cigarette?</label>
+<div class="form-group">
+<label>
+<input name="_Q1" onchange="[].forEach.call(form.elements['_Q1'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q1 is required");' required="" type="radio" value="After 60 mins"/>
+        After 60 mins
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q1" onchange="[].forEach.call(form.elements['_Q1'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q1 is required");' required="" type="radio" value="31-60 mins"/>
+        31-60 mins
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q1" onchange="[].forEach.call(form.elements['_Q1'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q1 is required");' required="" type="radio" value="6-30 mins"/>
+        6-30 mins
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q1" onchange="[].forEach.call(form.elements['_Q1'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q1 is required");' required="" type="radio" value="Within 5 mins"/>
+        Within 5 mins
+      </label>
+</div>
+</div><div class="form-group required">
+<label>2. Do you find it difficult to refrain from smoking in places where it is forbidden (e.g. churches, public buildings)?</label>
+<div class="form-group">
+<label>
+<input name="_Q2" onchange="[].forEach.call(form.elements['_Q2'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q2 is required");' required="" type="radio" value="No"/>
+        No
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q2" onchange="[].forEach.call(form.elements['_Q2'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q2 is required");' required="" type="radio" value="Yes"/>
+        Yes
+      </label>
+</div>
+</div><div class="form-group required">
+<label>3. Which cigarette would you hate most to give up?</label>
+<div class="form-group">
+<label>
+<input name="_Q3" onchange="[].forEach.call(form.elements['_Q3'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q3 is required");' required="" type="radio" value="Any other"/>
+        Any other
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q3" onchange="[].forEach.call(form.elements['_Q3'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q3 is required");' required="" type="radio" value="The first in the morning"/>
+        The first in the morning
+      </label>
+</div>
+</div><div class="form-group required">
+<label>4. How many cigarettes per day do you smoke?</label>
+<div class="form-group">
+<label>
+<input name="_Q4" onchange="[].forEach.call(form.elements['_Q4'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q4 is required");' required="" type="radio" value="10 or less"/>
+        10 or less
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q4" onchange="[].forEach.call(form.elements['_Q4'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q4 is required");' required="" type="radio" value="11-20"/>
+        11-20
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q4" onchange="[].forEach.call(form.elements['_Q4'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q4 is required");' required="" type="radio" value="21-30"/>
+        21-30
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q4" onchange="[].forEach.call(form.elements['_Q4'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q4 is required");' required="" type="radio" value="31 or more"/>
+        31 or more
+      </label>
+</div>
+</div><div class="form-group required">
+<label>5. Do you smoke more frequently during the first hours after awakening than during the rest of the day?</label>
+<div class="form-group">
+<label>
+<input name="_Q5" onchange="[].forEach.call(form.elements['_Q5'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q5 is required");' required="" type="radio" value="No"/>
+        No
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q5" onchange="[].forEach.call(form.elements['_Q5'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q5 is required");' required="" type="radio" value="Yes"/>
+        Yes
+      </label>
+</div>
+</div><div class="form-group required">
+<label>6. Do you smoke even if you are so ill that you are in bed most of the day?</label>
+<div class="form-group">
+<label>
+<input name="_Q6" onchange="[].forEach.call(form.elements['_Q6'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q6 is required");' required="" type="radio" value="No"/>
+        No
+      </label>
+</div>
+<div class="form-group">
+<label>
+<input name="_Q6" onchange="[].forEach.call(form.elements['_Q6'], function (e) { e.setCustomValidity(''); })" oninvalid='setCustomValidity("Answer to Q6 is required");' required="" type="radio" value="Yes"/>
+        Yes
+      </label>
+</div>
+</div><div class="form-group">
+<p></p>
+<div class="row">
+<button class="button" type="submit">Calculate Score</button>
+</div>
+</div><div class="form-group">
+<input class="form-control" id="_hiddenid" name="_hiddenid" oninput="setCustomValidity('')" oninvalid='setCustomValidity("");' type="hidden" value="17ac9b18c4ce71"/>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</form>

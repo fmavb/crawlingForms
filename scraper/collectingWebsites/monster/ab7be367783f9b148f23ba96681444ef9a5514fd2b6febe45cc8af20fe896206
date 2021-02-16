@@ -1,0 +1,428 @@
+<form action="./SignIn.aspx?redirect=https%3a%2f%2fhiring.monster.com%2f%3fHasUserAccount%3d2&amp;intcid=HEADER_login" id="aspnetForm" method="post" name="aspnetForm">
+<div>
+<input id="user" name="user" type="hidden" value=""/>
+<input id="password" name="password" type="hidden" value=""/>
+<input id="redirect" name="redirect" type="hidden" value="https%3a%2f%2fhiring.monster.com%2f%3fHasUserAccount%3d2"/>
+<input id="ctrl" name="ctrl" type="hidden" value="1"/>
+<input id="EAAQFZWzSjy6ZU3P7d5qTqWAV9GkdAdvsPgP304mDPe34v4-" name="EAAQFZWzSjy6ZU3P7d5qTqWAV9GkdAdvsPgP304mDPe34v4-" type="hidden" value=""/>
+<input id="EAAQx_AqSwp3rRNSnYjoC8H9KgspTnMhqca5ovNKu3Qle54-" name="EAAQx_AqSwp3rRNSnYjoC8H9KgspTnMhqca5ovNKu3Qle54-" type="hidden" value=""/>
+<input id="__RequestVerificationToken" name="__RequestVerificationToken" type="hidden" value="DDB45ECF8CAB73949D9382687B84FB07"/>
+<input id="vsk" name="vsk" type="hidden" value="48ac8c1d-d097-48f9-afc4-c41a4e772ff7"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value=""/>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+CURR_COUNTRY_ID=164;CURR_CHANNEL_ID=58;CURR_STATE_ID=0//]]>
+</script>
+<script type="text/javascript">
+var PAGE_IDENTIFIER='EAAQp3oxTKK6XlwMa2h5BxBD1mLvZMlVIpcWaNGG7TzD75q._HHimG.2yanBP3ctLv64';
+</script>
+<script src="https://www.google.com/recaptcha/api.js?render=6Lfm-98UAAAAAFxSEEh4NPA9kMEBJGzzFZR3hQ3w" type="text/javascript"></script><script language="javascript" type="text/javascript">function noPostBack(sNewFormAction){document.forms[0].action = sNewFormAction;document.forms[0].user.value = document.forms[0].SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9.value;document.forms[0].password.value = document.forms[0].TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28.value;document.forms[0].redirect.value = 'https%3a%2f%2fhiring.monster.com%2f%3fHasUserAccount%3d2';document.forms[0].ctrl.value = '1';if (typeof(winOptInTracker) != 'undefined') {if(winOptInTracker) {if (!winOptInTracker.closed){winOptInTracker.DoNotTrack();winOptInTracker.close();}}}}</script><script language="javascript" type="text/javascript">function ValidateLogin() {  var errorUsername;  var errorPassword;  document.getElementById('SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9').value=trimAll(document.getElementById('SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9').value);  document.getElementById('TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28').value=trimAll(document.getElementById('TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28').value);  if (document.getElementById('SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9').value.length==0)  {    if(document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtUserNameException'))    {      document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtUserNameException').style.display='inline';    }    blnHasUsername = false;    errorUsername="<li>Username or email is required</li>" ;    document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtUserNameException').innerHTML='<ul>'+errorUsername+'</ul>';    document.getElementById('SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9').style='width: 100%;padding: 6px 12px;border: 1px solid red !important;background-color: #FFEBEB !important;';  }  else  {    if(document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtUserNameException'))    {      document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtUserNameException').style.display='none';    document.getElementById('TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28').style='';    document.getElementById('SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9').style='';    }    blnHasUsername = true;    errorUsername ='';  }  if (document.getElementById('TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28').value.trim().length==0)  {    if(document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtPassWordException'))    {      document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtPassWordException').style.display='inline';    }    blnHasPassword = false;    errorPassword = "<li>Password is required</li>";    document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtPassWordException').innerHTML='<ul>'+errorPassword+'</ul>';    document.getElementById('TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28').style='width: 100%;padding: 6px 12px;border: 1px solid red !important;background-color: #FFEBEB !important;';  }  else  {    if(document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtPassWordException'))    {      document.getElementById('ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtPassWordException').style.display='none';    }    blnHasPassword = true;    errorPassword ='';  }  if (blnHasUsername && blnHasPassword)  {    return true;  }  else  {    return false;  }}function trimAll(sString) {  while (sString.substring(0,1) == ' ')  {    sString = sString.substring(1, sString.length);  }  while (sString.substring(sString.length-1, sString.length) == ' ')  {    sString = sString.substring(0,sString.length-1);  }  return sString;}</script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/MicrosoftAjax40.axd" type="text/javascript"></script>
+<script src="https://hiring.monster.com/SharedUI/Services/MCF/PrepopChat.asmx/js" type="text/javascript"></script>
+<script src="https://hiring.monster.com/SharedUI/Services/KnowledgeBase/RightNow.asmx/js" type="text/javascript"></script>
+<script src="SharedUI/Services/GeographyLocation/Location.asmx/js" type="text/javascript"></script>
+<script src="/services/Account/CreateAccountService.asmx/js" type="text/javascript"></script>
+<script src="https://hiring.monster.com/services/MCF/AccountService.asmx/js" type="text/javascript"></script>
+<input id="ctl00_ctl00_MasterScriptManager" name="ctl00$ctl00$MasterScriptManager" type="hidden"/>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.setServerId("ctl00_ctl00_MasterScriptManager", "ctl00$ctl00$MasterScriptManager");
+Sys.Application._enableHistoryInScriptManager();
+//]]>
+</script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=adapters/common.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=global/json2.js" type="text/javascript"></script>
+<div class="hidden-xs">
+<div id="ctl00_ctl00_PrePopChatDialog_panelPrePopChat">
+<div class="mstModal prepopchat-dialog mmDialog" id="ctl00$ctl00$PrePopChatDialog$dialog_prePopChat" tabindex="0">
+<div class="mmHeader">
+<h3 class="fnt18">Live Help</h3>
+<a aria-label="Close" class="mmBtnClose" onclick="mm.hide('ctl00$ctl00$PrePopChatDialog$dialog_prePopChat');" title="Close"></a>
+</div>
+<div class="mmContent fnt4">
+<div class="ppcHeader">
+<a aria-label="Close" class="mmBtnClose" href="#" id="popupPrePopChatClose" onclick="closePrePopChatDialog(); return false;"></a>
+</div>
+<a class="prepopchat-image ppcsplashLeftPanel" id="ctl00_ctl00_PrePopChatDialog_dialog_prePopChat_ctl00_prePopImage"></a>
+<div class="ppcsplashRightPanel">
+<div class="fnt12">
+                        Need Sales Help?
+                    </div>
+<div class="fnt4">
+                        Chat live with an <strong>online sales associate</strong> to help answer your questions.
+                    </div>
+<button class="redux-button btn btn-default" id="ctl00_ctl00_PrePopChatDialog_dialog_prePopChat_ctl00_btnChat" title="" type="button"><span class="button-left"><span class="button-right"><span class="button-text">Chat With Us Live
+	</span></span></span></button>
+</div>
+<div class="clearing-div"></div>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+            Sys.Application.add_load(prePopPageLoad);
+            function prePopPageLoad() {
+                var rd = 'ctl00$ctl00$PrePopChatDialog$dialog_prePopChat';
+                if (rd != null)
+                {               
+                    var checkUserPage = $get("CheckUserPageErrors");
+                    if (checkUserPage != null){
+                        if (checkUserPage.value == 'False'){
+                            setTimeout(function prePopTimeOut() {
+                                if(mm._currentModal == null) {
+                                    mm.hide(rd); //to avoid multiple
+                                    mm.show(rd, null, null, null, null, 'Live Help', null);
+                                    var a=Monster.EBiz.Web.Services.MCF.PrePopChat.PrePopChatVisited(0);
+                                    RegisterAdobeTrackingPopupLoad();
+                                }
+                            }, 0);
+                        }
+                    }
+                }
+            }
+
+            function openPrePopChatDialog() {
+                var checkUserPage = $get("CheckUserPageErrors");
+                if (checkUserPage != null){
+                    if (checkUserPage.value == 'True'){
+                        callPrePopService();
+                    }
+                }
+            }
+
+            function closePrePopChatDialog() {
+                var rd = 'ctl00$ctl00$PrePopChatDialog$dialog_prePopChat';
+                if (rd != null) mm.hide(rd);
+                var checkUserPage = $get("CheckUserPageErrors");
+                if (checkUserPage != null){
+                    if (checkUserPage.value == 'True'){
+                        checkUserPage.value = 'False';
+                    }
+                }
+            }
+
+            function callPrePopService() {
+                Monster.EBiz.Web.Services.MCF.PrePopChat.GetChatPageVisibility(document.location.href, prePopCompleteCallback);
+            }
+
+            function prePopCompleteCallback(result)
+            {
+                if (result == true)
+                {
+                    var checkUserPage = $get("CheckUserPageErrors");
+                    if (checkUserPage != null){
+                        if (checkUserPage.value == 'True'){
+                            checkUserPage.value = 'False';
+                        }
+                    }
+                    prePopPageLoad();
+                }
+            }
+            
+            function RegisterAdobeTrackingPopupLoad() {
+                 if (_m && _m.ATM) {
+                     _m.ATM.atCall('body', 'mousedown', 'ProactiveChatServed', { 'events.event2': 'true'});
+                 }
+            }
+        </script>
+</div>
+</div>
+<div class="" id="ctl00_ctl00_pnlPageWrapper">
+<div class="messageContainerWrapper" id="ctl00_ctl00_MessagingControlHolder" style="display:none;">
+</div>
+<div class="" id="ctl00_ctl00_pnlHeaderWrapper">
+<input id="ctl00_ctl00_cphHeader_navResHeader_NavigationMenuVisibility" name="ctl00$ctl00$cphHeader$navResHeader$NavigationMenuVisibility" type="hidden" value="True"/>
+<input id="ctl00_ctl00_cphHeader_navResHeader_ShowLoginVisibility" name="ctl00$ctl00$cphHeader$navResHeader$ShowLoginVisibility" type="hidden" value="True"/>
+<a class="skip-main" href="#mainContent">
+        Skip to main content
+    </a>
+<div class="nav--flex" id="divNavHeader"></div>
+</div>
+<div class="mainContent navMainContent" id="ctl00_ctl00_pnlContentWrapper" role="main">
+<span id="mainContent"></span>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+<link as="style" href="//cdn.materialdesignicons.com/1.7.12/css/materialdesignicons.min.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload" type="text/css"/>
+<input id="setActiveTab" name="ctl00$ctl00$ContentPlaceHolderBase$cphBody$setActiveTab" type="hidden" value="2"/>
+<input id="LoadCreateAccount" name="ctl00$ctl00$ContentPlaceHolderBase$cphBody$LoadCreateAccount" type="hidden" value="1"/>
+<section class="cartFlow cartCreate">
+<h1><i class="mdi mdi-lock"></i>Create Account - Sign-in</h1>
+<div class="container">
+<div class="row">
+<div class="col-sm-7 cartLeft">
+<ul class="nav nav-tabs tab-container" id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_CreateLoginAccountTab" style="display: none;">
+<li><a class="user-new" data-tab="new" data-target="#new" data-toggle="tab" href="#new" id="tabCreateAccount">New to Monster?</a></li>
+<li class="active"><a class="user-member" data-tab="member" data-target="#member" data-toggle="tab" href="#member" id="tablogin">Existing User?</a></li>
+</ul>
+<div class="tab-content tab-container" style="display: none;">
+<div class="tab-pane fade" id="new">
+</div>
+<div class="tab-pane fade active" id="member">
+<div class="" id="divBodyMain">
+<div class="col-md-12">
+</div>
+<h2>
+<strong>
+        Sign In
+    </strong>
+</h2>
+<p><span id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_msgsigninWelcome">Sign in to manage your jobs, view candidates and manage your account</span></p>
+<div class="input-group col-md-12 col-xs-12">
+<label for="SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9">
+<span id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_msgUserName">Username / Email Address</span>
+<span class="required" id="lblUsernameReq"></span></label>
+<input class="form-control" id="SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9" maxlength="100" name="ctl00$ctl00$ContentPlaceHolderBase$cphBody$LoginUserNew$SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9" title="User Name" type="text"/>
+<span class="validation-summary" id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtUserNameException" style="display: none"></span>
+</div>
+<div class="input-group col-md-12 col-xs-12">
+<label for="TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28">
+<span id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_msgPassword">Password</span>
+<span class="required" id="lblPasswordReq"></span></label>
+<input autocomplete="off" class="form-control" id="TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28" maxlength="20" name="ctl00$ctl00$ContentPlaceHolderBase$cphBody$LoginUserNew$TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28" title="Password" type="password"/>
+<span class="validation-summary" id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_lblTxtPassWordException" style="display: none;"></span>
+<span class="forgotPwd" id="ctl00_ctl00_ContentPlaceHolderBase_cphBody_LoginUserNew_pwdHelp1"><a href="/forgotpassword.aspx?origin=https%3a%2f%2fhiring.monster.com%2f%3fHasUserAccount%3d2" title="Forgot Password">Forgot Password?</a></span>
+</div>
+<div class="input-group col-md-12 col-xs-12">
+<button class="" id="YACEAC86B4E11504F8510613DFA64FC831F7E93B7058202E59157317060A9282A6" onclick="if(ValidateLogin()) {noPostBack('https://hiring.monster.com/SignIn.aspx?redirect=https%3a%2f%2fhiring.monster.com%2f%3fHasUserAccount%3d2');} else {return false;}if(window.addEventListener){location.href=this.href;} __doPostBack('ctl00$ctl00$ContentPlaceHolderBase$cphBody$LoginUserNew$YACEAC86B4E11504F8510613DFA64FC831F7E93B7058202E59157317060A9282A6','')" title="Sign In" type="button"><span class="button-left"><span class="button-right"><span class="button-text">
+<i class="mdi mdi-lock"></i>Continue 
+                    </span></span></span></button>
+</div>
+<div class="input-group col-md-12 col-xs-12" id="reCaptchav2"></div>
+<a class="haveAcct user-new TabSwtichToAccount" data-target="#new" data-toggle="tab" href="#new">                                
+                                Don't have an account? Sign up here</a>
+<input name="CA_DATA" type="hidden"/>
+<input name="setAutoLogin" type="hidden"/>
+<div class="clearfix"></div>
+<div class="container">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-5 yourPurch cartWidgetdiv" style="display: none;">
+<style>
+    .yourPurchWrap { padding: 30px !important; }
+    .yourPurchWrap { text-align: center !important; }        
+    .price {
+        float: none !important;
+        text-align: center !important;
+        margin: 1px 0 !important;
+        color: #212121 !important;
+
+    }   
+    .yourPurchBox .item-content {
+        margin-top: 26px;
+        margin-bottom: 24px;
+        border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px !important;
+        border-top: 1px solid #eee !important;      
+    }
+    .yourPurchBox .yourQty{ float:right !important; }
+    .yourPurchBox .item-delete{color:red;}
+    .divHelpCart{ padding-top: 1px !important;}
+    #p-summary-widget.yourPurchWrap { padding-bottom: 1px !important;}
+    #p-summary-widget .yourPurchBox.yourPurchBoxCheckout .item-action { color: #474747;}
+</style>
+<div class="yourPurchWrap divHelpCart">
+<div class="needHelp">
+<i class="mdi mdi-phone-in-talk"></i> NEED SOME HELP?
+                        <p>Call <a href="tel:18006667837">(800) 666-7837</a></p>
+<p>Monday-Friday, 9:00 AM - 5:30 PM EST</p>
+</div>
+</div>
+<script>
+    $(function () {
+        ///////////////// 
+        $(".item-delete").on("click", function () {
+            $("#MaskLoader").show();
+            var itemID = this.id;
+            $.get("/order20/api/cart/deletecartitem/" + itemID, function (data, status) {
+                $("#MaskLoader").hide();
+                if (status === 'success') {
+                    var pLogin = $(".CreateAccountShowMessage").length
+                    if (data.data.cartItems.length == 0 && pLogin > 0) {
+                        var CurrentDomain = window.location.hostname;
+                        CurrentURl = "signin.aspx?redirect=https://" +
+                            CurrentDomain +
+                            "/default.aspx?HasUserAccount=3";
+                        window.location = CurrentURl;
+                        return;
+                    }
+                    else {
+                        location.reload();
+                    }
+                }
+            });
+        });
+    });
+</script>
+</div>
+</div>
+</div>
+</section>
+<style type="text/css">
+        .highlight {
+            width: 100%;
+            height: 40px;
+            padding: 6px 12px;
+            border: 1px solid #df0000 !important;
+            background-color: #FFEBEB !important;
+        }
+
+        .error, .validation-summary li {
+            background-image: none !important;
+        }
+
+        .ValidationErrorIcon {
+            display: none !important;
+        }
+        .ui-widget *,.tab-pane { outline: none; }
+       .welcome-back-message {text-align: center;
+           font-size: 18px;
+           font-weight: bold; }
+    </style>
+<script type="text/javascript">
+        function ValidatorUpdateDisplay(b) { if (typeof (b.display) == "string") { if (b.display == "None") { } if (b.display == "Dynamic") { b.style.display = b.isvalid ? "none" : "inline"; return } } b.style.visibility = b.isvalid ? "hidden" : "visible"; var a = $("#" + b.controltovalidate); if (!b.isvalid) { a.addClass("highlight"); a.addClass("form-control") } else { a.removeClass("highlight"); a.addClass("form-control") } } $(document).ready(function () { if ($(".error-duplicate ul li").length > 1) { $(".error-duplicate ul li").not(":first-child").hide() } if ($("#divBodyMain").length > 0) { $(".tab-container").fadeIn(function () { $(".cartWidgetdiv").fadeIn(); var c = $("#setActiveTab").val() === "1" ? "#tabCreateAccount" : "#tablogin"; $(".cartCreate .nav-tabs li").removeClass("active"); var a = $(c).attr("href"); var b = $('.cartCreate .nav-tabs li a[href="' + a + '"]').parent(); $('.cartCreate .nav-tabs li a[href="' + a + '"]').click(); $("html, body").animate({ scrollTop: 0 }, "slow") }); if ($(".UserSigninLink").length) { $(".cartCreate .nav-tabs li").removeClass("active"); $(".user-member").click().parent("li").addClass("active"); $(".haveAcct").hide(); $("#tabCreateAccount").removeAttr("data-tab data-toggle data-target").addClass("CreateAccountShowMessage"); $(".cartLeft").show(); $(".CreateAccountShowMessage").on("click", function (a) { a.preventDefault(); $(".welcome-back-logout").show() }) } $("#tabCreateAccount").click(function (d) { if ($(".CreateAccountSubmit").length < 1) { $("#LoadCreateAccount").val("1") } if ($("#LoadCreateAccount").val() === "1" && $(".CreateAccountShowMessage").length < 1) { var c = window.location.pathname; if (c.toLowerCase().length < 15) { var a = window.location.hostname; c = "signin.aspx?redirect=https%3a%2f%2f" + a + "%2fdefault.aspx%3fHasUserAccount%3d2" } var b = c.replace("HasUserAccount%3d1", "HasUserAccount%3d2"); if (b.indexOf("&reloadCA=0") < 1) { b = b.concat("&reloadCA=0") } $(".cartWidgetdiv ,.tab-container").hide(); window.location = b; return } if (d.originalEvent !== undefined) { s.tl(this, "o", "Create Account", { linkTrackEvents: "event47", events: "event47" }) } }) } else { $(".cartWidgetdiv ,.tab-container").fadeIn(); $(".tab-content #new").addClass("active").removeClass("fade"); $("html, body").animate({ scrollTop: 0 }, "slow") } $(".haveAcct").click(function (b) { b.preventDefault(); $(".cartCreate .nav-tabs li").removeClass("active"); var a = $(this).attr("href"); var c = $('.cartCreate .nav-tabs li a[href="' + a + '"]').parent(); c.addClass("active"); $('.cartCreate .nav-tabs li a[href="' + a + '"]').click(); $("html, body").animate({ scrollTop: 0 }, "slow") }); $("#tablogin,.TabSwtichTologin").click(function (a) { if (a.originalEvent !== undefined) { s.tl(this, "o", "Sign in", { linkTrackEvents: "event48", events: "event48" }) } }); $(".TabSwtichToAccount").click(function (a) { if (a.originalEvent !== undefined) { s.tl(this, "o", "Create Account", { linkTrackEvents: "event47", events: "event47" }) } }) });
+    </script>
+<!--[if lt IE 9]>
+        <link href="//css-hx.newjobs.com/responsive/css/ie8.css" rel="stylesheet" />
+    <![endif]-->
+<!-- Respond JS proxy -->
+<link href="//css-hx.newjobs.com/responsive/respond-proxy.html" id="respond-proxy" rel="respond-proxy"/>
+<link href="/javascript/respond.proxy.gif" id="respond-redirect" rel="respond-redirect"/>
+<script src="/javascript/respond.proxy.js"></script>
+<div class="clearing-div">
+</div>
+</div>
+<div class="footer-region" id="ctl00_ctl00_pnlFooterWrapper">
+<div id="ctl00_ctl00_cphFooter_navFooter_footerControl_pnlFootervX">
+<div id="divFootervX">
+</div>
+</div>
+<script type="text/javascript">
+	(function(){
+	  	var interval;
+		function loadFooter()
+		{
+			if (typeof $ == 'undefined'){
+				return;
+			}
+			if(typeof interval != 'undefined'){
+				clearInterval(interval);
+			}
+			$.ajax({
+				url: '/nav/footer.ashx',
+				success: function (data) {                
+					$('#divFootervX').html(data);
+				}
+			});
+		}
+		if (typeof $ != 'undefined'){
+			loadFooter();
+		}
+		else
+		{
+			interval = setInterval(loadFooter, 1000)
+		}
+	})();
+</script>
+<div class="clearing-div">
+</div>
+</div>
+</div>
+<!--WebTrends Tags START -->
+<!-- START OF SmartSource Data Collector TAG -->
+<!-- Copyright (c) 1996-2012 Webtrends Inc.  All rights reserved. -->
+<!-- Version: 9.4.0 -->
+<!-- Tag Builder Version: 4.0  -->
+<!-- Created: 5/18/2012 4:03:08 PM -->
+<!--<script src="/scripts/webtrends.js" type="text/javascript"></script>-->
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<!-- ----------------------------------------------------------------------------------- -->
+<!-- <script type="text/javascript">
+//<![CDATA[
+//var _tag=new WebTrends();
+//_tag.dcsGetId();
+//]]>
+</script> -->
+<!-- <script type="text/javascript">
+//<![CDATA[
+//_tag.dcsCustom=function(){
+// Add custom parameters here.
+//_tag.DCSext.param_name=param_value;
+//}
+//_tag.dcsCollect();
+//]]>
+</script> -->
+<!-- <noscript>
+<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//statse.webtrendslive.com/DCS000045_9O7K/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=www.jobvacancies.businesslink.gov.uk"/></div>
+</noscript> -->
+<!-- END OF SmartSource Data Collector TAG -->
+<!--WebTrend Tags END -->
+<script type="text/javascript">
+//<![CDATA[
+document.UIPreferences = '';Sys.Application.add_load(function () { $('#divNavHeader').load("/Nav/Header.ashx", {showPersistentLink: "False", showMainMenu: "True", showSignin: "True", minicartcount: "0", DisableNavigationBar: "true"}); }); var siteKeyv3="6Lfm-98UAAAAAFxSEEh4NPA9kMEBJGzzFZR3hQ3w",ctaId="YACEAC86B4E11504F8510613DFA64FC831F7E93B7058202E59157317060A9282A6",captchaId="reCaptchav2",vTokenId="EAAQx_AqSwp3rRNSnYjoC8H9KgspTnMhqca5ovNKu3Qle54-",captchaTokenId="EAAQFZWzSjy6ZU3P7d5qTqWAV9GkdAdvsPgP304mDPe34v4-",disableCTA=function(){var e=document.getElementById(ctaId);e.disabled=!0,e.style.visibility="hidden",e.style.position="absolute"},enableCTA=function(){var e=document.getElementById(ctaId);e.disabled=!1,e.style.visibility="",e.style.position=""},writeTokenValue=function(e,t){var a=document.getElementById(e);void 0!==a&&null!=a&&(a.value=t)},onV3Verified=function(e){writeTokenValue(captchaTokenId,e),$.ajax({type:"POST",url:"/ClientAjaxCall.aspx/SetReCaptchav3Token",data:JSON.stringify({token:e,module:"SIGNIN"}),contentType:"application/json; charset=utf-8",dataType:"json",success:function(e){var t=JSON.parse(e.d);t.success?(writeTokenValue(vTokenId,t.verify_token),enableCTA()):grecaptcha.render(captchaId,{sitekey:t.action_key,callback:onV2Verified,"expired-callback":disableCTA})},failure:function(e){console.error(e.d)}})},onV2Verified=function(e){writeTokenValue(captchaTokenId,e),$.ajax({type:"POST",url:"/ClientAjaxCall.aspx/SetReCaptchav2Token",data:JSON.stringify({token:e,module:"SIGNIN"}),contentType:"application/json; charset=utf-8",dataType:"json",success:function(e){var t=JSON.parse(e.d);t.success&&(writeTokenValue(vTokenId,t.verify_token),enableCTA())},failure:function(e){console.error(e.d)}})};grecaptcha.ready(function(){disableCTA(),grecaptcha.execute(siteKeyv3,{action:"signinload_58"}).then(function(e){onV3Verified(e)})});//]]>
+</script>
+<script language="javascript" type="text/javascript">
+<!--
+ if (typeof(SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9) != 'undefined')
+{
+document.forms[0].SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9.focus();
+}
+// -->
+</script><script language="javascript" type="text/javascript">if(document.forms[0].SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9){if(document.forms[0].SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9.value == "" ){document.forms[0].SAAEF1C74B86A2E39638F72F1D885F88AC4C22C84BE55E089BD86DE38BC0A56BB9.focus();} else {document.forms[0].TZDD33D53FE64377CD1492D710C11DB4E7C0580CEEE8D8EC8331CBFD3E4FEDDA28.focus();} }</script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/redux-Common-js.axd" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=third_party/jquery.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/redux-global-js.axd" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/MicrosoftAjax40.axd" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/jquery.keyboardaccess.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/jquery.focuscatcher.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/jquery.moment.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/moment.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=lozad.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=intersection-observer.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=hx-iframe-handler.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=questionschat.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=third_party/modernizr-2.7.1.min.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=third_party/hammer.min.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=nav2/hiring_nav2.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/jquery.dropdownmenu.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=zipcodeformating.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=monster-utilities/modal.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=jquery/jquery.meiomask.compressed.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=third_party/jquery-ui.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=ctrl_feinduplicityvalidation.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=third_party/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/responsive-js.axd" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=global/html5shiv.min.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=global/respond.min.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=donotaddtop4_monster.web.globalui/monster.web.globalui.modal.js" type="text/javascript"></script>
+<script src="https://js-hx.newjobs.com/MONS/2021.2.0.J3.0s/any.axd?ref=clientframework/behaviors/reduxdialogadapter.js" type="text/javascript"></script><script type="text/javascript">
+_m.ATM.properties={"eVar2":"unrecognized","prop2":"unrecognized","channel":"58","eVar1":"D=g","prop1":"D=g","eVar20":"Prospect","eVar21":"Neither","eVar22":"Prospect","eVar38":"none","eVar4":"0","events.event48":"true","prop3":"0.00"};_m.ATM.pageName='desktop|mons|hiring|/signin.aspx';_m.ATM.version=0;_m.ATM.appID='hiring';_m.ATM.channelID=58;_m.ATM.countryID=164;_m.ATM.appConfig={version:'0',appID:'hiring',channelID:'58',countryID:'164'};_m.ATM.runOnLoad=true;
+(function () {if (typeof addMonsterReady != 'undefined') {addMonsterReady(_m.ATM.initFromOnReady);} else {$(document).ready(_m.ATM.initFromOnReady);}})();</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+var pm = Sys.Component.create(Monster.Client.Component.PageManager, {eventMap:{}, CFVersion:1});
+var c = pm.components;
+var h = pm.htmlLazyLoadControls;
+var v = pm.validators;
+var e = pm.eventMap;
+});
+//]]>
+</script>
+<script type="text/javascript"> function CallClose(value){if (window.XMLHttpRequest){ var oReq = new XMLHttpRequest();if (oReq) {
+                oReq.open('POST', '/SharedUI/Services/Globals/VSHandler.asmx/ManageVS',false); oReq.setRequestHeader('Content-Type', 'application/json; charset=utf-8');oReq.send('{"VSKey":"C|'+value+'"}');}}}</script><script type="text/javascript">
+                function $UnloadFunction() {if (document.forms[0].__EVENTTARGET && document.forms[0].__EVENTTARGET.value == '' && document.forms[0].__EVENTARGUMENT && document.forms[0].__EVENTARGUMENT.value == '')
+                    if  (window.opener == null) CallClose (document.forms[0].vsk.value);
+                    else { try {if (typeof window.opener.CallClose  !='undefined' && typeof window.opener.CallClose !='unknown') window.opener.CallClose (document.forms[0].vsk.value); } catch(err){}}}
+                function $addUnloadListener(functionToAdd){
+                    try {if (typeof window.addEventListener != 'undefined') {window.addEventListener('unload', functionToAdd, false);}
+                    else if (typeof window.document.addEventListener != 'undefined') {window.document.addEventListener('unload', functionToAdd, false);}
+                    else if (typeof window.attachEvent != 'undefined') {window.attachEvent('onunload', functionToAdd);}
+                    else if (typeof window.onunload != 'function') {window.onunload = functionToAdd;}
+                    else {var oldFunction = window.onunload;window.onunload = function() {oldFunction();functionToAdd();}}}catch(err){}};
+                $addUnloadListener($UnloadFunction);</script></form>

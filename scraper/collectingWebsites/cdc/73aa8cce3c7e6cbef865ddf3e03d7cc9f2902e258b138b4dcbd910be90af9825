@@ -1,0 +1,429 @@
+<form action="/NIOSH-Mining/?facetGroups=Equipment,%20tools,%20and%20parts=Ventilation%20monitoring%20systems;%5E%5EDocument%20types=Technology%20News;&amp;sf=Equipment,%20tools,%20and%20parts" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Equipment, tools, and parts=Ventilation monitoring systems;^^Document types=Technology News;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Equipment, tools, and parts"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Equipment, tools, and parts</h2>
+<p class="facetDesc">Machines, devices, tools, and components used for a purpose (see also: Products and materials).</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Ventilation monitoring systems;^^Document types=Technology News;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Equipment, tools, and parts">Equipment, tools, and parts</label>
+<label class="d-none" for="check_Antennas">Antennas</label>
+<label class="d-none" for="check_Cabs">Cabs</label>
+<label class="d-none" for="check_Clothes cleaning systems">Clothes cleaning systems</label>
+<label class="d-none" for="check_Communications equipment">Communications equipment</label>
+<label class="d-none" for="check_Medium frequency communications systems">Medium frequency communications systems</label>
+<label class="d-none" for="check_Node-based communications systems">Node-based communications systems</label>
+<label class="d-none" for="check_Wireless node communications systems">Wireless node communications systems</label>
+<label class="d-none" for="check_Through-the-earth communications systems">Through-the-earth communications systems</label>
+<label class="d-none" for="check_Drilling machinery">Drilling machinery</label>
+<label class="d-none" for="check_Bolters">Bolters</label>
+<label class="d-none" for="check_Drills">Drills</label>
+<label class="d-none" for="check_Dust collectors">Dust collectors</label>
+<label class="d-none" for="check_Electrical equipment">Electrical equipment</label>
+<label class="d-none" for="check_Circuit breakers">Circuit breakers</label>
+<label class="d-none" for="check_Electronic tracking systems">Electronic tracking systems</label>
+<label class="d-none" for="check_Zone-based electronic tracking systems">Zone-based electronic tracking systems</label>
+<label class="d-none" for="check_Reverse RFID systems">Reverse RFID systems</label>
+<label class="d-none" for="check_RFID systems">RFID systems</label>
+<label class="d-none" for="check_Escape and rescue equipment">Escape and rescue equipment</label>
+<label class="d-none" for="check_Refuge chambers">Refuge chambers</label>
+<label class="d-none" for="check_Instruments">Instruments</label>
+<label class="d-none" for="check_Air flow measurement instruments">Air flow measurement instruments</label>
+<label class="d-none" for="check_Dust measurement instruments">Dust measurement instruments</label>
+<label class="d-none" for="check_Personal dust monitors">Personal dust monitors</label>
+<label class="d-none" for="check_Gas measurement instruments">Gas measurement instruments</label>
+<label class="d-none" for="check_CO meters">CO meters</label>
+<label class="d-none" for="check_Ground penetrating radar">Ground penetrating radar</label>
+<label class="d-none" for="check_Microscopes">Microscopes</label>
+<label class="d-none" for="check_Particle detectors">Particle detectors</label>
+<label class="d-none" for="check_Particle sizing instruments">Particle sizing instruments</label>
+<label class="d-none" for="check_Pressure measurement instruments">Pressure measurement instruments</label>
+<label class="d-none" for="check_Smoke sensors">Smoke sensors</label>
+<label class="d-none" for="check_Sound measurement instruments">Sound measurement instruments</label>
+<label class="d-none" for="check_Strain gauges">Strain gauges</label>
+<label class="d-none" for="check_Temperature measurement instruments">Temperature measurement instruments</label>
+<label class="d-none" for="check_Temperature sensors">Temperature sensors</label>
+<label class="d-none" for="check_Lighting">Lighting</label>
+<label class="d-none" for="check_Cap lamps">Cap lamps</label>
+<label class="d-none" for="check_Machine mounted lights">Machine mounted lights</label>
+<label class="d-none" for="check_Warning lights">Warning lights</label>
+<label class="d-none" for="check_Materials handling aids">Materials handling aids</label>
+<label class="d-none" for="check_Materials handling machinery">Materials handling machinery</label>
+<label class="d-none" for="check_Hoists">Hoists</label>
+<label class="d-none" for="check_Minerals processing machinery">Minerals processing machinery</label>
+<label class="d-none" for="check_Mineral separators">Mineral separators</label>
+<label class="d-none" for="check_Mills">Mills</label>
+<label class="d-none" for="check_Mining, tunneling, and excavating machinery">Mining, tunneling, and excavating machinery</label>
+<label class="d-none" for="check_Continuous miners">Continuous miners</label>
+<label class="d-none" for="check_Cutting machines">Cutting machines</label>
+<label class="d-none" for="check_Excavating machinery components">Excavating machinery components</label>
+<label class="d-none" for="check_Cutting bits">Cutting bits</label>
+<label class="d-none" for="check_Excavators">Excavators</label>
+<label class="d-none" for="check_Highwall miners">Highwall miners</label>
+<label class="d-none" for="check_Motor vehicles">Motor vehicles</label>
+<label class="d-none" for="check_Diesel vehicles">Diesel vehicles</label>
+<label class="d-none" for="check_Haulage vehicles">Haulage vehicles</label>
+<label class="d-none" for="check_Haulage trucks">Haulage trucks</label>
+<label class="d-none" for="check_Shuttle cars">Shuttle cars</label>
+<label class="d-none" for="check_Noise control equipment">Noise control equipment</label>
+<label class="d-none" for="check_Acoustic enclosures">Acoustic enclosures</label>
+<label class="d-none" for="check_Personal protective equipment">Personal protective equipment</label>
+<label class="d-none" for="check_Ear and hearing protection">Ear and hearing protection</label>
+<label class="d-none" for="check_Earplugs">Earplugs</label>
+<label class="d-none" for="check_Respiratory protection">Respiratory protection</label>
+<label class="d-none" for="check_Closed circuit breathing apparatus">Closed circuit breathing apparatus</label>
+<label class="d-none" for="check_Self contained breathing apparatus">Self contained breathing apparatus</label>
+<label class="d-none" for="check_Programmable electronic systems">Programmable electronic systems</label>
+<label class="d-none" for="check_Pumps">Pumps</label>
+<label class="d-none" for="check_Roof fall protection">Roof fall protection</label>
+<label class="d-none" for="check_Protective canopies">Protective canopies</label>
+<label class="d-none" for="check_Sensing systems">Sensing systems</label>
+<label class="d-none" for="check_Fire sensors">Fire sensors</label>
+<label class="d-none" for="check_Diesel discriminating fire sensors">Diesel discriminating fire sensors</label>
+<label class="d-none" for="check_Ventilation monitoring systems">Ventilation monitoring systems</label>
+<label class="d-none" for="check_Ventilation equipment">Ventilation equipment</label>
+<label class="d-none" for="check_Fans">Fans</label>
+<label class="d-none" for="check_Propeller fans">Propeller fans</label>
+<label class="d-none" for="check_Scrubbers">Scrubbers</label>
+<label class="d-none" for="check_Ventilation curtains">Ventilation curtains</label>
+<label class="d-none" for="check_Warning equipment">Warning equipment</label>
+<label class="d-none" for="check_Alarms">Alarms</label>
+<label class="d-none" for="check_Backup alarms">Backup alarms</label>
+<label class="d-none" for="check_Markers and signs">Markers and signs</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Equipment, tools, and parts">
+<a>Equipment, tools, and parts</a>
+<ul>
+<li id="Antennas">
+<a>Antennas [1]</a>
+</li>
+<li id="Cabs">
+<a>Cabs [6]</a>
+</li>
+<li id="Clothes cleaning systems">
+<a>Clothes cleaning systems [1]</a>
+</li>
+<li id="Communications equipment">
+<a>Communications equipment [0]</a>
+<ul>
+<li id="Medium frequency communications systems">
+<a>Medium frequency communications systems [1]</a>
+</li>
+<li id="Node-based communications systems">
+<a>Node-based communications systems [0]</a>
+<ul>
+<li id="Wireless node communications systems">
+<a>Wireless node communications systems [2]</a>
+</li>
+</ul>
+</li>
+<li id="Through-the-earth communications systems">
+<a>Through-the-earth communications systems [1]</a>
+</li>
+</ul>
+</li>
+<li id="Drilling machinery">
+<a>Drilling machinery [1]</a>
+<ul>
+<li id="Bolters">
+<a>Bolters [7]</a>
+</li>
+<li id="Drills">
+<a>Drills [4]</a>
+</li>
+</ul>
+</li>
+<li id="Dust collectors">
+<a>Dust collectors [5]</a>
+</li>
+<li id="Electrical equipment">
+<a>Electrical equipment [0]</a>
+<ul>
+<li id="Circuit breakers">
+<a>Circuit breakers [1]</a>
+</li>
+</ul>
+</li>
+<li id="Electronic tracking systems">
+<a>Electronic tracking systems [1]</a>
+<ul>
+<li id="Zone-based electronic tracking systems">
+<a>Zone-based electronic tracking systems [0]</a>
+<ul>
+<li id="Reverse RFID systems">
+<a>Reverse RFID systems [1]</a>
+</li>
+<li id="RFID systems">
+<a>RFID systems [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Escape and rescue equipment">
+<a>Escape and rescue equipment [1]</a>
+<ul>
+<li id="Refuge chambers">
+<a>Refuge chambers [1]</a>
+</li>
+</ul>
+</li>
+<li id="Instruments">
+<a>Instruments [0]</a>
+<ul>
+<li id="Air flow measurement instruments">
+<a>Air flow measurement instruments [1]</a>
+</li>
+<li id="Dust measurement instruments">
+<a>Dust measurement instruments [1]</a>
+<ul>
+<li id="Personal dust monitors">
+<a>Personal dust monitors [1]</a>
+</li>
+</ul>
+</li>
+<li id="Gas measurement instruments">
+<a>Gas measurement instruments [0]</a>
+<ul>
+<li id="CO meters">
+<a>CO meters [1]</a>
+</li>
+</ul>
+</li>
+<li id="Ground penetrating radar">
+<a>Ground penetrating radar [1]</a>
+</li>
+<li id="Microscopes">
+<a>Microscopes [1]</a>
+</li>
+<li id="Particle detectors">
+<a>Particle detectors [1]</a>
+</li>
+<li id="Particle sizing instruments">
+<a>Particle sizing instruments [1]</a>
+</li>
+<li id="Pressure measurement instruments">
+<a>Pressure measurement instruments [1]</a>
+</li>
+<li id="Smoke sensors">
+<a>Smoke sensors [1]</a>
+</li>
+<li id="Sound measurement instruments">
+<a>Sound measurement instruments [1]</a>
+</li>
+<li id="Strain gauges">
+<a>Strain gauges [1]</a>
+</li>
+<li id="Temperature measurement instruments">
+<a>Temperature measurement instruments [0]</a>
+<ul>
+<li id="Temperature sensors">
+<a>Temperature sensors [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Lighting">
+<a>Lighting [2]</a>
+<ul>
+<li id="Cap lamps">
+<a>Cap lamps [1]</a>
+</li>
+<li id="Machine mounted lights">
+<a>Machine mounted lights [1]</a>
+</li>
+<li id="Warning lights">
+<a>Warning lights [1]</a>
+</li>
+</ul>
+</li>
+<li id="Materials handling aids">
+<a>Materials handling aids [1]</a>
+</li>
+<li id="Materials handling machinery">
+<a>Materials handling machinery [1]</a>
+<ul>
+<li id="Hoists">
+<a>Hoists [1]</a>
+</li>
+</ul>
+</li>
+<li id="Minerals processing machinery">
+<a>Minerals processing machinery [0]</a>
+<ul>
+<li id="Mineral separators">
+<a>Mineral separators [0]</a>
+<ul>
+<li id="Mills">
+<a>Mills [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Mining, tunneling, and excavating machinery">
+<a>Mining, tunneling, and excavating machinery [0]</a>
+<ul>
+<li id="Continuous miners">
+<a>Continuous miners [3]</a>
+</li>
+<li id="Cutting machines">
+<a>Cutting machines [1]</a>
+</li>
+<li id="Excavating machinery components">
+<a>Excavating machinery components [0]</a>
+<ul>
+<li id="Cutting bits">
+<a>Cutting bits [1]</a>
+</li>
+</ul>
+</li>
+<li id="Excavators">
+<a>Excavators [1]</a>
+</li>
+<li id="Highwall miners">
+<a>Highwall miners [1]</a>
+</li>
+</ul>
+</li>
+<li id="Motor vehicles">
+<a>Motor vehicles [0]</a>
+<ul>
+<li id="Diesel vehicles">
+<a>Diesel vehicles [1]</a>
+</li>
+<li id="Haulage vehicles">
+<a>Haulage vehicles [0]</a>
+<ul>
+<li id="Haulage trucks">
+<a>Haulage trucks [1]</a>
+</li>
+<li id="Shuttle cars">
+<a>Shuttle cars [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Noise control equipment">
+<a>Noise control equipment [1]</a>
+<ul>
+<li id="Acoustic enclosures">
+<a>Acoustic enclosures [1]</a>
+</li>
+</ul>
+</li>
+<li id="Personal protective equipment">
+<a>Personal protective equipment [0]</a>
+<ul>
+<li id="Ear and hearing protection">
+<a>Ear and hearing protection [0]</a>
+<ul>
+<li id="Earplugs">
+<a>Earplugs [1]</a>
+</li>
+</ul>
+</li>
+<li id="Respiratory protection">
+<a>Respiratory protection [0]</a>
+<ul>
+<li id="Closed circuit breathing apparatus">
+<a>Closed circuit breathing apparatus [2]</a>
+</li>
+<li id="Self contained breathing apparatus">
+<a>Self contained breathing apparatus [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Programmable electronic systems">
+<a>Programmable electronic systems [1]</a>
+</li>
+<li id="Pumps">
+<a>Pumps [1]</a>
+</li>
+<li id="Roof fall protection">
+<a>Roof fall protection [1]</a>
+<ul>
+<li id="Protective canopies">
+<a>Protective canopies [1]</a>
+</li>
+</ul>
+</li>
+<li id="Sensing systems">
+<a>Sensing systems [0]</a>
+<ul>
+<li id="Fire sensors">
+<a>Fire sensors [0]</a>
+<ul>
+<li id="Diesel discriminating fire sensors">
+<a>Diesel discriminating fire sensors [1]</a>
+</li>
+</ul>
+</li>
+<li id="Ventilation monitoring systems">
+<a>Ventilation monitoring systems [0]</a>
+</li>
+</ul>
+</li>
+<li id="Ventilation equipment">
+<a>Ventilation equipment [0]</a>
+<ul>
+<li id="Fans">
+<a>Fans [0]</a>
+<ul>
+<li id="Propeller fans">
+<a>Propeller fans [1]</a>
+</li>
+</ul>
+</li>
+<li id="Scrubbers">
+<a>Scrubbers [2]</a>
+</li>
+<li id="Ventilation curtains">
+<a>Ventilation curtains [1]</a>
+</li>
+</ul>
+</li>
+<li id="Warning equipment">
+<a>Warning equipment [1]</a>
+<ul>
+<li id="Alarms">
+<a>Alarms [1]</a>
+<ul>
+<li id="Backup alarms">
+<a>Backup alarms [1]</a>
+</li>
+</ul>
+</li>
+<li id="Markers and signs">
+<a>Markers and signs [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Ventilation monitoring systems;^^Document types=Technology News;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

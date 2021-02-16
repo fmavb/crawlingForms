@@ -1,0 +1,27 @@
+<form id="changeEmail" target="_top">
+<div class="modal-body">
+<div class="alert alertMsg alert-warning emailAlertMsg" role="alert" tabindex="95">
+<span class="emailMsg"></span>
+</div>
+<div class="alert alertMsg alert-success emailSuccessMsg" role="alert" tabindex="96">
+<span class="successMsg"></span>
+</div>
+<div class="form-group">
+<div class="col-md-12 control-label" for="oldEmail">Old Email: <span class="oldEmail"></span></div>
+</div>
+<div class="form-group">
+<label class="col-md-4 control-label" for="newEmail">New Email</label>
+<div class="col-md-8">
+<input class="form-control input-md" id="newEmail" name="newEmail" placeholder="New Email" required="" tabindex="97" type="text"/>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<div class="col-md-7">
+<button class="btn cancelEmailChange" data-dismiss="modal" tabindex="100" type="button">Cancel</button>
+<button class="btn btn-primary" tabindex="101" type="submit">Save changes</button>
+</div>
+<div class="col-md-3 spinner" id="modalMsgSpinner">
+</div>
+</div>
+</form>

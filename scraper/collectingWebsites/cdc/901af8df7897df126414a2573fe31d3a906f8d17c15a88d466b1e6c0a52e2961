@@ -1,0 +1,41 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazards%20and%20exposures=Bodily%20motions;Standing;Fixed%20or%20awkward%20postures;Repetitive%20motions;Kneeling;%5E%5EDocument%20types=Research%20areas;&amp;sf=Tasks%20and%20activities" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazards and exposures=Bodily motions;Standing;Fixed or awkward postures;Repetitive motions;Kneeling;^^Document types=Research areas;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Tasks and activities"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Tasks and activities</h2>
+<p class="facetDesc">Jobs and other actions that people perform.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Bodily motions;Standing;Fixed or awkward postures;Repetitive motions;Kneeling;^^Document types=Research areas;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Tasks and activities">Tasks and activities</label>
+<label class="d-none" for="check_Materials handling">Materials handling</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Tasks and activities">
+<a>Tasks and activities</a>
+<ul>
+<li id="Materials handling">
+<a>Materials handling [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Bodily motions;Standing;Fixed or awkward postures;Repetitive motions;Kneeling;^^Document types=Research areas;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

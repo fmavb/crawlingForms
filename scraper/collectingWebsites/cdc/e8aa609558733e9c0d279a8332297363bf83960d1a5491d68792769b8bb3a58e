@@ -1,0 +1,81 @@
+<form action="/CANcalc/initWizard.action" id="form" method="post" name="form" target="_blank">
+<table class="wwFormTable">
+<div id="cdclogo"> </div> <br/>
+<!--<div> 
+			<picture alt="CDC. Centers for Disease Control and Prevention. CDC 24/7: Saving Lives. Protecting People.">
+   			<source  media="(min-width: 641px)" srcset="images/masthead_1-col.png" /> 
+			<source  media="(min-width: 767px)" srcset="images/masthead_subpage.png" />
+  			 <a href="http://www.cdc.gov"><img srcset="images/masthead_subpage.png 2x" src="images/masthead_1-col.png" alt="CDC. Centers for Disease Control and Prevention. CDC 24/7: Saving Lives. Protecting People."/></a>
+			</picture>
+		</div> 		
+		 <div id="logo" class="span14">
+                         	<a href="http://www.cdc.gov"><img src="/TemplatePackage/3.0/images/masthead_subpage.png" alt="CDC. Centers for Disease Control and Prevention. CDC 24/7: Saving Lives. Protecting People." class="hidden-one" /></a>
+		<br> <br> <br>    		
+		</div> -->
+<div class="rTable">
+<div class="rTableRow1">
+<div class="rTableCell1">
+<div><h2 style="color: white">Child Abuse and Neglect Prevention Program Cost Calculator</h2></div>
+<!--  <div><h2 style="color: white">Injury Cost Benefit Calculator: <br/> Child Abuse and Neglect Prevention</h2></div> -->
+</div>
+</div>
+<br/>
+<div class="rTableRow2">
+<div>
+<a href="https://www.cdc.gov/injury/wisqars/cost/child_abuse.html" target="_blank"><img src="images/book-24w.gif" style="vertical-align: Top;padding-left: 30px;"/><span style="padding-left: 5px;"> Return home and see user guide</span></a>
+<br/> <br/>
+<a href="https://www.cdc.gov/injury/wisqars/cost/child_abuse.html#cpc" target="_blank"><img src="images/book-24w.gif" style="vertical-align: Top;padding-left: 30px;"/><span style="padding-left: 5px;">Select program and recipient population</span></a>
+<br/> <br/>
+<span id="prgbox" style="vertical-align: Top; ">
+<select class="program" id="program" name="program" size="3" style="height: 70px">
+</select></span>
+</div>
+<br/>
+<div>
+<span style="padding-left: 30px;">Select state</span><span style="padding-left: 30px"><select class="states" id="states" name="states"></select></span>
+</div>
+<br/>
+<br/>
+<div>
+<a href="https://www.cdc.gov/injury/wisqars/cost/child_abuse.html#versions" target="_blank"><img src="images/book-24w.gif" style="vertical-align: Top; padding-left: 30px;"/><span style="padding-left: 1px;">
+                        Select number of children for enrollment</span></a>
+<!-- <span style="background: #FFF" id="targetProgram"></span> -->
+</div>
+<br/>
+<div id="EstPop">
+<a href="https://www.cdc.gov/injury/wisqars/cost/child_abuse.html#census" target="_blank"><span style="padding-left: 75px">
+<input checked="" id="No" name="radio1" type="radio"/><img src="images/book-24w.gif" style="vertical-align: Top; padding-left: 5px;"/> Use default estimate for selected state </span></a>
+<span id="autoEntryPopulation" style="background:#FFF"></span>
+<!-- <fmt:formatNumber type="number" maxFractionDigits="0" value="" /> 
+				<span  style="background:#FFF" value="accounting.formatNumber(autoEntryPopulation)"></span>	-->
+<span id="autoSelectedEntryPopulation" style="display:none"></span>
+<!-- <span style="padding-left: 95px">Final Population Count: <span id="autoSelectedEntryPopulation"></span></span> -->
+</div>
+<br/>
+<div>
+<a href="https://www.cdc.gov/injury/wisqars/cost/child_abuse.html#enter" target="_blank"><span style="padding-left: 75px">
+<input id="Yes" name="radio1" type="radio"/><img src="images/book-24w.gif" style="vertical-align:middle; padding-left: 5px;"/>  Enter your own estimate </span> </a>
+<input class="text" id="manualEntryPopulation" maxlength="12" name="manualEntryPopulation" size="25" type="text"/>
+<br/>
+<!-- <span style="padding-left: 5px"> No  <input type="radio" name="radio1" value="No" checked onClick="getResults(this)">  Yes 
+							<input style="padding-left: 5px" type="radio" name="radio1" value="Yes" onClick="getResults(this)">
+							</span> -->
+</div>
+<br/>
+<div>
+<span id="genbtn"> <button id="generateButtonId" name="buttonName" value="resultPage">Calculate budget and economic impact</button>
+</span>
+<br/>
+</div>
+<br/>
+<!-- <div style="padding-left: 690px">
+							<button id="generateButtonId" name="buttonName"  value="resultPage">Calculate budget and economic impact</button>
+						</div> -->
+</div>
+</div>
+<br/>
+<!--	<div>
+					<div style="display:none; width: 1100px;"  align="right" id="topLink"><a href='#'>Top</a></div>
+				</div>-->
+<div id="dialog" style="display:none;" title="Table data view"></div>
+</table></form>

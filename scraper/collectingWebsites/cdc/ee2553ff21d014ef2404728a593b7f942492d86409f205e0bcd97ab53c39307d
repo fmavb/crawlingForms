@@ -1,0 +1,10 @@
+<form id="form" role="form">
+<label for="viewDropdown">Select a dashboard:</label>
+<select id="viewDropdown" style="width: 100%;"><option selected="" value="Births and General Fertility Rates">Births and General Fertility Rates</option>
+<option value="Birth Rates by Age Group">Birth Rates by Age Group</option>
+<option value="Percent Distribution of Births by Age Group">Percent Distribution of Births by Age Group</option>
+<option value="Natality Measures by Race and Hispanic Origin">Natality Measures by Race and Hispanic Origin</option>
+<option value="Natality Measures by Hispanic Origin Subgroup">Natality Measures by Hispanic Origin Subgroup</option>
+<option value="Teen Birth Rates by Age Group for Race and Hispanic Origin">Teen Birth Rates by Age Group for Race and Hispanic Origin</option>
+<option value="Teen Birth Rates by Race and Hispanic Origin for Age Group">Teen Birth Rates by Race and Hispanic Origin for Age Group</option></select><p><input aria-controls="tablesLabel" onclick="title=$('#viewDropdown').val();updateDashboardTitle(title);switchView(title);" type="button" value="Update Dashboard"/></p>
+</form>

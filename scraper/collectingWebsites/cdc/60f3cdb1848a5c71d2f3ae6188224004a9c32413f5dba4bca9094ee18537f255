@@ -1,0 +1,30 @@
+<form action="https://tools.cdc.gov/EmailForms/validate" class="cdcemailform validate" method="GET" role="form"><input name="validator" type="hidden" value="recaptcha"/><input name="version" type="hidden" value="2"/><input name="EmailTemplate" type="hidden" value="W2ZpZWxkLTVd"/><input name="refer" type="hidden" value="https://www.cdc.gov/knowhepatitisb/FeedbackConfirmation.htm"/><input name="RCPT" type="hidden" value="gmu0@cdc.gov"/><input name="Subject" type="hidden" value="Anonymous feedback from KHB campaign site"/><fieldset><div class="forms form-group d-none"><label class="forms-label h5 open" for="field-0">Email</label><p class="bold-hint"><small class="forms-bold-hint">Please enter your email address.</small></p><input class="form-control" id="field-0" name="From" placeholder="visitor@email.com" type="text"/></div></fieldset><fieldset><div class="forms form-group"><label class="forms-label h5 open" for="field-5">Enter your anonymous website feedback here. <small class="forms-optional">(optional)</small></label><textarea class="form-control field-5" id="field-5" name="field-5" title="field-5"></textarea></div></fieldset><fieldset><div class="red-color text-red" id="recaptchaError"></div>
+<script async="" defer="" src="https://www.google.com/recaptcha/api.js" type="text/javascript"></script>
+<div class="grecaptcha-badge">
+<div class="grecaptcha-logo">
+<div class="rc-anchor rc-anchor-light">
+<div class="rc-anchor-normal-footer">
+<div>
+<span>protected by <strong>reCAPTCHA</strong></span>
+</div>
+<div class="rc-anchor-logo-large" role="presentation">
+<div class="rc-anchor-logo-img rc-anchor-logo-img-large"></div>
+</div>
+<div class="rc-anchor-pt">
+<a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a>
+<span aria-hidden="true" role="presentation"> - </span>
+<a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+	var onSubmit = function(token) {
+		//console.log('success!' + token);
+		CDC.validation.onSubmitHandler();
+	};
+</script>
+<div class="g-recaptcha" data-badge="inline" data-callback="onSubmit" data-sitekey="6LedK2wUAAAAAFa2y93zQ5xqO1LxrSibC-wgExxf" data-size="invisible" id="divcaptcha">
+</div>
+</fieldset><div class="form-actions"><button class="btn btn-primary mr-2" id="mySubmit" name="btnSubmit" type="submit">Submit</button></div></form>

@@ -1,0 +1,10 @@
+<form action="" name="govdelivery" onsubmit="mmwr_subscribe(); return false;">
+<fieldset>
+<input name="folder" type="hidden" value="USCDC_921"/>
+<label class="hidden" for="Email">Enter Email Address</label>
+<input class="email" id="Email" name="email" onfocus="this.value=''" type="text" value=""/>
+<label class="hidden" for="Submit">Submit Button</label>
+<input class="submit" id="Submit" name="subscribe_button" onclick="mmwr_subscribe()" type="button" value="Submit"/>
+<a href="http://www.cdc.gov/emailupdates/">What's this?</a>
+</fieldset>
+</form>

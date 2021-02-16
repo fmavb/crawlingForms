@@ -1,0 +1,18 @@
+<form action="https://www.monster.com/jobs/search/" class="form-inline" id="companyQuickSearch" method="get">
+<div class="form-group">
+<label class="sr-only" for="compbn">Search for Companies</label>
+<div class="input-group">
+<div class="input-group-addon mdi mdi-magnify"></div>
+<input class="form-control typeahead company-input" id="compbn" maxlength="250" name="compbn" placeholder="Search for Companies" type="text"/>
+<span class="clear-icon mdi mdi-close form-control-feedback"></span> </div>
+</div>
+<div class="form-group companies-location">
+<label class="sr-only" for="hql">Location</label>
+<div class="input-group">
+<div class="input-group-addon mdi mdi-map-marker"></div>
+<input aria-label="Location" class="form-control typeahead location-input" id="hql" maxlength="250" name="hql" placeholder="Location" type="text"/>
+<span class="clear-icon mdi mdi-close form-control-feedback"></span> </div>
+</div>
+<input id="intcidSearchCompany" name="intcid" type="hidden" value="skr_navigation_nhpso_searchCompany"/>
+<button class="btn" id="doCompanyQuickSearch" onclick="mnstDoCompanySearch();return false;" type="submit">Search</button>
+</form>

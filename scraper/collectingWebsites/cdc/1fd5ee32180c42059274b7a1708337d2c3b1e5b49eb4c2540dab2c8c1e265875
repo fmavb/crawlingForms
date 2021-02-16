@@ -1,0 +1,33 @@
+<form accept-charset="UTF-8" action="//search.cdc.gov/search/spanish/index.html" autocomplete="off" method="get">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-primary dropdown-toggle no-toggle search-button ssi d-xl-none" data-toggle="dropdown" type="button"><span>Buscar</span>
+<i aria-hidden="true" class="fi cdc-icon-magnify dropdown-menu-medium-search-icon x24"></i>
+<i aria-hidden="true" class="fi cdc-icon-close dropdown-menu-medium-close-icon x24"></i>
+</button>
+<div class="dropdown-menu dropdown-menu-right dropdown-menu-search dropdown-menu-medium-search">
+<div class="input-group">
+<input aria-label="Buscar" class="form-control" id="headerSearch" maxlength="300" name="query" placeholder="Buscar" type="text"/>
+<span class="form-control-clear cdc-icon-close"></span>
+<div class="input-group-append">
+<button class="btn search-submit" type="button"><span class="sr-only">Enviar</span>
+<i aria-hidden="true" class="fi cdc-icon-magnify x24"></i>
+</button>
+</div>
+</div>
+<div class="a-z-index fs0875">
+<span class="d-xl-none">Para una lista completa de temas: </span><a href="https://www.atsdr.cdc.gov/az/a.html" id="az-large">Índice A-Z de los CDC</a>
+</div>
+<div class="fs0875 d-md-none">
+<a href="//search.cdc.gov/search/spanish/index.html#advanced">
+						Búsqueda Avanzada
+					</a>
+</div>
+</div>
+<div class="fs0875 d-none d-md-block tp-search-advanced">
+<a href="//search.cdc.gov/search/spanish/index.html#advanced">
+					Búsqueda Avanzada
+				</a>
+</div>
+<input name="sitelimit" type="hidden" value=""/>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</form>

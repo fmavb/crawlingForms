@@ -1,0 +1,75 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazard%20prevention%20and%20control=%5E%5EDocument%20types=Contract%20reports;&amp;sf=Tasks%20and%20activities" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazard prevention and control=^^Document types=Contract reports;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Tasks and activities"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Tasks and activities</h2>
+<p class="facetDesc">Jobs and other actions that people perform.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=^^Document types=Contract reports;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Tasks and activities">Tasks and activities</label>
+<label class="d-none" for="check_Emergency management">Emergency management</label>
+<label class="d-none" for="check_Rescue">Rescue</label>
+<label class="d-none" for="check_Extraction">Extraction</label>
+<label class="d-none" for="check_Blasting">Blasting</label>
+<label class="d-none" for="check_Drilling">Drilling</label>
+<label class="d-none" for="check_Mine development">Mine development</label>
+<label class="d-none" for="check_Support tasks">Support tasks</label>
+<label class="d-none" for="check_Installation">Installation</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Tasks and activities">
+<a>Tasks and activities</a>
+<ul>
+<li id="Emergency management">
+<a>Emergency management [0]</a>
+<ul>
+<li id="Rescue">
+<a>Rescue [5]</a>
+</li>
+</ul>
+</li>
+<li id="Extraction">
+<a>Extraction [0]</a>
+<ul>
+<li id="Blasting">
+<a>Blasting [3]</a>
+</li>
+<li id="Drilling">
+<a>Drilling [1]</a>
+</li>
+</ul>
+</li>
+<li id="Mine development">
+<a>Mine development [4]</a>
+</li>
+<li id="Support tasks">
+<a>Support tasks [0]</a>
+<ul>
+<li id="Installation">
+<a>Installation [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=^^Document types=Contract reports;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

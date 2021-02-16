@@ -1,0 +1,73 @@
+<form action="https://careers.bma.org.uk/jobs/search" id="search" method="post">
+<div class="form-group">
+<label class="blq-hide" for="keywords">(e.g. job title, skills)</label>
+<input data-value="(e.g. job title, skills)" id="keywords" name="keywords" type="text" value="(e.g. job title, skills)"/>
+</div>
+<div id="location">
+<a class="input" data-anywhere="Anywhere" href="#" id="location_launcher" tabindex="0">
+                Anywhere            </a>
+<div class="input form-normal" id="location_form">
+<div class="line">
+<label for="country">Select country:</label>
+<select data-user-country="1" id="country" name="country">
+<option value="-1">All countries</option>
+<option value="1">
+                                    United Kingdom (Incl. Northern Ireland)                                </option>
+</select>
+<input id="location_geo" name="location_geo" type="hidden"/>
+</div>
+<div class="line">
+<label for="location_search">Location</label>
+<input class="tooltip-input" data-value="(e.g. post/zipcode, region, city)" id="location_search" name="location" title="" type="text" value="(e.g. post/zipcode, region, city)"/>
+</div>
+<p><a class="btn btn-block" href="#" id="location-save">Save</a></p>
+</div>
+</div>
+<div class="contracts form-group">
+<label class="blq-hide" for="contracts">Contract Type</label>
+<select id="contracts" name="contract">
+<option value="-1">All</option>
+<option value="1">Permanent</option>
+<option value="2">Fixed Term &gt;6  Months</option>
+<option value="3">Fixed Term &lt;6 Months</option>
+<option value="4">Apprentice / Trainee</option>
+</select>
+</div>
+<div class="categories form-group">
+<label class="blq-hide" for="categories">Job Category</label>
+<select id="categories" name="category">
+<option value="-1">All categories</option>
+<option value="1">
+                                Accounting/Finance                            </option>
+<option value="2">
+                                Administrative/Clerical                            </option>
+<option value="4">
+                                Business/Strategic Management                            </option>
+<option value="3">
+                                Communications                            </option>
+<option value="5">
+                                Creative/Design                            </option>
+<option value="6">
+                                Customer Support                            </option>
+<option value="7">
+                                Editorial/Writing                            </option>
+<option value="16">
+                                Facilities                            </option>
+<option value="19">
+                                Governance                            </option>
+<option value="12">
+                                Human Resources                            </option>
+<option value="14">
+                                IT/Software Development                            </option>
+<option value="15">
+                                Legal                            </option>
+<option value="17">
+                                Marketing                            </option>
+<option value="18">
+                                Product Management                            </option>
+<option value="8">
+                                Trade Union                            </option>
+</select>
+</div>
+<button class="btn btn-alt-highlight" id="submitBtn" type="submit">Search Jobs <i class="fas fa-search"></i></button>
+</form>

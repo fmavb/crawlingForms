@@ -1,0 +1,93 @@
+<form action="/DCS/" id="mainForm" method="post"><div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div><input name="__RequestVerificationToken" type="hidden" value="CO7x4JZyN3oYzUmWSG7i7EXXFNPQlLjzNCSA3mrFQHx6DrhLIhgBMe73_phpCQJ65MWJCOXo4ZrRrzMSM0HSyyswvUCyAN0XIBitGhO5yyI1"/><input data-val="true" data-val-number="The field Random1 must be a number." data-val-required="The Random1 field is required." id="Random1" name="Random1" type="hidden" value="4"/><input data-val="true" data-val-number="The field Random2 must be a number." data-val-required="The Random2 field is required." id="Random2" name="Random2" type="hidden" value="2"/><input data-val="true" data-val-date="The field DateTime must be a date." data-val-required="The DateTime field is required." id="DateTime" name="DateTime" type="hidden" value="2/11/2021 4:10:38 PM"/> <fieldset class="fieldset border">
+<legend><strong>Required Information</strong></legend>
+<div class="form-group">
+<label for="Subject">Subject:</label>
+<input aria-label="Please enter a subject." aria-required="true" class="form-control input-xxlarge" data-val="true" data-val-maxlength="Subject must be under 256 characters." data-val-maxlength-max="255" data-val-required="Please enter a subject." id="Subject" maxlength="255" name="Subject" placeholder="Enter a subject" required="required" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="Subject" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label for="From">From:</label>
+<select aria-label="From must be one of the following: Clinician, Media, Educator, General Public." aria-required="true" class="form-control input-large" data-val="true" data-val-range="Please select a valid From value" data-val-range-max="4" data-val-range-min="1" data-val-required="From must be one of the following: Clinician, Media, Educator, General Public." id="From" name="From" required="required"><option value="0">Select:</option>
+<option value="1">Clinician</option>
+<option value="2">Media</option>
+<option value="3">Educator</option>
+<option value="4">General Public</option>
+</select>
+<span class="field-validation-valid" data-valmsg-for="From" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label for="Email">Email Address:</label>
+<input aria-label="Please enter your email address." aria-required="true" autocomplete="on" class="form-control input-xxlarge" data-val="true" data-val-maxlength="Email address must be under 256 characters." data-val-maxlength-max="255" data-val-regex="Email does not appear to be a valid format." data-val-regex-pattern="^[\w-\.]{1,}\@([\da-zA-Z-]{1,}\.){1,}[\da-zA-Z-]{2,20}$" data-val-required="Please enter your email address." id="Email" maxlength="255" name="Email" placeholder="Enter your e-mail address" required="required" title="Please enter your e-mail address (required)" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label for="Email2">Re-enter your Email Address (for validation):</label>
+<input aria-label="Please enter your email address." aria-required="true" autocomplete="on" class="form-control input-xxlarge" data-val="true" data-val-equalto="The two email addresses you provided do not match." data-val-equalto-other="*.Email" data-val-maxlength="Email address must be under 256 characters." data-val-maxlength-max="255" data-val-regex="Email does not appear to be a valid format." data-val-regex-pattern="^[\w-\.]{1,}\@([\da-zA-Z-]{1,}\.){1,}[\da-zA-Z-]{2,20}$" data-val-required="Please enter your email address." id="Email2" maxlength="255" name="Email2" placeholder="Re-Enter your e-mail address" required="required" title="Please re-enter your e-mail address (required)" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="Email2" data-valmsg-replace="true"></span>
+<p style="font-size: 9pt; margin-top: 0em; font-weight: bold;">
+                Please do not provide an email address that blocks or restricts CDC-INFO from responding.
+            </p>
+</div>
+<div class="form-group">
+<label for="Question">Question:</label>
+<textarea aria-label="Please enter a question." aria-required="true" class="form-control input-xxlarge" cols="60" data-val="true" data-val-maxlength="Question must be 2000 characters or less." data-val-maxlength-max="2000" data-val-required="Please enter a question." id="Question" maxlength="2000" name="Question" required="required" rows="6" title="Question">
+</textarea>
+<span class="field-validation-valid" data-valmsg-for="Question" data-valmsg-replace="true"></span>
+<br/>
+<p style="font-size: 8pt; margin-top: -1em;">
+<span data-name="charcount">2000</span>
+<span>characters left</span>
+</p>
+</div>
+</fieldset>
+<br/>
+<fieldset class="fieldset border">
+<legend>
+<strong>Optional Information</strong>
+</legend>
+<div class="form-group">
+<label for="Name">Name:</label>
+<input class="form-control input-xxlarge" data-val="true" data-val-maxlength="Name must be under 256 characters." data-val-maxlength-max="255" id="Name" name="Name" placeholder="Enter your name" title="Please enter your name" type="text" value=""/>
+</div>
+<input data-val="true" data-val-maxlength="The field LastName must be a string or array type with a maximum length of '255'." data-val-maxlength-max="255" id="LastName" name="LastName" type="hidden" value=""/>
+<input data-val="true" data-val-maxlength="The field MiddleInitial must be a string or array type with a maximum length of '255'." data-val-maxlength-max="255" id="MiddleInitial" name="MiddleInitial" type="hidden" value=""/>
+<input id="FromText" name="FromText" type="hidden" value=""/>
+<div class="form-group">
+<label for="Title">Title/Occupation:</label>
+<input class="form-control input-xxlarge" data-val="true" data-val-maxlength="Title must be under 256 characters." data-val-maxlength-max="255" id="Title" name="Title" placeholder="Enter your occupation" title="Please enter your title or occupation" type="text" value=""/>
+</div>
+<div class="form-group">
+<div>
+<label for="SLHD" style="float:left;">Check if you are associated with a public health department or agency: </label>
+<input data-val="true" data-val-required="The Check if you are associated with a public health department or agency:  field is required." id="SLHD" name="SLHD" type="checkbox" value="true"/><input name="SLHD" type="hidden" value="false"/>
+</div>
+</div>
+<br/>
+<p>
+</p><div class="form-group">
+<label for="Organization">Company/Organization:</label>
+<input class="form-control input-xxlarge" data-val="true" data-val-maxlength="Organization must be under 256 characters." data-val-maxlength-max="255" data-val-requiredif="Company/Organization is required if the health department or agency checkbox is checked." data-val-requiredif-dependentproperty="SLHD" data-val-requiredif-dependentvalue="True" data-val-requiredif-operator="EqualTo" id="Organization" name="Organization" placeholder="Enter your company or organization" title="Please enter your company or organization" type="text" value=""/>
+</div>
+<div class="form-group">
+<label for="Phone">Phone number(s):</label>
+<input class="form-control input-xxlarge" data-val="true" data-val-maxlength="Phone number(s) must be under 256 characters." data-val-maxlength-max="255" id="Phone" name="Phone" placeholder="Enter your phone number" title="Please enter your phone number" type="text" value=""/>
+</div>
+<div class="form-group">
+<label for="OtherEmail">Additional Email(s):</label>
+<input class="form-control input-xxlarge" data-val="true" data-val-maxlength="Additional email(s) must be under 256 characters." data-val-maxlength-max="255" id="OtherEmail" name="OtherEmail" placeholder="Enter your email address" title="Please enter your email address" type="text" value=""/>
+</div>
+<div class="form-group">
+<label for="Address">Address:</label>
+<input class="form-control input-xxlarge" data-val="true" data-val-maxlength="Address must be under 256 characters." data-val-maxlength-max="255" id="Address" name="Address" placeholder="Enter your address" title="Please enter your address" type="text" value=""/>
+</div>
+</fieldset>
+<div class="form-actions">
+<div class="g-recaptcha" data-callback="onSubmit" data-sitekey="6LfuoJoUAAAAAJGXXR3DYUQfga-jRqZTK7P6OK1T" data-size="invisible"> </div>
+<input class="btn btn-primary" id="submit" name="submit" type="button" value="Send"/>
+<button class="btn" id="reset" type="button" value="Clear Form">
+            Clear Form
+        </button>
+</div>
+<span style="font-size:20px"></span>
+</form>

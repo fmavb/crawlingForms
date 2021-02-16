@@ -1,0 +1,36 @@
+<form action="/jobs" class="signed-out gtmSearchFormHome" id="main-search" method="GET" role="search">
+<div aria-labelled-by="find-job" class="search-container row-eq-height" role="group">
+<div class="col-md-4 col-sm-5 inline-form">
+<label for="keywords">What</label>
+<input aria-label='e.g. "support worker"' class="form-control" data-bind="valueFromElement: keywords, valueUpdate: 'afterkeydown', typeahead: keywords" data-minlength="1" data-qa="searchKeywordInput" data-recent-searches="true" data-typeahead-header="Job title" data-typeahead-header-class="job-title" data-typeahead-remote="/api/search/getjobtitlesautocomplete" data-val="true" data-val-regex="Please enter a valid search criteria" data-val-regex-pattern="^[a-zA-Z0-9\s_.,/#&amp;+()\-&quot;'%*\\\u00C0-\u024F\u1E00-\u1EFFÂ¡Â¢]+$" id="keywords" maxlength="255" name="keywords" placeholder='e.g. "care assistant"' tabindex="1" title='e.g. "delivery driver"' type="text" value="Financial Controller"/>
+<button data-bind="click: function() { clearValue('#keywords'); }, event: { keypress: function(data, event) { if (event.keyCode === 32 || event.keyCode === 13) { clearValue('#keywords'); } } }, attr: {'class': ('clean icon icon-clean-input' + ((keywords() == '' || keywords() == undefined) ? ' is-hidden' : ''))}" tabindex="2" type="button"></button>
+</div>
+<div class="col-md-4 col-sm-5 inline-form">
+<label for="location">Where</label>
+<input aria-label="town or postcode" class="form-control" data-bind=" attr: { name: changeLocationName } , hasFocus:isFocus, valueFromElement: location, valueUpdate: 'afterkeydown', typeahead: location" data-minlength="2" data-qa="searchLocationInput" data-typeahead-remote="/api/location/getlocationsautocomplete?p=js" data-val="true" data-val-regex="Please enter a valid location" data-val-regex-pattern="^[a-zA-Z0-9\s_.,/#&amp;+()\-&quot;'%*\\\u00C0-\u024F\u1E00-\u1EFFÂ¡Â¢]+$" id="location" maxlength="255" name="location" placeholder="town or postcode" tabindex="3" title="town or postcode" type="text" value="Swindon"/>
+<button class="icon icon-clean-input" data-bind="click: function() { clearValue('#location') }, css: {'is-hidden': location() === ''}" name="clean" tabindex="4" type="button">Clear location input</button>
+<button class="icon icon-target-location" data-bind="click: getLocation, css: {'is-hidden': location() !== ''}" tabindex="4" title="Get current location" type="button">Get current location</button>
+</div>
+<div class="col-md-2 col-sm-2">
+<button class="btn btn-primary btn-search" data-qa="searchJobsBtn" tabindex="5" type="submit">
+                Search jobs
+            </button>
+</div>
+<div class="col-md-2 hidden-sm hidden-xs text-right">
+<a class="browse-jobs" href="/popularjobs" tabindex="6">Browse jobs <i class="icon icon-arrow-blue-right"></i></a>
+</div>
+</div>
+<div class="validation validation-keywords col-md-2 col-sm-3" data-valmsg-for="keywords" data-valmsg-replace="true"></div>
+<div class="validation validation-location col-md-2 col-sm-3" data-valmsg-for="location" data-valmsg-replace="true"></div>
+<div class="similar-search-container" data-bind="visible: 3" id="similarSearchesContainer" style="display: none">
+<p id="similarSearchTitle">
+<span class="similar-searches">
+                Similar searches:
+                <i class="icon icon-alert-new-info-yellow" data-content="&lt;p&gt;Our suggested searches are based on what other jobseekers like you also searched for.&lt;/p&gt;" data-html="true" data-popover-container-id="content" data-toggle="popover"></i>
+</span>
+<a aria-labelledby="similarSearchTitle" class="similar-searches gtmSuggestedSearchesLinks" href="/jobs/management-accountant-jobs-in-swindon" title="Management Accountant jobs">Management Accountant jobs</a>
+<a aria-labelledby="similarSearchTitle" class="similar-searches gtmSuggestedSearchesLinks" href="/jobs/finance-manager-jobs-in-swindon" title="Finance Manager jobs">Finance Manager jobs</a>
+<a aria-labelledby="similarSearchTitle" class="similar-searches gtmSuggestedSearchesLinks" href="/jobs/accountant-jobs-in-swindon" title="Accountant jobs">Accountant jobs</a>
+</p>
+</div>
+</form>

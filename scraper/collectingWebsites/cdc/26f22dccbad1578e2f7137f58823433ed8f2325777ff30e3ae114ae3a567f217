@@ -1,0 +1,185 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazards%20and%20exposures=%5E%5EDocument%20types=Contracts%20and%20cooperative%20agreements;&amp;sf=Research%20methods%20and%20measures" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazards and exposures=^^Document types=Contracts and cooperative agreements;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Research methods and measures"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Research methods and measures</h2>
+<p class="facetDesc">Methods for collecting, measuring, and analyzing information and the measures used to quantify information.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=^^Document types=Contracts and cooperative agreements;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Research methods and measures">Research methods and measures</label>
+<label class="d-none" for="check_Measures">Measures</label>
+<label class="d-none" for="check_Electrical measures">Electrical measures</label>
+<label class="d-none" for="check_Voltage">Voltage</label>
+<label class="d-none" for="check_Fatalities">Fatalities</label>
+<label class="d-none" for="check_Ground stability">Ground stability</label>
+<label class="d-none" for="check_Weak rock">Weak rock</label>
+<label class="d-none" for="check_Humidity">Humidity</label>
+<label class="d-none" for="check_Injuries">Injuries</label>
+<label class="d-none" for="check_Particulate matter measures">Particulate matter measures</label>
+<label class="d-none" for="check_Particle size distribution">Particle size distribution</label>
+<label class="d-none" for="check_Respirable dust level">Respirable dust level</label>
+<label class="d-none" for="check_Pressure">Pressure</label>
+<label class="d-none" for="check_Research methods">Research methods</label>
+<label class="d-none" for="check_Analysis methods">Analysis methods</label>
+<label class="d-none" for="check_Cost-benefit analysis">Cost-benefit analysis</label>
+<label class="d-none" for="check_Data analysis">Data analysis</label>
+<label class="d-none" for="check_Statistical analysis">Statistical analysis</label>
+<label class="d-none" for="check_Modeling">Modeling</label>
+<label class="d-none" for="check_Computer simulation">Computer simulation</label>
+<label class="d-none" for="check_Numerical modeling">Numerical modeling</label>
+<label class="d-none" for="check_Risk analysis">Risk analysis</label>
+<label class="d-none" for="check_Data collection and recording">Data collection and recording</label>
+<label class="d-none" for="check_Measurement methods">Measurement methods</label>
+<label class="d-none" for="check_Monitoring">Monitoring</label>
+<label class="d-none" for="check_Environmental monitoring">Environmental monitoring</label>
+<label class="d-none" for="check_Mine monitoring">Mine monitoring</label>
+<label class="d-none" for="check_Atmospheric monitoring">Atmospheric monitoring</label>
+<label class="d-none" for="check_Personal monitoring">Personal monitoring</label>
+<label class="d-none" for="check_Seismic monitoring">Seismic monitoring</label>
+<label class="d-none" for="check_Seismic methods">Seismic methods</label>
+<label class="d-none" for="check_Seismic monitoring">Seismic monitoring</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Research methods and measures">
+<a>Research methods and measures</a>
+<ul>
+<li id="Measures">
+<a>Measures [0]</a>
+<ul>
+<li id="Electrical measures">
+<a>Electrical measures [0]</a>
+<ul>
+<li id="Voltage">
+<a>Voltage [2]</a>
+</li>
+</ul>
+</li>
+<li id="Fatalities">
+<a>Fatalities [1]</a>
+</li>
+<li id="Ground stability">
+<a>Ground stability [3]</a>
+<ul>
+<li id="Weak rock">
+<a>Weak rock [1]</a>
+</li>
+</ul>
+</li>
+<li id="Humidity">
+<a>Humidity [3]</a>
+</li>
+<li id="Injuries">
+<a>Injuries [1]</a>
+</li>
+<li id="Particulate matter measures">
+<a>Particulate matter measures [1]</a>
+<ul>
+<li id="Particle size distribution">
+<a>Particle size distribution [2]</a>
+</li>
+<li id="Respirable dust level">
+<a>Respirable dust level [6]</a>
+</li>
+</ul>
+</li>
+<li id="Pressure">
+<a>Pressure [2]</a>
+</li>
+</ul>
+</li>
+<li id="Research methods">
+<a>Research methods [0]</a>
+<ul>
+<li id="Analysis methods">
+<a>Analysis methods [0]</a>
+<ul>
+<li id="Cost-benefit analysis">
+<a>Cost-benefit analysis [1]</a>
+</li>
+<li id="Data analysis">
+<a>Data analysis [2]</a>
+<ul>
+<li id="Statistical analysis">
+<a>Statistical analysis [1]</a>
+</li>
+</ul>
+</li>
+<li id="Modeling">
+<a>Modeling [7]</a>
+<ul>
+<li id="Computer simulation">
+<a>Computer simulation [7]</a>
+</li>
+<li id="Numerical modeling">
+<a>Numerical modeling [10]</a>
+</li>
+</ul>
+</li>
+<li id="Risk analysis">
+<a>Risk analysis [1]</a>
+</li>
+</ul>
+</li>
+<li id="Data collection and recording">
+<a>Data collection and recording [1]</a>
+</li>
+<li id="Measurement methods">
+<a>Measurement methods [0]</a>
+<ul>
+<li id="Monitoring">
+<a>Monitoring [6]</a>
+<ul>
+<li id="Environmental monitoring">
+<a>Environmental monitoring [1]</a>
+</li>
+<li id="Mine monitoring">
+<a>Mine monitoring [0]</a>
+<ul>
+<li id="Atmospheric monitoring">
+<a>Atmospheric monitoring [2]</a>
+</li>
+</ul>
+</li>
+<li id="Personal monitoring">
+<a>Personal monitoring [1]</a>
+</li>
+<li id="Seismic monitoring">
+<a>Seismic monitoring [3]</a>
+</li>
+</ul>
+</li>
+<li id="Seismic methods">
+<a>Seismic methods [2]</a>
+<ul>
+<li id="Seismic monitoring">
+<a>Seismic monitoring [3]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=^^Document types=Contracts and cooperative agreements;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

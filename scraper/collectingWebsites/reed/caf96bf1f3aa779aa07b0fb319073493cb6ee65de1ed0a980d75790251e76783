@@ -1,0 +1,51 @@
+<form action="clientlogin.asp" id="login" method="post" name="login" onsubmit="return validate()">
+<table border="0" cellpadding="0" cellspacing="0" id="Table5" width="100%">
+<tr>
+<td class="sidebarsmall">Account No :</td>
+<td> </td>
+<td align="left" valign="bottom"><input id="Text1" maxlength="8" name="AccNo" onfocus="this.select()" size="15" type="text" value=""/> </td>
+</tr>
+<tr>
+<td class="sidebarsmall">Surname :</td>
+<td> </td>
+<td align="left" valign="bottom"><input id="Text2" maxlength="30" name="Surname" onfocus="this.select()" size="15" type="text" value=""/></td>
+</tr>
+<tr>
+<td class="sidebarsmall">Pin :</td>
+<td> </td>
+<td align="left" valign="bottom"><input id="Password1" maxlength="4" name="PIN" onfocus="this.select()" size="15" type="password" value=""/></td>
+</tr>
+<tr>
+<td align="right" colspan="3" style="padding-right: 10px;">
+<input class="buttonBigger" id="Submit1" name="submit" type="submit" value="submit"/>
+</td>
+</tr>
+<tr>
+<td> </td>
+</tr>
+<tr>
+<td align="center" class="sidebarsmall" colspan="3">
+                          Forgotten <b>PIN</b> <a href="client/forgottenpin.asp">click here</a>.
+                        </td>
+</tr>
+<tr>
+<td> 
+						</td>
+</tr>
+<tr>
+<td> 
+						</td>
+</tr>
+<tr>
+<td align="center" class="sidebarsmall" colspan="3">
+                          Not Yet <b>Registered</b> <a href="register_manager.asp">click here</a>.
+                        </td>
+</tr>
+</table>
+<input id="Hidden1" name="supportJavascript" type="hidden" value=""/>
+<noscript>
+<p><span class="error">Warning - OnTime requires JavaScript, which is not enabled/supported by your browser. This may cause some functions not to work correctly.</span></p>
+</noscript>
+<!-- 3053 Passing the AuthUser for timesheet history-->
+<input id="Hidden2" name="HidAuthUser" type="hidden" value=""/>
+</form>

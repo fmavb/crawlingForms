@@ -1,0 +1,10 @@
+<form action="/jobs/nothing/nothing" class="job-alerts job-alerts" data-bind="submit: jobAlert.saveAlert.bind($data, null), submitBubble: false" id="alertsForm" method="post" novalidate="true"> <div class="form-group">
+<label>Email</label>
+<input class="form-control alerts-email email-input" data-bind="value: jobAlert.alertsEmail, initializeValue: jobAlert.alertsEmail()" data-val="true" data-val-email="Please enter a valid email." data-val-required="Please enter your email." id="alerts-email" maxlength="75" name="alertsEmail" placeholder="example@email.com" type="email"/>
+<div class="validation"><span class="field-validation-valid" data-valmsg-for="alertsEmail" data-valmsg-replace="true"></span></div>
+<button class="jobalert-submit gtmJobAlertSubmit btn btn-primary" name="AlertsEmail" type="submit">Submit</button>
+</div>
+<div class="terms-message">
+                    By clicking Submit you agree to the <a href="/policies" target="_blank" title="Terms &amp; Conditions">Terms and conditions</a> applicable to our service and acknowledge that your personal data will be used in accordance with our <a href="/policies" target="_blank" title="Privacy policy">Privacy policy</a> and you will receive emails and communications about jobs and career related topics.
+                </div>
+</form>

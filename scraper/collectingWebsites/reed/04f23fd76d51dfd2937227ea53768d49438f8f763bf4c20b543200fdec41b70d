@@ -1,0 +1,16 @@
+<form action="/jobs" id="side-search" method="GET" novalidate="novalidate" role="search">
+<div class="form-group">
+<label class="sr-only">Keywords</label>
+<input aria-label="keywords e.g. web design" autocomplete="off" class="form-control tt-input" data-bind="valueFromElement: keywords, valueUpdate: 'afterkeydown', typeahead: keywords" data-minlength="1" data-recent-searches="true" data-typeahead-header="Job title" data-typeahead-header-class="job-title" data-typeahead-remote="/api/search/getjobtitlesautocomplete" id="keywords" maxlength="255" name="keywords" placeholder="Keywords e.g. web design" spellcheck="false" tabindex="1" title="keywords e.g. web design" type="text"/>
+</div>
+<div class="form-group location">
+<label class="sr-only">Town or postcode</label>
+<input aria-label="town or postcode" autocomplete="off" class="form-control tt-input" data-bind="valueFromElement: location, valueUpdate: 'afterkeydown', typeahead: location" data-minlength="2" data-typeahead-remote="/api/location/getlocationsautocomplete" id="location" maxlength="255" name="location" placeholder="Town or postcode" spellcheck="false" tabindex="2" title="town or postcode" type="text"/>
+<a class="location-link icon icon-target-location" data-bind="click: getLocation" href="#" tabindex="-1" title="Get current location">Get current location</a>
+</div>
+<div class="form-group">
+<button class="main search-button btn btn-primary company_profile_search_responsive" tabindex="4" type="submit">
+                                            Search jobs
+                                        </button>
+</div>
+</form>

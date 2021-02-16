@@ -1,0 +1,17 @@
+<form>
+<label s="">
+<strong><!--View in other --></strong>  
+    </label>
+<select name="Language" onchange="window.location.href=this.value;">
+<!--<option value="English">English</option>-->
+<option value="">Languages other than English</option>
+<option value="https://www.atsdr.cdc.gov//toxfaqs/ToxFAQS_Foreign_Language_PDFs/tfacts150_arabic.pdf">Arabic</option>
+<option value="https://www.atsdr.cdc.gov//toxfaqs/ToxFAQS_Foreign_Language_PDFs/tfacts150_chinese.pdf">Chinese</option>
+<option value="https://www.atsdr.cdc.gov//toxfaqs/ToxFAQS_Foreign_Language_PDFs/tfacts150_french.pdf">French</option>
+<option value="https://www.atsdr.cdc.gov//toxfaqs/ToxFAQS_Foreign_Language_PDFs/tfacts150_haitian.pdf">Haitian</option>
+<option value="https://www.atsdr.cdc.gov//toxfaqs/ToxFAQS_Foreign_Language_PDFs/tfacts150_korean.pdf">Korean</option>
+<option value="https://www.atsdr.cdc.gov//toxfaqs/ToxFAQS_Foreign_Language_PDFs/tfacts150_portuguese.pdf">Portuguese</option>
+<option value="https://www.atsdr.cdc.gov/es/toxfaqs/es_tfacts150.html">Spanish</option>
+<option value="https://www.atsdr.cdc.gov//toxfaqs/ToxFAQS_Foreign_Language_PDFs/tfacts150_vietnamese.pdf">Vietnamese</option>
+</select>
+</form>

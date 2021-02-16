@@ -1,0 +1,15 @@
+<form action="/api/job/emailjob" data-bind="submit: emailJob" id="email-job-form" method="post"> <h2>Senior DevOps Engineer</h2>
+<div class="form-group">
+<label for="EmailJobModel_EmailFrom">Email from</label>
+<input class="form-control" data-val="true" data-val-regex="Please enter a valid email." data-val-regex-pattern="^\s*[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\s*$" data-val-required="Please enter your email." id="EmailJobModel_EmailFrom" name="EmailJobModel.EmailFrom" placeholder="example@gmail.com" type="email" value=""/>
+<span class="validation"><span class="field-validation-valid" data-valmsg-for="EmailJobModel.EmailFrom" data-valmsg-replace="true"></span></span>
+</div>
+<div class="form-group">
+<label for="EmailJobModel_EmailTo">Email to</label>
+<input class="form-control" data-val="true" data-val-regex="Please enter a valid email." data-val-regex-pattern="^\s*[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\s*$" data-val-required="Please enter the recipient's email." id="EmailJobModel_EmailTo" name="EmailJobModel.EmailTo" placeholder="example@gmail.com" type="email" value=""/>
+<span class="validation"><span class="field-validation-valid" data-valmsg-for="EmailJobModel.EmailTo" data-valmsg-replace="true"></span></span>
+</div>
+<input data-val="true" data-val-number="The field JobId must be a number." data-val-required="The JobId field is required." id="EmailJobModel_JobId" name="EmailJobModel.JobId" type="hidden" value="42000078"/> <div class="submit-section">
+<button class="btn btn-secondary expand-button" id="submit-email-job-form" type="submit"><i class="icon icon-share-white"></i>Share job</button>
+</div>
+</form>

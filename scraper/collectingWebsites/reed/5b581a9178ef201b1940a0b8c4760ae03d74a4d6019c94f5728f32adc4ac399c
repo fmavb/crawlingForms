@@ -1,0 +1,28 @@
+<form action="https://www.reed.co.uk/account/GuestSignIn" id="sign-in-form-variant" method="post"><input name="__RequestVerificationToken" type="hidden" value="1tFSVCkb5UEeR1E2umCCe6lNxBtyKqRw9C_McyJROCnd8t_uYeyZpqdBoDlFPc8lIPKUusN5OpA0EHmittCveDESvGo1"/> <input id="return-url-variant" name="returnUrl" type="hidden" value="/jobs/legal-administrator-jobs-in-cardiff"/>
+<input id="back-url-variant" name="backUrl" type="hidden"/>
+<input data-bind="value: getQuestionsString()" id="sign-in-questions-variant" name="questions" type="hidden"/>
+<fieldset class="form-group">
+<label for="NoReg_EmailAddress">Email</label>
+<input class="form-control" data-di-field-id="Email" data-qa="emailInputTxt" data-val="true" data-val-length="The field Email must be a string with a maximum length of 75." data-val-length-max="75" data-val-remote="An account already exists with this email. Please enter your password" data-val-remote-additionalfields="*.EmailAddress,*.PasswordFilled" data-val-remote-url="/api/validation/isemailuniquenoreg" data-val-required="Please enter your email." id="noreg-email" maxlength="75" name="NoReg.EmailAddress" type="email" value=""/>
+<span class="validation"><span class="field-validation-valid" data-valmsg-for="NoReg.EmailAddress" data-valmsg-replace="true"></span></span>
+</fieldset>
+<fieldset class="form-group-v2">
+<label>Do you have a reed.co.uk account?</label>
+<div class="options options-v2">
+<input checked="checked" id="haveAccount_False" name="haveAccount" type="radio" value="false"/>
+<label class="application-questions" data-qa="noAccountRdo" for="haveAccount_False">No (You can create one later)</label>
+<input id="haveAccount_True" name="haveAccount" type="radio" value="true"/>
+<label class="application-questions" data-qa="hasAccountRdo" for="haveAccount_True">Yes, the password is...</label>
+</div>
+</fieldset>
+<fieldset class="password-fieldset is-hidden">
+<input class="form-control" data-val="true" data-val-required="Please enter your password." id="password-variant" name="NoReg.Password" type="password" value=""/>
+<span class="validation"><span class="field-validation-valid" data-valmsg-for="NoReg.Password" data-valmsg-replace="true"></span></span>
+<div>
+<a aria-label="Forgotten password" class="forgotten-password gtmJobDetailsForgottenPassword" href="https://www.reed.co.uk/account/recover" title="Forgotten your password?">Forgot your password?</a>
+</div>
+</fieldset>
+<div class="form-group no-reg-btn-container submit">
+<button class="btn btn-primary gtmJobDetailsSignIn" data-qa="continueBtn">Continue</button>
+</div>
+<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="Job_Id" name="Job.Id" type="hidden" value="0"/><input id="Job_JobTitle" name="Job.JobTitle" type="hidden" value=""/><input data-val="true" data-val-required="The PasswordFilled field is required." id="passwordFilled" name="NoReg.PasswordFilled" type="hidden" value="false"/></form>

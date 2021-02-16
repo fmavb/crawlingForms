@@ -1,0 +1,119 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazard%20prevention%20and%20control=Fire%20spread%20limitation;Smoke%20detection;Thermal%20detection;%5E%5EDocument%20types=Catalogs%20and%20indexes;&amp;sf=Hazard%20prevention%20and%20control" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazard prevention and control=Fire spread limitation;Smoke detection;Thermal detection;^^Document types=Catalogs and indexes;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Hazard prevention and control"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Hazard prevention and control</h2>
+<p class="facetDesc">Methods for eliminating/controlling hazards, reducing exposure to them, or teaching workers to avoid them.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Fire spread limitation;Smoke detection;Thermal detection;^^Document types=Catalogs and indexes;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Hazard prevention and control">Hazard prevention and control</label>
+<label class="d-none" for="check_Administrative controls">Administrative controls</label>
+<label class="d-none" for="check_Communications, location tracking, and signalling">Communications, location tracking, and signalling</label>
+<label class="d-none" for="check_Health and safety management">Health and safety management</label>
+<label class="d-none" for="check_Reporting systems">Reporting systems</label>
+<label class="d-none" for="check_Accident and injury recording">Accident and injury recording</label>
+<label class="d-none" for="check_Health and safety programs">Health and safety programs</label>
+<label class="d-none" for="check_Engineering controls">Engineering controls</label>
+<label class="d-none" for="check_Equipment design">Equipment design</label>
+<label class="d-none" for="check_Ergonomic design">Ergonomic design</label>
+<label class="d-none" for="check_Fire and explosion prevention">Fire and explosion prevention</label>
+<label class="d-none" for="check_Fire protection">Fire protection</label>
+<label class="d-none" for="check_Fire detection">Fire detection</label>
+<label class="d-none" for="check_Smoke detection">Smoke detection</label>
+<label class="d-none" for="check_Thermal detection">Thermal detection</label>
+<label class="d-none" for="check_Fire spread limitation">Fire spread limitation</label>
+<label class="d-none" for="check_Ground control">Ground control</label>
+<label class="d-none" for="check_Support design and selection">Support design and selection</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Hazard prevention and control">
+<a>Hazard prevention and control</a>
+<ul>
+<li id="Administrative controls">
+<a>Administrative controls [0]</a>
+<ul>
+<li id="Communications, location tracking, and signalling">
+<a>Communications, location tracking, and signalling [1]</a>
+</li>
+<li id="Health and safety management">
+<a>Health and safety management [0]</a>
+<ul>
+<li id="Reporting systems">
+<a>Reporting systems [0]</a>
+<ul>
+<li id="Accident and injury recording">
+<a>Accident and injury recording [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Health and safety programs">
+<a>Health and safety programs [3]</a>
+</li>
+</ul>
+</li>
+<li id="Engineering controls">
+<a>Engineering controls [0]</a>
+<ul>
+<li id="Equipment design">
+<a>Equipment design [1]</a>
+</li>
+<li id="Ergonomic design">
+<a>Ergonomic design [1]</a>
+</li>
+<li id="Fire and explosion prevention">
+<a>Fire and explosion prevention [1]</a>
+</li>
+<li id="Fire protection">
+<a>Fire protection [1]</a>
+<ul>
+<li id="Fire detection">
+<a>Fire detection [1]</a>
+<ul>
+<li id="Smoke detection">
+<a>Smoke detection [0]</a>
+</li>
+<li id="Thermal detection">
+<a>Thermal detection [0]</a>
+</li>
+</ul>
+</li>
+<li id="Fire spread limitation">
+<a>Fire spread limitation [0]</a>
+</li>
+</ul>
+</li>
+<li id="Ground control">
+<a>Ground control [0]</a>
+<ul>
+<li id="Support design and selection">
+<a>Support design and selection [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Fire spread limitation;Smoke detection;Thermal detection;^^Document types=Catalogs and indexes;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

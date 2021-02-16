@@ -1,0 +1,51 @@
+<form action="/NIOSH-Mining/?facetGroups=Equipment,%20tools,%20and%20parts=Sensing%20systems;Ventilation%20monitoring%20systems;%5E%5EDocument%20types=Contracts%20and%20cooperative%20agreements;&amp;sf=Products%20and%20materials" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Equipment, tools, and parts=Sensing systems;Ventilation monitoring systems;^^Document types=Contracts and cooperative agreements;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Products and materials"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Products and materials</h2>
+<p class="facetDesc">Naturally occurring substances, as well as substances and articles that are refined or manufactured (see also: Equipment, tools and parts).</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Sensing systems;Ventilation monitoring systems;^^Document types=Contracts and cooperative agreements;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Products and materials">Products and materials</label>
+<label class="d-none" for="check_Gases">Gases</label>
+<label class="d-none" for="check_Carbon monoxide">Carbon monoxide</label>
+<label class="d-none" for="check_Nitrogen dioxide">Nitrogen dioxide</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Products and materials">
+<a>Products and materials</a>
+<ul>
+<li id="Gases">
+<a>Gases [0]</a>
+<ul>
+<li id="Carbon monoxide">
+<a>Carbon monoxide [1]</a>
+</li>
+<li id="Nitrogen dioxide">
+<a>Nitrogen dioxide [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Sensing systems;Ventilation monitoring systems;^^Document types=Contracts and cooperative agreements;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

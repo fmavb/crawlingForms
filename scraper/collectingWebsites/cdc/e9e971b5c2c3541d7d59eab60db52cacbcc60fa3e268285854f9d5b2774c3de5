@@ -1,0 +1,11 @@
+<form class="two-up" name="myform">
+<fieldset class="personal-history-setA" data-role="controlgroup" id="checkbox">
+<legend>A personal history of—</legend>
+<p><label><input class="mr-2" name="checkboxname[]" type="checkbox" value="Thoracic radiation between ages 10 and 30."/>Thoracic radiation between ages 10 and 30.</label><br/>
+<label><input class="mr-2" name="checkboxname[]" type="checkbox" value="Lobular carcinoma in situ or atypical hyperplasia."/>Lobular carcinoma <em>in situ</em> or atypical hyperplasia.</label><br/>
+<label><input class="mr-2" name="checkboxname[]" type="checkbox" value="Breast or ovarian cancer."/>Breast or ovarian cancer.</label><br/>
+<label><input class="none-above mr-2" name="checkboxname[]" type="checkbox" value="none"/>None of these</label></p></fieldset>
+<fieldset class="personal-history-setB" data-role="controlgroup" id="checkbox"><label><input class="mr-2" name="checkboxname[]" type="checkbox" value="A known BRCA1 or BRCA2 gene mutation."/>A known BRCA1 or BRCA2 gene mutation.</label><br/>
+<label><input class="mr-2" name="checkboxname[]" type="checkbox" value="Li-Fraumeni, Cowden/PTEN, or Bannayan-Riley-Ruvalcaba syndromes or a first-degree relative with one of these syndromes."/>Li-Fraumeni, Cowden/PTEN, or Bannayan-Riley-Ruvalcaba syndromes or a first-degree relative with one of these syndromes.</label><br/>
+<label><input class="none-above mr-2" name="checkboxname[]" type="checkbox" value="none"/>None of these</label></fieldset>
+</form>

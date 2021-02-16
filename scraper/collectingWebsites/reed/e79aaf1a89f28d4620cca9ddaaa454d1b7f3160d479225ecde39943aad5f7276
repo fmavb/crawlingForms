@@ -1,0 +1,27 @@
+<form action="/courses/account/signin" method="post"><input name="__RequestVerificationToken" type="hidden" value="4LpsE0Bby7EqMb7DpiW8B0YjaT5v1SXZA7eNfx6OvDlYMYgJ9WOTQ76wHGDl7HAO7rO0anmxbZpBWyXk9_qaXufP9b41"/> <div class="form-group">
+<label for="SignInModel_Email">Email</label>
+<div>
+<input class="form-control" data-qa="emailTxt" data-val="true" data-val-length="The field Email must be a string with a maximum length of 75." data-val-length-max="75" data-val-regex="Please enter a valid email." data-val-regex-pattern="^\s*[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\s*$" data-val-required="Please enter your email." id="SignInModel_Email" name="SignInModel.Email" type="email" value=""/>
+<span class="field-validation-valid" data-valmsg-for="SignInModel.Email" data-valmsg-replace="true"></span>
+</div>
+</div>
+<div class="form-group">
+<label for="SignInModel_Password">Password</label>
+<input autocomplete="off" class="form-control showable-password" data-qa="passwordTxt" data-val="true" data-val-length="Password must not be longer than 32 characters." data-val-length-max="32" data-val-required="Please enter your password." id="SignInModel_Password" name="SignInModel.Password" type="password"/>
+<span class="field-validation-valid" data-valmsg-for="SignInModel.Password" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<div class="custom-control custom-checkbox">
+<input checked="checked" class="custom-control-input" data-val="true" data-val-required="The Keep me signed in field is required." id="SignInModel_RememberMe" name="SignInModel.RememberMe" type="checkbox" value="true"/><input name="SignInModel.RememberMe" type="hidden" value="false"/>
+<label class="custom-control-label" for="SignInModel_RememberMe">Keep me signed in</label>
+</div>
+<span class="field-validation-valid" data-valmsg-for="SignInModel.RememberMe" data-valmsg-replace="true"></span>
+</div>
+<input id="SignInModel_ReturnUrl" name="SignInModel.ReturnUrl" type="hidden" value="/courses/buy-now/itil/online/tutor-support/payment-options/beginner/intermediate/advanced/wales"/> <div class="form-group btn-container">
+<input class="btn btn-primary btn-signin btn-block" data-gtm="sign_in_click" data-gtm-value="email" data-qa="signInBtn" type="submit" value="Sign in"/>
+<a class="btn btn-link btn-block" href="/account/recover">Forgotten your password?</a>
+</div>
+<div class="text-center">
+                                Don't have an account? <a data-bind="click: showRegister" href="/courses/account/signin#register">Register</a>
+</div>
+</form>

@@ -1,0 +1,57 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazard%20prevention%20and%20control=Noise%20cancellation;%5E%5EDocument%20types=&amp;sf=Equipment,%20tools,%20and%20parts" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazard prevention and control=Noise cancellation;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Equipment, tools, and parts"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Equipment, tools, and parts</h2>
+<p class="facetDesc">Machines, devices, tools, and components used for a purpose (see also: Products and materials).</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Noise cancellation;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Equipment, tools, and parts">Equipment, tools, and parts</label>
+<label class="d-none" for="check_Communications equipment">Communications equipment</label>
+<label class="d-none" for="check_Node-based communications systems">Node-based communications systems</label>
+<label class="d-none" for="check_Wireless node communications systems">Wireless node communications systems</label>
+<label class="d-none" for="check_Through-the-earth communications systems">Through-the-earth communications systems</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Equipment, tools, and parts">
+<a>Equipment, tools, and parts</a>
+<ul>
+<li id="Communications equipment">
+<a>Communications equipment [0]</a>
+<ul>
+<li id="Node-based communications systems">
+<a>Node-based communications systems [0]</a>
+<ul>
+<li id="Wireless node communications systems">
+<a>Wireless node communications systems [1]</a>
+</li>
+</ul>
+</li>
+<li id="Through-the-earth communications systems">
+<a>Through-the-earth communications systems [3]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Noise cancellation;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

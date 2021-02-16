@@ -1,0 +1,17 @@
+<form action="/Account/LogOn" autocomplete="off" id="PartialLogOnForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="lvkqjJMASUWt8gR7zW5eh-Uyhj-neTD1nVYR9Jmdn-XyXdnIG5byAdafy9CSXeq9P2YgapINebxKBk4p55QEdrzC-P0AboB5dtLmBv_l8cg1"/> <div class="row"></div>
+<div class="row">
+<div class="col-12 pull-right">
+<div style="text-align: right;">
+<input data-val="true" data-val-required="Email Address field is required." id="Email" name="Email" placeholder="EMAIL or USERNAME" style="width:175px;" type="text" value=""/>
+<input data-val="true" data-val-required="Password field is required." id="Password" name="Password" placeholder="PASSWORD" style="width:175px" type="password"/>
+<button class="blueButton hidden-one hidden-two" id="LogOnPartialSubmitButton" style="margin-bottom: 10px;" type="submit">Sign In</button>
+<button class="blueButton hidden-three hidden-four" id="LogOnPartialSubmitButton" style="margin-bottom: 10px;" type="submit">Sign In</button>
+<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>   <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+<br/>
+<a href="/Account/Registration">Create Account</a> |
+                <a href="/Account/ForgotPassword">Forgot Password?</a> |
+                <a href="/Account/ForgotUsername">Forgot Username?</a>
+</div>
+</div>
+</div>
+</form>

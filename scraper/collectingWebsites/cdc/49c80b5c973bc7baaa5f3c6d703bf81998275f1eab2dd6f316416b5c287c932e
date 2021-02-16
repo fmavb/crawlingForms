@@ -1,0 +1,217 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazard%20prevention%20and%20control=%5E%5EDocument%20types=Training%20materials;&amp;sf=Equipment,%20tools,%20and%20parts" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazard prevention and control=^^Document types=Training materials;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Equipment, tools, and parts"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Equipment, tools, and parts</h2>
+<p class="facetDesc">Machines, devices, tools, and components used for a purpose (see also: Products and materials).</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=^^Document types=Training materials;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Equipment, tools, and parts">Equipment, tools, and parts</label>
+<label class="d-none" for="check_Clothes cleaning systems">Clothes cleaning systems</label>
+<label class="d-none" for="check_Communications equipment">Communications equipment</label>
+<label class="d-none" for="check_Leaky feeder communications systems">Leaky feeder communications systems</label>
+<label class="d-none" for="check_Medium frequency communications systems">Medium frequency communications systems</label>
+<label class="d-none" for="check_Mine phones">Mine phones</label>
+<label class="d-none" for="check_Node-based communications systems">Node-based communications systems</label>
+<label class="d-none" for="check_Wireless node communications systems">Wireless node communications systems</label>
+<label class="d-none" for="check_Radios">Radios</label>
+<label class="d-none" for="check_Through-the-earth communications systems">Through-the-earth communications systems</label>
+<label class="d-none" for="check_Dust collectors">Dust collectors</label>
+<label class="d-none" for="check_Electrical equipment">Electrical equipment</label>
+<label class="d-none" for="check_Batteries">Batteries</label>
+<label class="d-none" for="check_Electronic tracking systems">Electronic tracking systems</label>
+<label class="d-none" for="check_Zone-based electronic tracking systems">Zone-based electronic tracking systems</label>
+<label class="d-none" for="check_RFID systems">RFID systems</label>
+<label class="d-none" for="check_Escape and rescue equipment">Escape and rescue equipment</label>
+<label class="d-none" for="check_Escape lifelines">Escape lifelines</label>
+<label class="d-none" for="check_Refuge chambers">Refuge chambers</label>
+<label class="d-none" for="check_Guards">Guards</label>
+<label class="d-none" for="check_Fixed guards">Fixed guards</label>
+<label class="d-none" for="check_Instruments">Instruments</label>
+<label class="d-none" for="check_Dust measurement instruments">Dust measurement instruments</label>
+<label class="d-none" for="check_CDEM">CDEM</label>
+<label class="d-none" for="check_Ladders">Ladders</label>
+<label class="d-none" for="check_Motor vehicles">Motor vehicles</label>
+<label class="d-none" for="check_Haulage vehicles">Haulage vehicles</label>
+<label class="d-none" for="check_Haulage trucks">Haulage trucks</label>
+<label class="d-none" for="check_Permissible housings">Permissible housings</label>
+<label class="d-none" for="check_Personal protective equipment">Personal protective equipment</label>
+<label class="d-none" for="check_Ear and hearing protection">Ear and hearing protection</label>
+<label class="d-none" for="check_Earplugs">Earplugs</label>
+<label class="d-none" for="check_Foot and leg protection">Foot and leg protection</label>
+<label class="d-none" for="check_Leg protection">Leg protection</label>
+<label class="d-none" for="check_Knee pads">Knee pads</label>
+<label class="d-none" for="check_Respiratory protection">Respiratory protection</label>
+<label class="d-none" for="check_Closed circuit breathing apparatus">Closed circuit breathing apparatus</label>
+<label class="d-none" for="check_Self contained breathing apparatus">Self contained breathing apparatus</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Equipment, tools, and parts">
+<a>Equipment, tools, and parts</a>
+<ul>
+<li id="Clothes cleaning systems">
+<a>Clothes cleaning systems [1]</a>
+</li>
+<li id="Communications equipment">
+<a>Communications equipment [0]</a>
+<ul>
+<li id="Leaky feeder communications systems">
+<a>Leaky feeder communications systems [3]</a>
+</li>
+<li id="Medium frequency communications systems">
+<a>Medium frequency communications systems [2]</a>
+</li>
+<li id="Mine phones">
+<a>Mine phones [1]</a>
+</li>
+<li id="Node-based communications systems">
+<a>Node-based communications systems [1]</a>
+<ul>
+<li id="Wireless node communications systems">
+<a>Wireless node communications systems [5]</a>
+</li>
+</ul>
+</li>
+<li id="Radios">
+<a>Radios [2]</a>
+</li>
+<li id="Through-the-earth communications systems">
+<a>Through-the-earth communications systems [3]</a>
+</li>
+</ul>
+</li>
+<li id="Dust collectors">
+<a>Dust collectors [1]</a>
+</li>
+<li id="Electrical equipment">
+<a>Electrical equipment [0]</a>
+<ul>
+<li id="Batteries">
+<a>Batteries [1]</a>
+</li>
+</ul>
+</li>
+<li id="Electronic tracking systems">
+<a>Electronic tracking systems [1]</a>
+<ul>
+<li id="Zone-based electronic tracking systems">
+<a>Zone-based electronic tracking systems [0]</a>
+<ul>
+<li id="RFID systems">
+<a>RFID systems [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Escape and rescue equipment">
+<a>Escape and rescue equipment [1]</a>
+<ul>
+<li id="Escape lifelines">
+<a>Escape lifelines [1]</a>
+</li>
+<li id="Refuge chambers">
+<a>Refuge chambers [6]</a>
+</li>
+</ul>
+</li>
+<li id="Guards">
+<a>Guards [0]</a>
+<ul>
+<li id="Fixed guards">
+<a>Fixed guards [1]</a>
+</li>
+</ul>
+</li>
+<li id="Instruments">
+<a>Instruments [0]</a>
+<ul>
+<li id="Dust measurement instruments">
+<a>Dust measurement instruments [0]</a>
+<ul>
+<li id="CDEM">
+<a>CDEM [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Ladders">
+<a>Ladders [1]</a>
+</li>
+<li id="Motor vehicles">
+<a>Motor vehicles [0]</a>
+<ul>
+<li id="Haulage vehicles">
+<a>Haulage vehicles [0]</a>
+<ul>
+<li id="Haulage trucks">
+<a>Haulage trucks [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Permissible housings">
+<a>Permissible housings [1]</a>
+</li>
+<li id="Personal protective equipment">
+<a>Personal protective equipment [0]</a>
+<ul>
+<li id="Ear and hearing protection">
+<a>Ear and hearing protection [1]</a>
+<ul>
+<li id="Earplugs">
+<a>Earplugs [1]</a>
+</li>
+</ul>
+</li>
+<li id="Foot and leg protection">
+<a>Foot and leg protection [0]</a>
+<ul>
+<li id="Leg protection">
+<a>Leg protection [0]</a>
+<ul>
+<li id="Knee pads">
+<a>Knee pads [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Respiratory protection">
+<a>Respiratory protection [0]</a>
+<ul>
+<li id="Closed circuit breathing apparatus">
+<a>Closed circuit breathing apparatus [1]</a>
+</li>
+<li id="Self contained breathing apparatus">
+<a>Self contained breathing apparatus [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=^^Document types=Training materials;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

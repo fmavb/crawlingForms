@@ -1,0 +1,70 @@
+<form action="/courses/courseview/report?courseId=247359" id="reportCourseForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="j6BBNTeDsJL0oFb2o0BEYvENh-7q1xQim1JjuiM_IEUGryDJCEP9Wu5W2l1b3eKEsuRHQBo0sbILDBRhmN0juQeCWpI1"/> <div data-bind="visible: !reportTitle()">
+<div class="alert alert-info">
+                            If you are contacting us about a refund, please use the <a href="/courses/help/"><strong>'Contact us'</strong></a> form in the footer
+                        </div>
+<p class="form-text text-muted">What's the reason for reporting this course?</p>
+<div>
+<ul class="list-unstyled" id="reportCourseTopics">
+<li>
+<a data-bind="click: courseTopicClick" data-topic="Price" href="#">The price I’ve been quoted is different to the price on reed.co.uk</a>
+</li>
+<li>
+<a data-bind="click: courseTopicClick" data-topic="Qualification" href="#">Incorrect qualification information</a>
+</li>
+<li>
+<a data-bind="click: courseTopicClick" data-topic="Description" href="#">Misleading course description</a>
+</li>
+<li>
+<a data-bind="click: courseTopicClick" data-topic="SpellingOrGrammar" href="#">Poor spelling/grammar in the description</a>
+</li>
+<li>
+<a data-bind="click: courseTopicClick" data-topic="NoReply" href="#">The provider hasn't replied to my message</a>
+</li>
+<li>
+<a data-bind="click: courseTopicClick" data-topic="MissingInformation" href="#">Important information is missing</a>
+</li>
+<li>
+<a data-bind="click: courseTopicClick" data-topic="NotHappy" href="#">I’ve enrolled on this course and am not happy with it</a>
+</li>
+<li>
+<a data-bind="click: courseTopicClick" data-topic="Other" href="#">Something else</a>
+</li>
+</ul>
+</div>
+</div>
+<div data-bind="visible: reportTitle()">
+<div class="form-group">
+<a class="report-back-link" data-bind="click: reportTitle('')" href="#"><span class="right-chevron"></span>Back</a>
+<h6 data-bind="text: reportTitle"></h6>
+<input data-bind="value: reportTopic" id="ReportCourse_Topic" name="ReportCourse.Topic" type="hidden" value=""/>
+<p>Please tell us how we can get in touch with you if we need more information. Your details will not be shared with the provider, and we won't contact you if we have all the information we need to investigate this.</p>
+<div class="form-group">
+<label class="required-field" for="ReportCourse_Name">Name</label>
+<input class="form-control" data-val="true" data-val-length="Name must not be longer than 50 characters." data-val-length-max="50" data-val-notcontainemail="Name cannot contain email addresses." data-val-notcontainemail-regex="[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" data-val-notcontainphone="Name cannot contain phone numbers." data-val-notcontainphone-regex="((\(?\+?\d\)?)[\d\(\)][ \d\(\)]{9,12}[\d])|((\(?\+?\d\)?)[\-\d\(\)]{9,14}[\d])|((\(?\+?\d\)?)[\.\d\(\)]{9,14}[\d])" data-val-notcontainurl="Name cannot contain a url." data-val-notcontainurl-regex="\b((https?|ftp):\/\/)?\d+\.\d+\.\d+\.\d+|((https?|ftp):\/\/|www\.)\S+\.[a-z]{2,6}\b|[a-z0-9-\.]{4,}\.(aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|travel|tv|co\.uk|ltd\.uk|org\.uk)" data-val-required="Please provide your name." id="ReportCourse_Name" name="ReportCourse.Name" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="ReportCourse.Name" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label class="required-field" for="ReportCourse_EmailAddress">Email</label>
+<input class="form-control" data-val="true" data-val-brazecompatibleemail="Please enter a valid email address." data-val-length="Email must not be longer than 75 characters." data-val-length-max="75" data-val-notcontainphone="Email cannot contain phone numbers." data-val-notcontainphone-regex="((\(?\+?\d\)?)[\d\(\)][ \d\(\)]{9,12}[\d])|((\(?\+?\d\)?)[\-\d\(\)]{9,14}[\d])|((\(?\+?\d\)?)[\.\d\(\)]{9,14}[\d])" data-val-required="Please provide an email address where we can contact you." id="ReportCourse_EmailAddress" name="ReportCourse.EmailAddress" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="ReportCourse.EmailAddress" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label class="required-field" for="ReportCourse_Phone">Phone number</label>
+<input class="form-control" data-val="true" data-val-length="Phone number must be between 11 and 20 characters." data-val-length-max="20" data-val-length-min="11" data-val-regex="Please enter a valid phone number." data-val-regex-pattern="^(?!([0-9])(?=\1+$)[0-9]+)[^\s](\(?\+?[0-9]+\)?)?[0-9_ \-\(\)]+$" data-val-required="Please enter your phone number." id="ReportCourse_Phone" name="ReportCourse.Phone" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="ReportCourse.Phone" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group">
+<label class="required-field" for="ReportCourse_Report">Please describe the issue in more detail</label>
+<textarea class="form-control" cols="20" data-val="true" data-val-length="Report must not be longer than 150 characters." data-val-length-max="150" data-val-notcontainemail="Report cannot contain email addresses." data-val-notcontainemail-regex="[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" data-val-notcontainphone="Report cannot contain phone numbers." data-val-notcontainphone-regex="((\(?\+?\d\)?)[\d\(\)][ \d\(\)]{9,12}[\d])|((\(?\+?\d\)?)[\-\d\(\)]{9,14}[\d])|((\(?\+?\d\)?)[\.\d\(\)]{9,14}[\d])" data-val-notcontainurl="Report cannot contain a url." data-val-notcontainurl-regex="\b((https?|ftp):\/\/)?\d+\.\d+\.\d+\.\d+|((https?|ftp):\/\/|www\.)\S+\.[a-z]{2,6}\b|[a-z0-9-\.]{4,}\.(aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|travel|tv|co\.uk|ltd\.uk|org\.uk)" data-val-required="Please provide a description of your issue." id="ReportCourse_Report" name="ReportCourse.Report" rows="2">
+</textarea>
+<span class="field-validation-valid" data-valmsg-for="ReportCourse.Report" data-valmsg-replace="true"></span>
+</div>
+<input autocomplete="nope" class="form-control" data-val="true" id="ReportTopic" name="ReportTopic" tabindex="-1" type="text" value=""/>
+<p><span class="required-field"></span>required</p>
+<div class="modal-footer">
+<button class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+<button class="btn btn-primary" data-bind="click: submitReport">Send</button>
+</div>
+</div>
+</div>
+</form>

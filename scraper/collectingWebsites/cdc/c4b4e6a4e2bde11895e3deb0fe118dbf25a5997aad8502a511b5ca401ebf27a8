@@ -1,0 +1,183 @@
+<form action="/NIOSH-Mining/?facetGroups=Equipment,%20tools,%20and%20parts=%5E%5EDocument%20types=Training%20materials;&amp;sf=Hazard%20prevention%20and%20control" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Equipment, tools, and parts=^^Document types=Training materials;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Hazard prevention and control"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Hazard prevention and control</h2>
+<p class="facetDesc">Methods for eliminating/controlling hazards, reducing exposure to them, or teaching workers to avoid them.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=^^Document types=Training materials;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Hazard prevention and control">Hazard prevention and control</label>
+<label class="d-none" for="check_Administrative controls">Administrative controls</label>
+<label class="d-none" for="check_Communications, location tracking, and signalling">Communications, location tracking, and signalling</label>
+<label class="d-none" for="check_Communications">Communications</label>
+<label class="d-none" for="check_Emergency communications">Emergency communications</label>
+<label class="d-none" for="check_Personnel tracking">Personnel tracking</label>
+<label class="d-none" for="check_Signalling">Signalling</label>
+<label class="d-none" for="check_Hand signalling">Hand signalling</label>
+<label class="d-none" for="check_Emergency planning">Emergency planning</label>
+<label class="d-none" for="check_Health and safety programs">Health and safety programs</label>
+<label class="d-none" for="check_Behavior safety programs">Behavior safety programs</label>
+<label class="d-none" for="check_Ergonomics programs">Ergonomics programs</label>
+<label class="d-none" for="check_Personal hygiene">Personal hygiene</label>
+<label class="d-none" for="check_Clothes cleaning">Clothes cleaning</label>
+<label class="d-none" for="check_Education and training">Education and training</label>
+<label class="d-none" for="check_Annual refresher training">Annual refresher training</label>
+<label class="d-none" for="check_Group training">Group training</label>
+<label class="d-none" for="check_Hazard training">Hazard training</label>
+<label class="d-none" for="check_Individual training">Individual training</label>
+<label class="d-none" for="check_Job skills training">Job skills training</label>
+<label class="d-none" for="check_Training plans">Training plans</label>
+<label class="d-none" for="check_Training theory and methodology">Training theory and methodology</label>
+<label class="d-none" for="check_Engineering controls">Engineering controls</label>
+<label class="d-none" for="check_Dust control">Dust control</label>
+<label class="d-none" for="check_Removal of deposited dust">Removal of deposited dust</label>
+<label class="d-none" for="check_Equipment design">Equipment design</label>
+<label class="d-none" for="check_Ergonomic design">Ergonomic design</label>
+<label class="d-none" for="check_Fire and explosion prevention">Fire and explosion prevention</label>
+<label class="d-none" for="check_Explosion suppression">Explosion suppression</label>
+<label class="d-none" for="check_Rock dusting">Rock dusting</label>
+<label class="d-none" for="check_Physical barriers">Physical barriers</label>
+<label class="d-none" for="check_Workstation design">Workstation design</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Hazard prevention and control">
+<a>Hazard prevention and control</a>
+<ul>
+<li id="Administrative controls">
+<a>Administrative controls [0]</a>
+<ul>
+<li id="Communications, location tracking, and signalling">
+<a>Communications, location tracking, and signalling [2]</a>
+<ul>
+<li id="Communications">
+<a>Communications [4]</a>
+<ul>
+<li id="Emergency communications">
+<a>Emergency communications [6]</a>
+</li>
+</ul>
+</li>
+<li id="Personnel tracking">
+<a>Personnel tracking [5]</a>
+</li>
+<li id="Signalling">
+<a>Signalling [1]</a>
+<ul>
+<li id="Hand signalling">
+<a>Hand signalling [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Emergency planning">
+<a>Emergency planning [5]</a>
+</li>
+<li id="Health and safety programs">
+<a>Health and safety programs [2]</a>
+<ul>
+<li id="Behavior safety programs">
+<a>Behavior safety programs [1]</a>
+</li>
+<li id="Ergonomics programs">
+<a>Ergonomics programs [1]</a>
+</li>
+</ul>
+</li>
+<li id="Personal hygiene">
+<a>Personal hygiene [0]</a>
+<ul>
+<li id="Clothes cleaning">
+<a>Clothes cleaning [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Education and training">
+<a>Education and training [0]</a>
+<ul>
+<li id="Annual refresher training">
+<a>Annual refresher training [1]</a>
+</li>
+<li id="Group training">
+<a>Group training [4]</a>
+</li>
+<li id="Hazard training">
+<a>Hazard training [4]</a>
+</li>
+<li id="Individual training">
+<a>Individual training [2]</a>
+</li>
+<li id="Job skills training">
+<a>Job skills training [2]</a>
+</li>
+<li id="Training plans">
+<a>Training plans [4]</a>
+</li>
+<li id="Training theory and methodology">
+<a>Training theory and methodology [2]</a>
+</li>
+</ul>
+</li>
+<li id="Engineering controls">
+<a>Engineering controls [0]</a>
+<ul>
+<li id="Dust control">
+<a>Dust control [0]</a>
+<ul>
+<li id="Removal of deposited dust">
+<a>Removal of deposited dust [1]</a>
+</li>
+</ul>
+</li>
+<li id="Equipment design">
+<a>Equipment design [1]</a>
+</li>
+<li id="Ergonomic design">
+<a>Ergonomic design [1]</a>
+</li>
+<li id="Fire and explosion prevention">
+<a>Fire and explosion prevention [1]</a>
+<ul>
+<li id="Explosion suppression">
+<a>Explosion suppression [0]</a>
+<ul>
+<li id="Rock dusting">
+<a>Rock dusting [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Physical barriers">
+<a>Physical barriers [1]</a>
+</li>
+<li id="Workstation design">
+<a>Workstation design [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=^^Document types=Training materials;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

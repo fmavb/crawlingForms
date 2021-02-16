@@ -1,0 +1,10 @@
+<form action="/account/AccountRecoveryOptions" class="forgotten-password-form" id="forgotten-password-form" method="post"><input name="__RequestVerificationToken" type="hidden" value="u0Bh50MTVwbhTTpaqUxFjeC5NjZLxgkoTyLn8FRIPLy3lhOn8IZZ6w_3IUE2IaQ3sVAnjH5t5p0AwCuIKTs1-RmHlic1"/> <div class="form-group">
+<label for="Email">Email</label>
+<input class="form-control" data-bind="value: emailAddress" data-val="true" data-val-regex="Please enter a valid email." data-val-regex-pattern="^\s*[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\s*$" data-val-remote="This email address could not be found. Please try again or &lt;a href='/account/register'&gt;Register Now&lt;/a&gt;." data-val-remote-additionalfields="*.Email" data-val-remote-url="/api/validation/IsUsernameRegistered" data-val-required="Please enter your email." id="Email" name="Email" type="email" value=""/>
+<div class="validation">
+<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+</div>
+</div>
+<input id="BackUrlForgottenPassword" name="SearchUrl" type="hidden" value="/account/signin?searchUrl=%2Faccount%2Fsignin"/><input id="ReturlUrlForgottenPassword" name="ReturnUrl" type="hidden" value=""/>
+<button class="btn btn-primary g-recaptcha" data-badge="inline" data-callback="recaptchaCallback" data-error-callback="resetReCaptchaCallback" data-expired-callback="resetReCaptchaCallback" data-gtm="forgotten_password_sign_in" data-gtm-value="forgotten_password_email_continue" data-sitekey="6Lcg4iYUAAAAAMFBeuRoGU35RiCJ-EMbtkUbhyCH" id="recover-button" type="submit">Continue</button>
+</form>

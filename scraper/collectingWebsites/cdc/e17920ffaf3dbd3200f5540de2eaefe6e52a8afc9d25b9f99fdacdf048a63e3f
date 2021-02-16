@@ -1,0 +1,11 @@
+<form action="javascript:getDataForEmail();" id="subscribe" target="_top">
+<div class="form-inline">
+<label for="userID">Email Address</label>
+<input class="secret" id="name" type="text"/>
+<input class="form-control ml-1" id="userID3" required="" type="email"/>
+<input id="from" type="hidden" value="samepage"/>
+<div class="red-color text-red" id="recaptchaError"></div>
+<button class="btn btn-primary ml-2" type="submit">Register</button>
+</div>
+<p></p>
+</form>

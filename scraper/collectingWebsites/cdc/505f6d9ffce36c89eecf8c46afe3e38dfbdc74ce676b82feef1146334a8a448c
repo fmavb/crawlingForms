@@ -1,0 +1,95 @@
+<form action="/NIOSH-Mining/?facetGroups=Equipment,%20tools,%20and%20parts=Fire%20sensors;Diesel%20discriminating%20fire%20sensors;%5E%5EDocument%20types=&amp;sf=Hazard%20prevention%20and%20control" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Equipment, tools, and parts=Fire sensors;Diesel discriminating fire sensors;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Hazard prevention and control"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Hazard prevention and control</h2>
+<p class="facetDesc">Methods for eliminating/controlling hazards, reducing exposure to them, or teaching workers to avoid them.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Fire sensors;Diesel discriminating fire sensors;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Hazard prevention and control">Hazard prevention and control</label>
+<label class="d-none" for="check_Administrative controls">Administrative controls</label>
+<label class="d-none" for="check_Communications, location tracking, and signalling">Communications, location tracking, and signalling</label>
+<label class="d-none" for="check_Signalling">Signalling</label>
+<label class="d-none" for="check_Engineering controls">Engineering controls</label>
+<label class="d-none" for="check_Fire and explosion prevention">Fire and explosion prevention</label>
+<label class="d-none" for="check_Fire protection">Fire protection</label>
+<label class="d-none" for="check_Fire detection">Fire detection</label>
+<label class="d-none" for="check_CO detection">CO detection</label>
+<label class="d-none" for="check_Smoke detection">Smoke detection</label>
+<label class="d-none" for="check_Thermal detection">Thermal detection</label>
+<label class="d-none" for="check_Fire suppression">Fire suppression</label>
+<label class="d-none" for="check_Ventilation">Ventilation</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Hazard prevention and control">
+<a>Hazard prevention and control</a>
+<ul>
+<li id="Administrative controls">
+<a>Administrative controls [0]</a>
+<ul>
+<li id="Communications, location tracking, and signalling">
+<a>Communications, location tracking, and signalling [0]</a>
+<ul>
+<li id="Signalling">
+<a>Signalling [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Engineering controls">
+<a>Engineering controls [0]</a>
+<ul>
+<li id="Fire and explosion prevention">
+<a>Fire and explosion prevention [2]</a>
+</li>
+<li id="Fire protection">
+<a>Fire protection [0]</a>
+<ul>
+<li id="Fire detection">
+<a>Fire detection [6]</a>
+<ul>
+<li id="CO detection">
+<a>CO detection [5]</a>
+</li>
+<li id="Smoke detection">
+<a>Smoke detection [6]</a>
+</li>
+<li id="Thermal detection">
+<a>Thermal detection [1]</a>
+</li>
+</ul>
+</li>
+<li id="Fire suppression">
+<a>Fire suppression [1]</a>
+</li>
+</ul>
+</li>
+<li id="Ventilation">
+<a>Ventilation [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Fire sensors;Diesel discriminating fire sensors;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

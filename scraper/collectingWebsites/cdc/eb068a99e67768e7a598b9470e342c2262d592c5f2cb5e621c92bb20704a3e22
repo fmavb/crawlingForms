@@ -1,0 +1,12 @@
+<form action="/browse" method="get">
+<fieldset>
+<label>
+<input class="searchbox-input" name="q" placeholder="Search" type="text"/>
+<span class="searchbox-label">Search</span>
+</label>
+<button class="search-button site-chrome-btn btn-simple" type="submit" value="">
+<span class="socrata-icon-search" title="Search"></span>
+</button>
+<input name="sortBy" type="hidden" value="relevance"/>
+</fieldset>
+</form>

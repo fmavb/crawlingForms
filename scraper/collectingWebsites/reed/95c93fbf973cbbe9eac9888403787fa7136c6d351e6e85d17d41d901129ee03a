@@ -1,0 +1,14 @@
+<form action="/courses/all" class="clearfix" id="miniSearchForm" method="GET">
+<div class="row search-bar-input-group">
+<div class="col-10 pr-0 mb-4">
+<label class="sr-only" for="miniKeywordInput">Search</label>
+<input class="form-control" data-bind="value: keywords, keywordAutocomplete: keywords, onSuggestionClick: search" id="miniKeywordInput" maxlength="255" name="keywords" placeholder="Subject or qualification, e.g. IT" type="text"/>
+</div>
+<div class="col-2 pl-0">
+<button class="btn btn-primary" data-bind="click: search" id="miniSearchButton" onclick="dataLayer.push({ 'event': 'keywordSearchButtonClick' });" type="submit">
+<span class="search-icon"></span>
+<span class="sr-only">Search</span>
+</button>
+</div>
+</div>
+</form>

@@ -1,0 +1,17 @@
+<form action="https://www.reed.co.uk/jobs" class="search-forms__container search1861845045" id="search" method="get"><h3 class="search-forms__title">Find a job</h3> <label class="search-forms__label" for="">What</label> <input class="search-forms__inp" name="keywords" placeholder=" e.g. 'office assistant'" required="required" type="text"/> <label class="search-forms__label" for="">Where</label><div class="form__map"> <input class="search-forms__inp" name="location" placeholder=" town or postcode" type="text"/></div> <input class="search-forms__submit" type="submit" value="Search jobs"/><div class="browse-jobs-wrapper"><a class="search-forms__link" href="https://www.reed.co.uk/popularjobs">Browse all jobs</a></div> <script type="application/javascript">const id = 'search1861845045';
+      const form = document.querySelector('.' + id);
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const self = event.currentTarget;
+        const keyword = self.querySelector('input[name="keywords"]').value;
+        const location = self.querySelector('input[name="location"]') ? self.querySelector('input[name="location"]').value : '';
+        dataLayer.push({
+          event: 'gtmRunJobSearchTopbar',
+          eventCategory: 'career_advice_search',
+          eventAction: 'job_search_topbar',
+          jobSearchKeyword: keyword,
+          jobSearchLocation: location
+        });
+        form.submit();
+      });</script> </form>

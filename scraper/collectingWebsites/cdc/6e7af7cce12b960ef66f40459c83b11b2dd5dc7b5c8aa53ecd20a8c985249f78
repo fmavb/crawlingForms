@@ -1,0 +1,141 @@
+<form action="/NIOSH-Mining/?facetGroups=Equipment,%20tools,%20and%20parts=Main%20mine%20fans;%5E%5EDocument%20types=Open%20File%20Reports;&amp;sf=Equipment,%20tools,%20and%20parts" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Equipment, tools, and parts=Main mine fans;^^Document types=Open File Reports;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Equipment, tools, and parts"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Equipment, tools, and parts</h2>
+<p class="facetDesc">Machines, devices, tools, and components used for a purpose (see also: Products and materials).</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Main mine fans;^^Document types=Open File Reports;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Equipment, tools, and parts">Equipment, tools, and parts</label>
+<label class="d-none" for="check_Communications equipment">Communications equipment</label>
+<label class="d-none" for="check_Leaky feeder communications systems">Leaky feeder communications systems</label>
+<label class="d-none" for="check_Medium frequency communications systems">Medium frequency communications systems</label>
+<label class="d-none" for="check_Mine phones">Mine phones</label>
+<label class="d-none" for="check_Node-based communications systems">Node-based communications systems</label>
+<label class="d-none" for="check_Wireless node communications systems">Wireless node communications systems</label>
+<label class="d-none" for="check_Pager phones">Pager phones</label>
+<label class="d-none" for="check_Radios">Radios</label>
+<label class="d-none" for="check_Through-the-earth communications systems">Through-the-earth communications systems</label>
+<label class="d-none" for="check_Electrical equipment">Electrical equipment</label>
+<label class="d-none" for="check_Batteries">Batteries</label>
+<label class="d-none" for="check_Electronic tracking systems">Electronic tracking systems</label>
+<label class="d-none" for="check_Lighting">Lighting</label>
+<label class="d-none" for="check_Cap lamps">Cap lamps</label>
+<label class="d-none" for="check_Motor vehicles">Motor vehicles</label>
+<label class="d-none" for="check_Haulage vehicles">Haulage vehicles</label>
+<label class="d-none" for="check_Rollover protection">Rollover protection</label>
+<label class="d-none" for="check_Roof fall protection">Roof fall protection</label>
+<label class="d-none" for="check_Protective canopies">Protective canopies</label>
+<label class="d-none" for="check_Ventilation equipment">Ventilation equipment</label>
+<label class="d-none" for="check_Fans">Fans</label>
+<label class="d-none" for="check_Main mine fans">Main mine fans</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Equipment, tools, and parts">
+<a>Equipment, tools, and parts</a>
+<ul>
+<li id="Communications equipment">
+<a>Communications equipment [0]</a>
+<ul>
+<li id="Leaky feeder communications systems">
+<a>Leaky feeder communications systems [1]</a>
+</li>
+<li id="Medium frequency communications systems">
+<a>Medium frequency communications systems [2]</a>
+</li>
+<li id="Mine phones">
+<a>Mine phones [1]</a>
+</li>
+<li id="Node-based communications systems">
+<a>Node-based communications systems [0]</a>
+<ul>
+<li id="Wireless node communications systems">
+<a>Wireless node communications systems [2]</a>
+</li>
+</ul>
+</li>
+<li id="Pager phones">
+<a>Pager phones [1]</a>
+</li>
+<li id="Radios">
+<a>Radios [2]</a>
+</li>
+<li id="Through-the-earth communications systems">
+<a>Through-the-earth communications systems [4]</a>
+</li>
+</ul>
+</li>
+<li id="Electrical equipment">
+<a>Electrical equipment [0]</a>
+<ul>
+<li id="Batteries">
+<a>Batteries [1]</a>
+</li>
+</ul>
+</li>
+<li id="Electronic tracking systems">
+<a>Electronic tracking systems [1]</a>
+</li>
+<li id="Lighting">
+<a>Lighting [0]</a>
+<ul>
+<li id="Cap lamps">
+<a>Cap lamps [1]</a>
+</li>
+</ul>
+</li>
+<li id="Motor vehicles">
+<a>Motor vehicles [0]</a>
+<ul>
+<li id="Haulage vehicles">
+<a>Haulage vehicles [1]</a>
+</li>
+</ul>
+</li>
+<li id="Rollover protection">
+<a>Rollover protection [1]</a>
+</li>
+<li id="Roof fall protection">
+<a>Roof fall protection [0]</a>
+<ul>
+<li id="Protective canopies">
+<a>Protective canopies [1]</a>
+</li>
+</ul>
+</li>
+<li id="Ventilation equipment">
+<a>Ventilation equipment [0]</a>
+<ul>
+<li id="Fans">
+<a>Fans [0]</a>
+<ul>
+<li id="Main mine fans">
+<a>Main mine fans [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Equipment, tools, and parts=Main mine fans;^^Document types=Open File Reports;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

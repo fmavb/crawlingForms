@@ -1,0 +1,31 @@
+<form action="/courses/all" method="GET">
+<div class="row form-group">
+<label class="col-sm-3 col-md-3 text-right" for="searchBarKeywords">
+                    Find a course
+                </label>
+<div class="col-md-5 col-lg-5">
+<input class="form-control" data-bind="value: keywords, keywordAutocomplete: keywords, onSuggestionClick: search" id="searchBarKeywords" name="Keywords" placeholder="Subject or qualification, e.g. IT" type="text"/>
+</div>
+<div class="col-md-3 col-lg-2 pl-0">
+<input class="btn btn-primary btn-block gtmSearchBarSearchBtn" data-bind="click: search" id="searchBarSearchBtn" onclick="dataLayer.push({ 'event': 'keywordSearchButtonClick' });" type="submit" value="Search courses"/>
+</div>
+</div>
+<div class="text-center">
+<div class="quick-links-container">
+<ul>
+<li>
+<a href="/courses/free" onclick="dataLayer.push({'event': 'mainNavigationSubNavLinkClick', 'eventLabel': 'Free courses'});">Free courses</a>
+</li>
+<li>
+<a href="/courses/discount" onclick="dataLayer.push({ 'event': 'mainNavigationSubNavLinkClick', 'eventLabel': 'Discount courses'});">Discount courses</a>
+</li>
+<li>
+<a href="/courses/online" onclick="dataLayer.push({ 'event': 'mainNavigationSubNavLinkClick', 'eventLabel': 'Online courses'});">Online courses</a>
+</li>
+<li>
+<a href="/courses/university" onclick="dataLayer.push({ 'event': 'mainNavigationSubNavLinkClick', 'eventLabel': 'University courses'});">University courses</a>
+</li>
+</ul>
+</div>
+</div>
+</form>

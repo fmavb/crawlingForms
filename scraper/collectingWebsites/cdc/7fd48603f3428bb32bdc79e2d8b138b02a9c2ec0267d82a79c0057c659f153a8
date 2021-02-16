@@ -1,0 +1,254 @@
+<form action="/niosh-mining/?facetGroups=%5EEquipment,%20tools,%20and%20parts=%5EDocument%20types=Information%20Circulars;&amp;ResultsPerPage=Ten&amp;sf=Document%20types&amp;Sort=Relevance" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="^Equipment, tools, and parts=^Document types=Information Circulars;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Document types"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <h2 class="facetHeader">Document types</h2>
+<p class="facetDesc">Type of web resource (publications, software, videos, data and statistics, contracts, projects, historical information, educational materials, etc.)</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=^Equipment, tools, and parts=^Document types=Information Circulars;&amp;ResultsPerPage=Ten&amp;Sort=Relevance'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Administrative pages">Administrative pages</label>
+<label class="d-none" for="check_About us">About us</label>
+<label class="d-none" for="check_Contact information">Contact information</label>
+<label class="d-none" for="check_Help and FAQs">Help and FAQs</label>
+<label class="d-none" for="check_Home page">Home page</label>
+<label class="d-none" for="check_Blueprints">Blueprints</label>
+<label class="d-none" for="check_Catalogs and indexes">Catalogs and indexes</label>
+<label class="d-none" for="check_Conferences, workshops, and seminars">Conferences, workshops, and seminars</label>
+<label class="d-none" for="check_Contract reports">Contract reports</label>
+<label class="d-none" for="check_Contracts and cooperative agreements">Contracts and cooperative agreements</label>
+<label class="d-none" for="check_Interagency agreements">Interagency agreements</label>
+<label class="d-none" for="check_Data and statistics">Data and statistics</label>
+<label class="d-none" for="check_Dictionaries and glossaries">Dictionaries and glossaries</label>
+<label class="d-none" for="check_Historical information">Historical information</label>
+<label class="d-none" for="check_News and announcements">News and announcements</label>
+<label class="d-none" for="check_Awards and recognition">Awards and recognition</label>
+<label class="d-none" for="check_Calls for participation">Calls for participation</label>
+<label class="d-none" for="check_Employment opportunities">Employment opportunities</label>
+<label class="d-none" for="check_News articles">News articles</label>
+<label class="d-none" for="check_Notices">Notices</label>
+<label class="d-none" for="check_Federal Register notices">Federal Register notices</label>
+<label class="d-none" for="check_Safety alerts">Safety alerts</label>
+<label class="d-none" for="check_Promotional materials">Promotional materials</label>
+<label class="d-none" for="check_Plots and charts">Plots and charts</label>
+<label class="d-none" for="check_Presentations">Presentations</label>
+<label class="d-none" for="check_Publications">Publications</label>
+<label class="d-none" for="check_Book chapters">Book chapters</label>
+<label class="d-none" for="check_Brochures/flyers/pamphlets">Brochures/flyers/pamphlets</label>
+<label class="d-none" for="check_Conference papers">Conference papers</label>
+<label class="d-none" for="check_Conference proceedings">Conference proceedings</label>
+<label class="d-none" for="check_Fact Sheets">Fact Sheets</label>
+<label class="d-none" for="check_Guides and manuals">Guides and manuals</label>
+<label class="d-none" for="check_Hazard Controls">Hazard Controls</label>
+<label class="d-none" for="check_Hazards IDs">Hazards IDs</label>
+<label class="d-none" for="check_Information Circulars">Information Circulars</label>
+<label class="d-none" for="check_Internal Reports">Internal Reports</label>
+<label class="d-none" for="check_NIOSH/USBM numbered publications">NIOSH/USBM numbered publications</label>
+<label class="d-none" for="check_Non-peer reviewed journal articles">Non-peer reviewed journal articles</label>
+<label class="d-none" for="check_Open File Reports">Open File Reports</label>
+<label class="d-none" for="check_Peer reviewed journal articles">Peer reviewed journal articles</label>
+<label class="d-none" for="check_Peer reviewed journal issues">Peer reviewed journal issues</label>
+<label class="d-none" for="check_Reports of Investigations">Reports of Investigations</label>
+<label class="d-none" for="check_Technical Progress Reports">Technical Progress Reports</label>
+<label class="d-none" for="check_Technology News">Technology News</label>
+<label class="d-none" for="check_Theses/Dissertations">Theses/Dissertations</label>
+<label class="d-none" for="check_Research areas">Research areas</label>
+<label class="d-none" for="check_Research projects">Research projects</label>
+<label class="d-none" for="check_Safety guidelines, tips, and checklists">Safety guidelines, tips, and checklists</label>
+<label class="d-none" for="check_Software">Software</label>
+<label class="d-none" for="check_Mobile software">Mobile software</label>
+<label class="d-none" for="check_PC software">PC software</label>
+<label class="d-none" for="check_Web software">Web software</label>
+<label class="d-none" for="check_Training materials">Training materials</label>
+<label class="d-none" for="check_Unpublished documents and reports">Unpublished documents and reports</label>
+<label class="d-none" for="check_Videos and multimedia">Videos and multimedia</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Administrative pages">
+<a>Administrative pages</a>
+<ul>
+<li id="About us">
+<a>About us [5]</a>
+</li>
+<li id="Contact information">
+<a>Contact information [1]</a>
+</li>
+<li id="Help and FAQs">
+<a>Help and FAQs [1]</a>
+</li>
+<li id="Home page">
+<a>Home page [1]</a>
+</li>
+</ul>
+</li>
+<li id="Blueprints">
+<a>Blueprints</a>
+</li>
+<li id="Catalogs and indexes">
+<a>Catalogs and indexes</a>
+</li>
+<li id="Conferences, workshops, and seminars">
+<a>Conferences, workshops, and seminars</a>
+</li>
+<li id="Contract reports">
+<a>Contract reports</a>
+</li>
+<li id="Contracts and cooperative agreements">
+<a>Contracts and cooperative agreements</a>
+<ul>
+<li id="Interagency agreements">
+<a>Interagency agreements [11]</a>
+</li>
+</ul>
+</li>
+<li id="Data and statistics">
+<a>Data and statistics</a>
+</li>
+<li id="Dictionaries and glossaries">
+<a>Dictionaries and glossaries</a>
+</li>
+<li id="Historical information">
+<a>Historical information</a>
+</li>
+<li id="News and announcements">
+<a>News and announcements</a>
+<ul>
+<li id="Awards and recognition">
+<a>Awards and recognition [21]</a>
+</li>
+<li id="Calls for participation">
+<a>Calls for participation [10]</a>
+</li>
+<li id="Employment opportunities">
+<a>Employment opportunities [4]</a>
+</li>
+<li id="News articles">
+<a>News articles [20]</a>
+</li>
+<li id="Notices">
+<a>Notices [3]</a>
+<ul>
+<li id="Federal Register notices">
+<a>Federal Register notices [1]</a>
+</li>
+<li id="Safety alerts">
+<a>Safety alerts [1]</a>
+</li>
+</ul>
+</li>
+<li id="Promotional materials">
+<a>Promotional materials [1]</a>
+</li>
+</ul>
+</li>
+<li id="Plots and charts">
+<a>Plots and charts</a>
+</li>
+<li id="Presentations">
+<a>Presentations</a>
+</li>
+<li id="Publications">
+<a>Publications</a>
+<ul>
+<li id="Book chapters">
+<a>Book chapters [20]</a>
+</li>
+<li id="Brochures/flyers/pamphlets">
+<a>Brochures/flyers/pamphlets [75]</a>
+</li>
+<li id="Conference papers">
+<a>Conference papers [646]</a>
+</li>
+<li id="Conference proceedings">
+<a>Conference proceedings [8]</a>
+</li>
+<li id="Fact Sheets">
+<a>Fact Sheets [2]</a>
+</li>
+<li id="Guides and manuals">
+<a>Guides and manuals [14]</a>
+</li>
+<li id="Hazard Controls">
+<a>Hazard Controls [2]</a>
+</li>
+<li id="Hazards IDs">
+<a>Hazards IDs [4]</a>
+</li>
+<li id="Information Circulars">
+<a>Information Circulars [149]</a>
+</li>
+<li id="Internal Reports">
+<a>Internal Reports [2]</a>
+</li>
+<li id="NIOSH/USBM numbered publications">
+<a>NIOSH/USBM numbered publications [95]</a>
+</li>
+<li id="Non-peer reviewed journal articles">
+<a>Non-peer reviewed journal articles [42]</a>
+</li>
+<li id="Open File Reports">
+<a>Open File Reports [13]</a>
+</li>
+<li id="Peer reviewed journal articles">
+<a>Peer reviewed journal articles [577]</a>
+</li>
+<li id="Peer reviewed journal issues">
+<a>Peer reviewed journal issues [1]</a>
+</li>
+<li id="Reports of Investigations">
+<a>Reports of Investigations [270]</a>
+</li>
+<li id="Technical Progress Reports">
+<a>Technical Progress Reports [7]</a>
+</li>
+<li id="Technology News">
+<a>Technology News [127]</a>
+</li>
+<li id="Theses/Dissertations">
+<a>Theses/Dissertations [3]</a>
+</li>
+</ul>
+</li>
+<li id="Research areas">
+<a>Research areas</a>
+</li>
+<li id="Research projects">
+<a>Research projects</a>
+</li>
+<li id="Safety guidelines, tips, and checklists">
+<a>Safety guidelines, tips, and checklists</a>
+</li>
+<li id="Software">
+<a>Software</a>
+<ul>
+<li id="Mobile software">
+<a>Mobile software [2]</a>
+</li>
+<li id="PC software">
+<a>PC software [28]</a>
+</li>
+<li id="Web software">
+<a>Web software [6]</a>
+</li>
+</ul>
+</li>
+<li id="Training materials">
+<a>Training materials</a>
+</li>
+<li id="Unpublished documents and reports">
+<a>Unpublished documents and reports</a>
+</li>
+<li id="Videos and multimedia">
+<a>Videos and multimedia</a>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=^Equipment, tools, and parts=^Document types=Information Circulars;&amp;ResultsPerPage=Ten&amp;Sort=Relevance';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

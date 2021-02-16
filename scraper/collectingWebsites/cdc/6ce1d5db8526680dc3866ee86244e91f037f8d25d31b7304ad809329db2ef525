@@ -1,0 +1,125 @@
+<form accesskey="S" action="Buildqyr.asp" id="form1" method="Get" name="form1" onsubmit="return Search_onclick('new')" tabindex="2">
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="card-title h3">
+<label for="S1">New Search</label>
+</div>
+<div class="card-body">
+<div class="card-text">
+<input class="form-control" id="S1" name="S1" placeholder="Enter search terms"/>
+<input class="btn btn-primary button-font" id="SearchNew" name="SearchNew" onclick="return Search_onclick('new')" type="submit" value="Go"/>
+<input class="btn btn-primary button-font" id="SearchResult" name="SearchResult" onclick="return Search_onclick('filter')" type="button" value="Search Within Results"/>
+<p>
+<a href="advsearch2.asp">Advanced Search</a>  
+						<a href="n2help.asp">Search Help</a>  
+						<a href="n2info.asp">About NIOSHTIC-2 </a>  
+						<a href="mailto:nioshtic2@cdc.gov?subject=Nioshtic-2 feedback">Feedback</a>
+</p>
+<input name="s1" type="HIDDEN" value="20041205  "/>
+<input name="f1" type="HIDDEN" value="*"/>
+<input name="Startyear" type="HIDDEN" value=""/>
+<input name="Adv" type="HIDDEN" value="0"/>
+<input name="terms" type="HIDDEN" value="1"/>
+<input name="PageNo" type="HIDDEN" value="1"/>
+<input name="D1" type="HIDDEN" value="10"/>
+<input name="View" type="HIDDEN" value="f"/>
+<input name="EndYear" type="HIDDEN" value=""/>
+<input name="Limit" type="HIDDEN" value="10000"/>
+<input name="sort" type="HIDDEN" value=""/>
+<input name="RecNo" type="HIDDEN" value="1"/>
+<input id="RecSelect" name="RecSelect" type="hidden" value="0"/>
+<input id="pagecount" name="Pagecount" type="hidden" value="1"/>
+<input id="NumRecOnPage" name="NumRecOnPage" type="hidden" value="0"/>
+<input name="hiddenURL" type="hidden"/>
+										
+					Terms: <em>  20041205</em>  
+					1 - 1
+					of <span class="emph">1</span> Bibliographic entries
+						   <span style="float:right;">
+
+													
+								All record(s) shown. 
+										
+					</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<a href="#" id="Select2" onclick="return SaveSelection('SaveAll',1)" title="Select all record(s) from this search">Save All</a>  
+                                        <a href="#" id="Select1" onclick="return SaveSelection('SavePage',1)" title="Select all record(s) on this page">Save Page</a>  
+
+                                        <a href="#" id="Disp" onclick="return DispSelection(1)" title="View all selected record(s)">View Saved</a>  
+                                        
+                                        <a href="#" onclick="return LoadDownload(1)" title="Download Search results">Download </a>  
+                                    
+                             </div>
+<div class="row">
+<em class="col-md-10 muted">Select check boxes to automatically save entries, or use 'save all' or 'save page' links above.</em>
+<div class="col-md-2">
+<span id="btr"><a href="//www2a.cdc.gov/nioshtic-2/BuildQyr.asp?s1=20041205++&amp;f1=%2A&amp;Startyear=&amp;Adv=0&amp;terms=1&amp;D1=10&amp;EndYear=&amp;Limit=10000&amp;sort=&amp;PageNo=1&amp;RecNo=1&amp;View=b&amp;">Back to Results</a></span>
+</div>
+</div>
+<div class="section-highlight" id="NIOSHTIC2">
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->
+<input alt="checkbox_1" id="checkbox1_id" name="checkbox1" type="checkbox" value="52138"/><label for="checkbox1_id"> 1</label>
+<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Association of perceived stress with sleep duration and sleep quality in police officers.
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!--<small>-->Authors<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Charles-LE; Mnatsakanova-A; Violanti-JM; Andrew-ME; Slaven-JE; Ma-C; Fekedulegn-D; Vila-BJ; Burchfiel-CM
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->Source<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Int J Emerg Mental Health 2011 Oct; 13(4):229-242
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->Link<!-- </small>-->
+</div>
+<div class="col-md-10">
+<a href="http://www.omicsonline.com/open-access/health-disparities-in-police-officers-comparisons-to-the-us-general-populations.pdf">http://www.omicsonline.com/open-access/health-disparities-in-police-officers-comparisons-to-the-us-general-populations.pdf</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->NIOSHTIC No.<!-- </small>-->
+</div>
+<div class="col-md-10">
+<span class="highlight-search-term">20041205</span>
+</div>
+</div>
+<div class="row"><div class="col-md-2 muted"><!-- <small>-->Abstract<!-- </small>--></div><div class="col-md-10">The objective was to investigate associations of perceived stress with sleep duration and quality among 430 police officers. Perceived stress was assessed using the Perceived Stress Scale. Sleep duration and quality were assessed using the Pittsburg Sleep Quality Index questionnaire. Mean hours of sleep were determined across quartiles of perceived stress using ANOVA/ANCOVA. Logistic regression was used to obtain odds ratios and 95% confidence intervals for poor sleep quality across perceived stress quartiles. Mean age was 42.1 years. Perceived stress was inversely associated with sleep duration among certain groups: men (p = 0.004), higher-ranked officers (p = 0.002), those with higher depressive symptoms (p = 0.097), no military experience (p = 0.006), and higher workload (p = 0.003). Gender, police rank, depressive symptoms, and workload each significantly modified the association between stress and sleep duration. Prevalence of poor sleep quality increased with higher levels of perceived stress; the trend was significant among men only (p &lt;0.0001), and gender significantly modified this association (interaction p = 0.015). Compared to those in the first quartile of perceived stress, women in the fourth quartile were almost four times and men almost six times more likely to have poor sleep quality. Perceived stress was inversely associated with sleep duration and positively associated with poor sleep quality.</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Keywords<!-- </small>--></div><div class="col-md-10">Humans; Men; Women; Law-enforcement-workers; Stress; Age-groups; Police-officers; Sleep-deprivation; Sleep-disorders; Questionnaires; Emergency-responders; 
+Author Keywords: Perceived stress; sleep quality; sleep duration; police</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Publication Date<!-- </small>--></div><div class="col-md-10">20111001</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Document Type<!-- </small>--></div><div class="col-md-10">Journal Article</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Email Address<!-- </small>--></div><div class="col-md-10">lcharles@cdc.gov</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Funding Type<!-- </small>--></div><div class="col-md-10">Grant; Contract</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Fiscal Year<!-- </small>--></div><div class="col-md-10">2012</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NTIS Accession No.<!-- </small>--></div><div class="col-md-10"></div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NTIS Price<!-- </small>--></div><div class="col-md-10"></div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Identifying No.<!-- </small>--></div><div class="col-md-10">Grant-Number-R01-OH-009640; Contract-200-2003-01580</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Issue of Publication<!-- </small>--></div><div class="col-md-10">4</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->ISSN<!-- </small>--></div><div class="col-md-10">1522-4821</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NIOSH Division<!-- </small>--></div><div class="col-md-10">HELD</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Priority Area<!-- </small>--></div><div class="col-md-10">Public Safety</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Source Name<!-- </small>--></div><div class="col-md-10">International Journal of Emergency Mental Health</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->State<!-- </small>--></div><div class="col-md-10">NY; WV; WA</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Performing Organization<!-- </small>--></div><div class="col-md-10">State University of New York at Buffalo</div></div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="col-md-12" style="padding-top:5px;padding-bottom:6px;">
+                                    Page 1 of 1
+                                <span style="float:right;">
+                                    
+				                        All record(s) shown.
+                              
+                                </span>
+</div>
+</div>
+</div>
+</div>
+</form>

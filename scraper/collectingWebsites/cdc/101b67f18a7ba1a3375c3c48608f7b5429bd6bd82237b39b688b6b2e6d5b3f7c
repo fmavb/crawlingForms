@@ -1,0 +1,22 @@
+<form action="https://search.cdc.gov/search" class="searchForm" method="get">
+<fieldset class="search-form-wrapper">
+<legend>Search Form Controls</legend>
+<div class="search-form-checkbox">
+<label class="subset" for="subset">
+<span aria-hidden="true" class="accessibleHide">subset checkbox</span><input checked="checked" id="subset" name="subset" type="checkbox" value=""/></label>
+</div>
+<div class="search-input-wrapper">
+<div class="search-buttons">
+<button class="btn-clear"><span class="sprite-14-close">Cancel</span></button>
+<button class="btn-submit"><span class="sprite-14-search-black">Submit</span></button>
+<input style="display: none; visibility: hidden;" type="submit" value="Submit"/>
+</div>
+<div class="search-input">
+<label>
+<input name="query" placeholder="SEARCH" type="text"/><span class="hidden">Search The CDC</span></label>
+</div>
+</div>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</fieldset>
+</form>

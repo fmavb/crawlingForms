@@ -1,0 +1,16 @@
+<form action="candlogin.asp" autocomplete="off" method="post" name="login" onsubmit="return validate()">
+<p>Please enter your payroll number here,<br/></p>
+<input class="textbox" maxlength="7" name="payroll" onfocus="this.select()" size="25" type="text" value=""/>
+<p><span class="dots">...</span>and your surname here,</p>
+<input class="textbox" maxlength="30" name="surname" onfocus="this.select()" size="25" type="text" value=""/>
+<p><span class="dots">...</span>and your password here.</p>
+<input class="textbox" maxlength="50" name="PIN" onfocus="this.select()" size="25" type="password" value=""/>
+<input class="button" name="submit" type="submit" value="Login"/>
+<p>If this is your first visit to OnTime, please <a href="/candidate/register_candidate.asp"><b>Register</b></a>.</p>
+<p><a href="candidate/forgottenPassword.asp?online=0"><b>Forgot your password?</b></a> Don't forget that your password
+						is case-sensitive.
+					</p>
+<input name="HideLink" type="hidden" value="false"/>
+<input id="Hidden2" name="HidAuthUser" type="hidden" value=""/>
+<input id="Hidden3" name="HidRetPath" type="hidden" value=""/>
+</form>

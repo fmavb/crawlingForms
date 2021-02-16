@@ -1,0 +1,54 @@
+<form action="/LimitedAccessRegistration/LimitedAccess" id="formSample" method="post" onsubmit="return(validateLMA())">
+<input data-val="true" data-val-required="The TermsAndConditionsAgreement field is required." id="TermsAndConditionsAgreement" name="TermsAndConditionsAgreement" type="hidden" value="False"/>
+<input id="ContactId" name="ContactId" type="hidden" value=""/>
+<section class="bg-dark-blue section-group">
+<div class="container">
+<div class="row">
+<div class="col">
+<h1 class="heading-1 text-center" id="heading-1">Apply for limited access to the BMA website </h1>
+<span class="sub-heading text-center">Temporary access lasts for six months. You will receive a notification  </span>
+<span class="sub-heading text-center">when your account is due to expire.</span>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-grey section-group">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h2 class="heading-2">Personal details</h2>
+</div>
+</div>
+</div>
+</section>
+<main class="section-group" id="limited-details-1" role="main">
+<div class="container">
+<div class="row">
+<div class="col">
+<section class="section-inner">
+<p class="body-copy mb-3">If you are not a BMA member, you may still be eligible to access some member content. </p>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="isGMCnumber">Do you have a GMC number?</label>
+<select class="form-control" id="GMC" onchange="getView()">
+<option selected="" value="">Select</option>
+<option class="js-toggle-trigger" value="_DoctorsLAM">Yes</option>
+<option class="js-toggle-trigger" value="_OthersLAM">No</option>
+</select>
+</div>
+</div>
+<div class="dynamicForm">
+</div>
+<section class="continue-cancel">
+<div class="row">
+<div class="form-group col">
+<a class="link-copy" href="javascript:window.history.back()">Cancel</a>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</main>
+<input name="__baft" type="hidden" value="CfDJ8IqFD8RfHIxGpdHBHK_gAQO9kFRphMn3FX5B4aWsbYjauo2h1cKI4rCUkgeninHgD3QAQLVxnEF-j5SqhO4i_m0ZsiSg2cQddzLOqPbMZh4z6hiv6Fs47lYUoR1Ij8hESiFNB39wPeSyK2TGOw-8_TI"/></form>

@@ -1,0 +1,19 @@
+<form accept-charset="UTF-8" action="//search.cdc.gov/search/spanish/index.html" method="get">
+<div class="fs0875 text-right">
+<a href="https://www.cdc.gov/spanish/az/a.html" id="az-large">Índice A-Z de los CDC </a>
+</div>
+<div class="input-group mb-3">
+<input aria-label="Search" class="form-control" maxlength="300" name="query" placeholder="Buscar" type="text"/>
+<div class="input-group-append">
+<button class="btn btn-search search-submit" type="button"><span class="sr-only">Enviar</span><svg class="svg-icon fill-b" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#sym-search-icon"></use></svg></button>
+</div>
+</div>
+<div class="fs0875 d-none d-md-block tp-search-advanced">
+<a href="//search.cdc.gov/search/spanish/index.html#advanced">
+				Búsqueda Avanzada
+			</a>
+</div>
+<input name="sitelimit" type="hidden" value=""/>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</form>

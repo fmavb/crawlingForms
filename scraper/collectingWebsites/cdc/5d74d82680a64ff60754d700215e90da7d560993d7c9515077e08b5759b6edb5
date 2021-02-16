@@ -1,0 +1,238 @@
+<form action="BuildQyr.asp" class="form-action" id="AdvForm" method="Get" name="AdvForm" onsubmit="return CheckInput();">
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="card-title h3">
+					Advanced Search
+				</div>
+<div class="card-body">
+<div class="card-text">
+<div class="span23">
+<label class="search" for="s1" style="display:none;">Search NIOSHTIC-2</label><input id="s1" maxlength="150" name="s1" size="32" type="text" value=""/>
+in 
+<label class="search" for="choose field1" style="display:none;">Search NIOSHTIC-2</label><select height="50" id="choose field1" name="f1" size="1" width="85">
+<option selected="" value="TI">Title</option>
+<option value="*">All Fields</option>
+<option value="KW">Keywords</option>
+<option value="AU">Author</option>
+<option value="ED">Editor</option>
+<option value="PU">Publisher</option>
+<option value="SC">SIC Code</option>
+<option value="SN">Source Name</option>
+<option value="ST">State/Territory</option>
+<option value="AB">Abstract</option>
+<option value="CD">Journal CODEN</option>
+<option value="IB">ISBN</option>
+<option value="NN">NIOSHTIC number</option>
+<option value="DT">Document Type (CD, Contract, Grant, etc.)
+</option><option value="NA">NTIS Accession Number</option>
+<option value="SO">Source</option>
+<option value="[IS]">ISSN</option>
+<option value="ND">NIOSH Office Division</option>
+<option value="PO">Performing Organization</option>
+<option value="PA">Priority Area</option>
+<option value="[IN]">Identification Number</option>
+<option value="CN">CAS Number</option>
+<option value="DA">Date of Input</option>
+<option value="NC">CAN#</option>
+</select>
+</div>
+<div class="span23"> 
+Term connector: 
+<input alt="choose connector1" checked="checked" id="And1" name="t1" type="radio" value="0"/>And
+<label class="search" for="And1" style="display:none;">And</label>
+<input alt="choose connector1" id="Or1" name="t1" type="radio" value="1"/>Or
+<label class="search" for="Or1" style="display:none;">Or</label>
+<input alt="choose connector1" id="AndNot1" name="t1" type="radio" value="2"/>And Not
+<label class="search" for="AndNot1" style="display:none;">And Not</label>
+</div>
+<div class="span23">
+<label class="search" for="s2" style="display:none;">Search NIOSHTIC-2</label><input id="s2" maxlength="150" name="s2" size="32" type="text" value=""/>
+in 
+<label class="search" for="choose field2" style="display:none;">Search NIOSHTIC-2</label><select height="50" id="choose field2" name="f2" size="1" width="85">
+<option selected="" value="TI">Title</option>
+<option value="*">All Fields</option>
+<option value="KW">Keywords</option>
+<option value="AU">Author</option>
+<option value="ED">Editor</option>
+<option value="PU">Publisher</option>
+<option value="SC">SIC Code</option>
+<option value="SN">Source Name</option>
+<option value="ST">State/Territory</option>
+<option value="AB">Abstract</option>
+<option value="CD">Journal CODEN</option>
+<option value="IB">ISBN</option>
+<option value="NN">NIOSHTIC number</option>
+<option value="DT">Document Type (CD, Contract, Grant, etc.)
+</option><option value="NA">NTIS Accession Number</option>
+<option value="SO">Source</option>
+<option value="[IS]">ISSN</option>
+<option value="ND">NIOSH Office Division</option>
+<option value="PO">Performing Organization</option>
+<option value="PA">Priority Area</option>
+<option value="[IN]">Identification Number</option>
+<option value="CN">CAS Number</option>
+<option value="DA">Date of Input</option>
+<option value="NC">CAN#</option>
+</select>
+</div>
+<div class="span23"> 
+Term connector: 
+<input alt="choose connector2" checked="checked" id="And2" name="t2" type="radio" value="0"/>And
+<label class="search" for="And2" style="display:none;">And</label>
+<input alt="choose connector2" id="Or2" name="t2" type="radio" value="1"/>Or
+<label class="search" for="Or2" style="display:none;">Or</label>
+<input alt="choose connector2" id="AndNot2" name="t2" type="radio" value="2"/>And Not
+<label class="search" for="AndNot2" style="display:none;">And Not</label>
+</div>
+<div class="span23">
+<label class="search" for="s3" style="display:none;">Search NIOSHTIC-2</label><input id="s3" maxlength="150" name="s3" size="32" type="text" value=""/>
+in 
+<label class="search" for="choose field3" style="display:none;">Search NIOSHTIC-2</label><select height="50" id="choose field3" name="f3" size="1" width="85">
+<option selected="" value="TI">Title</option>
+<option value="*">All Fields</option>
+<option value="KW">Keywords</option>
+<option value="AU">Author</option>
+<option value="ED">Editor</option>
+<option value="PU">Publisher</option>
+<option value="SC">SIC Code</option>
+<option value="SN">Source Name</option>
+<option value="ST">State/Territory</option>
+<option value="AB">Abstract</option>
+<option value="CD">Journal CODEN</option>
+<option value="IB">ISBN</option>
+<option value="NN">NIOSHTIC number</option>
+<option value="DT">Document Type (CD, Contract, Grant, etc.)
+</option><option value="NA">NTIS Accession Number</option>
+<option value="SO">Source</option>
+<option value="[IS]">ISSN</option>
+<option value="ND">NIOSH Office Division</option>
+<option value="PO">Performing Organization</option>
+<option value="PA">Priority Area</option>
+<option value="[IN]">Identification Number</option>
+<option value="CN">CAS Number</option>
+<option value="DA">Date of Input</option>
+<option value="NC">CAN#</option>
+</select>
+<a class="btn btn-primary button-font" href="javascript: more_onclick()">Add Terms</a>
+</div>
+<input id="text1" name="terms" type="hidden" value="3"/>
+<input id="text2" name="Adv" type="hidden" value="1"/>
+<input id="text3" name="n" type="hidden" value="new"/>
+<input id="text4" name="View" type="hidden" value="b"/>
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-secondary">
+<div class="card-title h4">
+										Limit  searches using the choices below:
+									</div>
+<div class="card-body">
+<div class="card-text">
+<div class="row">
+<div class="col-md-6">
+<div class="card mb-2 bg-secondary">
+<div class="card-body">
+															Date range:<label class="search" for="Startyear" style="display: none;">Start Year</label>
+<input id="Startyear" name="Startyear" type="text"/>
+															to
+															<label class="search" for="Endyear" style="display: none;">End Year</label>
+<input id="Endyear" name="EndYear" type="text"/>
+<br/><span class="muted"><small>Values MUST be in the form mm-yyyy</small></span>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card mb-2 bg-secondary">
+<div class="card-body">
+<label for="whichdate">Date field to search:</label>
+<select id="whichdate" name="whichdate" size="1" tabindex="0">
+<option value="DP">Publication Date</option>
+<option value="DA">Input Date</option>
+<option value="DU">Updated Date</option>
+<option value="DN">Date Sent to NTIS</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card mb-2 bg-secondary">
+<div class="card-body">
+<label class="search" for="D1">Records per page:</label>
+<select id="D1" name="D1" tabindex="0">
+<option>10</option>
+<option>20</option>
+<option>40</option>
+<option>50</option>
+<option>75</option>
+</select>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card mb-2 bg-secondary">
+<div class="card-body">
+<label class="search" for="Limit">Limit maximum:</label>
+<select id="Limit" name="Limit" tabindex="0">
+<option value="500">500</option>
+<option value="1000">1000</option>
+<option value="2000">2000</option>
+<option value="4000">4000</option>
+<option value="8000">8000</option>
+<option value="25000">All</option>
+</select>
+															records	
+														</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card mb-2 bg-secondary">
+<div class="card-body">
+<label class="search" for="Sort">Sort order:</label>
+<select id="Sort" name="Sort" size="1" tabindex="0">
+<option selected="" value="DP DESC">Published Date</option>
+<option value="AU">Author</option>
+<option value="M_ID">None</option>
+<option value="NN">NIOSH NO</option>
+</select>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card mb-2 bg-secondary">
+<div class="card-body">
+<label class="search" for="ct">Search database:</label>
+<select id="ct" name="ct" size="1" tabindex="0">
+<option selected="selected" value="">All citations</option>
+<option value="1">HHE</option>
+<option value="2">CISS</option>
+<option value="3">Grant</option>
+<option value="4">FACE (In-house)</option>
+<option value="5">F-FACE (Fire Fighter)</option>
+<option value="6">S-FACE (State Based)</option>
+<option value="7">NIOSH Numbered Publications</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<input class="btn btn-primary button-font" id="search" name="B1" type="submit" value="Search"/>
+<input class="btn btn-primary button-font" name="B2" type="reset" value="Clear"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>

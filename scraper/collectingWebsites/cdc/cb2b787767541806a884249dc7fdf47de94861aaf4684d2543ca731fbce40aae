@@ -1,0 +1,40 @@
+<form accept-charset="UTF-8" action="//search.cdc.gov/search/index.html" autocomplete="off" method="get">
+<button aria-expanded="false" aria-haspopup="true" aria-label="search" class="btn btn-primary dropdown-toggle no-toggle search-button ssi d-xl-none" data-toggle="dropdown" type="button"><span>Search</span>
+<i aria-hidden="true" class="fi cdc-icon-magnify dropdown-menu-medium-search-icon x24"></i>
+<i aria-hidden="true" class="fi cdc-icon-close dropdown-menu-medium-close-icon x24"></i>
+</button>
+<div class="dropdown-menu dropdown-menu-right dropdown-menu-search dropdown-menu-medium-search">
+<div class="input-group">
+<input aria-label="Search" class="form-control" id="headerSearch" maxlength="300" name="query" placeholder="Search" type="text"/>
+<div class="input-group-append dropdown-submenu">
+<span class="form-control-clear" style="visibility: hidden;">×</span>
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-control dropdown-toggle text-ellipsis local-search-label" data-toggle="dropdown" type="button">ATSDR</button>
+<div class="dropdown-menu dropdown-menu-right ds-6">
+<a class="dropdown-item" data-site-limit="atsdr.cdc.gov" href="#">ATSDR</a>
+<a class="dropdown-item" data-site-limit="" href="#">All CDC</a>
+</div>
+</div>
+<div class="input-group-append">
+<button class="btn search-submit" type="button"><span class="sr-only">Submit</span>
+<i aria-hidden="true" class="fi cdc-icon-magnify x24"></i>
+</button>
+</div>
+</div>
+<div class="a-z-index fs0875">
+<span class="d-xl-none">For a full list of topics: </span><a href="https://www.atsdr.cdc.gov/az/a.html" id="az-large">A-Z Index</a>
+</div>
+<div class="fs0875 d-md-none">
+<a href="//search.cdc.gov/search/index.html#advanced">
+					Advanced Search
+				</a>
+</div>
+</div>
+<div class="fs0875 d-none d-md-block tp-search-advanced">
+<a href="//search.cdc.gov/search/index.html#advanced">
+				Advanced Search
+			</a>
+</div>
+<input name="sitelimit" type="hidden" value="atsdr.cdc.gov"/>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</form>

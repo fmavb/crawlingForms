@@ -1,0 +1,110 @@
+<form action="/wd/plsql/wd_portal_cand.prefs_db" class="prefs" method="post" name="prefs">
+<input name="p_web_site_id" type="hidden" value="2965"/>
+<input name="p_candidate_id" type="hidden" value="0"/>
+<input name="p_response_data_id" type="hidden" value="0"/>
+<input name="p_ccp_path" type="hidden" value="NEWPROFILE"/>
+<input name="p_web_page_id" type="hidden" value=""/>
+<input name="p_nonce" type="hidden" value="l+TvKC5Z9XovX/zIs8diKC9gZu2yfv+L63PwNUT1Dh+9q+pZfTCM8BC+WbVDw0ksk7iZOc6XLLQArJnoJ3LweYdAKlc="/>
+<input name="p_workflow_id" type="hidden" value=""/>
+<input name="p_redirect_url" type="hidden" value=""/>
+<div id="candidate_names">
+<div class="prefdetails layerfieldstitle">
+<div class="label">
+<label class="mandatory textfield" for="p_title" id="p_titleErrorMessage">Title</label>
+</div>
+<div class="detail">
+<select class="required select" id="p_title" name="p_title">
+<option value=""></option>
+<option value="458887">Mr</option>
+<option value="458888">Ms</option>
+<option value="458889">Mrs</option>
+<option value="458890">Miss</option>
+<option value="458891">Doctor</option>
+<option value="458892">Professor</option>
+<option value="458893">Sir</option>
+</select>
+</div>
+</div>
+<div class="prefdetails layerfieldsfirst_name">
+<div class="label">
+<label class="mandatory textfield" for="p_first_name" id="p_first_nameErrorMessage">First names</label>
+</div>
+<div class="detail">
+<input class="required textfield" id="p_first_name" name="p_first_name" type="text"/>
+</div>
+</div>
+<div class="prefdetails layerfieldslast_name">
+<div class="label">
+<label class="mandatory textfield" for="p_last_name" id="p_last_nameErrorMessage">Surname</label>
+</div>
+<div class="detail">
+<input class="required textfield" id="p_last_name" name="p_last_name" type="text"/>
+</div>
+</div>
+</div>
+<div id="registration_fields">
+<div class="prefdetails username">
+<div class="label">
+<label class="mandatory" for="p_username" id="p_usernameErrorMessage">Email address
+</label>
+</div>
+<div class="detail">
+<input class="required textfield isemail" id="p_username" name="p_username" size="30" type="text"/>
+</div>
+</div>
+<div class="prefdetails username_conf">
+<div class="label">
+<label class="mandatory" for="p_username_conf" id="p_username_confErrorMessage">Confirm email address</label>
+</div>
+<div class="detail">
+<input class="required textfield isemail" id="p_username_conf" name="p_username_conf" onchange="validate2ndUsername()" size="30" type="text"/>
+</div>
+</div>
+<div class="prefdetails password">
+<div class="label">
+<label class="mandatory" for="p_password" id="p_passwordErrorMessage">Password</label>
+</div>
+<div class="detail">
+<input autocomplete="off" class="required textfield" id="p_password" name="p_password" size="30" type="password"/>
+</div>
+</div>
+<div class="prefdetails p_password_conf">
+<div class="label">
+<label class="mandatory" for="p_password_conf" id="p_password_confErrorMessage">Confirm password</label>
+</div>
+<div class="detail">
+<input autocomplete="off" class="required textfield" id="p_password_conf" name="p_password_conf" size="30" type="password"/>
+</div>
+</div>
+<input name="p_email_address" type="hidden" value=""/>
+<input name="p_email_format_pref" type="hidden" value="H"/>
+<input name="p_forever" type="hidden" value="Y"/>
+<div class="prefdetails terms_and_conditions">
+<p>
+</p><p>We are committed to protecting your personal data and respect your privacy.  We therefore have a Privacy Notice for individuals who are applying to work for us either as staff member or as an associate via our jobs portal.</p>
+<p>The Privacy Notice sets out the ways in which we collect, use, store and share your data. It also sets out how long we keep your data and what rights you have in relation to your data under the General Data Protection Regulation (GDPR) and who to contact if you need further information.</p>
+<p>Our privacy notice is available for all job applicants as a PDF:</p>
+<p><a href="https://www.gmc-uk.org/-/media/documents/staff-recruitment-privacy-statement---dc11269_pdf-82977511.pdf" target="_blank">Our privacy notice for job applicants (staff recruitment)</a></p>
+<p><a href="https://www.gmc-uk.org/-/media/documents/associates-recruitment-privacy-statement---dc11268_pdf-82977816.pdf" target="_blank">Our privacy notice for job applicants (associate recruitment)</a></p>
+<p>Please note you will need to confirm that you have read the privacy notice before you are able to proceed.</p>
+<p>
+</p></div>
+<div class="prefdetails terms_and_conditions">
+<style type="text/css"> .terms_and_conditions .consentCheckbox {margin-bottom:20px;} </style>
+<div class="column1">
+<div class="label">
+<label class="mandatory" for="p_terms_and_conditions" id='p_terms_and_conditionsErrorMessage"'>I confirm I have read the privacy notice for job applicants</label>
+</div>
+</div>
+<div class="column2">
+<div class="detail">
+<input class="checkbox consentCheckbox required" id="p_terms_and_conditions" name="p_terms_and_conditions" type="checkbox" value="Y"/>
+</div>
+</div>
+</div>
+</div>
+<div class="links">
+<input class="button submit" onclick="if(validateUsername() &amp;&amp; validate2ndUsername()){document.forms.prefs.p_email_address.value=document.forms.prefs.p_username.value.toLowerCase();document.forms.prefs.submit();} return false;" type="submit" value="Save"/>
+<input class="button cancel" onclick="history.back(-1);return false;" type="button" value="Cancel"/>
+</div>
+</form>

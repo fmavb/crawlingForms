@@ -1,0 +1,517 @@
+<form action="/NIOSH-Mining/?facetGroups=Research%20methods%20and%20measures=Shear%20tests;%5E%5EDocument%20types=&amp;sf=Research%20methods%20and%20measures" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Research methods and measures=Shear tests;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Research methods and measures"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Research methods and measures</h2>
+<p class="facetDesc">Methods for collecting, measuring, and analyzing information and the measures used to quantify information.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Research methods and measures=Shear tests;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Research methods and measures">Research methods and measures</label>
+<label class="d-none" for="check_Measures">Measures</label>
+<label class="d-none" for="check_Absorption">Absorption</label>
+<label class="d-none" for="check_Accidents">Accidents</label>
+<label class="d-none" for="check_Airflow">Airflow</label>
+<label class="d-none" for="check_Costs">Costs</label>
+<label class="d-none" for="check_Workers' compensation costs">Workers' compensation costs</label>
+<label class="d-none" for="check_Dose">Dose</label>
+<label class="d-none" for="check_Electrical measures">Electrical measures</label>
+<label class="d-none" for="check_Conductance">Conductance</label>
+<label class="d-none" for="check_Electrical resistance">Electrical resistance</label>
+<label class="d-none" for="check_Voltage">Voltage</label>
+<label class="d-none" for="check_Explosive limits">Explosive limits</label>
+<label class="d-none" for="check_Exposure limits">Exposure limits</label>
+<label class="d-none" for="check_Permissible exposure limits">Permissible exposure limits</label>
+<label class="d-none" for="check_Recommended exposure limits">Recommended exposure limits</label>
+<label class="d-none" for="check_Fatalities">Fatalities</label>
+<label class="d-none" for="check_Flammability">Flammability</label>
+<label class="d-none" for="check_Ground stability">Ground stability</label>
+<label class="d-none" for="check_Cleat">Cleat</label>
+<label class="d-none" for="check_Convergence">Convergence</label>
+<label class="d-none" for="check_Horizontal stress">Horizontal stress</label>
+<label class="d-none" for="check_Roof quality">Roof quality</label>
+<label class="d-none" for="check_Slope stability">Slope stability</label>
+<label class="d-none" for="check_Weak rock">Weak rock</label>
+<label class="d-none" for="check_Humidity">Humidity</label>
+<label class="d-none" for="check_Injuries">Injuries</label>
+<label class="d-none" for="check_Mechanical strain">Mechanical strain</label>
+<label class="d-none" for="check_Mechanical stress">Mechanical stress</label>
+<label class="d-none" for="check_Occupational illnesses">Occupational illnesses</label>
+<label class="d-none" for="check_Particulate matter measures">Particulate matter measures</label>
+<label class="d-none" for="check_Elemental carbon fraction">Elemental carbon fraction</label>
+<label class="d-none" for="check_Organic carbon fraction">Organic carbon fraction</label>
+<label class="d-none" for="check_Particle count">Particle count</label>
+<label class="d-none" for="check_Particle size distribution">Particle size distribution</label>
+<label class="d-none" for="check_Respirable dust level">Respirable dust level</label>
+<label class="d-none" for="check_Total carbon">Total carbon</label>
+<label class="d-none" for="check_Total dust level">Total dust level</label>
+<label class="d-none" for="check_Pressure">Pressure</label>
+<label class="d-none" for="check_Rates">Rates</label>
+<label class="d-none" for="check_Fatality rates">Fatality rates</label>
+<label class="d-none" for="check_Injury rates">Injury rates</label>
+<label class="d-none" for="check_Non-fatal days lost rates">Non-fatal days lost rates</label>
+<label class="d-none" for="check_Sound level">Sound level</label>
+<label class="d-none" for="check_Sound power level">Sound power level</label>
+<label class="d-none" for="check_Temperature">Temperature</label>
+<label class="d-none" for="check_Transmittance">Transmittance</label>
+<label class="d-none" for="check_Research methods">Research methods</label>
+<label class="d-none" for="check_Analysis methods">Analysis methods</label>
+<label class="d-none" for="check_Chemical analysis">Chemical analysis</label>
+<label class="d-none" for="check_Chromatography">Chromatography</label>
+<label class="d-none" for="check_Gravimetric analysis">Gravimetric analysis</label>
+<label class="d-none" for="check_Microscopy">Microscopy</label>
+<label class="d-none" for="check_Spectroscopy">Spectroscopy</label>
+<label class="d-none" for="check_CMRR">CMRR</label>
+<label class="d-none" for="check_Cost-benefit analysis">Cost-benefit analysis</label>
+<label class="d-none" for="check_Data analysis">Data analysis</label>
+<label class="d-none" for="check_Qualitative analysis">Qualitative analysis</label>
+<label class="d-none" for="check_Quantitative analysis">Quantitative analysis</label>
+<label class="d-none" for="check_Statistical analysis">Statistical analysis</label>
+<label class="d-none" for="check_Geological mapping">Geological mapping</label>
+<label class="d-none" for="check_Infrared analysis">Infrared analysis</label>
+<label class="d-none" for="check_Intervention effectiveness analysis">Intervention effectiveness analysis</label>
+<label class="d-none" for="check_Job analysis">Job analysis</label>
+<label class="d-none" for="check_Modeling">Modeling</label>
+<label class="d-none" for="check_Computer simulation">Computer simulation</label>
+<label class="d-none" for="check_Numerical modeling">Numerical modeling</label>
+<label class="d-none" for="check_Physical modeling">Physical modeling</label>
+<label class="d-none" for="check_NIOSH method 5040">NIOSH method 5040</label>
+<label class="d-none" for="check_Risk analysis">Risk analysis</label>
+<label class="d-none" for="check_Spectral analysis">Spectral analysis</label>
+<label class="d-none" for="check_FFT analysis">FFT analysis</label>
+<label class="d-none" for="check_Task analysis">Task analysis</label>
+<label class="d-none" for="check_Thermal analysis">Thermal analysis</label>
+<label class="d-none" for="check_Volumetric analysis">Volumetric analysis</label>
+<label class="d-none" for="check_Data collection and recording">Data collection and recording</label>
+<label class="d-none" for="check_Measurement methods">Measurement methods</label>
+<label class="d-none" for="check_Anthropometry">Anthropometry</label>
+<label class="d-none" for="check_Audiograms">Audiograms</label>
+<label class="d-none" for="check_Axial tests">Axial tests</label>
+<label class="d-none" for="check_Compliance measurement">Compliance measurement</label>
+<label class="d-none" for="check_Continuous measurement">Continuous measurement</label>
+<label class="d-none" for="check_Electromyography">Electromyography</label>
+<label class="d-none" for="check_Field measurement">Field measurement</label>
+<label class="d-none" for="check_Human stress measurement">Human stress measurement</label>
+<label class="d-none" for="check_In situ rock strength measurement">In situ rock strength measurement</label>
+<label class="d-none" for="check_Laboratory measurement">Laboratory measurement</label>
+<label class="d-none" for="check_Monitoring">Monitoring</label>
+<label class="d-none" for="check_Environmental monitoring">Environmental monitoring</label>
+<label class="d-none" for="check_Mine monitoring">Mine monitoring</label>
+<label class="d-none" for="check_Atmospheric monitoring">Atmospheric monitoring</label>
+<label class="d-none" for="check_Equipment monitoring">Equipment monitoring</label>
+<label class="d-none" for="check_Personal monitoring">Personal monitoring</label>
+<label class="d-none" for="check_Seismic monitoring">Seismic monitoring</label>
+<label class="d-none" for="check_Photometry">Photometry</label>
+<label class="d-none" for="check_Physiological work measurement">Physiological work measurement</label>
+<label class="d-none" for="check_Point load tests">Point load tests</label>
+<label class="d-none" for="check_Radiometry">Radiometry</label>
+<label class="d-none" for="check_Sampling">Sampling</label>
+<label class="d-none" for="check_Seismic methods">Seismic methods</label>
+<label class="d-none" for="check_Seismic monitoring">Seismic monitoring</label>
+<label class="d-none" for="check_Shear tests">Shear tests</label>
+<label class="d-none" for="check_Surveys">Surveys</label>
+<label class="d-none" for="check_Focus groups">Focus groups</label>
+<label class="d-none" for="check_Interviews">Interviews</label>
+<label class="d-none" for="check_Questionnaires">Questionnaires</label>
+<label class="d-none" for="check_Tensile tests">Tensile tests</label>
+<label class="d-none" for="check_Time motion studies">Time motion studies</label>
+<label class="d-none" for="check_Training and curriculum measurement">Training and curriculum measurement</label>
+<label class="d-none" for="check_Uniaxial compressive tests">Uniaxial compressive tests</label>
+<label class="d-none" for="check_Weatherability tests">Weatherability tests</label>
+<label class="d-none" for="check_Work sampling">Work sampling</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Research methods and measures">
+<a>Research methods and measures</a>
+<ul>
+<li id="Measures">
+<a>Measures [14]</a>
+<ul>
+<li id="Absorption">
+<a>Absorption [4]</a>
+</li>
+<li id="Accidents">
+<a>Accidents [15]</a>
+</li>
+<li id="Airflow">
+<a>Airflow [40]</a>
+</li>
+<li id="Costs">
+<a>Costs [17]</a>
+<ul>
+<li id="Workers' compensation costs">
+<a>Workers' compensation costs [5]</a>
+</li>
+</ul>
+</li>
+<li id="Dose">
+<a>Dose [3]</a>
+</li>
+<li id="Electrical measures">
+<a>Electrical measures [3]</a>
+<ul>
+<li id="Conductance">
+<a>Conductance [1]</a>
+</li>
+<li id="Electrical resistance">
+<a>Electrical resistance [2]</a>
+</li>
+<li id="Voltage">
+<a>Voltage [4]</a>
+</li>
+</ul>
+</li>
+<li id="Explosive limits">
+<a>Explosive limits [1]</a>
+</li>
+<li id="Exposure limits">
+<a>Exposure limits [7]</a>
+<ul>
+<li id="Permissible exposure limits">
+<a>Permissible exposure limits [12]</a>
+</li>
+<li id="Recommended exposure limits">
+<a>Recommended exposure limits [1]</a>
+</li>
+</ul>
+</li>
+<li id="Fatalities">
+<a>Fatalities [37]</a>
+</li>
+<li id="Flammability">
+<a>Flammability [10]</a>
+</li>
+<li id="Ground stability">
+<a>Ground stability [25]</a>
+<ul>
+<li id="Cleat">
+<a>Cleat [6]</a>
+</li>
+<li id="Convergence">
+<a>Convergence [13]</a>
+</li>
+<li id="Horizontal stress">
+<a>Horizontal stress [29]</a>
+</li>
+<li id="Roof quality">
+<a>Roof quality [33]</a>
+</li>
+<li id="Slope stability">
+<a>Slope stability [16]</a>
+</li>
+<li id="Weak rock">
+<a>Weak rock [19]</a>
+</li>
+</ul>
+</li>
+<li id="Humidity">
+<a>Humidity [12]</a>
+</li>
+<li id="Injuries">
+<a>Injuries [44]</a>
+</li>
+<li id="Mechanical strain">
+<a>Mechanical strain [3]</a>
+</li>
+<li id="Mechanical stress">
+<a>Mechanical stress [1]</a>
+</li>
+<li id="Occupational illnesses">
+<a>Occupational illnesses [7]</a>
+</li>
+<li id="Particulate matter measures">
+<a>Particulate matter measures [23]</a>
+<ul>
+<li id="Elemental carbon fraction">
+<a>Elemental carbon fraction [7]</a>
+</li>
+<li id="Organic carbon fraction">
+<a>Organic carbon fraction [1]</a>
+</li>
+<li id="Particle count">
+<a>Particle count [2]</a>
+</li>
+<li id="Particle size distribution">
+<a>Particle size distribution [8]</a>
+</li>
+<li id="Respirable dust level">
+<a>Respirable dust level [41]</a>
+</li>
+<li id="Total carbon">
+<a>Total carbon [4]</a>
+</li>
+<li id="Total dust level">
+<a>Total dust level [4]</a>
+</li>
+</ul>
+</li>
+<li id="Pressure">
+<a>Pressure [25]</a>
+</li>
+<li id="Rates">
+<a>Rates [10]</a>
+<ul>
+<li id="Fatality rates">
+<a>Fatality rates [110]</a>
+</li>
+<li id="Injury rates">
+<a>Injury rates [113]</a>
+</li>
+<li id="Non-fatal days lost rates">
+<a>Non-fatal days lost rates [104]</a>
+</li>
+</ul>
+</li>
+<li id="Sound level">
+<a>Sound level [29]</a>
+</li>
+<li id="Sound power level">
+<a>Sound power level [12]</a>
+</li>
+<li id="Temperature">
+<a>Temperature [17]</a>
+</li>
+<li id="Transmittance">
+<a>Transmittance [1]</a>
+</li>
+</ul>
+</li>
+<li id="Research methods">
+<a>Research methods [2]</a>
+<ul>
+<li id="Analysis methods">
+<a>Analysis methods [4]</a>
+<ul>
+<li id="Chemical analysis">
+<a>Chemical analysis [7]</a>
+<ul>
+<li id="Chromatography">
+<a>Chromatography [2]</a>
+</li>
+<li id="Gravimetric analysis">
+<a>Gravimetric analysis [2]</a>
+</li>
+<li id="Microscopy">
+<a>Microscopy [7]</a>
+</li>
+<li id="Spectroscopy">
+<a>Spectroscopy [4]</a>
+</li>
+</ul>
+</li>
+<li id="CMRR">
+<a>CMRR [11]</a>
+</li>
+<li id="Cost-benefit analysis">
+<a>Cost-benefit analysis [6]</a>
+</li>
+<li id="Data analysis">
+<a>Data analysis [53]</a>
+<ul>
+<li id="Qualitative analysis">
+<a>Qualitative analysis [2]</a>
+</li>
+<li id="Quantitative analysis">
+<a>Quantitative analysis [7]</a>
+</li>
+<li id="Statistical analysis">
+<a>Statistical analysis [31]</a>
+</li>
+</ul>
+</li>
+<li id="Geological mapping">
+<a>Geological mapping [2]</a>
+</li>
+<li id="Infrared analysis">
+<a>Infrared analysis [4]</a>
+</li>
+<li id="Intervention effectiveness analysis">
+<a>Intervention effectiveness analysis [3]</a>
+</li>
+<li id="Job analysis">
+<a>Job analysis [8]</a>
+</li>
+<li id="Modeling">
+<a>Modeling [53]</a>
+<ul>
+<li id="Computer simulation">
+<a>Computer simulation [86]</a>
+</li>
+<li id="Numerical modeling">
+<a>Numerical modeling [93]</a>
+</li>
+<li id="Physical modeling">
+<a>Physical modeling [4]</a>
+</li>
+</ul>
+</li>
+<li id="NIOSH method 5040">
+<a>NIOSH method 5040 [3]</a>
+</li>
+<li id="Risk analysis">
+<a>Risk analysis [44]</a>
+</li>
+<li id="Spectral analysis">
+<a>Spectral analysis [3]</a>
+<ul>
+<li id="FFT analysis">
+<a>FFT analysis [1]</a>
+</li>
+</ul>
+</li>
+<li id="Task analysis">
+<a>Task analysis [15]</a>
+</li>
+<li id="Thermal analysis">
+<a>Thermal analysis [4]</a>
+</li>
+<li id="Volumetric analysis">
+<a>Volumetric analysis [1]</a>
+</li>
+</ul>
+</li>
+<li id="Data collection and recording">
+<a>Data collection and recording [23]</a>
+</li>
+<li id="Measurement methods">
+<a>Measurement methods [5]</a>
+<ul>
+<li id="Anthropometry">
+<a>Anthropometry [2]</a>
+</li>
+<li id="Audiograms">
+<a>Audiograms [4]</a>
+</li>
+<li id="Axial tests">
+<a>Axial tests [2]</a>
+</li>
+<li id="Compliance measurement">
+<a>Compliance measurement [1]</a>
+</li>
+<li id="Continuous measurement">
+<a>Continuous measurement [3]</a>
+</li>
+<li id="Electromyography">
+<a>Electromyography [6]</a>
+</li>
+<li id="Field measurement">
+<a>Field measurement [11]</a>
+</li>
+<li id="Human stress measurement">
+<a>Human stress measurement [1]</a>
+</li>
+<li id="In situ rock strength measurement">
+<a>In situ rock strength measurement [5]</a>
+</li>
+<li id="Laboratory measurement">
+<a>Laboratory measurement [4]</a>
+</li>
+<li id="Monitoring">
+<a>Monitoring [64]</a>
+<ul>
+<li id="Environmental monitoring">
+<a>Environmental monitoring [7]</a>
+</li>
+<li id="Mine monitoring">
+<a>Mine monitoring [4]</a>
+<ul>
+<li id="Atmospheric monitoring">
+<a>Atmospheric monitoring [21]</a>
+</li>
+<li id="Equipment monitoring">
+<a>Equipment monitoring [5]</a>
+</li>
+</ul>
+</li>
+<li id="Personal monitoring">
+<a>Personal monitoring [6]</a>
+</li>
+<li id="Seismic monitoring">
+<a>Seismic monitoring [35]</a>
+</li>
+</ul>
+</li>
+<li id="Photometry">
+<a>Photometry [1]</a>
+</li>
+<li id="Physiological work measurement">
+<a>Physiological work measurement [2]</a>
+</li>
+<li id="Point load tests">
+<a>Point load tests [5]</a>
+</li>
+<li id="Radiometry">
+<a>Radiometry [2]</a>
+</li>
+<li id="Sampling">
+<a>Sampling [31]</a>
+</li>
+<li id="Seismic methods">
+<a>Seismic methods [9]</a>
+<ul>
+<li id="Seismic monitoring">
+<a>Seismic monitoring [35]</a>
+</li>
+</ul>
+</li>
+<li id="Shear tests">
+<a>Shear tests [7]</a>
+</li>
+<li id="Surveys">
+<a>Surveys [24]</a>
+<ul>
+<li id="Focus groups">
+<a>Focus groups [1]</a>
+</li>
+<li id="Interviews">
+<a>Interviews [13]</a>
+</li>
+<li id="Questionnaires">
+<a>Questionnaires [6]</a>
+</li>
+</ul>
+</li>
+<li id="Tensile tests">
+<a>Tensile tests [6]</a>
+</li>
+<li id="Time motion studies">
+<a>Time motion studies [3]</a>
+</li>
+<li id="Training and curriculum measurement">
+<a>Training and curriculum measurement [18]</a>
+</li>
+<li id="Uniaxial compressive tests">
+<a>Uniaxial compressive tests [5]</a>
+</li>
+<li id="Weatherability tests">
+<a>Weatherability tests [2]</a>
+</li>
+<li id="Work sampling">
+<a>Work sampling [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Research methods and measures=Shear tests;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

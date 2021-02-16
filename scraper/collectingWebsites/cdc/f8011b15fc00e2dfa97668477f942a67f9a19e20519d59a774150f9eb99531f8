@@ -1,0 +1,105 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazard%20prevention%20and%20control=Smoke%20detection;Thermal%20detection;Fire%20suppression;%5E%5EDocument%20types=&amp;sf=Research%20methods%20and%20measures" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazard prevention and control=Smoke detection;Thermal detection;Fire suppression;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Research methods and measures"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Research methods and measures</h2>
+<p class="facetDesc">Methods for collecting, measuring, and analyzing information and the measures used to quantify information.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Smoke detection;Thermal detection;Fire suppression;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Research methods and measures">Research methods and measures</label>
+<label class="d-none" for="check_Measures">Measures</label>
+<label class="d-none" for="check_Flammability">Flammability</label>
+<label class="d-none" for="check_Rates">Rates</label>
+<label class="d-none" for="check_Injury rates">Injury rates</label>
+<label class="d-none" for="check_Research methods">Research methods</label>
+<label class="d-none" for="check_Analysis methods">Analysis methods</label>
+<label class="d-none" for="check_Data analysis">Data analysis</label>
+<label class="d-none" for="check_Modeling">Modeling</label>
+<label class="d-none" for="check_Computer simulation">Computer simulation</label>
+<label class="d-none" for="check_Measurement methods">Measurement methods</label>
+<label class="d-none" for="check_Monitoring">Monitoring</label>
+<label class="d-none" for="check_Mine monitoring">Mine monitoring</label>
+<label class="d-none" for="check_Atmospheric monitoring">Atmospheric monitoring</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Research methods and measures">
+<a>Research methods and measures</a>
+<ul>
+<li id="Measures">
+<a>Measures [0]</a>
+<ul>
+<li id="Flammability">
+<a>Flammability [1]</a>
+</li>
+<li id="Rates">
+<a>Rates [0]</a>
+<ul>
+<li id="Injury rates">
+<a>Injury rates [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Research methods">
+<a>Research methods [0]</a>
+<ul>
+<li id="Analysis methods">
+<a>Analysis methods [0]</a>
+<ul>
+<li id="Data analysis">
+<a>Data analysis [1]</a>
+</li>
+<li id="Modeling">
+<a>Modeling [1]</a>
+<ul>
+<li id="Computer simulation">
+<a>Computer simulation [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Measurement methods">
+<a>Measurement methods [0]</a>
+<ul>
+<li id="Monitoring">
+<a>Monitoring [0]</a>
+<ul>
+<li id="Mine monitoring">
+<a>Mine monitoring [0]</a>
+<ul>
+<li id="Atmospheric monitoring">
+<a>Atmospheric monitoring [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=Smoke detection;Thermal detection;Fire suppression;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

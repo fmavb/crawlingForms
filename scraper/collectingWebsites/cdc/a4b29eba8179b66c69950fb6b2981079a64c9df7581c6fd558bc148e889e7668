@@ -1,0 +1,207 @@
+<form action="/NIOSH-Mining/?facetGroups=Population%20groups=%5E&amp;sf=Population%20groups" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Population groups=^"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Population groups"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Population groups</h2>
+<p class="facetDesc">A group of people or organizations with a quality or characteristic in common that is studied or described in the content.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Population groups=^'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Population groups">Population groups</label>
+<label class="d-none" for="check_General public">General public</label>
+<label class="d-none" for="check_Children">Children</label>
+<label class="d-none" for="check_Government">Government</label>
+<label class="d-none" for="check_Federal government">Federal government</label>
+<label class="d-none" for="check_Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</label>
+<label class="d-none" for="check_National Institute for Occupational Safety and Health">National Institute for Occupational Safety and Health</label>
+<label class="d-none" for="check_Office of Mine Safety and Health Research">Office of Mine Safety and Health Research</label>
+<label class="d-none" for="check_Mine Safety and Health Administration">Mine Safety and Health Administration</label>
+<label class="d-none" for="check_U.S. Bureau of Mines">U.S. Bureau of Mines</label>
+<label class="d-none" for="check_Jobs and professions">Jobs and professions</label>
+<label class="d-none" for="check_Educators and trainers">Educators and trainers</label>
+<label class="d-none" for="check_Trainers">Trainers</label>
+<label class="d-none" for="check_Engineers">Engineers</label>
+<label class="d-none" for="check_Independent contractors">Independent contractors</label>
+<label class="d-none" for="check_Researchers">Researchers</label>
+<label class="d-none" for="check_Safety and health professionals">Safety and health professionals</label>
+<label class="d-none" for="check_Mine operators">Mine operators</label>
+<label class="d-none" for="check_Mining associations">Mining associations</label>
+<label class="d-none" for="check_Mining workforce">Mining workforce</label>
+<label class="d-none" for="check_Emergency workers">Emergency workers</label>
+<label class="d-none" for="check_Emergency managers">Emergency managers</label>
+<label class="d-none" for="check_Firefighters">Firefighters</label>
+<label class="d-none" for="check_Mine rescue teams">Mine rescue teams</label>
+<label class="d-none" for="check_Engineers">Engineers</label>
+<label class="d-none" for="check_Independent contractors">Independent contractors</label>
+<label class="d-none" for="check_Managers">Managers</label>
+<label class="d-none" for="check_Miners">Miners</label>
+<label class="d-none" for="check_Safety and health professionals">Safety and health professionals</label>
+<label class="d-none" for="check_Professional associations">Professional associations</label>
+<label class="d-none" for="check_Small mines">Small mines</label>
+<label class="d-none" for="check_Special worker populations">Special worker populations</label>
+<label class="d-none" for="check_Injured workers">Injured workers</label>
+<label class="d-none" for="check_Older workers">Older workers</label>
+<label class="d-none" for="check_Workers by experience levels">Workers by experience levels</label>
+<label class="d-none" for="check_Experienced workers">Experienced workers</label>
+<label class="d-none" for="check_Inexperienced workers">Inexperienced workers</label>
+<label class="d-none" for="check_New workers">New workers</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Population groups">
+<a>Population groups</a>
+<ul>
+<li id="General public">
+<a>General public [5]</a>
+<ul>
+<li id="Children">
+<a>Children [1]</a>
+</li>
+</ul>
+</li>
+<li id="Government">
+<a>Government [1]</a>
+<ul>
+<li id="Federal government">
+<a>Federal government [1]</a>
+<ul>
+<li id="Centers for Disease Control and Prevention">
+<a>Centers for Disease Control and Prevention [1]</a>
+<ul>
+<li id="National Institute for Occupational Safety and Health">
+<a>National Institute for Occupational Safety and Health [66]</a>
+<ul>
+<li id="Office of Mine Safety and Health Research">
+<a>Office of Mine Safety and Health Research [24]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Mine Safety and Health Administration">
+<a>Mine Safety and Health Administration [24]</a>
+</li>
+<li id="U.S. Bureau of Mines">
+<a>U.S. Bureau of Mines [59]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="Jobs and professions">
+<a>Jobs and professions [0]</a>
+<ul>
+<li id="Educators and trainers">
+<a>Educators and trainers [3]</a>
+<ul>
+<li id="Trainers">
+<a>Trainers [3]</a>
+</li>
+</ul>
+</li>
+<li id="Engineers">
+<a>Engineers [1]</a>
+</li>
+<li id="Independent contractors">
+<a>Independent contractors [3]</a>
+</li>
+<li id="Researchers">
+<a>Researchers [2]</a>
+</li>
+<li id="Safety and health professionals">
+<a>Safety and health professionals [1]</a>
+</li>
+</ul>
+</li>
+<li id="Mine operators">
+<a>Mine operators [12]</a>
+</li>
+<li id="Mining associations">
+<a>Mining associations [2]</a>
+</li>
+<li id="Mining workforce">
+<a>Mining workforce [25]</a>
+<ul>
+<li id="Emergency workers">
+<a>Emergency workers [4]</a>
+<ul>
+<li id="Emergency managers">
+<a>Emergency managers [4]</a>
+</li>
+<li id="Firefighters">
+<a>Firefighters [1]</a>
+</li>
+<li id="Mine rescue teams">
+<a>Mine rescue teams [15]</a>
+</li>
+</ul>
+</li>
+<li id="Engineers">
+<a>Engineers [1]</a>
+</li>
+<li id="Independent contractors">
+<a>Independent contractors [3]</a>
+</li>
+<li id="Managers">
+<a>Managers [4]</a>
+</li>
+<li id="Miners">
+<a>Miners [53]</a>
+</li>
+<li id="Safety and health professionals">
+<a>Safety and health professionals [1]</a>
+</li>
+</ul>
+</li>
+<li id="Professional associations">
+<a>Professional associations [1]</a>
+</li>
+<li id="Small mines">
+<a>Small mines [5]</a>
+</li>
+<li id="Special worker populations">
+<a>Special worker populations [0]</a>
+<ul>
+<li id="Injured workers">
+<a>Injured workers [2]</a>
+</li>
+<li id="Older workers">
+<a>Older workers [8]</a>
+</li>
+<li id="Workers by experience levels">
+<a>Workers by experience levels [0]</a>
+<ul>
+<li id="Experienced workers">
+<a>Experienced workers [6]</a>
+</li>
+<li id="Inexperienced workers">
+<a>Inexperienced workers [7]</a>
+</li>
+<li id="New workers">
+<a>New workers [7]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Population groups=^';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

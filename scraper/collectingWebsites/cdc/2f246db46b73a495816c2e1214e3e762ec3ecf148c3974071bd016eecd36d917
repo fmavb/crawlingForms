@@ -1,0 +1,55 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazards%20and%20exposures=Bodily%20motions;Standing;Repetitive%20motions;Stooping;Kneeling;%5E%5EDocument%20types=&amp;sf=Body%20parts" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazards and exposures=Bodily motions;Standing;Repetitive motions;Stooping;Kneeling;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Body parts"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Body parts</h2>
+<p class="facetDesc">Parts of the human anatomy.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Bodily motions;Standing;Repetitive motions;Stooping;Kneeling;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Body parts">Body parts</label>
+<label class="d-none" for="check_Back">Back</label>
+<label class="d-none" for="check_Lower limbs">Lower limbs</label>
+<label class="d-none" for="check_Knees">Knees</label>
+<label class="d-none" for="check_Spinal cord">Spinal cord</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Body parts">
+<a>Body parts</a>
+<ul>
+<li id="Back">
+<a>Back [2]</a>
+</li>
+<li id="Lower limbs">
+<a>Lower limbs [0]</a>
+<ul>
+<li id="Knees">
+<a>Knees [5]</a>
+</li>
+</ul>
+</li>
+<li id="Spinal cord">
+<a>Spinal cord [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Bodily motions;Standing;Repetitive motions;Stooping;Kneeling;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

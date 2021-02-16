@@ -1,0 +1,564 @@
+<form action="/student/personaldetails" id="formPersonal" method="post" onsubmit="return (validateStudentDetails())">
+<input hidden="" id="Code" name="Code" type="text" value="6699"/>
+<input data-val="true" data-val-required="The Id field is required." id="Id" name="Id" type="hidden" value="0"/>
+<input hidden="" id="ContactId" name="ContactId" type="hidden" value=""/>
+<section class="bg-dark-blue section-group" id="form-progression">
+<div class="container">
+<div class="row">
+<div class="col">
+<h1 class="heading-1 text-center mb-4" id="heading-1">Apply for BMA full membership
+                </h1></div>
+</div>
+<div class="row">
+<div class="col">
+<div aria-valuemax="2" aria-valuemin="1" aria-valuenow="1" class="bs-wizard" role="progressbar">
+<div class="bs-wizard-step">
+<div class="bs-wizard-dot bs-wizard-dot--active"><span>1</span></div>
+<div class="progress"></div>
+<div class="bs-wizard-info text-center text-white">Personal details</div>
+</div>
+<div class="bs-wizard-step">
+<div class="bs-wizard-dot"><span>2</span></div>
+<div class="progress"></div>
+<div class="bs-wizard-info text-center text-white">Academic details</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-grey section-group" id="gmc-number-read-only">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p class="body-copy-secondary">Step 1 of 2</p>
+<h2 class="heading-2">Personal details</h2>
+</div>
+</div>
+</div>
+</section>
+<main class="section-group" id="adacemic-details-1" role="main">
+<div class="container">
+<div class="row">
+<div class="col">
+<section class="contact-information section-inner">
+<h3 class="heading-3 mb-3" id="heading-3">Contact information</h3>
+<p class="body-copy mb-3">Fields marked * are required</p>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="Title">Title <sup>*</sup></label>
+<select class="form-control" data-val="true" data-val-required="Title is required" id="Title" name="Title">
+<option selected="selected" value="">Please select</option>
+<option value="100000000">Mr</option>
+<option value="100000001">Mrs</option>
+<option value="100000002">Ms</option>
+<option value="100000003">Miss</option>
+<option value="100000004">Dr</option>
+<option value="100000008">Professor</option>
+<option value="300000000">Mx</option>
+</select>
+<span class="text-danger field-validation-valid" data-valmsg-for="Title" data-valmsg-replace="true"></span>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="FirstName">First name(s) <sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-regex="Invalid first name" data-val-regex-pattern="^([a-zA-Z .&amp;'_-]+)$" data-val-required="The first name is required" id="FirstName" maxlength="100" name="FirstName" type="text" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group col-md-5 offset-md-1">
+<label class="label mb-2" for="LastName">Family name <sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-regex="Invalid family name" data-val-regex-pattern="^([a-zA-Z .&amp;'_-]+)$" data-val-required="The family name is required" id="LastName" maxlength="100" name="LastName" type="text" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="MobilePhoneNumber">Mobile telephone number <sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-length="Invalid phone number" data-val-length-max="14" data-val-length-min="10" data-val-phone="Invalid phone number" data-val-remote="'MobilePhoneNumber' is invalid." data-val-remote-additionalfields="*.MobilePhoneNumber" data-val-remote-url="/verifyphone" data-val-required="The phone number is required" id="MobilePhoneNumber" maxlength="14" name="MobilePhoneNumber" type="number" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="MobilePhoneNumber" data-valmsg-replace="true"></span>
+</div>
+</div>
+</section>
+<section class="combodate section-inner">
+<div class="row">
+<div class="form-group col-md-5">
+<label class="heading-4 mb-2" for="Dob">Date of birth <sup>*</sup></label>
+<div class="row dob-group row-inline-3">
+<div class="col">
+<div class="row">
+<input data-format="DD-MM-YYYY" data-template="DDMMMYYYY" data-val="true" data-val-required="The date of birth is required" id="Dob" name="Dob" onchange="clearStudentDobErrorsMsg()" required="" type="text" value=""/>
+<span class="text-danger col-md-12 field-validation-valid" data-valmsg-for="Dob" data-valmsg-replace="true" id="DobVal"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="Gender">Sex <sup>*</sup></label>
+<select class="form-control" data-val="true" data-val-required="The gender is required" id="Gender" name="Gender">
+<option selected="selected" value="">Please select</option>
+<option value="1">Male</option>
+<option value="2">Female</option>
+<option value="3">Intersex</option>
+<option value="5">Prefer not to say</option>
+<option value="6">Other</option>
+</select>
+<span class="text-danger field-validation-valid" data-valmsg-for="Gender" data-valmsg-replace="true"></span>
+</div>
+</div>
+</section>
+<section class="home-address section-inner">
+<div class="row">
+<div class="form-group col-md-5 mb-2">
+<h4 class="heading-4">Home address</h4>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5 mb-0">
+<label class="label mb-2" for="PostCode">Postcode <sup>*</sup></label>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-4">
+<input class="form-control" id="DummyPostCode"/>
+<span class="text-danger" id="Postcodevalidation"></span>
+</div>
+<div class="form-group col-md-4">
+<button class="btn btn-primary" onclick="findStudentAddressByPostCode(this)" type="button">Find address</button>
+</div>
+</div>
+<div class="row col-md-12 mb-4">
+<a class="js-toggle-trigger link-copy" href="javascript:" id="ManualEdit" onclick="ShowStudentAddress()" style="color:#af1478">Enter address manually</a>
+</div>
+<div class="row" id="HideAddress">
+<div class="form-group col-md-4">
+<select class="form-control" id="AddressId" name="AddressId" onchange="getStudentAddressDetails(this)"></select>
+</div>
+</div>
+<div class="row mb-2" id="displayAddress">
+<div class="col-md-4">
+<div class="card card--edit">
+<div class="card-body">
+<div class="row">
+<div class="col-12 col-sm mb-2 mb-sm-0">
+<div id="details"></div>
+<div id="details1"></div>
+<div id="details2"></div>
+<div id="details3"></div>
+<div id="details4"></div>
+<div id="details5"></div>
+<div id="details6"></div>
+<div id="details7"></div>
+</div>
+<div class="col-12 col-sm-auto">
+<a class="col-md-offset-1" href="javascript:;" onclick="ShowStudentAddress()" style="color:#af1478;">Edit address</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="ToHideAddress">
+<div class="row">
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="AddressLine1">Address line 1 <sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-regex="Please enter valid Addressline1" data-val-regex-pattern="^([0-9a-zA-Z ./&amp;'_-]+)$" data-val-required="The address line is required" id="AddressLine1" maxlength="250" name="AddressLine1" type="text" value=""/>
+<span class="text-danger" id="AddressLine1Error"></span>
+<span class="text-danger field-validation-valid" data-valmsg-for="AddressLine1" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group col-md-5 offset-md-1">
+<label class="label mb-2" for="AddressLine2">Address line 2 </label>
+<input class="form-control" id="AddressLine2" maxlength="250" name="AddressLine2" type="text" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="AddressLine2" data-valmsg-replace="true"></span>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="AddressLine3">Address line3</label>
+<input class="form-control" id="AddressLine3" maxlength="250" name="AddressLine3" type="text" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="AddressLine3" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group col-md-5 offset-md-1">
+<label class="label mb-2" for="Town">Town <sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-regex="Please enter valid town" data-val-regex-pattern="^([0-9a-zA-Z .&amp;'_-]+)$" data-val-required="Town is required" id="Town" maxlength="100" name="Town" type="text" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="Town" data-valmsg-replace="true"></span>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="County">County</label>
+<input class="form-control" id="County" maxlength="100" name="County" type="text" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="County" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group col-md-5 offset-md-1">
+<label class="label mb-2" for="">Country <sup>*</sup></label>
+<select class="form-control" data-val="true" data-val-required="The Country name is required" id="CountryId" name="CountryId"><option value="245">*** UNKNOWN ***</option>
+<option value="1">Afghanistan</option>
+<option value="2">Åland Islands (Autonomous region of Finland)</option>
+<option value="3">Albania</option>
+<option value="4">Algeria</option>
+<option value="5">Andorra</option>
+<option value="6">Angola</option>
+<option value="7">Anguilla (British Overseas Territory)</option>
+<option value="8">Antarctica</option>
+<option value="9">Antigua and Barbuda</option>
+<option value="10">Argentina</option>
+<option value="11">Armenia</option>
+<option value="12">Aruba</option>
+<option value="13">Ascension Island (British Overseas Territory)</option>
+<option value="14">Australia</option>
+<option value="179">Austria</option>
+<option value="15">Azerbaijan</option>
+<option value="16">Azores (Autonomous Regions of Portugal)</option>
+<option value="17">Bahamas</option>
+<option value="18">Bahrain</option>
+<option value="19">Bangladesh</option>
+<option value="20">Barbados</option>
+<option value="21">Belarus</option>
+<option value="22">Belgium</option>
+<option value="23">Belize</option>
+<option value="24">Benin</option>
+<option value="266">Bermuda</option>
+<option value="25">Bermuda (British Overseas Territory)</option>
+<option value="28">Bhutan</option>
+<option value="29">Bolivia</option>
+<option value="26">Bonaire, Sint Eustatius and Saba (Netherlands Overseas Territory)</option>
+<option value="30">Bosnia and Herzegovina</option>
+<option value="31">Botswana</option>
+<option value="32">Brazil</option>
+<option value="27">British Forces Post Office</option>
+<option value="50">British Indian Ocean Territory (British Overseas Territory)</option>
+<option value="269">Brunei</option>
+<option value="33">Brunei Darussalam</option>
+<option value="34">Bulgaria</option>
+<option value="249">Burkina Faso</option>
+<option value="35">Burundi</option>
+<option value="38">Cambodia</option>
+<option value="39">Cameroon</option>
+<option value="40">Canada</option>
+<option value="41">Canary Islands (Spain)</option>
+<option value="65">Cape Verde</option>
+<option value="268">Cayman Islands</option>
+<option value="43">Cayman Islands (British Overseas Territory)</option>
+<option value="37">Central African Republic</option>
+<option value="56">Chad</option>
+<option value="57">Chile</option>
+<option value="58">China</option>
+<option value="48">Christmas Island</option>
+<option value="44">Cocos (Keeling) Islands</option>
+<option value="59">Colombia</option>
+<option value="60">Comoros</option>
+<option value="61">Congo</option>
+<option value="45">Congo, The Democratic Republic of</option>
+<option value="47">Cook Islands</option>
+<option value="62">Costa Rica</option>
+<option value="46">Côte d'Ivoire</option>
+<option value="63">Croatia</option>
+<option value="64">Cuba</option>
+<option value="165">Curaçao</option>
+<option value="66">Cyprus</option>
+<option value="67">Czech Republic</option>
+<option value="68">Denmark</option>
+<option value="69">Djibouti</option>
+<option value="70">Dominica</option>
+<option value="71">Dominican Republic</option>
+<option value="72">Ecuador</option>
+<option value="74">Egypt</option>
+<option value="76">El Salvador</option>
+<option value="73">Equatorial Guinea</option>
+<option value="77">Eritrea</option>
+<option value="79">Estonia</option>
+<option value="80">Ethiopia</option>
+<option value="82">Falkland Islands (British Overseas Territory)</option>
+<option value="83">Faroe Islands</option>
+<option value="85">Fiji</option>
+<option value="86">Finland</option>
+<option value="88">France</option>
+<option value="84">French Guiana</option>
+<option value="87">French Polynesia</option>
+<option value="89">French West Indies (French Overseas Territory)</option>
+<option value="90">Gabon</option>
+<option value="91">Gambia</option>
+<option value="92">Gaza and Khan Yunis (Palestine)</option>
+<option value="95">Georgia</option>
+<option value="96">Germany</option>
+<option value="97">Ghana</option>
+<option value="264">Gibraltar</option>
+<option value="98">Gibraltar (British Overseas Territory)</option>
+<option value="100">Greece</option>
+<option value="101">Greenland</option>
+<option value="102">Grenada</option>
+<option value="99">Guadeloupe (French Overseas Territory)</option>
+<option value="105">Guam (USA Overseas Territory)</option>
+<option value="103">Guatemala</option>
+<option value="265">Guernsey</option>
+<option value="94">Guernsey (Channel Islands)</option>
+<option value="104">Guinea</option>
+<option value="93">Guinea-Bissau</option>
+<option value="106">Guyana</option>
+<option value="107">Haiti</option>
+<option value="108">HM SHIPS</option>
+<option value="252">Holy See (Vatican City State)</option>
+<option value="109">Honduras</option>
+<option value="110">Hong Kong</option>
+<option value="111">Hungary</option>
+<option value="112">Iceland</option>
+<option value="113">India</option>
+<option value="114">Indonesia</option>
+<option value="116">Iran</option>
+<option value="117">Iraq</option>
+<option value="75">Ireland</option>
+<option value="115">Isle of Man</option>
+<option value="118">Israel</option>
+<option value="119">Italy</option>
+<option value="121">Jamaica</option>
+<option value="122">Japan</option>
+<option value="263">Jersey</option>
+<option value="123">Jersey (Channel Islands)</option>
+<option value="124">Jordan</option>
+<option value="125">Kazakhstan</option>
+<option value="127">Kenya</option>
+<option value="128">Kiribati</option>
+<option value="126">Korea, Democratic People's Republic of</option>
+<option value="130">Korea, Republic of</option>
+<option value="129">Kosovo</option>
+<option value="131">Kuwait</option>
+<option value="132">Kyrgyzstan</option>
+<option value="133">Lao People's Democratic Republic</option>
+<option value="134">Latvia</option>
+<option value="135">Lebanon</option>
+<option value="136">Lesotho</option>
+<option value="137">Liberia</option>
+<option value="138">Libya</option>
+<option value="139">Liechtenstein</option>
+<option value="140">Lithuania</option>
+<option value="141">Luxembourg</option>
+<option value="142">Macao</option>
+<option value="143">Macedonia</option>
+<option value="146">Madagascar</option>
+<option value="144">Madeira (Portugal)</option>
+<option value="149">Malawi</option>
+<option value="150">Malaysia</option>
+<option value="145">Maldives</option>
+<option value="147">Mali</option>
+<option value="148">Malta</option>
+<option value="152">Marshall Islands</option>
+<option value="162">Martinique (French Overseas Territory)</option>
+<option value="153">Mauritania</option>
+<option value="154">Mauritius</option>
+<option value="55">Mayotte</option>
+<option value="155">Mexico</option>
+<option value="151">Micronesia, Federated States of</option>
+<option value="157">Moldova</option>
+<option value="51">Monaco</option>
+<option value="158">Mongolia</option>
+<option value="156">Montenegro</option>
+<option value="159">Montserrat (British Overseas Territory)</option>
+<option value="160">Morocco</option>
+<option value="161">Mozambique</option>
+<option value="163">Myanmar (Burma)</option>
+<option value="164">Namibia</option>
+<option value="166">Nauru</option>
+<option value="168">Nepal</option>
+<option value="169">Netherlands</option>
+<option value="167">New Caledonia</option>
+<option value="177">New Zealand</option>
+<option value="171">Nicaragua</option>
+<option value="173">Niger</option>
+<option value="172">Nigeria</option>
+<option value="170">Niue</option>
+<option value="175">Norfolk Island</option>
+<option value="174">Northern Mariana Islands</option>
+<option value="176">Norway</option>
+<option value="178">Oman</option>
+<option value="180">Overseas</option>
+<option value="181">Pakistan</option>
+<option value="42">Palau</option>
+<option value="53">Palestinian Territories</option>
+<option value="182">Panama</option>
+<option value="186">Papua New Guinea</option>
+<option value="183">Paraguay</option>
+<option value="184">Peru</option>
+<option value="185">Philippines</option>
+<option value="52">Pitcairn (British Overseas Territory)</option>
+<option value="187">Poland</option>
+<option value="188">Portugal</option>
+<option value="190">Puerto Rico</option>
+<option value="191">Qatar</option>
+<option value="192">Reunion</option>
+<option value="193">Romania</option>
+<option value="194">Russian Federation</option>
+<option value="195">Rwanda</option>
+<option value="120">Saint Barthélemy</option>
+<option value="202">Saint Helena (British Overseas Territory)</option>
+<option value="206">Saint Kitts and Nevis</option>
+<option value="207">Saint Lucia</option>
+<option value="212">Saint Martin (French Overseas Territory)</option>
+<option value="216">Saint Pierre and Miquelon (French Overseas Territory)</option>
+<option value="220">Saint Vincent and the Grenadines</option>
+<option value="197">Samoa, American</option>
+<option value="257">Samoa, Independent State of</option>
+<option value="210">San Marino</option>
+<option value="189">São Tomé and Príncipe</option>
+<option value="199">Sark (Channel Islands)</option>
+<option value="198">Saudi Arabia</option>
+<option value="200">Senegal</option>
+<option value="54">Serbia</option>
+<option value="201">Seychelles</option>
+<option value="203">Sierra Leone</option>
+<option value="204">Singapore</option>
+<option value="211">Sint Maarten (Netherlands Overseas Territory)</option>
+<option value="208">Slovakia</option>
+<option value="209">Slovenia</option>
+<option value="213">Solomon Islands</option>
+<option value="214">Somalia</option>
+<option value="196">South Africa</option>
+<option value="49">South Georgia and the South Sandwich Islands (British Overseas Territory)</option>
+<option value="256">South Sudan</option>
+<option value="215">Spain</option>
+<option value="217">Sri Lanka</option>
+<option value="218">Sudan</option>
+<option value="219">Suriname</option>
+<option value="205">Svalbard and Jan Mayen (Norway Overseas Territory)</option>
+<option value="221">Swaziland</option>
+<option value="222">Sweden</option>
+<option value="223">Switzerland</option>
+<option value="224">Syrian Arab Republic</option>
+<option value="225">Taiwan</option>
+<option value="226">Tajikistan</option>
+<option value="227">Tanzania</option>
+<option value="229">Thailand</option>
+<option value="230">Tibet</option>
+<option value="81">Timor-Leste</option>
+<option value="232">Togo</option>
+<option value="231">Tokelau (New Zealand Overseas Territory)</option>
+<option value="233">Tonga</option>
+<option value="234">Trinidad and Tobago</option>
+<option value="235">Tristan da Cunha (British Overseas Territory)</option>
+<option value="236">Tunisia</option>
+<option value="237">Turkey</option>
+<option value="238">Turkmenistan</option>
+<option value="267">Turks and Caicos Islands</option>
+<option value="228">Turks and Caicos Islands (British Overseas Territory)</option>
+<option value="239">Tuvalu</option>
+<option value="241">Uganda</option>
+<option value="242">UK</option>
+<option value="243">Ukraine</option>
+<option value="240">United Arab Emirates</option>
+<option value="247">United States</option>
+<option value="244">United States Minor Outlying Islands</option>
+<option value="246">Uruguay</option>
+<option value="250">Uzbekistan</option>
+<option value="251">Vanuatu</option>
+<option value="253">Venezuela</option>
+<option value="254">Vietnam</option>
+<option value="36">Virgin Islands, British (British Overseas Territory)</option>
+<option value="248">Virgin Islands, United States (USA Overseas Territory)</option>
+<option value="255">Wallis and Futuna (French Overseas Territory)</option>
+<option value="78">Western Sahara</option>
+<option value="258">Yemen</option>
+<option value="261">Zambia</option>
+<option value="262">Zimbabwe</option>
+</select>
+<span class="text-danger field-validation-valid" data-valmsg-for="CountryId" data-valmsg-replace="true"></span>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="">Postcode<sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-required="The post code is required." id="PostCode" maxlength="50" name="PostCode" type="text" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="PostCode" data-valmsg-replace="true"></span>
+</div>
+</div>
+</div>
+</section>
+<div>
+<h4 class="heading-4">Account details</h4>
+<p class="body-copy"> These are the details you will use to sign in to your account.</p>
+</div>
+<div><br/></div>
+<section class="account-details section-inner">
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="">Email address <sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-regex="Invalid email address" data-val-regex-pattern="^[a-zA-Z0-9][-a-zA-Z0-9._]+@([-a-zA-Z0-9]+[.])+[a-zA-Z]{2,5}$" data-val-remote="'EmailAddress' is invalid." data-val-remote-additionalfields="*.EmailAddress,*.ContactId" data-val-remote-url="/verifyemail" data-val-required="The email address is required" id="EmailAddress" maxlength="100" name="EmailAddress" onblur="compareEmailAddress()" type="email" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group col-md-5 offset-md-1">
+<label class="label mb-2" for="">Confirm email address <sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-email="Invalid email address" id="ConfirmEmailAddress" maxlength="100" name="ConfirmEmailAddress" onblur="compareEmailAddress()" type="email" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="ConfirmEmailAddress" data-valmsg-replace="true"></span>
+<span class="text-danger" id="ConfirmEmailAddressError"></span>
+</div>
+</div>
+<div class="row">
+<div class="col-md-10">
+<div class="checkbox-group">
+<div class="checkbox">
+<input data-val="true" data-val-required="The MarketingCommunicationAgreed field is required." id="MarketingCommunicationAgreed" name="MarketingCommunicationAgreed" type="checkbox" value="true"/>
+<label class="body-copy" for="MarketingCommunicationAgreed">The most effective way of receiving information about your membership benefits &amp; services is by email.  If you do not wish to be contacted electronically about your membership benefits, please tick to opt out</label>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="password-criteria section-inner">
+<div class="row">
+<div class="col-md-8">
+<h4 class="heading-4 mb-3">Password criteria:</h4>
+<div class="card card-info form-group">
+<div class="card-body">
+<ul class="list-group list-group-bullet">
+<li><span class="copy-body">Must be a minimum of 6 characters</span></li>
+<li><span class="copy-body">Must contain letters and numbers</span></li>
+<li><span class="copy-body">Cannot just use the word 'password'</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-5">
+<label class="label mb-2" for="Password">Password <sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-regex="Please Enter valid Password of Minimum 6 characters with at least 1 number" data-val-regex-pattern="^(?=.*?[0-9])(?=.*?[a-zA-Z]).{6,}$" data-val-required="The password is required" id="Password" maxlength="50" name="Password" type="password"/>
+<span class="text-danger field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+</div>
+<div class="form-group col-md-5 offset-md-1">
+<label class="label mb-2" for="ConfirmPassword">Confirm password <sup>*</sup></label>
+<input class="form-control" data-val="true" data-val-equalto="Password mismatch" data-val-equalto-other="*.Password" data-val-required="The confirm password is required" id="ConfirmPassword" maxlength="50" name="ConfirmPassword" type="password"/>
+<span class="text-danger field-validation-valid" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true"></span>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-7">
+<label class="label mb-2" for="PasswordHint">Password hint</label>
+<input class="form-control" id="PasswordHint" maxlength="250" name="PasswordHint" type="text" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="PasswordHint" data-valmsg-replace="true"></span>
+</div>
+</div>
+<div class="clearfix">
+<div class="g-recaptcha" data-callback="recaptchaValidated" data-sitekey="6Lf2U6QUAAAAAA8ZbO6S1m9u2YzoYubKQkNhYnNX"></div>
+<div class="text-danger form-group pull-left" id="recaptchaErrorMessage"></div>
+</div>
+</section>
+<section class="continue-cancel section-inner-last">
+<div class="row">
+<div class="form-group col-md-3">
+<button class="btn btn-primary" type="submit">Continue</button>
+</div>
+</div>
+<div class="row">
+<div class="form-group col-md-3">
+<a class="link-copy" href="/?rc=6699">Cancel</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</main>
+<input name="__baft" type="hidden" value="CfDJ8IqFD8RfHIxGpdHBHK_gAQNLxmpCrEF_9opmHDH-1vBV_s-uLUUCaLBNmGnS9-OZdqbxBvcpPlB_rP0HANdA-9WMLblWI_gk0m5eAT440lqSyxwjKadO5eylHxJQSOt0i_VlFYU5utSxj7fVGgrqGqs"/><input name="MarketingCommunicationAgreed" type="hidden" value="false"/></form>

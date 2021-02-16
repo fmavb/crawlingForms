@@ -1,0 +1,15 @@
+<form accept-charset="UTF-8" action="https://search.cdc.gov/search" method="get">
+<div class="fs0875 text-right">
+<a href="https://www.cdc.gov/az/" id="az-large">A-Z Index</a>
+</div>
+<div class="input-group mb-3">
+<input aria-label="Search" class="form-control" name="query" placeholder="Search" type="text"/>
+<div class="input-group-append">
+<button class="btn btn-search search-submit" type="button"><span class="sr-only">Submit</span><svg class="svg-icon fill-b" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use xlink:href="#sym-search-icon"></use></svg></button>
+</div>
+</div>
+<input name="sitelimit" type="hidden" value=""/>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</form>

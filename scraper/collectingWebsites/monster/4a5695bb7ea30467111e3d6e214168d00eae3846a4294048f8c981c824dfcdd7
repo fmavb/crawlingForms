@@ -1,0 +1,11 @@
+<form action="https://www.monster.com/career-advice/article?" class="form-inline" id="adviceQuickSearch" method="get">
+<div class="form-group">
+<label class="sr-only" for="q3">Search Career Advice</label>
+<div class="input-group">
+<div class="input-group-addon mdi mdi-magnify"></div>
+<input class="form-control typeahead advice-input" id="q3" maxlength="250" name="q" placeholder="Search Career Advice" type="text"/>
+<span class="clear-icon mdi mdi-close form-control-feedback"></span> </div>
+</div>
+<input id="intcidSearchAdvice" name="intcid" type="hidden" value="skr_navigation_nhpso_searchAdvice"/>
+<button class="btn" id="doAdviceQuickSearch" type="submit">Search</button>
+</form>

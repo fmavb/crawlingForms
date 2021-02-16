@@ -1,0 +1,63 @@
+<form action="/members/register/go.php" class="validate-form" enctype="multipart/form-data" id="registration-form" method="post">
+<div class="hide" id="Dkm4ai9xCv_container">
+<label for="Dkm4ai9xCv">Dkm4ai9xCv</label>
+<input for="Dkm4ai9xCv" id="Dkm4ai9xCv" name="Dkm4ai9xCv" type="text" value="def502009f65a00e6b110daf13ff170731b551aa0720402463de922b9d18c8ffb68239311d94782f1609eebaf3c746f64247b30cab7cc7c733f28fe9dd885230eb978f0c3d9a3f639894b3ab7f1c10858a25a572bd8355ecbe7ad1b3053b"/>
+<label for="GcT2mCjP5p">GcT2mCjP5p</label>
+<input id="GcT2mCjP5p" name="GcT2mCjP5p" type="text" value=""/>
+</div>
+<input name="record" type="hidden" value=""/>
+<input name="location_lat" type="hidden" value=""/>
+<input name="location_lon" type="hidden" value=""/>
+<div class="form-group">
+<label for="registration-firstname">First name</label>
+<input class="span12 form-control input-lg input-big input_user required validate-no-at" id="registration-firstname" name="name_first" type="text" value=""/>
+</div>
+<div class="form-group">
+<label for="registration-lastname">Last name</label>
+<input class="span12 form-control input-lg input-big input_user required validate-no-at" id="registration-lastname" name="name_last" type="text" value=""/>
+</div>
+<div class="form-group">
+<label for="registration-email">Email</label>
+<input class="span12 form-control input-lg input-big input_email required email validate-remote" data-errortype="invalid_email" data-remote="/members/register/username_check.php" id="registration-email" name="username" type="text" value=""/>
+</div>
+<div class="form-group">
+<label for="registration-password">Password</label>
+<input autocomplete="off" class="span12 form-control input-lg input-big input_password validate-remote" data-remote="/members/register/password_check.php" data-remote-type="post" id="registration-password" name="password" type="password"/>
+</div>
+<div class="form-group">
+<label for="registration-password-verify">
+            Confirm Password
+        </label>
+<input autocomplete="off" class="span12 form-control input-lg input-big input_password required equal-to" data-equalto="#registration-password" id="registration-password-verify" name="password_again" type="password"/>
+</div>
+<div class="clearfix"></div>
+<div class="well well-sm text-center margin-top-sm">
+<div class="form-group margin-bottom-0">
+<div class="file_upload_holder" id="registration-cv-uploader">
+<label class="file_upload_label" for="cv_file_upload">
+<i class="fa fa-upload icon-upload" role="presentation"></i> Upload a CV to create your profile automatically <span style="color: red;">*</span> </label>
+<input aria-describedby="cv_filename" class="form-control input-lg file_upload required" data-btn-block="true" id="cv_file_upload" name="cv_file_upload" type="file"/>
+<input id="third_party_file_name" name="third_party_file[name]" type="hidden"/>
+<input id="third_party_file_link" name="third_party_file[link]" type="hidden"/>
+<input id="third_party_file_token" name="third_party_file[token]" type="hidden"/>
+<input id="third_party_file_provider" name="third_party_file[provider]" type="hidden"/>
+</div>
+<span class="upload_filename" id="cv_filename" style="position:relative; top:5px; margin-bottom:0; display:block; text-align:left; margin-left:0; margin-right:0;"></span>
+</div>
+</div>
+<div class="registration-terms">
+<div class="alert alert-warning">
+<div class="opt_in_checkboxes">
+<div class="controls checkbox">
+<label class="checkbox" for="opt_in_terms_and_conditions">
+<input class="required" data-recommended="false" id="opt_in_terms_and_conditions" name="opt_ins[terms_and_conditions]" type="checkbox" value="terms_and_conditions"/>
+                                    I have read and agree to the <a href="/members/modules/hf/terms.php" target="_blank">Privacy Policy</a>
+</label>
+</div>
+</div>
+</div>
+</div>
+<button class="btn btn-large btn-lg btn-block btn-primary" type="submit">
+                    I agree. Create my account and continue the application
+            </button>
+</form>

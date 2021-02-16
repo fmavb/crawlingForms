@@ -1,0 +1,33 @@
+<form action="/wd/plsql/wd_portal_cand.process_login" class="login" method="post" name="login">
+<input name="p_web_site_id" type="hidden" value="2965"/>
+<input name="p_ccp_path" type="hidden" value="LOGIN"/>
+<input name="p_web_page_id" type="hidden" value=""/>
+<input name="p_workflow_id" type="hidden" value=""/>
+<input name="p_redirect_url" type="hidden" value=""/>
+<div class="logindetails username">
+<div class="label">
+<label class="mandatory" for="p_username" id="p_usernameErrorMessage">Email address
+</label>
+</div>
+<div class="detail">
+<input autocomplete="off" class="required textfield isemail" id="p_username" name="p_username" size="30" type="text"/>
+</div>
+</div>
+<div class="logindetails password">
+<div class="label">
+<label class="mandatory" for="p_password" id="p_passwordErrorMessage">Password</label>
+</div>
+<div class="detail">
+<input autocomplete="off" class="required textfield" id="p_password" name="p_password" onkeypress="return submitenter(this,event)" size="30" type="password"/>
+</div>
+<div class="note password_reminder">
+<a class="password_reminder" href="#" onclick="this.disabled=true;document.location.href='/wd/plsql/wd_portal_cand.password_reminder?p_web_site_id=2965'" title="Forgotten password">Forgotten password</a>
+</div>
+<input name="p_override_site_login" type="hidden" value="Y"/>
+<input name="p_nonce" type="hidden" value="Ld/zQAsrX4h6jGaE8FsDPdeSUxv2YKqC0HmSET0zBu1YuqkYb0uhTrD2VGadAqRy99deoyTLaF76iA1gmuj2buTd3HA="/>
+</div>
+<div class="links">
+<input class="button submit" onclick="this.disabled=true; document.forms.login.submit(); return false;" type="submit" value="Log in
+"/>
+</div>
+</form>

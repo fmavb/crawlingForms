@@ -1,0 +1,11 @@
+<form action="https://tools.cdc.gov/campaignproxyservice/subscriptions.aspx" class="form-inline" id="govd-subscribe" method="GET">
+<input id="gov-d-topic" name="topic_id" type="hidden" value="USCDC_2067"/>
+<input id="gov-d-origin" name="origin" type="hidden" value="/coronavirus/2019-ncov/index.html?domain=www.cdc.gov"/>
+<input id="gov-d-pop" name="pop" type="hidden" value="t"/>
+<div class="align-elements">
+<input aria-describedby="emailDescription" class="form-control" id="gov-d-email" name="userID" placeholder="Email Address" required="required" title="Email Address" type="email"/>
+<button class="cta-button" type="submit">
+                  Submit
+                  </button>
+</div>
+</form>

@@ -1,0 +1,22 @@
+<form action="/Course/HeaderSearch" class="" id="HeaderSearchForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="m_vaGADNchqhicM2F0DRfUGybeQv55lDl1NX-0EPSfn4o_xk_sLaef8MmGrFEJFmVN4ou0Zh6oyYqGz1q5QCb3_8MyisFP75zaaKopkHCxQ1"/> <fieldset class="search-form-wrapper">
+<div class="search-input-wrapper">
+<div class="search-buttons">
+<button class="btn-clear" style="visibility: hidden;">
+<div class="sprite-14-close">
+											close
+										</div>
+</button>
+<button class="btn-submit">
+<span class="sprite-14-search-black">
+											Sign In
+										</span>
+</button>
+</div>
+<div class="search-input">
+<input class="searchBox" id="searchBox" maxlength="256" name="SearchText" placeholder="TCEO QUICK SEARCH" title="Search CDC Courses" type="text"/>
+</div>
+</div>
+</fieldset>
+<input id="utf8" name="utf8" type="hidden" value="✓"/>
+<input id="affiliate" name="affiliate" type="hidden" value="cdc-main"/>
+</form>

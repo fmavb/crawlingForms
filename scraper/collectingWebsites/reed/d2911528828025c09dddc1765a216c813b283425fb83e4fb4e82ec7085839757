@@ -1,0 +1,11 @@
+<form action="/account/RegistrationRedirect" class="basic-register-form" id="basic-register-form" method="post"><input name="__RequestVerificationToken" type="hidden" value="2W8gI4xcG2QqVvaq8KP1qO9HK_Zd5rnhtBtWKEG6I-HOYVkZguD2YK97a7h-JjsOn1rO1RTCuWipkaB7IailqkhDky81"/> <div class="form-group">
+<label for="EmailAddress">Email</label>
+<input aria-label="Email" class="form-control" data-qa="registerEmailTxt" data-val="true" data-val-isusernameavailable='An account already exists with this email. Have you &lt;a href="/account/recover" title="Forgotten your password?"&gt;forgotten your password?&lt;/a&gt;' data-val-isusernameavailable-parametername="username" data-val-isusernameavailable-url="/api/validation/isusernameavailable" data-val-length="Email must not be longer than 64 characters." data-val-length-max="64" data-val-required="Please enter your email." id="EmailAddress" maxlength="75" name="EmailAddress" type="email" value=""/>
+<div class="validation">
+<span class="field-validation-valid" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+</div>
+</div>
+<input id="ReturnUrl" name="ReturnUrl" type="hidden" value="/"/><input data-val="true" data-val-number="The field JobId must be a number." data-val-required="The JobId field is required." id="JobId" name="JobId" type="hidden" value="0"/><div class="form-field form-actions-container">
+<input aria-label="Register" class="btn btn-primary register g-recaptcha" data-badge="inline" data-callback="registerReCaptchaCallback" data-error-callback="resetReCaptchaCallback" data-expired-callback="resetReCaptchaCallback" data-gtm="register_click" data-gtm-value="email" data-qa="registerContinueBtn" data-sitekey="6Lcg4iYUAAAAAMFBeuRoGU35RiCJ-EMbtkUbhyCH" id="register-button" name="Submit" type="submit" value="Register"/>
+</div>
+</form>

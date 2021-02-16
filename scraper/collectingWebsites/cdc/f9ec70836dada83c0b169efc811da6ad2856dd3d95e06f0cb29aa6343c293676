@@ -1,0 +1,33 @@
+<form id="emailForm">
+<div class="input-section">
+<div class="dp-feedback-content-text">
+<b>Help us make reference on Medscape the best clinical resource possible.</b>
+<span>Please use this form to submit your questions or comments on how to make this article more useful to clinicians.</span>
+</div>
+</div>
+<div class="input-section">
+<div class="input-half-section">
+<label for="emailSenderName">Your Name:</label> <input class="input-text" id="emailSenderName" type="text"/>
+</div>
+</div>
+<div class="input-section">
+<div class="input-half-section">
+<label for="emailSenderEmail">Your Email:</label> <input class="input-text" id="emailSenderEmail" type="text"/>
+<div class="input-check">
+<input class="input-checkbox" id="emailCopyMe" type="checkbox"/><label class="checkbox-text" for="emailCopyMe">Send me a copy</label>
+</div>
+</div>
+<div class="input-half-section">
+<label for="emailToEmail">Recipient's Email:</label> <input class="input-text" id="emailToEmail" placeholder="Limit to one email" type="text"/>
+</div>
+</div>
+<div class="input-section">
+<label for="emailSubject">Subject:</label> <input class="input-text" id="emailSubject" maxlength="200" type="text"/>
+</div>
+<div class="input-section">
+<label for="emailOptionalMessage">Optional Message</label>
+<label class="feedbackMessage" for="feedbackMessage">Comment or Suggestion<span>(Limited to 1500 Characters)</span></label>
+<textarea class="input-textarea" id="emailOptionalMessage" maxlength="200" placeholder="Limit 200 characters"></textarea>
+<textarea class="input-textarea" id="feedbackMessage" maxlength="1500" placeholder=""></textarea>
+</div>
+</form>

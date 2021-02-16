@@ -1,0 +1,49 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazard%20prevention%20and%20control=%5E%5EDocument%20types=Reports%20of%20Investigations;&amp;sf=Geologic%20conditions%20and%20events" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazard prevention and control=^^Document types=Reports of Investigations;"/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Geologic conditions and events"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Geologic conditions and events</h2>
+<p class="facetDesc">Natural conditions and events involving the structure or composition of the earth.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=^^Document types=Reports of Investigations;'; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Geologic conditions and events">Geologic conditions and events</label>
+<label class="d-none" for="check_Clay veins">Clay veins</label>
+<label class="d-none" for="check_Gas emissions">Gas emissions</label>
+<label class="d-none" for="check_Subsidence">Subsidence</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Geologic conditions and events">
+<a>Geologic conditions and events</a>
+<ul>
+<li id="Clay veins">
+<a>Clay veins [1]</a>
+</li>
+<li id="Gas emissions">
+<a>Gas emissions [26]</a>
+</li>
+<li id="Subsidence">
+<a>Subsidence [2]</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazard prevention and control=^^Document types=Reports of Investigations;';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

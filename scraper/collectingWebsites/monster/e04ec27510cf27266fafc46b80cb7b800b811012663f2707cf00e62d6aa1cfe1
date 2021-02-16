@@ -1,0 +1,18 @@
+<form action="https://www.monster.com/jobs/search/" aria-label="Primary" class="form-inline" id="quickJobSearch2" method="get" role="search">
+<div class="form-group jobs-keywords">
+<label class="sr-only" for="q2">Keyword or Title</label>
+<div class="input-group">
+<div class="input-group-addon mdi mdi-magnify"></div>
+<input aria-label="Keyword or Title" class="form-control typeahead job-input" id="q2" maxlength="250" name="q" placeholder="Keyword or Title" type="text"/>
+<span class="clear-icon mdi mdi-close form-control-feedback"></span> </div>
+</div>
+<div class="form-group jobs-location">
+<label class="sr-only" for="where2">Location</label>
+<div class="input-group">
+<div class="input-group-addon mdi mdi-map-marker location-input"></div>
+<input aria-label="Location" class="form-control typeahead location-input" id="where2" maxlength="250" name="where" placeholder="Location" type="text"/>
+<span class="clear-icon mdi mdi-close form-control-feedback"></span> </div>
+</div>
+<input id="intcidSearch2" type="hidden" value="skr_navigation_nhpso_searchMain"/>
+<button class="btn" id="doQuickSearch2" onclick="mnstDoSearch('2');return false;" type="submit">Search</button>
+</form>

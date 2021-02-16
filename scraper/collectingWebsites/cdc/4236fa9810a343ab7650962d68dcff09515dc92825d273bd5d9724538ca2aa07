@@ -1,0 +1,435 @@
+<form action="./downloads.html" id="post_back_form" method="post">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="Bcsv1XiJfxSAzxIHGSYE1DAyE1BGUG1PLDWJdQAupXyeXpLYCbH3uDxeMSr40T7VB2cpsup+U3IGgmHGS+LHln/Ohc69Ny0cmcMkB3AI43GHPbrppWj2MZWXa3vBeufdstYH5EXlH4cfZp5I/OKiIw=="/>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="352E90E3"/>
+<input id="__VIEWSTATEENCRYPTED" name="__VIEWSTATEENCRYPTED" type="hidden" value=""/>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="1Qd59Q3M2jq+f1W7RCVCJ/bDft+Z9cufZQUGLBRxYGpyAFy502SwLyHqQZ3GwAsNv1/zTYqZPd5l2gRdMTczGlXz1OZZnIDeQppMKHyrTjiwYJSkaHTcXNw9/nd2rGw2O6OASZVQ5aRVerqhY3n+7w=="/>
+<!-- left nav -->
+<div class="hidden-one hidden-two span5" id="nav-container">
+<nav class="hidden-one hidden-two" id="left">
+<h3><a href="/nndss/">NNDSS</a></h3>
+<ul id="nav-primary">
+<li><a href="/nndss/covid-19-response.html">COVID-19 Response</a>
+</li><li><a href="/nndss/infographic-intro.html">Defending America from Health Threats</a>
+<ul><li><a href="/nndss/how-we-do.html">How We Do Notifiable Disease Surveillance</a></li>
+<li><a href="/nndss/why-we-do.html">Why We Do Notifiable Disease Surveillance</a></li>
+<li><a href="/nndss/by-the-numbers.html">NNDSS By The Numbers</a></li>
+</ul></li>
+<li><a href="/nndss/conditions/">Surveillance Case Definitions</a>
+<ul>
+<li><a href="/nndss/conditions/notifiable/2021/">2021 National Notifiable Conditions</a>
+<ul>
+<li><a href="/nndss/conditions/notifiable/2021/infectious-diseases/">Infectious Diseases</a></li>
+<li><a href="/nndss/conditions/notifiable/2021/non-infectious-conditions/">Non-Infectious Conditions</a></li>
+<li><a href="/nndss/conditions/notifiable/2021/outbreaks/">Outbreaks</a></li>
+</ul>
+</li>
+</ul>
+<!--ul>
+
+        </ul-->
+</li>
+<!--li><a href="/nndss/case-definitions.html">Surveillance Case Definitions</a>
+    </li-->
+<li>
+<a href="/nndss/case-definitions-history.html">History of Surveillance Case Definitions</a>
+</li>
+<li><a href="/nndss/data-and-statistics.html">Data and Statistics</a>
+<ul>
+<li>
+<a href="/nndss/infectious.html">Notifiable Infectious Diseases &amp; Conditions Data</a>
+</li>
+<li>
+                             <a href="/nndss/infectious-tables.html">Weekly and annual tables</a>
+</li>
+<li>
+<a href="/nndss/noninfectious.html">Notifiable Noninfectious Diseases &amp; Conditions Data</a>
+</li>
+<li>
+                              <a href="/nndss/noninfectious.html#Links">Links to Data</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/nndss/case-notification/">HL7 Case Notification Resource Center</a>
+<ul>
+<li>
+<a href="/nndss/case-notification/message-mapping-guides.html">MMGs and Artifacts</a>
+</li>
+<li>
+<a href="/nndss/case-notification/related-documentation.html">MMG Related Documentation</a>
+</li>
+<li>
+<a href="/nndss/case-notification/historical-documentation.html">Historical Documentation</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/nndss/data-collection.html">Data Collection and Reporting</a>
+<ul>
+<li>
+<a href="/nndss/nedss.html">Integrated Surveillance Information Systems/NEDSS</a>
+</li>
+<li>
+<a href="/nndss/netss.html">NETSS</a>
+</li>
+<li>
+<a href="/nndss/other-data-sources.html">Other NNDSS Data Sources</a>
+</li>
+<li>
+<a href="/nndss/meaningful-use-electronic-lab-reporting.html">Electronic Laboratory Reporting</a>
+</li>
+<li>
+<a href="/nndss/electronic-case-reporting.html">Electronic Case Reporting</a>
+</li>
+<li>
+<a href="/nndss/ihr.html">International Health Regulations</a>
+</li>
+<li>
+<a href="/nndss/history.html">History</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/nndss/downloads.html">Downloads and Resources</a>
+</li>
+<!-- <li>
+        <a href="/nndss/terms.html">Key Terms</a>
+    </li> -->
+<!-- <li><a href="/nndss/message-mapping-guides.html">Draft Message Mapping Guides for HL7 Case Notifications</a></li> -->
+<li>
+<a href="/nndss/contact.html">Contact Us</a>
+</li>
+</ul>
+</nav>
+<div class="nav-related">
+<!--
+								    The following are optional/local content includes for related
+								    content that appears below the navigation in viewports 3/4.
+								    NOTE:  these same includes must appear in the div.nav-related block
+								    that appears after the editable area of the main content block.  Also,
+								    because this content appears in the markup twice it should not contain
+								    any markup with IDs as this will cause validation errors and other 
+								    potential problems with scripts.
+								    -->
+<div class="module-typeG" id="nav_related_side_search" visible="true">
+<h4>Search Conditions</h4>
+<div>
+<div class="input-append" style="width:100%; box-sizing:border-box; ">
+<span id="nav_side_search_icon"><i class="icon-search"></i></span>
+<input autocomplete="off" class="local-search-input" id="nav_side_search_text" name="nav_side_search_text" placeholder="Condition Name" spellcheck="false" title="Search Condition Name" type="text"/>
+</div>
+        (Leave blank to see all conditions)
+        <br/>
+<div class="pull-right">
+<button class="btn btn-nav-search somemore" id="nav_search_button" onclick="redirect_search()" type="button">Search All Conditions   <span class="icon-angle-right"><!-- --></span></button>
+</div>
+</div>
+</div>
+<div class="module-typeH">
+<h3>Related Links</h3>
+<ul class="list-block">
+<li><a href="http://www.cdc.gov/nmi">NNDSS Modernization Initiative (NMI)</a></li>
+<li><a href="https://www.cdc.gov/nmi/ta-trc/index.html">NMI Technical Assistance and Training Resource Center</a></li>
+<li><a href="http://www.cdc.gov/nmi/eshare.html">NMI eShare</a></li>
+<li><a href="http://www.cste.org" target="_blank">CSTE Position Statements</a></li>
+<li><a href="http://www.cdc.gov/phin/">PHIN Tools and Resources</a></li>
+<li><a href="http://www.cdc.gov/mmwr/">Morbidity and Mortality Weekly Report (MMWR)</a></li>
+<li><a href="http://wonder.cdc.gov/">WONDER</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="breadcrumbs hidden-one span19">
+<div class="bread-crumb hidden-one">
+</div>
+</div>
+<div class="span19 pagetitle">
+<div class="syndicate">
+<div class="mSyndicate">
+<h1>Downloads and Resources</h1>
+</div>
+</div>
+</div>
+<div class="span19" id="share-bar" style="min-height: 20px;">
+<div class="socialmediabar">
+<div class="row">
+<div class="hidden-one pull-right"></div>
+<div class="span8">
+<div id="socialMediaShareContainer">
+<div class="share_container noLinking">
+<a class="share_button_facebook" href="#" title="Facebook"><span class="tp-sr-only">Recommend on Facebook</span><span class="facebookRecommend" id="share_facebook"> </span></a>
+<a class="share_button_twitter" href="#" title="Twitter"><span class="tp-sr-only">Tweet</span><span class="twitterTweet" id="share_twitter"> </span></a>
+<a class="share_button" href="#socialMediaShareContainer"><img alt="Share" src="/TemplatePackage/3.0/images/social/addthis-32.png"/><span aria-label="Share" class="shareButtonEn tp-sr-only">Share</span><span aria-label="Compartir" class="shareButtonEs tp-sr-only">Compartir</span></a>
+</div>
+</div>
+<!-- target anchor for return to top feature in VP1 -->
+<a id="content-start" tabindex="-1"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="span19" id="body">
+<div id="contentArea">
+<div class="syndicate">
+<div class="mSyndicate">
+<!-- begin editable -->
+<div class="row">
+<div class="span19">
+<br/>
+<div class="module-typeD">
+<h2>NNDSS Related Information</h2>
+<div>
+<ul class="list-none">
+<li>
+<a href="/nndss/document/CSTE_Case_Notification_Request.doc">CSTE Case Notification Request (CNR) Statement</a>
+</li>
+<li>
+<a href="/nndss/document/5yearweeklyaverage.pdf" target="_blank">Description of the computation of the 5-year weekly average displayed in <em>MMWR</em> Table 1</a>
+</li>
+<li>
+<a href="/nndss/document/NETSS_FILE_UPLOAD_USER_REFERENCE.pdf" target="_blank">Guidance for using SAMS to load NETSS files</a>
+</li>
+<li>
+<a href="/nndss/document/NNDSS_history_spreadsheet_for_2021_for_web_FINAL_11052020_v2.xlsx" target="_blank">List of Notifiable Conditions, Historically by year (1992 - Current)</a>
+</li>
+<li>
+<a href="/nndss/document/ProvisionalNationaNotifiableDiseasesSurveillanceData20100927.pdf" target="_blank">Provisional National Notifiable Diseases Surveillance Data</a>
+</li>
+<li>
+<a href="/nndss/document/NND_REPORTING_EXCEPTIONS.xlsx">Reporting Exceptions for National Notifiable Diseases (NND)<sup>1</sup></a>
+</li>
+</ul>
+</div>
+<br/>
+<h2>NNDSS Notification Policies</h2>
+<div>
+<ul><li><a href="/nndss/document/11-SI-04.pdf" target="_blank">Revised Guidelines for Determining Residency</a></li>
+<li><a href="/nndss/document/09-SI-04.pdf" target="_blank">CSTE Position Statement: Policy and Procedure for Timeliness of Case Notifications</a></li>
+</ul>
+</div>
+</div>
+<!-- <span class="badge new">new</span> -->
+<div class="module-typeD">
+<h2>Event (disease/condition) Code Lists<sup style="font-size: 14px">2</sup></h2>
+<p>
+<span style="display: inline-block;">
+<a class="link_noline" href="/nndss/document/National_Notifiable_Diseases_Surveillance_System_Event_Code_List_2021_v1_2021JAN05.xlsx">2021</a>
+</span> | <span style="display: inline-block;">
+<a class="link_noline" href="/nndss/case-notification/related-documentation.html#event-code-lists">2020</a>
+</span> | <span style="display: inline-block;">
+<a class="link_noline" href="/nndss/case-notification/related-documentation.html#event-code-lists">2019</a>
+</span> | <span style="display: inline-block;">
+<a class="link_noline" href="/nndss/case-notification/related-documentation.html#event-code-lists">2018</a>
+</span> | <span style="display: inline-block;">
+<a class="link_noline" href="/nndss/case-notification/related-documentation.html#event-code-lists">2017</a>
+</span> | <span style="display: inline-block;">
+<a class="link_noline" href="/nndss/case-notification/related-documentation.html#event-code-lists">2016</a>
+</span> | <span style="display: inline-block;">
+<a class="link_noline" href="/nndss/case-notification/related-documentation.html#event-code-lists">2015</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/nndss_event_code_list_2014.pdf" target="_blank">2014</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/nndss_event_code_list_2013_Revised.pdf" target="_blank">2013 (revised) <sup>3</sup></a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/nndss_event_code_list_2013.pdf" target="_blank">2013</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/nndss_event_code_list_2012.pdf" target="_blank">2012</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/nndss_event_code_list_July_2011_28_FINAL.pdf" target="_blank">2011</a>
+</span>
+</p>
+</div>
+<div class="module-typeD">
+<h2>Letters to State and Territorial Epidemiologists about NNDSS Updates</h2>
+<p><span style="display: inline-block;">
+<a href="/nndss/document/Jajosky_2021_NNDSS_State_Epi_Letter_for_Web_Final_Cleared.pdf" target="_blank">2021</a>
+</span> | 
+                    <span style="display: inline-block;">
+<a href="/nndss/document/Jajosky_Adams_State Epi Letter_2020_Web_Copy_NNDSS_3_Updates_cleared_final.docx" target="_blank">2020 Update #2</a>
+</span> | 
+                    <span style="display: inline-block;">
+<a href="/nndss/document/Jajosky_State Epi Letter_2020_NNDSS_COVID-19_WebPost_April_2020_cleared_final.docx" target="_blank">2020 Update #1</a>
+</span> | 
+                    <span style="display: inline-block;">
+<a href="/nndss/document/Jajosky_State Epi Letter_2020_NNDSS_Changes_WebPost_Cleared_FINAL_12022019.pdf" target="_blank">2020</a>
+</span> | 
+                    <span style="display: inline-block;">
+<a href="/nndss/document/Jajosky_State Epi Letter_2019_Update_NNDSS_Changes_April_4_2019_Final_Cleared.docx" target="_blank">2019 Update #1</a>
+</span> | 
+                    <span style="display: inline-block;">
+<a href="/nndss/document/Jajosky_State Epi Letter_2019_NNDSS_Changes_WebPost_v5.10_FINAL_Cleared.pdf" target="_blank">2019</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/State_Epi_Letter_for_2018_NNDSS_Final_Cleared_Revised_12182017.pdf" target="_blank">2018</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/State_Epi_Letter_for_2017_NNDSS Final_cleared.pdf" target="_blank">2017</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/2016_NNDSS_State_Epi_Letter_cleared_Sept_21_2016_CSTE_ZIKV_FINAL.pdf" target="_blank">2016 Update #3</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/2016_Letter_Finalized-Arboviral-v 1-3-MMG_Cleared.docx" target="_blank">2016 Update #2</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/2016-NNDSS_Hantavirus-infection-non-HPS_Letter_final.docx" target="_blank">2016 Update #1</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/2016-NNDSS-State-Epi-Letter.pdf" target="_blank">2016</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/2015-NNDSS-State-Epi-Letter.pdf" target="_blank">2015</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/LetterToEpidemiologists_Leptospirosis_January302014_cleared.pdf" target="_blank">2014 Update #1</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/Revised_State_Epi_Letter_2014_December_4_2013_Cleared.pdf" target="_blank">2014</a>
+</span>
+</p>
+</div>
+<div class="module-typeD" id="notification-requirements">
+<h2>Notification Requirements for National Notifiable Conditions</h2>
+<div class="module-typeD">
+                    By Notification Timeframe
+                   <p>
+<span style="display: inline-block;">
+<a href="/nndss/document/NNC_2021_Notification_Requirements_By_Timeframe_FINAL__11052020.pdf" target="_blank">2021</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/NNC_2020_Notification_Requirements_By_Timeframe_FINAL_05282020.pdf" target="_blank">2020</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/NNC_2019_Notification_Requirements_By_Time_Frame_20181127.pdf" target="_blank">2019</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/NNC_2018_Notification_Requirements_By_Time_Frame_20171120.pdf" target="_blank">2018</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/NNC_2017_Notification_Requirements_By_Timeframe_20161108.pdf" target="_blank">2017</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/NNC-2016-Notification-Requirements-By-Timeframe.pdf" target="_blank">2016</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/NNC_2015_Notification_Requirements_By_Category.pdf" target="_blank">2015</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/NNC_2014_Notification_Requirements_By_Category.pdf" target="_blank">2014</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/NNC_2013_Notification_Requirements_By_Category.pdf" target="_blank">2013</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/NNC_2011_Notification_Requirements_By_Category.pdf" target="_blank">2011</a>
+</span>
+</p>
+</div>
+</div>
+<div class="module-typeD" id="MMWR_Weeks">
+<h3><em>MMWR</em> Weeks</h3>
+<p>
+<a href="/nndss/document/MMWR_Week_overview.pdf" target="_blank"><i>MMWR</i> Weeks Fact Sheet</a>
+</p>
+</div>
+<div class="module-typeD">
+<h3><em>MMWR</em> Weeks Calendars</h3>
+<p>
+<span style="display: inline-block;">
+<a href="/nndss/document/2020.pdf" target="_blank">2021-2022</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/2020.pdf" target="_blank">2020</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2019-20-508.pdf" target="_blank">2019</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2018-19.pdf" target="_blank">2018</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/w2017-18.pdf" target="_blank">2017</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/w2016-17.pdf" target="_blank">2016</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/w2014-15.pdf" target="_blank">2015</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2013-14.pdf" target="_blank">2014</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2012-13.pdf" target="_blank">2013</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2011-12.pdf" target="_blank">2012</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2010-11.pdf" target="_blank">2011</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2009-10.pdf" target="_blank">2010</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2008-09.pdf" target="_blank">2009</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2007-08.pdf" target="_blank">2008</a>
+</span> | <span style="display: inline-block;">
+<a href="/nndss/document/W2006-07.pdf" target="_blank">2007</a>
+</span>
+</p>
+</div>
+</div>
+</div>
+<br/>
+<br/>
+<div class="row">
+<div class="span19">
+<p>
+<strong>Footnotes</strong><br/>
+                1. National notifiable diseases which are not reportable by law or regulation in reporting jurisdictions for the specified year are considered reporting exceptions.  Please review the link to <a href="http://www.cdc.gov/mmwr/volumes/65/wr/mm6546a10.htm?s_cid=mm6546a10_w" target="_blank">"Methodologic Change in Identifying 'N' Indicators"</a>.
+            <br/>
+                2. For NNDSS event code lists beginning in year 1993, please view the <a href="http://www.cdc.gov/mmwr/mmwr_su/mmwr_nd/"><em>MMWR</em>: Summary of Notifiable Diseases</a>.  NNDSS event code lists not yet published in the <a href="http://www.cdc.gov/mmwr/mmwr_su/mmwr_nd/"><em>MMWR</em>: Summary of Notifiable Diseases</a> may be downloaded from above.
+            <br/>
+                3. The 2013 Event Code List was revised on March 29, 2013 to include Middle East Respiratory Syndrome Coronavirus (MERS-CoV) new event code. MERS-CoV used to be called "Novel Coronavirus".
+            </p>
+</div>
+</div>
+<!-- /end editable -->
+</div>
+</div>
+<!-- Related Nav Area -->
+<div class="nav-related hidden-three hidden-four">
+<br/>
+<!--
+									Should contain same content (minus any viewport 3/4 specific content) as 
+									the div.nav-related block that appears at the start of the main content block.
+								-->
+<div class="module-typeA" id="nav_related_bottom_search" visible="true">
+<h3>Search Conditions</h3>
+<div class="input-append" style="width:100%; box-sizing:border-box; ">
+<input autocomplete="off" class="local-search-input" id="nav_bottom_search_text" name="nav_bottom_search_text" placeholder="Enter Condition Name" spellcheck="false" type="text"/>
+<button id="nav_bottom_search_button" onclick="redirect_search()" type="button"><i class="icon-search"></i></button>
+</div>
+<br/>
+</div>
+<nav class="module-typeL">
+<ul>
+<li id="ucRelatedNav_nav_related_conditions_link">
+<a href="/nndss/conditions/">
+<div>
+<h3>Current and Historical Conditions</h3>
+                    Indexed list of current and historical nationally notifiable conditions.			    		
+                </div>
+</a>
+</li>
+<li id="ucRelatedNav_nav_related_nnc_link">
+<a href="/nndss/conditions/notifiable">
+<div>
+<h3>2021 Nationally Notifiable Conditions</h3>
+                    Conditions designated as notifiable at the national level during 2021.
+                </div>
+</a>
+</li>
+</ul>
+</nav>
+<div class="module-typeH">
+<h3>Related Links</h3>
+<ul class="list-block">
+<li><a href="http://www.cdc.gov/nmi">NNDSS Modernization Initiative (NMI)</a></li>
+<li><a href="https://www.cdc.gov/nmi/ta-trc/index.html">NMI Technical Assistance and Training Resource Center</a></li>
+<li><a href="http://www.cdc.gov/nmi/eshare.html">NMI eShare</a></li>
+<li><a href="http://www.cste.org" target="_blank">CSTE Position Statements</a></li>
+<li><a href="http://www.cdc.gov/phin/">PHIN Tools and Resources</a></li>
+<li><a href="http://www.cdc.gov/mmwr/">Morbidity and Mortality Weekly Report (MMWR)</a></li>
+<li><a href="http://wonder.cdc.gov/">WONDER</a></li>
+</ul>
+</div>
+</div>
+<!-- /end Related Nav Area -->
+<!-- Persistent Content Area -->
+<div id="content-secondary">
+<!-- begin editable -->
+<!--  // This area is optional 
+							    // All content in the Right Column (except for Page Option links and GovD) will be moved to the Persistent Content Area upon migration
+							    -->
+<!-- /end editable -->
+</div>
+<!-- /end #content-secondary -->
+</div>
+<!-- /end #contentArea -->
+</div>
+<!-- /end #body -->
+<input id="btnDisableEnter" name="ctl00$btnDisableEnter" onclick="return false;" style="display: none;" type="submit" value=""/>
+</form>

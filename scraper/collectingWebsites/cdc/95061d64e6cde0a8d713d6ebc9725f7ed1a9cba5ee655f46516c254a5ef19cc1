@@ -1,0 +1,21 @@
+<form accept-charset="UTF-8" action="//search.cdc.gov/search/spanish/index.html" method="get">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-primary dropdown-toggle no-toggle search-button ssi" data-toggle="dropdown" type="button">
+<span class="float-left">Buscar</span> <svg class="dropdown-menu-medium-search-icon svg-icon fill-w align-text-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#sym-search-icon"></use></svg><svg class="dropdown-menu-medium-close-icon svg-icon fill-w align-text-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#sym-close-icon"></use></svg></button>
+<div class="dropdown-menu dropdown-menu-right dropdown-menu-medium-search">
+<div class="input-group mb-3">
+<input aria-label="Search" class="form-control" maxlength="300" name="query" placeholder="Buscar" type="text"/>
+<div class="input-group-append">
+<button class="btn search-submit" type="button"><span class="sr-only">Enviar</span><svg class="svg-icon fill-p" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#sym-search-icon"></use></svg></button>
+</div>
+</div>
+			Lista de todos los temas: <a href="https://www.cdc.gov/spanish/az/a.html" id="az-medium">Índice A-Z de los CDC </a>
+</div>
+<div class="fs0875 d-none d-md-block tp-search-advanced">
+<a href="//search.cdc.gov/search/spanish/index.html#advanced">
+				Búsqueda Avanzada
+			</a>
+</div>
+<input name="sitelimit" type="hidden" value=""/>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</form>

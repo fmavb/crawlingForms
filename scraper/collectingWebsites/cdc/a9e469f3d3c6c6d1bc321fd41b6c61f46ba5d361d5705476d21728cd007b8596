@@ -1,0 +1,5 @@
+<form action="https://search.cdc.gov/search" id="facesearch" method="get" name="facesearch">
+<h4><label for="searchBox2">Search FACE Reports</label></h4>
+<p><input name="affiliate" type="hidden" value="cdc-main"/><input name="sitelimit" type="hidden" value="niosh face"/><input class="searchBox" id="queryText" maxlength="256" name="query" type="text"/><br/>
+<input type="submit" value="Search"/></p>
+</form>

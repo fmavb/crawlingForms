@@ -1,0 +1,19 @@
+<form action="https://www.monster.com/jobs/search/" class="navbar-form clearfix" id="quickJobSearch1" method="get" role="search">
+<div class="form-group top-search keywords">
+<label class="sr-only" for="q1">Keywords</label>
+<div class="input-group input-group-sm">
+<span class="input-group-addon"><i class="mdi mdi-magnify"></i></span>
+<input aria-label="Search for Jobs" autocomplete="off" class="form-control typeahead input-sm hasclear" id="q1" name="q" placeholder="Search for Jobs" type="text" value=""/>
+<span class="clear-icon mdi mdi-close form-control-feedback"></span>
+</div>
+</div>
+<div class="form-group top-search location">
+<label class="sr-only" for="where1">Location</label>
+<div class="input-group input-group-sm">
+<span class="input-group-addon"><i class="mdi mdi-map-marker"></i></span>
+<input aria-label="Location" autocomplete="off" class="form-control typeahead input-sm hasclear" id="where1" name="where" placeholder="Location" type="text" value=""/>
+<span class="clear-icon mdi mdi-close form-control-feedback"></span>
+</div>
+</div>
+<button class="btn btn-white btn-sm" id="doQuickSearch" onclick="mnstDoSearch('1');return false;" type="submit">Search</button>
+</form>

@@ -1,0 +1,57 @@
+<form action="/NIOSH-Mining/?facetGroups=Hazards%20and%20exposures=Fixed%20or%20awkward%20postures;Repetitive%20motions;Stooping;Crawling;%5E%5EDocument%20types=&amp;sf=Diseases%20and%20injuries" method="post"><input id="FacetGroups" name="FacetGroups" type="hidden" value="Hazards and exposures=Fixed or awkward postures;Repetitive motions;Stooping;Crawling;^^Document types="/><input data-val="true" data-val-required="The ResultsPerPage field is required." id="ResultsPerPage" name="ResultsPerPage" type="hidden" value="Ten"/><input id="SelectFacet" name="SelectFacet" type="hidden" value="Diseases and injuries"/><input data-val="true" data-val-required="The Sort field is required." id="Sort" name="Sort" type="hidden" value="Relevance"/> <style>
+            .jstree > ul > li > a > ins.jstree-checkbox {
+                display: none !important; /* hide root checkboxes */
+            }
+
+            .jstree > ul > li > a {
+                pointer-events: none;
+            }
+        </style>
+<h2 class="facetHeader">Diseases and injuries</h2>
+<p class="facetDesc">Disorders in the structure or functioning of the human body.</p>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Fixed or awkward postures;Repetitive motions;Stooping;Crawling;^^Document types='; return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div style="float:right; margin-right: 10px; vertical-align: top;">
+<div style="float:left; margin-top:2px; margin-right:5px;"><label for="searchTree">Find term on page:</label></div> <div style="display: inline-block;">
+<input id="searchTree" onkeydown="DisableEnterKey()" placeholder="Enter term" type="text"/><div id="searchResults">
+</div>
+</div>
+</div>
+<div class="errorMessage">Selection yields no results</div>
+<div><a class="fugue fugue-toggle-expand" id="expandall">Expand list</a> | <a class="fugue fugue-toggle" id="collapseall">Collapse list</a></div>
+<label class="d-none" for="check_Diseases and injuries">Diseases and injuries</label>
+<label class="d-none" for="check_Musculoskeletal disorders">Musculoskeletal disorders</label>
+<label class="d-none" for="check_Traumatic injuries">Traumatic injuries</label>
+<label class="d-none" for="check_Musculoskeletal injuries">Musculoskeletal injuries</label>
+<label class="d-none" for="check_Back injuries">Back injuries</label>
+<div id="availableTermList" style="display:none; margin-bottom: 20px;">
+<ul>
+<li id="Diseases and injuries">
+<a>Diseases and injuries</a>
+<ul>
+<li id="Musculoskeletal disorders">
+<a>Musculoskeletal disorders [4]</a>
+</li>
+<li id="Traumatic injuries">
+<a>Traumatic injuries [0]</a>
+<ul>
+<li id="Musculoskeletal injuries">
+<a>Musculoskeletal injuries [1]</a>
+<ul>
+<li id="Back injuries">
+<a>Back injuries [1]</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<input class="applyButton" title="Add selected refinements and recompute search" type="submit" value="OK"/>
+<input onclick="javascript:window.location = '?facetGroups=Hazards and exposures=Fixed or awkward postures;Repetitive motions;Stooping;Crawling;^^Document types=';return false;" type="submit" value="Cancel"/>
+<button class="clearButton" title="Clear refinements on this page">Uncheck All</button>
+<div class="errorMessage">Selection yields no results</div>
+</form>

@@ -1,0 +1,19 @@
+<form accept-charset="UTF-8" action="https://search.cdc.gov/search" class="searchForm" id="search_form" method="get">
+<fieldset class="search-form-wrapper">
+<legend>Search Form Controls</legend>
+<div class="search-form-checkbox">
+<label class="subset"><input checked="checked" name="subset" type="checkbox" value="topic"/>TOPIC ONLY</label>
+</div>
+<div class="search-input-wrapper">
+<div class="search-buttons">
+<button class="btn-clear"><span class="sprite-14-close">cancel</span></button>
+<button class="btn-submit"><span class="sprite-14-search-black">submit</span></button>
+</div>
+<div class="search-input">
+<label><input autocomplete="off" class="usagov-search-autocomplete" name="query" placeholder="SEARCH" type="text"/><span class="hidden">Search The CDC</span></label>
+</div>
+</div>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</fieldset>
+</form>

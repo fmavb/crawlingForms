@@ -1,0 +1,25 @@
+<form action="/courses/coursequestionanswer/create" id="askQuestionForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="grI3YC5rlXNFgqwi1MQVe2nUwo0ffpz3JwdWF7JMDuBHNvlpSIgDMbKV5q7AUBI1QvCdPVOqzpwm-ebLdQd3QWNSeRM1"/> <div class="alert alert-info">
+<p>For refunds and complaints please <a href="/courses/help">contact us directly.</a></p>
+</div>
+<div class="form-group">
+<input data-val="true" data-val-number="The field CourseId must be a number." data-val-required="CourseId is required." id="QuestionModel_CourseId" name="QuestionModel.CourseId" type="hidden" value="230061"/>
+<input data-val="true" data-val-required="IsSignedIn is required." id="QuestionModel_IsSignedIn" name="QuestionModel.IsSignedIn" type="hidden" value="False"/>
+<input id="QuestionModel_QuestionType" name="QuestionModel.QuestionType" type="hidden" value=""/>
+<label for="QuestionModel_EmailAddress">Email</label><input class="form-control" data-bind="valueInit: email, textInput: email, emailSuggestion: email" data-val="true" data-val-brazecompatibleemail="Please enter a valid email address." data-val-length="Email must not be longer than 75 characters." data-val-length-max="75" data-val-notcontainphone="Email cannot contain phone numbers." data-val-notcontainphone-regex="((\(?\+?\d\)?)[\d\(\)][ \d\(\)]{9,12}[\d])|((\(?\+?\d\)?)[\-\d\(\)]{9,14}[\d])|((\(?\+?\d\)?)[\.\d\(\)]{9,14}[\d])" data-val-requiredif="Please provide an email address." data-val-requiredif-comparison="equalto" data-val-requiredif-condition="False" data-val-requiredif-conditionalproperties='["IsSignedIn"]' data-val-requiredif-validationtype="requiredif" id="QuestionModel_EmailAddress" name="QuestionModel.EmailAddress" type="email" value=""/><span class="field-validation-valid" data-valmsg-for="QuestionModel.EmailAddress" data-valmsg-replace="true"></span> <p class="form-text text-muted"><em>Your email address will not be shared with the course provider.</em></p>
+</div>
+<div class="form-group">
+<label for="QuestionModel_Name">Display name</label>
+<input class="form-control" data-val="true" data-val-length="Display name must not be longer than 50 characters." data-val-length-max="50" data-val-notcontainemail="Display name cannot contain email addresses." data-val-notcontainemail-regex="[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" data-val-notcontainphone="Display name cannot contain phone numbers." data-val-notcontainphone-regex="((\(?\+?\d\)?)[\d\(\)][ \d\(\)]{9,12}[\d])|((\(?\+?\d\)?)[\-\d\(\)]{9,14}[\d])|((\(?\+?\d\)?)[\.\d\(\)]{9,14}[\d])" data-val-notcontainurl="Display name cannot contain a url." data-val-notcontainurl-regex="\b((https?|ftp):\/\/)?\d+\.\d+\.\d+\.\d+|((https?|ftp):\/\/|www\.)\S+\.[a-z]{2,6}\b|[a-z0-9-\.]{4,}\.(aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|travel|tv|co\.uk|ltd\.uk|org\.uk)" data-val-requiredif="Please provide your name." data-val-requiredif-comparison="equalto" data-val-requiredif-condition="False" data-val-requiredif-conditionalproperties='["IsSignedIn"]' data-val-requiredif-validationtype="requiredif" id="QuestionModel_Name" name="QuestionModel.Name" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="QuestionModel.Name" data-valmsg-replace="true"></span>
+<p class="form-text text-muted"><em>The course provider may choose to make this question, along with your name visible on this page.</em></p>
+</div>
+<div class="form-group">
+<label for="QuestionModel_Question">Question</label>
+<textarea class="form-control" cols="20" data-val="true" data-val-length="Question must not be longer than 150 characters." data-val-length-max="150" data-val-notcontainemail="Question cannot contain email addresses." data-val-notcontainemail-regex="[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" data-val-notcontainphone="Question cannot contain phone numbers." data-val-notcontainphone-regex="((\(?\+?\d\)?)[\d\(\)][ \d\(\)]{9,12}[\d])|((\(?\+?\d\)?)[\-\d\(\)]{9,14}[\d])|((\(?\+?\d\)?)[\.\d\(\)]{9,14}[\d])" data-val-notcontainurl="Question cannot contain a url." data-val-notcontainurl-regex="\b((https?|ftp):\/\/)?\d+\.\d+\.\d+\.\d+|((https?|ftp):\/\/|www\.)\S+\.[a-z]{2,6}\b|[a-z0-9-\.]{4,}\.(aero|arpa|biz|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|travel|tv|co\.uk|ltd\.uk|org\.uk)" data-val-required="Question is required." id="askQuestionText" name="QuestionModel.Question" rows="2">
+</textarea>
+<span class="field-validation-valid" data-valmsg-for="QuestionModel.Question" data-valmsg-replace="true"></span>
+<p class="form-text text-muted" data-bind="style: { color: questionCharacterCountRemaining() &lt; 0 ? '#a94442' : '#737373' }">
+<em><span data-bind="text: questionCharacterCountRemaining()"></span> characters remaining</em>
+</p>
+</div>
+</form>

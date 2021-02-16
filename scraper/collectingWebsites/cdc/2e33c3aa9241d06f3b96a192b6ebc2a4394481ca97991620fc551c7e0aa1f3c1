@@ -1,0 +1,17 @@
+<form action="https://public.govdelivery.com/accounts/USCDC/subscribers/qualify" name="govdelivery">
+<fieldset>
+<input name="topic_id" type="hidden" value="USCDC"/>
+<label>
+<span class="hidden">Enter Email Address</span>
+<input class="email" name="email" onfocus="this.value=''" type="text" value=""/>
+</label>
+<a class="explain" href="http://www.cdc.gov/emailupdates/">What's this?</a><a class="button" href="javascript:quicksubscribe();return false;">Submit</a>
+<noscript>
+<a class="explain" href="http://www.cdc.gov/emailupdates/">What's this?</a>
+<label>
+<span class="hidden">Submit Button</span>
+<input class="button submit" name="commit" type="submit" value="Submit"/>
+</label>
+</noscript>
+</fieldset>
+</form>

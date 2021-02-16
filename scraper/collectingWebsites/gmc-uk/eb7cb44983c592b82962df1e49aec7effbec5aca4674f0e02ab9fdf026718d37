@@ -1,0 +1,21 @@
+<form>
+<div class="filter"><input aria-label="Filter content" id="filterbox" placeholder="Filter content" type="text"/></div>
+<div class="floatRight">Paragraph(s)</div>
+<ul class="contentItems">
+<li class="">
+<a class="" href="/ethical-guidance/ethical-guidance-for-doctors/delegation-and-referral/delegation-and-referral"><span>Delegation and referral</span><span class="paraNum">1-9</span></a><br/>
+<ul>
+<li class="">
+<a class="" href="/ethical-guidance/ethical-guidance-for-doctors/delegation-and-referral/delegation-and-referral#paragraph-3"><span>Delegation</span><span class="paraNum">3-5</span></a><br/>
+</li>
+<li class="">
+<a class="" href="/ethical-guidance/ethical-guidance-for-doctors/delegation-and-referral/delegation-and-referral#paragraph-6"><span>Referral</span><span class="paraNum">6-9</span></a><br/>
+</li>
+</ul>
+</li>
+<li class="selected">
+<a class="active" href="/ethical-guidance/ethical-guidance-for-doctors/delegation-and-referral/endnotes"><span>Endnotes</span><span class="paraNum"></span></a><br/>
+</li>
+</ul>
+<button id="filterboxSubmit" type="submit">Filter content list</button>
+</form>

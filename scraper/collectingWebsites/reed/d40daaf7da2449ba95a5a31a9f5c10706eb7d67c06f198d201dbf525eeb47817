@@ -1,0 +1,31 @@
+<form action="/jobs/fm-delivery-compliance-manager-north-west/41904584#apply-form" data-bind="submit: jobApplication.sendApplication" id="apply-form" method="post"> <input name="InternalApplicationSource" type="hidden" value="details.similarjobs"/>
+<input name="__RequestVerificationToken" type="hidden" value="bMcbQSC0DtmIqDg9C2XaxqQm4t8TRD0qBR1R96JzZy71_3Mj2ZopZ5GZOdxnqJA_28cEmNqeirc0eBNZ9EZprMsEe8Y1"/>
+<section class="screening-questions">
+<h2>Application question</h2>
+<fieldset class="form-field" data-bind="checked: screeningQuestions.questions()[0].UA" role="group">
+<div class="screening-legend col-xs-12 col-sm-8 col-md-8">Do you have a full driving licence?</div>
+<div class="options col-xs-12 col-sm-4 col-md-4">
+<input class="" data-bind="checked: screeningQuestions.questions()[0].UA" id="ScreeningQuestions[0].UserAnswer_True" name="ScreeningQuestions[0].UserAnswer" type="radio" value="True"/> <label class="screening-label" for="ScreeningQuestions[0].UserAnswer_True">
+<a href="#">Yes</a>
+</label>
+<input class="" data-bind="checked: screeningQuestions.questions()[0].UA" id="ScreeningQuestions[0].UserAnswer_False" name="ScreeningQuestions[0].UserAnswer" type="radio" value="False"/> <label class="screening-label" for="ScreeningQuestions[0].UserAnswer_False">
+<a href="#">No</a>
+</label>
+</div>
+</fieldset>
+<input data-val="true" data-val-number="The field Id must be a number." data-val-required="The Id field is required." id="ScreeningQuestions_0__Id" name="ScreeningQuestions[0].Id" type="hidden" value="17666117"/>
+<div class="missing-answer is-hidden">
+            Please answer all of the application questions.
+        </div>
+</section>
+<section class="cv-coverletter-externalapplication" data-bind="visible: jobApplication.showApplyBox()" style="display:none;">
+<input data-val="true" data-val-number="The field JobId must be a number." data-val-required="The JobId field is required." id="JobId" name="JobId" type="hidden" value="41904584"/>
+<input id="Source" name="Source" type="hidden" value="details.similarjobs"/>
+<input data-val="true" data-val-required="The UserHasRegisteredThroughJob field is required." id="UserHasRegisteredThroughJob" name="UserHasRegisteredThroughJob" type="hidden" value="False"/>
+</section>
+<div class="apply-options apply-options-branded text-center" data-bind="visible: !jobApplication.showApplyBox()">
+<button class="btn btn-primary apply-btn gtmJobDetailsApplySide gtmJobseekerRegistrationFunnelClick" data-bind="text: draft.applyButtonText(), click: jobApplication.applyForJob, clickBubble: false, visible: !jobApplication.showApplyBox()" data-qa="applyBtn" data-vpv="/vpv/first_app/on_site/responsive" id="applyButtonSide">
+                                Apply now
+                            </button>
+</div>
+</form>

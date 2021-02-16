@@ -1,0 +1,32 @@
+<form action="https://accounts.google.com/signin/v1/lookup" id="gaia_loginform" method="post" novalidate="">
+<input name="Page" type="hidden" value="PasswordSeparationSignIn"/>
+<input name="" type="hidden" value=""/>
+<input name="gxf" type="hidden" value="AFoagUXx_xWHzsU1x3w7KyWOYeSMFSynDg:1613054397224"/>
+<input name="continue" type="hidden" value="https://plus.google.com/+monster"/>
+<input name="followup" type="hidden" value="https://plus.google.com/+monster"/>
+<input name="osid" type="hidden" value="1"/>
+<input id="profile-information" name="ProfileInformation" type="hidden" value=""/>
+<input id="session-state" name="SessionState" type="hidden" value="AEThLlyFQ23QZFw28TOLqN9JW_U-pbpTDQ1uqfysmTA0cMXop-ZLKBUKTdYTlQs4nO_xa8zNCFP6TONDhxQ7O1p7CZ-yWx1l71dLHGcxrvYJeF2JT0MRxaHAbEVKZeS3vNjIMi-0F1baq8MXUU_EB79sUdlNrP2nzz73n6UOCuFi9SIySqnQcgrt23uShzzteXKuy3Nuy58V"/>
+<input name="flowName" type="hidden" value="GlifWebSignIn"/>
+<input id="_utf8" name="_utf8" type="hidden" value="☃"/>
+<input id="bgresponse" name="bgresponse" type="hidden" value="js_disabled"/>
+<div class="form-panel first valid" id="gaia_firstform">
+<div class="slide-out">
+<div class="input-wrapper focused">
+<div id="identifier-shown">
+<div>
+<label class="hidden-label" for="Email">
+  Enter your email</label>
+<input autofocus="" id="Email" name="Email" placeholder="Email or phone" spellcheck="false" type="email" value=""/>
+<input class="hidden" id="Passwd-hidden" spellcheck="false" type="password"/>
+</div>
+</div>
+<span class="error-msg" id="errormsg_0_Email" role="alert"></span>
+</div>
+<input class="rc-button rc-button-submit" id="next" name="signIn" type="submit" value="Next"/>
+<a class="need-help" href="https://accounts.google.com/signin/usernamerecovery?continue=https%3A%2F%2Fplus.google.com%2F%2Bmonster&amp;osid=1&amp;hl=en-GB">
+  Find my account
+  </a>
+</div>
+</div>
+</form>

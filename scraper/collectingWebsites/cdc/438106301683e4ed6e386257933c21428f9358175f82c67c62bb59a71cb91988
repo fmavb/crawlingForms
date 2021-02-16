@@ -1,0 +1,124 @@
+<form accesskey="S" action="Buildqyr.asp" id="form1" method="Get" name="form1" onsubmit="return Search_onclick('new')" tabindex="2">
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="card-title h3">
+<label for="S1">New Search</label>
+</div>
+<div class="card-body">
+<div class="card-text">
+<input class="form-control" id="S1" name="S1" placeholder="Enter search terms"/>
+<input class="btn btn-primary button-font" id="SearchNew" name="SearchNew" onclick="return Search_onclick('new')" type="submit" value="Go"/>
+<input class="btn btn-primary button-font" id="SearchResult" name="SearchResult" onclick="return Search_onclick('filter')" type="button" value="Search Within Results"/>
+<p>
+<a href="advsearch2.asp">Advanced Search</a>  
+						<a href="n2help.asp">Search Help</a>  
+						<a href="n2info.asp">About NIOSHTIC-2 </a>  
+						<a href="mailto:nioshtic2@cdc.gov?subject=Nioshtic-2 feedback">Feedback</a>
+</p>
+<input name="s1" type="HIDDEN" value="20039872 "/>
+<input name="f1" type="HIDDEN" value="*"/>
+<input name="Startyear" type="HIDDEN" value=""/>
+<input name="Adv" type="HIDDEN" value="0"/>
+<input name="terms" type="HIDDEN" value="1"/>
+<input name="PageNo" type="HIDDEN" value="1"/>
+<input name="D1" type="HIDDEN" value="10"/>
+<input name="View" type="HIDDEN" value="f"/>
+<input name="EndYear" type="HIDDEN" value=""/>
+<input name="Limit" type="HIDDEN" value="10000"/>
+<input name="sort" type="HIDDEN" value=""/>
+<input name="RecNo" type="HIDDEN" value="1"/>
+<input id="RecSelect" name="RecSelect" type="hidden" value="0"/>
+<input id="pagecount" name="Pagecount" type="hidden" value="1"/>
+<input id="NumRecOnPage" name="NumRecOnPage" type="hidden" value="0"/>
+<input name="hiddenURL" type="hidden"/>
+										
+					Terms: <em>  20039872</em>  
+					1 - 1
+					of <span class="emph">1</span> Bibliographic entries
+						   <span style="float:right;">
+
+													
+								All record(s) shown. 
+										
+					</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<a href="#" id="Select2" onclick="return SaveSelection('SaveAll',1)" title="Select all record(s) from this search">Save All</a>  
+                                        <a href="#" id="Select1" onclick="return SaveSelection('SavePage',1)" title="Select all record(s) on this page">Save Page</a>  
+
+                                        <a href="#" id="Disp" onclick="return DispSelection(1)" title="View all selected record(s)">View Saved</a>  
+                                        
+                                        <a href="#" onclick="return LoadDownload(1)" title="Download Search results">Download </a>  
+                                    
+                             </div>
+<div class="row">
+<em class="col-md-10 muted">Select check boxes to automatically save entries, or use 'save all' or 'save page' links above.</em>
+<div class="col-md-2">
+<span id="btr"><a href="//www2a.cdc.gov/nioshtic-2/BuildQyr.asp?s1=20039872+&amp;f1=%2A&amp;Startyear=&amp;Adv=0&amp;terms=1&amp;D1=10&amp;EndYear=&amp;Limit=10000&amp;sort=&amp;PageNo=1&amp;RecNo=1&amp;View=b&amp;">Back to Results</a></span>
+</div>
+</div>
+<div class="section-highlight" id="NIOSHTIC2">
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->
+<input alt="checkbox_1" id="checkbox1_id" name="checkbox1" type="checkbox" value="50805"/><label for="checkbox1_id"> 1</label>
+<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        New approach for near-real-time measurement of elemental composition of aerosol using laser-induced breakdown spectroscopy.
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!--<small>-->Authors<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Diwakar-P; Kulkarni-PS; Birch-ME
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->Source<!-- </small>-->
+</div>
+<div class="col-md-10">
+                                        Aerosol Sci Tech 2012 Mar; 46(3):316-332
+                                    </div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->Link<!-- </small>-->
+</div>
+<div class="col-md-10">
+<a href="http://dx.doi.org/10.1080/02786826.2011.625059">http://dx.doi.org/10.1080/02786826.2011.625059</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-2 muted">
+<!-- <small>-->NIOSHTIC No.<!-- </small>-->
+</div>
+<div class="col-md-10">
+<span class="highlight-search-term">20039872</span>
+</div>
+</div>
+<div class="row"><div class="col-md-2 muted"><!-- <small>-->Abstract<!-- </small>--></div><div class="col-md-10">A new approach has been developed for making near-real-time measurement of elemental composition of aerosols using plasma spectroscopy. The method allows preconcentration of miniscule particle mass (pg to ng) directly from the sampled aerosol stream through electrostatic deposition of charged particles (30-900 nm) onto a flat-tip microneedle electrode. The collected material is subsequently ablated from the electrode and monitored by laser induced breakdown spectroscopy. Atomic emission spectra were collected using a broadband spectrometer with a wavelength range of 200-980 nm. A single-sensor delay time of 1.3 micros was used in the spectrometer for all elements to allow simultaneous measurement of multiple elements. The system was calibrated for various elements including Cd, Cr, Cu, Mn, Na, and Ti. The absolute mass detection limits for these elements were experimentally determined and found to be in the range of 0.018-5 ng. The electrostatic collection technique has many advantages over other substrate-based methods involving aerosol collection on a filter or its focused deposition using an aerodynamic lens. Because the particle mass is collected over a very small area that is smaller than the spatial extent of the laser-induced plasma, the entire mass is available for analysis. This considerably improves reliability of the calibration and enhances measurement accuracy and precision. Further, the aerosol collection technique involves very low pressure drop, thereby allowing higher sample flow rates with much smaller pumps - a desirable feature for portable instrumentation. Higher flow rates also make it feasible to measure trace element concentrations at part per trillion levels. Detection limits in the range of 18-670 ng m(-3) can be achieved for most of the elements studied at a flow rate of 1.5 L min (-1) with sampling times of 5 min.</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Keywords<!-- </small>--></div><div class="col-md-10">Aerosols; Spectroscopes; Spectrographic-analysis; Measurement-equipment; Nitrates; Aerosol-generators; Aerosol-particles; Aerosol-sampling; Cadmium-compounds; Chromium-compounds; Copper-compounds; Manganese-compounds; Sodium-compounds; Ammonium-compounds; Sampling; Sampling-equipment; Sampling-methods; Electrostatic-atomizers; Lasers; Electrostatic-fields; Analytical-instruments</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Contact<!-- </small>--></div><div class="col-md-10">Pramod Kulkarni, Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health, 4676 Columbia Parkway, MS R7, Cincinnati, OH 45226, USA</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->CODEN<!-- </small>--></div><div class="col-md-10">ASTYDQ</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->CAS No.<!-- </small>--></div><div class="col-md-10">7440-43-9; 7440-47-3; 7440-50-8; 7439-96-5; 7647-14-5</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Publication Date<!-- </small>--></div><div class="col-md-10">20120301</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Document Type<!-- </small>--></div><div class="col-md-10">Journal Article</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Email Address<!-- </small>--></div><div class="col-md-10">PSKulkarni@cdc.gov</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Fiscal Year<!-- </small>--></div><div class="col-md-10">2012</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NTIS Accession No.<!-- </small>--></div><div class="col-md-10"></div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NTIS Price<!-- </small>--></div><div class="col-md-10"></div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Identifying No.<!-- </small>--></div><div class="col-md-10">B11122011</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Issue of Publication<!-- </small>--></div><div class="col-md-10">3</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->ISSN<!-- </small>--></div><div class="col-md-10">0278-6826</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->NIOSH Division<!-- </small>--></div><div class="col-md-10">DART</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Priority Area<!-- </small>--></div><div class="col-md-10">Manufacturing</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->Source Name<!-- </small>--></div><div class="col-md-10">Aerosol Science and Technology</div></div><div class="row"><div class="col-md-2 muted"><!-- <small>-->State<!-- </small>--></div><div class="col-md-10">OH</div></div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="card mb-2 bg-tertiary">
+<div class="col-md-12" style="padding-top:5px;padding-bottom:6px;">
+                                    Page 1 of 1
+                                <span style="float:right;">
+                                    
+				                        All record(s) shown.
+                              
+                                </span>
+</div>
+</div>
+</div>
+</div>
+</form>

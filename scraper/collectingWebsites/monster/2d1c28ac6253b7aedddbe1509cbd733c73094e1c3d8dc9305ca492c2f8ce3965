@@ -1,0 +1,9 @@
+<form action="/career-advice/article" class="navbar-form" role="search">
+<div class="form-group top-search resCenter">
+<label class="sr-only" for="q">Search Career Advice</label>
+<div class="input-group input-group-sm">
+<input class="form-control input-sm" id="q" maxlength="150" name="q" placeholder="Search Career Advice" type="text" value=""/>
+</div>
+</div>
+<button class="btn btn-white btn-sm" type="submit"><i class="mdi mdi-magnify"></i><span class="sr-only">Search</span></button>
+</form>

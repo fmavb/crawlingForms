@@ -1,0 +1,27 @@
+<form action="https://search.cdc.gov/search" id="searchCDCLocal" method="get">
+<fieldset>
+<div class="searchRadio">
+<div id="cdc-local-radial">
+<!-- InstanceBeginEditable name="EditLocalSearch" -->
+<input checked="checked" id="searchCDCLocal2" name="subset" type="radio" value="mmwr"/>
+<label for="searchCDCLocal2"><i>MMWR</i></label>
+<!-- InstanceEndEditable -->
+</div>
+<div id="cdc-global-radial">
+<input id="searchCDCGlobal" name="subset" type="radio" value=""/>
+<label for="searchCDCGlobal">All CDC Topics</label>
+</div>
+</div>
+<div id="cdc-Query">
+<label class="overlabel structural" for="searchBoxLocal">Search The CDC</label>
+<input class="searchBox" id="searchBoxLocal" maxlength="256" name="query" type="text"/>
+</div>
+<div id="cdc-Submit">
+<!-- label for="searchButtonLocal" class="structural">Search Button:</label -->
+<input alt="Search" class="searchButton" id="searchButtonLocal" name="searchButton" src="/TemplatePackage/images/home/search_button.gif" type="image"/>
+<input name="action" type="hidden" value="search"/>
+</div>
+<input name="utf8" type="hidden" value="✓"/>
+<input name="affiliate" type="hidden" value="cdc-main"/>
+</fieldset>
+</form>

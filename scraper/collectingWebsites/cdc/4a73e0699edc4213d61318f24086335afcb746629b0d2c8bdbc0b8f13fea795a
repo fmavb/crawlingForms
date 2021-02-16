@@ -1,0 +1,9 @@
+<form>
+<label for="socrataDropdown">Select a dataset from Data.CDC.gov<b><sup title="Data.CDC.gov is an open platform that allows the agency to share data in more accessible way. Users can view information about the dataset, including content characterization and metadata, and download the dataset in different file formats. It also provides an API to allow users to connect, filter, query, and aggregate the data programmatically.">[?]</sup></b>:</label>
+<select id="socrataDropdown" style="width: 100%;"><option value="https://data.cdc.gov/NCHS/NCHS-Births-and-General-Fertility-Rates-United-Sta/e6fc-ccez">Births and General Fertility Rates</option>
+<option value="https://data.cdc.gov/NCHS/NCHS-Birth-Rates-by-Age-of-Mother-United-States/yt7u-eiyg">Birth Rates by Age Group</option>
+<option value="https://data.cdc.gov/NCHS/NCHS-Percent-Distribution-of-Births-by-Maternal-Ag/isx2-c2ii">Percent Distribution of Births by Age Group</option>
+<option value="https://data.cdc.gov/NCHS/NCHS-Births-Birth-Rates-and-Fertility-Rates-by-Rac/89yk-m38d">Natality Measures by Race and Hispanic Origin</option>
+<option value="https://data.cdc.gov/NCHS/NCHS-Births-Birth-Rates-and-Fertility-Rates-by-His/s54h-bixi">Natality Measures by Hispanic Origin Subgroup</option>
+<option value="https://data.cdc.gov/NCHS/NCHS-Teen-Birth-Rates-by-Age-Group-and-Race-or-His/e8kx-wbww">Teen Birth Rates by Age Group, Race, and Hispanic Origin</option></select><p><input onclick="url=$('#socrataDropdown').val();window.open(url, '_blank')" type="button" value="View Dataset"/></p>
+</form>

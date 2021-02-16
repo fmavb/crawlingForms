@@ -1,0 +1,6 @@
+<form action="" data-ajax="false" id="percentForm">
+<div data-role="fieldcontain">
+<input data-inline="true" id="percent" max="100" min="0" name="slider-fill" type="range" value="50"/> <label data-inline="true" for="slider-fill">%</label>
+<input data-inline="true" data-mini="true" data-role="button" id="submitperc" name="submitperc" type="submit" value="Submit"/>
+</div>
+</form>

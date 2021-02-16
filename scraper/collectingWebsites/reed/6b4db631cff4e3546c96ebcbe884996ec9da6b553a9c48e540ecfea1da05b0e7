@@ -1,0 +1,23 @@
+<form action="https://www.reed.co.uk/account/signin" id="sign-in-form" method="post"><input name="__RequestVerificationToken" type="hidden" value="Pu65RH8HZt44-r0RnTGAQGolvHeYtN4sP2CQ04aI_at671-shZfnW-V6Ak6-IGGki1B-fqefdydj6EJy0xLRP7QUFag1"/> <input name="g-recaptcha-response" type="hidden" value=""/>
+<input id="return-url" name="returnUrl" type="hidden" value="/jobs/bid-manager/41939522?source=searchResults"/>
+<input id="back-url" name="backUrl" type="hidden"/>
+<input id="jobShortListUrl" name="jobShortlistUrl" type="hidden"/>
+<input data-bind="value: getQuestionsString()" id="sign-in-questions" name="questions" type="hidden"/>
+<fieldset class="form-group">
+<label for="Email">Email</label>
+<input class="form-control" data-bind="value: emailAddress, valueUpdate: 'afterkeydown'" data-di-field-id="Email" data-qa="signinEmailTxt" data-val="true" data-val-length="The field Email must be a string with a maximum length of 75." data-val-length-max="75" data-val-regex="Please enter a valid email." data-val-regex-pattern="^\s*[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\s*$" data-val-required="Please enter your email." id="email" maxlength="75" name="Email" type="email" value=""/>
+<span class="validation"><span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span></span>
+</fieldset>
+<fieldset class="form-group">
+<label for="Password">Password</label>
+<input autocomplete="off" class="form-control" data-di-field-id="Password" data-qa="signinPasswordTxt" data-val="true" data-val-length="The field Password must be a string with a maximum length of 32." data-val-length-max="32" data-val-required="Please enter your password." id="password" maxlength="75" name="Password" type="password" value=""/>
+<span class="validation"><span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span></span>
+</fieldset>
+<fieldset class="form-group checkbox">
+<input checked="checked" id="sign-in-remember-me" name="rememberme" type="checkbox" value="true"/>
+<label data-qa="signinKeepSignedInChk" for="sign-in-remember-me" title="If you tick 'keep me signed in', weâ€™ll keep you signed in to your account until you click 'Sign out'">Keep me signed in</label>
+</fieldset>
+<div class="form-group">
+<button class="btn btn-primary gtmJobDetailsSignIn" data-gtm="sign_in_click" data-gtm-value="email" data-qa="signinContinueBtn">Sign in</button>
+</div>
+<input id="JobTitle" name="JobTitle" type="hidden" value="Bid Manager"/><input data-val="true" data-val-number="The field JobIdSignin must be a number." id="JobIdSignin" name="JobIdSignin" type="hidden" value="41939522"/><input data-val="true" data-val-required="The ClickedApply field is required." id="ClickedApply" name="ClickedApply" type="hidden" value="False"/><input data-val="true" data-val-required="The SignInFromSearchResults field is required." id="SignInFromSearchResults" length="23" name="SignInFromSearchResults" type="hidden" value="False"/></form>
