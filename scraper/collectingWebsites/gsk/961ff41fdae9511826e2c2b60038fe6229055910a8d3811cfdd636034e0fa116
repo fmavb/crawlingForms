@@ -1,0 +1,30 @@
+<form action="#" autocomplete="off" id="frmDefault">
+<ul data-inset="true" data-role="listview" data-theme="c">
+<li data-role="list-divider" data-theme="b">
+<div id="lblSelectTask">
+</div>
+</li>
+<li><a href="/password/Pages/Unrestricted/ForgotPassword.aspx" id="forgot-password-link" rel="external">
+<img alt="lblForgottenPassword" class="ui-li-icon" height="22" src="/password/resources/images/icons/png/first-aid.png" title="lblForgottenPassword" width="22"/>
+<span id="lblForgottenPassword"></span></a></li>
+<li><a href="/password/Pages/Unrestricted/ChangePassword.aspx" id="change-password-link" rel="external">
+<img alt="lblChangePassword" class="ui-li-icon" height="22" src="/password/resources/images/icons/png/lock.png" title="lblChangePassword" width="22"/>
+<span id="lblChangePassword"></span></a></li>
+<li><a href="/password/Pages/Unrestricted/SetupAccountRecovery.aspx" id="setup-account-recovery-link" rel="external">
+<img alt="lblSetupAccountRecovery" class="ui-li-icon" height="22" src="/password/resources/images/icons/png/todo.png" title="lblSetupAccountRecovery" width="22"/>
+<span id="lblSetupAccountRecovery"></span></a></li>
+<li><a href="/password/Pages/Unrestricted/ManageTokens.aspx" id="manage-tokens-link" rel="external">
+<img alt="lblManageTokens" class="ui-li-icon" height="22" src="/password/resources/images/icons/png/token.png" title="lblManageTokens" width="22"/>
+<span id="lblManageTokens"></span></a></li>
+<li><a href="/password/Pages/Unrestricted/ManageMFA.aspx" id="manage-mfa-link" rel="external">
+<img alt="lblManageMFA" class="ui-li-icon" height="22" src="/password/resources/images/icons/png/fingerprint.png" title="lblManageMFA" width="22"/>
+<span id="lblManageMFA"></span></a></li>
+<li><a href="/password/Pages/Unrestricted/UnlockAccount.aspx" id="unlock-account-link" rel="external">
+<img alt="lblUnlockAccount" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/key.png" title="lblUnlockAccount" width="16"/>
+<span id="lblUnlockAccount"></span></a></li>
+<li><a href="/password/Pages/Unrestricted/NewEmployee.aspx" id="new-starter-recovery-link" rel="external">
+<img alt="lblNewStarter" class="ui-li-icon" height="22" src="/password/resources/images/icons/png/employee.png" title="lblNewStarter" width="22"/>
+<span id="lblNewStarter"></span></a></li>
+</ul>
+<p></p>
+</form>

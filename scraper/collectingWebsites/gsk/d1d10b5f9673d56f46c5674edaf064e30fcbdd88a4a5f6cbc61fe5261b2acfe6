@@ -1,0 +1,165 @@
+<form action="/callback/covid.html" class="consumer-form-panel callback-user-form hcp-form" id="callback_form" method="POST">
+<input name="type" type="hidden" value="covid"/>
+<input name="emailSubject" type="hidden" value="GlaxoSmithKline Corporate e-mail"/>
+<fieldset class="information">
+<div class="form-item-horizontal cb myself-else-div">
+<br/>
+<label id="ch_hcp"><span class="form-required">*</span>Are you a Consumer or a Health Care Professional?</label>
+<div class="rad-btn-grp">
+<input class="form-radio hiddencheckbox" id="covidUserType0" name="covidUserType" type="radio" value="COVID-CON"/>
+<span class="radiobtnimg prettyradio" data-name="covidUserType0"></span>
+<label class="option" for="covidUserType0">Consumer</label>
+<input class="form-radio hiddencheckbox" id="covidUserType1" name="covidUserType" type="radio" value="COVID-HCP"/>
+<span class="radiobtnimg prettyradio" data-name="covidUserType1"></span>
+<label class="option" for="covidUserType1">Health Care Professional</label>
+</div>
+<div class="covid-form hidden">
+<img src="/images/iconProfile.png"/>
+<div class="header-border">
+<h1>Personal Information</h1>
+<div class="brown-border"></div>
+</div>
+<fieldset class="information">
+<div class="form-item-horizontal cb">
+<label for="address.firstName">First Name <span class="form-required">*</span></label>
+<div class="input-top-border">
+<input autocomplete="OFF" id="address.firstName" maxlength="15" name="address.firstName" size="60" type="text" value=""/>
+</div>
+</div>
+<div class="form-item-horizontal cb">
+<label for="address.lastName">Last Name <span class="form-required">*</span></label>
+<div class="input-top-border">
+<input autocomplete="OFF" id="address.lastName" maxlength="20" name="address.lastName" size="60" type="text" value=""/>
+</div>
+</div>
+<div class="form-item-horizontal cb">
+<label for="address.street1">Address <span class="form-required">*</span></label>
+<div class="input-top-border">
+<input autocomplete="OFF" id="address.street1" maxlength="40" name="address.street1" size="60" type="text" value=""/>
+</div>
+</div>
+<div class="form-item-horizontal cb route-div">
+<label for="address.street2">Room/Apt/Route #</label>
+<div class="input-top-border">
+<input autocomplete="OFF" class="small" id="address.street2" maxlength="40" name="address.street2" size="18" type="text" value=""/>
+</div>
+</div>
+<div class="form-item-horizontal cb">
+<label class="small" for="address.city">City <span class="form-required">*</span></label>
+<div class="input-top-border">
+<input autocomplete="OFF" class="small" id="address.city" maxlength="30" name="address.city" size="24" type="text" value=""/>
+</div>
+</div>
+<div class="form-item-horizontal cb">
+<label for="address.region">State <span class="form-required">*</span></label>
+<select class="address_region" id="address.region" name="address.region">
+<option selected="selected" value="">Please select a state</option>
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="DC">District of Columbia</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PA">Pennsylvania</option>
+<option value="PR">Puerto Rico</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option>
+</select>
+</div>
+<div class="form-item-horizontal cb">
+<label class="small" for="address.postalCode">Zip Code <span class="form-required">*</span></label>
+<div class="input-top-border">
+<input autocomplete="OFF" class="small" id="address.postalCode" maxlength="5" name="address.postalCode" size="6" type="text" value=""/>
+</div>
+</div>
+</fieldset>
+<fieldset class="contactdetails rad-btn-grp">
+<img src="/images/iconPhone.png"/>
+<div class="header-border">
+<h1>Contact Preferences</h1>
+<div class="brown-border"></div>
+</div>
+<div class="form-item-horizontal cb contactmethod">
+<label class="marginB20" id="how-would-you"><b><span class="form-required">*</span> How would you like us to contact you?</b></label>
+<input class="form-radio" id="contactMethod0" name="contactMethod" type="radio" value="email"/>
+<label class="hiddencheckbox option" for="contactMethod0">Email</label>
+<span class="radiobtnimg prettyradio" data-name="contactMethod0" id="contactMethod0" name="contactMethod0"></span>
+<label class="option" for="">Email</label>
+<input autocomplete="OFF" class="email-ptag hidden" id="email" maxlength="60" name="email" size="40" type="text" value=""/>
+<p class="email-ptag hidden"><span class="mandatory-txt2">Our goal is to contact you within 1 business day</span></p>
+</div>
+<div class="form-item-horizontal cb contactmethod phone-option">
+<input class="form-radio" id="contactMethod0" name="contactMethod" type="radio" value="phone"/>
+<label class="hiddencheckbox option" for="contactMethod0">Telephone</label>
+<span class="radiobtnimg prettyradio" data-name="contactMethod2" id="contactMethod1" name="contactMethod1"></span>
+<label class="option" for="">Phone</label>
+<div class="hcp-single-line marginB0 hidden phone-div">
+<span>( </span> <input autocomplete="OFF" class="areaCode width-auto phoneField1" id="address.phone.areaCode" maxlength="3" name="address.phone.areaCode" onkeyup="movetoNext(this,'phoneField2')" size="4" type="text" value=""/>
+<span>) - </span>
+<input autocomplete="OFF" class="phonePrefix width-auto phoneField2" id="address.phone.prefix" maxlength="3" name="address.phone.prefix" onkeyup="movetoNext(this,'phoneField3')" size="4" type="text" value=""/>
+<span>- </span>
+<input autocomplete="OFF" class="phoneSuffix width-auto phoneField3" id="address.phone.suffix" maxlength="4" name="address.phone.suffix" size="5" type="text" value=""/>
+<div class="clear-block"><p><span class="mandatory-txt2">Our goal is to call you within 15 minutes</span></p></div>
+</div>
+</div>
+</fieldset>
+<fieldset>
+<img src="/images/iconConversation.png"/>
+<div class="header-border">
+<h1><span class="form-required">*</span>Comments &amp; Questions</h1>
+<div class="brown-border"></div>
+</div>
+<div class="form-item-horizontal cb commentsandsuggestions">
+<label class="small" for="message"></label>
+<textarea class="message input-top-border" cols="50" id="message" name="message" rows="5"></textarea>
+</div>
+</fieldset>
+</div>
+<div class="form-item cb button-div">
+<input class="button" id="reset" name="reset" type="reset" value="Reset"/>
+<input class="button" disabled="" id="submit-btn" name="submit" type="submit" value="Submit"/>
+</div>
+</div>
+</fieldset></form>

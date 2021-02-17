@@ -1,0 +1,2176 @@
+<form action="default.aspx" id="fmForm1" method="post">
+<div class="aspNetHidden">
+<input id="__EVENTTARGET" name="__EVENTTARGET" type="hidden" value=""/>
+<input id="__EVENTARGUMENT" name="__EVENTARGUMENT" type="hidden" value=""/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value=""/>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['fmForm1'];
+if (!theForm) {
+    theForm = document.fmForm1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function GetViewType(){ return '2'; }
+function GetRevisionNumber(){ return '1'; }
+function GetLanguageId(){ return '1'; }
+function GetVersionNumber(){ return '5.51.0.5'; }
+function GetPoweredBy(){return 'q4inc';}
+function GetViewDate(){{ return ''; }}
+function GetSignature(){{ return ''; }}
+//]]>
+</script>
+<a href="javascript:__doPostBack('lnkPostback','')" id="lnkPostback" style="display: none"></a>
+<div class="LayoutDefault LayoutThreeColumn">
+<div class="LayoutDefaultInner">
+<div class="HeaderContainer">
+<div class="PaneHeader" role="banner">
+<div class="container clearfix">
+<span class="HeaderPaneDiv"><span class="HeaderPaneDiv2"><div class="ModuleContent accSkipLink" id="_ctrl0_ctl09_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<a href="#maincontent">Skip to main content</a>
+</div>
+</div>
+</div></span><span class="HeaderPaneDiv3"><div class="ModuleContent toggle-mobile" id="_ctrl0_ctl12_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+</div>
+</div>
+</div></span><span class="HeaderPaneDiv4"><div class="RightColumnBlock" id="_ctrl0_ctl15_RightBlock"></div>
+<div class="header-links" id="_ctrl0_ctl15_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<ul class="header-links" id="_ctrl0_ctl15_qlList">
+<li class="QuickLinkRow" id="_ctrl0_ctl15_QuickLinkList_ctl00_liQuickLink">
+<a href="http://www.pfizer.com/careers" id="_ctrl0_ctl15_QuickLinkList_ctl00_link" target="_blank">Careers</a>
+</li>
+<li class="QuickLinkRowAlt" id="_ctrl0_ctl15_QuickLinkList_ctl01_liQuickLink">
+<a href="https://investors.pfizer.com/investors-overview/default.aspx" id="_ctrl0_ctl15_QuickLinkList_ctl01_link" target="_self">Investors</a>
+</li>
+<li class="QuickLinkRow" id="_ctrl0_ctl15_QuickLinkList_ctl02_liQuickLink">
+<a href="http://www.pfizer.com/News" id="_ctrl0_ctl15_QuickLinkList_ctl02_link" target="_blank">News</a>
+</li>
+<li class="QuickLinkRowAlt" id="_ctrl0_ctl15_QuickLinkList_ctl03_liQuickLink">
+<a href="http://www.pfizer.com/partners" id="_ctrl0_ctl15_QuickLinkList_ctl03_link" target="_blank">Partners</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</span><span class="HeaderPaneDiv5"><div class="ModuleContent header-link2" id="_ctrl0_ctl18_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<ul>
+<li>
+<a class="extern" href="http://www.pfizerpro.com/">Health Professionals</a>
+</li>
+<li class="dropdown">
+<a href="http://www.pfizer.com/contact">Connect with Us</a>
+<div class="submenu">
+<ul>
+<li>
+<a href="http://www.pfizer.com/contact/email">Email</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/contact/faqs">FAQ</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/contact/privacy">Privacy Policy</a>
+</li>
+<li>
+<a href="http://www.youtube.com/user/pfizernews?feature=results_main" target="_blank">YouTube</a>
+</li>
+<li>
+<a class="extern-org" href="http://twitter.com/pfizer_news" target="_blank">
+                        Twitter
+                        <!-- <span class="ext-icon"></span> -->
+</a>
+</li>
+<li>
+<a class="extern-org" href="https://www.facebook.com/Pfizer" target="_blank">
+                        Facebook
+                        <!-- <span class="ext-icon"></span> -->
+</a>
+</li>
+<li>
+<a class="extern-org" href="http://www.linkedin.com/companies/pfizer" target="_blank">
+                        LinkedIn
+                        <!-- <span class="ext-icon"></span> -->
+</a>
+</li>
+<li>
+<a class="extern-org" href="https://www.instagram.com/pfizerinc/" target="_blank">
+                        Instagram
+                        <!-- <span class="ext-icon"></span> -->
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="dropdown-lang">
+<a class="lang-dropdown">EN</a>
+<div class="submenu">
+<div class="grid-no-gutter">
+<ul class="col col-1-of-4 col-md-1-of-2 col-sm-1-of-2">
+<li>
+<a href="http://www.pfizer.com.ar">Argentina</a>
+</li>
+<li class="col-one">
+<a href="http://www.pfizer.com.au">Australia</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.at" target="_blank">
+                            Austria
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.be" target="_blank">
+                            Belgium
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a href="http://www.Pfizer.com.br">Brazil</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.ca" target="_blank">
+                            Canada
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a href="http://www.pfizer.com.cn">China</a>
+</li>
+<li class="col-one">
+<a href="http://www.pfizer.com.co">Colombia</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.cz" target="_blank">
+                            Czech Republic
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.dk" target="_blank">
+                            Denmark
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.fi" target="_blank">
+                            Finland
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+</ul>
+<ul class="col col-1-of-4 col-md-1-of-2 col-sm-1-of-2">
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.fr" target="_blank">
+                            France
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.de" target="_blank">
+                            Germany
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.gr" target="_blank">
+                            Greece
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a href="http://www.pfizer.com.hk">Hong Kong</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.hu" target="_blank">
+                            Hungary
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizerindia.com" target="_blank">
+                            India
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizerpeduli.com" target="_blank">
+                            Indonesia
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.ie" target="_blank">
+                            Ireland
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.co.il" target="_blank">
+                            Israel
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.it" target="_blank">
+                            Italy
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.co.jp" target="_blank">
+                            Japan
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+</ul>
+<ul class="col col-1-of-4 col-md-1-of-2 col-sm-1-of-2">
+<li class="col-three">
+<a class="ext" href="http://www.pfizerkorea.co.kr" target="_blank">
+                            Korea
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.my">Malaysia/Singapore</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.mx">Mexico</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.nl" target="_blank">
+                            Netherlands
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.co.nz" target="_blank">
+                            New Zealand
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.no" target="_blank">
+                            Norway
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.pk">Pakistan</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.ph">Philippines</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.pl">Poland</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.pt" target="_blank">
+                            Portugal
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.ro/" target="_blank">
+                            Romania
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+</ul>
+<ul class="col col-1-of-4 col-md-1-of-2 col-sm-1-of-2">
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.ru" target="_blank">
+                            Russia
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.sk" target="_blank">
+                            Slovakia
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.co.za" target="_blank">
+                            South Africa
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.es" target="_blank">
+                            Spain
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.se" target="_blank">
+                            Sweden
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.ch" target="_blank">
+                            Switzerland
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a href="http://www.pfizer.com.tw">Taiwan</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.co.th" target="_blank">
+                            Thailand
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a href="http://www.pfizer.com.tr">Turkey</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.co.uk" target="_blank">
+                            United Kingdom
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.ua" target="_blank">
+                            Ukraine
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</span><span class="HeaderPaneDiv6"><div class="ModuleContainer ModuleSearch corporate-search" id="_ctrl0_ctl21_divModuleContainer" role="search">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="ModuleContainerInnerTop">
+<div class="ModuleContentContainer">
+<span class="SearchText" id="_ctrl0_ctl21_lblSearchText"></span>
+<input aria-label="Search query" class="SearchInput" id="_ctrl0_ctl21_txtSearchInput" maxlength="256" name="_ctrl0$ctl21$txtSearchInput" onkeypress="javascript:var key; if (window.event) { key = window.event.keyCode; } else if (e) { key = e.which; } else { return true; } if (key == 13) __doPostBack('_ctrl0$ctl21$btnSearch', ''); " placeholder="IR Search" type="text" value=""/>
+<input class="ModuleButton SearchButton" id="_ctrl0_ctl21_btnSearch" name="_ctrl0$ctl21$btnSearch" type="submit" value=""/>
+</div>
+</div>
+</div>
+</div>
+</div></span></span>
+</div>
+</div>
+<div class="PaneNavigation">
+<div class="container clearfix">
+<span class="NavigationPaneDiv7"><div class="ModuleContent ClientLogo" id="_ctrl0_ctl24_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<a href="http://www.pfizer.com/"><img alt="Pfizer" src="//s21.q4cdn.com/317678438/files/design/2020/v1/Pfizer_Logo_White-new.png"/></a>
+</div>
+</div>
+</div></span><span class="NavigationPaneDiv8"><div class="ModuleContent corporate-nav" id="_ctrl0_ctl27_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="corporate-navigation">
+<div class="main-menu">
+<ul class="level1 clearfix">
+<li class="has-children section-red">
+<a href="http://www.pfizer.com/health-wellness">
+        YOUR HEALTH
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/health-wellness/healthy-living">Healthy Living</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/brain-nervous-system"> Brain &amp; Nervous System </a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/heart-cardiovascular">Cardiovascular Health</a></li>
+<li><a href="https://www.pfizer.com/health-wellness/healthy-living/cold-and-flu">Cold &amp; Flu</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/digestive">Digestive Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/healthy-aging">Healthier Aging</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/quit-smoking">Living Tobacco Free</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/mens-health">Men’s Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/mental-health">Mental Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/diet-exercise">Nutrition &amp; Fitness</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/kids-health">Pediatric Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/respiratory-health">Respiratory Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/skin-care">Skin Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/vaccines-prevention">Vaccines &amp; Prevention</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/womens-health">Women’s Health</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/health-wellness/disease-conditions">Disease &amp; conditions</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/cancer">Cancer</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/heart-cardiovascular">Cardiovascular Diseases &amp; Conditions</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/diabetes-metabolic">Diabetes &amp; Metabolic Disorders</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/immune">Immune System Diseases &amp; Conditions</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/infectious">Infections &amp; Infectious Diseases</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/neurological-disorders">Neurological Diseases &amp; Conditions</a></li>
+<li><a href="https://www.pfizer.com/health-wellness/diseases-conditions/menopause">Menopause</a></li>
+<!-- <li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/pain-management">Pain</a></li> -->
+<li><a href="http://www.pfizer.com/health-wellness/disease-conditions/rare-disease">Rare Disease</a></li>
+<li><a href="http://www.pfizer.com/health/vaccines/areas-of-focus">Vaccine-Related Conditions</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/skin">Skin Diseases &amp; Condition</a></li>
+<br/>
+<br/>
+<br/>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/health/coronavirus">CORONAVIRUS DISEASE (COVID-19)</a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/health-wellness/manage-your-health">Managing your health</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/health/caregiving">Caregiving</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/manage-your-health/health-information">Evaluating Health Information</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/manage-your-health/health-tracking">Tracking Your Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/manage-your-health/medication-management">Your Medicines</a></li>
+<li><a href="https://www.pfizer.com/health/literacy">Health Literacy</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="https://www.pfizer.com/health-wellness/wellness">WELLNESS</a>
+</li>
+</ul>
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/health-wellness/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/hot-topics/emotional_well_being_tips_for_people_living_with_chronic_inflammatory_conditions_during_covid_19">
+<img src="//s21.q4cdn.com/317678438/files/images/GettyImages-1131368053.jpg"/>
+</a>
+<a href="https://www.pfizer.com/news/hot-topics/emotional_well_being_tips_for_people_living_with_chronic_inflammatory_conditions_during_covid_19">MAINTAINING EMOITONAL WELLBEING DURING COVID-19</a>
+</div>
+</li>
+<!-- <li>
+                                <div class="hot-topic">
+                                    <a href="/none">
+                                         <img src="//s21.q4cdn.com/317678438/files/design/hot-topic2.jpg">
+                                    </a>
+                                    <a href="/none">Read more</a>
+                                </div>
+                            </li> -->
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="has-children section-orange">
+<a href="http://www.pfizer.com/science">
+        OUR SCIENCE
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li>
+<a href="https://www.pfizer.com/discover">DRIVEN TO DISCOVER THE CURE</a>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/science/therapeutic-areas">FOCUS AREAS</a>
+<ul class="level3">
+<li>
+<a href="https://www.pfizer.com/science/internal-medicine">Internal Medicine</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/immunology-inflammation">Inflammation &amp; Immunology</a>
+</li>
+<!-- <li>
+                                <a href="http://www.pfizer.com/science/neuroscience-pain-management">Neuroscience &amp; Pain</a>
+                            </li> -->
+<li>
+<a href="http://www.pfizer.com/science/oncology-cancer">Oncology</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/rare-diseases">Rare Disease</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/vaccines">Vaccines</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/therapeutic-areas/anti-infectives">Anti Infectives</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/science/drug-product-pipeline">Product Pipeline</a>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/science/clinical-trials">
+                            Clinical Trials
+                        </a>
+<ul class="level3">
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/guide-to-clinical-trials">Guide to Clinical Trials</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/find-a-trial/search">Find a Trial</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/compassionate-use">Compassionate Use &amp; Expanded Access</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/children">Clinical Trials in Children</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/partnering-with-pfizer">Partnering with Pfizer</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/clinical-trials/trial-data-and-results">Trial Data &amp; Results</a>
+</li>
+<!--                             <li>
+                                <a href="http://www.pfizer.com/science/pmc/post-marketing-commitments">Post Marketing Commitments</a>
+                            </li> -->
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/integrity-transparency">Research Integrity &amp; Transparency</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/science/research-development">
+                            R&amp;D PLATFORMS
+                        </a>
+<ul class="level3">
+<li>
+<a href="http://www.pfizer.com/science/research-development/biosimilars">Biosimilars</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/research-development/gene-therapy">Gene Therapy</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/research-development/medicinal-sciences">Medicinal Sciences</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/research-development/precision-medicine">Precision Medicine</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/research-development/maternal-immunization">Maternal Immunization</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/science/collaboration">
+                            Collaboration
+                        </a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/partners">Partner with Pfizer</a></li>
+<!--                        <li><a href="http://www.pfizer.com/science/collaboration/centers-therapeutic-innovation">Centers for Therapeutic Innovation</a></li>
+                          <li><a href="http://www.pfizer.com/science/collaboration/medical-research-grants">Competitive Grants</a></li>
+                          <li><a href="http://www.pfizer.com/science/collaboration/compound-transfer-program">Compound Transfer Program</a></li>
+                          <li><a href="http://www.pfizer.com/science/collaboration/investigator-initiatied-research">Investigator-Initiated Research</a></li>
+                          <li><a href="http://www.pfizer.com/science/collaboration/research-development">R&amp;D Collaborations</a></li> -->
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/science/research-development/centers">
+                            Research sites
+                        </a>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="https://www.pfizer.com/science/coronavirus">
+                            CORONAVIRUS DISEASE (COVID-19) SCIENTIFIC RESOURCES
+                        </a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/science/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/hot-topics/get_the_facts_on_our_covid_19_vaccine_candidates">
+<img src="//s21.q4cdn.com/317678438/files/images/Vax_FIH_QandA_Image.jpeg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/hot-topics/get_the_facts_on_our_covid_19_vaccine_candidates">COVID-19 Vaccine Candidates</a>
+</div>
+</li>
+<li>
+<div class="hot-topic">
+<a href="https://www.breakthroughs.com/health-tomorrow/what-makes-rna-vaccine-different-conventional-vaccine">
+<img src="//s21.q4cdn.com/317678438/files/images/RNAThumb_0.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.breakthroughs.com/health-tomorrow/what-makes-rna-vaccine-different-conventional-vaccine">MRNA VS. CONVENTIONAL</a>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="has-children section-purple">
+<a href="http://www.pfizer.com/people">
+        OUR PEOPLE
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/people/experts">Meet The Experts</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/people/medical-experts/science">Scientists</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/heart-metabolic-diseases">Internal Medicine - Metabolic Disease</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/immunology-inflammation">Inflammation &amp;Immunology</a></li>
+<!-- <li><a href="http://www.pfizer.com/people/medical-experts/neuroscience-pain">Neuroscience &amp; Pain</a></li> -->
+<li><a href="http://www.pfizer.com/people/medical-experts/oncology-cancer">Oncology</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/rare-diseases">Rare Disease</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/vaccinations">Vaccines</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/medicine">Medical Professionals</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/people/history">The Journey</a>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/people/leadership">Leadership</a>
+<ul class="level3">
+<li>
+<a href="http://www.pfizer.com/people/leadership/executives">Executives</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/leadership/board-of-directors">Board Members</a>
+</li>
+<li><a href="http://www.pfizer.com/about/leadership-and-structure/company-fact-sheet">Company Fact Sheet</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/people/workplace-diversity">Diverse Perspectives</a>
+<ul class="level3">
+<!-- <li><a href="http://www.pfizer.com/people/workplace-diversity/culture">Culture &amp; Community</a></li> -->
+<li><a href="http://www.pfizer.com/careers/en/diversity-inclusion"> Diversity &amp; Inclusion </a></li>
+<li>
+<a href="http://www.pfizer.com/people/workplace-diversity/supplier-diversity">Supplier Diversity</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/people/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/pfizer_intern_diaries_alex">
+<img src="//s21.q4cdn.com/317678438/files/images/Annaliesa_Anderson_At20Home.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/pfizer_intern_diaries_alex">A day in the life of a Scientist</a>
+</div>
+</li>
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/giving_back_to_the_community_pearl_river_ny_edition">
+<img src="//s21.q4cdn.com/317678438/files/images/dr_richardson_300x170.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/giving_back_to_the_community_pearl_river_ny_edition">Getting to Know CPO Dara Richardson-Heron, M.D. </a>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="has-children section-green">
+<a href="http://www.pfizer.com/purpose">
+        OUR PURPOSE
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/purpose/global-health">Commitment to Global Health</a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/purpose/global-health/expanding-access">Expanding Access</a></li>
+<li><a href="https://www.pfizer.com/purpose/global-health/strengthening-health-systems">Strengthening Health Systems</a></li>
+<li><a href="https://www.pfizer.com/purpose/global-health/providing-disaster-and-humanitarian-relief">Providing Disaster &amp; Humanitarian Relief</a></li>
+<li><a href="https://www.pfizer.com/purpose/global-health/unleashing-the-power-of-our-colleagues"> Unleashing the Power of Our Colleagues</a></li>
+<li><a href="https://www.pfizer.com/purpose/global-health/highlighting-individual-voices">Highlighting Individual Voices</a></li>
+<!--                             <li><a href="http://www.pfizer.com/responsibility/global-partnerships-institutions">Global Institutions and Partnerships</a></li>
+                            <li><a href="http://www.pfizer.com/responsibility/reporting-trends">Reporting Trends and Progress</a></li> -->
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/responsibility/protecting-environment">Protecting People and the environment</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/purpose/environmental-sustainability/green-journey">Pfizer’s Green Journey</a></li>
+<li><a href="http://www.pfizer.com/purpose/environmental-sustainability/product-stewardship">Product Stewardship</a></li>
+<li><a href="https://www.pfizer.com/purpose/workplace-responsibility/product-stewardship">EHS Governance</a></li>
+<li><a href="https://www.pfizer.com/purpose/workplace-responsibility/EHS-Supply-Chain">EHS Supply Chain</a></li>
+<li><a href="https://www.pfizer.com/purpose/workplace-responsibility/health-and-safety/key-performance-indicators">Key Performance Indicators</a></li>
+<li><a href="https://www.pfizer.com/purpose/workplace-responsibility/health-and-safety">Health &amp; Safety</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/purpose/health-policy">
+                            Positions on Health Policies
+                        </a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/responsibility/ready-for-cures">Ready for Cures</a></li>
+<li><a href="http://www.pfizer.com/purpose/health-policy/prescription-drug-prices">How does Pfizer price medicines?</a></li>
+<li><a href="http://www.pfizer.com/purpose/health-policy/importance-of-medicines">Value of Medicines</a></li>
+<li><a href="http://www.pfizer.com/purpose/health-policy/policy-positions">Policy Positions</a></li>
+<li><a href="https://www.pfizer.com/responsibility/ready-for-cures/creating-cures-through-facility-investments">Creating Cures Through Facility Investments</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/purpose/transparency">
+                            Transparency
+                        </a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/purpose/transparency/healthcare-professionals">Working with Health Care Professionals</a></li>
+<li><a href="https://www.pfizer.com/purpose/transparency/transparency-in-grants">Transparency in Grants</a></li>
+<li><a href="http://www.pfizer.com/purpose/transparency/code-of-conduct">Code of Conduct</a></li>
+<li><a href="http://www.pfizer.com/purpose/transparency/corporate-compliance">Corporate Compliance</a></li>
+<li><a href="https://www.pfizer.com/purpose/transparency/ethical-sales-and-marketing">Sales and Marketing Compliance</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/purpose/independent-grants">
+                            INDEPENDENT GRANTS
+                        </a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/purpose/independent-grants/competitive-grants">Competitive Grants Program</a></li>
+<li><a href="https://www.pfizer.com/purpose/independent-grants/independent-medical-education">Independent Medical Education</a></li>
+<li><a href="https://www.pfizer.com/purpose/independent-grants/investigator-sponsored-research">Investigator Sponsored Research</a></li>
+<li><a href="https://www.pfizer.com/purpose/independent-grants/quality-improvement">Quality Improvement</a></li>
+<!-- 						<li><a href="http://www.pfizer.com/purpose/patient-assistance-programs/medicare-medicaid">Goverment Programs</a></li> -->
+<!-- <li><a href="http://www.pfizer.com">Patient Outreach</a></li> -->
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/purpose/contributions-partnerships">
+                            Contributions &amp; Partnerships
+                        </a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/purpose/contributions-partnerships/charity-events">Healthcare Charitable Contributions</a></li>
+<!-- <li><a href="http://www.pfizer.com/purpose/medical-grants/global-health-grants">Global Health Grants and Investments</a></li> -->
+<li><a href="https://www.pfizer.com/purpose/contributions-partnerships/political-partnerships">Lobbying &amp; Political Contributions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<!--                 <ul class="level2">
+                    <li class="has-children">
+                        <a href="http://www.pfizer.com/purpose/contributions-partnerships">
+                            Contributions &amp; Partnerships
+                        </a>
+                        <ul class="level3">
+                            <li><a href="http://www.pfizer.com/purpose/contributions-partnerships/academic-partnerships">Medical &amp; Academic Partnerships</a></li> 
+                            <li><a href="http://www.pfizer.com/purpose/contributions-partnerships/charity-events">Healthcare Charitable Contributions</a></li>
+                            <li><a href="http://www.pfizer.com/responsibility/grants_contributions/special_events">Special Charity Events</a></li>
+                            <li><a href="http://www.pfizer.com/purpose/contributions-partnerships/political-partnerships">Lobbying &amp; Political Contributions</a></li>
+                          <li><a href="http://www.pfizer.com/purpose/contributions-partnerships/global-health-fellowships">Global Health Fellowship Program</a></li>                             
+                        </ul>
+                    </li>
+                </ul> -->
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/purpose/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/meet_terry_helped_by_pfizer_rxpathways">
+<img src="//s21.q4cdn.com/317678438/files/images/IWD_Pull_up_Banner_300x170.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/meet_terry_helped_by_pfizer_rxpathways">Pfizer Women's Research Group</a>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="has-children section-blue">
+<a href="http://www.pfizer.com/products">
+        OUR PRODUCTS
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/products-list">Product listing</a>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/products/drug-development/process">How drugs are made</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/products/drug-development/process/value-of-a-brand">Branded vs. Generic</a></li>
+<li><a href="http://www.pfizer.com/products/drug-development/process/logic-of-a-biologic">Biologics &amp; Biosimilars</a></li>
+<li><a href="http://www.pfizer.com/products/drug-development/process/our-dedication-to-drug-creation">Commitment to Quality</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/products/upjohn">Upjohn</a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/products/upjohn/about">About Upjohn</a></li>
+<li><a href="https://www.pfizer.com/products/upjohn/portfolio">Portfolio of Brands</a></li>
+<li><a href="https://www.pfizer.com/products/upjohn/plants">Manufacturing Plants</a></li>
+<li><a href="https://www.pfizer.com/products/upjohn/leadership">UpJohn Leadership</a></li>
+<!-- <li><a href="http://www.pfizer.com/products/medicine-distributors/resources">Resource Center </a></li> -->
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/products/medicine-distributors">Distributors</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/products/medicine-distributors/pfizer">Pfizer Distributors</a></li>
+<li><a href="http://www.pfizer.com/products/medicine-distributors/greenstone">Greenstone Distributors</a></li>
+<!-- <li><a href="http://www.pfizer.com/products/medicine-distributors/resources">Resource Center </a></li> -->
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/products/patient-safety">Medicine Safety</a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/products/patient-safety/adverse-event-reporting">Reporting Adverse Events</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/Making-Good-Treatment-Choices">Making Good Treatment Choices</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/Partnering-With-Patients">Partnering With Patients</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/health-literacy">Health Literacy</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/medicine-safety-tips-for-patients">Medicine Safety Tips for Patients</a></li>
+<li><a href="http://www.pfizer.com/products/patient-safety/counterfeit-drugs">Counterfeiting</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/unused-medicines">Unused Medicines</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/products/material-safety-data-sheets">Safety Data Sheets</a>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/products/product-contact-information">Medical Information Contacts</a>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="https://www.pfizer.com/products/pfizer-global-supply">Pfizer Global Supply</a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/products/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/hot-topics/scaling_up_to_manufacture_and_supply_a_covid_19_vaccine_if_approved">
+<img src="//s21.q4cdn.com/317678438/files/images/PGS-20COVID-20FIH.jpeg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/hot-topics/scaling_up_to_manufacture_and_supply_a_covid_19_vaccine_if_approved">Scaling Up to Supply a COVID-19 Vaccine, If Approved</a>
+</div>
+</li>
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/universal_healthcare_vs_single_payer_healthcare">
+<img src="//s21.q4cdn.com/317678438/files/images/universal_healthcare300x170.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/universal_healthcare_vs_single_payer_healthcare">Universal vs. Single Payer Healthcare</a>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<!-- Additional menu show on mobile-->
+<div class="additional-menu">
+<ul class="level1">
+<li class="has-children">
+<a href="http://www.pfizer.com/careers">Careers</a>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com">About Us</a>
+<ul class="level3">
+<li>
+<a href="http://www.pfizer.com">Mission, Vission, Purpose</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Our Businesses &amp; Products</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Key Facts About Our Sites</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://www.pfizer.com">Search Jobs</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Student Programs</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Working at pfizer</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Making a difference</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Culture</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Connect</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Workplace Responsibility</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">R&amp;D Careers</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">COMPANY FACT SHEET</a>
+</li>
+</ul>
+</li>
+<li class="has-children investors">
+<a href="/investors-overview/default.aspx">Investors</a>
+</li>
+<li class="has-children">
+<a href="http://www.pfizer.com/News">News</a>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/news/press-release/press-releases-archive">Press Release Archive</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-release/press-statement-archive">Press Statements</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/company">Company Press Kit</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/vaccines">Vaccines Press Kit</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/get-old">Get Old Press Kit</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/oncology">Pfizer Oncology Press Kit</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/ra-narrative">RA NarRAtive</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/frequently-requested-info">Frequently Requested Info</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/media-contacts">Contact Media Relations</a>
+</li>
+</ul>
+</li>
+<li class="has-children">
+<a href="http://www.pfizer.com/partners">Partners</a>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/partners/highlights">Partnership Highlights</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/contact">Contacts</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/events">Events Pfizer is Attending</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/hightlights/opportunities">Submit Your Opportunities</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/biopharmaceuticals">Biopharmaceuticals</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/consumer-healthcare">Consumer Healthcare</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/therapeutic-areas">Core Therapeutic Areas</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/innovation">Innovation</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/research-and-development">Research &amp; Development</a>
+</li>
+<li class="has-children">
+<a href="http://www.pfizer.com/partners/venture-investments">Venture Investments</a>
+<ul class="level3">
+<li>
+<a href="http://www.pfizer.com//partners/venture-investments/our-portfolio">Our portfolio</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="mobile-divider"></div>
+<div class="mobile-nav-links">
+<ul>
+<li><a href="http://www.pfizerpro.com/">Health Professionals</a></li>
+<li><a href="http://www.pfizer.com/b2b/index">Business to Business</a></li>
+<li><a href="http://www.pfizer.com/general/global_sites">Change Country</a></li>
+<li><a href="http://www.pfizer.com/sitemap">Sitemap</a></li>
+</ul>
+</div>
+<div class="mobile-social-links">
+<ul>
+<li><a href="http://www.twitter.com/Pfizer" target="_blank"><i class="q4i-icon-twitter"></i></a></li>
+<li><a href="https://www.facebook.com/Pfizer" target="_blank"><i class="q4i-icon-facebook"></i></a></li>
+<li><a href="http://www.linkedin.com/company/pfizer" target="_blank"><i class="q4i-icon-linkedIn"></i></a></li>
+<li><a href="https://www.instagram.com/pfizerinc/" target="_blank"><i class="q4i-icon-instagram"></i></a></li>
+<li><a href="http://www.youtube.com/Pfizer" target="_blank"><i class="q4i-icon-youtube"></i></a></li>
+</ul>
+</div>
+<div class="mobile-bottom-links">
+<ul>
+<li><a href="http://www.pfizer.com/contact">Contact Us</a></li>
+<li><a href="http://www.pfizer.com/general/terms">Terms of Use</a></li>
+<li><a href="http://www.pfizer.com/contact/privacy">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</span>
+</div>
+</div>
+<div class="PaneHeader2">
+<div class="container clearfix">
+<span class="HeaderPane2Div14"><div class="Breadcrumb breadCrumb mobile" id="_ctrl0_ctl45_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<!--Watch for the new lines on HTML, since this is being rendered as a space on the browser (</a><asp:Q4Repeater)-->
+<a class="BreadcrumbHomeLink" href="https://investors.pfizer.com/Home/default.aspx" id="_ctrl0_ctl45_hrefHome">Home</a><span class="BreadcrumbSeparator" id="_ctrl0_ctl45_repeaterLinks_ctl00_lblSeparator">/</span><a href="https://investors.pfizer.com/corporate-governance/default.aspx" id="_ctrl0_ctl45_repeaterLinks_ctl00_link">Corporate Governance</a><span class="BreadcrumbSeparator" id="_ctrl0_ctl45_repeaterLinks_ctl01_lblSeparator">/</span>Corporate Governance FAQs
+        </div>
+</div>
+</div></span><span class="HeaderPane2Div16"><div class="ModuleContent" id="_ctrl0_ctl51_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<style>
+</style>
+</div>
+</div>
+</div></span>
+</div>
+</div>
+</div>
+<div class="PaneContentInner">
+<div class="container clearfix">
+<main class="grid" id="maincontent" tabindex="-1">
+<div class="PaneBreadcrumb col col-12-of-12">
+<span class="BreadcrumbPaneDiv9"><div class="Breadcrumb breadCrumb" id="_ctrl0_ctl30_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<a class="BreadcrumbHomeLink" href="https://investors.pfizer.com/Home/default.aspx" id="_ctrl0_ctl30_hrefHome">Home</a><span class="BreadcrumbSeparator">/</span><a href="https://investors.pfizer.com/corporate-governance/default.aspx">Corporate Governance</a><span class="BreadcrumbSeparator">/</span>Corporate Governance FAQs
+        </div>
+</div>
+</div></span>
+</div>
+<div class="PaneLeft col col-2-of-3">
+<span class="LeftPaneDiv"><span class="LeftPaneDiv1"><div class="ModuleContent page-title" id="_ctrl0_ctl54_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<h2>Corporate Governance FAQ<span class="lowercase">s</span></h2>
+</div>
+</div>
+</div>
+</span></span>
+</div>
+<div class="PaneContent col col-2-of-3">
+<span class="ContentPaneDiv"><span class="ContentPaneDiv2"><div class="FaqContainer module mb45" id="_ctrl0_ctl57_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl57_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl57_lblModuleTitle">Board Composition</span></h2>
+<div class="ModuleInnerContainer">
+<div class="FaqQuestionList">
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1993]').scrollIntoView();" id="_ctrl0_ctl57_rtrHeader_ctl00_hrefGoToQuestion">How do I contact members of the Pfizer Board of Directors?</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1991]').scrollIntoView();" id="_ctrl0_ctl57_rtrHeader_ctl01_hrefGoToQuestion">What does the Corporate Governance Committee look for when reviewing candidates recommended by shareholders?</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1994]').scrollIntoView();" id="_ctrl0_ctl57_rtrHeader_ctl02_hrefGoToQuestion">How do I nominate someone for the Pfizer Board or submit a shareholder proposal?</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1992]').scrollIntoView();" id="_ctrl0_ctl57_rtrHeader_ctl03_hrefGoToQuestion">Where can I find the voting results for Pfizer's most recent annual meeting?</a><br/>
+</div>
+<div class="FaqDetailList">
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl57_rtrQuestion_ctl00_hrefQuestion" name="Question1993"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl57_rtrQuestion_ctl00_lblQuestion">How do I contact members of the Pfizer Board of Directors?</span></h4>
+<div class="FaqAnswer"><p>You may communicate with any of our directors, including the Lead Independent Director and the Audit Committee Chair, by writing to them c/o Margaret M. Madden, Senior Vice President and Corporate Secretary, Chief Governance Counsel at Pfizer Inc., 235 East 42nd Street, New York, New York 10017.</p>
+<p>Alternatively, you may communicate via email with any of our directors through our <a href="mailto:leadindependentdirector@pfizer.com">Lead Independent Director<span class="sr-only">(link sends e-mail)</span></a>  or members of our Audit Committee through our <a href="mailto:auditcommitteechair@pfizer.com">Audit Committee Chair<span class="sr-only">(link sends e-mail)</span></a>, (both of whom are independent, non-employee directors of the Company).</p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl57_rtrQuestion_ctl00_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl57_rtrQuestion_ctl01_hrefQuestion" name="Question1991"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl57_rtrQuestion_ctl01_lblQuestion">What does the Corporate Governance Committee look for when reviewing candidates recommended by shareholders?</span></h4>
+<div class="FaqAnswer"><p>The Corporate Governance committee looks at the level of qualifications and expertise in various disciplines represented by the current board to determine if there is a need to further enhance the composition of the board to fulfill a specific need. In reviewing candidates recommended by shareholders, the board has established guidelines in the Criteria for Board Membership</p>
+<p>Learn more about Criteria for Board Membership.</p>
+<p><a class="btn-arrowLink" href="/corporate-governance/board-committees-and-charters/default.aspx">Visit the Corporate Governance Committee</a></p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl57_rtrQuestion_ctl01_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl57_rtrQuestion_ctl02_hrefQuestion" name="Question1994"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl57_rtrQuestion_ctl02_lblQuestion">How do I nominate someone for the Pfizer Board or submit a shareholder proposal?</span></h4>
+<div class="FaqAnswer"><p dir="auto"><strong>Proposals for Inclusion in Our 2021 Proxy Materials</strong></p>
+<p dir="auto">Under SEC rules, if a shareholder wants us to include a proposal in our 2021 proxy materials for presentation at our 2021 Annual Meeting of Shareholders, then the proposal must be received at our principal executive offices at 235 East 42nd Street, New York, New York 10017, Attention: Corporate Secretary, by November 12, 2020. All proposals must comply with Rule 14a-8 under the Securities Exchange Act of 1934, as amended (the Exchange Act).</p>
+<p dir="auto"><strong>Director Nominations for Inclusion in our 2021 Proxy Materials (Proxy Access)</strong></p>
+<p dir="auto">Any shareholder considering a proxy access nomination should carefully review our By-laws, which are available at <a href="/corporate-governance/default.aspx" rel="noreferrer">https://investors.pfizer.com/corporate-governance/default.aspx</a>. Under our proxy access by-law, if a shareholder (or a group of up to 20 shareholders) who has owned at least 3% of our shares for at least three years and has complied with the other requirements in our By-laws wants us to include director nominees (up to the greater of two nominees or 20% of the Board) in our 2021 proxy materials for election at our 2021 Annual Meeting of Shareholders, then the nominations must be received by us at our principal executive offices at 235 East 42nd Street, New York, New York 10017, Attention: Corporate Secretary, not earlier than October 13, 2020 and not later than November 12, 2020.</p>
+<p dir="auto"><strong>Other Proposals or Nominations to be Brought before Our 2021 Annual Meeting</strong></p>
+<p dir="auto">Any shareholder considering introducing a nomination or other item of business should carefully review the procedures set forth in our By-laws, which are available at <a href="/corporate-governance/default.aspx" rel="noreferrer">https://investors.pfizer.com/corporate-governance/default.aspx</a>. These procedures provide that, among other things, a nomination or the introduction of an item of business at an Annual Meeting of Shareholders must be submitted in writing to our Corporate Secretary at our principal executive offices at 235 East 42nd Street, New York, New York 10017.</p>
+<p dir="auto">We must receive written notice of your intention to nominate a Director or to propose an item of business at our 2021 Annual Meeting according to this schedule:</p>
+<p dir="auto">If the 2021 Annual Meeting is to be held within 25 days before or after the anniversary of the date of this year’s Annual Meeting (April 23, 2020), then Pfizer must receive your notice not less than 90 days nor more than 120 days in advance of the anniversary of the 2020 Annual Meeting. If the 2021 Annual Meeting is to be held on a date not within 25 days before or after such anniversary, then Pfizer must receive it no later than 10 days following the first to occur of:</p>
+<ul>
+<li>the date on which notice of the date of the 2021 Annual Meeting is mailed; or</li>
+<li>the date public disclosure of the date of the 2021 Annual Meeting is made.</li>
+</ul>
+<p dir="auto">Our Annual Meeting of Shareholders is generally held on the fourth Thursday of April. Assuming that our 2021 Annual Meeting is held on schedule, to be “timely” within the meaning of Rule 14a-4(c) under the Exchange Act, we must receive written notice of your intention to introduce a nomination or other item of business at that Meeting between December 24, 2020 and January 23, 2021.</p>
+<p dir="auto">For any other meeting, the nomination or item of business must be received by the 10th day following the date on which public disclosure of the date of the meeting is made.</p>
+<p dir="auto">Upon written request, we will provide, without charge, a copy of our By-laws. Requests should be directed to our principal executive offices at 235 East 42nd Street, New York, New York 10017, Attention: Corporate Secretary.</p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl57_rtrQuestion_ctl02_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl57_rtrQuestion_ctl03_hrefQuestion" name="Question1992"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl57_rtrQuestion_ctl03_lblQuestion">Where can I find the voting results for Pfizer's most recent annual meeting?</span></h4>
+<div class="FaqAnswer"><p><a class="btn-arrowLink" href="/files/doc_downloads/2020/05/update/Annual-Meeting-Voting-Results-(2020)-(1).pdf" target="_blank">View Pfizer's annual meeting voting results</a></p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl57_rtrQuestion_ctl03_hrefBackToTop">back to top</a></div>
+</div>
+</div>
+</div>
+</div>
+</div></span><span class="ContentPaneDiv3"><div class="FaqContainer module mb45" id="_ctrl0_ctl60_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl60_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl60_lblModuleTitle">Corporate Compliance</span></h2>
+<div class="ModuleInnerContainer">
+<div class="FaqQuestionList">
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1051]').scrollIntoView();" id="_ctrl0_ctl60_rtrHeader_ctl00_hrefGoToQuestion">Corporate Compliance</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1052]').scrollIntoView();" id="_ctrl0_ctl60_rtrHeader_ctl01_hrefGoToQuestion">Who oversees Pfizer's compliance program?</a><br/>
+</div>
+<div class="FaqDetailList">
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl60_rtrQuestion_ctl00_hrefQuestion" name="Question1051"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl60_rtrQuestion_ctl00_lblQuestion">Corporate Compliance</span></h4>
+<div class="FaqAnswer"><p>Yes, Pfizer maintains a comprehensive compliance program that is designed to detect and respond to policy violations and support legal and ethical conduct throughout the Company. The compliance program is structured in accordance with "Compliance Program Guidance for Pharmaceutical Manufacturers" developed by the United States Department of Health and Human Services, Office of Inspector General and includes the following elements:</p>
+<ul>
+<li>
+		Written Policies and Procedures</li>
+<li>
+		Compliance Officer and Compliance Committees</li>
+<li>
+		Effective Training and Education</li>
+<li>
+		Effective Lines of Communication</li>
+<li>
+		Internal Monitoring and Auditing</li>
+<li>
+		Enforcement Through Discipline Pursuant to Published Guidelines</li>
+<li>
+		Prompt Response and Corrective Action for Detected Problems</li>
+</ul></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl60_rtrQuestion_ctl00_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl60_rtrQuestion_ctl01_hrefQuestion" name="Question1052"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl60_rtrQuestion_ctl01_lblQuestion">Who oversees Pfizer's compliance program?</span></h4>
+<div class="FaqAnswer"><p>The compliance program is overseen and managed by the Compliance Division, which is responsible for helping to develop and implement policies, procedures, and practices to ensure compliance with laws, regulations, and government agreements, as well as investigating violations of law or Pfizer policy. The Compliance Division is led by the <strong>Chief Compliance and Risk Officer</strong> who reports directly to Pfizer's Chief Executive Officer.</p>
+<p>Pfizer's tiered <strong>Compliance Committee structure</strong> promotes leadership oversight of the compliance program through the Executive Compliance Committee, the North America Compliance Committee, and various business unit and divisional committees.</p>
+<p>Additional compliance support is provided by groups and individuals throughout the Company in areas such as legal, safety and monitoring, corporate audit, Human Resources, finance, corporate governance, policy, and other functions.</p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl60_rtrQuestion_ctl01_hrefBackToTop">back to top</a></div>
+</div>
+</div>
+</div>
+</div>
+</div></span><span class="ContentPaneDiv4"><div class="FaqContainer module mb45" id="_ctrl0_ctl63_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl63_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl63_lblModuleTitle">Executive Compensation Program &amp; Policies</span></h2>
+<div class="ModuleInnerContainer">
+<div class="FaqQuestionList">
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1035]').scrollIntoView();" id="_ctrl0_ctl63_rtrHeader_ctl00_hrefGoToQuestion"> How is the CEO's compensation linked to performance?</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1033]').scrollIntoView();" id="_ctrl0_ctl63_rtrHeader_ctl01_hrefGoToQuestion">How is Pfizer's executive compensation program linked to long-term performance?</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1034]').scrollIntoView();" id="_ctrl0_ctl63_rtrHeader_ctl02_hrefGoToQuestion">What are the elements of short-term and long-term compensation?</a><br/>
+</div>
+<div class="FaqDetailList">
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl63_rtrQuestion_ctl00_hrefQuestion" name="Question1035"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl63_rtrQuestion_ctl00_lblQuestion"> How is the CEO's compensation linked to performance?</span></h4>
+<div class="FaqAnswer"><p>The CEO's compensation is set by the Compensation Committee and approved by the Board. His actual levels of compensation are adjusted up or down depending on Company and individual performance.</p>
+<ul>
+<li>
+		Annual bonus opportunity ranges from 0% to 200% based on the achievement of pre-set financial goals for the Company for revenue, adjusted diluted earnings per share, and cash flow from operations, as well as his individual goals which support his imperatives for building value, ie, being a leader in science and innovation; continuing to use our financial and commercial strength to enhance competitiveness; earning respect from society; and creating a culture of confidence and trust</li>
+<li>
+		75% of his long-term equity awards are earned based on relative and absolute total shareholder return. Performance Share Awards (representing 25% of his long-term incentive value) are earned based on Pfizer's relative total shareholder return vs its pharmaceutical peers over a 3-year performance period. Total Shareholder Return Units (representing 50% of his long-term incentive value) are earned based on Pfizer's absolute total shareholder return over 5- and 7-year performance periods</li>
+</ul>
+</div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl63_rtrQuestion_ctl00_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl63_rtrQuestion_ctl01_hrefQuestion" name="Question1033"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl63_rtrQuestion_ctl01_lblQuestion">How is Pfizer's executive compensation program linked to long-term performance?</span></h4>
+<div class="FaqAnswer"><p>Pfizer's compensation philosophy, which is set by the Compensation Committee, is to align each executive's compensation with Pfizer's short-term and long-term performance and to provide the compensation and incentives needed to attract, motivate, and retain key executives who are crucial to Pfizer's long-term success.</p>
+<p>The Global Performance Plan ("GPP"), our annual incentive program, is funded based on Pfizer's performance on 3 financial metrics: total revenue, adjusted diluted earnings per share, and cash flow from operations. The GPP pool is not funded unless performance exceeds a threshold level of performance. Individual awards are earned based on the available earned pool, Business Unit/Function performance, and the achievement of annual performance objectives for the individual.</p>
+<p>Our annual long-term incentive awards are aligned with the interests of our shareholders because they deliver value based on absolute and relative shareholder return, encourage stock ownership, and promote retention of key talent.</p>
+<p>A significant portion of the total compensation opportunity for each of our executives (including the Named Executive Officers, or "NEOs") is directly related to Pfizer's stock price performance and to other performance factors that measure our progress against the goals of our strategic and operating plans, as well as our performance against that of our pharmaceutical peer group.</p>
+</div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl63_rtrQuestion_ctl01_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl63_rtrQuestion_ctl02_hrefQuestion" name="Question1034"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl63_rtrQuestion_ctl02_lblQuestion">What are the elements of short-term and long-term compensation?</span></h4>
+<div class="FaqAnswer"><div class="responsiveTable">
+<table class="table-to-cards">
+<thead>
+<tr>
+<th>
+<strong>Element/Type</strong></th>
+<th>
+<strong>Performance Measure</strong></th>
+<th>
+<strong>Terms</strong></th>
+<th>
+<strong>Objectives</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-heading="Element/Type">
+<span>
+<strong>Salary</strong> (Cash)</span></td>
+<td data-heading="Performance Measure">
+<span>
+                —</span></td>
+<td data-heading="Terms">
+<span>
+                The fixed amount of compensation for performing dayto-day responsibilities. Set based on market data, job scope, responsibilities and experience. Generally reviewed annually for potential increase based on a number of factors including market levels, performance and internal equity</span></td>
+<td data-heading="Objectives">
+<span>
+                Provides competitive level of fixed compensation</span></td>
+</tr>
+<tr>
+<td data-heading="Element/Type">
+<span>
+<strong>Annual Short-Term Incentive/Global Performance Plan (GPP)</strong> (Cash)</span></td>
+<td data-heading="Performance Measure">
+<span>
+<p>Company, Business Unit and Individual Performance</p>
+<p>Plan funded based on Pfizer performance and weighted as follows:</p>
+<ul>
+<li>
+                        40% Revenue</li>
+<li>
+                        40% Adjusted diluted EPS, and</li>
+<li>
+                        20% Cash Flow from Operations</li>
+</ul>
+</span></td>
+<td data-heading="Terms">
+<span>
+                Aggregate pool is funded based on performance against Pfizer's short-term financial goals (revenue, adjusted diluted earnings per share (EPS) and cash flow from operations). Individual awards based on business unit and individual performance measured over the current year</span></td>
+<td data-heading="Objectives">
+<span>
+                Provides short-term incentives tied to corporate performance against three operational metrics and links individual awards to both company and individual performance based on achievement of financial and strategic goals</span></td>
+</tr>
+<tr>
+<td data-heading="Element/Type">
+<span>
+<p><strong>Long-Term Absolute TSR Incentive Compensation</strong> (100% Performance Based Equity)</p>
+<p><strong>5- and 7-Year Total Shareholder Return Units(TSRUs) </strong></p>
+                Each represents 25% of total annual grant value (50%)</span></td>
+<td data-heading="Performance Measure">
+<span>
+                Absolute TSR</span></td>
+<td data-heading="Terms">
+<span>
+<p>5- and 7-Year TSRUs generally vest three years from the grant date and are settled on the fifth or seventh anniversary of the grant date, respectively</p>
+<p>The value earned for each TSRU is equal to the difference between the settlement price (the 20-day average of the closing prices of Pfizer common stock ending on the settlement date) and the grant price (the closing price of Pfizer common stock on the date of grant), plus the value of dividend equivalents accumulated over the term. This value, if any, is converted into shares by dividing it by the settlement price; no value is received if the TSR is negative</p>
+</span></td>
+<td data-heading="Objectives">
+<span>
+                Provides direct alignment with shareholders as awards are tied to absolute TSR</span></td>
+</tr>
+<tr>
+<td data-heading="Element/Type">
+<span>
+<p><strong>Performance Operating Income* and relative TSR Share Awards (PSAs)</strong></p>
+</span></td>
+<td data-heading="Performance Measure">
+<span>
+                Operating Income* and relative TSR</span></td>
+<td data-heading="Terms">
+<span>
+<p>PSAs have a three-year performance period starting on January 1st of the year of grant and generally vest on the third anniversary of the grant based on performance</p>
+<p>Beginning in 2015, PSAs are paid based on the company’s performance against a combination of operating income over three one-year periods and relative TSR over a three-year period as compared to the DRG Index</p>
+<p>Dividend equivalents are applied to the number of shares actually earned under the award, if any, at the end of the performance period</p>
+<p>Earned PSAs and dividend equivalents are paid in hares of Pfizer common stock</p>
+</span></td>
+<td data-heading="Objectives">
+<span>
+                Aligns the interests of management/key executives with those of shareholders by aligning compensation to operational goals and relative TSR over a three-year performance period</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="mb45"><small>* Operating income as the PSA performance measure is based on Pfizer’s Non-GAAP Adjusted Operating Income stated at budgeted foreign exchange rates and is further refined to exclude other unbudgeted or non-recurring items.</small></p>
+<div class="responsiveTable">
+<table class="table-to-cards">
+<thead>
+<tr>
+<th>
+<strong>Element/Type</strong></th>
+<th>
+                 </th>
+<th>
+<strong>Terms</strong></th>
+<th>
+<strong>Objectives</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-heading="Element/Type">
+<span>
+<strong>Retirement</strong></span></td>
+<td data-heading="Performance Measure">
+<span>
+                Pension Plan</span></td>
+<td data-heading="Terms">
+<span>
+                Provides retirement income for eligible participants based on years of service and Provides retirement income average earnings up to tax code limitations. (Plan ceased accepting new participants effective 1/1/11 and is being frozen 12/31/17)</span></td>
+<td data-heading="Objectives">
+<span>
+                Provides retirement income</span></td>
+</tr>
+<tr>
+<td data-heading="Element/Type">
+<span>
+                 </span></td>
+<td data-heading="Performance Measure">
+<span>
+                Supplemental Pension Plan</span></td>
+<td data-heading="Terms">
+<span>
+                Provides retirement income relating to compensation in excess of tax code Provides additional retirement Pension Plan limitations under the same formula as the qualified pension plan noted above. income (Plan ceased accepting new participants effective 1/1/11 and is being frozen 12/31/17)</span></td>
+<td data-heading="Objectives">
+<span>
+<p>Provides additional retirement Pension Plan limitations under the same formula as the qualified pension plan noted above. income</p>
+<p>Attracts, retains and motivates key executives</p>
+</span></td>
+</tr>
+<tr>
+<td data-heading="Element/Type">
+<span>
+                 </span></td>
+<td data-heading="Performance Measure">
+<span>
+                Savings Plan</span></td>
+<td data-heading="Terms">
+<span>
+                A qualified 401(k) savings plan that provides participants with the opportunity to Provides employees with a 401(k) defer a portion of their eligible compensation, up to tax code limitations, and plan savings feature receive a company matching contribution (up to 4.5%)</span></td>
+<td data-heading="Objectives">
+<span>
+                Provides employees with a 401(k) defer a portion of their eligible compensation, up to tax code limitations, and plan savings feature</span></td>
+</tr>
+<tr>
+<td data-heading="Element/Type">
+<span>
+                 </span></td>
+<td data-heading="Performance Measure">
+<span>
+                Retirement Savings (RSC)</span></td>
+<td data-heading="Terms">
+<span>
+                An age- and service-weighted company contribution (5%-9%) to the savings plans Provides retirement savings in a Contribution (RSC) for those not participating in the Pension Plan</span></td>
+<td data-heading="Objectives">
+                Provides retirement savings in a Contribution (RSC) for those not participating in the Pension Plan defined contribution format consistent with market trends</td>
+</tr>
+<tr>
+<td data-heading="Element/Type">
+<span>
+                 </span></td>
+<td data-heading="Performance Measure">
+<span>
+                Supplemental Savings Plan</span></td>
+<td data-heading="Terms">
+<span>
+                Extends the Savings Plan for deferral of eligible compensation in excess of the tax Allows for additional deferrals Savings Plan code limitations under the same terms as the qualified savings plan</span></td>
+<td data-heading="Objectives">
+<span>
+                Allows for additional deferrals</span></td>
+</tr>
+<tr>
+<td data-heading="Element/Type">
+<span>
+<strong>Other</strong></span></td>
+<td data-heading="Performance Measure">
+<span>
+                Perquisites</span></td>
+<td data-heading="Terms">
+<span>
+                Certain other benefits provided to executives by the company consisting of limited Provides CEO and other NEOs the reimbursement for personal financial planning services and certain personal travel ability to focus on company business benefits for the CEO and other NEOs</span></td>
+<td data-heading="Objectives">
+<span>
+                Provides CEO and other NEOs the reimbursement for personal financial planning services and certain personal travel ability to focus on company business</span></td>
+</tr>
+</tbody>
+</table>
+</div></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl63_rtrQuestion_ctl02_hrefBackToTop">back to top</a></div>
+</div>
+</div>
+</div>
+</div>
+</div></span><span class="ContentPaneDiv5"><div class="FaqContainer module mb45" id="_ctrl0_ctl66_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl66_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl66_lblModuleTitle">Lobbying and Political Contributions</span></h2>
+<div class="ModuleInnerContainer">
+<div class="FaqQuestionList">
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1663]').scrollIntoView();" id="_ctrl0_ctl66_rtrHeader_ctl00_hrefGoToQuestion">What is Pfizer's policy on corporate political contributions?</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1662]').scrollIntoView();" id="_ctrl0_ctl66_rtrHeader_ctl01_hrefGoToQuestion">What is Pfizer's approval process for Pfizer's corporate political contributions?</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1661]').scrollIntoView();" id="_ctrl0_ctl66_rtrHeader_ctl02_hrefGoToQuestion">Where can I find Pfizer's lobbying disclosure?</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1664]').scrollIntoView();" id="_ctrl0_ctl66_rtrHeader_ctl03_hrefGoToQuestion">Where can I find more information on Pfizer's public policy engagement?</a><br/>
+</div>
+<div class="FaqDetailList">
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl66_rtrQuestion_ctl00_hrefQuestion" name="Question1663"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl66_rtrQuestion_ctl00_lblQuestion">What is Pfizer's policy on corporate political contributions?</span></h4>
+<div class="FaqAnswer"><p>Federal law prohibits corporations from contributing directly to candidates running for federal office. The federal contribution ban applies not only to monetary support, but also covers use of corporate resources, such as stationary, fax machines, etc. For this reason, Pfizer's corporate policy prohibits Colleagues from using any vcorporate resources, including Pfizer corporate funds, to support or oppose a candidate seeking federal office.</p>
+<p>Pfizer's policy allows for the use of corporate funds in state and local jurisdictions that permit corporate contributions directly to candidates.</p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl66_rtrQuestion_ctl00_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl66_rtrQuestion_ctl01_hrefQuestion" name="Question1662"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl66_rtrQuestion_ctl01_lblQuestion">What is Pfizer's approval process for Pfizer's corporate political contributions?</span></h4>
+<div class="FaqAnswer"><div class="accordion-texts" style="display: block;">
+<p>Pfizer has a Steering Committee comprised of 8 colleagues, who represent different divisions within the Pfizer organization that review and approve all Political Action Committee (PAC) and corporate political contributions on a monthly basis. The PAC Steering Committee evaluates candidates on a basis of their views on issues that impact Pfizer and its colleagues. It also takes note of whether Pfizer facilities or colleagues reside in a candidate's district or state. The Political Contributions Policy Committee (PCPC) is responsible for governing the Pfizer PAC. All PAC and corporate contributions are shared with the PCPC for review. Representatives serving on the PCPC amongst others include the EVP Policy, External Affairs &amp; Communications, EVP, Chief Compliance Officer, and SVP, Policy &amp; Public Affairs.</p>
+<p>Our PAC and Corporate Political Contributions Report (published on our website) includes the recipient and amount of all Pfizer PAC and Pfizer Inc. contributions to political committees, corporate contributions made in state and local elections, ballot initiatives, and certain contributions to trade associations.</p>
+<p>We also ask trade associations to which we pay more than $100,000 to report to us how much of Pfizer dues/payments are used for political expenditures/contributions, and we provide this voluntarily in our report and disclose it on our corporate website. <a href="http://www.pfizer.com/about/corporate-governance/corporate-governance-faqs" target="_self">Click here</a> to review.</p>
+</div></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl66_rtrQuestion_ctl01_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl66_rtrQuestion_ctl02_hrefQuestion" name="Question1661"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl66_rtrQuestion_ctl02_lblQuestion">Where can I find Pfizer's lobbying disclosure?</span></h4>
+<div class="FaqAnswer"><p>Pfizer actively lobbies the US Congress and state legislatures on a number of important public policy issues such as intellectual property, trade, taxes, and public health issues. A complete list of federal issues lobbied by Pfizer in the US can be found in the <a class="ext" href="http://disclosures.house.gov/ld/ldsearch.aspx" target="_blank">public disclosure<span class="ext"><span class="sr-only"> (link is external)</span></span></a> sections of the US House and Senate websites. We fully comply with regulations by reporting all federal lobbying in quarterly disclosure reports to Congress.</p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl66_rtrQuestion_ctl02_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl66_rtrQuestion_ctl03_hrefQuestion" name="Question1664"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl66_rtrQuestion_ctl03_lblQuestion">Where can I find more information on Pfizer's public policy engagement?</span></h4>
+<div class="FaqAnswer"><p>Effective policies help create an environment in which innovation is encouraged, engaging in public policy debates is part of our responsibility. Please <a href="/files/doc_downloads/Corporate_Governance/Public-Policy-Engagement-and-Political-Participation-Aug-2018.pdf" target="_blank">click here</a> for more information.</p>
+<!-- <p>Effective policies help create an environment in which innovation is encouraged, engaging in public policy debates is part of our responsibility. Please <a href="http://www.pfizer.com/files/public_policy_political_participation_0313.pdf" target="_blank">click here</a> for more information.</p> --></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl66_rtrQuestion_ctl03_hrefBackToTop">back to top</a></div>
+</div>
+</div>
+</div>
+</div>
+</div></span><span class="ContentPaneDiv6"><div class="FaqContainer module mb45" id="_ctrl0_ctl69_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl69_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl69_lblModuleTitle">Investor Engagement</span></h2>
+<div class="ModuleInnerContainer">
+<div class="FaqQuestionList">
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1053]').scrollIntoView();" id="_ctrl0_ctl69_rtrHeader_ctl00_hrefGoToQuestion">What is Pfizer's approach to investor engagement?</a><br/>
+</div>
+<div class="FaqDetailList">
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl69_rtrQuestion_ctl00_hrefQuestion" name="Question1053"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl69_rtrQuestion_ctl00_lblQuestion">What is Pfizer's approach to investor engagement?</span></h4>
+<div class="FaqAnswer"><p>The Company's relationships with its shareholders and other stakeholders are a critical part of our corporate governance profile, and we recognize the value of taking our investor's views into account. Among other things, engagement helps us to understand the larger context and impact of our operations, and learn about expectations for our performance, assess emerging issues that may affect our business or other aspects of our operations, and shape corporate and governance policies. Over the years, this collaborative approach has helped us to identify mutual perspectives and goals and has resulted in, amongst other things, strengthening our executive compensation program and disclosures.</p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl69_rtrQuestion_ctl00_hrefBackToTop">back to top</a></div>
+</div>
+</div>
+</div>
+</div>
+</div></span><span class="ContentPaneDiv7"><div class="FaqContainer module" id="_ctrl0_ctl72_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl72_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl72_lblModuleTitle">Corporate Social Responsibility</span></h2>
+<div class="ModuleInnerContainer">
+<div class="FaqQuestionList">
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1054]').scrollIntoView();" id="_ctrl0_ctl72_rtrHeader_ctl00_hrefGoToQuestion">What is Pfizer's corporate responsibility approach?</a><br/>
+<a class="FaqQuestionLink" href="javascript: document.querySelector('.FaqDetailList a[name = Question1055]').scrollIntoView();" id="_ctrl0_ctl72_rtrHeader_ctl01_hrefGoToQuestion">How can I find more detailed information on corporate responsibility at Pfizer?</a><br/>
+</div>
+<div class="FaqDetailList">
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl72_rtrQuestion_ctl00_hrefQuestion" name="Question1054"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl72_rtrQuestion_ctl00_lblQuestion">What is Pfizer's corporate responsibility approach?</span></h4>
+<div class="FaqAnswer"><p>Corporate responsibility at Pfizer is the "how" of how we do business and encompasses all that we do to ensure that we act ethically and meet evolving healthcare needs.</p>
+<p>Pfizer is striving to adapt to the evolving needs of global communities and to use our business scope and scale to improve global health. To ensure our success, we are building partnerships in communities worldwide to strengthen health systems, increase access to our medicines, and find sustainable solutions to health challenges. In addition, we remain focused on conducting our business responsibly, by upholding the highest ethical standards in all our activities, from research and development to sales and marketing, and reducing our impact on the environment.</p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl72_rtrQuestion_ctl00_hrefBackToTop">back to top</a></div>
+</div>
+<div class="ModuleItemRow">
+<a class="FaqAnswerLink" id="_ctrl0_ctl72_rtrQuestion_ctl01_hrefQuestion" name="Question1055"></a>
+<h4 class="FaqQuestion"><span id="_ctrl0_ctl72_rtrQuestion_ctl01_lblQuestion">How can I find more detailed information on corporate responsibility at Pfizer?</span></h4>
+<div class="FaqAnswer"><p>Our integrated annual review details Pfizer's impact on patients and health, science, and the world. Our commitments and achievements demonstrate that our corporate responsibility activities are integral to our business success and future growth. <a href="http://www.pfizer.com/annual" target="_blank">Click here</a> to read our review.</p></div>
+<div class="BackToTopLink"><a href="javascript:scroll(0,0)" id="_ctrl0_ctl72_rtrQuestion_ctl01_hrefBackToTop">back to top</a></div>
+</div>
+</div>
+</div>
+</div>
+</div></span></span>
+</div>
+<div class="PaneRight col col-1-of-3">
+<span class="RightPaneDiv"><span class="RightPaneDiv10">
+<div aria-label="Primary" role="navigation">
+<i class="q4i-block-exit menu-close"></i>
+<nav class="navbar-collapse sidebar-box"><ul class="level1">
+<li><a href="https://investors.pfizer.com/investors-overview/default.aspx">Investors Overview</a></li><li class="has-children"><a href="https://investors.pfizer.com/why-invest-our-story/default.aspx">Why Invest - Our Story </a><ul class="level2">
+<li><a href="https://investors.pfizer.com/why-invest-our-story/prospective-investors/default.aspx">Prospective Investors</a></li><li><a href="https://www.pfizer.com/purpose/workplace-responsibility/green-journey/climate-change"> Sustainability Bond</a></li><li><a href="http://www.pfizer.com/about/leadership_and_structure/company_fact_sheet">Fact Sheet</a></li>
+</ul></li><li><a href="https://investors.pfizer.com/events-and-presentations/default.aspx">Events &amp; Presentations</a></li><li class="has-children"><a href="https://investors.pfizer.com/financials/quarterly-reports/default.aspx">Financials</a><ul class="level2">
+<li><a href="https://investors.pfizer.com/financials/quarterly-reports/default.aspx">Quarterly Reports</a></li><li><a href="https://investors.pfizer.com/financials/annual-reports/default.aspx">Annual Reports</a></li><li><a href="https://investors.pfizer.com/financials/sec-filings/default.aspx">SEC Filings</a></li><li><a href="https://investors.pfizer.com/financials/interactive-data-filings/default.aspx">Interactive Data Filings</a></li><li><a href="https://www.championforglobalhealth.com/" target="_blank">Viatris Transaction</a></li>
+</ul></li><li><a href="https://investors.pfizer.com/investor-news/default.aspx">Investor News</a></li><li class="has-children"><a href="https://investors.pfizer.com/stock-information/historical-stock-chart-and-data/default.aspx">Stock Information</a><ul class="level2">
+<li><a href="https://investors.pfizer.com/stock-information/historical-stock-chart-and-data/default.aspx">Historical Stock Chart &amp; Data</a></li><li><a href="https://investors.pfizer.com/stock-information/investment-calculator/default.aspx">Investment Calculator</a></li><li><a href="https://investors.pfizer.com/stock-information/historical-price-lookup/default.aspx">Historical Price Lookup</a></li><li><a href="https://investors.pfizer.com/stock-information/dividend-and-split-history/default.aspx">Dividend &amp; Split History</a></li><li><a href="https://investors.pfizer.com/shareholder-services/stock-faqs/default.aspx">Stock FAQs</a></li>
+</ul></li><li class="has-children expanded"><a href="https://investors.pfizer.com/corporate-governance/default.aspx">Corporate Governance</a><ul class="level2">
+<li><a href="https://investors.pfizer.com/corporate-governance/board-committees-and-charters/default.aspx">Board Committees &amp; Charters</a></li><li><a href="https://investors.pfizer.com/corporate-governance/the-pfizer-board-policies/default.aspx">The Pfizer Board Policies</a></li><li class="selected"><a href="https://investors.pfizer.com/corporate-governance/corporate-governance-faqs/default.aspx">Corporate Governance FAQs</a></li><li><a href="https://investors.pfizer.com/corporate-governance/contact-our-directors/default.aspx">Contact Our Directors</a></li>
+</ul></li><li class="has-children"><a href="https://investors.pfizer.com/shareholder-services/default.aspx">Shareholder Services</a><ul class="level2">
+<li><a href="https://investors.pfizer.com/shareholder-services/stock-faqs/default.aspx">Stock FAQs</a></li><li><a href="https://investors.pfizer.com/shareholder-services/cost-basis-calculator/default.aspx">Cost Basis Calculator</a></li><li><a href="https://investors.pfizer.com/shareholder-services/advisory-information/default.aspx">Advisory Information</a></li>
+</ul></li>
+</ul></nav>
+</div></span></span>
+</div>
+</main>
+</div>
+</div>
+<div class="FooterContainer">
+<div class="PaneFooter" role="contentinfo">
+<div class="container clearfix">
+<div class="grid">
+<span class="FooterPaneDiv"></span>
+</div>
+</div>
+</div>
+<div class="PaneFooter2">
+<div class="container clearfix">
+<span class="FooterPane2Div11"><div class="ModuleContent corporate-footer" id="_ctrl0_ctl36_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="grid">
+<div class="col col-2-of-3 left-side">
+<div class="grid-no-gutter">
+<div class="col fl-left-col w18 mr1">
+<ul>
+<li>
+<a class="group-title red" href="http://www.pfizer.com/health-wellness">YOUR HEALTH</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/health-wellness/healthy-living">Healthy Living</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/health-wellness/disease-conditions">Disease &amp; Conditions</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/health-wellness/manage-your-health">Managing Your Health</a>
+</li>
+<!-- <li>
+                        <a href="http://www.pfizer.com/health-wellness/caregiving">Caregiving</a>
+                    </li> -->
+<!--  <li>
+                        <a href="http://www.pfizer.com">Patient Assistance Programs</a>
+                    </li> -->
+</ul>
+</div>
+<div class="col fl-left-col w16 mr1">
+<ul>
+<li>
+<a class="group-title orange" href="http://www.pfizer.com/science">Our Science</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/therapeutic-areas">Therapeutic Areas</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/drug-product-pipeline">Product Pipeline</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/clinical-trials">Clinical Trials</a>
+</li>
+<!-- <li>
+                        <a href="http://www.pfizer.com/science/research-development">Research &amp; Development</a>
+                    </li> -->
+<li><a href="http://www.pfizer.com/science/research-development">R&amp;D Platforms</a></li>
+<li><a href="http://www.pfizer.com/science/collaboration">Collaboration</a></li>
+<li><a href="http://www.pfizer.com/science/research-development/centers">Research Sites</a></li>
+</ul>
+</div>
+<div class="col fl-left-col w16 mr3">
+<ul>
+<li>
+<a class="group-title purple" href="http://www.pfizer.com/people">OUR PEOPLE</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/experts">Meet The Experts</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/history">The Journey</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/leadership">Leadership</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/workplace-diversity">Diverse Perspectives</a>
+</li>
+</ul>
+</div>
+<div class="col fl-left-col col-1-of-5 mr2">
+<ul>
+<li>
+<a class="group-title green" href="http://www.pfizer.com/purpose">OUR PURPOSE</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/responsibility">Responsibility</a>
+</li>
+<li><a href="http://www.pfizer.com/responsibility/protecting-environment">Protecting the Environment</a></li>
+<!--  <li>
+                        <a href="http://www.pfizer.com/purpose/environmental-sustainability">Protecting the Environment</a>
+                    </li> -->
+<li>
+<a href="http://www.pfizer.com/purpose/health-policy">Positions on Health Policies</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/transparency">Transparency</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/patient-assistance-programs">Patient Assistance Program</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/medical-grants">Grants</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/contributions-partnerships">Contributions &amp; Partnerships</a>
+</li>
+</ul>
+</div>
+<div class="col fl-left-col col-1-of-5">
+<ul>
+<li>
+<a class="group-title blue" href="http://www.pfizer.com/products">OUR PRODUCTS</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products-list">Product Listing</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/drug-development/process">How Drugs are Made</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/medicine-distributors">Distributors</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/patient-safety">Medicine Safety</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/material-safety-data-sheets">Material Safety Data Sheets</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/product-contact-information">Global Product Information Contacts</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col col-1-of-3 right-side">
+<div class="grid-no-gutter">
+<div class="col col-45">
+<ul class="fl-right-col">
+<li>
+<a href="http://www.pfizer.com/careers">Career-seekers</a>
+</li>
+<li>
+<a href="/investors-overview/default.aspx">Investors</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/News">News &amp; Media</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners">Partners</a>
+</li>
+</ul>
+</div>
+<div class="col col-45 ml7">
+<ul class="fl-right-col">
+<li>
+<a href="http://www.pfizerpro.com/">Health Professionals</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/b2b/index">Business to Business</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/general/global_sites">Change Country</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/sitemap">Sitemap</a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-1">
+<ul class="social-links">
+<li class="twitter">
+<a href="http://www.twitter.com/Pfizer" target="_blank" title="Twitter">
+<!-- <span class="q4i-icon-twitter"></span> -->
+</a>
+</li>
+<li class="facebook">
+<a href="https://www.facebook.com/Pfizer" target="_blank" title="Facebook">
+<!-- <span class="q4i-icon-facebook"></span> -->
+</a>
+</li>
+<li class="linkedin">
+<a href="http://www.linkedin.com/company/pfizer" target="_blank" title="Linkedin">
+<!-- <span class="q4i-icon-linkedIn"></span> -->
+</a>
+</li>
+<li class="instagram">
+<a href="https://www.instagram.com/pfizerinc/" target="_blank" title="Instagram">
+<!-- <span class="q4i-icon-instagram"></span> -->
+</a>
+</li>
+<li class="youtube">
+<a href="http://www.youtube.com/Pfizer" target="_blank" title="Youtube">
+<!-- <span class="q4i-icon-youtube"></span> -->
+</a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-2">
+<ul class="fl-right-col bottom">
+<li>
+<a href="http://www.pfizer.com/contact">Contact Us</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/general/terms">Terms of Use</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/contact/privacy">Privacy Policy</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</span>
+</div>
+</div>
+<div class="PaneQ4Footer">
+<div class="container clearfix">
+<span class="Q4FooterDiv1"><div class="ModuleContent" id="_ctrl0_ctl06_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<script src="//s21.q4cdn.com/317678438/files/js/jquery-cookie.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var q4App = $.extend(q4Defaults, {
+        secondaryNav: function(){
+            $('.navbar-collapse .level1 > li').each(function(){
+                if($(this).hasClass('selected')){
+                    $(this).addClass('expanded');
+                }
+            });
+            $('.navbar-collapse .level1 li.has-children a').append('<span></span>');
+            $('.navbar-collapse').on('click', 'li.has-children a > span', function(e){
+                var $this = $(this),
+                    $parent = $this.parent();
+                    $parent.toggleClass('expanded');
+            });
+        },
+        pluginsInit: function(){
+            $('input[type="checkbox"]').iCheck();
+        },
+        langToggle: function(){
+            $('.lang-dropdown').on('click', function(e){
+                e.preventDefault();
+                $(this).parent().toggleClass('open');
+            });
+        },
+        customAccordion: function(trigger, slide){
+            $(trigger).on('click', function(){
+                $(this).toggleClass('active');
+                $(this).parent().find(slide).slideToggle();
+            });
+        },
+        breadcrumbFunc: function(){
+            if(!$('#pageClass').hasClass('homePage-inv')){
+                $('.breadCrumb .ModuleInnerContainer').prepend('<a href="/investors-overview/default.aspx" class="breadcrumb-inv-link">INVESTORS</a><span class="BreadcrumbSeparator">/</span>');
+            } else {
+                $('.breadCrumb .ModuleInnerContainer').prepend('<a class="breadcrumb-inv-link">INVESTORS</a>');
+            }
+        },
+        activateInvestorsHeader: function(){
+            $('.header-links').find('li > a:contains("Investors")').parent().addClass('active');
+        },
+        mobileInvestorsNav: function(){
+            var invNav = $('.navbar-collapse').html();
+            $('.corporate-navigation').find('.investors').append(invNav);
+        },
+        addExpandAll: function(faqContainer){
+            $(faqContainer).each(function(){
+
+                var faqContainer = $(this);
+
+                faqContainer.find('.ModuleOuterContainer > h2').append('<span class="expandAll">Expand All</span>');
+
+                faqContainer.find('.expandAll').on('click', function(){
+                    
+                    var question = faqContainer.find('.FaqQuestion');
+                    var answer   = faqContainer.find('.FaqQuestion').next('.FaqAnswer');
+
+                    
+
+                    if(!$(this).hasClass('open')){
+                        $(this).text('Collapse All');
+                        $(this).addClass('open');
+                        question.addClass('active');
+                        answer.slideDown();
+                    } else {
+                        $(this).text('Expand All');
+                        $(this).removeClass('open');
+                        question.removeClass('active');
+                        answer.slideUp();
+                    }
+                });
+                
+            });
+        },
+        init: function() {
+            var app = this;
+
+            app.cleanUp();
+
+            app.unWrapLink('a.StockPrice');
+            app.submitOnEnter('.ModuleSearch');
+            app.submitOnEnter('.MailingListUnsubscribeContainer');
+            app.validateSubmit('.ModuleSearch');
+
+            app.accessibleNav($('.navbar-collapse'), 'level1');
+            app.onMenuToggle();
+            app.onMenuExit($('.PaneNavigation .menu-close'));
+
+            $('.PreviewToolBar').previewToolbar();
+            $('.MailingListSignupContainer').captcha({
+                scrollOnConfirmation: 0,
+                submitText: "Subscribe",
+            });
+
+            q4App.confirmationScroll($('.PaneFooter .MailingListSignupContainer'), '> .EditSubscriberConfirmation');
+
+            app.secondaryNav();
+            app.pluginsInit();
+            app.langToggle();
+            app.breadcrumbFunc();
+            app.activateInvestorsHeader();
+            app.mobileInvestorsNav();
+        }
+    });
+
+    q4App.init();
+
+
+    function custom_onMenuToggle() {
+        $('.LayoutDefaultInner').on('click', '.toggle-mobile', function(e){
+            $('.LayoutDefaultInner').toggleClass('mobile-toggled');
+            corporateMobileExpand();
+            $('.lang-dropdown').parent().removeClass('open');
+            if ($('.LayoutDefaultInner').hasClass('mobile-toggled')){
+                custom_onMenuClose();
+            }
+        });
+    }
+
+    function custom_onMenuClose() {
+        $('.LayoutDefaultInner').one('click', function(e) {
+            !$(e.target).closest('.HeaderContainer').length ? $(this).removeClass('mobile-toggled') :custom_onMenuClose();
+        });
+    }
+    
+    custom_onMenuToggle();
+
+    $('.corporate-navigation li.has-children > a').after('<span class="q4i-Pfizer_Icons_Plus icon-toggle"></span>');
+
+    function corporateMobileExpand(){
+
+        $('.corporate-navigation').on('click', 'li.has-children > span.icon-toggle', function(e){
+            var $this = $(this),
+                $parent = $this.parent();
+            if (!$parent.hasClass('expanded')) {
+                e.preventDefault();
+                if($(this).closest('.mega-menu').length){
+                    $('.mega-menu').find('.expanded').removeClass('expanded');
+                } else {
+                    $parent.siblings().removeClass('expanded');
+                }
+                
+                $parent.addClass('expanded');
+            } else {
+                $parent.removeClass('expanded');
+            }
+        });
+    }
+
+
+
+
+
+    function disclaimer(el, disclaimer){
+        // el
+        //  required: true,
+        //  type: selector,
+        //  desc: Link that has a disclaimer.
+        //
+        // disclaimer
+        //  required: true,
+        //  type: selector,
+        //  desc: Disclaimer to show when you click on el
+
+    var disclaimerCookie = $.cookie('disclaimerCookie'),
+        date = new Date(),
+        minutes = 10;
+        date.setTime(date.getTime() + (minutes * 144));
+
+
+    if (disclaimerCookie === undefined) { 
+        $(el).on('click', function(e){
+            e.preventDefault();
+
+            var url = $(this).attr('href');
+            $(disclaimer).find('.accept').attr('href', url);
+
+            $.fancybox.open(disclaimer, {
+                padding: [0, 30, 30, 30],
+                wrapCSS: 'disclaimer-popUp'
+            });
+            fancyClose();
+        });
+        function fancyClose(){
+            $('.accept').on('click', function(e) {
+                $.fancybox.close();
+                   $.cookie("disclaimerCookie", "agree", {
+                    path: '/',
+                    //expires: date
+                   });
+             });
+        }
+
+    }
+}
+
+</script>
+</div>
+</div>
+</div></span><span class="Q4FooterDiv12"><div class="ModuleContent" id="_ctrl0_ctl39_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="footer-logo">
+<a href="http://www.pfizer.com/">
+<img alt="Pfizer" src="//s21.q4cdn.com/317678438/files/design/2020/v1/Pfizer_Logo_Full-Color.png"/>
+</a>
+</div>
+<div class="Copyright">
+    Copyright © 2002-<span>2021</span> Pfizer Inc. All rights reserved. This information—including product information—is intended only for residents of the United States.
+    <br/> 
+    The products discussed herein may have different labeling in different countries.
+</div>
+<script>
+    //$('.Copyright > span').html( new Date().getFullYear() );
+</script>
+</div>
+</div>
+</div></span><span class="Q4FooterDiv13"><div class="ModuleContent" id="_ctrl0_ctl42_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="hidden">
+<div id="disclaimer">
+<h4 class="disclaimer-title">Forward-Looking Statements of Pfizer Inc.</h4>
+<p dir="auto">This webcast may contain forward-looking statements about, among other things, our anticipated future operating and financial performance, business plans and prospects, in-line products and product candidates, strategic reviews, capital allocation, business-development plans, the benefits expected from the reorganization of our commercial operations into three businesses effective at the beginning of our 2019 fiscal year, our acquisitions and other business development activities, our proposed transaction with GSK to combine our respective consumer healthcare businesses into a new consumer healthcare joint venture, our ability to successfully capitalize on growth opportunities or prospects, manufacturing and product supply and plans relating to share repurchases and dividends, among other things, that involve substantial risks and uncertainties that could cause actual results to differ materially from those expressed or implied by such statements. </p>
+<p dir="auto">A description of these risks and uncertainties can be found in Pfizer’s most recent Annual Report on Form 10-K and in its subsequent reports on Form 10-Q, including in the sections thereof captioned “Risk Factors” and “Forward-Looking Information and Factors That May Affect Future Results”, as well as in its subsequent reports on Form 8-K, all of which are filed with the U.S. Securities and Exchange Commission and available at <a href="http://www.sec.gov/" rel="noreferrer">www.sec.gov</a> and <a href="http://www.pfizer.com/" rel="noreferrer">www.pfizer.com</a>.</p>
+<p dir="auto">The forward-looking statements in the webcast speak only as of the original date of the webcast. Pfizer assumes no obligation to update forward-looking statements contained in the webcast as the result of new information or future events or developments.</p>
+<a class="disclaimer-btn accept" href="" target="_blank">I Accept <i class="q4i-arrow-circle-right"></i></a>
+</div>
+</div>
+<div class="hidden">
+<div id="disclaimer1">
+<h4 class="disclaimer-title">Forward-Looking Statements of Pfizer Inc.</h4>
+<p>The following transcript contains forward-looking statements about our anticipated future financial performance that involve substantial risks and uncertainties. You can identify these statements by the fact that they use future dates or use words such as “will,” “may,” “could,” “likely,” “ongoing,” “anticipate,” “estimate,” “expect,” “project,” “intend,” “plan,” “believe,” “assume,” “target,” “forecast,” “guidance,” “goal,” “objective,” “aim,” “seek” and other words and terms of similar meaning. Factors that could cause actual results to differ materially from past results and future plans and projected future results are described in our Form 8-K furnished with the U.S. Securities and Exchange Commission on January 12, 2021 and linked <a href="https://www.sec.gov/ix?doc=/Archives/edgar/data/78003/000119312521006923/d102109d8k.htm" shape="rect" target="_blank">here</a>, which also contains information regarding our use of preliminary financial guidance.</p>
+<a class="disclaimer-btn accept" href="" target="_blank">Continue<i class="q4i-arrow-circle-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div></span><span class="Q4FooterDiv15"><div class="ModuleContent" id="_ctrl0_ctl48_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<!-- Adobe Analytics code-->
+<script language="JavaScript" src="//s3.amazonaws.com/pfe_im/js/prod/pcc/custom/pfizercom/s_code_config.js" type="text/javascript"></script>
+<script language="JavaScript" src="//s3.amazonaws.com/pfe_im/js/prod/pcc/s_code.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript"><!--
+s.linkTrackVars = s.apl(s.linkTrackVars, 'prop55,prop43', ',', 2);
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><!--/DO NOT REMOVE/-->
+<!-- End Adobe Analytics code-->
+</div>
+</div>
+</div></span><span class="Q4FooterDiv8"><div class="ModuleContent" id="_ctrl0_ctl75_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<script>
+q4App.customAccordion('.FaqQuestion', '.FaqAnswer');
+q4App.addExpandAll('.FaqContainer');
+</script>
+</div>
+</div>
+</div></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="__antiCSRF" name="__antiCSRF" type="hidden" value=""/>
+</form>

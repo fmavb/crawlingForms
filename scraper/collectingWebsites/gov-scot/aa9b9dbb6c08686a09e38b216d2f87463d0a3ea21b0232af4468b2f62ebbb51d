@@ -1,0 +1,9 @@
+<form accept-charset="UTF-8" action="/cubetool" id="dereference" method="get"><input name="utf8" type="hidden" value="✓"/>
+<fieldset>
+<div class="form_group" style="width:100%;">
+<label for="url">URL</label>
+<textarea id="url" name="url" rows="10"></textarea>
+</div>
+</fieldset>
+<input class="btn" name="commit" type="submit" value="Analyse URL"/>
+</form>

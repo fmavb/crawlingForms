@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action="/public_inspection_issues/search" id="date_selector" method="get"><input name="utf8" type="hidden" value="✓"/>
+<label>Go to a specific date:</label>
+<input class="browse_search" id="date" name="date" placeholder="MM/DD/YYYY" type="text" value=""/>
+<input data-disable-with="Go" name="commit" type="submit" value="Go"/>
+</form>

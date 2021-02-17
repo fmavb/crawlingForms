@@ -1,0 +1,5 @@
+<form action="/search-results/" method="get">
+<label class="visually-hidden" for="query">Search</label>
+<input id="query" name="q" placeholder="Search for news, projects, policies etc" tabindex="-1" title="search" type="search"/>
+<button tabindex="-1" title="search-button"><i class="icon icon-search"></i></button>
+</form>

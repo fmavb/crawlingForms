@@ -1,0 +1,8 @@
+<form action="/selfservice/public/forgottenUserIdPassword.do" id="forgottenUserIdPasswordForm" method="post" name="forgottenUserIdPasswordForm" onsubmit="return disableForm(this);"><input name="appid" type="hidden" value="319118"/><input name="target" type="hidden" value=""/><input name="resumePath" type="hidden" value=""/><input name="pingAccessAppUrl" type="hidden" value=""/><p><label>Username or email address:</label> <em>*</em><input class="input" id="emailAddress" name="emailAddress" onblur="this.value = trim(this.value.toLowerCase());" size="20" type="text" value=""/><input name="dispatch" type="hidden" value="forgottenUserIDSearch"/></p>
+<p class="spacer"></p>
+<p class="submit"><input class="primary" id="submit" type="submit" value="Submit"/><input id="reset" name="cancel" onclick="location.href='./login.do?appid=319118&amp;target=https%3A%2F%2Fmfa.gsk.com%2F'; return false;" tabindex="110" type="button" value="Cancel"/></p>
+<input name="uuid" type="hidden" value="f8d97156-5d51-4da0-9a98-4d4544ba2ab7"/>
+<input name="requestId" type="hidden" value="8b4b9747f4e3a6806f62d684af4f23b5bcbada79"/>
+<input name="resumePath" type="hidden" value=""/>
+<input name="vnd_pi_requested_resource" type="hidden" value=""/>
+</form>

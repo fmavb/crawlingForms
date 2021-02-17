@@ -1,0 +1,51 @@
+<form accept-charset="UTF-8" action="/sparql" id="sparql_endpoint" method="post"><input name="utf8" type="hidden" value="✓"/><input name="authenticity_token" type="hidden" value="o6elYVJFNozxN+n4C/fJV+7pqh4acxMWT7bfBo8yHDNEePpl3cfMEUl/TX/70tKDdbK0Jxwc+QZ9PLhk8SgnUg=="/>
+<textarea class="large code" id="query" name="query" style="margin-bottom:0;">
+PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX qb: &lt;http://purl.org/linked-data/cube#&gt;
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX sdmx: &lt;http://purl.org/linked-data/sdmx/2009/concept#&gt;
+PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+PREFIX void: &lt;http://rdfs.org/ns/void#&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+
+SELECT *
+WHERE {
+  ?s ?p ?o
+}
+
+LIMIT 100</textarea>
+<div>
+<label for="format">Results format</label>
+<div class="select" style="display:inline;">
+<select id="format" name="format">
+<option selected="selected" value="html">html</option>
+<optgroup label="SELECT queries">
+<option value="json">json</option>
+<option value="csv">csv</option>
+<option value="xml">xml</option>
+<option value="text">text</option>
+</optgroup>
+<optgroup label="CONSTRUCT and DESCRIBE queries">
+<option value="nt">n-triples</option>
+<option value="ttl">Turtle</option>
+<option value="rdf">rdf/xml</option>
+</optgroup>
+<optgroup label="ASK queries">
+<option value="json">json</option>
+<option value="xml">xml</option>
+<option value="text">text</option>
+</optgroup>
+</select>
+</div>
+<div class="checkbox">
+<label>
+<input name="validate" type="checkbox"/>
+<span>Validate URIs</span>
+</label>
+</div>
+</div>
+<input class="btn" id="run-sparql-query" name="commit" type="submit" value="Run Query"/>
+</form>

@@ -1,0 +1,24 @@
+<form action="https://search.usa.gov/search" id="oig_search" method="GET" name="oig_search" target="_self">
+<div class="search-container">
+<div class="input-container">
+<label for="oigsearchinput">Search the OIG Web Site</label>
+<input id="affiliate" name="affiliate" type="hidden" value="hhs_oig"/>
+<input name="submitted" type="hidden" value="submitted"/>
+<input class="topSearchField" id="oigsearchinput" name="query" onfocus="this.value=''" style="margin-top:9px; height:20px;" title="Report #, Topic, Keyword.." type="text" value="Report #, Topic, Keyword.."/>
+</div>
+<div>
+<input name="output" type="hidden" value="xml_no_dtd"/>
+<input name="sort" type="hidden" value="date:D:L:d1"/>
+<input name="ie" type="hidden" value="UTF-8"/>
+<input name="filter" type="hidden" value="0"/>
+<input name="oe" type="hidden" value="UTF-8"/>
+<input name="lr" type="hidden" value="lang_en"/>
+<input name="client" type="hidden" value="oig"/>
+<input name="ud" type="hidden" value="1"/>
+<input name="site" type="hidden" value="oig"/>
+<input name="proxystylesheet" type="hidden" value="oig"/>
+<!-- <input name="proxyreload" type="hidden" value="1" />    -->
+<input class="topSearchButton" id="btnG" name="submit" target="search_iframe" type="submit" value=""/>
+</div>
+</div>
+</form>

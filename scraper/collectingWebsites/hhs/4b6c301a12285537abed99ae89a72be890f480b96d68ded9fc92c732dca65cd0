@@ -1,0 +1,71 @@
+<form action="/ReportsRecipientSummary/Export_RecipientSummary" id="ReportsRecipientSummaryExport_RecipientSummary" method="post" name="ReportsRecipientSummaryExport_RecipientSummary">
+<input id="hiddenOutputFormat" name="OutputFormat" type="hidden" value="XLSX"/>
+<input id="hiddenisExportControl" name="isExportControl" type="hidden" value="true"/>
+<input id="hiddenModelHash" name="ModelHash" type="hidden" value="ReportsRecipientSummaryExport_RecipientSummary"/>
+<div style="float: right; align-content:center">
+<label class="dxeBase_newTAGGSTheme dx-acc-r" id="ExportLabelReportsRecipientSummaryExport_RecipientSummary" style="margin-right:5px;">Export Options:   </label><script id="dxss_1610907627">
+<!--
+ASPx.createControl(MVCxClientLabel,'ExportLabelReportsRecipientSummaryExport_RecipientSummary','',{'accessibilityCompliant':true,'associatedControlName':'btnExportToXLSX'});
+
+//-->
+</script>
+<div style="float: right; clear: both;">
+<div class="dxbButton_newTAGGSTheme buttonExportXLSX dx-acc-r dxbButtonSys dxbTSys" id="btnExportToXLSXReportsRecipientSummaryExport_RecipientSummary" outputformatattribute="XLSX" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Excel (XLS) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToXLSXReportsRecipientSummaryExport_RecipientSummary_I" name="btnExportToXLSXReportsRecipientSummaryExport_RecipientSummary" title="Save this data to a Microsoft Excel (XLS) file." type="button" value="XLSX"/><span class="dx-vam" id="btnExportToXLSXReportsRecipientSummaryExport_RecipientSummary_BTC">XLSX</span>
+</div>
+</div><script id="dxss_497285385">
+<!--
+ASPx.AddHoverItems('btnExportToXLSXReportsRecipientSummaryExport_RecipientSummary',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToXLSXReportsRecipientSummaryExport_RecipientSummary',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToXLSXReportsRecipientSummaryExport_RecipientSummary',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToXLSXReportsRecipientSummaryExport_RecipientSummary',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToXLSXReportsRecipientSummaryExport_RecipientSummary','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsRecipientSummaryExport_RecipientSummary');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportPDF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToPDFReportsRecipientSummaryExport_RecipientSummary" outputformatattribute="PDF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to an Adobe Acrobat (PDF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToPDFReportsRecipientSummaryExport_RecipientSummary_I" name="btnExportToPDFReportsRecipientSummaryExport_RecipientSummary" title="Save this data to an Adobe Acrobat (PDF) file." type="button" value="PDF"/><span class="dx-vam" id="btnExportToPDFReportsRecipientSummaryExport_RecipientSummary_BTC">PDF</span>
+</div>
+</div><script id="dxss_748386702">
+<!--
+ASPx.AddHoverItems('btnExportToPDFReportsRecipientSummaryExport_RecipientSummary',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToPDFReportsRecipientSummaryExport_RecipientSummary',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToPDFReportsRecipientSummaryExport_RecipientSummary',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToPDFReportsRecipientSummaryExport_RecipientSummary',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToPDFReportsRecipientSummaryExport_RecipientSummary','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsRecipientSummaryExport_RecipientSummary');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportRTF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToRTFReportsRecipientSummaryExport_RecipientSummary" outputformatattribute="RTF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Word (RTF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToRTFReportsRecipientSummaryExport_RecipientSummary_I" name="btnExportToRTFReportsRecipientSummaryExport_RecipientSummary" title="Save this data to a Microsoft Word (RTF) file." type="button" value="RTF"/><span class="dx-vam" id="btnExportToRTFReportsRecipientSummaryExport_RecipientSummary_BTC">RTF</span>
+</div>
+</div><script id="dxss_1281676856">
+<!--
+ASPx.AddHoverItems('btnExportToRTFReportsRecipientSummaryExport_RecipientSummary',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToRTFReportsRecipientSummaryExport_RecipientSummary',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToRTFReportsRecipientSummaryExport_RecipientSummary',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToRTFReportsRecipientSummaryExport_RecipientSummary',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToRTFReportsRecipientSummaryExport_RecipientSummary','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsRecipientSummaryExport_RecipientSummary');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportCSV dx-acc-r dxbButtonSys dxbTSys" id="btnExportToCSVReportsRecipientSummaryExport_RecipientSummary" outputformatattribute="CSV" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Comma Separated Values (CSV) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToCSVReportsRecipientSummaryExport_RecipientSummary_I" name="btnExportToCSVReportsRecipientSummaryExport_RecipientSummary" title="Save this data to a Comma Separated Values (CSV) file." type="button" value="CSV"/><span class="dx-vam" id="btnExportToCSVReportsRecipientSummaryExport_RecipientSummary_BTC">CSV</span>
+</div>
+</div><script id="dxss_23219700">
+<!--
+ASPx.AddHoverItems('btnExportToCSVReportsRecipientSummaryExport_RecipientSummary',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToCSVReportsRecipientSummaryExport_RecipientSummary',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToCSVReportsRecipientSummaryExport_RecipientSummary',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToCSVReportsRecipientSummaryExport_RecipientSummary',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToCSVReportsRecipientSummaryExport_RecipientSummary','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsRecipientSummaryExport_RecipientSummary');}});
+
+//-->
+</script>
+</div>
+</div>
+</form>

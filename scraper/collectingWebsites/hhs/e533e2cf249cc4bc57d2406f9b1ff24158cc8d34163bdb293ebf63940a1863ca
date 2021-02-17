@@ -1,0 +1,38 @@
+<form id="report-filters-form">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 col-lg-offset-2">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="d-inline white-text"><strong>Claims Paid for Testing</strong></h4>
+<div class="h4 pull-right white-text">$1.8B</div>
+</div>
+<div class="panel-body text-center">
+<p>Health care entities who have agreed to the Terms and Conditions and received claims reimbursement for COVID-19 testing of uninsured individuals.</p>
+<div class="taggs-custom-checkbox">
+<label class="checkbox-label" for="claimsTesting">
+<span class="sr-only">Show Claims Paid for Testing</span>
+<img alt="testing icon" src="/Content/images/icon-circle-microscope.png"/>
+</label>
+<script>DevExpress.config({"serverDecimalSeparator":"."});DevExpress.aspnet.setTemplateEngine();</script><div id="claimsTesting"></div><script>DevExpress.utils.readyCallbacks.add((function($){$("#claimsTesting").dxCheckBox({"value":true,"name":"claimsTesting","hint":"Check to include claims paid for testing, uncheck to exclude","onValueChanged":chkClaimsTypeChanged,"inputAttr":{"id":"claimsTesting"}});}).bind(this, jQuery));</script>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="d-inline white-text"><strong>Claims Paid for Treatment</strong></h4>
+<div class="h4 pull-right white-text">$1.8B</div>
+</div>
+<div class="panel-body text-center">
+<p>Health care entities who have agreed to the Terms and Conditions and received claims reimbursement for treatment of uninsured individuals with a COVID-19 diagnosis.</p>
+<div class="taggs-custom-checkbox">
+<label class="checkbox-label" for="claimsTreatment">
+<span class="sr-only">Show Claims Paid for Treatment</span>
+<img alt="treatment icon" src="/Content/images/icon-circle-medicine.png"/>
+</label>
+<div id="claimsTreatment"></div><script>DevExpress.utils.readyCallbacks.add((function($){$("#claimsTreatment").dxCheckBox({"value":true,"name":"claimsTreatment","hint":"Check to include claims paid for treatment, uncheck to exclude","onValueChanged":chkClaimsTypeChanged,"inputAttr":{"id":"claimsTreatment"}});}).bind(this, jQuery));</script>
+</div>
+</div>
+</div>
+</div>
+</form>

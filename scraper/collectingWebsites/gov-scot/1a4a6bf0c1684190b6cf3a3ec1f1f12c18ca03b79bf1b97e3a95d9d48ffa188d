@@ -1,0 +1,12 @@
+<form action="/search" autocomplete="off" class="sm" id="searchBar" method="GET">
+<input name="collectionId" type="hidden" value="5c3f53332c7d3a31945017f4"/>
+<input class="search-query" name="query" placeholder="Search" title="search-query" type="text" value=""/>
+<button type="submit">
+<span class="sr-only">Toggle Search</span>
+<i class="icon-search"></i>
+</button>
+<div class="sb" id="serp-dd" style="display: none;">
+<ul class="result">
+</ul>
+</div>
+</form>

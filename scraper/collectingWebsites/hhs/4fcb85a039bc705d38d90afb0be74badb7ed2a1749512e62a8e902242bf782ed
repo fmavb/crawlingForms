@@ -1,0 +1,10 @@
+<form accept-charset="UTF-8" action="https://search.usa.gov/search" class="usa-search js-search-form" id="search_form" method="get"><input name="utf8" type="hidden" value="✓"/>
+<div role="search">
+<label class="usa-sr-only" for="search-field">Search</label>
+<input autocomplete="on" class="usagov-search-autocomplete" id="search-field" name="query" type="search"/>
+<input id="affiliate" name="affiliate" type="hidden" value="hhs_oig"/>
+<button name="commit" type="submit" value="Search">
+<span class="usa-search-submit-text">Search</span>
+</button>
+</div>
+</form>

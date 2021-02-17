@@ -1,0 +1,313 @@
+<form action="./foia-form.aspx" enctype="multipart/form-data" id="form1" method="post" name="form1">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="6GzhjkfxzMZU4fNud5sMoawM0pXvoY9cRlV+ARamGN+d38wSvLb4j+nPuvH14HZojOT9KzSl9Y42kAj/zPvS8UIW/qi0WGsk1OYQymsIdsSyN0Sepq6pzgPLtwO4EmxG8fe32uzYmQpIqXFLkxt4+g=="/>
+<script src="/hotlineoperations/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvknv6djhB76Id75GDLd0jFYPzk3gbPmW4k0zLG3TOw9bsKlN9z73eZc3y7gqx0PrQLHPNoGnKOp5aIDWWBCCULZUXK59uxvXea6Jn4JgCpiAOSzOvze1s4-8bmyxDaXYONJWdlyDGP1FHKM50LnSnz81&amp;t=ffffffffdfc97409" type="text/javascript"></script>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="84CD5615"/>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="d8h+UhNYBgzlTLgbnlqug51dlidTK6VT1PvO48uB/YZi/hRmMVaarD8kMuTifknZm8cNs0AZjybboESeLn1F4fuaQ+IT3H51NEuzfJECMkMyJZy7f9ivsPsblTquJHDLiw6hJ8K5MusesUwpSWajD/6RLvbZ+1CziCgQaXzyV8VDWEcWGBRQ9WksoY0W/enq90yl6zqYU4w0jTUcIRnxtHCRt+9dsXuOy84JiCOapcZ8lJhCLoADU7UvW9bbVwruhZhOEWtONM9qcxGESTfJky7VIl5wR3zzGkBM6xPV9alz8OL71HsNws3jFM/5Q5em+pWMCiIHPfrw3g2b02Vb+yiryqt4YnxFVUp6NdeU0j0ISrfRNaHLSN3FDoZGWnrRciDTahf4TY4sg2yMx8FmtNUQH+ohtrjkztCxHpKPojQGvV3ppqHk35/a5zNgz5dv03Cse54q3114ziWJzrVV7u2uYaCl7cTdlubVL1+8qyKpsw7NAP1HGzql5mNdL/g1/MG+1IxuweSCraM9Y+weKMaT+r4p+bN7cYrXW0TmrZfXuCO2LI9nNd86GMsfDjtyLDDjbZ7/p5YpugatpDEpRgbaynlFNk7lHbS5ECIiDtA4B5hGxCSeAdU3ub1AqikmPbXldeZRj8oVFf/meDinrQ=="/>
+<div id="leftContentInterior">
+<h1>
+                            Submit a FOIA Request</h1>
+<div id="fieldWrapper">
+<div class="step" id="summary">
+<p>Make a request by completing the form below.  You may also contact us <a href="#contact">by mail
+                    or fax</a>.</p>
+</div>
+<span id="UpdatePanel1">
+<div class="input">
+<table border="1" cellpadding="0" cellspacing="0" class="fugitive-table" width="100%">
+<tr>
+<td>
+<div class="form-float">
+<label for="title">Title</label>
+<select id="title" name="title" style="margin-bottom:15px;">
+<option label="Choose Title" value="">Choose Title</option>
+<option label="Mr." value="Mr.">Mr.</option>
+<option label="Mrs." value="Mrs.">Mrs.</option>
+<option label="Ms" value="Ms">Ms</option>
+<option label="Miss" value="Miss">Miss</option>
+</select>
+</div>
+<br clear="all"/>
+<div class="form-float">
+<label for="address">First name <abbr title="This field is required">*</abbr></label>
+<input class="required" id="first_name" name="first_name" type="text"/><br/>
+     
+ </div>
+<div class="form-float">
+<label for="address">Middle initial</label>
+<input class="required" id="middle_initial" maxlength="1" name="middle_initial" type="text"/>
+</div>
+<br clear="all"/>
+<div class="form-float">
+<label for="last_name">Last name <abbr title="This field is required">*</abbr></label>
+<input class="required" id="last_name" name="last_name" type="text"/><br/>
+     
+</div>
+<div class="form-float frm-spacer">
+<label for="organization">Organization/Affil. <abbr title="This field is required">*</abbr></label>
+<input class="required" id="organization" name="organization" type="text"/><br/> 
+ </div>
+<br clear="all"/>
+<div class="form-float">
+<label for="address">Address 1 <abbr title="This field is required">*</abbr></label><input class="required" id="address" name="address" type="text"/><br/> 
+</div>
+<div class="form-float">
+<label for="address2">Address 2</label><input class="required" id="address2" name="address2" type="text"/><br/> 
+</div>
+<br clear="all"/>
+<div class="form-float">
+<label for="city">
+City <abbr title="This field is required">*</abbr></label><input class="required" id="city" name="city" type="text"/><br/>
+     
+</div>
+<div class="form-float">
+<label for="state">
+State <abbr title="This field is required">*</abbr></label><select class="required" id="state" name="state">
+<option value="">Please Select</option>
+<option value="AL">Alabama </option>
+<option value="AK">Alaska</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="DC">District of Columbia</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PA">Pennsylvania</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option>
+</select>
+<br/>
+                     
+                <br/>
+</div>
+<br clear="all"/>
+<div class="form-float">
+<label for="zip_code">
+Zip code <abbr title="This field is required">*</abbr></label><input id="zip_code" name="zip_code" type="text"/><br/>
+     
+    <br/>
+ 
+    <br/>
+</div>
+<div class="form-float">
+<label for="daytime_phone">
+    Daytime phone 000-000-0000 <abbr title="This field is required">*</abbr></label><input id="daytime_phone" name="daytime_phone" type="text"/><br/>
+     
+    <br/>
+     
+</div>
+<br clear="all"/>
+<div class="form-float">
+<label for="fax_number">
+Fax number</label><input id="fax_number" name="fax_number" type="text"/><br/> 
+</div>
+<div class="form-float">
+<label for="email_address">
+Email address</label><input id="email_address" name="email_address" type="text"/><br/>    
+         
+</div>
+<br clear="all"/>
+<div id="divcomments">
+<h2>Description of the Documents Requested</h2>
+<p>
+                Although you do not have to give a document's title, you should identify the documents
+                that you want as specifically as possible to increase the likelihood that the agency
+                will be able to locate them. Any facts you can furnish about the time, authors,
+                events, subjects, and other details of the documents will be helpful to the agency
+                in deciding where to search and in determining which records respond to your request,
+                saving you and the government time and money.
+            </p>
+<p>
+                Please list, as clearly as possible, the name of the document(s), the type of document(s),
+                and any other specifics you may have that will identify the documents you seek.
+
+</p><div class="step" id="YourInfo">
+<h4>Date Range</h4>
+</div>
+<div class="form-float">
+<label for="start_date">
+    Start date (mm/dd/yyyy)</label><input id="start_date" name="start_date" type="text"/><br/>
+     
+</div>
+<div class="form-float">
+<label for="end_date">
+    End date (mm/dd/yyyy)</label><input id="end_date" name="end_date" type="text"/><br/>
+     
+</div>
+<br clear="all"/>
+<h4>Document Description <abbr title="This field is required">*</abbr></h4>
+<textarea id="documentDiscriptions" name="documentDiscriptions" rows="5"></textarea>
+ 
+        <br/>
+<p>
+</p>
+<p>
+</p>
+</div>
+<h2>Payment of fees</h2>
+<p>Select the amount you are willing to reimburse the agency for fees incurred which
+                exceed $25.00.</p>
+<span id="CheckBoxList1"><input id="CheckBoxList1_0" name="CheckBoxList1" type="radio" value="$26.00  - $100.00"/><label for="CheckBoxList1_0">$26.00  - $100.00</label><br/><input id="CheckBoxList1_1" name="CheckBoxList1" type="radio" value="$101.00 - $250.00"/><label for="CheckBoxList1_1">$101.00 - $250.00</label><br/><input id="CheckBoxList1_2" name="CheckBoxList1" type="radio" value="$251.00 - $500.00"/><label for="CheckBoxList1_2">$251.00 - $500.00</label></span>
+<h2 style="margin-top:20px;">Receipt of Documents</h2>
+<p>
+                How would you like to receive your documents? <span class="file_type"></span></p>
+<span id="CheckBoxList2"><input id="CheckBoxList2_0" name="CheckBoxList2" type="radio" value="Paper"/><label for="CheckBoxList2_0">Paper</label><br/><input id="CheckBoxList2_1" name="CheckBoxList2" type="radio" value="CD"/><label for="CheckBoxList2_1">CD</label><br/><input id="CheckBoxList2_2" name="CheckBoxList2" type="radio" value="Email (if documents are more than 5MB. they will be provided on a CD.)"/><label for="CheckBoxList2_2">Email (if documents are more than 5MB. they will be provided on a CD.)</label></span>
+<h2 style="margin-top:20px; padding-bottom:5px;">Attachments</h2>
+<div id="oc_uploadInput">
+<label for="oc_fileupload" style="padding-top:0;padding-bottom:10px;"></label>
+<table style="margin: 10px 0;">
+<tr>
+<td colspan="5">
+<h3><strong>File Uploading Guidelines</strong></h3>
+<p>The HHS-OIG will only accept these file types electronically: .xls, .doc, .pdf, .jpeg, .gif, .png, .tiff</p>
+<p><strong>All other file types - including audio, video and ZIP files - <span style="color: red">are not accepted</span>.</strong></p>
+<p>
+                                                        Additionally, there are size limits: the maximum size allowed for an individual file is 10MB, the size of all uploaded files combined cannot exceed 10MB, and
+the maximum number of files that can be uploaded is five.
+                                                    </p>
+</td>
+</tr>
+</table>
+<div>
+<!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+<div id="fileupload">
+<div class="row fileupload-buttonbar">
+<div class="col-lg-7">
+<!-- The fileinput-button span is used to style the file input field as button -->
+<span class="btn btn-success fileinput-button">
+<span>Add files...</span>
+<input multiple="multiple" name="files[]" type="file"/>
+</span>
+<button class="btn btn-primary start" name="btnupload" type="submit">
+<span>Start upload</span>
+</button>
+<button class="btn btn-warning cancel" name="btncancel" type="reset">
+<span>Cancel upload</span>
+</button>
+<button class="btn btn-danger delete" type="button">
+<span>Delete</span>
+</button>
+<input class="toggle" type="checkbox"/>
+<!-- The global file processing state -->
+<span class="fileupload-process"></span>
+</div>
+<!-- The global progress state -->
+<div class="col-lg-5 fileupload-progress fade">
+<!-- The global progress bar -->
+<div aria-valuemax="100" aria-valuemin="0" class="progress progress-striped active" role="progressbar">
+<div class="progress-bar progress-bar-success" style="width: 0%;"></div>
+</div>
+<!-- The extended global progress state -->
+<div class="progress-extended"></div>
+</div>
+</div>
+<!-- The table listing the files available for upload/download -->
+<table class="table table-striped" role="presentation">
+<span class="sizeLimit" id="lblUploadfiles" style="padding-top: 15px;">Once your selected file(s) appear below, you MUST press the START UPLOAD button before you click on the SUBMIT NOW button in order for your attachments to be sent to us electronically.</span>
+<tbody class="files"></tbody>
+</table>
+</div>
+</div>
+<table style="margin:10px 0;display:none">
+<tr><td>
+<input id="oc_fileupload1" name="oc_fileupload1" type="file"/>
+</td></tr>
+<tr><td>
+<input id="oc_fileupload2" name="oc_fileupload2" type="file"/>
+</td></tr>
+<tr><td>
+<input id="oc_fileupload3" name="oc_fileupload3" type="file"/>
+</td></tr>
+<tr><td>
+<input id="oc_fileupload4" name="oc_fileupload4" type="file"/>
+</td></tr>
+<tr><td>
+<input id="oc_fileupload5" name="oc_fileupload5" type="file"/>
+</td></tr>
+</table>
+<label>Files and total file size may not exceed 10 MB.</label>
+</div>
+</td></tr>
+</table>
+</div>
+</span>
+<div class="contentSeparator"></div>
+<div id="captcha">
+<label for="CaptchaCodeTextBox">Type the characters from the picture:</label>
+<div class="LBD_CaptchaDiv" id="c_foiaform_captcha1_CaptchaDiv" style="width: 280px !important; height: 50px !important; "><!--
+--><div class="LBD_CaptchaImageDiv" id="c_foiaform_captcha1_CaptchaImageDiv" style="width: 250px !important; height: 50px !important;"><!--
+--><div class="LBD_CaptchaImageDiv" style="width:250px; height:40px;"><img alt="CAPTCHA" class="LBD_CaptchaImage" id="c_foiaform_captcha1_CaptchaImage" src="/hotlineoperations/BotDetectCaptcha.ashx?get=image&amp;c=c_foiaform_captcha1&amp;t=1879eb4596e54c49823a14cca0a179a6"/></div><!--
+--><a href="http://captcha.biz/asp.net-captcha-info.html" style="display: block !important; height: 10px !important; margin: 0 !important; padding: 0 !important; font-size: 9px !important; line-height: 10px !important; visibility: visible !important; font-family: Verdana, DejaVu Sans, Bitstream Vera Sans, Verdana Ref, sans-serif !important; vertical-align: middle !important; text-align: center !important; text-decoration: none !important; background-color: #f8f8f8 !important; color: #606060 !important;" target="_blank" title="What is BotDetect .NET CAPTCHA Control?">What is BotDetect .NET CAPTCHA Control?</a><!--
+--></div><!--
+--><div class="LBD_CaptchaIconsDiv" id="c_foiaform_captcha1_CaptchaIconsDiv" style="width: 24px !important;"><!--
+--><a class="LBD_ReloadLink" href="#" id="c_foiaform_captcha1_ReloadLink" onclick="c_foiaform_captcha1.ReloadImage(); this.blur(); return false;" title="Change the CAPTCHA code"><img alt="Change the CAPTCHA code" class="LBD_ReloadIcon" id="c_foiaform_captcha1_ReloadIcon" src="BotDetectCaptcha.ashx?get=ReloadIcon"/></a><!--
+--><a class="LBD_SoundLink" href="/hotlineoperations/BotDetectCaptcha.ashx?get=sound&amp;c=c_foiaform_captcha1&amp;t=1879eb4596e54c49823a14cca0a179a6&amp;s=rYjm4Rr%2fwyzwy0KP4fwaYPpShBRJMJTadAPtwey5lHVbyCtH%2foTzVSNFYGXHxwefcNSJR74cDpXXP98JgYHF4g%3d%3d" id="c_foiaform_captcha1_SoundLink" onclick="c_foiaform_captcha1.PlaySound(); this.blur(); return false;" title="Speak the CAPTCHA code"><img alt="Speak the CAPTCHA code" class="LBD_SoundIcon" id="c_foiaform_captcha1_SoundIcon" src="BotDetectCaptcha.ashx?get=SoundIcon"/></a><!--
+--><div class="LBD_Placeholder" id="c_foiaform_captcha1_AudioPlaceholder"> </div><!--
+--></div>
+<script src="BotDetectCaptcha.ashx?get=clientScriptInclude" type="text/javascript"></script>
+<script type="text/javascript">
+    //<![CDATA[
+      BotDetect.Init('c_foiaform_captcha1', '1879eb4596e54c49823a14cca0a179a6', null, true, true, true, true, 1200, 7200, 0);
+    //]]>
+    </script>
+<link href="BotDetectCaptcha.ashx?get=layoutStyleSheet" rel="Stylesheet" type="text/css"/>
+<input id="LBD_VCID_c_foiaform_captcha1" name="LBD_VCID_c_foiaform_captcha1" type="hidden" value="1879eb4596e54c49823a14cca0a179a6"/>
+</div>
+<input id="CaptchaCodeTextBox" name="CaptchaCodeTextBox" type="text"/>
+                 
+        </div>
+<div style="margin-top: 10px">
+<input class="navigation_button" id="btnSubmit" name="btnSubmit" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("btnSubmit", "", true, "", "", false, false))' type="submit" value="Submit Request"/>
+</div>
+<div class="contentSeparator"></div>
+<h2 id="contact">Mail or Fax Your Request</h2>
+<p>
+                OIG Freedom of Information Officer<br/>
+                Cohen Building, Suite 1062<br/>
+                Department of Health and Human Services<br/>
+                330 Independence Ave, S.W.<br/>
+                Washington, D.C. 20201<br/>
+                Fax: 202-708-9824</p>
+</div>
+</div>
+<!-- leftContentInterior ends -->
+</form>

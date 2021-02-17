@@ -1,0 +1,27 @@
+<form action="" class="normal-form">
+<div class="modal-header">
+<h3 class="inline-items" style="margin: 0px;">PDF export
+                        <button class="close" data-dismiss="modal" onclick="javascript:window.PF.close_pdf_export()" type="button">×</button></h3>
+</div>
+<div class="modal-body" style="text-align:center;">
+<div class="panelHide" id="panelLoadingExport">
+<p>We are preparing your PDF. Downloading will start momentarily.</p>
+<p id="pdfExportRetryMessage"></p>
+<div class="loader_image_block absolute-center">
+<i aria-hidden="true" class="fa fa-spinner fa-spin" title="pdf export loading"></i>
+</div>
+</div>
+<div class="panelHide" id="panelAskEmail">
+<p>Your PDF file will be sent to your email when ready.
+                            <input id="exportId" name="exportId" type="hidden" value=""/> </p>
+<div class="form-inline" id="panelEmail">
+<input class="form-control" id="exportEmail" name="email" placeholder="Please enter your email address here" style="width:250px; height:30px;" title="email" type="text" value=""/>
+<button class="btn btn-success" id="export-email-btn" style="maring-top:-2px; height: 32px;" type="button">Confirm</button>
+</div>
+</div>
+<div class="panelHide" id="panelError">
+<p>Please try again later.
+                            <br/><label id="errorCode" style="color: #B1B1B1"> </label></p>
+</div>
+</div>
+</form>

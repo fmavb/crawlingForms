@@ -1,0 +1,9 @@
+<form action="/search/" class="search-box__form" method="GET">
+<label class="search-box__label hidden" for="search-box">Search</label>
+<input class="search-box__input" id="search-box" name="q" placeholder="Search site" required="" type="text"/>
+<input hidden="" name="cat" value="sitesearch"/>
+<button class="search-box__button button button--primary" title="search" type="submit">
+<span class="icon icon--search-white"></span>
+<span class="hidden">Search</span>
+</button>
+</form>

@@ -1,0 +1,169 @@
+<form action="/optout/phone.html" autocomplete="OFF" class="consumer-form-panel optout-form" id="optOutForm" method="post" name="phone_form">
+<input name="formType" type="hidden" value="phone"/>
+<img src="/images/iconProfile.png"/>
+<div class="header-border">
+<h1>Contact Information</h1>
+<div class="brown-border"></div>
+</div>
+<div class="form-item-horizontal cb">
+<div class="questionText"> <label for="phoneNumber">Enter Phone Number <span class="form-required">*</span></label>
+</div>
+<div class="single-line-input">
+<input class="areaCode phoneField1" id="phoneNumber.areaCode" maxlength="3" name="phoneNumber.areaCode" oncopy="return false" onkeyup='movetoNext(this,"phoneField2")' size="3" type="text" value=""/>
+<input class="phonePrefix phoneField2" id="phoneNumber.prefix" maxlength="3" name="phoneNumber.prefix" oncopy="return false" onkeyup='movetoNext(this,"phoneField3")' size="3" type="text" value=""/>
+<input class="phoneSuffix phoneField3" id="phoneNumber.suffix" maxlength="4" name="phoneNumber.suffix" oncopy="return false" size="4" type="text" value=""/>
+</div>
+</div>
+<div class="form-item-horizontal cb">
+<div class="questionText"> <label for="phoneNumber">Re-enter Phone Number <span class="form-required">*</span></label>
+</div>
+<div class="single-line-input">
+<input class="confirmAreaCode confirmPhoneField1" id="confirmPhoneNumber.areaCode" maxlength="3" name="confirmPhoneNumber.areaCode" oncopy="return false" onkeyup='movetoNext(this,"confirmPhoneField2")' size="3" type="text" value=""/>
+<input class="confirmPhonePrefix confirmPhoneField2" id="confirmPhoneNumber.prefix" maxlength="3" name="confirmPhoneNumber.prefix" oncopy="return false" onkeyup='movetoNext(this,"confirmPhoneField3")' size="3" type="text" value=""/>
+<input class="confirmPhoneSuffix confirmPhoneField3" id="confirmPhoneNumber.suffix" maxlength="4" name="confirmPhoneNumber.suffix" oncopy="return false" size="4" type="text" value=""/>
+</div>
+</div>
+<div class="form-item-horizontal cb route-div checkbox-ques">
+<label class="questionText">I'd like to stop receiving automated phone calls about the following diseases or conditions:</label>
+</div>
+<!--<content tag="isResponsive">true</content>-->
+<div class="cb columns checkbox-column-div" id="optout-chxbox-div">
+<div class="outer-column-div">
+<!--p><span class=questionText>Please select the disease or condition about which you no longer wish to receive product information or publications:</span></p-->
+<div class="opt_disease_areas column1">
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']0" name="responses['984']" type="checkbox" value="2005"/>
+<span class="checkimg" id="imgresponses['984']0" name="imgresponses['984']"></span>
+<!--            <input type="hidden" id="responses['984']0" name="responses['984']" value="2005" />-->
+<label class="option" for="responses['984']0">Asthma</label>
+</div>
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']1" name="responses['984']" type="checkbox" value="4190"/>
+<span class="checkimg" id="imgresponses['984']1" name="imgresponses['984']"></span>
+<!--            <input type="hidden" id="responses['984']1" name="responses['984']" value="4190" />-->
+<label class="option" for="responses['984']1">COPD, Emphysema &amp; Bronchitis</label>
+</div>
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']2" name="responses['984']" type="checkbox" value="4186"/>
+<span class="checkimg" id="imgresponses['984']2" name="imgresponses['984']"></span>
+<!--            <input type="hidden" id="responses['984']2" name="responses['984']" value="4186" />-->
+<label class="option" for="responses['984']2">EGPA</label>
+</div>
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']3" name="responses['984']" type="checkbox" value="2019"/>
+<span class="checkimg" id="imgresponses['984']3" name="imgresponses['984']"></span>
+<!--            <input type="hidden" id="responses['984']3" name="responses['984']" value="2019" />-->
+<label class="option" for="responses['984']3">HIV</label>
+</div>
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']4" name="responses['984']" type="checkbox" value="4191"/>
+<span class="checkimg" id="imgresponses['984']4" name="imgresponses['984']"></span>
+<!--            <input type="hidden" id="responses['984']4" name="responses['984']" value="4191" />-->
+<label class="option" for="responses['984']4">Hypereosinophilic Syndrome</label>
+</div>
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']5" name="responses['984']" type="checkbox" value="2021"/>
+<span class="checkimg" id="imgresponses['984']5" name="imgresponses['984']"></span>
+<!--            <input type="hidden" id="responses['984']5" name="responses['984']" value="2021" />-->
+<label class="option" for="responses['984']5">Lupus</label>
+</div>
+</div>
+<div class="opt_disease_areas column2">
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']6" name="responses['984']" type="checkbox" value="3826"/>
+<!--<label for="responses['984']6" class="option">Meningitis B</label>-->
+<span class="checkimg" id="imgresponses['984']6" name="imgresponses['984']"></span>
+<label class="option" for="responses['984']6">Meningitis B</label>
+</div>
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']7" name="responses['984']" type="checkbox" value="4192"/>
+<!--<label for="responses['984']7" class="option">Multiple Myeloma</label>-->
+<span class="checkimg" id="imgresponses['984']7" name="imgresponses['984']"></span>
+<label class="option" for="responses['984']7">Multiple Myeloma</label>
+</div>
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']8" name="responses['984']" type="checkbox" value="4193"/>
+<!--<label for="responses['984']8" class="option">Ovarian Cancer</label>-->
+<span class="checkimg" id="imgresponses['984']8" name="imgresponses['984']"></span>
+<label class="option" for="responses['984']8">Ovarian Cancer</label>
+</div>
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']9" name="responses['984']" type="checkbox" value="2029"/>
+<!--<label for="responses['984']9" class="option">Whooping Cough</label>-->
+<span class="checkimg" id="imgresponses['984']9" name="imgresponses['984']"></span>
+<label class="option" for="responses['984']9">Whooping Cough</label>
+</div>
+<div class="disease_condition">
+<input class="hiddencheckbox" id="responses['984']10" name="responses['984']" type="checkbox" value="2030"/>
+<!--<label for="responses['984']10" class="option">Zoster Herpes/Shingles</label>-->
+<span class="checkimg" id="imgresponses['984']10" name="imgresponses['984']"></span>
+<label class="option" for="responses['984']10">Zoster Herpes/Shingles</label>
+</div>
+</div>
+</div>
+</div>
+<div class="cb"></div>
+<div class="cb checkbox-column-div noTopBorder">
+<div class="remove-me-postal">
+<input id="conditionsAll1" name="conditionsAll" type="checkbox" value="true"/>
+<input name="_conditionsAll" type="hidden" value="on"/>
+<span class="lastcheckimgall" id="imgconditionall" name="imgconditionall"></span>
+<label class="option" for="conditionsAll"><strong>Remove me from all US Pharmaceuticals GSK automated phone call communications</strong></label>
+</div>
+<script type="text/javascript">
+        // checkboxes
+        //        var checkedCount = 0;
+        //        var inAll = $('div.columns input[type="checkbox"]').length;
+        //        checkedCount = inAll;
+        
+        
+        
+        //        $('div.columns span.checkimg').each(function(){
+        //            $(this).click(function(){
+        //                if ($(this).parent().find('input[type="checkbox"]').is(':checked') == true) {
+        //                    checkedCount--;
+        //                    $('input[name="conditionsAll"]').removeAttr("checked");
+        //                    $('.lastcheckimgall').removeClass('lastcheckedimgall');
+        //                    $('.lastcheckimgall').parent("div").find("input[type='checkbox']").attr('checked', true);
+        //                } 
+        //                else {
+        //                    checkedCount++;
+        //                    if (checkedCount == inAll) {
+        //                    $('input[name="conditionsAll"]').attr("checked", "checked");
+        //                    $('.lastcheckimgall').addClass('lastcheckedimgall');
+        //                    }
+        //                }
+        //            });
+        //        });        
+        //$("#reset").click(function(){$('.checkimg').removeClass('checkedimg');});
+        //        $('input[type=reset]').last().click(
+        //function(){
+        //$('.checkimg').removeClass('checkedimg');
+        //});
+
+        //
+        //        // check/uncheck all conditions
+        //        $('input[name="conditionsAll"]').change(function(){
+        //            var checked = $(this).attr("checked") == true;
+        //            $('div.columns input[type="checkbox"]').each(function(){
+        //                if (checked)
+        //                    $(this).attr("checked", "checked");
+        //                else
+        //                    $(this).removeAttr("checked");
+        //            });
+        //            if (checked) checkedCount = inAll;
+        //        });
+    </script>
+</div>
+<div class="optout-route-div">
+<p>
+<span class="optout-footnote">Please allow 10 days for processing.
+                    </span>
+</p>
+</div>
+<div class="optout-btn-panel">
+<input class="button" id="reset" name="reset" type="reset" value="Reset"/>
+<input class="button" id="submit" name="Send Form" type="submit" value="Submit"/>
+</div>
+<h2 class="align-center">Thank you for your interest in GSK.</h2>
+</form>

@@ -1,0 +1,86 @@
+<form class="smartcapture-content-wrapper fuelux" id="smartcapture-block-q51c9kxbsrp" novalidate="novalidate">
+<style id="smartcapture-styles-q51c9kxbsrp">
+	#smartcapture-block-q51c9kxbsrp {
+		background-color:transparent;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-align:left;margin:0px;padding:10px 15px;
+	}
+
+	#smartcapture-block-q51c9kxbsrp .smartcapture-controls {
+		padding-bottom: 10px;
+	}
+
+	#smartcapture-block-q51c9kxbsrp .smartcapture-controls .sc-formfield-label,
+	#smartcapture-block-q51c9kxbsrp .smartcapture-controls .sc-formfield-label label,
+	#smartcapture-block-q51c9kxbsrp .smartcapture-controls .sc-formfield-input label {
+		color:#000000;font-family:Tahoma, Geneva, sans-serif;font-size:12px;
+	}
+
+	#smartcapture-block-q51c9kxbsrp input[type="radio"],
+	#smartcapture-block-q51c9kxbsrp input[type="checkbox"] {
+		margin: 0 0.4em 3px 0;
+		vertical-align: middle;
+	}
+
+	#smartcapture-block-q51c9kxbsrp input[type="text"],
+	#smartcapture-block-q51c9kxbsrp input[type="email"],
+	#smartcapture-block-q51c9kxbsrp input[type="number"] {
+		width:200px;
+	}
+
+	#smartcapture-block-q51c9kxbsrp .sc-button {
+		background-color:#B5C6D2;border-color:#B5C6D2;border-radius:3px;border-style:solid;-webkit-border-radius:3px;-moz-border-radius:3px;color:#000000;font-family:Tahoma, Geneva, sans-serif;font-size:16px;line-height:normal;padding:10px;
+	}
+
+	#smartcapture-block-q51c9kxbsrp .smartcapture-submit-button-wrapper {
+		padding-bottom:10px;text-align:left;
+	}
+
+	#smartcapture-block-q51c9kxbsrp .date-dropdown-select-boxes input {
+		display: none;
+	}
+
+	#smartcapture-block-q51c9kxbsrp .date-dropdown-select-boxes .select {
+		max-height: 28em;
+		max-width: 6em;
+		overflow: auto;
+	}
+</style>
+<table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" style="min-width: 100%; " width="100%"><tr><td class="stylingblock-content-wrapper camarker-inner"><div class="smartcapture-controls"><div class="sc-formfield-label"><label for="Email Address">Email Address *</label></div>
+<div class="sc-formfield-input"><input data-field-type="Text" data-validation-message="Please fill out this field." name="Email Address" required="required" type="text"/></div>
+</div></td></tr></table>
+<div class="smartcapture-submit-button-wrapper">
+<button class="sc-button" type="submit">Submit</button>
+</div>
+<script id="smartcapture-script-q51c9kxbsrp">
+	var scFormLoaded = function () {
+		window.ScForm.init({"gearID":"q51c9kxbsrp","smartCaptureFormID":0,"sourceKey":5231,"source":"list","triggeredSend":"","confirmationMessage":"Thank you for your submission.<br />\n<br />\n<a alias=\"\" conversion=\"false\" data-linkto=\"https://\" href=\"https://www.hhs.gov\" style=\"text-decoration: none;\" title=\"\">​Click here to return to HHS.gov</a>","buttonText":"Submit","formStyling":{"background-color":"transparent","margin-top":"0px","margin-right":"0px","margin-bottom":"0px","margin-left":"0px","padding-top":"0px","padding-right":"0px","padding-bottom":"0px","padding-left":"0px","text-align":"left","margin":"0px","padding":"10px 15px"},"fieldStyling":{"width":"200px"},"buttonStyling":{"background-color":"#B5C6D2","border-color":"#B5C6D2","border-radius":"3px","border-style":"solid","-webkit-border-radius":"3px","-moz-border-radius":"3px","color":"#000000","font-family":"Tahoma, Geneva, sans-serif","font-size":"16px","line-height":"normal","padding":"10px"},"onSubmitGotoUrlType":2});
+	};
+	window.appDomain = window.appDomain || 'mc.s10.exacttarget.com';
+	window.contentDetail = window.contentDetail || {"isSite":true,"mid":100038678,"eid":100003152,"pageID":4144,"siteID":796952,"isMobile":false};
+	if (!window.ScForm || !window.ScForm.init) {
+		var head = document.getElementsByTagName('head')[0];
+		var id = 'smartcapture-formjs-script';
+		var script = document.getElementById(id);
+		var domain = window.appDomain;
+		var el;
+		if (!script) {
+			if (domain) {
+				domain = '//' + domain;
+			}
+			el = document.createElement('script');
+			el.async = true;
+			el.id = id;
+			el.src = domain + '/CloudPages/lib/smartcapture-formjs.js';
+			el.onload = scFormLoaded;
+			head.appendChild(el);
+		} else {
+			if (script.addEventListener) {
+				script.addEventListener('load', scFormLoaded);
+			} else if (script.attachEvent) {
+				script.attachEvent('onload', scFormLoaded);
+			}
+		}
+	} else {
+		scFormLoaded();
+	}
+</script>
+</form>

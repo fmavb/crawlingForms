@@ -1,0 +1,281 @@
+<form accept-charset="UTF-8" action="/basic-search?page=3&amp;sort=views&amp;order=desc" class="ext-search-page-search-form search-mode-block" id="ext-search-page-search-form" method="post"><div><fieldset class="form-wrapper" id="edit-filters"><legend><span class="fieldset-legend">Advanced search</span></legend><div class="fieldset-wrapper"><div class="exposed-filters"><div class="form-type-select form-item-filters-operator form-item form-group">
+<label for="edit-filters-operator">Search by: </label>
+<select class="form-control form-select" id="edit-filters-operator" name="filters[operator]"><option selected="selected" value="AND">All keywords</option><option value="OR">Any of the keywords</option><option value="FULL">Full phrase</option></select>
+</div>
+<div class="form-type-select form-item-filters-field-office form-item form-group">
+<label for="edit-filters-field-office">Office </label>
+<select class="form-control form-select" id="edit-filters-field-office" multiple="multiple" name="filters[field_office][]" size="7"><option selected="selected" value="*">All</option><option value="3906">Disability, Aging, and Long-Term Care Policy</option><option value="3911">Health Policy</option><option value="3916">Human Services Policy</option><option value="17966">Immediate Office</option><option value="3921">Planning and Policy Support</option><option value="3926">Science and Data Policy</option></select>
+</div>
+<div class="form-type-checkboxes form-item-filters-field-product-type form-item form-group">
+<label for="edit-filters-field-product-type">What are you looking for? </label>
+<div class="form-checkboxes" id="edit-filters-field-product-type"><div class="form-type-checkbox form-item-filters-field-product-type-13976 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-product-type-13976" name="filters[field_product_type][13976]" type="checkbox" value="13976"/> <label for="edit-filters-field-product-type-13976">Author </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-1016 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-1016" name="filters[field_product_type][1016]" type="checkbox" value="1016"/> <label for="edit-filters-field-product-type-1016">Data Set </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-1066 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-1066" name="filters[field_product_type][1066]" type="checkbox" value="1066"/> <label for="edit-filters-field-product-type-1066">Evaluation </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13991 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-product-type-13991" name="filters[field_product_type][13991]" type="checkbox" value="13991"/> <label for="edit-filters-field-product-type-13991">Evaluation Report Entry </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13856 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-13856" name="filters[field_product_type][13856]" type="checkbox" value="13856"/> <label for="edit-filters-field-product-type-13856">Executive Summary </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-981 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-981" name="filters[field_product_type][981]" type="checkbox" value="981"/> <label for="edit-filters-field-product-type-981">HTML Report </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13981 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-13981" name="filters[field_product_type][13981]" type="checkbox" value="13981"/> <label for="edit-filters-field-product-type-13981">Interactive </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-986 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-986" name="filters[field_product_type][986]" type="checkbox" value="986"/> <label for="edit-filters-field-product-type-986">Issue Brief </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13986 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-13986" name="filters[field_product_type][13986]" type="checkbox" value="13986"/> <label for="edit-filters-field-product-type-13986">Landing Page </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-15966 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-15966" name="filters[field_product_type][15966]" type="checkbox" value="15966"/> <label for="edit-filters-field-product-type-15966">Legacy page </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-15761 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-15761" name="filters[field_product_type][15761]" type="checkbox" value="15761"/> <label for="edit-filters-field-product-type-15761">PDF document </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13971 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-13971" name="filters[field_product_type][13971]" type="checkbox" value="13971"/> <label for="edit-filters-field-product-type-13971">PDF Report </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-991 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-991" name="filters[field_product_type][991]" type="checkbox" value="991"/> <label for="edit-filters-field-product-type-991">Policy Brief </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-13996 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-product-type-13996" name="filters[field_product_type][13996]" type="checkbox" value="13996"/> <label for="edit-filters-field-product-type-13996">Report entry </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-996 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-996" name="filters[field_product_type][996]" type="checkbox" value="996"/> <label for="edit-filters-field-product-type-996">Research Brief </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-product-type-15961 form-item checkbox">
+<input checked="checked" class="form-checkbox" id="edit-filters-field-product-type-15961" name="filters[field_product_type][15961]" type="checkbox" value="15961"/> <label for="edit-filters-field-product-type-15961">Site Page </label>
+</div>
+</div>
+</div>
+<div class="form-type-checkboxes form-item-filters-field-program form-item form-group">
+<label for="edit-filters-field-program">Program </label>
+<div class="form-checkboxes" id="edit-filters-field-program"><div class="form-type-checkbox form-item-filters-field-program-36 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-36" name="filters[field_program][36]" type="checkbox" value="36"/> <label for="edit-filters-field-program-36">Adoption Assistance </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-18021 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-18021" name="filters[field_program][18021]" type="checkbox" value="18021"/> <label for="edit-filters-field-program-18021">Child Care Development Fund (CCDF) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-596 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-596" name="filters[field_program][596]" type="checkbox" value="596"/> <label for="edit-filters-field-program-596">Supplemental Security Income (SSI) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-531 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-531" name="filters[field_program][531]" type="checkbox" value="531"/> <label for="edit-filters-field-program-531">Nursing Home Transition Programs </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-536 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-536" name="filters[field_program][536]" type="checkbox" value="536"/> <label for="edit-filters-field-program-536">Program of All-Inclusive Care for the Elderly (PACE) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-541 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-541" name="filters[field_program][541]" type="checkbox" value="541"/> <label for="edit-filters-field-program-541">Projects for Assistance in Transition from Homelessness (PATH) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-546 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-546" name="filters[field_program][546]" type="checkbox" value="546"/> <label for="edit-filters-field-program-546">Refugee Resettlement Programs </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-551 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-551" name="filters[field_program][551]" type="checkbox" value="551"/> <label for="edit-filters-field-program-551">Runaway and Homeless Youth (RHY) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-556 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-556" name="filters[field_program][556]" type="checkbox" value="556"/> <label for="edit-filters-field-program-556">School feeding programs (lunch, breakfast, etc.) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-561 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-561" name="filters[field_program][561]" type="checkbox" value="561"/> <label for="edit-filters-field-program-561">Social Security Disability Insurance (SSDI) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-566 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-566" name="filters[field_program][566]" type="checkbox" value="566"/> <label for="edit-filters-field-program-566">Social Security Retirement </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-571 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-571" name="filters[field_program][571]" type="checkbox" value="571"/> <label for="edit-filters-field-program-571">Social Services Block Grant (SSBG) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-576 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-576" name="filters[field_program][576]" type="checkbox" value="576"/> <label for="edit-filters-field-program-576">Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-581 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-581" name="filters[field_program][581]" type="checkbox" value="581"/> <label for="edit-filters-field-program-581">Substance Abuse and Mental Health Services </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-586 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-586" name="filters[field_program][586]" type="checkbox" value="586"/> <label for="edit-filters-field-program-586">Substance Abuse Prevention and Treatment (SAPT) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-591 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-591" name="filters[field_program][591]" type="checkbox" value="591"/> <label for="edit-filters-field-program-591">Supplemental Nutrition Assistance Program (SNAP) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-31 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-31" name="filters[field_program][31]" type="checkbox" value="31"/> <label for="edit-filters-field-program-31">Teen Pregnancy Prevention </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-521 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-521" name="filters[field_program][521]" type="checkbox" value="521"/> <label for="edit-filters-field-program-521">Medicaid </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-601 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-601" name="filters[field_program][601]" type="checkbox" value="601"/> <label for="edit-filters-field-program-601">Temporary Assistance for Needy Families (TANF) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-17986 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-17986" name="filters[field_program][17986]" type="checkbox" value="17986"/> <label for="edit-filters-field-program-17986">Trafficking Victim Assistance Program </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-606 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-606" name="filters[field_program][606]" type="checkbox" value="606"/> <label for="edit-filters-field-program-606">Transitional Living for Homeless Youth </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-611 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-611" name="filters[field_program][611]" type="checkbox" value="611"/> <label for="edit-filters-field-program-611">Treatment for Homeless Persons Program (formerly the Addiction Treatment for Homeless Persons Program) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-616 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-616" name="filters[field_program][616]" type="checkbox" value="616"/> <label for="edit-filters-field-program-616">Unemployment Insurance (UI) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-621 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-621" name="filters[field_program][621]" type="checkbox" value="621"/> <label for="edit-filters-field-program-621">Veteran's Programs </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-6 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-6" name="filters[field_program][6]" type="checkbox" value="6"/> <label for="edit-filters-field-program-6">Women, Infants, and Children (WIC) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-526 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-526" name="filters[field_program][526]" type="checkbox" value="526"/> <label for="edit-filters-field-program-526">Medicare </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-516 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-516" name="filters[field_program][516]" type="checkbox" value="516"/> <label for="edit-filters-field-program-516">Maternal and Child Health Services (MCHS) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-41 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-41" name="filters[field_program][41]" type="checkbox" value="41"/> <label for="edit-filters-field-program-41">Aid to Families with Dependent Children (AFDC) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-101 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-101" name="filters[field_program][101]" type="checkbox" value="101"/> <label for="edit-filters-field-program-101">Dependent Care Tax Credit </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-46 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-46" name="filters[field_program][46]" type="checkbox" value="46"/> <label for="edit-filters-field-program-46">Cash and Counseling Demonstration </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-51 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-51" name="filters[field_program][51]" type="checkbox" value="51"/> <label for="edit-filters-field-program-51">Child Abuse Prevention and Treatment Act Basic State Grant Program </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-11 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-11" name="filters[field_program][11]" type="checkbox" value="11"/> <label for="edit-filters-field-program-11">Child Care and Development Block Grant (CCDBG) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-56 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-56" name="filters[field_program][56]" type="checkbox" value="56"/> <label for="edit-filters-field-program-56">Child Care Programs </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-61 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-61" name="filters[field_program][61]" type="checkbox" value="61"/> <label for="edit-filters-field-program-61">Child Care Programs, e.g. Child Care and Development Block Grant (CCDBG) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-21 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-21" name="filters[field_program][21]" type="checkbox" value="21"/> <label for="edit-filters-field-program-21">Child Protective Services </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-66 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-66" name="filters[field_program][66]" type="checkbox" value="66"/> <label for="edit-filters-field-program-66">Child Support Enforcement (CSE) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-71 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-71" name="filters[field_program][71]" type="checkbox" value="71"/> <label for="edit-filters-field-program-71">Child Welfare programs </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-76 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-76" name="filters[field_program][76]" type="checkbox" value="76"/> <label for="edit-filters-field-program-76">Child Welfare programs, including Child Protective Services </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-81 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-81" name="filters[field_program][81]" type="checkbox" value="81"/> <label for="edit-filters-field-program-81">Children's Health Insurance Program (CHIP) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-86 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-86" name="filters[field_program][86]" type="checkbox" value="86"/> <label for="edit-filters-field-program-86">Community Health Centers </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-91 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-91" name="filters[field_program][91]" type="checkbox" value="91"/> <label for="edit-filters-field-program-91">Community Services Block Grant (CSBG) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-96 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-96" name="filters[field_program][96]" type="checkbox" value="96"/> <label for="edit-filters-field-program-96">Comprehensive Community Mental Health Services for Children with Serious Emotional Disturbances (SED) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-17981 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-17981" name="filters[field_program][17981]" type="checkbox" value="17981"/> <label for="edit-filters-field-program-17981">Domestic Victims of Human Trafficking </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-511 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-511" name="filters[field_program][511]" type="checkbox" value="511"/> <label for="edit-filters-field-program-511">Low-Income Home Energy Assistance Program (LIHEAP) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-106 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-106" name="filters[field_program][106]" type="checkbox" value="106"/> <label for="edit-filters-field-program-106">Domestic violence service programs </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-466 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-466" name="filters[field_program][466]" type="checkbox" value="466"/> <label for="edit-filters-field-program-466">Earned Income Tax Credit (EITC) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-17991 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-17991" name="filters[field_program][17991]" type="checkbox" value="17991"/> <label for="edit-filters-field-program-17991">Family Violence Prevention Services </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-16 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-16" name="filters[field_program][16]" type="checkbox" value="16"/> <label for="edit-filters-field-program-16">Formerly Food Stamp Program </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-471 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-471" name="filters[field_program][471]" type="checkbox" value="471"/> <label for="edit-filters-field-program-471">Foster Care </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-476 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-476" name="filters[field_program][476]" type="checkbox" value="476"/> <label for="edit-filters-field-program-476">General Assistance </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-481 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-481" name="filters[field_program][481]" type="checkbox" value="481"/> <label for="edit-filters-field-program-481">Head Start </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-486 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-486" name="filters[field_program][486]" type="checkbox" value="486"/> <label for="edit-filters-field-program-486">Health Care for the Homeless (HCH) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-18001 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-18001" name="filters[field_program][18001]" type="checkbox" value="18001"/> <label for="edit-filters-field-program-18001">Health Marriage and Responsible Fatherhood (HMRF) </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-491 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-491" name="filters[field_program][491]" type="checkbox" value="491"/> <label for="edit-filters-field-program-491">Healthy People </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-496 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-496" name="filters[field_program][496]" type="checkbox" value="496"/> <label for="edit-filters-field-program-496">Homelessness programs </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-501 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-501" name="filters[field_program][501]" type="checkbox" value="501"/> <label for="edit-filters-field-program-501">Housing assistance programs </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-506 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-506" name="filters[field_program][506]" type="checkbox" value="506"/> <label for="edit-filters-field-program-506">Indian Health Service Programs </label>
+</div>
+<div class="form-type-checkbox form-item-filters-field-program-26 form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-program-26" name="filters[field_program][26]" type="checkbox" value="26"/> <label for="edit-filters-field-program-26">Infants </label>
+</div>
+</div>
+</div>
+<div class="date-range"><div><label><em class="placeholder">Publication Date</em> Range</label></div><div class="form-type-checkbox form-item-filters-field-release-date-isdrb form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-release-date-isdrb" name="filters[field_release_date][isdrb]" type="checkbox" value="1"/> <label for="edit-filters-field-release-date-isdrb">From </label>
+</div>
+<div class="container-inline-date"><div class="form-type-date-popup form-item-filters-field-release-date-drb form-item form-group">
+<div class="date-padding" id="edit-filters-field-release-date-drb"><div class="form-type-textfield form-item-filters-field-release-date-drb-date form-item form-group">
+<label class="element-invisible" for="edit-filters-field-release-date-drb-datepicker-popup-0">Date </label>
+<input class="form-control form-text" id="edit-filters-field-release-date-drb-datepicker-popup-0" maxlength="30" name="filters[field_release_date][drb][date]" size="20" type="text" value="02/17/2021"/>
+<p class="help-block"> E.g., 02/17/2021</p>
+</div>
+</div>
+</div>
+</div><div class="form-type-checkbox form-item-filters-field-release-date-isdre form-item checkbox">
+<input class="form-checkbox" id="edit-filters-field-release-date-isdre" name="filters[field_release_date][isdre]" type="checkbox" value="1"/> <label for="edit-filters-field-release-date-isdre">To </label>
+</div>
+<div class="container-inline-date"><div class="form-type-date-popup form-item-filters-field-release-date-dre form-item form-group">
+<div class="date-padding" id="edit-filters-field-release-date-dre"><div class="form-type-textfield form-item-filters-field-release-date-dre-date form-item form-group">
+<label class="element-invisible" for="edit-filters-field-release-date-dre-datepicker-popup-0">Date </label>
+<input class="form-control form-text" id="edit-filters-field-release-date-dre-datepicker-popup-0" maxlength="30" name="filters[field_release_date][dre][date]" size="20" type="text" value="02/17/2021"/>
+<p class="help-block"> E.g., 02/17/2021</p>
+</div>
+</div>
+</div>
+</div></div><div class="form-type-radios form-item-filters-per-page form-item form-group">
+<label for="edit-filters-per-page">Results per page </label>
+<div class="form-radios" id="edit-filters-per-page"><div class="form-type-radio form-item-filters-per-page form-item radio">
+<input class="form-radio" id="edit-filters-per-page-10" name="filters[per_page]" type="radio" value="10"/> <label for="edit-filters-per-page-10">10 </label>
+</div>
+<div class="form-type-radio form-item-filters-per-page form-item radio">
+<input checked="checked" class="form-radio" id="edit-filters-per-page-20" name="filters[per_page]" type="radio" value="20"/> <label for="edit-filters-per-page-20">20 </label>
+</div>
+<div class="form-type-radio form-item-filters-per-page form-item radio">
+<input class="form-radio" id="edit-filters-per-page-50" name="filters[per_page]" type="radio" value="50"/> <label for="edit-filters-per-page-50">50 </label>
+</div>
+<div class="form-type-radio form-item-filters-per-page form-item radio">
+<input class="form-radio" id="edit-filters-per-page-100" name="filters[per_page]" type="radio" value="100"/> <label for="edit-filters-per-page-100">100 </label>
+</div>
+</div>
+</div>
+<div class="reset-filters"><a class="active" href="/basic-search">Reset Filters</a></div><div class="container-inline form-actions form-inline form-wrapper" id="edit-filters-actions"><input class="btn btn-default form-submit" id="edit-filters-actions-submit" name="op" type="submit" value="Filter"/></div></div></div></fieldset>
+<input name="form_build_id" type="hidden" value="form-5jewVqwqgr3r2rKjevcedQj0ZH2u79IqvQcKSWnyUh4"/>
+<input name="form_id" type="hidden" value="ext_search_page_search_form"/>
+<input name="keys" type="hidden" value=""/>
+</div></form>

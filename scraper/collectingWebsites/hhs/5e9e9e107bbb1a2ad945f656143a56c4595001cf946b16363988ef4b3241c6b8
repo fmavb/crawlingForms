@@ -1,0 +1,7 @@
+<form accept-charset="UTF-8" action="/user/password" class="user-pass" data-drupal-selector="user-pass" id="user-pass" method="post">
+<div class="form-item js-form-item form-type-email js-form-type-email form-item-name js-form-item-name form-group">
+<label class="control-label js-form-required form-required" for="edit-name">Email</label>
+<input aria-required="true" autocapitalize="off" autocorrect="off" autofocus="autofocus" class="form-email required form-control" data-drupal-selector="edit-name" id="edit-name" maxlength="254" name="name" required="required" size="60" spellcheck="false" type="email" value=""/>
+</div>
+<p>Password reset instructions will be sent to your registered email address.</p><input autocomplete="off" data-drupal-selector="form-kkdsfewneaxlobzzlhx5uf66k5y1pye0jcdlrgzgp0i" name="form_build_id" type="hidden" value="form-KKdSfeWneAxlOBzZLhx5UF66k5Y1Pye0jCDlRgzGp0I"/><input data-drupal-selector="edit-user-pass" name="form_id" type="hidden" value="user_pass"/><div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"><button class="button js-form-submit form-submit btn-primary btn" data-drupal-selector="edit-submit" id="edit-submit" name="op" type="submit" value="Submit">Submit</button></div>
+</form>

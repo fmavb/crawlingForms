@@ -1,0 +1,39 @@
+<form action="" enctype="multipart/form-data" method="post"><input name="__RequestVerificationToken" type="hidden" value="tjHftvHYRU-LYS5rAsdDfRKq_3GrQFB3KbMlFKRqJNvrPs2cLYvvKzqqqj7sidIhdeuKfI5ybAtJXPUEZsewTj5VlKAJlI4BoZBSKlxloLaMiE_cqqeTYgM42ogt6zSGmY9FaQ2"/><input data-val="true" data-val-required="The FormId field is required." id="FormId" name="FormId" type="hidden" value="561cc969-80e0-4d42-9708-6a1b13b21c4f"/> <input id="FormStep" name="FormStep" type="hidden" value="1"/>
+<input id="RecordId" name="RecordId" type="hidden"/>
+<input id="PreviousClicked" name="PreviousClicked" type="hidden" value=""/>
+<div class="contourPage">
+<h4 class="contourPageName">Dane kontaktowe</h4>
+<fieldset class="contourFieldSet">
+<div class="contourField imię textfield mandatory">
+<label class="fieldLabel" for="394bbb03-2901-4798-b743-cc406482451e">Imię </label> <div><input class="text" data-val="true" data-val-required="pole wymagane " id="394bbb03-2901-4798-b743-cc406482451e" maxlength="500" name="394bbb03-2901-4798-b743-cc406482451e" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="394bbb03-2901-4798-b743-cc406482451e" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField nazwisko textfield mandatory alternating">
+<label class="fieldLabel" for="0e20f045-0b41-4e8d-8955-7d028701fe82">Nazwisko </label> <div><input class="text" data-val="true" data-val-required="pole wymagane " id="0e20f045-0b41-4e8d-8955-7d028701fe82" maxlength="500" name="0e20f045-0b41-4e8d-8955-7d028701fe82" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="0e20f045-0b41-4e8d-8955-7d028701fe82" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField stanowisko textfield mandatory">
+<label class="fieldLabel" for="189f6f67-2596-4e5e-9c33-baabbdf89936">Stanowisko </label> <div><input class="text" data-val="true" data-val-required="pole wymagane " id="189f6f67-2596-4e5e-9c33-baabbdf89936" maxlength="500" name="189f6f67-2596-4e5e-9c33-baabbdf89936" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="189f6f67-2596-4e5e-9c33-baabbdf89936" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField telefon textfield mandatory alternating">
+<label class="fieldLabel" for="d7b18479-9481-41bf-b6c2-8fadeca3848e">Telefon </label> <div><input class="text" data-val="true" data-val-required="pole wymagane " id="d7b18479-9481-41bf-b6c2-8fadeca3848e" maxlength="500" name="d7b18479-9481-41bf-b6c2-8fadeca3848e" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="d7b18479-9481-41bf-b6c2-8fadeca3848e" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField fax textfield">
+<label class="fieldLabel" for="1ab5fe11-a44d-4ef4-9194-e4c0015a6ce4">Fax </label> <div><input class="text" id="1ab5fe11-a44d-4ef4-9194-e4c0015a6ce4" maxlength="500" name="1ab5fe11-a44d-4ef4-9194-e4c0015a6ce4" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="1ab5fe11-a44d-4ef4-9194-e4c0015a6ce4" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField email textfield mandatory alternating">
+<label class="fieldLabel" for="6dcbdedb-a6d9-4984-a159-d6e8d1dcecf6">E-mail </label> <div><input class="text" data-val="true" data-val-required="pole wymagane " id="6dcbdedb-a6d9-4984-a159-d6e8d1dcecf6" maxlength="500" name="6dcbdedb-a6d9-4984-a159-d6e8d1dcecf6" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="6dcbdedb-a6d9-4984-a159-d6e8d1dcecf6" data-valmsg-replace="true"></span></div>
+</div>
+</fieldset>
+<div style="display:none">
+<input id="HoneyPot" type="text"/>
+</div>
+</div>
+<div class="contourNavigation">
+<input type="submit" value="Następny krok"/>
+</div>
+</form>

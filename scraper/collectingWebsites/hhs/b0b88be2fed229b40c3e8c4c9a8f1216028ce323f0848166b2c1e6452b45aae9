@@ -1,0 +1,72 @@
+<form action="/DataQuality/Export_SubmissionStatus" id="DataQualityExport_SubmissionStatus" method="post" name="DataQualityExport_SubmissionStatus">
+<input id="hiddenOutputFormat" name="OutputFormat" type="hidden" value="XLSX"/>
+<input id="hiddenisExportControl" name="isExportControl" type="hidden" value="true"/>
+<input id="hiddenModelHash" name="ModelHash" type="hidden" value="DataQualityExport_SubmissionStatus"/>
+<div style="float: right; align-content:center">
+<input type="hidden"/><label class="dxeBase_newTAGGSTheme dx-acc-r" id="ExportLabelDataQualityExport_SubmissionStatus" style="margin-right:5px;">Export Options:   </label><script id="dxss_1526401551">
+<!--
+ASPx.createControl(MVCxClientLabel,'ExportLabelDataQualityExport_SubmissionStatus','',{'accessibilityCompliant':true,'associatedControlName':'btnExportToXLSX'});
+
+//-->
+</script>
+<div style="float: right; clear: both;">
+<div class="dxbButton_newTAGGSTheme buttonExportXLSX dx-acc-r dxbButtonSys dxbTSys" id="btnExportToXLSXDataQualityExport_SubmissionStatus" outputformatattribute="XLSX" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Excel (XLS) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToXLSXDataQualityExport_SubmissionStatus_I" name="btnExportToXLSXDataQualityExport_SubmissionStatus" title="Save this data to a Microsoft Excel (XLS) file." type="button" value="XLSX"/><span class="dx-vam" id="btnExportToXLSXDataQualityExport_SubmissionStatus_BTC">XLSX</span>
+</div>
+</div><script id="dxss_685895897">
+<!--
+ASPx.AddHoverItems('btnExportToXLSXDataQualityExport_SubmissionStatus',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToXLSXDataQualityExport_SubmissionStatus',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToXLSXDataQualityExport_SubmissionStatus',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToXLSXDataQualityExport_SubmissionStatus',[[['dxbf'],[''],['CD']]]);
+ASPx.InitializeSVGSprite();
+ASPx.createControl(MVCxClientButton,'btnExportToXLSXDataQualityExport_SubmissionStatus','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'DataQualityExport_SubmissionStatus');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportPDF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToPDFDataQualityExport_SubmissionStatus" outputformatattribute="PDF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to an Adobe Acrobat (PDF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToPDFDataQualityExport_SubmissionStatus_I" name="btnExportToPDFDataQualityExport_SubmissionStatus" title="Save this data to an Adobe Acrobat (PDF) file." type="button" value="PDF"/><span class="dx-vam" id="btnExportToPDFDataQualityExport_SubmissionStatus_BTC">PDF</span>
+</div>
+</div><script id="dxss_743639566">
+<!--
+ASPx.AddHoverItems('btnExportToPDFDataQualityExport_SubmissionStatus',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToPDFDataQualityExport_SubmissionStatus',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToPDFDataQualityExport_SubmissionStatus',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToPDFDataQualityExport_SubmissionStatus',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToPDFDataQualityExport_SubmissionStatus','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'DataQualityExport_SubmissionStatus');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportRTF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToRTFDataQualityExport_SubmissionStatus" outputformatattribute="RTF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Word (RTF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToRTFDataQualityExport_SubmissionStatus_I" name="btnExportToRTFDataQualityExport_SubmissionStatus" title="Save this data to a Microsoft Word (RTF) file." type="button" value="RTF"/><span class="dx-vam" id="btnExportToRTFDataQualityExport_SubmissionStatus_BTC">RTF</span>
+</div>
+</div><script id="dxss_358562376">
+<!--
+ASPx.AddHoverItems('btnExportToRTFDataQualityExport_SubmissionStatus',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToRTFDataQualityExport_SubmissionStatus',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToRTFDataQualityExport_SubmissionStatus',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToRTFDataQualityExport_SubmissionStatus',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToRTFDataQualityExport_SubmissionStatus','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'DataQualityExport_SubmissionStatus');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportCSV dx-acc-r dxbButtonSys dxbTSys" id="btnExportToCSVDataQualityExport_SubmissionStatus" outputformatattribute="CSV" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Comma Separated Values (CSV) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToCSVDataQualityExport_SubmissionStatus_I" name="btnExportToCSVDataQualityExport_SubmissionStatus" title="Save this data to a Comma Separated Values (CSV) file." type="button" value="CSV"/><span class="dx-vam" id="btnExportToCSVDataQualityExport_SubmissionStatus_BTC">CSV</span>
+</div>
+</div><script id="dxss_466425076">
+<!--
+ASPx.AddHoverItems('btnExportToCSVDataQualityExport_SubmissionStatus',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToCSVDataQualityExport_SubmissionStatus',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToCSVDataQualityExport_SubmissionStatus',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToCSVDataQualityExport_SubmissionStatus',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToCSVDataQualityExport_SubmissionStatus','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'DataQualityExport_SubmissionStatus');}});
+
+//-->
+</script>
+</div>
+</div>
+</form>

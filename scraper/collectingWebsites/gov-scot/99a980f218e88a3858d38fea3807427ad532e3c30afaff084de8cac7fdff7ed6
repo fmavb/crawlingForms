@@ -1,0 +1,182 @@
+<form action="#" id="filters" method="GET">
+<input id="imagePath" type="hidden" value="/webfiles/1612365252768/assets/images/icons/"/>
+<fieldset id="filters-fields">
+<legend class="hidden-xsmall gamma filters-container__title">Filters</legend>
+<div class="buttons filter-buttons visible-xsmall">
+<button class="button button--primary js-show-filters" type="button">Show filters</button>
+</div>
+<div class="mobile-layer mobile-layer--show-tablet mobile-layer--highest mobile-layer--dark filters-layer">
+<div class="mobile-layer__overlay"></div>
+<div class="mobile-layer__content">
+<div class="filters-container">
+<button class="button filters-container__close js-cancel-filters visible-xsmall" type="button">
+<svg class="svg-icon mg-icon mg-icon--full mg-icon--inline">
+<use xlink:href="/webfiles/1612365252768/assets/images/icons/icons.stack.svg#close"></use>
+</svg>
+<span class="hidden">Close</span>
+</button>
+<div class="filters">
+<a class="hidden js-clear-filters filters__button--clear button button--cancel button--xsmall" href="?">Clear</a>
+<fieldset class="filters__fieldset filter-search" id="filter-search">
+<legend class="filters__legend">Keyword search</legend>
+<label class="filters__label" for="filters-search-term">Keyword</label>
+<div class="filters-input__wrapper">
+<input class="filter-search__input filters__input--search-term" id="filters-search-term" maxlength="160" name="term" placeholder="Search publications" title="Filter by keyword" type="text" value=""/>
+<button class="filter-search__button filter-search__button--submit js-filter-search-submit button button--clear" id="filters-search-submit" title="Submit" type="submit"></button>
+</div>
+</fieldset>
+<fieldset class="filters__fieldset" id="filter-date-range">
+<legend class="filters__legend">Filter by date</legend>
+<div class="ds_datepicker" data-module="ds-datepicker" id="fromDatePicker">
+<label class="filters__label" for="date-from">Date from</label>
+<div class="ds_input__wrapper">
+<input data-form="textinput-date-from" id="date-from" placeholder="dd/mm/yyyy" style="margin-bottom: 21px;" type="text" value=""/>
+</div>
+</div>
+<div class="ds_datepicker" data-module="ds-datepicker" id="toDatePicker">
+<label class="filters__label" for="date-to">Date to</label>
+<div class="ds_input__wrapper">
+<input data-form="textinput-date-from" id="date-to" placeholder="dd/mm/yyyy" style="margin-bottom: 21px;" type="text" value=""/>
+</div>
+</div>
+</fieldset>
+<div class="expandable filters-expandable">
+<div class="expandable-item expandable-item--open expandable-item--init-open">
+<button aria-controls="publication-types-body" aria-expanded="true" class="expandable-item__header js-toggle-expand" tabindex="0" type="button">
+<h2 class="delta expandable-item__title">Publication types</h2>
+<span class="expandable-item__icon">
+<svg class="svg-icon mg-icon mg-icon--full optional-icon icon-more">
+<use xlink:href="/webfiles/1612365252768/assets/images/icons/icons.stack.svg#sharp-expand_more-24px"></use>
+</svg>
+<svg class="svg-icon mg-icon mg-icon--full optional-icon icon-less">
+<use xlink:href="/webfiles/1612365252768/assets/images/icons/icons.stack.svg#sharp-expand_less-24px"></use>
+</svg>
+</span>
+</button>
+<div class="expandable-item__body expandable-item__body--with-padding scrollable scrollable--shadow" id="publication-types-body">
+<div class="scrollable__content scrollable__content--20 checkbox-group">
+<input class="fancy-checkbox checkbox-group__input" id="advice-and-guidance" name="publicationTypes" type="radio" value="advice-and-guidance"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="advice-and-guidance">Advice and guidance</label>
+<input class="fancy-checkbox checkbox-group__input" id="agreement" name="publicationTypes" type="radio" value="agreement"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="agreement">Agreement</label>
+<input class="fancy-checkbox checkbox-group__input" id="consultation-analysis" name="publicationTypes" type="radio" value="consultation-analysis"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="consultation-analysis">Consultation analysis</label>
+<input class="fancy-checkbox checkbox-group__input" id="consultation-paper" name="publicationTypes" type="radio" value="consultation-paper"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="consultation-paper">Consultation paper</label>
+<input class="fancy-checkbox checkbox-group__input" id="corporate-report" name="publicationTypes" type="radio" value="corporate-report"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="corporate-report">Corporate report</label>
+<input class="fancy-checkbox checkbox-group__input" id="correspondence" name="publicationTypes" type="radio" value="correspondence"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="correspondence">Correspondence</label>
+<input class="fancy-checkbox checkbox-group__input" id="foi-eir-release" name="publicationTypes" type="radio" value="foi-eir-release"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="foi-eir-release">FOI/EIR release</label>
+<input class="fancy-checkbox checkbox-group__input" id="factsheet" name="publicationTypes" type="radio" value="factsheet"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="factsheet">Factsheet</label>
+<input class="fancy-checkbox checkbox-group__input" id="form" name="publicationTypes" type="radio" value="form"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="form">Form</label>
+<input class="fancy-checkbox checkbox-group__input" id="impact-assessment" name="publicationTypes" type="radio" value="impact-assessment"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="impact-assessment">Impact assessment</label>
+<input class="fancy-checkbox checkbox-group__input" id="independent-report" name="publicationTypes" type="radio" value="independent-report"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="independent-report">Independent report</label>
+<input class="fancy-checkbox checkbox-group__input" id="map" name="publicationTypes" type="radio" value="map"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="map">Map</label>
+<input class="fancy-checkbox checkbox-group__input" id="minutes" name="publicationTypes" type="radio" value="minutes"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="minutes">Minutes</label>
+<input class="fancy-checkbox checkbox-group__input" id="progress-report" name="publicationTypes" type="radio" value="progress-report"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="progress-report">Progress report</label>
+<input class="fancy-checkbox checkbox-group__input" id="regulation-directive-order" name="publicationTypes" type="radio" value="regulation-directive-order"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="regulation-directive-order">Regulation/directive/order</label>
+<input class="fancy-checkbox checkbox-group__input" id="research-and-analysis" name="publicationTypes" type="radio" value="research-and-analysis"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="research-and-analysis">Research and analysis</label>
+<input class="fancy-checkbox checkbox-group__input" id="speech-statement" name="publicationTypes" type="radio" value="speech-statement"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="speech-statement">Speech/statement</label>
+<input class="fancy-checkbox checkbox-group__input" id="statistics" name="publicationTypes" type="radio" value="statistics"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="statistics">Statistics</label>
+<input class="fancy-checkbox checkbox-group__input" id="strategy-plan" name="publicationTypes" type="radio" value="strategy-plan"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="strategy-plan">Strategy/plan</label>
+<input class="fancy-checkbox checkbox-group__input" id="transparency-data" name="publicationTypes" type="radio" value="transparency-data"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="transparency-data">Transparency data</label>
+</div>
+</div>
+</div>
+<div class="expandable-item expandable-item--open expandable-item--init-open">
+<button aria-controls="topics-body" aria-expanded="true" class="expandable-item__header js-toggle-expand" tabindex="0" type="button">
+<h2 class="delta expandable-item__title">Topics</h2>
+<span class="expandable-item__icon">
+<svg class="svg-icon mg-icon mg-icon--full optional-icon icon-more">
+<use xlink:href="/webfiles/1612365252768/assets/images/icons/icons.stack.svg#sharp-expand_more-24px"></use>
+</svg>
+<svg class="svg-icon mg-icon mg-icon--full optional-icon icon-less">
+<use xlink:href="/webfiles/1612365252768/assets/images/icons/icons.stack.svg#sharp-expand_less-24px"></use>
+</svg>
+</span>
+</button>
+<div class="expandable-item__body expandable-item__body--with-padding scrollable scrollable--shadow" id="topics-body">
+<div class="scrollable__content scrollable__content--20 checkbox-group">
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/arts-culture-and-sport/arts-culture-and-sport" name="topics" type="radio" value="Arts, culture and sport"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/arts-culture-and-sport/arts-culture-and-sport">Arts, culture and sport</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/brexit/brexit" name="topics" type="radio" value="Brexit"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/brexit/brexit">Brexit</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/building-planning-and-design/building-planning-and-design" name="topics" type="radio" value="Building, planning and design"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/building-planning-and-design/building-planning-and-design">Building, planning and design</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/business-industry-and-innovation/business-industry-and-innovation" name="topics" type="radio" value="Business, industry and innovation"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/business-industry-and-innovation/business-industry-and-innovation">Business, industry and innovation</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/children-and-families/children-and-families" name="topics" type="radio" value="Children and families"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/children-and-families/children-and-families">Children and families</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/communities-and-third-sector/communities-and-third-sector" name="topics" type="radio" value="Communities and third sector"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/communities-and-third-sector/communities-and-third-sector">Communities and third sector</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/constitution-and-democracy/constitution-and-democracy" name="topics" type="radio" value="Constitution and democracy"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/constitution-and-democracy/constitution-and-democracy">Constitution and democracy</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/coronavirus-covid-19/coronavirus-covid-19" name="topics" type="radio" value="Coronavirus in Scotland"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/coronavirus-covid-19/coronavirus-covid-19">Coronavirus in Scotland</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/economy/economy" name="topics" type="radio" value="Economy"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/economy/economy">Economy</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/education/education" name="topics" type="radio" value="Education"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/education/education">Education</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/energy/energy" name="topics" type="radio" value="Energy"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/energy/energy">Energy</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/environment-and-climate-change/environment-and-climate-change" name="topics" type="radio" value="Environment and climate change"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/environment-and-climate-change/environment-and-climate-change">Environment and climate change</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/equality-and-rights/equality-and-rights" name="topics" type="radio" value="Equality and rights"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/equality-and-rights/equality-and-rights">Equality and rights</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/farming-and-rural/farming-and-rural" name="topics" type="radio" value="Farming and rural"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/farming-and-rural/farming-and-rural">Farming and rural</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/health-and-social-care/health-and-social-care" name="topics" type="radio" value="Health and social care"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/health-and-social-care/health-and-social-care">Health and social care</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/housing/housing" name="topics" type="radio" value="Housing"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/housing/housing">Housing</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/international/international" name="topics" type="radio" value="International"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/international/international">International</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/law-and-order/law-and-order" name="topics" type="radio" value="Law and order"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/law-and-order/law-and-order">Law and order</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/marine-and-fisheries/marine-and-fisheries" name="topics" type="radio" value="Marine and fisheries"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/marine-and-fisheries/marine-and-fisheries">Marine and fisheries</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/money-and-tax/money-and-tax" name="topics" type="radio" value="Money and tax"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/money-and-tax/money-and-tax">Money and tax</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/programme-for-government/programme-for-government" name="topics" type="radio" value="Programme for Government"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/programme-for-government/programme-for-government">Programme for Government</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/public-safety-and-emergencies/public-safety-and-emergencies" name="topics" type="radio" value="Public safety and emergencies"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/public-safety-and-emergencies/public-safety-and-emergencies">Public safety and emergencies</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/public-sector/public-sector" name="topics" type="radio" value="Public sector"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/public-sector/public-sector">Public sector</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/budget/budget" name="topics" type="radio" value="Scottish Budget"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/budget/budget">Scottish Budget</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/about/how-government-is-run/statistics-and-research/statistics-and-research" name="topics" type="radio" value="Statistics and research"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/about/how-government-is-run/statistics-and-research/statistics-and-research">Statistics and research</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/transport/transport" name="topics" type="radio" value="Transport"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/transport/transport">Transport</label>
+<input class="fancy-checkbox checkbox-group__input" id="/content/documents/govscot/topics/work-and-skills/work-and-skills" name="topics" type="radio" value="Work and skills"/>
+<label class="checkbox-group__label fancy-radio fancy-radio--min" for="/content/documents/govscot/topics/work-and-skills/work-and-skills">Work and skills</label>
+</div>
+</div>
+</div>
+</div>
+<div id="filter-actions">
+<button class="visible-xsmall button button--medium button--cancel filter-actions__cancel js-cancel-filters" id="cancel-filters" name="cancel-filters" type="button">Cancel</button>
+<button class="button button--medium button--primary filter-actions__apply js-apply-filters" id="apply-filters" name="apply-filters" type="submit">Apply</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</fieldset>
+</form>

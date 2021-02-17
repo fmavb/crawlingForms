@@ -1,0 +1,5 @@
+<form action="/education-scotland/search/" class="search-box__form" method="get">
+<input name="OriginSubsite" style="display: none" type="text" value="0"/>
+<input aria-label="Search this site input" class="search-box__input" name="query" placeholder="Search this site" type="text"/>
+<button aria-label="Search this site button" class="search-box__button"></button>
+</form>

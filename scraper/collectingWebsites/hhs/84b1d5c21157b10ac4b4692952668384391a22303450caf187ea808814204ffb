@@ -1,0 +1,98 @@
+<form action="/ocr/smartscreen/main.jsf" enctype="multipart/form-data" id="ocrForm" method="post" name="ocrForm">
+<input name="ocrForm" type="hidden" value="ocrForm"/>
+<div id="contentWrapper">
+<div class="content">
+<h2>Complaint Portal Assistant</h2>
+<div>
+<p>
+							The U.S. Department of Health and Human Services (HHS) Office for Civil Rights (OCR),
+							enforces federal civil rights laws, conscience and religious freedom laws, the Health Insurance Portability
+							and Accountability Act (HIPAA) Privacy, Security, and Breach Notification Rules, and the Patient Safety Act and Rule, which together protect
+							your fundamental rights of nondiscrimination, conscience, religious freedom,
+							and health information privacy at covered entities.
+						</p>
+<ol start="1" style="padding-left:20px">
+<li><strong>Federal Civil Rights Laws</strong>
+								help to protect you from unfair treatment or discrimination because
+								of your race, color, national origin, disability, age, or sex.
+							</li>
+</ol>
+<ol start="2" style="padding-left:20px">
+<li><strong>Federal Conscience and Religious Freedom Laws</strong>
+								help to protect you from coercion, discrimination on the basis of
+								conscience or religion, and burdens on the free exercise of religion.
+							</li>
+</ol>
+<p style="margin-left: 20px;">
+							If you believe that a
+							<a href="https://www.hhs.gov/civil-rights/for-providers/provider-obligations/index.html#whatis" target="_blank">covered entity</a>
+							discriminated
+							against you or violated your (or someone else's) civil rights, conscience rights,
+							or religious freedom rights, you may file a complaint with OCR. You may file a
+							complaint for yourself, your organization, or for someone else.
+						</p>
+<div style="margin-left: 20px;">
+							The following are some examples of potential covered entities
+							(including institutions and personnel) that must abide by federal civil rights, conscience, and religious freedom laws:
+						</div>
+<div style="margin-left: 4em;">
+							• State and local government agencies that are responsible for administering health care
+							• State and local government income assistance and human service agencies
+							• Hospitals
+							• Medicaid and Medicare providers
+							• Physicians and other health care professionals in private practice with patients assisted by Medicaid
+							• Family health centers
+							• Community mental health centers
+							• Alcohol and drug treatment centers
+							• Nursing homes
+							• Foster care homes
+							• Public and private adoption and foster care agencies
+							• Day care centers
+							• Senior citizen centers
+							• Nutrition programs
+							• Any entity established under the Affordable Care Act
+							• Health insurance plans or companies
+							• HMOs
+							• Pharmacies
+							• Homeless shelters
+							• Health researchers.
+						</div>
+<ol start="3" style="padding-left:20px">
+<li><strong>The HIPAA Privacy Rule</strong>
+								is a federal law that gives you rights over your health information and sets rules and limits
+								on who can look at and receive your health information. The Privacy Rule applies to all forms
+								of individuals' protected health information, whether electronic, written, or oral.
+								The <strong>HIPAA Security Rule</strong> is a federal law that requires security for health information in electronic form.
+								In addition, the <strong>Patient Safety Act and Rule</strong> establishes a voluntary reporting system to enhance the data available
+								to assess and resolve patient safety and health care quality issues,
+								and provides confidentiality protections for patient safety concerns.
+							</li>
+</ol>
+<p style="margin-left: 20px;">
+							If you believe that a covered entity violated your (or someone else's)
+							health information privacy rights or committed another violation under the HIPAA Privacy, Security, and Breach Notification Rules or the Patient Safety Act and Rule, you may file a complaint with OCR.
+							The following are some examples of covered entities that must
+							meet the requirements of the federal Privacy, Security and Breach Notification Rules:
+							• Health Plans
+							• Health care clearinghouses
+							• and Health care providers that conduct a portion of their business electronically using a HIPAA
+							covered transaction.  OCR can investigate complaints against covered entities and their business associates.
+							You may file a complaint for yourself, your organization, or for someone else.
+						</p>
+</div>
+<br/><br/><span style="font-weight: bold">Question 1 - What is the nature of your complaint?</span>
+<br/><br/>
+<fieldset class="noBorders">
+<legend class="hidden">Nature of the complaint</legend><table class="ui-selectoneradio ui-widget" id="ocrForm:inputBreachType" role="presentation"><tr><td><div class="ui-radiobutton ui-widget"><div class="ui-helper-hidden-accessible"><input id="ocrForm:inputBreachType:0" name="ocrForm:inputBreachType" type="radio" value="CR"/></div><div class="ui-radiobutton-box ui-widget ui-corner-all ui-state-default"><span class="ui-radiobutton-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="ocrForm:inputBreachType:0">Violation of Civil Rights (Based on Race, Color, National Origin, Disability, Age, or Sex)</label></td></tr><tr><td><div class="ui-radiobutton ui-widget"><div class="ui-helper-hidden-accessible"><input id="ocrForm:inputBreachType:1" name="ocrForm:inputBreachType" type="radio" value="CRF"/></div><div class="ui-radiobutton-box ui-widget ui-corner-all ui-state-default"><span class="ui-radiobutton-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="ocrForm:inputBreachType:1">Violation of Conscience or Religious Freedom</label></td></tr><tr><td><div class="ui-radiobutton ui-widget"><div class="ui-helper-hidden-accessible"><input id="ocrForm:inputBreachType:2" name="ocrForm:inputBreachType" type="radio" value="HIP"/></div><div class="ui-radiobutton-box ui-widget ui-corner-all ui-state-default"><span class="ui-radiobutton-icon ui-icon ui-icon-blank ui-c"></span></div></div><label for="ocrForm:inputBreachType:2">Violation of Privacy or Security of Health Information (HIPAA)</label></td></tr></table><script id="ocrForm:inputBreachType_s" type="text/javascript">$(function(){PrimeFaces.cw("SelectOneRadio","widget_ocrForm_inputBreachType",{id:"ocrForm:inputBreachType"});});</script>
+</fieldset>
+<br/><button class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="ocrForm:j_idt32" name="ocrForm:j_idt32" onclick='PrimeFaces.ab({s:"ocrForm:j_idt32"});return false;' type="submit"><span class="ui-button-text ui-c">Next</span></button><script id="ocrForm:j_idt32_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_ocrForm_j_idt32",{id:"ocrForm:j_idt32"});</script>
+<br/><br/><br/>
+					If you have any questions or need help filing a civil rights, conscience or religious freedom,
+					or health information privacy complaint, you may email OCR at <a href="mailto:OCRMail@hhs.gov">OCRMail@hhs.gov</a> or call the U.S. Department
+					of Health and Human Services, Office for Civil Rights toll-free at: 1-800-368-1019, TDD: 1-800-537-7697.
+					<br/><br/>
+					We provide alternative formats (such as Braille and large print),
+					auxiliary aids and services (such as a relay service), and language assistance.
+				</div>
+</div><input autocomplete="off" id="j_id1:javax.faces.ViewState:1" name="javax.faces.ViewState" type="hidden" value="3731153052536629650:8239374174953572197"/>
+</form>

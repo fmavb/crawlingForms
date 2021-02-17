@@ -1,0 +1,71 @@
+<form action="/ReportsGrants/Export_GrantsbyActivityType" id="ReportsGrantsExport_GrantsbyActivityType" method="post" name="ReportsGrantsExport_GrantsbyActivityType">
+<input id="hiddenOutputFormat" name="OutputFormat" type="hidden" value="XLSX"/>
+<input id="hiddenisExportControl" name="isExportControl" type="hidden" value="true"/>
+<input id="hiddenModelHash" name="ModelHash" type="hidden" value="ReportsGrantsExport_GrantsbyActivityType"/>
+<div style="float: right; align-content:center">
+<label class="dxeBase_newTAGGSTheme dx-acc-r" id="ExportLabelReportsGrantsExport_GrantsbyActivityType" style="margin-right:5px;">Export Options:   </label><script id="dxss_60334059">
+<!--
+ASPx.createControl(MVCxClientLabel,'ExportLabelReportsGrantsExport_GrantsbyActivityType','',{'accessibilityCompliant':true,'associatedControlName':'btnExportToXLSX'});
+
+//-->
+</script>
+<div style="float: right; clear: both;">
+<div class="dxbButton_newTAGGSTheme buttonExportXLSX dx-acc-r dxbButtonSys dxbTSys" id="btnExportToXLSXReportsGrantsExport_GrantsbyActivityType" outputformatattribute="XLSX" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Excel (XLS) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToXLSXReportsGrantsExport_GrantsbyActivityType_I" name="btnExportToXLSXReportsGrantsExport_GrantsbyActivityType" title="Save this data to a Microsoft Excel (XLS) file." type="button" value="XLSX"/><span class="dx-vam" id="btnExportToXLSXReportsGrantsExport_GrantsbyActivityType_BTC">XLSX</span>
+</div>
+</div><script id="dxss_739755241">
+<!--
+ASPx.AddHoverItems('btnExportToXLSXReportsGrantsExport_GrantsbyActivityType',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToXLSXReportsGrantsExport_GrantsbyActivityType',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToXLSXReportsGrantsExport_GrantsbyActivityType',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToXLSXReportsGrantsExport_GrantsbyActivityType',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToXLSXReportsGrantsExport_GrantsbyActivityType','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsGrantsExport_GrantsbyActivityType');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportPDF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToPDFReportsGrantsExport_GrantsbyActivityType" outputformatattribute="PDF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to an Adobe Acrobat (PDF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToPDFReportsGrantsExport_GrantsbyActivityType_I" name="btnExportToPDFReportsGrantsExport_GrantsbyActivityType" title="Save this data to an Adobe Acrobat (PDF) file." type="button" value="PDF"/><span class="dx-vam" id="btnExportToPDFReportsGrantsExport_GrantsbyActivityType_BTC">PDF</span>
+</div>
+</div><script id="dxss_952663150">
+<!--
+ASPx.AddHoverItems('btnExportToPDFReportsGrantsExport_GrantsbyActivityType',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToPDFReportsGrantsExport_GrantsbyActivityType',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToPDFReportsGrantsExport_GrantsbyActivityType',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToPDFReportsGrantsExport_GrantsbyActivityType',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToPDFReportsGrantsExport_GrantsbyActivityType','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsGrantsExport_GrantsbyActivityType');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportRTF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToRTFReportsGrantsExport_GrantsbyActivityType" outputformatattribute="RTF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Word (RTF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToRTFReportsGrantsExport_GrantsbyActivityType_I" name="btnExportToRTFReportsGrantsExport_GrantsbyActivityType" title="Save this data to a Microsoft Word (RTF) file." type="button" value="RTF"/><span class="dx-vam" id="btnExportToRTFReportsGrantsExport_GrantsbyActivityType_BTC">RTF</span>
+</div>
+</div><script id="dxss_1993983144">
+<!--
+ASPx.AddHoverItems('btnExportToRTFReportsGrantsExport_GrantsbyActivityType',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToRTFReportsGrantsExport_GrantsbyActivityType',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToRTFReportsGrantsExport_GrantsbyActivityType',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToRTFReportsGrantsExport_GrantsbyActivityType',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToRTFReportsGrantsExport_GrantsbyActivityType','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsGrantsExport_GrantsbyActivityType');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportCSV dx-acc-r dxbButtonSys dxbTSys" id="btnExportToCSVReportsGrantsExport_GrantsbyActivityType" outputformatattribute="CSV" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Comma Separated Values (CSV) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToCSVReportsGrantsExport_GrantsbyActivityType_I" name="btnExportToCSVReportsGrantsExport_GrantsbyActivityType" title="Save this data to a Comma Separated Values (CSV) file." type="button" value="CSV"/><span class="dx-vam" id="btnExportToCSVReportsGrantsExport_GrantsbyActivityType_BTC">CSV</span>
+</div>
+</div><script id="dxss_343174676">
+<!--
+ASPx.AddHoverItems('btnExportToCSVReportsGrantsExport_GrantsbyActivityType',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToCSVReportsGrantsExport_GrantsbyActivityType',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToCSVReportsGrantsExport_GrantsbyActivityType',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToCSVReportsGrantsExport_GrantsbyActivityType',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToCSVReportsGrantsExport_GrantsbyActivityType','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsGrantsExport_GrantsbyActivityType');}});
+
+//-->
+</script>
+</div>
+</div>
+</form>

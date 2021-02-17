@@ -1,0 +1,40 @@
+<form class="usa-form maxw-none">
+<h3 class="font-family-ui margin-top-3">Filter by</h3>
+<h4 class="font-family-ui margin-top-2">Type</h4>
+<div class="usa-checkbox filter--type margin-top-2">
+<input class="usa-checkbox__input" id="child-support" name="Child Support" type="checkbox" value="child-support"/>
+<label class="usa-checkbox__label" for="child-support">Child Support</label>
+</div>
+<div class="usa-checkbox filter--type">
+<input class="usa-checkbox__input" id="cia-reportable-events" name="CIA Reportable Events" type="checkbox" value="cia-reportable-events"/>
+<label class="usa-checkbox__label" for="cia-reportable-events">CIA Reportable Events</label>
+</div>
+<div class="usa-checkbox filter--type">
+<input checked="" class="usa-checkbox__input" id="cmp-and-affirmative-exclusions" name="CMP and Affirmative Exclusions" type="checkbox" value="cmp-and-affirmative-exclusions"/>
+<label class="usa-checkbox__label" for="cmp-and-affirmative-exclusions">CMP and Affirmative Exclusions</label>
+</div>
+<div class="usa-checkbox filter--type">
+<input class="usa-checkbox__input" id="criminal-and-civil-actions" name="Criminal and Civil Actions" type="checkbox" value="criminal-and-civil-actions"/>
+<label class="usa-checkbox__label" for="criminal-and-civil-actions">Criminal and Civil Actions</label>
+</div>
+<div class="usa-checkbox filter--type">
+<input class="usa-checkbox__input" id="grantee-self-disclosures" name="Grantee Self-Disclosures" type="checkbox" value="grantee-self-disclosures"/>
+<label class="usa-checkbox__label" for="grantee-self-disclosures">Grantee Self-Disclosures</label>
+</div>
+<div class="usa-checkbox filter--type">
+<input class="usa-checkbox__input" id="medicare-fraud-strike-force" name="Medicare Fraud Strike Force" type="checkbox" value="medicare-fraud-strike-force"/>
+<label class="usa-checkbox__label" for="medicare-fraud-strike-force">Medicare Fraud Strike Force</label>
+</div>
+<div class="usa-checkbox filter--type">
+<input class="usa-checkbox__input" id="provider-self-disclosures" name="Provider Self-Disclosures" type="checkbox" value="provider-self-disclosures"/>
+<label class="usa-checkbox__label" for="provider-self-disclosures">Provider Self-Disclosures</label>
+</div>
+<div class="usa-checkbox filter--type">
+<input class="usa-checkbox__input" id="state-enforcement-agencies" name="State Enforcement Agencies" type="checkbox" value="state-enforcement-agencies"/>
+<label class="usa-checkbox__label" for="state-enforcement-agencies">State Enforcement Agencies</label>
+</div>
+<div class="usa-checkbox filter--type">
+<input class="usa-checkbox__input" id="stipulated-penalties-and-material-breaches" name="Stipulated Penalties and Material Breaches" type="checkbox" value="stipulated-penalties-and-material-breaches"/>
+<label class="usa-checkbox__label" for="stipulated-penalties-and-material-breaches">Stipulated Penalties and Material Breaches</label>
+</div>
+</form>

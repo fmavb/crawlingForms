@@ -1,0 +1,7 @@
+<form action="/search" autocomplete="off" id="searchBar" method="GET">
+<input aria-labelledby="Search the knowledge base" class="search-query" name="query" placeholder="Search the knowledge base" title="search-query" type="text" value=""/>
+<button aria-labelledby="Search" type="submit"><i class="icon-search lp"></i><span>Search</span></button>
+<div id="serp-dd" style="display:none;">
+<ul class="result"></ul>
+</div>
+</form>

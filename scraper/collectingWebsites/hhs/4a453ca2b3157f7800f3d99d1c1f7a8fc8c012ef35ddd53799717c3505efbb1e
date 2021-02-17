@@ -1,0 +1,11 @@
+<form accept-charset="UTF-8" action="https://search.usa.gov/search" class="float-none text-middle desktop:margin-right-3" id="secondary_search_form" method="get">
+<input name="utf8" type="hidden" value="✓"/>
+<div role="search">
+<label class="usa-sr-only" for="secondary_query">Search</label>
+<input autocomplete="off" class="usagov-search-autocomplete ui-autocomplete-input" id="secondary_query" name="query" type="search"/>
+<input id="secondary_affiliate" name="affiliate" type="hidden" value="hhs_oig"/>
+<button class="usa-button" type="submit">
+<span class="usa-sr-only">Submit Search</span>
+</button>
+</div>
+</form>

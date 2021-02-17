@@ -1,0 +1,101 @@
+<form action="" enctype="multipart/form-data" method="post"><input name="__RequestVerificationToken" type="hidden" value="aykbjKSiuTpCMo_KBAZzvuUJcpJKAn7eICjASIAbDD7yrvN5vKaQxl_ZkFjTqJMeexWKh0yqQ_LDR1eH3M2a584SvunPxRnFanHaVX05aedU0DgzfPO8lMRfLawgw2yMjywGuw2"/><input data-val="true" data-val-required="The FormId field is required." id="FormId" name="FormId" type="hidden" value="a98c3c5b-ff0d-4f2e-be96-d080657e29ee"/> <input id="FormStep" name="FormStep" type="hidden" value="1"/>
+<input id="RecordId" name="RecordId" type="hidden"/>
+<input id="PreviousClicked" name="PreviousClicked" type="hidden" value=""/>
+<div class="contourPage">
+<h4 class="contourPageName"></h4>
+<div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div> <fieldset class="contourFieldSet">
+<div class="contourField nrklienta textfield mandatory">
+<label class="fieldLabel" for="75ba30b6-c363-4a4c-a968-97d64da5f54d">Nr klienta <span class="contourIndicator"></span></label> <div><input class="text" data-regex="\b[0-9]{7}\b|\b[0-9]{10}\b" data-val="true" data-val-regex="Nr klienta is not valid" data-val-required="Nr klienta jest polem obowiązkowym" id="75ba30b6-c363-4a4c-a968-97d64da5f54d" maxlength="500" name="75ba30b6-c363-4a4c-a968-97d64da5f54d" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="75ba30b6-c363-4a4c-a968-97d64da5f54d" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField nazwapodmiotu textfield alternating">
+<label class="fieldLabel" for="2f7a5c35-51f2-4786-9b43-d73197690916">Nazwa podmiotu </label> <div><input class="text" id="2f7a5c35-51f2-4786-9b43-d73197690916" maxlength="500" name="2f7a5c35-51f2-4786-9b43-d73197690916" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="2f7a5c35-51f2-4786-9b43-d73197690916" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField ulica textfield">
+<label class="fieldLabel" for="f16d9224-09da-4655-969a-d9eae464f899">Ulica </label> <div><input class="text" id="f16d9224-09da-4655-969a-d9eae464f899" maxlength="500" name="f16d9224-09da-4655-969a-d9eae464f899" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="f16d9224-09da-4655-969a-d9eae464f899" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField miejscowość textfield alternating">
+<label class="fieldLabel" for="33928734-e97c-472c-9446-4d9ffa100da6">Miejscowość </label> <div><input class="text" id="33928734-e97c-472c-9446-4d9ffa100da6" maxlength="500" name="33928734-e97c-472c-9446-4d9ffa100da6" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="33928734-e97c-472c-9446-4d9ffa100da6" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField nrtelefonu textfield">
+<label class="fieldLabel" for="5221a425-f8e8-4558-b866-0319e260ff07">Nr telefonu </label> <div><input class="text" id="5221a425-f8e8-4558-b866-0319e260ff07" maxlength="500" name="5221a425-f8e8-4558-b866-0319e260ff07" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="5221a425-f8e8-4558-b866-0319e260ff07" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField adresemailosobyzgłaszającej textfield alternating">
+<label class="fieldLabel" for="89bbc2fb-2906-4c74-850f-baa789ea8e64">Adres e-mail osoby zgłaszającej </label> <div><input class="text" data-regex="^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" data-val="true" data-val-regex="Adres e-mail jest niepoprawny" id="89bbc2fb-2906-4c74-850f-baa789ea8e64" maxlength="500" name="89bbc2fb-2906-4c74-850f-baa789ea8e64" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="89bbc2fb-2906-4c74-850f-baa789ea8e64" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField imięinazwiskoosobyzgłaszającej textfield">
+<label class="fieldLabel" for="d68f5c46-b556-4b6d-acb5-4b8c75701c2a">Imię i nazwisko osoby zgłaszającej </label> <div><input class="text" id="d68f5c46-b556-4b6d-acb5-4b8c75701c2a" maxlength="500" name="d68f5c46-b556-4b6d-acb5-4b8c75701c2a" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="d68f5c46-b556-4b6d-acb5-4b8c75701c2a" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField rodzajreklamacji dropdownlist mandatory alternating">
+<label class="fieldLabel" for="5d06ca81-2948-4654-b3ff-7eef94db5efa">Rodzaj reklamacji <span class="contourIndicator"></span></label> <div><select data-val="true" data-val-required="Rodzaj reklamacji jest polem obowiązkowym" id="5d06ca81-2948-4654-b3ff-7eef94db5efa" name="5d06ca81-2948-4654-b3ff-7eef94db5efa">
+<option value=""></option>
+<option value="Nadwyżka  w dostawie">Nadwyżka  w dostawie</option>
+<option value="Brak produktu w dostawie">Brak produktu w dostawie</option>
+<option value="Produkt niezamawiany">Produkt niezamawiany</option>
+<option value="Uszkodzenie w dostawie">Uszkodzenie w dostawie</option>
+<option value="Reklamacja cenowa">Reklamacja cenowa</option>
+<option value="Reklamacja jakościowa">Reklamacja jakościowa</option>
+</select>
+<span class="field-validation-valid" data-valmsg-for="5d06ca81-2948-4654-b3ff-7eef94db5efa" data-valmsg-replace="true"></span></div>
+</div>
+</fieldset>
+<fieldset class="contourFieldSet">
+<legend>Szczegóły reklamacji</legend>
+<div class="contourField nrfaktury textfield mandatory">
+<label class="fieldLabel" for="8e7c41dd-d1ea-40e0-a000-c007ec78bc96">Nr Faktury <span class="contourIndicator"></span></label> <div><input class="text" data-regex="\b[0-9]{7}\b|\b[0-9]{10}\b" data-val="true" data-val-regex="Nr Faktury jest niepoprawny" data-val-required="Nr Faktury jest polem obowiązkowym" id="8e7c41dd-d1ea-40e0-a000-c007ec78bc96" maxlength="500" name="8e7c41dd-d1ea-40e0-a000-c007ec78bc96" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="8e7c41dd-d1ea-40e0-a000-c007ec78bc96" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField nazwaproduktuleczniczego textfield alternating">
+<label class="fieldLabel" for="ae0b3f2d-4a2e-4f65-818f-17148a3b12bc">Nazwa produktu leczniczego </label> <div><input class="text" id="ae0b3f2d-4a2e-4f65-818f-17148a3b12bc" maxlength="500" name="ae0b3f2d-4a2e-4f65-818f-17148a3b12bc" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="ae0b3f2d-4a2e-4f65-818f-17148a3b12bc" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField nrserii textfield">
+<label class="fieldLabel" for="25ea002b-8a8a-4e8c-bbf5-d9e06b46fe0e">Nr serii </label> <div><input class="text" id="25ea002b-8a8a-4e8c-bbf5-d9e06b46fe0e" maxlength="500" name="25ea002b-8a8a-4e8c-bbf5-d9e06b46fe0e" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="25ea002b-8a8a-4e8c-bbf5-d9e06b46fe0e" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField ilośćreklamowana textfield alternating">
+<label class="fieldLabel" for="636534ca-546e-4720-9dd5-0a305cc542f2">Ilość reklamowana </label> <div><input class="text" id="636534ca-546e-4720-9dd5-0a305cc542f2" maxlength="500" name="636534ca-546e-4720-9dd5-0a305cc542f2" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="636534ca-546e-4720-9dd5-0a305cc542f2" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField opiszgłoszenia textfield">
+<label class="fieldLabel" for="6d525aa8-5e90-4d11-8aa7-359f9ca66bd8">Opis zgłoszenia </label> <div><input class="text" id="6d525aa8-5e90-4d11-8aa7-359f9ca66bd8" maxlength="500" name="6d525aa8-5e90-4d11-8aa7-359f9ca66bd8" type="text" value=""/>
+<span class="field-validation-valid" data-valmsg-for="6d525aa8-5e90-4d11-8aa7-359f9ca66bd8" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField załącznik1 fileupload alternating">
+<label class="fieldLabel" for="381c1120-2a2b-4f89-b0f2-f40c5cade963">Załącznik 1 </label> <div><input id="381c1120-2a2b-4f89-b0f2-f40c5cade963" name="381c1120-2a2b-4f89-b0f2-f40c5cade963" type="file"/>
+<span class="field-validation-valid" data-valmsg-for="381c1120-2a2b-4f89-b0f2-f40c5cade963" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField załącznik2 fileupload">
+<label class="fieldLabel" for="a0f6ae70-274d-43b1-be82-23c696d9e05d">Załącznik 2 </label> <div><input id="a0f6ae70-274d-43b1-be82-23c696d9e05d" name="a0f6ae70-274d-43b1-be82-23c696d9e05d" type="file"/>
+<span class="field-validation-valid" data-valmsg-for="a0f6ae70-274d-43b1-be82-23c696d9e05d" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField załącznik3 fileupload alternating">
+<label class="fieldLabel" for="f64538c5-8832-45cf-9b81-29af33ab6b2a">Załącznik 3 </label> <div><input id="f64538c5-8832-45cf-9b81-29af33ab6b2a" name="f64538c5-8832-45cf-9b81-29af33ab6b2a" type="file"/>
+<span class="field-validation-valid" data-valmsg-for="f64538c5-8832-45cf-9b81-29af33ab6b2a" data-valmsg-replace="true"></span></div>
+</div>
+<div class="contourField załącznik4 fileupload">
+<label class="fieldLabel" for="8a847e27-51c8-44bd-b8ae-c9c8e8f5a1a2">Załącznik 4 </label> <div><input id="8a847e27-51c8-44bd-b8ae-c9c8e8f5a1a2" name="8a847e27-51c8-44bd-b8ae-c9c8e8f5a1a2" type="file"/>
+<span class="field-validation-valid" data-valmsg-for="8a847e27-51c8-44bd-b8ae-c9c8e8f5a1a2" data-valmsg-replace="true"></span></div>
+</div>
+</fieldset>
+<fieldset class="contourFieldSet">
+<div class="contourField zaświadczamżezapoznałemsięzpowyższym checkbox mandatory alternating">
+<label class="fieldLabel" for="a08a76eb-9db0-4a22-9c4b-898d8f654cc4">* Zaświadczam, że zapoznałem się z powyższym <span class="contourIndicator"></span></label> <div><input data-val="true" data-val-requiredcb="* Zaświadczam, że zapoznałem się z powyższym jest polem obowiązkowym" id="a08a76eb-9db0-4a22-9c4b-898d8f654cc4" name="a08a76eb-9db0-4a22-9c4b-898d8f654cc4" type="checkbox"/>
+<span class="field-validation-valid" data-valmsg-for="a08a76eb-9db0-4a22-9c4b-898d8f654cc4" data-valmsg-replace="true"></span></div>
+</div>
+</fieldset>
+<div style="display:none">
+<input id="HoneyPot" type="text"/>
+</div>
+</div>
+<div class="contourNavigation">
+<input type="submit" value="Wyślij formularz "/>
+</div>
+</form>

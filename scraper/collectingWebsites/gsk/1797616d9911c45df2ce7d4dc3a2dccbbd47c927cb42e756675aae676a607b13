@@ -1,0 +1,49 @@
+<form action="/as/kG11f/resume/as/authorization.ping" id="form" method="POST">
+<section id="container-section" style="display: flex; flex-direction: column; margin-top: 0;">
+<section id="credentials-section">
+<div class="mdc-text-field mdc-text-field--no-label mdc-text-field--with-leading-icon mdc-text-field--required mdc-text-field--outlined mdc-ripple-upgraded" style="margin-top: 0px;">
+<i aria-label="" class="material-icons mdc-text-field__icon mdc-text-field__icon--leading" role="button" tabindex="-1">
+                            person
+                        </i>
+<input aria-label="Username" autocapitalize="off" autocorrect="off" class="mdc-text-field__input" id="user_login" name="pf.username" onfocus="focusElement(event);" onfocusout="focusoutElement(event);" onkeypress="return loginHelper.postOnReturn(event, postOk)" placeholder="Username" required="required" type="text" value=""/>
+<div class="mdc-notched-outline">
+<div class="mdc-notched-outline__leading"></div>
+<div class="mdc-notched-outline__notch">
+<label class="mdc-floating-label" for="user_login"><!-- --><!-- --></label>
+</div>
+<div class="mdc-notched-outline__trailing"></div>
+</div>
+</div>
+<div class="mdc-text-field mdc-text-field--no-label mdc-text-field--with-leading-icon mdc-text-field--required mdc-text-field--outlined mdc-ripple-upgraded" style="margin-top: 20px;">
+<i aria-label="" class="material-icons mdc-text-field__icon mdc-text-field__icon--leading" role="button" tabindex="-1">
+                            locked
+                        </i>
+<input aria-label="Password" class="mdc-text-field__input" id="user_pass" name="pf.pass" onfocus="focusElement(event);" onfocusout="focusoutElement(event);" oninput="validate(event);" onkeypress="return loginHelper.postOnReturn(event, postOk)" placeholder="Password" required="required" type="password"/>
+<div class="mdc-notched-outline">
+<div class="mdc-notched-outline__leading"></div>
+<div class="mdc-notched-outline__notch">
+<label class="mdc-floating-label" for="user_pass"><!-- --><!-- --></label>
+</div>
+<div class="mdc-notched-outline__trailing"></div>
+</div>
+</div>
+<div class="alert" id="myDeviceWarning" style="display: none;">
+<div class="alert-message">
+<div class="gsk-typography--subtitle2">
+<div class="message-item">
+<gsk-icon>warning</gsk-icon>
+<span>Do not select if you are using a public computer.</span>
+</div>
+</div>
+</div>
+</div>
+<input name="pf.ok" type="hidden" value=""/>
+<input name="pf.cancel" type="hidden" value=""/>
+<gsk-button id="submit" label="Sign In" onclick="return postOk();" raised=""></gsk-button>
+<div class="gsk-typography--body1">
+<a href="https://access.gsk.com/selfservice/public/forgottenUserId.do?appid=319118" target="_blank">Forgot your username or password?</a>
+</div>
+</section>
+</section>
+<input id="pf.adapterId" name="pf.adapterId" type="hidden" value="pfhtmlformsexternal"/>
+</form>

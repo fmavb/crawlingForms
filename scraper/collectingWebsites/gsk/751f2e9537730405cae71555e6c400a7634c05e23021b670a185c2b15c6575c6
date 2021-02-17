@@ -1,0 +1,11 @@
+<form action="https://jobs.gsk.com/ja-jp/jobs" autocomplete="off" class="inlineSearchForm">
+<div class="flex-row flex-row--space-between">
+<input class="textInput searchField" name="keywords" placeholder="ここに役職を入力してください
+" type="text"/>
+<input class="textInput searchField" name="location" placeholder="ここに場所を入力してください
+" type="text"/>
+<input name="lang" type="hidden" value="ja-jp"/>
+<button class="icon-gsk-search-2" type="submit">サーチ
+</button>
+</div>
+</form>

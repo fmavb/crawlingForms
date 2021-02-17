@@ -1,0 +1,7 @@
+<form action="/en-us/search/" class="search-form" method="get">
+<svg class="icon-search">
+<use xlink:href="/assets/img/icon-sprite.svg#icon-search"></use>
+</svg>
+<input class="js-auto-complete" maxlength="256" name="q" placeholder="Search GSK" title="Search GSK" type="search"/>
+<button class="screen-reader-only" type="submit"></button>
+</form>

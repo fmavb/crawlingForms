@@ -1,0 +1,39 @@
+<form class="scrollable">
+<fieldset class="filters__fieldset filter-search" id="filter-search">
+<legend class="filters__legend">Keyword search</legend>
+<label class="filters__label" for="filters-search-term">Filter by keyword</label>
+<div class="filters-input__wrapper">
+<input class="filters__input--search-term-home filters__input--search-term" id="filters-search-term" maxlength="160" name="filters-search-term" placeholder="Keyword" title="Filter by keyword" type="text"/>
+<a class="filter-search__button filter-search__button--home filter-search__button--submit js-policy-form-submit button button--clear" href="/policies/" title="Submit"></a>
+</div>
+</fieldset>
+<h3 class="filter-search__subtitle homepage-block__subtitle">Filter by topic</h3>
+<div class="scrollable__content checkbox-group scrollable__content--homepage-policies">
+<fieldset>
+<legend class="hidden">Topics</legend>
+<input class="fancy-checkbox checkbox-group__input" id="arts-culture-and-sport" name="topics[]" type="checkbox" value="Arts, culture and sport"/><label class="checkbox-group__label fancy-checkbox" for="arts-culture-and-sport">Arts, culture and sport</label>
+<input class="fancy-checkbox checkbox-group__input" id="building-planning-and-design" name="topics[]" type="checkbox" value="Building, planning and design"/><label class="checkbox-group__label fancy-checkbox" for="building-planning-and-design">Building, planning and design</label>
+<input class="fancy-checkbox checkbox-group__input" id="business-industry-and-innovation" name="topics[]" type="checkbox" value="Business, industry and innovation"/><label class="checkbox-group__label fancy-checkbox" for="business-industry-and-innovation">Business, industry and innovation</label>
+<input class="fancy-checkbox checkbox-group__input" id="children-and-families" name="topics[]" type="checkbox" value="Children and families"/><label class="checkbox-group__label fancy-checkbox" for="children-and-families">Children and families</label>
+<input class="fancy-checkbox checkbox-group__input" id="communities-and-third-sector" name="topics[]" type="checkbox" value="Communities and third sector"/><label class="checkbox-group__label fancy-checkbox" for="communities-and-third-sector">Communities and third sector</label>
+<input class="fancy-checkbox checkbox-group__input" id="constitution-and-democracy" name="topics[]" type="checkbox" value="Constitution and democracy"/><label class="checkbox-group__label fancy-checkbox" for="constitution-and-democracy">Constitution and democracy</label>
+<input class="fancy-checkbox checkbox-group__input" id="economy" name="topics[]" type="checkbox" value="Economy"/><label class="checkbox-group__label fancy-checkbox" for="economy">Economy</label>
+<input class="fancy-checkbox checkbox-group__input" id="education" name="topics[]" type="checkbox" value="Education"/><label class="checkbox-group__label fancy-checkbox" for="education">Education</label>
+<input class="fancy-checkbox checkbox-group__input" id="energy" name="topics[]" type="checkbox" value="Energy"/><label class="checkbox-group__label fancy-checkbox" for="energy">Energy</label>
+<input class="fancy-checkbox checkbox-group__input" id="environment-and-climate-change" name="topics[]" type="checkbox" value="Environment and climate change"/><label class="checkbox-group__label fancy-checkbox" for="environment-and-climate-change">Environment and climate change</label>
+<input class="fancy-checkbox checkbox-group__input" id="equality-and-rights" name="topics[]" type="checkbox" value="Equality and rights"/><label class="checkbox-group__label fancy-checkbox" for="equality-and-rights">Equality and rights</label>
+<input class="fancy-checkbox checkbox-group__input" id="farming-and-rural" name="topics[]" type="checkbox" value="Farming and rural"/><label class="checkbox-group__label fancy-checkbox" for="farming-and-rural">Farming and rural</label>
+<input class="fancy-checkbox checkbox-group__input" id="health-and-social-care" name="topics[]" type="checkbox" value="Health and social care"/><label class="checkbox-group__label fancy-checkbox" for="health-and-social-care">Health and social care</label>
+<input class="fancy-checkbox checkbox-group__input" id="housing" name="topics[]" type="checkbox" value="Housing"/><label class="checkbox-group__label fancy-checkbox" for="housing">Housing</label>
+<input class="fancy-checkbox checkbox-group__input" id="international" name="topics[]" type="checkbox" value="International"/><label class="checkbox-group__label fancy-checkbox" for="international">International</label>
+<input class="fancy-checkbox checkbox-group__input" id="law-and-order" name="topics[]" type="checkbox" value="Law and order"/><label class="checkbox-group__label fancy-checkbox" for="law-and-order">Law and order</label>
+<input class="fancy-checkbox checkbox-group__input" id="marine-and-fisheries" name="topics[]" type="checkbox" value="Marine and fisheries"/><label class="checkbox-group__label fancy-checkbox" for="marine-and-fisheries">Marine and fisheries</label>
+<input class="fancy-checkbox checkbox-group__input" id="money-and-tax" name="topics[]" type="checkbox" value="Money and tax"/><label class="checkbox-group__label fancy-checkbox" for="money-and-tax">Money and tax</label>
+<input class="fancy-checkbox checkbox-group__input" id="public-safety-and-emergencies" name="topics[]" type="checkbox" value="Public safety and emergencies"/><label class="checkbox-group__label fancy-checkbox" for="public-safety-and-emergencies">Public safety and emergencies</label>
+<input class="fancy-checkbox checkbox-group__input" id="public-sector" name="topics[]" type="checkbox" value="Public sector"/><label class="checkbox-group__label fancy-checkbox" for="public-sector">Public sector</label>
+<input class="fancy-checkbox checkbox-group__input" id="transport" name="topics[]" type="checkbox" value="Transport"/><label class="checkbox-group__label fancy-checkbox" for="transport">Transport</label>
+<input class="fancy-checkbox checkbox-group__input" id="work-and-skills" name="topics[]" type="checkbox" value="Work and skills"/><label class="checkbox-group__label fancy-checkbox" for="work-and-skills">Work and skills</label>
+</fieldset>
+</div>
+<button class="js-policy-form-submit button button--primary homepage-block__button" href="/policies/">Go</button>
+</form>

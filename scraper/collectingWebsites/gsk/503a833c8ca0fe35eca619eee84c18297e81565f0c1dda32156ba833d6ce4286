@@ -1,0 +1,24 @@
+<form action="#" autocomplete="off" id="frmUnrestrictedMore">
+<ul data-inset="true" data-role="listview" data-theme="c">
+<li data-role="list-divider" data-theme="b">
+<div id="lblSelectTask">
+</div>
+</li>
+<li><a href="/password/Pages/Unrestricted/SyncPassword.aspx" id="sync-password-link" rel="external">
+<img alt="lblSyncPassword" class="ui-li-icon" height="14" src="/password/resources/images/icons/png/sync.png" title="lblSyncPassword" width="16"/>
+<span id="lblSyncPassword"></span></a></li>
+</ul>
+<ul data-inset="true" data-role="listview" data-theme="c">
+<li class="ui-corner ui-corner-all">
+<a data-rel="dialog" href="/password/Pages/Unrestricted/Help/About.html" id="about-link">
+<img alt="lblAbout" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/glasses.png" title="lblAbout" width="16"/>
+<span id="lblAbout"></span></a>
+</li>
+<li class="ui-corner ui-corner-all">
+<a data-rel="dialog" href="https://vocfeedback.gsk.com/feedback.asp?service_id=1404&amp;ref=GSK%20Password%20Portal&amp;product_id=US01002455&amp;rel=AH" id="feedback-link">
+<img alt="lblSubmitVOC" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/feedback.png" title="lblSubmitVOC" width="16"/>
+<span id="lblSubmitVOC"></span></a>
+</li>
+</ul>
+<p></p>
+</form>

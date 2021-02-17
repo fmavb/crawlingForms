@@ -1,0 +1,14 @@
+<form accept-charset="UTF-8" action="/resource" id="dereference" method="get"><input name="utf8" type="hidden" value="✓"/>
+<fieldset>
+<div class="form_group">
+<label for="ur">URI</label>
+<input id="uri" name="uri" type="text"/>
+<input hidden="" id="dereference" name="dereference" type="text" value="true"/>
+<p class="tip">eg http://www.w3.org/2000/01/rdf-schema#label</p>
+</div>
+</fieldset>
+<div class="form_group righty">
+<label for="format">Results format</label>
+<div class="select" style="display:inline;">
+<select id="format" name="format">
+<option selected="selected" value="html">html</option></select></div></div></form>

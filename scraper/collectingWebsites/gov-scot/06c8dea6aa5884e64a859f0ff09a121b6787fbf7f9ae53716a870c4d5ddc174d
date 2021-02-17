@@ -1,0 +1,8 @@
+<form action="/category/24-site-features" method="GET">
+<select aria-label="Page reloads on selection" id="sortBy" name="sort" onchange="this.form.submit();" title="sort-by">
+<option value="">Sort by Default</option>
+<option value="name">Sort A-Z</option>
+<option selected="selected" value="popularity">Sort by Popularity</option>
+<option value="updatedAt">Sort by Last Updated</option>
+</select>
+</form>

@@ -1,0 +1,37 @@
+<form action="#" autocomplete="off" id="frmUnrestrictedSyncPwd">
+<div class="ui-form ui-body ui-body-a ui-corner ui-corner-all ui-form-shadow">
+<p></p>
+<div class="ui-bar ui-bar-b ui-corner ui-corner-all">
+<h4 class="lblSyncPassword">
+</h4>
+</div>
+<p></p>
+<div>
+<label for="username">
+<span class="fldUserName"></span>: <em class="req">*</em></label>
+<input autocomplete="off" data-not-email="username" data-theme="c" id="username" name="username" required="required" type="text" value=""/>
+</div>
+<p></p>
+<div>
+<label for="password">
+<span class="fldPassword"></span>: <em class="req">*</em></label>
+<input autocomplete="off" data-theme="c" id="password" name="password" required="required" type="password" value=""/>
+<label class="error" id="validateCredentials">
+</label>
+</div>
+<div class="hide">
+<label for="captcha">
+<span class="fldCaptcha"></span>:
+                    </label>
+<input autocomplete="off" class="captcha" data-theme="c" id="captcha" name="captcha" type="text" value=""/>
+</div>
+<p class="instruction">
+<span id="msgSyncPwd"></span>
+</p>
+<div class="buttongroup" data-role="controlgroup" data-type="horizontal">
+<a class="submitForm" data-icon="check" data-role="button" data-theme="a" href="#submit">
+<span class="btnLogin"></span></a><a data-ajax="false" data-direction="reverse" data-icon="back" data-role="button" data-theme="d" href="/password/Pages/Unrestricted/More.aspx"><span class="btnBack"></span></a>
+</div>
+<div class="required-info" id="lblRequiredFields"></div>
+</div>
+</form>

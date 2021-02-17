@@ -1,0 +1,71 @@
+<form action="/ReportsLocation/GrantsByState_GridViewPartial" id="ReportsLocationGrantsByState_GridViewPartial" method="post" name="ReportsLocationGrantsByState_GridViewPartial">
+<input id="hiddenOutputFormat" name="OutputFormat" type="hidden" value="XLSX"/>
+<input id="hiddenisExportControl" name="isExportControl" type="hidden" value="true"/>
+<input id="hiddenModelHash" name="ModelHash" type="hidden" value="ReportsLocationGrantsByState_GridViewPartial"/>
+<div style="float: right; align-content:center">
+<label class="dxeBase_newTAGGSTheme dx-acc-r" id="ExportLabelReportsLocationGrantsByState_GridViewPartial" style="margin-right:5px;">Export Options:   </label><script id="dxss_314848073">
+<!--
+ASPx.createControl(MVCxClientLabel,'ExportLabelReportsLocationGrantsByState_GridViewPartial','',{'accessibilityCompliant':true,'associatedControlName':'btnExportToXLSX'});
+
+//-->
+</script>
+<div style="float: right; clear: both;">
+<div class="dxbButton_newTAGGSTheme buttonExportXLSX dx-acc-r dxbButtonSys dxbTSys" id="btnExportToXLSXReportsLocationGrantsByState_GridViewPartial" outputformatattribute="XLSX" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Excel (XLS) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToXLSXReportsLocationGrantsByState_GridViewPartial_I" name="btnExportToXLSXReportsLocationGrantsByState_GridViewPartial" title="Save this data to a Microsoft Excel (XLS) file." type="button" value="XLSX"/><span class="dx-vam" id="btnExportToXLSXReportsLocationGrantsByState_GridViewPartial_BTC">XLSX</span>
+</div>
+</div><script id="dxss_2048472599">
+<!--
+ASPx.AddHoverItems('btnExportToXLSXReportsLocationGrantsByState_GridViewPartial',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToXLSXReportsLocationGrantsByState_GridViewPartial',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToXLSXReportsLocationGrantsByState_GridViewPartial',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToXLSXReportsLocationGrantsByState_GridViewPartial',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToXLSXReportsLocationGrantsByState_GridViewPartial','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsLocationGrantsByState_GridViewPartial');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportPDF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToPDFReportsLocationGrantsByState_GridViewPartial" outputformatattribute="PDF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to an Adobe Acrobat (PDF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToPDFReportsLocationGrantsByState_GridViewPartial_I" name="btnExportToPDFReportsLocationGrantsByState_GridViewPartial" title="Save this data to an Adobe Acrobat (PDF) file." type="button" value="PDF"/><span class="dx-vam" id="btnExportToPDFReportsLocationGrantsByState_GridViewPartial_BTC">PDF</span>
+</div>
+</div><script id="dxss_743536082">
+<!--
+ASPx.AddHoverItems('btnExportToPDFReportsLocationGrantsByState_GridViewPartial',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToPDFReportsLocationGrantsByState_GridViewPartial',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToPDFReportsLocationGrantsByState_GridViewPartial',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToPDFReportsLocationGrantsByState_GridViewPartial',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToPDFReportsLocationGrantsByState_GridViewPartial','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsLocationGrantsByState_GridViewPartial');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportRTF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToRTFReportsLocationGrantsByState_GridViewPartial" outputformatattribute="RTF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Word (RTF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToRTFReportsLocationGrantsByState_GridViewPartial_I" name="btnExportToRTFReportsLocationGrantsByState_GridViewPartial" title="Save this data to a Microsoft Word (RTF) file." type="button" value="RTF"/><span class="dx-vam" id="btnExportToRTFReportsLocationGrantsByState_GridViewPartial_BTC">RTF</span>
+</div>
+</div><script id="dxss_1122106904">
+<!--
+ASPx.AddHoverItems('btnExportToRTFReportsLocationGrantsByState_GridViewPartial',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToRTFReportsLocationGrantsByState_GridViewPartial',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToRTFReportsLocationGrantsByState_GridViewPartial',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToRTFReportsLocationGrantsByState_GridViewPartial',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToRTFReportsLocationGrantsByState_GridViewPartial','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsLocationGrantsByState_GridViewPartial');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportCSV dx-acc-r dxbButtonSys dxbTSys" id="btnExportToCSVReportsLocationGrantsByState_GridViewPartial" outputformatattribute="CSV" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Comma Separated Values (CSV) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToCSVReportsLocationGrantsByState_GridViewPartial_I" name="btnExportToCSVReportsLocationGrantsByState_GridViewPartial" title="Save this data to a Comma Separated Values (CSV) file." type="button" value="CSV"/><span class="dx-vam" id="btnExportToCSVReportsLocationGrantsByState_GridViewPartial_BTC">CSV</span>
+</div>
+</div><script id="dxss_868154324">
+<!--
+ASPx.AddHoverItems('btnExportToCSVReportsLocationGrantsByState_GridViewPartial',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToCSVReportsLocationGrantsByState_GridViewPartial',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToCSVReportsLocationGrantsByState_GridViewPartial',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToCSVReportsLocationGrantsByState_GridViewPartial',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToCSVReportsLocationGrantsByState_GridViewPartial','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsLocationGrantsByState_GridViewPartial');}});
+
+//-->
+</script>
+</div>
+</div>
+</form>

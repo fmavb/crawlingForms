@@ -1,0 +1,12 @@
+<form action="/en-us/search/" class="header-search" id="header-search">
+<svg class="icon-search">
+<use xlink:href="/assets/img/icon-sprite.svg#icon-search"></use>
+</svg>
+<input class="header-search__input js-auto-complete" name="q" placeholder="Enter a search term..." title="Search" type="search"/>
+<a aria-label="Close" class="header-search__close" href="">
+<svg class="icon-close">
+<use xlink:href="/assets/img/icon-sprite.svg#icon-close" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+</svg>
+</a>
+<button class="screen-reader-only" type="submit"></button>
+</form>

@@ -1,0 +1,19 @@
+<form action="https://jobs.gsk.com/en-gb/jobs" autocomplete="off">
+<div class="career-search-area">
+<div class="career-search-area__form">
+<div class="career-search-area__form-col">
+<label class="screen-reader-only" for="career-search-area__input-title">Enter job title here</label>
+<input aria-label="Enter job title here" class="career-search-area__input" data-param="keywords" id="career-search-area__input-title" name="keywords" placeholder="Enter job title here" type="text"/>
+</div>
+<div class="career-search-area__form-col">
+<label class="screen-reader-only" for="career-search-area__input-location">Enter location here</label>
+<input aria-label="Enter location here" class="career-search-area__input" data-param="location" id="career-search-area__input-location" name="location" placeholder="Enter location here" type="text"/>
+</div>
+<button class="button" type="submit">
+<svg><use xlink:href="/assets/img/icon-sprite.svg#icon-search"></use></svg>
+<span>Search</span>
+</button>
+</div>
+</div>
+<input name="lang" type="hidden" value="en-gb"/>
+</form>

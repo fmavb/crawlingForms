@@ -1,0 +1,46 @@
+<form action="/contact" class="form-horizontal contact" data-parsley-validate="" enctype="multipart/form-data" method="post" novalidate="">
+<div class="control-group">
+<label class="control-label" for="md-name">Name</label>
+<div class="controls">
+<input id="md-name" name="name" placeholder="(optional)" type="text"/>
+</div>
+<!--/controls-->
+</div>
+<!--/control-group-->
+<div class="control-group">
+<label class="control-label" for="md-email">Email</label>
+<div class="controls">
+<input data-parsley-notblank="true" data-parsley-required="true" data-parsley-required-message="Email is required" data-parsley-trigger="change" data-parsley-type="email" id="md-email" name="email" type="email"/>
+<input id="phone" name="phone" type="text" value=""/>
+</div>
+<!--/controls-->
+</div>
+<!--/control-group-->
+<div class="control-group">
+<label class="control-label" for="md-subject">Subject</label>
+<div class="controls">
+<input data-parsley-notblank="true" data-parsley-required="true" data-parsley-required-message="Subject is required" id="md-subject" name="subject" type="text"/>
+</div>
+<!--/controls-->
+</div>
+<!--/control-group-->
+<div class="control-group">
+<label class="control-label" for="md-message">Message</label>
+<div class="controls">
+<textarea data-parsley-notblank="true" data-parsley-required="true" data-parsley-required-message="Message is required" id="md-message" name="message"></textarea>
+</div>
+<!--/controls-->
+</div>
+<!-- /control-group -->
+<div class="control-group">
+<label class="control-label" for="file-upload">Upload file</label>
+<div class="controls">
+<input data-parsley-max-file-size="10" id="file-upload" name="upload" type="file"/>
+</div>
+</div>
+<!--/control-group-->
+<div class="form-actions">
+<input class="btn" type="submit" value="Send"/>
+</div>
+<!--/form-actions-->
+</form>

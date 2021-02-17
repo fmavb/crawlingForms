@@ -1,0 +1,14 @@
+<form>
+<div class="simple-listing__filters-select-wrapper">
+<select aria-label="All regions" class="simple-listing__filters-select" name="r">
+<option value="">All regions</option>
+<option value="Africa">Africa</option>
+<option value="Asia &amp; the Middle East">Asia &amp; the Middle East</option>
+<option value="Australasia">Australasia</option>
+<option value="Europe">Europe</option>
+<option value="North America">North America</option>
+<option value="South &amp; Central America">South &amp; Central America</option>
+</select>
+</div>
+<button type="submit">Search</button>
+</form>

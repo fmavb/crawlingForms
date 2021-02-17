@@ -1,0 +1,2537 @@
+<form action="default.aspx" id="fmForm1" method="post">
+<div class="aspNetHidden">
+<input id="__EVENTTARGET" name="__EVENTTARGET" type="hidden" value=""/>
+<input id="__EVENTARGUMENT" name="__EVENTARGUMENT" type="hidden" value=""/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value=""/>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['fmForm1'];
+if (!theForm) {
+    theForm = document.fmForm1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZDSH1oVlXKNmZSXd3zYZ2Gq6ERm6jivSb4ijerOGYkuGRtePZg2&amp;t=637290598998988531" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function GetViewType(){ return '2'; }
+function GetRevisionNumber(){ return '1'; }
+function GetLanguageId(){ return '1'; }
+function GetVersionNumber(){ return '5.51.0.5'; }
+function GetPoweredBy(){return 'q4inc';}
+function GetViewDate(){{ return ''; }}
+function GetSignature(){{ return ''; }}
+//]]>
+</script>
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakMh5buNcZ-t3T4nCU0ZQt96Kk4JDhdv7pdb3Agzis1zDln1EUlimtVH-8O9nKu6Z_e6vBso1&amp;t=637290598998988531" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+<a href="javascript:__doPostBack('lnkPostback','')" id="lnkPostback" style="display: none"></a>
+<div class="LayoutDefault LayoutHomePage">
+<div class="LayoutDefaultInner">
+<div class="HeaderContainer">
+<div class="PaneHeader" role="banner">
+<div class="container clearfix">
+<span class="HeaderPaneDiv"><span class="HeaderPaneDiv2"><div class="ModuleContent accSkipLink" id="_ctrl0_ctl09_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<a href="#maincontent">Skip to main content</a>
+</div>
+</div>
+</div></span><span class="HeaderPaneDiv3"><div class="ModuleContent toggle-mobile" id="_ctrl0_ctl12_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+</div>
+</div>
+</div></span><span class="HeaderPaneDiv4"><div class="RightColumnBlock" id="_ctrl0_ctl15_RightBlock"></div>
+<div class="header-links" id="_ctrl0_ctl15_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<ul class="header-links" id="_ctrl0_ctl15_qlList">
+<li class="QuickLinkRow" id="_ctrl0_ctl15_QuickLinkList_ctl00_liQuickLink">
+<a href="http://www.pfizer.com/careers" id="_ctrl0_ctl15_QuickLinkList_ctl00_link" target="_blank">Careers</a>
+</li>
+<li class="QuickLinkRowAlt" id="_ctrl0_ctl15_QuickLinkList_ctl01_liQuickLink">
+<a href="https://investors.pfizer.com/investors-overview/default.aspx" id="_ctrl0_ctl15_QuickLinkList_ctl01_link" target="_self">Investors</a>
+</li>
+<li class="QuickLinkRow" id="_ctrl0_ctl15_QuickLinkList_ctl02_liQuickLink">
+<a href="http://www.pfizer.com/News" id="_ctrl0_ctl15_QuickLinkList_ctl02_link" target="_blank">News</a>
+</li>
+<li class="QuickLinkRowAlt" id="_ctrl0_ctl15_QuickLinkList_ctl03_liQuickLink">
+<a href="http://www.pfizer.com/partners" id="_ctrl0_ctl15_QuickLinkList_ctl03_link" target="_blank">Partners</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</span><span class="HeaderPaneDiv5"><div class="ModuleContent header-link2" id="_ctrl0_ctl18_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<ul>
+<li>
+<a class="extern" href="http://www.pfizerpro.com/">Health Professionals</a>
+</li>
+<li class="dropdown">
+<a href="http://www.pfizer.com/contact">Connect with Us</a>
+<div class="submenu">
+<ul>
+<li>
+<a href="http://www.pfizer.com/contact/email">Email</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/contact/faqs">FAQ</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/contact/privacy">Privacy Policy</a>
+</li>
+<li>
+<a href="http://www.youtube.com/user/pfizernews?feature=results_main" target="_blank">YouTube</a>
+</li>
+<li>
+<a class="extern-org" href="http://twitter.com/pfizer_news" target="_blank">
+                        Twitter
+                        <!-- <span class="ext-icon"></span> -->
+</a>
+</li>
+<li>
+<a class="extern-org" href="https://www.facebook.com/Pfizer" target="_blank">
+                        Facebook
+                        <!-- <span class="ext-icon"></span> -->
+</a>
+</li>
+<li>
+<a class="extern-org" href="http://www.linkedin.com/companies/pfizer" target="_blank">
+                        LinkedIn
+                        <!-- <span class="ext-icon"></span> -->
+</a>
+</li>
+<li>
+<a class="extern-org" href="https://www.instagram.com/pfizerinc/" target="_blank">
+                        Instagram
+                        <!-- <span class="ext-icon"></span> -->
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="dropdown-lang">
+<a class="lang-dropdown">EN</a>
+<div class="submenu">
+<div class="grid-no-gutter">
+<ul class="col col-1-of-4 col-md-1-of-2 col-sm-1-of-2">
+<li>
+<a href="http://www.pfizer.com.ar">Argentina</a>
+</li>
+<li class="col-one">
+<a href="http://www.pfizer.com.au">Australia</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.at" target="_blank">
+                            Austria
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.be" target="_blank">
+                            Belgium
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a href="http://www.Pfizer.com.br">Brazil</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.ca" target="_blank">
+                            Canada
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a href="http://www.pfizer.com.cn">China</a>
+</li>
+<li class="col-one">
+<a href="http://www.pfizer.com.co">Colombia</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.cz" target="_blank">
+                            Czech Republic
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.dk" target="_blank">
+                            Denmark
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-one">
+<a class="ext" href="http://www.pfizer.fi" target="_blank">
+                            Finland
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+</ul>
+<ul class="col col-1-of-4 col-md-1-of-2 col-sm-1-of-2">
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.fr" target="_blank">
+                            France
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.de" target="_blank">
+                            Germany
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.gr" target="_blank">
+                            Greece
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a href="http://www.pfizer.com.hk">Hong Kong</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.hu" target="_blank">
+                            Hungary
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizerindia.com" target="_blank">
+                            India
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizerpeduli.com" target="_blank">
+                            Indonesia
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.ie" target="_blank">
+                            Ireland
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.co.il" target="_blank">
+                            Israel
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.it" target="_blank">
+                            Italy
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-two">
+<a class="ext" href="http://www.pfizer.co.jp" target="_blank">
+                            Japan
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+</ul>
+<ul class="col col-1-of-4 col-md-1-of-2 col-sm-1-of-2">
+<li class="col-three">
+<a class="ext" href="http://www.pfizerkorea.co.kr" target="_blank">
+                            Korea
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.my">Malaysia/Singapore</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.mx">Mexico</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.nl" target="_blank">
+                            Netherlands
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.co.nz" target="_blank">
+                            New Zealand
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.no" target="_blank">
+                            Norway
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.pk">Pakistan</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.ph">Philippines</a>
+</li>
+<li class="col-three">
+<a href="http://www.pfizer.com.pl">Poland</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.pt" target="_blank">
+                            Portugal
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-three">
+<a class="ext" href="http://www.pfizer.ro/" target="_blank">
+                            Romania
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+</ul>
+<ul class="col col-1-of-4 col-md-1-of-2 col-sm-1-of-2">
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.ru" target="_blank">
+                            Russia
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.sk" target="_blank">
+                            Slovakia
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.co.za" target="_blank">
+                            South Africa
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.es" target="_blank">
+                            Spain
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.se" target="_blank">
+                            Sweden
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.ch" target="_blank">
+                            Switzerland
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a href="http://www.pfizer.com.tw">Taiwan</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.co.th" target="_blank">
+                            Thailand
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a href="http://www.pfizer.com.tr">Turkey</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.co.uk" target="_blank">
+                            United Kingdom
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+<li class="col-four">
+<a class="ext" href="http://www.pfizer.ua" target="_blank">
+                            Ukraine
+                            <span class="ext">
+<span class="element-invisible"> (link is external)</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</span><span class="HeaderPaneDiv6"><div class="ModuleContainer ModuleSearch corporate-search" id="_ctrl0_ctl21_divModuleContainer" role="search">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="ModuleContainerInnerTop">
+<div class="ModuleContentContainer">
+<span class="SearchText" id="_ctrl0_ctl21_lblSearchText"></span>
+<input aria-label="Search query" class="SearchInput" id="_ctrl0_ctl21_txtSearchInput" maxlength="256" name="_ctrl0$ctl21$txtSearchInput" onkeypress="javascript:var key; if (window.event) { key = window.event.keyCode; } else if (e) { key = e.which; } else { return true; } if (key == 13) __doPostBack('_ctrl0$ctl21$btnSearch', ''); " placeholder="IR Search" type="text" value=""/>
+<input class="ModuleButton SearchButton" id="_ctrl0_ctl21_btnSearch" name="_ctrl0$ctl21$btnSearch" type="submit" value=""/>
+</div>
+</div>
+</div>
+</div>
+</div></span></span>
+</div>
+</div>
+<div class="PaneNavigation">
+<div class="container clearfix">
+<span class="NavigationPaneDiv7"><div class="ModuleContent ClientLogo" id="_ctrl0_ctl24_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<a href="http://www.pfizer.com/"><img alt="Pfizer" src="//s21.q4cdn.com/317678438/files/design/2020/v1/Pfizer_Logo_White-new.png"/></a>
+</div>
+</div>
+</div></span><span class="NavigationPaneDiv8"><div class="ModuleContent corporate-nav" id="_ctrl0_ctl27_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="corporate-navigation">
+<div class="main-menu">
+<ul class="level1 clearfix">
+<li class="has-children section-red">
+<a href="http://www.pfizer.com/health-wellness">
+        YOUR HEALTH
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/health-wellness/healthy-living">Healthy Living</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/brain-nervous-system"> Brain &amp; Nervous System </a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/heart-cardiovascular">Cardiovascular Health</a></li>
+<li><a href="https://www.pfizer.com/health-wellness/healthy-living/cold-and-flu">Cold &amp; Flu</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/digestive">Digestive Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/healthy-aging">Healthier Aging</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/quit-smoking">Living Tobacco Free</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/mens-health">Men’s Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/mental-health">Mental Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/diet-exercise">Nutrition &amp; Fitness</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/kids-health">Pediatric Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/respiratory-health">Respiratory Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/skin-care">Skin Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/vaccines-prevention">Vaccines &amp; Prevention</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/healthy-living/womens-health">Women’s Health</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/health-wellness/disease-conditions">Disease &amp; conditions</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/cancer">Cancer</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/heart-cardiovascular">Cardiovascular Diseases &amp; Conditions</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/diabetes-metabolic">Diabetes &amp; Metabolic Disorders</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/immune">Immune System Diseases &amp; Conditions</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/infectious">Infections &amp; Infectious Diseases</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/neurological-disorders">Neurological Diseases &amp; Conditions</a></li>
+<li><a href="https://www.pfizer.com/health-wellness/diseases-conditions/menopause">Menopause</a></li>
+<!-- <li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/pain-management">Pain</a></li> -->
+<li><a href="http://www.pfizer.com/health-wellness/disease-conditions/rare-disease">Rare Disease</a></li>
+<li><a href="http://www.pfizer.com/health/vaccines/areas-of-focus">Vaccine-Related Conditions</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/diseases-conditions/skin">Skin Diseases &amp; Condition</a></li>
+<br/>
+<br/>
+<br/>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/health/coronavirus">CORONAVIRUS DISEASE (COVID-19)</a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/health-wellness/manage-your-health">Managing your health</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/health/caregiving">Caregiving</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/manage-your-health/health-information">Evaluating Health Information</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/manage-your-health/health-tracking">Tracking Your Health</a></li>
+<li><a href="http://www.pfizer.com/health-wellness/manage-your-health/medication-management">Your Medicines</a></li>
+<li><a href="https://www.pfizer.com/health/literacy">Health Literacy</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="https://www.pfizer.com/health-wellness/wellness">WELLNESS</a>
+</li>
+</ul>
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/health-wellness/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/hot-topics/emotional_well_being_tips_for_people_living_with_chronic_inflammatory_conditions_during_covid_19">
+<img src="//s21.q4cdn.com/317678438/files/images/GettyImages-1131368053.jpg"/>
+</a>
+<a href="https://www.pfizer.com/news/hot-topics/emotional_well_being_tips_for_people_living_with_chronic_inflammatory_conditions_during_covid_19">MAINTAINING EMOITONAL WELLBEING DURING COVID-19</a>
+</div>
+</li>
+<!-- <li>
+                                <div class="hot-topic">
+                                    <a href="/none">
+                                         <img src="//s21.q4cdn.com/317678438/files/design/hot-topic2.jpg">
+                                    </a>
+                                    <a href="/none">Read more</a>
+                                </div>
+                            </li> -->
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="has-children section-orange">
+<a href="http://www.pfizer.com/science">
+        OUR SCIENCE
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li>
+<a href="https://www.pfizer.com/discover">DRIVEN TO DISCOVER THE CURE</a>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/science/therapeutic-areas">FOCUS AREAS</a>
+<ul class="level3">
+<li>
+<a href="https://www.pfizer.com/science/internal-medicine">Internal Medicine</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/immunology-inflammation">Inflammation &amp; Immunology</a>
+</li>
+<!-- <li>
+                                <a href="http://www.pfizer.com/science/neuroscience-pain-management">Neuroscience &amp; Pain</a>
+                            </li> -->
+<li>
+<a href="http://www.pfizer.com/science/oncology-cancer">Oncology</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/rare-diseases">Rare Disease</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/vaccines">Vaccines</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/therapeutic-areas/anti-infectives">Anti Infectives</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/science/drug-product-pipeline">Product Pipeline</a>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/science/clinical-trials">
+                            Clinical Trials
+                        </a>
+<ul class="level3">
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/guide-to-clinical-trials">Guide to Clinical Trials</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/find-a-trial/search">Find a Trial</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/compassionate-use">Compassionate Use &amp; Expanded Access</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/children">Clinical Trials in Children</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/partnering-with-pfizer">Partnering with Pfizer</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/clinical-trials/trial-data-and-results">Trial Data &amp; Results</a>
+</li>
+<!--                             <li>
+                                <a href="http://www.pfizer.com/science/pmc/post-marketing-commitments">Post Marketing Commitments</a>
+                            </li> -->
+<li>
+<a href="https://www.pfizer.com/science/clinical-trials/integrity-transparency">Research Integrity &amp; Transparency</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/science/research-development">
+                            R&amp;D PLATFORMS
+                        </a>
+<ul class="level3">
+<li>
+<a href="http://www.pfizer.com/science/research-development/biosimilars">Biosimilars</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/research-development/gene-therapy">Gene Therapy</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/research-development/medicinal-sciences">Medicinal Sciences</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/research-development/precision-medicine">Precision Medicine</a>
+</li>
+<li>
+<a href="https://www.pfizer.com/science/research-development/maternal-immunization">Maternal Immunization</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/science/collaboration">
+                            Collaboration
+                        </a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/partners">Partner with Pfizer</a></li>
+<!--                        <li><a href="http://www.pfizer.com/science/collaboration/centers-therapeutic-innovation">Centers for Therapeutic Innovation</a></li>
+                          <li><a href="http://www.pfizer.com/science/collaboration/medical-research-grants">Competitive Grants</a></li>
+                          <li><a href="http://www.pfizer.com/science/collaboration/compound-transfer-program">Compound Transfer Program</a></li>
+                          <li><a href="http://www.pfizer.com/science/collaboration/investigator-initiatied-research">Investigator-Initiated Research</a></li>
+                          <li><a href="http://www.pfizer.com/science/collaboration/research-development">R&amp;D Collaborations</a></li> -->
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/science/research-development/centers">
+                            Research sites
+                        </a>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="https://www.pfizer.com/science/coronavirus">
+                            CORONAVIRUS DISEASE (COVID-19) SCIENTIFIC RESOURCES
+                        </a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/science/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/hot-topics/get_the_facts_on_our_covid_19_vaccine_candidates">
+<img src="//s21.q4cdn.com/317678438/files/images/Vax_FIH_QandA_Image.jpeg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/hot-topics/get_the_facts_on_our_covid_19_vaccine_candidates">COVID-19 Vaccine Candidates</a>
+</div>
+</li>
+<li>
+<div class="hot-topic">
+<a href="https://www.breakthroughs.com/health-tomorrow/what-makes-rna-vaccine-different-conventional-vaccine">
+<img src="//s21.q4cdn.com/317678438/files/images/RNAThumb_0.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.breakthroughs.com/health-tomorrow/what-makes-rna-vaccine-different-conventional-vaccine">MRNA VS. CONVENTIONAL</a>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="has-children section-purple">
+<a href="http://www.pfizer.com/people">
+        OUR PEOPLE
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/people/experts">Meet The Experts</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/people/medical-experts/science">Scientists</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/heart-metabolic-diseases">Internal Medicine - Metabolic Disease</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/immunology-inflammation">Inflammation &amp;Immunology</a></li>
+<!-- <li><a href="http://www.pfizer.com/people/medical-experts/neuroscience-pain">Neuroscience &amp; Pain</a></li> -->
+<li><a href="http://www.pfizer.com/people/medical-experts/oncology-cancer">Oncology</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/rare-diseases">Rare Disease</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/vaccinations">Vaccines</a></li>
+<li><a href="http://www.pfizer.com/people/medical-experts/medicine">Medical Professionals</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/people/history">The Journey</a>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/people/leadership">Leadership</a>
+<ul class="level3">
+<li>
+<a href="http://www.pfizer.com/people/leadership/executives">Executives</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/leadership/board-of-directors">Board Members</a>
+</li>
+<li><a href="http://www.pfizer.com/about/leadership-and-structure/company-fact-sheet">Company Fact Sheet</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/people/workplace-diversity">Diverse Perspectives</a>
+<ul class="level3">
+<!-- <li><a href="http://www.pfizer.com/people/workplace-diversity/culture">Culture &amp; Community</a></li> -->
+<li><a href="http://www.pfizer.com/careers/en/diversity-inclusion"> Diversity &amp; Inclusion </a></li>
+<li>
+<a href="http://www.pfizer.com/people/workplace-diversity/supplier-diversity">Supplier Diversity</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/people/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/pfizer_intern_diaries_alex">
+<img src="//s21.q4cdn.com/317678438/files/images/Annaliesa_Anderson_At20Home.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/pfizer_intern_diaries_alex">A day in the life of a Scientist</a>
+</div>
+</li>
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/giving_back_to_the_community_pearl_river_ny_edition">
+<img src="//s21.q4cdn.com/317678438/files/images/dr_richardson_300x170.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/giving_back_to_the_community_pearl_river_ny_edition">Getting to Know CPO Dara Richardson-Heron, M.D. </a>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="has-children section-green">
+<a href="http://www.pfizer.com/purpose">
+        OUR PURPOSE
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/purpose/global-health">Commitment to Global Health</a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/purpose/global-health/expanding-access">Expanding Access</a></li>
+<li><a href="https://www.pfizer.com/purpose/global-health/strengthening-health-systems">Strengthening Health Systems</a></li>
+<li><a href="https://www.pfizer.com/purpose/global-health/providing-disaster-and-humanitarian-relief">Providing Disaster &amp; Humanitarian Relief</a></li>
+<li><a href="https://www.pfizer.com/purpose/global-health/unleashing-the-power-of-our-colleagues"> Unleashing the Power of Our Colleagues</a></li>
+<li><a href="https://www.pfizer.com/purpose/global-health/highlighting-individual-voices">Highlighting Individual Voices</a></li>
+<!--                             <li><a href="http://www.pfizer.com/responsibility/global-partnerships-institutions">Global Institutions and Partnerships</a></li>
+                            <li><a href="http://www.pfizer.com/responsibility/reporting-trends">Reporting Trends and Progress</a></li> -->
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/responsibility/protecting-environment">Protecting People and the environment</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/purpose/environmental-sustainability/green-journey">Pfizer’s Green Journey</a></li>
+<li><a href="http://www.pfizer.com/purpose/environmental-sustainability/product-stewardship">Product Stewardship</a></li>
+<li><a href="https://www.pfizer.com/purpose/workplace-responsibility/product-stewardship">EHS Governance</a></li>
+<li><a href="https://www.pfizer.com/purpose/workplace-responsibility/EHS-Supply-Chain">EHS Supply Chain</a></li>
+<li><a href="https://www.pfizer.com/purpose/workplace-responsibility/health-and-safety/key-performance-indicators">Key Performance Indicators</a></li>
+<li><a href="https://www.pfizer.com/purpose/workplace-responsibility/health-and-safety">Health &amp; Safety</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/purpose/health-policy">
+                            Positions on Health Policies
+                        </a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/responsibility/ready-for-cures">Ready for Cures</a></li>
+<li><a href="http://www.pfizer.com/purpose/health-policy/prescription-drug-prices">How does Pfizer price medicines?</a></li>
+<li><a href="http://www.pfizer.com/purpose/health-policy/importance-of-medicines">Value of Medicines</a></li>
+<li><a href="http://www.pfizer.com/purpose/health-policy/policy-positions">Policy Positions</a></li>
+<li><a href="https://www.pfizer.com/responsibility/ready-for-cures/creating-cures-through-facility-investments">Creating Cures Through Facility Investments</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/purpose/transparency">
+                            Transparency
+                        </a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/purpose/transparency/healthcare-professionals">Working with Health Care Professionals</a></li>
+<li><a href="https://www.pfizer.com/purpose/transparency/transparency-in-grants">Transparency in Grants</a></li>
+<li><a href="http://www.pfizer.com/purpose/transparency/code-of-conduct">Code of Conduct</a></li>
+<li><a href="http://www.pfizer.com/purpose/transparency/corporate-compliance">Corporate Compliance</a></li>
+<li><a href="https://www.pfizer.com/purpose/transparency/ethical-sales-and-marketing">Sales and Marketing Compliance</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/purpose/independent-grants">
+                            INDEPENDENT GRANTS
+                        </a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/purpose/independent-grants/competitive-grants">Competitive Grants Program</a></li>
+<li><a href="https://www.pfizer.com/purpose/independent-grants/independent-medical-education">Independent Medical Education</a></li>
+<li><a href="https://www.pfizer.com/purpose/independent-grants/investigator-sponsored-research">Investigator Sponsored Research</a></li>
+<li><a href="https://www.pfizer.com/purpose/independent-grants/quality-improvement">Quality Improvement</a></li>
+<!-- 						<li><a href="http://www.pfizer.com/purpose/patient-assistance-programs/medicare-medicaid">Goverment Programs</a></li> -->
+<!-- <li><a href="http://www.pfizer.com">Patient Outreach</a></li> -->
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/purpose/contributions-partnerships">
+                            Contributions &amp; Partnerships
+                        </a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/purpose/contributions-partnerships/charity-events">Healthcare Charitable Contributions</a></li>
+<!-- <li><a href="http://www.pfizer.com/purpose/medical-grants/global-health-grants">Global Health Grants and Investments</a></li> -->
+<li><a href="https://www.pfizer.com/purpose/contributions-partnerships/political-partnerships">Lobbying &amp; Political Contributions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<!--                 <ul class="level2">
+                    <li class="has-children">
+                        <a href="http://www.pfizer.com/purpose/contributions-partnerships">
+                            Contributions &amp; Partnerships
+                        </a>
+                        <ul class="level3">
+                            <li><a href="http://www.pfizer.com/purpose/contributions-partnerships/academic-partnerships">Medical &amp; Academic Partnerships</a></li> 
+                            <li><a href="http://www.pfizer.com/purpose/contributions-partnerships/charity-events">Healthcare Charitable Contributions</a></li>
+                            <li><a href="http://www.pfizer.com/responsibility/grants_contributions/special_events">Special Charity Events</a></li>
+                            <li><a href="http://www.pfizer.com/purpose/contributions-partnerships/political-partnerships">Lobbying &amp; Political Contributions</a></li>
+                          <li><a href="http://www.pfizer.com/purpose/contributions-partnerships/global-health-fellowships">Global Health Fellowship Program</a></li>                             
+                        </ul>
+                    </li>
+                </ul> -->
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/purpose/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/meet_terry_helped_by_pfizer_rxpathways">
+<img src="//s21.q4cdn.com/317678438/files/images/IWD_Pull_up_Banner_300x170.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/meet_terry_helped_by_pfizer_rxpathways">Pfizer Women's Research Group</a>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="has-children section-blue">
+<a href="http://www.pfizer.com/products">
+        OUR PRODUCTS
+    </a>
+<div class="mega-menu">
+<div class="grid-no-gutter">
+<div class="col col-1-of-3">
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/products-list">Product listing</a>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/products/drug-development/process">How drugs are made</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/products/drug-development/process/value-of-a-brand">Branded vs. Generic</a></li>
+<li><a href="http://www.pfizer.com/products/drug-development/process/logic-of-a-biologic">Biologics &amp; Biosimilars</a></li>
+<li><a href="http://www.pfizer.com/products/drug-development/process/our-dedication-to-drug-creation">Commitment to Quality</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="https://www.pfizer.com/products/upjohn">Upjohn</a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/products/upjohn/about">About Upjohn</a></li>
+<li><a href="https://www.pfizer.com/products/upjohn/portfolio">Portfolio of Brands</a></li>
+<li><a href="https://www.pfizer.com/products/upjohn/plants">Manufacturing Plants</a></li>
+<li><a href="https://www.pfizer.com/products/upjohn/leadership">UpJohn Leadership</a></li>
+<!-- <li><a href="http://www.pfizer.com/products/medicine-distributors/resources">Resource Center </a></li> -->
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/products/medicine-distributors">Distributors</a>
+<ul class="level3">
+<li><a href="http://www.pfizer.com/products/medicine-distributors/pfizer">Pfizer Distributors</a></li>
+<li><a href="http://www.pfizer.com/products/medicine-distributors/greenstone">Greenstone Distributors</a></li>
+<!-- <li><a href="http://www.pfizer.com/products/medicine-distributors/resources">Resource Center </a></li> -->
+</ul>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com/products/patient-safety">Medicine Safety</a>
+<ul class="level3">
+<li><a href="https://www.pfizer.com/products/patient-safety/adverse-event-reporting">Reporting Adverse Events</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/Making-Good-Treatment-Choices">Making Good Treatment Choices</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/Partnering-With-Patients">Partnering With Patients</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/health-literacy">Health Literacy</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/medicine-safety-tips-for-patients">Medicine Safety Tips for Patients</a></li>
+<li><a href="http://www.pfizer.com/products/patient-safety/counterfeit-drugs">Counterfeiting</a></li>
+<li><a href="https://www.pfizer.com/products/patient-safety/unused-medicines">Unused Medicines</a></li>
+</ul>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/products/material-safety-data-sheets">Safety Data Sheets</a>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/products/product-contact-information">Medical Information Contacts</a>
+</li>
+</ul>
+<ul class="level2">
+<li>
+<a href="https://www.pfizer.com/products/pfizer-global-supply">Pfizer Global Supply</a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-3">
+<ul class="level2 hot-topics">
+<li class="has-children">
+<a href="http://www.pfizer.com/products/hot-topics">Hot Topics</a>
+<ul class="level3">
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/hot-topics/scaling_up_to_manufacture_and_supply_a_covid_19_vaccine_if_approved">
+<img src="//s21.q4cdn.com/317678438/files/images/PGS-20COVID-20FIH.jpeg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/hot-topics/scaling_up_to_manufacture_and_supply_a_covid_19_vaccine_if_approved">Scaling Up to Supply a COVID-19 Vaccine, If Approved</a>
+</div>
+</li>
+<li>
+<div class="hot-topic">
+<a href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/universal_healthcare_vs_single_payer_healthcare">
+<img src="//s21.q4cdn.com/317678438/files/images/universal_healthcare300x170.jpg"/>
+</a>
+<a class="btn-arrow" href="https://www.pfizer.com/news/featured_stories/featured_stories_detail/universal_healthcare_vs_single_payer_healthcare">Universal vs. Single Payer Healthcare</a>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<!-- Additional menu show on mobile-->
+<div class="additional-menu">
+<ul class="level1">
+<li class="has-children">
+<a href="http://www.pfizer.com/careers">Careers</a>
+<ul class="level2">
+<li class="has-children">
+<a href="http://www.pfizer.com">About Us</a>
+<ul class="level3">
+<li>
+<a href="http://www.pfizer.com">Mission, Vission, Purpose</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Our Businesses &amp; Products</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Key Facts About Our Sites</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://www.pfizer.com">Search Jobs</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Student Programs</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Working at pfizer</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Making a difference</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Culture</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Connect</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">Workplace Responsibility</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">R&amp;D Careers</a>
+</li>
+<li>
+<a href="http://www.pfizer.com">COMPANY FACT SHEET</a>
+</li>
+</ul>
+</li>
+<li class="has-children investors">
+<a href="/investors-overview/default.aspx">Investors</a>
+</li>
+<li class="has-children">
+<a href="http://www.pfizer.com/News">News</a>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/news/press-release/press-releases-archive">Press Release Archive</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-release/press-statement-archive">Press Statements</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/company">Company Press Kit</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/vaccines">Vaccines Press Kit</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/get-old">Get Old Press Kit</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/oncology">Pfizer Oncology Press Kit</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/ra-narrative">RA NarRAtive</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/frequently-requested-info">Frequently Requested Info</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/news/press-kits/media-contacts">Contact Media Relations</a>
+</li>
+</ul>
+</li>
+<li class="has-children">
+<a href="http://www.pfizer.com/partners">Partners</a>
+<ul class="level2">
+<li>
+<a href="http://www.pfizer.com/partners/highlights">Partnership Highlights</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/contact">Contacts</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/events">Events Pfizer is Attending</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/hightlights/opportunities">Submit Your Opportunities</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/biopharmaceuticals">Biopharmaceuticals</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/consumer-healthcare">Consumer Healthcare</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/therapeutic-areas">Core Therapeutic Areas</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/innovation">Innovation</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners/research-and-development">Research &amp; Development</a>
+</li>
+<li class="has-children">
+<a href="http://www.pfizer.com/partners/venture-investments">Venture Investments</a>
+<ul class="level3">
+<li>
+<a href="http://www.pfizer.com//partners/venture-investments/our-portfolio">Our portfolio</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="mobile-divider"></div>
+<div class="mobile-nav-links">
+<ul>
+<li><a href="http://www.pfizerpro.com/">Health Professionals</a></li>
+<li><a href="http://www.pfizer.com/b2b/index">Business to Business</a></li>
+<li><a href="http://www.pfizer.com/general/global_sites">Change Country</a></li>
+<li><a href="http://www.pfizer.com/sitemap">Sitemap</a></li>
+</ul>
+</div>
+<div class="mobile-social-links">
+<ul>
+<li><a href="http://www.twitter.com/Pfizer" target="_blank"><i class="q4i-icon-twitter"></i></a></li>
+<li><a href="https://www.facebook.com/Pfizer" target="_blank"><i class="q4i-icon-facebook"></i></a></li>
+<li><a href="http://www.linkedin.com/company/pfizer" target="_blank"><i class="q4i-icon-linkedIn"></i></a></li>
+<li><a href="https://www.instagram.com/pfizerinc/" target="_blank"><i class="q4i-icon-instagram"></i></a></li>
+<li><a href="http://www.youtube.com/Pfizer" target="_blank"><i class="q4i-icon-youtube"></i></a></li>
+</ul>
+</div>
+<div class="mobile-bottom-links">
+<ul>
+<li><a href="http://www.pfizer.com/contact">Contact Us</a></li>
+<li><a href="http://www.pfizer.com/general/terms">Terms of Use</a></li>
+<li><a href="http://www.pfizer.com/contact/privacy">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</span>
+</div>
+</div>
+<div class="PaneHeader2">
+<div class="container clearfix">
+<span class="HeaderPane2Div14"><div class="Breadcrumb breadCrumb mobile" id="_ctrl0_ctl45_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<!--Watch for the new lines on HTML, since this is being rendered as a space on the browser (</a><asp:Q4Repeater)-->
+<a class="BreadcrumbHomeLink" href="https://investors.pfizer.com/Home/default.aspx" id="_ctrl0_ctl45_hrefHome">Home</a><span class="BreadcrumbSeparator" id="_ctrl0_ctl45_repeaterLinks_ctl00_lblSeparator">/</span>Investors Overview
+        </div>
+</div>
+</div></span><span class="HeaderPane2Div16"><div class="ModuleContent" id="_ctrl0_ctl51_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<style>
+</style>
+</div>
+</div>
+</div></span>
+</div>
+</div>
+</div>
+<div class="PaneContentInner">
+<div class="container clearfix">
+<main class="grid" id="maincontent" tabindex="-1">
+<div class="PaneBreadcrumb col col-12-of-12">
+<span class="BreadcrumbPaneDiv9"><div class="Breadcrumb breadCrumb" id="_ctrl0_ctl30_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<a class="BreadcrumbHomeLink" href="https://investors.pfizer.com/Home/default.aspx" id="_ctrl0_ctl30_hrefHome">Home</a><span class="BreadcrumbSeparator">/</span>Investors Overview
+        </div>
+</div>
+</div></span>
+</div>
+<div class="PaneLeft col col-12-of-12">
+<span class="LeftPaneDiv"><span class="LeftPaneDiv1"><div class="ModuleContent page-title" id="_ctrl0_ctl54_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+</div>
+</div>
+</div>
+</span></span>
+</div>
+<div class="PaneContent col col-2-of-3">
+<div class="grid">
+<span class="ContentPaneDiv"><span class="ContentPaneDiv2"><div class="ModuleContent featured-presentation col col-1-of-1 bg-white sp-title" id="_ctrl0_ctl57_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl57_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl57_lblModuleTitle">Most Recent Presentation</span></h2>
+<div class="ModuleInnerContainer">
+<!-- <div class="slideshare">
+    <div class="slideshow">
+        <iframe src="https://www.slideshare.net/slideshow/embed_code/key/1YgiSvRs1IzpdZ?rel=0" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+    </div>
+</div> -->
+<style type="text/css">
+    .module-slideshow_ratio {
+        /*padding-bottom: 59% !important;    */
+        padding-bottom: 60% !important; 
+        margin-bottom: 22px;   
+    }
+    .module_slideshow-widget iframe {
+        border: 0;
+    }
+</style>
+<div class="module module_slideshow-widget">
+<!-- <div class="module_slideshow">
+            <div class="module-slideshow_viewer">
+                <div class="module-slideshow_ratio">
+                    <iframe style="position: absolute; width: 100%; height: 100%;" src="//s21.q4cdn.com/317678438/files/js/pdf-js/viewer.html?file=%2ffiles%2fdoc_financials%2f2019%2fq4%2fQ4-2019-Earnings-Charts-FINAL.pdf%23zoom%3dpage-fit" allowfullscreen webkitallowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="ModuleContentContainer"><a href="//s21.q4cdn.com/317678438/files/doc_financials/2019/q4/Q4-2019-Earnings-Charts-FINAL.pdf" target="_blank" class="btn-arrow doc_top">Presentation</a><a class="btn-arrow viewAll" href="/events-and-presentations/default.aspx">ALL PRESENTATIONS</a></div>
+        </div>  -->
+</div>
+<div class="presentationsWidget"></div>
+<script src="//q4implementation.s3.amazonaws.com/widgets/q4.api.1.11.2.min.js"></script>
+<script src="//widgets.q4app.com/widgets/q4.slideshow.1.1.1.min.js" type="text/javascript"></script>
+<!-- <script type="text/javascript" src="//widgets.q4app.com/widgets/q4.slideshow.1.1.4.min.js"></script> -->
+<script src="//widgets.q4app.com/widgets/requireslib/mustache.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$('.module_slideshow-widget').slideshow({
+    usePublic: GetViewType() != '0',
+    apiKey: 'AD73421D7B544C3DAC51B6BE357DDD76',
+    apend: false,
+    // tags: ['featured'],
+    aspectRatio: [16, 9],
+    tpl: (
+        '<div class="module_slideshow">' +
+            '<div class="module-slideshow_viewer">' +
+                '<div class="module-slideshow_ratio">' +
+                    '<iframe style="position: absolute; width: 100%; height: 100%;" src=\'/files/js/pdf-js/viewer.html?file={{url}}#zoom=page-fit\' allowfullscreen webkitallowfullscreen></iframe>' +
+                '</div>' +
+            '</div>' +
+            '<div class="ModuleContentContainer"><a href="{{url}}" target="_blank" class="btn-arrow doc_top">Presentation</a><a class="btn-arrow viewAll" href="/events-and-presentations/default.aspx">ALL PRESENTATIONS</a></div>' +
+        '</div>' 
+    ),
+});
+// $('.presentationsWidget').presentations({
+//     dateFormat: 'MM/DD/YYYY',
+//     showAllYears: false,
+//     limit:1,
+//     template: (
+//             '{{#items}}' +
+//                 '<div class="ModuleItemRow">' +
+//                     '<div class="img-bg"></div>'+
+//                     '<div class="ModuleContentContainer">' +
+//                 //        '<a href="//s21.q4cdn.com/317678438/files/doc_financials/Quarterly/2017/q3/Q3_2017_PFE_Earnings_Release.pdf" target="_blank" class="btn-arrow doc_top">Press Release</a><br>' +
+//                         '<a href="{{docUrl}}" target="_blank" class="btn-arrow doc_top">Presentation</a>' +
+//                      //   '<a href="//s21.q4cdn.com/317678438/files/PFE-USQ_Transcript_2017-10-31.pdf" target="_blank" class="btn-arrow doc_bottom">Transcript</a>' +
+//                         '<a class="btn-arrow viewAll" href="/events-and-presentations/default.aspx">ALL PRESENTATIONS</a>'+
+//                     '</div>' +
+//                 '</div>' +
+//             '{{/items}}'
+//     ),
+//     itemsComplete: function() {
+        
+//     },
+//     complete: function(e) {
+//             $.fn.matchHeight._update();
+//         }
+// });
+
+// $('.slideshare').slideshare({
+//   username: 'pfizer_ir',
+//   limit: 1,
+</script>
+</div>
+</div>
+</div></span><span class="ContentPaneDiv3"><div class="ModuleContent our-strategy col col-1-of-2 col-md-1-of-1 mh" id="_ctrl0_ctl60_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="img-bg"></div>
+<div class="content-container">
+<!-- <h2>Sustainability Bond</h2>
+<p>Our first-ever $1 billion bond advances our projects that support vulnerable populations and conserve natural resources while investors receive returns through the life of the bond. </p>
+<a href="https://www.pfizer.com/purpose/workplace-responsibility/green-journey/climate-change" class="btn-arrow">READ MORE</a>
+ -->
+<h2><a href="https://www.pfizer.com/coronavirus">COVID-19 Information and Resources</a></h2>
+<p>Current information on our scientific progress to bring forward a safe and effective vaccine to help protect against the novel coronavirus.</p>
+<a class="btn-arrow" href="https://www.pfizer.com/coronavirus">READ MORE</a>
+</div>
+</div>
+</div>
+</div>
+</span><span class="ContentPaneDiv4"><div class="ModuleContent featured-event col col-1-of-2 col-md-1-of-1 sp-title bg-white mh module-event-latest-past" id="_ctrl0_ctl63_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl63_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl63_lblModuleTitle">Most Recent Event</span></h2>
+<div class="ModuleInnerContainer">
+<style>
+.module_presentation_webcast a {
+font-size: 15px;
+display:block;
+}
+</style>
+<div class="module_container module_container--content grid"></div>
+<script src="//widgets.q4app.com/widgets/q4.api.1.12.0.min.js" type="text/javascript"></script>
+<script src="//widgets.q4app.com/widgets/requireslib/moment.min.js"></script>
+<script>
+$('.module-event-latest-past .module_container--content').events({
+    dateFormat: {
+        date: 'MM/DD/YYYY'
+    },
+    useMoment: true,
+    showPast: true,
+    showFuture: true,
+    fetchAllYears: true,
+    limit: 1,
+    tags: ['recent'],
+    docCategories: ['Press Release', 'Presentation', 'Transcript', 'PFE Product Revenues', 'Webcast'],
+    itemNotFoundMessage: "<div class='col col-1-of-1'>No events available for this year.</div>",
+    loadingMessage: '<p class="module_loader"><i class="q4-icon_spinner"></i><span class="sr-only">Loading recent event...</span></p>',
+    template: (
+        '{{#items}}' +
+            '<div class="module_item grid_col grid_col--1-of-3 grid_col--md-1-of-2">' +
+                '<div class="module_item-wrap">' +
+                    '<div class="module_date-time">' +
+                        '<span class="module_date-text">{{date.date}}</span>' +
+                    '</div>' +
+                    '<div class="module_headline">' +
+                        '<a class="module_headline-link" href="{{url}}">{{title}}</a>' +
+                    '</div>' +
+                    '<div class="module_location">' +
+                        '<span class="module_location-text">{{location}}</span>' +
+                    '</div>' +
+                    
+
+                    '<div class="module_links">' +
+
+                         '{{#financialReports}}{{#docs}}'  +
+                             '<div class="module_transcript">' +
+                                '<a class="module_link module_webcast-link" href="{{docUrl}}" target="_blank">' +
+                                    '<i class="q4-icon_webcast"></i>' +
+                                    '<span class="module_link-text">{{docTitle}}</span>' +
+                                '</a>' +
+                            '</div>' +
+                        '{{/docs}}{{/financialReports}}' +
+                        '<a class="button" href="/events-and-presentations/default.aspx">All Events</a>' +
+                    '</div>' +
+                    '<div class="module_presentation_webcast">' +
+                       '{{#docs}}' +
+                            '<span class="WebcastLink">'+
+                                '<span class="{{title}}">' +
+                                    '<a href="{{url}}" target="_blank" class="">{{title}} <span class="sr-only">(opens in new window)</span></a>'+
+                                '</span>' +
+                            '<span>'+
+                        '{{/docs}}' +
+          '{{#webcast}}' +
+                    '<div class="WebcastLink">' +
+                     '<span class="Webcast">'+
+                        '<a href="{{webcast}}" target="_blank" class="module_link module_webcast-link">Webcast <span class="sr-only">(opens in new window)</span></a></div>' +
+                     '</span>' +
+                '{{/webcast}}' +
+                    '</div>' +
+                   '</div>' +
+            '</div>' +
+        '{{/items}}' 
+    ),
+    
+     itemsComplete: function(e) {
+            var webcasts = $(e.target).find('.Webcast > a');
+            disclaimer(webcasts, '#disclaimer');
+            // $(e.target).find('div[class*="quarterly"] .Release > a').text('Performance Report');
+            // $(e.target).find('div[class*="investor"] .PressRelease > a').text('Event Announcement');
+            
+            var Transcript = $(e.target).find('.Transcript > a');
+            disclaimer(Transcript, '#disclaimer1');
+        },
+    
+         complete: function(e) {
+            var webcasts = $(e.target).find('.Webcast > a');
+            disclaimer(webcasts, '#disclaimer');
+            // $(e.target).find('div[class*="quarterly"] .Release > a').text('Performance Report');
+            // $(e.target).find('div[class*="investor"] .PressRelease > a').text('Event Announcement');
+            
+            var Transcript = $(e.target).find('.Transcript > a');
+            disclaimer(Transcript, '#disclaimer1');
+        },
+    beforeRender: function(e, data) {
+        console.log(data);
+        //tpl.items = tpl.items.shift();
+    } 
+});
+</script>
+</div>
+</div>
+</div></span><span class="ContentPaneDiv5"><span id="_ctrl0_ctl66_lblDisplayType" style="display: none"></span>
+<div class="ModuleContainer ModulePressReleaseLatest home-news bg-white sp-title col col-1-of-1" id="_ctrl0_ctl66_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="RssLinkTopContainer">
+<a class="RssLinkTop" href="/rss/PressRelease.aspx?LanguageId=1&amp;CategoryWorkflowId=1cb807d2-208f-4bc3-9133-6a9ad45ac3b0&amp;tags=" id="_ctrl0_ctl66_hrefRssLinkTop" target="_blank">
+<i aria-hidden="true" class="q4i-icon-rss"></i>
+<span class="sr-only">Press Release RSS Feed (opens in new window)</span>
+</a>
+</div>
+<h2 id="_ctrl0_ctl66_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl66_lblModuleTitle">Latest News</span></h2>
+<div class="ModuleInnerContainer">
+<div class="ModuleYearNavContainer" id="_ctrl0_ctl66_divYears">
+<div class="ModuleYearNavContainerInner">
+</div>
+</div>
+<div class="ModuleContainerInnerTop">
+<div class="ModuleContentContainer">
+<div class="ModuleItemRow ModuleItem" id="_ctrl0_ctl66_repeaterContent_ctl01_divItem">
+<a aria-hidden="true" aria-label="" class="ModuleThumbnailLink" href="https://investors.pfizer.com/investor-news/press-release-details/2021/Pfizer-Initiates-Pivotal-Phase-2-MagnetisMM-3-Trial-of-BCMA-CD3-Bispecific-Antibody-Elranatamab-PF-06863135-in-Multiple-Myeloma/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl01_hrefThumbnail">
+</a>
+<span class="ModuleDate">02/17/2021</span>
+<div>
+<a class="ModuleHeadlineLink" href="https://investors.pfizer.com/investor-news/press-release-details/2021/Pfizer-Initiates-Pivotal-Phase-2-MagnetisMM-3-Trial-of-BCMA-CD3-Bispecific-Antibody-Elranatamab-PF-06863135-in-Multiple-Myeloma/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl01_hrefHeadline">
+<span class="ModuleHeadline">
+                                            Pfizer Initiates Pivotal Phase 2 MagnetisMM-3 Trial of BCMA-CD3 Bispecific Antibody Elranatamab (PF-06863135) in Multiple Myeloma
+                                        </span>
+</a>
+</div>
+<div>
+</div>
+<div class="ModuleBody">
+<span class="ModuleEllipse" id="_ctrl0_ctl66_repeaterContent_ctl01_spanEllipse"></span>
+</div>
+<a aria-hidden="true" aria-label="" class="ModuleMoreLink" href="https://investors.pfizer.com/investor-news/press-release-details/2021/Pfizer-Initiates-Pivotal-Phase-2-MagnetisMM-3-Trial-of-BCMA-CD3-Bispecific-Antibody-Elranatamab-PF-06863135-in-Multiple-Myeloma/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl01_hrefMoreLink">
+</a>
+</div>
+<span class="ModuleSeparator" id="_ctrl0_ctl66_repeaterContent_ctl02_divider"></span>
+<div class="ModuleItemRow ModuleItemAlt" id="_ctrl0_ctl66_repeaterContent_ctl03_divItem">
+<a aria-hidden="true" aria-label="" class="ModuleThumbnailLink" href="https://investors.pfizer.com/investor-news/press-release-details/2021/Pfizer-and-BioNTech-to-Supply-the-European-Union-with-200-Million-Additional-Doses-of-COMIRNATY/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl03_hrefThumbnail">
+</a>
+<span class="ModuleDate">02/17/2021</span>
+<div>
+<a class="ModuleHeadlineLink" href="https://investors.pfizer.com/investor-news/press-release-details/2021/Pfizer-and-BioNTech-to-Supply-the-European-Union-with-200-Million-Additional-Doses-of-COMIRNATY/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl03_hrefHeadline">
+<span class="ModuleHeadline">
+                                            Pfizer and BioNTech to Supply the European Union with 200 Million Additional Doses of COMIRNATY®
+                                        </span>
+</a>
+</div>
+<div>
+</div>
+<div class="ModuleBody">
+<span class="ModuleEllipse" id="_ctrl0_ctl66_repeaterContent_ctl03_spanEllipse"></span>
+</div>
+<a aria-hidden="true" aria-label="" class="ModuleMoreLink" href="https://investors.pfizer.com/investor-news/press-release-details/2021/Pfizer-and-BioNTech-to-Supply-the-European-Union-with-200-Million-Additional-Doses-of-COMIRNATY/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl03_hrefMoreLink">
+</a>
+</div>
+<span class="ModuleSeparator" id="_ctrl0_ctl66_repeaterContent_ctl04_divider"></span>
+<div class="ModuleItemRow ModuleItem" id="_ctrl0_ctl66_repeaterContent_ctl05_divItem">
+<a aria-hidden="true" aria-label="" class="ModuleThumbnailLink" href="https://investors.pfizer.com/investor-news/press-release-details/2021/U.S.-FDA-Approves-PANZYGA-for-the-Treatment-of-Adults-with-Chronic-Inflammatory-Demyelinating-Polyneuropathy-CIDP/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl05_hrefThumbnail">
+</a>
+<span class="ModuleDate">02/12/2021</span>
+<div>
+<a class="ModuleHeadlineLink" href="https://investors.pfizer.com/investor-news/press-release-details/2021/U.S.-FDA-Approves-PANZYGA-for-the-Treatment-of-Adults-with-Chronic-Inflammatory-Demyelinating-Polyneuropathy-CIDP/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl05_hrefHeadline">
+<span class="ModuleHeadline">
+                                            U.S. FDA Approves PANZYGA® for the Treatment of Adults with Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)
+                                        </span>
+</a>
+</div>
+<div>
+</div>
+<div class="ModuleBody">
+<span class="ModuleEllipse" id="_ctrl0_ctl66_repeaterContent_ctl05_spanEllipse"></span>
+</div>
+<a aria-hidden="true" aria-label="" class="ModuleMoreLink" href="https://investors.pfizer.com/investor-news/press-release-details/2021/U.S.-FDA-Approves-PANZYGA-for-the-Treatment-of-Adults-with-Chronic-Inflammatory-Demyelinating-Polyneuropathy-CIDP/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl05_hrefMoreLink">
+</a>
+</div>
+<div class="ModuleFooter">
+<a class="ModuleViewAllLink" href="https://investors.pfizer.com/investor-news/default.aspx" id="_ctrl0_ctl66_repeaterContent_ctl06_hrefViewAllBottom">
+<span class="ModuleViewAllBottomText" id="_ctrl0_ctl66_repeaterContent_ctl06_lblViewAllBottom">ALL NEWS</span>
+</a>
+</div>
+<div class="RssLinkBottomContainer">
+</div>
+<div class="ModuleNotFound"></div>
+</div>
+</div>
+</div>
+</div>
+</div></span><span class="ContentPaneDiv6"><div class="ModuleContent become-informed col col-1-of-1" id="_ctrl0_ctl69_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<h2>Investor Resources</h2>
+<ul>
+<li>
+<a class="btn-arrow" href="/corporate-governance/default.aspx">Governance</a>
+</li>
+<li>
+<a class="btn-arrow" href="/shareholder-services/stock-faqs/default.aspx">Stock FAQ</a>
+</li>
+<li>
+<a class="btn-arrow" href="/tear-sheet/default.aspx">Tear Sheet</a>
+</li>
+<li>
+<a class="btn-arrow" href="/shareholder-services/email-alerts/default.aspx">Email Alerts</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</span></span>
+</div>
+</div>
+<div class="PaneRight col col-1-of-3">
+<span class="RightPaneDiv"><span class="RightPaneDiv10">
+<div aria-label="Primary" role="navigation">
+<i class="q4i-block-exit menu-close"></i>
+<nav class="navbar-collapse sidebar-box"><ul class="level1">
+<li class="selected"><a href="https://investors.pfizer.com/investors-overview/default.aspx">Investors Overview</a></li><li class="has-children"><a href="https://investors.pfizer.com/why-invest-our-story/default.aspx">Why Invest - Our Story </a><ul class="level2">
+<li><a href="https://investors.pfizer.com/why-invest-our-story/prospective-investors/default.aspx">Prospective Investors</a></li><li><a href="https://www.pfizer.com/purpose/workplace-responsibility/green-journey/climate-change"> Sustainability Bond</a></li><li><a href="http://www.pfizer.com/about/leadership_and_structure/company_fact_sheet">Fact Sheet</a></li>
+</ul></li><li><a href="https://investors.pfizer.com/events-and-presentations/default.aspx">Events &amp; Presentations</a></li><li class="has-children"><a href="https://investors.pfizer.com/financials/quarterly-reports/default.aspx">Financials</a><ul class="level2">
+<li><a href="https://investors.pfizer.com/financials/quarterly-reports/default.aspx">Quarterly Reports</a></li><li><a href="https://investors.pfizer.com/financials/annual-reports/default.aspx">Annual Reports</a></li><li><a href="https://investors.pfizer.com/financials/sec-filings/default.aspx">SEC Filings</a></li><li><a href="https://investors.pfizer.com/financials/interactive-data-filings/default.aspx">Interactive Data Filings</a></li><li><a href="https://www.championforglobalhealth.com/" target="_blank">Viatris Transaction</a></li>
+</ul></li><li><a href="https://investors.pfizer.com/investor-news/default.aspx">Investor News</a></li><li class="has-children"><a href="https://investors.pfizer.com/stock-information/historical-stock-chart-and-data/default.aspx">Stock Information</a><ul class="level2">
+<li><a href="https://investors.pfizer.com/stock-information/historical-stock-chart-and-data/default.aspx">Historical Stock Chart &amp; Data</a></li><li><a href="https://investors.pfizer.com/stock-information/investment-calculator/default.aspx">Investment Calculator</a></li><li><a href="https://investors.pfizer.com/stock-information/historical-price-lookup/default.aspx">Historical Price Lookup</a></li><li><a href="https://investors.pfizer.com/stock-information/dividend-and-split-history/default.aspx">Dividend &amp; Split History</a></li><li><a href="https://investors.pfizer.com/shareholder-services/stock-faqs/default.aspx">Stock FAQs</a></li>
+</ul></li><li class="has-children"><a href="https://investors.pfizer.com/corporate-governance/default.aspx">Corporate Governance</a><ul class="level2">
+<li><a href="https://investors.pfizer.com/corporate-governance/board-committees-and-charters/default.aspx">Board Committees &amp; Charters</a></li><li><a href="https://investors.pfizer.com/corporate-governance/the-pfizer-board-policies/default.aspx">The Pfizer Board Policies</a></li><li><a href="https://investors.pfizer.com/corporate-governance/corporate-governance-faqs/default.aspx">Corporate Governance FAQs</a></li><li><a href="https://investors.pfizer.com/corporate-governance/contact-our-directors/default.aspx">Contact Our Directors</a></li>
+</ul></li><li class="has-children"><a href="https://investors.pfizer.com/shareholder-services/default.aspx">Shareholder Services</a><ul class="level2">
+<li><a href="https://investors.pfizer.com/shareholder-services/stock-faqs/default.aspx">Stock FAQs</a></li><li><a href="https://investors.pfizer.com/shareholder-services/cost-basis-calculator/default.aspx">Cost Basis Calculator</a></li><li><a href="https://investors.pfizer.com/shareholder-services/advisory-information/default.aspx">Advisory Information</a></li>
+</ul></li>
+</ul></nav>
+</div></span><span class="RightPaneDiv7"><div class="ModuleContent sidebar-box hauto" id="_ctrl0_ctl72_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<p class="mb20">
+<a class="btn-arrowAlt" href="/viatris-transaction/default.aspx" target="_blank">Viatris Transaction</a>
+</p>
+<a class="btn" href="/viatris-transaction/default.aspx">Read More</a>
+</div>
+</div>
+</div></span><span class="RightPaneDiv8"><div class="ModuleContent sidebar-box hauto" id="_ctrl0_ctl75_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<p class="mb20">
+<a class="btn-arrowAlt" href="https://www.pfizer.com/files/investors/financial_reports/annual_reports/2019/index.html" target="_blank">2019 Annual Review</a>
+</p>
+<a class="btn" href="/financials/annual-reports/default.aspx">All Annual Documents</a>
+</div>
+</div>
+</div></span><span class="RightPaneDiv9"><div class="ModuleContainer StockQuoteContainer home-stock sidebar-box" id="_ctrl0_ctl78_divModuleContainer"><div class="ErrorContainer" id="_ctrl0_ctl78_validationsummary" style="color:#CC0000;display:none;">
+</div>
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl78_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl78_lblModuleTitle">Current Stock Price</span></h2>
+<div class="ModuleInnerContainer">
+<div class="StockQuoteLookup">
+<h3 class="StockPage">
+<span class="StockQuoteTitle" id="_ctrl0_ctl78_lblStockQuoteTitle">Stock Quote: </span>
+<span class="StockQuoteIndice" id="_ctrl0_ctl78_lblIndice">NYSE</span>
+</h3>
+</div>
+<ul class="grid-no-gutter">
+<li class="col col-1-of-2 price-label">
+<span class="StockLabel PriceLabel" id="_ctrl0_ctl78_lblPriceText">Price</span>
+            
+                  $<span class="StockData Price" id="_ctrl0_ctl78_lblPrice">34.69</span>
+</li>
+<li class="col col-1-of-2 change">
+<span class="StockLabel ChangeLabel" id="_ctrl0_ctl78_lblChangeText">Change</span>
+<span class="StockLabel ChangeLabel StockPriceDown">
+<span class="StockIndicator">-</span>0.03
+                    </span>
+</li>
+<li class="col col-1-of-2 volume">
+<span class="StockLabel VolumeLabel" id="_ctrl0_ctl78_lblVolumeText">Volume</span>
+<span class="StockData Volume" id="_ctrl0_ctl78_lblVolume">21,499</span>
+</li>
+<li class="col col-1-of-2 pchange">
+<span class="StockLabel PChangeLabel" id="_ctrl0_ctl78_lblPercChangeText">% Change</span>
+<span class="StockLabel PChangeLabel StockPriceDown">
+<span class="StockIndicator">-</span>0.09%
+                    </span>
+</li>
+<li class="col col-1-of-2 dayHigh">
+<span class="StockLabel HighLabel" id="_ctrl0_ctl78_lblIntradayHighText">Day High</span>
+            
+                  $<span class="StockData High" id="_ctrl0_ctl78_lblIntradayHigh">34.86</span>
+</li>
+<li class="col col-1-of-2 wk-52-high">
+<span class="StockLabel WeekHighLabel" id="_ctrl0_ctl78_lbl52WeekHighText">52 Wk. High</span>
+              
+                  $<span class="StockData WeekHigh" id="_ctrl0_ctl78_lbl52WeekHigh">43.08</span>
+</li>
+<li class="col col-1-of-2 dayLow">
+<span class="StockLabel LowLabel" id="_ctrl0_ctl78_lblIntradayLowText">Day Low</span>
+          
+                  $<span class="StockData Low" id="_ctrl0_ctl78_lblIntradayLow">34.56</span>
+</li>
+<li class="col col-1-of-2 wk-52-low">
+<span class="StockLabel WeekLowLabel" id="_ctrl0_ctl78_lbl52WeekLowText">52 Wk. Low</span>
+      
+                  $<span class="StockData WeekLow" id="_ctrl0_ctl78_lbl52WeekLow">27.88</span>
+</li>
+<li class="col col-1-of-2 todayOpen">
+<span class="StockLabel TodaysOpenLabel" id="_ctrl0_ctl78_lblTodaysOpenText">Today's Open</span>
+            
+                  $<span class="StockData TodaysOpen" id="_ctrl0_ctl78_lblTodaysOpen">34.85</span>
+</li>
+<li class="col col-1-of-2 previous">
+<span class="StockLabel PreviousCloseLabel" id="_ctrl0_ctl78_lblPreviousCloseText">Previous Close</span>
+             
+                  $<span class="StockData PreviousClose" id="_ctrl0_ctl78_lblPreviousClose">34.72</span>
+</li>
+</ul>
+<p class="bottom-date">
+<span class="StockTableTextLabel" id="_ctrl0_ctl78_lblTradeDate">Feb 16, 2021 04:00 PM </span>
+</p>
+</div>
+</div>
+</div></span><span class="RightPaneDiv10"><div class="ModuleContent sidebar-quarterly sidebar-box" id="_ctrl0_ctl81_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="sidebar-quarterly-widget">
+<div class="items"></div>
+</div>
+<a class="btn" href="/financials/quarterly-reports/default.aspx">ALL RESULTS</a>
+<script src="https://q4implementation.s3.amazonaws.com/widgets/q4.api.1.11.2.min.js" type="text/javascript"></script>
+<script>
+$('.sidebar-quarterly-widget .items').financials({
+    reportTypes: ['First Quarter','Second Quarter','Third Quarter','Fourth Quarter'],
+    loadingMessage: '<span class="loading">Loading...</span>',
+    showAllYears: true,
+   tags: ['quarter'],
+    docCategory: ['Press Release','Presentation','10Q','Transcript','Webcast'],
+    template: (
+        '{{#quarterReports}}' +
+        '<div class="item">'+
+            '<div class="heading">'+
+                '<span class="quarter">{{shortType}} </span><span class="year">{{year}}</span> EARNINGS'+
+            '</div>'+
+            '<ul class="docs">'+
+                '{{#docs}}'+
+                '<li class="{{docCategory}}">'+
+                    '<a class="{{docType}}" href="{{docUrl}}" target="_blank">'+
+                        // '{{docTitle}}'+
+                        '{{docCategory}}'+
+                    '</a>'+
+                '</li>'+
+                '{{/docs}}'+
+            '</ul>'+
+        '</div>' +
+        '{{/quarterReports}}' 
+    ),
+    beforeRender: function(a, data) {
+        // console.log(data);
+            var quarterReports = [];
+            $.each(data.items, function(i, item) {
+                $.each(item.docs, function(i, doc) {
+                    if (!quarterReports.length && doc.docCategory=="Press Release"){
+                        quarterReports.push(item);
+                    }
+                     });
+            });
+            console.log(quarterReports);
+            data.quarterReports = quarterReports;
+
+        },
+    complete: function(e){
+        $('.sidebar-quarterly ul li.10Q a').text('SEC Filings');
+        $(".sidebar-quarterly .items .item .docs").prepend($(".sidebar-quarterly .items .item .docs .PFE"));
+        $(".sidebar-quarterly .items .item .docs").prepend($(".sidebar-quarterly .items .item .docs .10Q"));
+        $(".sidebar-quarterly .items .item .docs").prepend($(".sidebar-quarterly .items .item .docs .Transcript"));
+        $(".sidebar-quarterly .items .item .docs").prepend($(".sidebar-quarterly .items .item .docs .Presentation"));
+        $(".sidebar-quarterly .items .item .docs").prepend($(".sidebar-quarterly .items .item .docs .Press"));
+    }
+});
+</script>
+</div>
+</div>
+</div></span><span class="RightPaneDiv11">
+<div class="EditSubscriberContainer MailingListSignupContainer" role="form">
+<div class="MailingListForm sidebar-alerts sidebar-box" id="_ctrl0_ctl84_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl84_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl84_lblModuleTitle">Email Alerts</span><span id="_ctrl0_ctl84_lblHelpPage"></span></h2>
+<div class="ModuleInnerContainer">
+<div class="ErrorContainer" id="_ctrl0_ctl84_validationsummary" style="display:none;">
+</div>
+<table class="MailingListTable" title="Fill out the following information to sign up for email alerts">
+<tr><td class="IntroTextColumn" colspan="2"><span class="IntroText" id="_ctrl0_ctl84_lblIntroText"></span></td></tr>
+<tr id="_ctrl0_ctl84_rowEmailAddress">
+<td class="MailingListCol1">
+<label for="_ctrl0_ctl84_txtEmail" id="_ctrl0_ctl84_lblEmailAddressText">Email Address</label>
+<span class="RequiredField" id="_ctrl0_ctl84_lblRequiredEmailAddress">*</span></td>
+<td class="MailingListCol2">
+<input id="_ctrl0_ctl84_txtEmail" maxlength="128" name="_ctrl0$ctl84$txtEmail" placeholder="Enter your email" type="text"/>
+<span id="_ctrl0_ctl84_regexEmailValidator1" style="display:none;"></span>
+<span id="_ctrl0_ctl84_reqvalEmailValidator1" style="display:none;"></span>
+</td>
+</tr>
+</table>
+<table class="MailingListListTable" id="_ctrl0_ctl84_tableMailingLists" title="Select from the following mailing lists to sign up for email alerts">
+<tr id="_ctrl0_ctl84_rowMailingListLabel">
+<td colspan="2">
+<label class="MailingListsHeading" for="_ctrl0_ctl84_chkLists" id="_ctrl0_ctl84_lblMailingListsText">Mailing Lists</label>
+<span class="RequiredField" id="_ctrl0_ctl84_lblRequiredMailingLists">*</span>
+</td>
+</tr>
+<tr id="_ctrl0_ctl84_rowMailingLists">
+<td colspan="2">
+<table id="_ctrl0_ctl84_chkLists">
+<tr>
+<td><input id="_ctrl0_ctl84_chkLists_0" name="_ctrl0$ctl84$chkLists$0" type="checkbox" value="33"/><label for="_ctrl0_ctl84_chkLists_0">SEC Filings</label></td>
+</tr><tr>
+<td><input id="_ctrl0_ctl84_chkLists_1" name="_ctrl0$ctl84$chkLists$1" type="checkbox" value="35"/><label for="_ctrl0_ctl84_chkLists_1">Events &amp; Presentations</label></td>
+</tr><tr>
+<td><input id="_ctrl0_ctl84_chkLists_2" name="_ctrl0$ctl84$chkLists$2" type="checkbox" value="36"/><label for="_ctrl0_ctl84_chkLists_2">End of Day Stock Quote</label></td>
+</tr><tr>
+<td><input id="_ctrl0_ctl84_chkLists_3" name="_ctrl0$ctl84$chkLists$3" type="checkbox" value="37"/><label for="_ctrl0_ctl84_chkLists_3">News</label></td>
+</tr>
+</table>
+<span id="_ctrl0_ctl84_cusvalMailingListsValidator" style="display:none;"></span>
+</td>
+</tr>
+</table>
+<br class="NoBr"/>
+<div class="CaptchaContainer" id="_ctrl0_ctl84_UCCaptcha_divModuleContainer">
+<table border="0" cellpadding="0" cellspacing="0" id="_ctrl0_ctl84_UCCaptcha_Table1" width="100%">
+<tr>
+<td colspan="2"> </td>
+</tr>
+<tr>
+<td colspan="2"><img id="_ctrl0_ctl84_UCCaptcha_Image1" src="https://investors.pfizer.com/q4api/v4/captcha?clientId=_ctrl0_ctl84_UCCaptcha"/></td>
+</tr>
+<tr>
+<td colspan="2"><b>Enter the code shown above.</b></td>
+</tr>
+<tr>
+<td colspan="2">
+<input id="_ctrl0_ctl84_UCCaptcha_txtCode" name="_ctrl0$ctl84$UCCaptcha$txtCode" type="text"/><span id="_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1" style="display:none;">*</span>
+</td>
+</tr>
+</table>
+</div>
+<br class="NoBr"/>
+<div class="GridActions">
+<input class="Button ActionButton" id="_ctrl0_ctl84_btnSubmit" name="_ctrl0$ctl84$btnSubmit" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("_ctrl0$ctl84$btnSubmit", "", true, "f138ee29-e1cc-49a3-8186-b13fcdab8c8a", "", false, false))' type="submit" value="Submit"/>
+</div>
+</div>
+</div>
+</div>
+<div class="EditSubscriberConfirmation" id="_ctrl0_ctl84_divEditSubscriberConfirmation" style="DISPLAY:none;"></div>
+</div>
+<div class="EditSubscriberConfirmation" id="_ctrl0_ctl84_div1"></div></span><span class="RightPaneDiv12"><div class="ModuleContent mobile-quick-links" id="_ctrl0_ctl87_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl87_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl87_lblModuleTitle">Most Recent Earnings Materials</span></h2>
+<div class="ModuleInnerContainer">
+<ul class="items"></ul>
+<script src="//widgets.q4app.com/widgets/q4.api.1.11.6.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $('.mobile-quick-links .items').financials({
+        reportTypes: ['First Quarter','Second Quarter','Third Quarter','Fourth Quarter'],
+        showAllYears: true,
+        docCategories: ["Press Release", "Presentation", "Transcript"], 
+        template: (
+                '{{#quarterPR}}'+
+                '<li class="{{docCategory}} col col-1-of-1">'+
+                        '<a href="{{docUrl}}" class="btn-arrowAlt white" target="_blank">'+
+                            'Earnings Release'+
+                        '</a>'+
+                '</li>'+
+                '{{/quarterPR}}'+
+                '{{#quarterTran}}'+
+                '<li class="{{docCategory}} col col-1-of-1">'+
+                        '<a href="{{docUrl}}" class="btn-arrowAlt white" target="_blank">'+
+                            'Earnings Transcript'+
+                        '</a>'+
+                '</li>'+
+                '{{/quarterTran}}'+
+                '{{#quarterPres}}'+
+                '<li class="{{docCategory}} col col-1-of-1">'+
+                        '<a href="{{docUrl}}" class="btn-arrowAlt white" target="_blank">'+
+                            'Presentation'+
+                        '</a>'+
+                '</li>' +
+                '{{/quarterPres}}'
+        ),
+
+        beforeRender: function(a, data) {
+
+            var quarterPR = [];
+            var quarterPres = [];
+            var quarterTran = [];
+
+            $.each(data.items, function(i, item) {
+                $.each(item.docs, function(i, doc) {
+                    // if (!quarterReports.length && (doc.docCategory=="Press Release") || doc.docCategory=="Presentation" || doc.docCategory=="Transcript"){
+                    if (!quarterPR.length && doc.docCategory=="Press Release"){
+                        quarterPR.push(doc);
+                    } else if (!quarterPres.length && doc.docCategory=="Presentation"){
+                        quarterPres.push(doc);
+                    } else if (!quarterTran.length && doc.docCategory=="Transcript"){
+                        quarterTran.push(doc);
+                    }  
+                });
+            });
+            data.quarterPR = quarterPR;
+            data.quarterPres = quarterPres;
+            data.quarterTran = quarterTran;
+        }
+    });
+</script>
+</div>
+</div>
+</div></span></span>
+</div>
+</main>
+</div>
+</div>
+<div class="FooterContainer">
+<div class="PaneFooter" role="contentinfo">
+<div class="container clearfix">
+<div class="grid">
+<span class="FooterPaneDiv"><span class="FooterPaneDiv13"><div class="ModuleContent global-ql-box col col-1-of-1" id="_ctrl0_ctl90_divModuleContainer">
+<div class="ModuleOuterContainer">
+<h2 id="_ctrl0_ctl90_lblTitle"><span class="ModuleTitle" id="_ctrl0_ctl90_lblModuleTitle">Most Recent Earnings Materials</span></h2>
+<div class="ModuleInnerContainer">
+<ul class="grid"></ul>
+<script type="text/javascript">
+    $('.global-ql-box .grid').financials({
+        reportTypes: ['First Quarter','Second Quarter','Third Quarter','Fourth Quarter'],
+        showAllYears: true,
+        docCategories: ["Press Release", "Presentation", "Transcript"], 
+        // itemContainer: '.grid',
+        // itemTemplate: (
+        template: (
+                '{{#quarterPR}}'+
+                '<li class="{{docCategory}} col col-1-of-3">'+
+                        '<a href="{{docUrl}}" class="box earnings-rel-bg" target="_blank">'+
+                            '<div class="ql-inner">'+
+                                '<div class="vertCenter">'+
+                                    '<span>Earnings Release <i class="q4i-arrow-circle-right"></i></span>'+
+                                '</div>'+
+                            '</div>'+
+                        '</a>'+
+                '</li>'+
+                '{{/quarterPR}}'+
+                '{{#quarterTran}}'+
+                '<li class="{{docCategory}} col col-1-of-3">'+
+                        '<a href="{{docUrl}}" class="box earnings-web-bg" target="_blank">'+
+                            '<div class="ql-inner">'+
+                                '<div class="vertCenter">'+
+                                    '<span>Earnings Transcript <i class="q4i-arrow-circle-right"></i></span>'+
+                                '</div>'+
+                            '</div>'+
+                        '</a>'+
+                '</li>'+
+                '{{/quarterTran}}'+
+                '{{#quarterPres}}'+
+                '<li class="{{docCategory}} col col-1-of-3">'+
+                        '<a href="{{docUrl}}" class="box pre-bg" target="_blank">'+
+                            '<div class="ql-inner">'+
+                                '<div class="vertCenter">'+
+                                    '<span>Presentation <i class="q4i-arrow-circle-right"></i></span>'+
+                                '</div>'+
+                            '</div>'+
+                        '</a>'+
+                '</li>' +
+                '{{/quarterPres}}'
+        ),
+
+        beforeRender: function(a, data) {
+
+            var quarterPR = [];
+            var quarterPres = [];
+            var quarterTran = [];
+
+            $.each(data.items, function(i, item) {
+                $.each(item.docs, function(i, doc) {
+                    // if (!quarterReports.length && doc.docCategory=="Press Release" || doc.docCategory=="Presentation" || doc.docCategory=="Transcript"){
+                    if (!quarterPR.length && doc.docCategory=="Press Release"){
+                        quarterPR.push(doc);
+                    }
+                    if (!quarterPres.length && doc.docCategory=="Presentation"){
+                        quarterPres.push(doc);
+                    } 
+                    if (!quarterTran.length && doc.docCategory=="Transcript"){
+                        quarterTran.push(doc);
+                    }  
+                });
+            });
+            //console.log(quarterPR, quarterPres, quarterTran);
+            data.quarterPR = quarterPR;
+            data.quarterPres = quarterPres;
+            data.quarterTran = quarterTran;
+        }
+        // beforeRenderItems: function(e, tpl) {
+        //     $.each(tpl.items, function(i, item) {
+        //         $.each(item.docs, function(i, doc) {
+        //             var category = doc.docCategory.split(' ').pop().toLowerCase();
+        //             if ( item[category] === undefined ) {
+        //                 item[category] = [];
+        //             }
+        //             item[category].push(
+        //                 {
+        //                     docUrl: doc.docUrl,
+        //                     docType: doc.docType
+        //                 }
+        //             );
+        //         });
+        //     });
+        // }
+    });
+</script>
+</div>
+</div>
+</div></span></span>
+</div>
+</div>
+</div>
+<div class="PaneFooter2">
+<div class="container clearfix">
+<span class="FooterPane2Div11"><div class="ModuleContent corporate-footer" id="_ctrl0_ctl36_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="grid">
+<div class="col col-2-of-3 left-side">
+<div class="grid-no-gutter">
+<div class="col fl-left-col w18 mr1">
+<ul>
+<li>
+<a class="group-title red" href="http://www.pfizer.com/health-wellness">YOUR HEALTH</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/health-wellness/healthy-living">Healthy Living</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/health-wellness/disease-conditions">Disease &amp; Conditions</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/health-wellness/manage-your-health">Managing Your Health</a>
+</li>
+<!-- <li>
+                        <a href="http://www.pfizer.com/health-wellness/caregiving">Caregiving</a>
+                    </li> -->
+<!--  <li>
+                        <a href="http://www.pfizer.com">Patient Assistance Programs</a>
+                    </li> -->
+</ul>
+</div>
+<div class="col fl-left-col w16 mr1">
+<ul>
+<li>
+<a class="group-title orange" href="http://www.pfizer.com/science">Our Science</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/therapeutic-areas">Therapeutic Areas</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/drug-product-pipeline">Product Pipeline</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/science/clinical-trials">Clinical Trials</a>
+</li>
+<!-- <li>
+                        <a href="http://www.pfizer.com/science/research-development">Research &amp; Development</a>
+                    </li> -->
+<li><a href="http://www.pfizer.com/science/research-development">R&amp;D Platforms</a></li>
+<li><a href="http://www.pfizer.com/science/collaboration">Collaboration</a></li>
+<li><a href="http://www.pfizer.com/science/research-development/centers">Research Sites</a></li>
+</ul>
+</div>
+<div class="col fl-left-col w16 mr3">
+<ul>
+<li>
+<a class="group-title purple" href="http://www.pfizer.com/people">OUR PEOPLE</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/experts">Meet The Experts</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/history">The Journey</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/leadership">Leadership</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/people/workplace-diversity">Diverse Perspectives</a>
+</li>
+</ul>
+</div>
+<div class="col fl-left-col col-1-of-5 mr2">
+<ul>
+<li>
+<a class="group-title green" href="http://www.pfizer.com/purpose">OUR PURPOSE</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/responsibility">Responsibility</a>
+</li>
+<li><a href="http://www.pfizer.com/responsibility/protecting-environment">Protecting the Environment</a></li>
+<!--  <li>
+                        <a href="http://www.pfizer.com/purpose/environmental-sustainability">Protecting the Environment</a>
+                    </li> -->
+<li>
+<a href="http://www.pfizer.com/purpose/health-policy">Positions on Health Policies</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/transparency">Transparency</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/patient-assistance-programs">Patient Assistance Program</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/medical-grants">Grants</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/purpose/contributions-partnerships">Contributions &amp; Partnerships</a>
+</li>
+</ul>
+</div>
+<div class="col fl-left-col col-1-of-5">
+<ul>
+<li>
+<a class="group-title blue" href="http://www.pfizer.com/products">OUR PRODUCTS</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products-list">Product Listing</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/drug-development/process">How Drugs are Made</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/medicine-distributors">Distributors</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/patient-safety">Medicine Safety</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/material-safety-data-sheets">Material Safety Data Sheets</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/products/product-contact-information">Global Product Information Contacts</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col col-1-of-3 right-side">
+<div class="grid-no-gutter">
+<div class="col col-45">
+<ul class="fl-right-col">
+<li>
+<a href="http://www.pfizer.com/careers">Career-seekers</a>
+</li>
+<li>
+<a href="/investors-overview/default.aspx">Investors</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/News">News &amp; Media</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/partners">Partners</a>
+</li>
+</ul>
+</div>
+<div class="col col-45 ml7">
+<ul class="fl-right-col">
+<li>
+<a href="http://www.pfizerpro.com/">Health Professionals</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/b2b/index">Business to Business</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/general/global_sites">Change Country</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/sitemap">Sitemap</a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-1">
+<ul class="social-links">
+<li class="twitter">
+<a href="http://www.twitter.com/Pfizer" target="_blank" title="Twitter">
+<!-- <span class="q4i-icon-twitter"></span> -->
+</a>
+</li>
+<li class="facebook">
+<a href="https://www.facebook.com/Pfizer" target="_blank" title="Facebook">
+<!-- <span class="q4i-icon-facebook"></span> -->
+</a>
+</li>
+<li class="linkedin">
+<a href="http://www.linkedin.com/company/pfizer" target="_blank" title="Linkedin">
+<!-- <span class="q4i-icon-linkedIn"></span> -->
+</a>
+</li>
+<li class="instagram">
+<a href="https://www.instagram.com/pfizerinc/" target="_blank" title="Instagram">
+<!-- <span class="q4i-icon-instagram"></span> -->
+</a>
+</li>
+<li class="youtube">
+<a href="http://www.youtube.com/Pfizer" target="_blank" title="Youtube">
+<!-- <span class="q4i-icon-youtube"></span> -->
+</a>
+</li>
+</ul>
+</div>
+<div class="col col-1-of-2">
+<ul class="fl-right-col bottom">
+<li>
+<a href="http://www.pfizer.com/contact">Contact Us</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/general/terms">Terms of Use</a>
+</li>
+<li>
+<a href="http://www.pfizer.com/contact/privacy">Privacy Policy</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</span>
+</div>
+</div>
+<div class="PaneQ4Footer">
+<div class="container clearfix">
+<span class="Q4FooterDiv1"><div class="ModuleContent" id="_ctrl0_ctl06_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<script src="//s21.q4cdn.com/317678438/files/js/jquery-cookie.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var q4App = $.extend(q4Defaults, {
+        secondaryNav: function(){
+            $('.navbar-collapse .level1 > li').each(function(){
+                if($(this).hasClass('selected')){
+                    $(this).addClass('expanded');
+                }
+            });
+            $('.navbar-collapse .level1 li.has-children a').append('<span></span>');
+            $('.navbar-collapse').on('click', 'li.has-children a > span', function(e){
+                var $this = $(this),
+                    $parent = $this.parent();
+                    $parent.toggleClass('expanded');
+            });
+        },
+        pluginsInit: function(){
+            $('input[type="checkbox"]').iCheck();
+        },
+        langToggle: function(){
+            $('.lang-dropdown').on('click', function(e){
+                e.preventDefault();
+                $(this).parent().toggleClass('open');
+            });
+        },
+        customAccordion: function(trigger, slide){
+            $(trigger).on('click', function(){
+                $(this).toggleClass('active');
+                $(this).parent().find(slide).slideToggle();
+            });
+        },
+        breadcrumbFunc: function(){
+            if(!$('#pageClass').hasClass('homePage-inv')){
+                $('.breadCrumb .ModuleInnerContainer').prepend('<a href="/investors-overview/default.aspx" class="breadcrumb-inv-link">INVESTORS</a><span class="BreadcrumbSeparator">/</span>');
+            } else {
+                $('.breadCrumb .ModuleInnerContainer').prepend('<a class="breadcrumb-inv-link">INVESTORS</a>');
+            }
+        },
+        activateInvestorsHeader: function(){
+            $('.header-links').find('li > a:contains("Investors")').parent().addClass('active');
+        },
+        mobileInvestorsNav: function(){
+            var invNav = $('.navbar-collapse').html();
+            $('.corporate-navigation').find('.investors').append(invNav);
+        },
+        addExpandAll: function(faqContainer){
+            $(faqContainer).each(function(){
+
+                var faqContainer = $(this);
+
+                faqContainer.find('.ModuleOuterContainer > h2').append('<span class="expandAll">Expand All</span>');
+
+                faqContainer.find('.expandAll').on('click', function(){
+                    
+                    var question = faqContainer.find('.FaqQuestion');
+                    var answer   = faqContainer.find('.FaqQuestion').next('.FaqAnswer');
+
+                    
+
+                    if(!$(this).hasClass('open')){
+                        $(this).text('Collapse All');
+                        $(this).addClass('open');
+                        question.addClass('active');
+                        answer.slideDown();
+                    } else {
+                        $(this).text('Expand All');
+                        $(this).removeClass('open');
+                        question.removeClass('active');
+                        answer.slideUp();
+                    }
+                });
+                
+            });
+        },
+        init: function() {
+            var app = this;
+
+            app.cleanUp();
+
+            app.unWrapLink('a.StockPrice');
+            app.submitOnEnter('.ModuleSearch');
+            app.submitOnEnter('.MailingListUnsubscribeContainer');
+            app.validateSubmit('.ModuleSearch');
+
+            app.accessibleNav($('.navbar-collapse'), 'level1');
+            app.onMenuToggle();
+            app.onMenuExit($('.PaneNavigation .menu-close'));
+
+            $('.PreviewToolBar').previewToolbar();
+            $('.MailingListSignupContainer').captcha({
+                scrollOnConfirmation: 0,
+                submitText: "Subscribe",
+            });
+
+            q4App.confirmationScroll($('.PaneFooter .MailingListSignupContainer'), '> .EditSubscriberConfirmation');
+
+            app.secondaryNav();
+            app.pluginsInit();
+            app.langToggle();
+            app.breadcrumbFunc();
+            app.activateInvestorsHeader();
+            app.mobileInvestorsNav();
+        }
+    });
+
+    q4App.init();
+
+
+    function custom_onMenuToggle() {
+        $('.LayoutDefaultInner').on('click', '.toggle-mobile', function(e){
+            $('.LayoutDefaultInner').toggleClass('mobile-toggled');
+            corporateMobileExpand();
+            $('.lang-dropdown').parent().removeClass('open');
+            if ($('.LayoutDefaultInner').hasClass('mobile-toggled')){
+                custom_onMenuClose();
+            }
+        });
+    }
+
+    function custom_onMenuClose() {
+        $('.LayoutDefaultInner').one('click', function(e) {
+            !$(e.target).closest('.HeaderContainer').length ? $(this).removeClass('mobile-toggled') :custom_onMenuClose();
+        });
+    }
+    
+    custom_onMenuToggle();
+
+    $('.corporate-navigation li.has-children > a').after('<span class="q4i-Pfizer_Icons_Plus icon-toggle"></span>');
+
+    function corporateMobileExpand(){
+
+        $('.corporate-navigation').on('click', 'li.has-children > span.icon-toggle', function(e){
+            var $this = $(this),
+                $parent = $this.parent();
+            if (!$parent.hasClass('expanded')) {
+                e.preventDefault();
+                if($(this).closest('.mega-menu').length){
+                    $('.mega-menu').find('.expanded').removeClass('expanded');
+                } else {
+                    $parent.siblings().removeClass('expanded');
+                }
+                
+                $parent.addClass('expanded');
+            } else {
+                $parent.removeClass('expanded');
+            }
+        });
+    }
+
+
+
+
+
+    function disclaimer(el, disclaimer){
+        // el
+        //  required: true,
+        //  type: selector,
+        //  desc: Link that has a disclaimer.
+        //
+        // disclaimer
+        //  required: true,
+        //  type: selector,
+        //  desc: Disclaimer to show when you click on el
+
+    var disclaimerCookie = $.cookie('disclaimerCookie'),
+        date = new Date(),
+        minutes = 10;
+        date.setTime(date.getTime() + (minutes * 144));
+
+
+    if (disclaimerCookie === undefined) { 
+        $(el).on('click', function(e){
+            e.preventDefault();
+
+            var url = $(this).attr('href');
+            $(disclaimer).find('.accept').attr('href', url);
+
+            $.fancybox.open(disclaimer, {
+                padding: [0, 30, 30, 30],
+                wrapCSS: 'disclaimer-popUp'
+            });
+            fancyClose();
+        });
+        function fancyClose(){
+            $('.accept').on('click', function(e) {
+                $.fancybox.close();
+                   $.cookie("disclaimerCookie", "agree", {
+                    path: '/',
+                    //expires: date
+                   });
+             });
+        }
+
+    }
+}
+
+</script>
+</div>
+</div>
+</div></span><span class="Q4FooterDiv12"><div class="ModuleContent" id="_ctrl0_ctl39_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="footer-logo">
+<a href="http://www.pfizer.com/">
+<img alt="Pfizer" src="//s21.q4cdn.com/317678438/files/design/2020/v1/Pfizer_Logo_Full-Color.png"/>
+</a>
+</div>
+<div class="Copyright">
+    Copyright © 2002-<span>2021</span> Pfizer Inc. All rights reserved. This information—including product information—is intended only for residents of the United States.
+    <br/> 
+    The products discussed herein may have different labeling in different countries.
+</div>
+<script>
+    //$('.Copyright > span').html( new Date().getFullYear() );
+</script>
+</div>
+</div>
+</div></span><span class="Q4FooterDiv13"><div class="ModuleContent" id="_ctrl0_ctl42_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<div class="hidden">
+<div id="disclaimer">
+<h4 class="disclaimer-title">Forward-Looking Statements of Pfizer Inc.</h4>
+<p dir="auto">This webcast may contain forward-looking statements about, among other things, our anticipated future operating and financial performance, business plans and prospects, in-line products and product candidates, strategic reviews, capital allocation, business-development plans, the benefits expected from the reorganization of our commercial operations into three businesses effective at the beginning of our 2019 fiscal year, our acquisitions and other business development activities, our proposed transaction with GSK to combine our respective consumer healthcare businesses into a new consumer healthcare joint venture, our ability to successfully capitalize on growth opportunities or prospects, manufacturing and product supply and plans relating to share repurchases and dividends, among other things, that involve substantial risks and uncertainties that could cause actual results to differ materially from those expressed or implied by such statements. </p>
+<p dir="auto">A description of these risks and uncertainties can be found in Pfizer’s most recent Annual Report on Form 10-K and in its subsequent reports on Form 10-Q, including in the sections thereof captioned “Risk Factors” and “Forward-Looking Information and Factors That May Affect Future Results”, as well as in its subsequent reports on Form 8-K, all of which are filed with the U.S. Securities and Exchange Commission and available at <a href="http://www.sec.gov/" rel="noreferrer">www.sec.gov</a> and <a href="http://www.pfizer.com/" rel="noreferrer">www.pfizer.com</a>.</p>
+<p dir="auto">The forward-looking statements in the webcast speak only as of the original date of the webcast. Pfizer assumes no obligation to update forward-looking statements contained in the webcast as the result of new information or future events or developments.</p>
+<a class="disclaimer-btn accept" href="" target="_blank">I Accept <i class="q4i-arrow-circle-right"></i></a>
+</div>
+</div>
+<div class="hidden">
+<div id="disclaimer1">
+<h4 class="disclaimer-title">Forward-Looking Statements of Pfizer Inc.</h4>
+<p>The following transcript contains forward-looking statements about our anticipated future financial performance that involve substantial risks and uncertainties. You can identify these statements by the fact that they use future dates or use words such as “will,” “may,” “could,” “likely,” “ongoing,” “anticipate,” “estimate,” “expect,” “project,” “intend,” “plan,” “believe,” “assume,” “target,” “forecast,” “guidance,” “goal,” “objective,” “aim,” “seek” and other words and terms of similar meaning. Factors that could cause actual results to differ materially from past results and future plans and projected future results are described in our Form 8-K furnished with the U.S. Securities and Exchange Commission on January 12, 2021 and linked <a href="https://www.sec.gov/ix?doc=/Archives/edgar/data/78003/000119312521006923/d102109d8k.htm" shape="rect" target="_blank">here</a>, which also contains information regarding our use of preliminary financial guidance.</p>
+<a class="disclaimer-btn accept" href="" target="_blank">Continue<i class="q4i-arrow-circle-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div></span><span class="Q4FooterDiv15"><div class="ModuleContent" id="_ctrl0_ctl48_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<!-- Adobe Analytics code-->
+<script language="JavaScript" src="//s3.amazonaws.com/pfe_im/js/prod/pcc/custom/pfizercom/s_code_config.js" type="text/javascript"></script>
+<script language="JavaScript" src="//s3.amazonaws.com/pfe_im/js/prod/pcc/s_code.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript"><!--
+s.linkTrackVars = s.apl(s.linkTrackVars, 'prop55,prop43', ',', 2);
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><!--/DO NOT REMOVE/-->
+<!-- End Adobe Analytics code-->
+</div>
+</div>
+</div></span><span class="Q4FooterDiv14"><div class="ModuleContent" id="_ctrl0_ctl93_divModuleContainer">
+<div class="ModuleOuterContainer">
+<div class="ModuleInnerContainer">
+<script src="//widgets.q4app.com/widgets/q4.addtocal.1.0.4.min.js"></script>
+<script>
+$('.featured-event').addToCalendar({
+    tooltip: true,
+            fancybox: true
+});
+$('.mh .ModuleOuterContainer').matchHeight({
+    byRow: true
+});
+
+var stockDate = $('.home-stock .bottom-date .StockTableTextLabel').text();
+$('.home-stock .change').after('<div class="top-date">'+stockDate+'</div>');
+$('.home-stock .bottom-date').append('<a href="/stock-information/default.aspx" class="btn-arrow">VIEW MORE</a>');
+
+q4App.confirmationScroll($('.PaneRight .MailingListSignupContainer'), '> .EditSubscriberConfirmation');
+q4App.hidePastCal($('.featured-event .ModuleItemRow'));
+
+$('.FinancialContainer ul li .category').each(function(){
+    var showDocs = ['Press Release', 'Webcast', 'Presentation', 'Earnings Event Announcement'];
+    if($.inArray($(this).text(),showDocs) != -1){
+        $(this).parent().addClass('js--show');
+    }
+});
+
+//disclaimer for events
+disclaimer('.WebcastLink > a', '#disclaimer');
+
+//hide upcoming events if there are no items 
+$('.main.featured-event').find('.ModuleItemRow').length < 1 ? $('.main.featured-event').addClass('js--hidden') : $('.main.featured-event').removeClass('js--hidden');
+
+</script>
+</div>
+</div>
+</div></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input id="__antiCSRF" name="__antiCSRF" type="hidden" value=""/>
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("_ctrl0_ctl78_validationsummary"), document.getElementById("_ctrl0_ctl84_validationsummary"));
+var Page_Validators =  new Array(document.getElementById("_ctrl0_ctl84_regexEmailValidator1"), document.getElementById("_ctrl0_ctl84_reqvalEmailValidator1"), document.getElementById("_ctrl0_ctl84_cusvalMailingListsValidator"), document.getElementById("_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1"));
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var _ctrl0_ctl78_validationsummary = document.all ? document.all["_ctrl0_ctl78_validationsummary"] : document.getElementById("_ctrl0_ctl78_validationsummary");
+_ctrl0_ctl78_validationsummary.headertext = "The following errors must be corrected:<br />";
+_ctrl0_ctl78_validationsummary.displaymode = "List";
+var _ctrl0_ctl84_validationsummary = document.all ? document.all["_ctrl0_ctl84_validationsummary"] : document.getElementById("_ctrl0_ctl84_validationsummary");
+_ctrl0_ctl84_validationsummary.displaymode = "List";
+_ctrl0_ctl84_validationsummary.validationGroup = "f138ee29-e1cc-49a3-8186-b13fcdab8c8a";
+var _ctrl0_ctl84_regexEmailValidator1 = document.all ? document.all["_ctrl0_ctl84_regexEmailValidator1"] : document.getElementById("_ctrl0_ctl84_regexEmailValidator1");
+_ctrl0_ctl84_regexEmailValidator1.controltovalidate = "_ctrl0_ctl84_txtEmail";
+_ctrl0_ctl84_regexEmailValidator1.errormessage = "Email address is not valid.";
+_ctrl0_ctl84_regexEmailValidator1.display = "None";
+_ctrl0_ctl84_regexEmailValidator1.validationGroup = "f138ee29-e1cc-49a3-8186-b13fcdab8c8a";
+_ctrl0_ctl84_regexEmailValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+_ctrl0_ctl84_regexEmailValidator1.validationexpression = "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
+var _ctrl0_ctl84_reqvalEmailValidator1 = document.all ? document.all["_ctrl0_ctl84_reqvalEmailValidator1"] : document.getElementById("_ctrl0_ctl84_reqvalEmailValidator1");
+_ctrl0_ctl84_reqvalEmailValidator1.controltovalidate = "_ctrl0_ctl84_txtEmail";
+_ctrl0_ctl84_reqvalEmailValidator1.errormessage = "Email address is required.";
+_ctrl0_ctl84_reqvalEmailValidator1.display = "None";
+_ctrl0_ctl84_reqvalEmailValidator1.validationGroup = "f138ee29-e1cc-49a3-8186-b13fcdab8c8a";
+_ctrl0_ctl84_reqvalEmailValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+_ctrl0_ctl84_reqvalEmailValidator1.initialvalue = "";
+var _ctrl0_ctl84_cusvalMailingListsValidator = document.all ? document.all["_ctrl0_ctl84_cusvalMailingListsValidator"] : document.getElementById("_ctrl0_ctl84_cusvalMailingListsValidator");
+_ctrl0_ctl84_cusvalMailingListsValidator.errormessage = "Mailing list selection is required.";
+_ctrl0_ctl84_cusvalMailingListsValidator.display = "None";
+_ctrl0_ctl84_cusvalMailingListsValidator.validationGroup = "f138ee29-e1cc-49a3-8186-b13fcdab8c8a";
+_ctrl0_ctl84_cusvalMailingListsValidator.evaluationfunction = "CustomValidatorEvaluateIsValid";
+var _ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1 = document.all ? document.all["_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1"] : document.getElementById("_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1");
+_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1.controltovalidate = "_ctrl0_ctl84_UCCaptcha_txtCode";
+_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1.focusOnError = "t";
+_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1.errormessage = "Please provide the code.";
+_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1.display = "Dynamic";
+_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1.validationGroup = "f138ee29-e1cc-49a3-8186-b13fcdab8c8a";
+_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+_ctrl0_ctl84_UCCaptcha_RequiredFieldValidator1.initialvalue = "";
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>

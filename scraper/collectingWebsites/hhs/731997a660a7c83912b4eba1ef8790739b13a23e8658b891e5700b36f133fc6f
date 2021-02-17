@@ -1,0 +1,7 @@
+<form accept-charset="UTF-8" action="/ORISearch" id="gse-search-form" method="get">
+<div class="js-form-item form-item js-form-type-search form-type-search js-form-item-key-word form-item-key-word form-no-label">
+<label class="visually-hidden" for="edit-key-word">Search</label>
+<input class="form-search" data-drupal-selector="edit-key-word" id="edit-key-word" maxlength="128" name="key-word" placeholder="Google Custom Search..." size="15" type="search" value=""/>
+</div>
+<button class="button js-form-submit form-submit button js-form-submit form-submit" data-drupal-selector="edit-submit" id="edit-submit" title="Search" type="submit" value="Search"> <i class="fa fa-search fa-2x"></i></button>
+</form>

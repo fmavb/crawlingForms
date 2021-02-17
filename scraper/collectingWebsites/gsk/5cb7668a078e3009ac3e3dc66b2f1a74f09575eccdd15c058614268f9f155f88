@@ -1,0 +1,175 @@
+<form action="/globalsalesoptout.html" autocomplete="off" class="consumer-form-panel optout-form globalsales-form" data-usp-name="contactus|dtc|hcp|global sales optout" data-usp-type="opt out| non-dynamic" id="frm" method="post" name="frm">
+<br/><h2 class="marginB15 marginT5"><a id="top" name="top"></a><span>Opt Out Form - Complete the information below to be removed from the professional email communication list of GlaxoSmithKline's US Pharma Division.</span></h2>
+<img src="/images/iconProfile.png"/>
+<div class="header-border">
+<h1>Contact Information</h1>
+<div class="brown-border"></div>
+</div>
+<div class="form-item-horizontal cb">
+<div class="questionText"><label for="emailAddress">Enter email address: <span class="form-required">*</span></label></div>
+<div class="input-top-border">
+<input autocomplete="off" class="form-text textfield" id="emailAddress" maxlength="80" name="emailAddress" size="30" type="text" value=""/>
+</div>
+</div>
+<div class="form-item-horizontal cb">
+<div class="questionText"><label for="confirmEmailAddress">Re-enter email address: <span class="form-required">*</span></label></div>
+<div class="input-top-border">
+<input autocomplete="off" class="form-text textfield" id="confirmEmailAddress" maxlength="80" name="confirmEmailAddress" size="30" type="text" value=""/>
+</div>
+</div>
+<div class="form-item-horizontal cb route-div checkbox-ques">
+<label class="questionText">I’d like to unsubscribe from receiving commercial emails about the following therapeutic areas:<br/></label>
+</div>
+<div class="cb columns checkbox-column-div" id="optout-chxbox-div">
+<div class="outer-column-div">
+<div class="opt_disease_areas column1">
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="1"/>
+<span class="checkimg" id="THER_AREA_ID_1" name="THER_AREA_ID_1"></span>
+<label>Allergies &amp; Immunology</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="2"/>
+<span class="checkimg" id="THER_AREA_ID_2" name="THER_AREA_ID_2"></span>
+<label>Anti-Infective</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="3"/>
+<span class="checkimg" id="THER_AREA_ID_3" name="THER_AREA_ID_3"></span>
+<label>Cardiology</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="25"/>
+<span class="checkimg" id="THER_AREA_ID_25" name="THER_AREA_ID_25"></span>
+<label>Dermatology</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="4"/>
+<span class="checkimg" id="THER_AREA_ID_4" name="THER_AREA_ID_4"></span>
+<label>Diabetes &amp; Endocrinology</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="5"/>
+<span class="checkimg" id="THER_AREA_ID_5" name="THER_AREA_ID_5"></span>
+<label>Emesis</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="6"/>
+<span class="checkimg" id="THER_AREA_ID_6" name="THER_AREA_ID_6"></span>
+<label>Gastrointestinal</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="7"/>
+<span class="checkimg" id="THER_AREA_ID_7" name="THER_AREA_ID_7"></span>
+<label>Genitourinary disease</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="8"/>
+<span class="checkimg" id="THER_AREA_ID_8" name="THER_AREA_ID_8"></span>
+<label>Hematology</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="9"/>
+<span class="checkimg" id="THER_AREA_ID_9" name="THER_AREA_ID_9"></span>
+<label>Hepatitis</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="10"/>
+<span class="checkimg" id="THER_AREA_ID_10" name="THER_AREA_ID_10"></span>
+<label>HIV / AIDS</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="11"/>
+<span class="checkimg" id="THER_AREA_ID_11" name="THER_AREA_ID_11"></span>
+<label>Infectious Diseases</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="12"/>
+<span class="checkimg" id="THER_AREA_ID_12" name="THER_AREA_ID_12"></span>
+<label>Men's Health</label>
+</div>
+</div>
+<div class="opt_disease_areas column2">
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="13"/>
+<span class="checkimg" id="THER_AREA_ID_13" name="THER_AREA_ID_13"></span>
+<label>Migraine</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="14"/>
+<span class="checkimg" id="THER_AREA_ID_14" name="THER_AREA_ID_14"></span>
+<label>Musculoskeletal</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="15"/>
+<span class="checkimg" id="THER_AREA_ID_15" name="THER_AREA_ID_15"></span>
+<label>Neurology/CNS</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="16"/>
+<span class="checkimg" id="THER_AREA_ID_16" name="THER_AREA_ID_16"></span>
+<label>Oncology</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="17"/>
+<span class="checkimg" id="THER_AREA_ID_17" name="THER_AREA_ID_17"></span>
+<label>Psychiatric</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="18"/>
+<span class="checkimg" id="THER_AREA_ID_18" name="THER_AREA_ID_18"></span>
+<label>Respiratory</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="26"/>
+<span class="checkimg" id="THER_AREA_ID_26" name="THER_AREA_ID_26"></span>
+<label>Severe Hypertriglyceridemia</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="19"/>
+<span class="checkimg" id="THER_AREA_ID_19" name="THER_AREA_ID_19"></span>
+<label>Smoking Cessation</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="27"/>
+<span class="checkimg" id="THER_AREA_ID_27" name="THER_AREA_ID_27"></span>
+<label>Urology</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="22"/>
+<span class="checkimg" id="THER_AREA_ID_22" name="THER_AREA_ID_22"></span>
+<label>Vaccines - Adolescent</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="20"/>
+<span class="checkimg" id="THER_AREA_ID_20" name="THER_AREA_ID_20"></span>
+<label>Vaccines - Adult</label>
+</div>
+<div class="disease_condition">
+<input class="checkbox hiddencheckbox" name="selectTherAreaLst" type="checkbox" value="21"/>
+<span class="checkimg" id="THER_AREA_ID_21" name="THER_AREA_ID_21"></span>
+<label>Vaccines - Pediatric</label>
+</div>
+</div>
+</div>
+</div>
+<div class="cb checkbox-column-div noTopBorder">
+<div class="remove-me-postal">
+<input class="nocheck hiddencheckbox" id="GSK_OPT_OUT_IND" name="GSK_OPT_OUT_IND" onclick="checkUncheckAll(this);" type="checkbox" value="Y"/>
+<span class="lastcheckimgall" id="imgconditionall" name="imgconditionall"></span>
+<label><strong>Remove me from all professional e-mail communications from GlaxoSmithKline's US Pharma Division</strong></label>
+</div>
+</div>
+<div class="optout-route-div clear-block">
+<p>
+<span class="optout-footnote">Please allow up to 10 business days for this request to be processed.<br/>
+                    Note: You may continue to receive email notifications consisting of safety information concerning GSK products.
+                </span>
+</p>
+</div>
+<div class="optout-btn-panel">
+<input class="button" id="reset" name="RESET" type="reset" value="Reset"/>
+<input class="button" id="submit" type="submit" value="Submit"/>
+<input name="_finish" type="hidden" value="Submit"/>
+</div>
+</form>

@@ -1,0 +1,24 @@
+<form accept-charset="UTF-8" action="/cb/site_search" class="views-exposed-form" data-drupal-selector="views-exposed-form-site-searches-all-site-search" id="views-exposed-form-site-searches-all-site-search" method="get" novalidate="novalidate">
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_exposed_form__site_searches' -->
+<!-- FILE NAME SUGGESTIONS:
+   * views-exposed-form--site-searches.html.twig
+   * views-exposed-form--site-searches.html.twig
+   * views-exposed-form.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/acf_enterprise/templates/views/site_searches/views-exposed-form--site_searches.html.twig' -->
+<div class="search_form">
+<div class="float_right">
+<div class="search_form_container field_button_combo">
+<div class="left_field">
+<input class="input_text black_border" id="edit-keyword--2" name="keyword" title="Keyword" type="text"/> </div>
+<div class="right_button">
+<button class="hide_text white_on_black" id="edit-submit-site-searches--2" type="submit">
+<i class="fas fa-search"></i> <span class="search_form_submit_text">Apply</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- END OUTPUT from 'themes/custom/acf_enterprise/templates/views/site_searches/views-exposed-form--site_searches.html.twig' -->
+</form>

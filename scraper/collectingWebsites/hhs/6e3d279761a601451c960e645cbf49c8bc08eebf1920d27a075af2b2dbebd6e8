@@ -1,0 +1,168 @@
+<form action="./EvidencePrograms.aspx" id="aspnetForm" method="post" name="aspnetForm">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="PyYq4QZFOtrAmwysTb0SQpGxUp84tinimj4EXsg8xmD2/eNa2JJegwSSCoEIItNF9H7GvrBbyKPb7t0MPvXVp5TA3EmEPl630z6zzYAXbIQ="/>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="780AB2CA"/>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="To/1RPA/KKtY5jBtrOQK+YmAi6/DuE3W3LwSry6aDfl/N1C8hMRMHgNqbEnjhR4LYBBAL4Vt01yonDuRodJumOXWkn+cHOPBMpJvoNvhR2bjvdsqhLIcuUfxeYsxe3Jnp908DJSIWNhFYtjhi/FYNMb6kOc4386hwiFqQodR9iUG8HdHvz+6dES124g4E35Xi7bnvdjKvWolJX6tGu/Qy5B4Ce/nolKSqEBCRibm415ddnB8iQSBtkLL3IdIih4Gw/mrQEplRWhQfMuchrKQRo82jQWIll4Gt4CaoCO8yKEdAxPjG5bt16QKcomNuBUkmQsYLeEM3gTceSEiR1vzTsYQb/CbiO0Upos+Bz7TeeWAJ/WygBfxqfO3SfhW86tNixhePnar1cqUT62A04T7yyKOpexFRkVPgqjiQDof2O+8DfqubaIujk7m7nQJfZtFbVVRRdD0aW+wLAaOMNLkqYw8vuDeou4Ely+Fi4yzY4XlnCXFAjz8T719MFwAJMYG7YNEndatMNgKe8XA0C3S5pKyS87XjTYd96K9btk+PYEOoLMnAliww/bNmmY069wxRR1dPeG5zMDMV3f/VTDvvaVu/RTDsMogMR3ItX9sQpQz09onnSx97IUYePMU0JAHzFcNuPHCT5AnUnZum8liy5Qril/PYVshJx0L3qulnVx+50MHN51ftfPwUnIWm5e3XnOQ7LrCH6VknyUS/0caNBupe+4E6O3W6lHjlzmx8c9FEHTiz+x/iD7SeNbBkhf975m1IW+ucCssxzcjwBkUlWf5miSALYNRE8L0+uBVlZfiZfxOqN0m4pte/7aXLZRUYm/8EFBhIAMGbvhT7SUepTmCvmhC+XAHcb9odeDU5XDY8W2rl8h/yYreiEVF4CQHeUgiKxNu/oNACefyE9pdz/64mmKzBYS6c3WrBFPztYiXfRtZUotv+TciFgROfvUAtIHVU8pZMsm2igt87gumfaW0+iUQbtVrXjw9tZrE78E3UMEjUMRwAPUjE2fvhArJAdJNL9R/unXVSNvzRW6gx+E7V5BsMElbMeEXo9DRvNcjUNNqa6MaOcUBENjPweG+hjAqd/u1ukrx7/lQlIfJeFdzJvXtZJOurGMmve3ePWB36IVrmuMw6gZwsHDw6LOS"/>
+<div id="header">
+<div id="banner">
+<a href="https://youth.gov/">
+<img alt="youth.gov logo" src="images/youth-logo.png"/>
+</a>
+<div id="siteTitle">HHS Teen Pregnancy Prevention Evidence Review on youth.gov</div>
+</div>
+<div id="navdiv">
+<ul id="nav">
+<!--parkplace-hhs_logo.jpg -->
+<li style="width:4.2em;">
+<a class="first" href="/Default.aspx">Home</a>
+<ul>
+</ul>
+</li>
+<li style="width:9.6em">
+<a class="EvidencePrograms" href="/EvidencePrograms.aspx">Find a Program</a>
+<ul>
+</ul>
+</li>
+<li style="width:8.2em">
+<a class="Reports" href="/Reports.aspx">Publications</a>
+<ul>
+</ul>
+</li>
+<li style="width:10.6em">
+<a class="ReviewProtocol" href="/ReviewProtocol.aspx">About the Review</a>
+<ul>
+</ul>
+</li>
+<li style="width:10.6em">
+<a class="StudyDatabase" href="/StudyDatabase.aspx">Reviewed Studies</a>
+<ul>
+</ul>
+</li>
+<li style="width:4.6em">
+<a class="Faqs" href="/Faq.aspx">Faqs</a>
+<ul>
+</ul>
+</li>
+<li style="width:7.6em">
+<a class="AboutUs" href="/AboutUs.aspx">About Us</a>
+<ul>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div style="clear:both;"></div>
+<div id="maincontent" style="padding-bottom: 20px">
+<div class="intro" id="breadcrumbs"> <a href="default.aspx" id="ctl00_pagecontent_ucBreadCrumbs_bcHome">Home</a> &gt; <span id="ctl00_pagecontent_ucBreadCrumbs_lblBCafterreport">Programs</span></div>
+<h1 id="content-header"> Programs</h1>
+<div class="programs-header-text">
+		The Teen Pregnancy Prevention Evidence Review identified programs with evidence of effectiveness in reducing teen pregnancy, sexually transmitted infections, and associated sexual risk behaviors.
+    </div>
+<div class="programs-fieldset-blocks">
+<fieldset>
+<legend>
+<span><img alt="" src="./images/Select-Program-Solid-125.png"/></span>
+</legend>
+<h2 class="programs-fieldset-block-heading"><label for="ctl00_pagecontent_ddlPrograms">Select a Program</label></h2>
+<div>
+<select id="ctl00_pagecontent_ddlPrograms" name="ctl00$pagecontent$ddlPrograms">
+<option value="
+                   Select a Program...
+                ">
+                   Select a Program...
+                </option>
+<option value="4">Aban Aya Youth Project</option>
+<option value="11">Adult Identity Mentoring (Project AIM)</option>
+<option value="276">AIM 4 Teen Moms</option>
+<option value="14">All4You!</option>
+<option value="19">Assisting in Rehabilitating Kids (ARK)</option>
+<option value="21">Be Proud! Be Responsible!</option>
+<option value="22">Be Proud! Be Responsible! Be Protective!</option>
+<option value="23">Becoming a Responsible Teen (BART)</option>
+<option value="35">Children's Aid Society (CAS)-Carrera Program</option>
+<option value="44">Crossroads/Turning the Corner Achievement Program (TCAP)</option>
+<option value="273">¡Cuídate!</option>
+<option value="49">Draw the Line/Respect the Line</option>
+<option value="51">Familias Unidas</option>
+<option value="53">Families Talking Together</option>
+<option value="57">FOCUS</option>
+<option value="278">Generations</option>
+<option value="274">Get Real (Middle School)</option>
+<option value="67">Health Improvement Project for Teens (HIP Teens)</option>
+<option value="275">Healthy Futures</option>
+<option value="74">Heritage Keepers Abstinence Education</option>
+<option value="81">HORIZONS</option>
+<option value="86">It's Your Game: Keep It Real (IYG)</option>
+<option value="281">Love Notes</option>
+<option value="101">Making a Difference!</option>
+<option value="102">Making Proud Choices!</option>
+<option value="280">Positive Potential</option>
+<option value="279">Positive Prevention PLUS</option>
+<option value="282">Possessing Your Power</option>
+<option value="283">Power Through Choices</option>
+<option value="146">Prime Time</option>
+<option value="150">Project IMAGE</option>
+<option value="162">Project TALC</option>
+<option value="166">Promoting Health Among Teens! Abstinence-Only Intervention</option>
+<option value="167">Promoting Health Among Teens! Comprehensive Abstinence and Safer Sex Intervention</option>
+<option value="172">Raising Healthy Children (formerly known as the Seattle Social Development Project)</option>
+<option value="182">Reducing the Risk</option>
+<option value="185">Respeto/Proteger</option>
+<option value="187">Rikers Health Advocacy Program (RHAP)</option>
+<option value="194">Safer Choices</option>
+<option value="195">Safer Sex Intervention (SSI)</option>
+<option value="271">Seventeen Days (formerly What Could You Do?)</option>
+<option value="205">Sexual Health and Adolescent Risk Prevention (SHARP)</option>
+<option value="207">SiHLE</option>
+<option value="210">Sisters Saving Sisters</option>
+<option value="221">STRIVE</option>
+<option value="235">Teen Health Project</option>
+<option value="277">Teen Options to Prevent Pregnancy (T.O.P.P.)</option>
+<option value="237">Teen Outreach Program (TOP)</option>
+</select>
+</div>
+<div style="margin-top: 25px;">
+<a class="button-style-link" href="#" id="programButton">GO</a>
+</div>
+</fieldset>
+<fieldset>
+<legend>
+<span><a href="./FindAProgram.aspx"><img alt="Find and Compare Programs" src="./images/icon_explore-125.png"/></a></span>
+</legend>
+<h2 class="programs-fieldset-block-heading"><a href="./FindAProgram.aspx">Find and Compare Programs</a></h2>
+<div class="programs-fieldset-block-text">
+                Find programs based on program characteristics such as target population, length, setting, and implementation readiness score.
+            </div>
+</fieldset>
+<fieldset>
+<legend>
+<span><a href="./Resources.aspx"><img alt="View Resources" src="./images/Resources-Solid-125.png"/></a></span>
+</legend>
+<h2 class="programs-fieldset-block-heading"><a href="./Resources.aspx">View Resources</a></h2>
+<div class="programs-fieldset-block-text">
+                Learn more about evidence based programs and this review.
+            </div>
+</fieldset>
+</div>
+<div class="disclaimer">
+<h3>Disclaimer</h3>
+<p>
+            The Teen Pregnancy Prevention Evidence Review did not examine curriculum content to make assessments about whether a program was medically or scientifically accurate, or inclusive of populations that are diverse in terms of race, ethnicity, sexual orientation, and sexual identity. Meeting the Evidence Review criteria does not indicate HHS endorsement of a program model. For more information, please read about our .
+            <a href="ReviewProtocol.aspx"> review process</a> and our <a href="Faq.aspx"> FAQs   </a>.</p>
+</div>
+<script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#programButton").click(function (e) {
+                e.preventDefault();
+                var pVal = $("#ctl00_pagecontent_ddlPrograms").val();
+                var pInd = $("#ctl00_pagecontent_ddlPrograms")[0].selectedIndex;
+                if (pInd == 0) {
+                    alert("Please select a program.");
+                    return;
+                }
+                location.href = "./document.aspx?rid=3&sid=" + pVal + "&mid=1";
+            });
+        })
+    </script>
+</div>
+</form>

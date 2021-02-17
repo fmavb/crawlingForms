@@ -1,0 +1,353 @@
+<form action="./StudyDatabase.aspx" id="aspnetForm" method="post" name="aspnetForm">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="lzyZm5UhLuju9oRgP1v8mmglqVxYpS1Qfx7SDaXBybnrW5jINOvVCZHBJxzJhOIeOoF+TnNdHhIPQmCDcBO+VXCqpkjaQzO8k55Y59MyKS1sDYlFMwQbNV8OpUBDY05/uVxnftTCsk0crOT/095/rRYmxAcgY0N/uFus/1DH50VfBm2f+6eEyR8YX7decyNnsSqgjBZ1FiJNCWkJdLYhtedrsXrG8dj/Ckkz1iIR6kAAq2gdqbxHypf+bTxnJFtKg4/r5r0SlxkVW2JiIbNR72SOQBvZJfFFb8Yrb5SDlELMg8a/f/9qH1p5JguHxGqaWCGMX481QZTbZk8O3fNGK19gnxy9S9+i1fe35i+yuAxfGbfRPJgCp6EPKHvfusyneBubascv8NZ3u9vDkeDkBY3tGzJtYIe9fxww29CnGmVxaWauPR92AZz/4OUh0u4kCcenIRZKUfsMwe+F8rvW2u6kHUBhFcss+rgO988QDJ3I6gkynLUzhVCt4yx4yeDg6mjCOYmyYky3ncKJxYCBsvBUTEvysrKZBmknDAaK0NgKuknVT6puyqeVC5PVghYPC5trSFyhe0s3sRmD0LzfeblypRvbB3k4n3wAoOi2/vnVElyY/yfIen8Xwsny5mEEzKDYfnDaOo+mDNiUMAJZ+D1JKxJlV6LQkCAKAkemY0uuUF6oESxwEy0OaKgU83iaNwjIFVeU1GyG1KOyFk1cNaY8wWFVeURGKTqehBjlTiY9aLjBeVruXb825c3hcIKy"/>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="FE837AB6"/>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="iBWosauoUplhwBLQQpkCkxwvtAfUdzL2vXPHr5ToUl+4+cf3kZXeeMtGclvqIh+dy5sndpoywrWVTqgJe/AFG7dju/3c0VB47BOXRHAAvpZNyNPXdJKjfDjUxg2v3BY6JUs7zi1yF4TU+dMy01uCk+bcMLXvdBYqsu4jb2ID7PUA6KcnGmg/pXtLvyBcrTPhfSeqHHcbMCVil7kUhwmAlqegFxYYlp8bDlGWbSKE+04SDcXIVcc89M7DlIzLgN2uTBgRvICXYEDq0wDU8M5DnAnr/c5AZyESzCgt2sZI0e5UHYMms6oiDvDr7SVOs//UvgGKodwkGMINvS5sFDAIu4+lhTSPpoAzkQ9JI5GIWBrjB5pHQmcdguuoXx0RRzl0S9v4XPxN+hyIHPRw5PZgvqZnE9yA7LTKt+zZVjtZmTG1CWNM3LOu83UdJG3+p/YfrLmCIQ6KqAeWrGy+zdkdyWT5QLCQGcsVUBvuGfMW+lxs2VZO280/c70/8sG0cp81PqyMpQ/jXhw/ZByBcHMypCHT4sNXiIilBwOPh1qMTaDYqXi4s3JWi0/ZfrrWfSnOuRlMGW+7J87nY0+JHgYri/Gf03WBzn86EWMIYOeRM7Q="/>
+<div id="header">
+<div id="banner">
+<a href="https://youth.gov/">
+<img alt="youth.gov logo" src="images/youth-logo.png"/>
+</a>
+<div id="siteTitle">HHS Teen Pregnancy Prevention Evidence Review on youth.gov</div>
+</div>
+<div id="navdiv">
+<ul id="nav">
+<!--parkplace-hhs_logo.jpg -->
+<li style="width:4.2em;">
+<a class="first" href="/Default.aspx">Home</a>
+<ul>
+</ul>
+</li>
+<li style="width:9.6em">
+<a class="EvidencePrograms" href="/EvidencePrograms.aspx">Find a Program</a>
+<ul>
+</ul>
+</li>
+<li style="width:8.2em">
+<a class="Reports" href="/Reports.aspx">Publications</a>
+<ul>
+</ul>
+</li>
+<li style="width:10.6em">
+<a class="ReviewProtocol" href="/ReviewProtocol.aspx">About the Review</a>
+<ul>
+</ul>
+</li>
+<li style="width:10.6em">
+<a class="StudyDatabase" href="/StudyDatabase.aspx">Reviewed Studies</a>
+<ul>
+</ul>
+</li>
+<li style="width:4.6em">
+<a class="Faqs" href="/Faq.aspx">Faqs</a>
+<ul>
+</ul>
+</li>
+<li style="width:7.6em">
+<a class="AboutUs" href="/AboutUs.aspx">About Us</a>
+<ul>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div style="clear:both;"></div>
+<div id="maincontent" style="padding-bottom: 20px">
+<script type="text/javascript">
+
+            function clearFilter() {
+                var txt = document.getElementById("ctl00_pagecontent_txtFilter");
+                if (txt)
+                    txt.value = "";
+            }
+
+
+            function GetClientId(strid) {
+                var count = document.forms[0].length;
+                var i = 0;
+                count = childs.length;
+
+                var eleName;
+                for (i = 0; i < count; i++) {
+                    /**eleName = document.forms[0].elements[i].id; **/
+                    eleName = childs[i].id;
+                    alert('found: ' + eleName);
+                    pos = eleName.indexOf(strid);
+                    if (pos >= 0) {
+                        break;
+                    }
+                }
+                alert('result: ' + eleName);
+                return eleName;
+
+            }
+
+            function OpenNewWindow(navigateUrl, rating) {
+
+  	           if (rating == 'low')
+               {
+                    window.open (navigateUrl, '',  'width=680px, height=700px, scrollbars, resizable');
+               }
+               else
+               {
+                    window.open (navigateUrl, '',  'width=680px, height=200px, scrollbars, resizable');
+               }
+               return false;
+            }
+
+</script>
+<div class="intro" id="breadcrumbs"> <a href="default.aspx" id="ctl00_pagecontent_ucBreadCrumbs_bcHome">Home</a> &gt; <span id="ctl00_pagecontent_ucBreadCrumbs_lblBCafterreport">Study Search</span></div>
+<h1 id="content-header"> Study Search</h1>
+<div class="page-top-section">
+    The review team identified and assessed hundreds of studies released since 1989. Use the search fields below to identify individual studies, or click the “List All” button to generate a complete list of all studies reviewed.
+    </div>
+<div id="searchleft">
+<div id="ctl00_pagecontent_NavPanel">
+<div id="search-panel-header">
+<h2>Search Our <br/>Study Database</h2>
+</div>
+<div style="margin-top: - 15px;">
+<script type="text/javascript">
+
+   
+
+    var searchTextBox;
+    var searchCombo;
+    var collPanel;
+
+    function createPointers() {
+        searchTextBox = document.getElementById('ctl00_pagecontent_ucSearchProfiles_txtSearchText');
+      /** searchCombo = document.getElementById('ctl00_pagecontent_ucSearchProfiles_cboField'); */
+   }
+
+    window.onload = createPointers;
+
+    function ExpandCollapse() {
+         if (collPanel.get_Collapsed())
+            collPanel.set_Collapsed(false);
+        else
+            collPanel.set_Collapsed(true);
+    }    
+
+
+
+
+
+    var referenceWindow = null;
+
+    function openRefWindow(curAnchor) {
+        //referenceWindow = myOpenWindow("theopentarget.html", "myWin", "height=250,width=480", referenceWindow);
+        
+        var pageURL = 'ReferenceInfo.aspx';
+        var pageAttributes = 'width=480, height=320, scrollbars=yes, resizable=no, status=no, titlebar=no'
+
+        var pageName = '';
+
+        var leftPos = (screen.width-480)/2;  
+        var topPos = (screen.height-320)/2;
+        pageAttributes = pageAttributes + ', left=' + leftPos + ' top=' + topPos;
+        
+        referenceWindow = openPopupWindow(pageURL, pageName, pageAttributes);
+        
+        var pageLocation = pageURL + '#' + curAnchor;
+        referenceWindow.location = pageLocation;
+
+        return false;
+    }
+
+    function openPopupWindow(winURL, winName, winFeatures)
+    {
+        var theWin; // this will hold our opened window
+
+        // first check to see if the window already exists
+        if (referenceWindow != null)
+        {
+            // the window has already been created, but did the user close it?
+            // if so, then reopen it. Otherwise make it the active window.
+            if (!referenceWindow.closed) {
+                referenceWindow.focus();
+                //referenceWindow.location = referenceWindow.location + '#Components';
+                return referenceWindow;
+            }
+        // otherwise fall through to the code below to re-open the window
+        }
+
+        // if we get here, then the window hasn't been created yet, or it
+        // was closed by the user.
+        theWin = window.open(winURL, winName, winFeatures);
+        return theWin;
+    } 
+    
+</script>
+<br/>
+<!-- For Advanced Search
+        <div>
+            <span id="ctl00_pagecontent_ucSearchProfiles_LABEL2" class="SelLabelsTall" style="margin-bottom: .5em;">Study citation</span>
+        </div>
+        <div>    
+            <input name="ctl00$pagecontent$ucSearchProfiles$txCitation" type="text" id="ctl00_pagecontent_ucSearchProfiles_txCitation" style="vertical-align:middle;" />
+        </div>
+        <div style="margin-top:12px">
+            <span id="ctl00_pagecontent_ucSearchProfiles_LABEL3" class="SelLabelsTall" style="margin-bottom: .5em;">Program name</span>
+        </div>
+        <div>    
+            <input name="ctl00$pagecontent$ucSearchProfiles$txtProgramName" type="text" id="ctl00_pagecontent_ucSearchProfiles_txtProgramName" style="vertical-align:middle;" />
+        </div>
+        <div style="margin-top:12px">
+            <span id="ctl00_pagecontent_ucSearchProfiles_LABEL4" class="SelLabelsTall" style="margin-bottom: .5em;">Program description</span>
+        </div>
+        <div>    
+            <input name="ctl00$pagecontent$ucSearchProfiles$txtProgramOverview" type="text" id="ctl00_pagecontent_ucSearchProfiles_txtProgramOverview" style="vertical-align:middle;" />
+        </div>
+        <div style="margin-top:12px">
+            <span id="ctl00_pagecontent_ucSearchProfiles_LABEL5" class="SelLabelsTall" style="margin-bottom: .5em;">Study overview</span>
+        </div>
+        <div>    
+            <input name="ctl00$pagecontent$ucSearchProfiles$txtStudyOverview" type="text" id="ctl00_pagecontent_ucSearchProfiles_txtStudyOverview" style="vertical-align:middle;" />
+        </div>
+        <div style="margin-top:12px">
+            <span id="ctl00_pagecontent_ucSearchProfiles_LABEL6" class="SelLabelsTall" style="margin-bottom: .5em;">Population served</span>
+        </div>
+        <div>    
+            <input name="ctl00$pagecontent$ucSearchProfiles$txtParticipantEligibility" type="text" id="ctl00_pagecontent_ucSearchProfiles_txtParticipantEligibility" style="vertical-align:middle;" />
+        </div>
+        <div style="margin-top:12px">
+            <span id="ctl00_pagecontent_ucSearchProfiles_LABEL7" class="SelLabelsTall" style="margin-bottom: .5em;">Service-delivery settings</span>
+        </div>
+        <div>    
+            <input name="ctl00$pagecontent$ucSearchProfiles$txtSettings" type="text" id="ctl00_pagecontent_ucSearchProfiles_txtSettings" style="vertical-align:middle;" />
+        </div>
+        
+        <div>
+            <span id="ctl00_pagecontent_ucSearchProfiles_lblSearchableField" class="SelLabelsTall" style="margin-bottom: .5em;">Searchable Field(s)</span>
+        </div>
+        <div>    
+            <select name="ctl00$pagecontent$ucSearchProfiles$cboField" id="ctl00_pagecontent_ucSearchProfiles_cboField" style="vertical-align:middle;">
+		<option selected="selected" value=""></option>
+		<option value="Program Name">Program Name</option>
+		<option value="Study Citation">Study Citation</option>
+		<option value="All Fields">All Fields</option>
+
+	</select>
+        </div>
+        !-->
+<div id="search-panel-subheader" style="margin-top: -12px">
+<label class="SelLabelsTall" for="ctl00_pagecontent_ucSearchProfiles_txtSearchText" id="ctl00_pagecontent_ucSearchProfiles_lblSearchableText" style="margin-bottom: .5em;">Enter Program Name or Author Name</label>
+</div>
+<div>
+<input id="ctl00_pagecontent_ucSearchProfiles_txtSearchText" name="ctl00$pagecontent$ucSearchProfiles$txtSearchText" style="vertical-align:middle;" type="text"/>
+</div>
+<br/>
+<!-- For Advanced Search
+        <span>
+            <span id="ctl00_pagecontent_ucSearchProfiles_LABEL8" class="SelLabelsTall" style="margin-bottom: .5em;">Sample race and ethnicity</span>
+        </span>
+        <div id="Div13" class="SelSections">
+                    <span style="display:block; width: 100%; margin-bottom: 8px;"><input id="ctl00_pagecontent_ucSearchProfiles_chkWhite" type="checkbox" name="ctl00$pagecontent$ucSearchProfiles$chkWhite" /><label for="ctl00_pagecontent_ucSearchProfiles_chkWhite">White</label></span>
+        </div>
+        <div id="Div14" class="SelSections">
+                    <span style="display:block; width: 100%; margin-bottom: 8px;"><input id="ctl00_pagecontent_ucSearchProfiles_chkAfrican" type="checkbox" name="ctl00$pagecontent$ucSearchProfiles$chkAfrican" /><label for="ctl00_pagecontent_ucSearchProfiles_chkAfrican">African American</label></span>
+        </div>
+        <div id="Div15" class="SelSections">
+                    <span style="display:block; width: 100%; margin-bottom: 8px;"><input id="ctl00_pagecontent_ucSearchProfiles_chkHispanic" type="checkbox" name="ctl00$pagecontent$ucSearchProfiles$chkHispanic" /><label for="ctl00_pagecontent_ucSearchProfiles_chkHispanic">Hispanic/Latino</label></span>
+        </div>
+        <div id="Div16" class="SelSections">
+                    <span style="display:block; width: 100%; margin-bottom: 8px;"><input id="ctl00_pagecontent_ucSearchProfiles_chkAsian" type="checkbox" name="ctl00$pagecontent$ucSearchProfiles$chkAsian" /><label for="ctl00_pagecontent_ucSearchProfiles_chkAsian">Asian American</label></span>
+        </div>
+        <div id="Div17" class="SelSections">
+                    <span style="display:block; width: 100%; margin-bottom: 8px;"><input id="ctl00_pagecontent_ucSearchProfiles_chkOthers" type="checkbox" name="ctl00$pagecontent$ucSearchProfiles$chkOthers" /><label for="ctl00_pagecontent_ucSearchProfiles_chkOthers">Other</label></span>
+        </div>
+        
+        <br />
+        !-->
+<!-- Study Ratings
+            1 - High
+            2 - Moderate
+            3 - Low
+            4 - Unratedd
+        !-->
+<div class="search-fieldset">
+<fieldset>
+<legend><b>Study Quality Rating*</b></legend>
+<div class="rating-panel" id="ctl00_pagecontent_ucSearchProfiles_pBodyRating">
+<span id="ctl00_pagecontent_ucSearchProfiles_lblTextRating"></span>
+<div class="SelSections" id="Div1">
+<span>
+<span style="width: 50px; margin-bottom: 8px;"><input id="ctl00_pagecontent_ucSearchProfiles_chkRating1" name="ctl00$pagecontent$ucSearchProfiles$chkRating1" type="checkbox"/><label for="ctl00_pagecontent_ucSearchProfiles_chkRating1">High</label></span>
+<a class="rating-question" href="#" title="High - Given to RCTs with low attrition, no reassignment of sample members, no systematic differences in data collection processes between groups, and that have at least two clusters in each group (for cluster designs).">
+                             ?<span>High - Given to RCTs with low attrition, no reassignment of sample members, no systematic differences in data collection processes between groups, and that have at least two clusters in each group (for cluster designs).</span></a>
+<span style="width: 50px; margin-bottom: 8px; margin-left: 36px"><input id="ctl00_pagecontent_ucSearchProfiles_chkRating3" name="ctl00$pagecontent$ucSearchProfiles$chkRating3" type="checkbox"/><label for="ctl00_pagecontent_ucSearchProfiles_chkRating3">Low</label></span>
+<a class="rating-question" href="#" title="Low –Given to studies that do not meet the review standards for either a high or moderate quality rating.">
+                             ?<span>Low –Given to studies that do not meet the review standards for either a high or moderate quality rating.</span></a>
+</span>
+</div>
+<div class="SelSections" id="Div2" style="margin-top: 12px">
+<span>
+<span style="width: 50px"><input id="ctl00_pagecontent_ucSearchProfiles_chkRating2" name="ctl00$pagecontent$ucSearchProfiles$chkRating2" type="checkbox"/><label for="ctl00_pagecontent_ucSearchProfiles_chkRating2">Moderate</label></span>
+<a class="rating-question" href="#" title="Moderate –Given to (1) RCTs that do not meet all of the review criteria for a high quality rating and (2) QEDs that demonstrate baseline equivalence, do not have systematic differences in  data collection processes, and have at least two clusters in each group (for cluster designs).">
+                            ?<span>Moderate –Given to (1) RCTs that do not meet all of the review criteria for a high quality rating and (2) QEDs that demonstrate baseline equivalence, do not have systematic differences in  data collection processes, and have at least two clusters in each group (for cluster designs).</span></a>
+</span>
+</div>
+<div class="SelSections" id="Div14">
+<span style="width: 50px; margin-top: 12px; margin-left: 10px"><input id="ctl00_pagecontent_ucSearchProfiles_chkRating4" name="ctl00$pagecontent$ucSearchProfiles$chkRating4" type="checkbox"/><label for="ctl00_pagecontent_ucSearchProfiles_chkRating4">N/A</label></span>
+<a class="rating-question" href="#" title="Not applicable –Given to studies that do not meet the review eligibility criteria.">
+                            ?<span>Not applicable –Given to studies that do not meet the review eligibility criteria.</span></a>
+</div>
+</div>
+</fieldset>
+</div>
+<br/>
+<!-- Outcomes
+            1 - Economic
+            2 - Well being
+            3 - Financial support
+            4 - Involvement children
+            5 - Co-parenting
+            6 - Relationship
+            7 - Domestic violence
+            8 - Child outcomes
+            9 - Other
+         !-->
+<!--
+            1 - Sexual initiation/abstinence
+            2 - Recent sexual activity
+            3 - Number of sexual partners
+            4 - Frequency of sexual activity
+            5 - Contraceptive use and/or consistency
+            6 - Sexually transmitted infections (STIs)
+            7 - Pregnancy or birth
+        !-->
+<div class="search-panel-line">
+</div>
+<div class="SelSections" id="Div11" style="margin-bottom: -8px; margin-top: 0px;">
+<span style="display:inline-block; width: 100%; margin-bottom: 8px; margin-left: 5px; font-weight: bold;"><input id="ctl00_pagecontent_ucSearchProfiles_chkRecent" name="ctl00$pagecontent$ucSearchProfiles$chkRecent" type="checkbox"/><label for="ctl00_pagecontent_ucSearchProfiles_chkRecent">Show only studies most recently reviewed</label></span>
+</div>
+<br/>
+<br/>
+<i><b>*</b>A detailed description of the study quality ratings is presented in the 
+        <strong><a href="ReviewProtocol.aspx">review protocol</a></strong>.</i>
+</div>
+<div id="navbuttons" style="clear:both; height:2em; padding-top:20px; margin-left:2px;">
+<span>
+<input id="ctl00_pagecontent_btnGo" name="ctl00$pagecontent$btnGo" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$pagecontent$btnGo", "", true, "", "", false, false))' style="vertical-align:middle" title="Show search results" type="submit" value="Go"/>
+</span>
+<span style="margin-left: 3px">
+<input id="ctl00_pagecontent_btnAll" name="ctl00$pagecontent$btnAll" style="vertical-align:middle" title="List all programs" type="submit" value="List All"/>
+</span>
+<span style="margin-left: 25px">
+<input id="ctl00_pagecontent_btnReset" name="ctl00$pagecontent$btnReset" style="vertical-align:middle" title="Reset Search options and results" type="submit" value="Clear"/>
+</span>
+<!--span style="vertical-align:middle;" ><a href="javascript:openWin('listhelp.asp', '525','525');">
+                        <img id="navHelp" src="images/help_popup.gif" height="16"
+                            alt="help" title="Get help selecting which programs to display."/></a>
+                </span !-->
+</div>
+</div>
+</div>
+<div id="search-result">
+<div>
+<h3><span id="ctl00_pagecontent_lblTitle"><b>To search for studies, indicate the search criteria to use in the left hand panel.</b></span></h3>
+<span id="ctl00_pagecontent_lblError"></span>
+</div>
+</div>
+</div>
+</form>

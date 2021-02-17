@@ -1,0 +1,11 @@
+<form action="/search/" class="ds_site-search__form" method="GET" role="search">
+<label class="ds_site-search__label hidden" for="site-search--mobile">Search</label>
+<div class="ds_site-search__input-group">
+<input autocomplete="off" class="ds_site-search__input" id="site-search--mobile" name="q" placeholder="Search" required="" type="text"/>
+<input hidden="" name="cat" value="sitesearch"/>
+<button class="ds_site-search__button button button--primary" title="search" type="submit">
+<svg class="ds_icon ds_site-search__icon" role="img"><use xlink:href="/webfiles/1612365252768/assets/images/icons/icons.stack.svg#search"></use></svg>
+<span class="hidden">Search gov.scot</span>
+</button>
+</div>
+</form>

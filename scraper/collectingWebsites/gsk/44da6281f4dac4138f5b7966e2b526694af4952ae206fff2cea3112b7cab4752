@@ -1,0 +1,60 @@
+<form action="/content/cf-common-framework/digital-delivery/en_GB/home/contact.send.html" method="post">
+<input name="_charset_" type="hidden" value="UTF-8"/>
+<input name=":formstart" type="hidden" value="/content/cf-common-framework/digital-delivery/en_GB/home/contact/_jcr_content/paragraph2/form"/>
+<div class="paragraphSystem formContent">
+<a aria-hidden="true" id="01722358891" style="visibility:hidden"></a>
+<div class="richText component section default-style first odd">
+<div class="component-content">
+<div class="richText-content">
+<h3>Send us feedback</h3>
+<p>Why not let us know what you think? This short form email will help us to improve our service.</p>
+</div>
+</div>
+</div>
+<div class="textField component form-element section default-style even">
+<div class="component-content" data-invalid-value-error-message="Invalid value" data-required-error-message="Field is mandatory">
+<div class="control-group">
+<label class="control-label" for="name"> Name <span class="required">*</span> </label>
+<div class="controls">
+<input id="name" name="name" required="" title="Name" type="text" value=""/>
+</div>
+</div>
+</div>
+</div>
+<div class="textField component form-element section default-style odd">
+<div class="component-content" data-invalid-value-error-message="Invalid value" data-required-error-message="Please enter your email address">
+<div class="control-group">
+<label class="control-label" for="emailaddress"> Email Address <span class="required">*</span> </label>
+<div class="controls">
+<input id="emailaddress" name="emailaddress" required="" title="Email Address" type="email" value=""/>
+</div>
+</div>
+</div>
+</div>
+<div class="textField component form-element section default-style even">
+<div class="component-content" data-invalid-value-error-message="Invalid value" data-required-error-message="Field is mandatory">
+<div class="control-group">
+<label class="control-label" for="subject"> Subject </label>
+<div class="controls">
+<input id="subject" name="subject" title="Subject" type="text" value=""/>
+</div>
+</div>
+</div>
+</div>
+<div class="textArea component form-element section default-style odd">
+<div class="component-content" data-required-error-message="Field is mandatory">
+<div class="control-group">
+<label class="control-label" for="message"> Message </label>
+<div class="controls">
+<textarea id="message" name="message"></textarea>
+</div>
+</div>
+</div>
+</div>
+<div class="formButton component form-element section default-style even last">
+<div class="component-content">
+<button class="button" name="submit" type="submit"> Send mail </button>
+</div>
+</div>
+</div>
+</form>

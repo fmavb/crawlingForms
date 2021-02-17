@@ -1,0 +1,48 @@
+<form accept-charset="UTF-8" action="/newsroom/search" id="views-exposed-form-newsroom-of-acquia-search-page" method="get">
+<div class="search-box-container">
+<main role="main">
+<div class="clearfix">
+<div class="search-dropdown-container">
+<label class="ds-u-visibility--screen-reader" for="select-search-language">Select search language:</label>
+<div class="search-language desktop"><!-- TODO: hide this in mobile view -->
+<select id="select-search-language">
+<option class="full-language" value="en">English</option>
+<option class="full-language" value="es">Español</option>
+<option class="abbr-language" value="en">EN</option>
+<option class="abbr-language" value="es">ES</option>
+</select>
+</div>
+<div class="js-form-item form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-search form-item-search">
+<label for="edit-search">Search</label>
+<input aria-expanded="false" aria-label="Search newsroom articles" class="form-autocomplete form-text" data-autocomplete-path="/search_api_autocomplete/newsroom_of_acquia_search?display=page&amp;&amp;filter=search" data-drupal-selector="edit-search" data-search-api-autocomplete-search="newsroom_of_acquia_search" id="edit-search" maxlength="128" name="search" placeholder="Search newsroom articles" role="combobox" size="30" type="text" value=""/>
+</div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-search-api-language form-item-search-api-language form-no-label">
+<select class="form-select" data-drupal-selector="edit-search-api-language" id="edit-search-api-language" name="search_api_language"><option value="All">- Any -</option><option value="***LANGUAGE_site_default***">Site's default language (English)</option><option value="***LANGUAGE_language_interface***">Interface text language selected for page</option><option selected="selected" value="en">English</option><option value="es">Spanish</option><option value="und">Not specified</option><option value="zxx">Not applicable</option></select>
+</div>
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-date-min form-item-field-date-min">
+<label for="edit-field-date-min">Date</label>
+<input class="form-text" data-drupal-selector="edit-field-date-min" id="edit-field-date-min" maxlength="128" name="field_date[min]" size="30" type="text" value=""/>
+</div>
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-date-max form-item-field-date-max">
+<label for="edit-field-date-max">And</label>
+<input class="form-text" data-drupal-selector="edit-field-date-max" id="edit-field-date-max" maxlength="128" name="field_date[max]" size="30" type="text" value=""/>
+</div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-sort-by form-item-sort-by">
+<label for="edit-sort-by">Sort by</label>
+<select class="form-select" data-drupal-selector="edit-sort-by" id="edit-sort-by" name="sort_by"><option selected="selected" value="field_date">Newest First</option><option value="search_api_relevance">Best Match</option></select>
+</div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-sort-order form-item-sort-order">
+<label for="edit-sort-order">Order</label>
+<select class="form-select" data-drupal-selector="edit-sort-order" id="edit-sort-order" name="sort_order"><option value="ASC">Asc</option><option selected="selected" value="DESC">Desc</option></select>
+</div>
+<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-items-per-page form-item-items-per-page">
+<label for="edit-items-per-page">Items per page</label>
+<select class="form-select" data-drupal-selector="edit-items-per-page" id="edit-items-per-page" name="items_per_page"><option selected="selected" value="10">10</option><option value="20">20</option><option value="30">30</option><option value="40">40</option><option value="50">50</option><option value="All">View All</option></select>
+</div>
+<div class="form-actions js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"><input class="button js-form-submit form-submit" data-drupal-selector="edit-submit-newsroom-of-acquia-search" id="edit-submit-newsroom-of-acquia-search" type="submit" value="SEARCH"/>
+</div>
+</div>
+</div>
+</main>
+</div>
+</form>

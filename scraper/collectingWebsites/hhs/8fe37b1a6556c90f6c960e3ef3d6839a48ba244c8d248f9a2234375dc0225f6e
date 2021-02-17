@@ -1,0 +1,43 @@
+<form action="/omh/find.aspx" method="post" name="OMHSearch">
+<!--<table width="960px" border="0" cellpadding="5px" cellspacing="0px">
+        <tr>
+		<td bgcolor="#FF0004"><p style="color: #FFFFFF"><strong>As a result of the current Federal government funding situation, the information on this website may not be up to date or acted upon.   
+
+Updates regarding government operating status and resumption of normal operations can be found at 
+ <a href="https://www.opm.gov/">https://www.opm.gov/</a>.</strong> </p>
+			</td>
+	 </tr>
+</table>-->
+<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="960px">
+<tr>
+<td align="right" bgcolor="#0055a4" colspan="2" height="32px"><a href="http://www.hhs.gov/"><img alt="U.S. Department of Health and Human Services" border="0" height="40" src="/Assets/Static/Images/header/HHSbanner4.png" width="960"/></a></td>
+</tr>
+<tr>
+<td align="left" style="width:720px"><h1 style="display:inline"><span style="display:none">Office of Minority Health</span></h1><a href="/" title="Link to Office of Minority Health Home"><img alt="Office of Minority Health (OMH) Logo" border="0" height="104px" src="/Assets/Static/Images/header/OMH-Logo.png" width="369"/></a></td>
+<td align="right" width="240px">
+<table class="mobile-hide" role="presentation" width="240px">
+<tr>
+<td align="right"><p><a href="javascript:window.print()"><img alt="Print Page" border="0px" height="20px" src="/Assets/Static/Images/header/iconPrint.png" style="border-style: none; width: 20px;"/></a> <img alt="" height="14px" src="/Assets/Static/Images/header/divider.png" width="1px"/> <a href="#" id="font-size-decrease" title="Decrease Font"><font size="1">A</font> </a><a href="#" id="font-size-standard" title="Reset Font"><font size="2">A</font> </a><a href="#" id="font-size-increase" title="Increase Font"><font size="3">A</font></a>
+<br/><a class="topbar" href="/espanol/" title="En Español">En Español</a> <img alt="" height="14px" src="/Assets/Static/Images/header/divider.png" width="1px"/> <a class="topbar" href="/omh/browse.aspx?lvl=2&amp;lvlid=8" title="Newsroom">Newsroom</a> <img alt="" height="14px" src="/Assets/Static/Images/header/divider.png" width="1px"/>
+<a class="topbar" href="/omh/content.aspx?lvl=1&amp;lvlid=1&amp;ID=10116">Contact Us</a>
+<br/><label for="SearchQuery">Search:</label> <input accesskey="S" class="searchbox" id="SearchQuery" name="SearchQuery" title="OMHSearch" type="text"/> <input class="searchbutton" type="submit" value="Go"/></p>
+</td><td>
+</td></tr>
+</table>
+<!--<table width="450" border="0" height="32px">
+  <tr>
+    <td height="26px" class="topbar"><A HREF="javascript:window.print()"><img src="/Assets/Static/Images/header/iconPrint.png" height="20px" border="0px" alt="Print Page" style="border-style: none; width: 20px;" /></a></td>
+    <td><img src="/Assets/Static/Images/header/divider.png" height="24px" /></td>
+    <td height="26px" class="topbar">Text Size: <a id="font-size-decrease" href="#" title="Decrease Font"><font size="1">A</font> </a><a id="font-size-standard" href="#"  title="Reset Font"><font size="2">A</font> </a><a id="font-size-increase" href="#" title="Increase Font"><font size="3">A</font> </a> </td>
+    <td><img src="/Assets/Static/Images/header/divider.png" height="24px" /></td>
+    <td height="26px" class="topbar2"><a href="/omh/browse.aspx?lvl=2&lvlID=46"><img src="../Assets/Static/Images/header/iconEnvelope.png" height="22px" alt="Contact Us" style="border-style: none" /></a></td>
+    <td><img src="/Assets/Static/Images/header/divider.png" height="24px" /></td>
+    <td height="26px" class="topbar"><a href="/espanol/" class="topbar" title="En Espa&ntilde;ol"><img src="/Assets/Static/Images/header/iconEspanol.png" border="0px" height="22px" width="22" alt="En Espanol Icon" /></a></td>
+    <td class="topbar"><img src="/Assets/Static/Images/header/divider.png" height="24px" /></td>
+    <td height="26px" class="topbar"><input name="SearchQuery" type="text" id="SearchQuery"  accesskey="S" class="searchbox"/>&nbsp;<input type="submit" value="Go"  class="searchbutton" /></div></td>
+    
+  </tr>
+</table>--></td>
+</tr>
+</table>
+</form>

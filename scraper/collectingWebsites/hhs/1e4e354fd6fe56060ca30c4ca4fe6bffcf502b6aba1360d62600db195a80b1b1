@@ -1,0 +1,17 @@
+<form action="/search/" id="searchForm" method="POST" target="searchFrame">
+<input id="Name_1" name="Name" type="hidden" value="fulltext"/>
+<input id="Name_2" name="Name" type="hidden" value="url"/>
+<input id="Name_3" name="Name" type="hidden" value="attachment_doc"/>
+<input id="searchQuery" name="Value" type="hidden" value=""/>
+<input id="date" name="date" type="hidden" value="31-12-2020T08:51"/>
+<input id="is_date" name="is_date" type="hidden" value="false"/>
+<input id="date_from" name="date_from" type="hidden" value=""/>
+<input id="date_to" name="date_to" type="hidden" value="2020-12-31T08:51:30"/>
+<input id="Name_input" name="Name" type="hidden" value="fulltext"/>
+<input id="site_name_input" name="site_name" type="hidden" value="7423"/>
+<input id="snapshot_id" name="snapshot_id" type="hidden" value="6375879"/>
+<input id="user_id" name="user_id" type="hidden" value="1666"/>
+<input id="showDateRange" name="showDateRange" type="hidden" value="true"/>
+<input id="incrementalResults" name="incrementalResults" type="hidden" value="true"/>
+<input id="origin" name="origin" type="hidden" value=""/>
+</form>

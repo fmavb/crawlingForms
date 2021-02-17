@@ -1,0 +1,72 @@
+<form action="/ReportsLocation/Export_GrantsByLocation_MetroNonmetro" id="ReportsLocationExport_GrantsByLocation_MetroNonmetro" method="post" name="ReportsLocationExport_GrantsByLocation_MetroNonmetro">
+<input id="hiddenOutputFormat" name="OutputFormat" type="hidden" value="XLSX"/>
+<input id="hiddenisExportControl" name="isExportControl" type="hidden" value="true"/>
+<input id="hiddenModelHash" name="ModelHash" type="hidden" value="ReportsLocationExport_GrantsByLocation_MetroNonmetro"/>
+<div style="float: right; align-content:center">
+<label class="dxeBase_newTAGGSTheme dx-acc-r" id="ExportLabelReportsLocationExport_GrantsByLocation_MetroNonmetro" style="margin-right:5px;">Export Options:   </label><script id="dxss_1748841203">
+<!--
+ASPx.createControl(MVCxClientLabel,'ExportLabelReportsLocationExport_GrantsByLocation_MetroNonmetro','',{'accessibilityCompliant':true,'associatedControlName':'btnExportToXLSX'});
+
+//-->
+</script>
+<div style="float: right; clear: both;">
+<div class="dxbButton_newTAGGSTheme buttonExportXLSX dx-acc-r dxbButtonSys dxbTSys" id="btnExportToXLSXReportsLocationExport_GrantsByLocation_MetroNonmetro" outputformatattribute="XLSX" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Excel (XLS) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToXLSXReportsLocationExport_GrantsByLocation_MetroNonmetro_I" name="btnExportToXLSXReportsLocationExport_GrantsByLocation_MetroNonmetro" title="Save this data to a Microsoft Excel (XLS) file." type="button" value="XLSX"/><span class="dx-vam" id="btnExportToXLSXReportsLocationExport_GrantsByLocation_MetroNonmetro_BTC">XLSX</span>
+</div>
+</div><script id="dxss_1439502983">
+<!--
+ASPx.AddHoverItems('btnExportToXLSXReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToXLSXReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToXLSXReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToXLSXReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbf'],[''],['CD']]]);
+ASPx.InitializeSVGSprite();
+ASPx.createControl(MVCxClientButton,'btnExportToXLSXReportsLocationExport_GrantsByLocation_MetroNonmetro','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsLocationExport_GrantsByLocation_MetroNonmetro');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportPDF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToPDFReportsLocationExport_GrantsByLocation_MetroNonmetro" outputformatattribute="PDF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to an Adobe Acrobat (PDF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToPDFReportsLocationExport_GrantsByLocation_MetroNonmetro_I" name="btnExportToPDFReportsLocationExport_GrantsByLocation_MetroNonmetro" title="Save this data to an Adobe Acrobat (PDF) file." type="button" value="PDF"/><span class="dx-vam" id="btnExportToPDFReportsLocationExport_GrantsByLocation_MetroNonmetro_BTC">PDF</span>
+</div>
+</div><script id="dxss_242091858">
+<!--
+ASPx.AddHoverItems('btnExportToPDFReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToPDFReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToPDFReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToPDFReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToPDFReportsLocationExport_GrantsByLocation_MetroNonmetro','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsLocationExport_GrantsByLocation_MetroNonmetro');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportRTF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToRTFReportsLocationExport_GrantsByLocation_MetroNonmetro" outputformatattribute="RTF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Word (RTF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToRTFReportsLocationExport_GrantsByLocation_MetroNonmetro_I" name="btnExportToRTFReportsLocationExport_GrantsByLocation_MetroNonmetro" title="Save this data to a Microsoft Word (RTF) file." type="button" value="RTF"/><span class="dx-vam" id="btnExportToRTFReportsLocationExport_GrantsByLocation_MetroNonmetro_BTC">RTF</span>
+</div>
+</div><script id="dxss_1650897816">
+<!--
+ASPx.AddHoverItems('btnExportToRTFReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToRTFReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToRTFReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToRTFReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToRTFReportsLocationExport_GrantsByLocation_MetroNonmetro','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsLocationExport_GrantsByLocation_MetroNonmetro');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportCSV dx-acc-r dxbButtonSys dxbTSys" id="btnExportToCSVReportsLocationExport_GrantsByLocation_MetroNonmetro" outputformatattribute="CSV" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Comma Separated Values (CSV) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToCSVReportsLocationExport_GrantsByLocation_MetroNonmetro_I" name="btnExportToCSVReportsLocationExport_GrantsByLocation_MetroNonmetro" title="Save this data to a Comma Separated Values (CSV) file." type="button" value="CSV"/><span class="dx-vam" id="btnExportToCSVReportsLocationExport_GrantsByLocation_MetroNonmetro_BTC">CSV</span>
+</div>
+</div><script id="dxss_279573012">
+<!--
+ASPx.AddHoverItems('btnExportToCSVReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToCSVReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToCSVReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToCSVReportsLocationExport_GrantsByLocation_MetroNonmetro',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToCSVReportsLocationExport_GrantsByLocation_MetroNonmetro','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsLocationExport_GrantsByLocation_MetroNonmetro');}});
+
+//-->
+</script>
+</div>
+</div>
+</form>

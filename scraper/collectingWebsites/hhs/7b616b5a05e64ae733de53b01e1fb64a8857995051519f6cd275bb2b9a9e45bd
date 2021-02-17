@@ -1,0 +1,12 @@
+<form accept-charset="UTF-8" action="/user/login" class="user-login-form" data-drupal-selector="user-login-form" id="user-login-form" method="post">
+<div class="form-item js-form-item form-type-email js-form-type-email form-item-name js-form-item-name form-group">
+<label class="control-label js-form-required form-required" for="edit-name">Email</label>
+<input aria-describedby="edit-name--description" aria-required="true" autocapitalize="none" autocorrect="none" autofocus="autofocus" class="form-email required form-control" data-drupal-selector="edit-name" data-toggle="tooltip" id="edit-name" maxlength="254" name="name" required="required" size="60" spellcheck="false" title="Enter your email address." type="email" value=""/>
+</div>
+<div class="form-item js-form-item form-type-password js-form-type-password form-item-pass js-form-item-pass form-group">
+<label class="control-label js-form-required form-required" for="edit-pass">Password</label>
+<input aria-describedby="edit-pass--description" aria-required="true" class="form-text required form-control" data-drupal-selector="edit-pass" data-toggle="tooltip" id="edit-pass" maxlength="128" name="pass" required="required" size="60" title="Enter the password that accompanies your email address." type="password"/>
+</div>
+<input autocomplete="off" data-drupal-selector="form-ky8vkdb9mvmy2kzxnauew3upofaxndrcjy-zisgpxuo" name="form_build_id" type="hidden" value="form-ky8vKdB9MvMY2kzXNAueW3upOFaXnDrCjy_ziSgPxUo"/><input data-drupal-selector="edit-user-login-form" name="form_id" type="hidden" value="user_login_form"/><div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"><button class="button js-form-submit form-submit btn-primary btn icon-before" data-drupal-selector="edit-submit" id="edit-submit" name="op" type="submit" value="Log in"><span aria-hidden="true" class="icon glyphicon glyphicon-log-in"></span>
+Log in</button></div>
+</form>

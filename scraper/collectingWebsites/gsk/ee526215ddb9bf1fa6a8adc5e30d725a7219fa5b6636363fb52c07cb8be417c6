@@ -1,0 +1,8 @@
+<form action="https://jobs.gsk.com/uk/jobs" autocomplete="off" class="inlineSearchForm">
+<div class="flex-row flex-row--space-between">
+<input class="textInput searchField" name="keywords" placeholder="Enter job title here" type="text"/>
+<input class="textInput searchField" name="location" placeholder="Enter location here" type="text"/>
+<input name="lang" type="hidden" value="en-gb"/>
+<button class="icon-gsk-search-2" type="submit">Search</button>
+</div>
+</form>

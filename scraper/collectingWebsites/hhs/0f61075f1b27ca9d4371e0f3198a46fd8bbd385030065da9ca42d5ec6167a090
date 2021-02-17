@@ -1,0 +1,7 @@
+<form accept-charset="UTF-8" action="/search/node" id="search-block-form" method="get" region="navigation">
+<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+<label class="control-label sr-only" for="edit-keys">Search</label>
+<div class="input-group"><input class="form-search form-control" data-drupal-selector="edit-keys" data-toggle="tooltip" id="edit-keys" maxlength="128" name="keys" placeholder="Search" size="15" title="Enter the terms you wish to search for." type="search" value=""/><span class="input-group-btn"><button class="button js-form-submit form-submit btn-primary btn icon-only" name="" type="submit" value="Search"><span class="sr-only">Search</span><span aria-hidden="true" class="icon glyphicon glyphicon-search"></span></button></span></div>
+</div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+</form>

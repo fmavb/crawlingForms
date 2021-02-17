@@ -1,0 +1,4 @@
+<form action="/SearchSite/IndexRedirect" method="post" name="SuperHeaderSiteSearch" role="search"> <div aria-hidden="true" aria-label="search" class="searchbox-icon" role="button"></div>
+<label class="sprHdrSrchLbl" for="superHeader-searchbox-inputtext">Search</label>
+<input aria-label="Site Search: Type and press enter to submit search" class="searchbox-inputtext" data-val="true" data-val-length="Only 300 characters allowed" data-val-length-max="300" data-val-regex="No special characters allowed" data-val-regex-pattern="^[-_, @?.A-Za-z0-9]*$" id="superHeader-searchbox-inputtext" name="s_AllWords" type="text" value=""/><span aria-label="Site Search: Error Message" class="field-validation-valid errorMessage" data-valmsg-for="s_AllWords" data-valmsg-replace="true"></span> <input class="searchbox-submit hidden" id="superHeaderSearchSubmit" type="submit" value="Search"/>
+</form>

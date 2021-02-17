@@ -1,0 +1,227 @@
+<form action="TakeSurveyAction.aspx" id="frmSurvey" method="post" name="frmSurvey">
+<input id="ScriptManager1_HiddenField" name="ScriptManager1_HiddenField" type="hidden" value=""/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="/wEPDwUKMTAzNTE3NzYyNw8WBB4IU3VydmV5SUQoKVlTeXN0ZW0uSW50NjQsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQUxMzg1Nx4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBZGR3tuGz8VAjFtuycls6TPeBprkKFvIFc+Uu9df9R9VEJg=="/>
+<script src="/ScriptResource.axd?d=IS3tOXJIvVoEKaKoIwuwF4l-NzqxLGXnPOkdvWPCW_ZiooBKmWCNp0RAQyBJvkDaQ2W346Y_cuxCLN_gpgSgxWf2HZnXTF9IQvLfBExCug9ywxNsuPI6mSPR4ZukXqmQ5X_0YEN-1zskRa6sYEDt-fa1Fg8qhk8b9k3aR0uSUx81&amp;t=ffffffffdfc97409" type="text/javascript"></script>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="76EC3392"/>
+<div class="sliderdemoBasicUsage" ng-app="MyApp" ng-controller="AppCtrl">
+<input name="cookieexists" type="hidden" value="false"/>
+<!--start of outer template align table -->
+<table align="center" class="SurveyAlignmentStyle">
+<tr class="SurveyAlignmentRowStyle">
+<td>
+<!--templateHTMLTopBlock -->
+<!--start of survey title table-->
+<table align="center" border="0" cellpadding="5" cellspacing="0" class="SurveyLogoBlockStyle" id="tblLogo" width="760">
+<tr><td align="left"><span class="SurveyName"><a name="skipnav" tabindex="1">GSK Revealed 2021</a></span></td></tr><tr><td align="right"><img alt="Survey logo" border="0" src="Resources\Images\gsk_logo.jpg"/></td></tr>
+</table>
+<!--end of survey title -->
+<!--start of outlined table -->
+<table align="center" border="0" cellpadding="2" cellspacing="0" class="SurveyBorder" width="760">
+<tr>
+<td>
+<table border="0" cellpadding="0" class="SurveyColor" width="100%">
+<tr>
+<td>
+<!--start of top page indicator table -->
+<table border="0" cellpadding="3" cellspacing="2" class="SurveyOuterProgressBarTable" width="100%">
+<tr>
+<td align="right" width="100%">
+<div id="divTimer" style="display:none">
+<table class="SurveyTimerTable">
+<tr>
+<td align="right"><span class="Normal">Time Elapsed:</span></td>
+<td><span class="Normal" id="idTimeElapsed">0</span><span class="Normal"> minutes</span></td>
+</tr>
+<tr>
+<td align="right"><span class="Normal">Time Remaining:</span></td>
+<td><span class="Normal" id="idTimeRemaining">0</span><span class="Normal"> minutes</span></td>
+</tr>
+<tr>
+<td align="right"><span class="Normal">Total Time:</span></td>
+<td><span class="Normal" id="idTimeTotal">0</span><span class="Normal"> minutes</span></td>
+</tr>
+</table>
+</div>
+<div id="divLoginCode" style="display:none">
+<table class="LoginCodeTable">
+<tr>
+<td align="right"><span class="NormalBold">Anonymous Login Code:  </span></td>
+</tr>
+<tr>
+<td><span class="InlineHelpSpanStyle">Save this code, which is required to update your response at a later time.</span></td>
+</tr>
+</table>
+</div>
+</td>
+<td width="48"> </td>
+<td align="right" valign="top">
+<table border="0" cellpadding="2" cellspacing="0" class="SurveyProgressBarTextTable" width="100">
+<tr>
+<td align="center" colspan="2">
+<span class="Normal">
+<span class="PageNumberFontStyle">Page 1 of 2</span>
+</span>
+</td>
+</tr>
+</table>
+<table border="0" cellpadding="1" cellspacing="0" class="SurveyProgressBarTable" width="100">
+<tr>
+<td bgcolor="black"><table border="0" cellpadding="0" cellspacing="0" height="12" width="100"><tr><td class="ProgressFirstColor" width="50"></td><td class="ProgressSecondColor" width="50"></td></tr></table></td>
+</tr>
+</table>
+</td>
+<td width="14"> </td>
+</tr>
+<!-- R2L - adding literal control to show preview text -->
+<table class="SurveyPageTitleTable"><tr align="left"><td width="28"> </td><td><span class="SurveyPageTitle">GSK Revealed 2021 Application Form </span></td><td width="14"> </td></tr></table>
+<table class="SurveyPageIntroTable"><tr align="left"><td width="28"> </td><td colspan="2"><span class="SurveyPageIntroduction">This is an insight event for 1st year students to find out what it is like to work at GSK and to learn more about our undergraduate and graduate opportunities.<br/>We have two events available depending on your business interest - GSK Revealed: Business and GSK Revealed: STEM. </span></td><td width="14"> </td></tr></table>
+<!--</table>-->
+<!--stop of top page indicator table -->
+<br/>
+<!--start of question holder table -->
+<table border="0" cellpadding="2" cellspacing="0" class="QuestionHolderTable" width="100%">
+<tr>
+<td width="5"> </td>
+<td valign="top">
+<!--insert QuestionTableHTML.txt -->
+<div id="PanelQuestionHolder">
+<div id="ctl04_hideshow_250703">
+<table cellpadding="2" cellspacing="0" class="PresentationHtmlTable" id="ctl04_PresentationHtml">
+<tr valign="top">
+<td width="21"> </td>
+<td><p><strong>PRIVACY NOTICE </strong>(Please click "NEXT " at the bottom of this page to continue taking this survey)</p>
+<p><strong><br/> Introduction </strong></p>
+<p>GlaxoSmithKline (“GSK”, “we”, “us” and “our”) operates in many different countries. We are committed to protecting your privacy. This Notice explains how we collect, use and disclose the personal information that is collected as a result of your participation in this survey. If you have any questions, feel free to get in touch via one of the methods set out in the Contact us section below.</p>
+<p><strong>What personal information do we collect about you?</strong></p>
+<p>In completing this survey, GSK will collect information about you. This information includes: </p>
+<ul>
+<li>Your basic information – such as your name</li>
+<li>Contact information – such as your email address</li>
+<li>Technical information – IP address</li>
+</ul>
+<p><strong>How do we obtain your personal information?</strong></p>
+<p>We collect your personal information through your responses to this survey</p>
+<p><strong> </strong></p>
+<p><strong>How do we use your personal information? </strong></p>
+<p>We use your personal information for the following purposes:</p>
+<ul>
+<li>To analyse the results of the survey</li>
+<li>Analysing trends and insights</li>
+<li>Operating our business, including for internal purposes such as auditing, data analysis and research to help us deliver and improve our GSK digital platforms, content and services</li>
+</ul>
+<p><strong> </strong></p>
+<p><strong>On what basis do we use your personal information? </strong></p>
+<p>We use your personal information on the following basis:</p>
+<ul>
+<li>For legitimate business purposes. Using your personal information helps us to analyse and research the results of the survey, and to communicate with you (if you have provided us with your contact information).</li>
+<li>For the establishment, exercise or defence of legal claims or proceedings.</li>
+</ul>
+<p><strong> </strong></p>
+<p><strong>With whom do we share your personal information? </strong></p>
+<p>We share certain of your personal information with:</p>
+<ul>
+<li>members of the GSK group of companies; and</li>
+</ul>
+<p>From time to time, we may also need to make your personal information available to other parties, such as:</p>
+<ul>
+<li>legal and regulatory authorities; and</li>
+<li>accountants, auditors, lawyers and other outside professional advisors.</li>
+</ul>
+<p>See the Protecting your personal information section for information on how we keep your personal information secure when sharing it with others.</p>
+<p><strong>Transfers of your personal information outside of your home country </strong></p>
+<p>Your personal information may be processed by GSK, its affiliated companies (such as at GSK’s global data centre in Upper Providence, USA) and GSK’s trusted third party suppliers anywhere in the world (such as in India), including in countries where data privacy laws may not be equivalent to, or as protective as, the laws in your home country. We will implement appropriate measures to ensure that your personal information remains protected and secure when it is transferred outside of your home country, in accordance with applicable data protection and privacy laws. These measures include data transfer agreements implementing standard data protection clauses, or GSK’s Binding Corporate Rules. You can find more information about data transfer agreements <a href="https://ec.europa.eu/info/strategy/justice-and-fundamental-rights/data-protection/data-transfers-outside-eu/model-contracts-transfer-personal-data-third-countries_en">here</a>, and more information about GSK’s Binding Corporate Rules <a href="http://se.gsk.com/media/248019/binding-corporate-rules-policy.pdf">here</a>.</p>
+<p><strong> </strong></p>
+<p><strong>Protecting your personal information</strong></p>
+<p>We will use a variety of security measures and technologies to help protect your personal information from unauthorised access, use, disclosure, alteration or destruction, consistent with applicable privacy and data security laws. For example, when GSK retains a third-party service provider, that provider will be carefully selected in accordance with GSK’s policies and procedures and which commits the third-party service provider to use appropriate safeguards in relation to the handling of your personal information (including in relation to maintaining confidentiality of your personal information and implementing appropriate technical and organizational security measures).</p>
+<p><strong> </strong></p>
+<p><strong>How long will we keep your personal information? </strong></p>
+<p>We keep any personal information obtained as part of a survey for a maximum period of 3 years.</p>
+<p><strong>Your rights </strong></p>
+<p>You may be entitled to:</p>
+<ul>
+<li>ask GSK about the processing of your personal information, including to be provided with a copy of your personal information;</li>
+<li>request the correction and/or deletion of your personal information;</li>
+<li>request the restriction of the processing of your personal information, or object to that processing;</li>
+<li>withdraw your consent to the processing of your personal information (in countries where GSK is processing your personal information based on your consent);</li>
+<li>request receipt or transmission to another organisation, in a machine-readable form, of the personal information that you have provided to GSK; and</li>
+<li>in certain countries, complain to your local supervisory authority if your privacy rights are violated, or if you have suffered as a result of unlawful processing of your personal information.</li>
+</ul>
+<p> </p>
+<p>Please note that your rights may vary depending on the jurisdiction in which your personal information is processed. If you would like more information about your rights, or have any concerns about GSK’s processing of your personal information, please let us know by getting in touch with your local HR function.</p>
+<p> </p>
+<p>Where you are given the option to share your personal information with us, you can always choose not to do so. If you object to the processing of your personal information GSK will respect that choice in accordance with its legal obligations. </p>
+<p><strong>Contact us </strong></p>
+<p>If you have questions about the processing of your personal information, or need additional information, please contact UK.Ireland-CPA@gsk.com, using the survey name as a reference. </p>
+<p><strong>Data controller  </strong></p>
+GlaxoSmithKline LLC and GlaxoSmithKline Services Unlimited are the controllers of your personal information.</td>
+</tr>
+<tr>
+<td width="21"> </td>
+<td> </td>
+</tr>
+</table>
+</div>
+</div>
+															 </td>
+<td width="5"> </td>
+</tr>
+</table>
+<!--end of question holder table -->
+<!--insert NavTableHTML.txt -->
+<table border="0" cellpadding="3" cellspacing="3" width="100%"><tr><td width="25"> </td><td align="center"><a class="button" href="javascript:submitCheck(3);" id="btnNext">Next</a>  </td><td width="5"> </td></tr></table>
+</table>
+</td>
+</tr>
+</table>
+<!--end of outlined table -->
+<!--templateHTMLBottomBlock -->
+</td>
+</tr>
+</table>
+<!--end of outer template align table -->
+<!--start of hidden fields -->
+<input id="isFormDirty" name="isFormDirty" type="hidden" value="no"/>
+<input name="AdminOrOwnerEditResponse" type="hidden" value="No"/>
+<input name="AdminOrOwnerResponseID" type="hidden" value="1787813"/>
+<input name="SurveyID" type="hidden" value="98KKml960"/>
+<input name="EmailAddressID" type="hidden" value="0"/>
+<input name="EmailMessageID" type="hidden" value="0"/>
+<input name="EID" type="hidden" value=""/>
+<input name="ResponseType" type="hidden" value="A"/>
+<input name="RespondentAccessLevel" type="hidden" value="14"/>
+<input name="SurveyComplete" type="hidden" value=""/>
+<input name="DoneClicked" type="hidden" value="0"/>
+<input name="ItemIDValues" type="hidden" value=""/>
+<input name="PostedQueryString" type="hidden" value="SurveyID=l2KKml9MH"/>
+<input name="FirstPageQueryString" type="hidden" value="SurveyID=l2KKml9MH"/>
+<input name="DisplayPageNumber" type="hidden" value="1"/>
+<input name="ResponseStartDate" type="hidden" value="2/17/2021 12:40:17 PM"/>
+<input name="ActualPageNumber" type="hidden" value="1"/>
+<input name="hdnUpdatingSurvey" type="hidden" value="false"/>
+<input name="hdnMultipleUpdateableSurvey" type="hidden" value="false"/>
+<input name="hdnIsUpdateable" type="hidden" value="false"/>
+<input name="ResponseID" type="hidden" value="1787813"/>
+<input name="QuestionNumber" type="hidden" value="1"/>
+<input name="prevQN" type="hidden" value="1"/>
+<input id="buttonclicked" name="buttonclicked" type="hidden" value="0"/>
+<input id="save" name="save" type="hidden" value="False"/>
+<input name="SP" type="hidden" value=","/>
+<input name="AL" type="hidden" value="14"/>
+<input name="hideQuestions" type="hidden" value=""/>
+<input name="hdnCustomParamaters" type="hidden" value=""/>
+<input id="hdnPreviousJSPageNumber" name="hdnPreviousJSPageNumber" type="hidden" value="1"/>
+<!--end of hidden fields -->
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get('ScriptManager1_HiddenField').value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+<!--digital signature -->
+<script src="ClientInclude/tsig/json2.min.js" type="text/javascript"></script>
+<link href="ClientInclude/tsig/jquery.signaturepad.css" rel="stylesheet"/>
+<script type="text/javascript">
+      $(document).ready(function () {
+          $('.sigPad').signaturePad({ drawOnly: true, lineTop: 'transparent' });
+      });
+  </script>
+<!--end digital signature -->
+</td></tr></table></div></form>

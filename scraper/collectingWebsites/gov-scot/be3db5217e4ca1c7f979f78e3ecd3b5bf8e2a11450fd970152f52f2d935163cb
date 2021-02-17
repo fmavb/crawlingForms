@@ -1,0 +1,5 @@
+<form action="/improvement/search/" class="nih-banner__search-container" method="get">
+<input id="OriginSubsite" name="OriginSubsite" style="display: none" type="text" value="3"/>
+<input aria-label="Search" class="nih-banner__search-input" id="query" name="query" placeholder="Search..." type="text"/>
+<button class="nih-banner__button">Search</button>
+</form>

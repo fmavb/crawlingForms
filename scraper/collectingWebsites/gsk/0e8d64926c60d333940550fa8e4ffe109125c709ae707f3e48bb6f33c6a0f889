@@ -1,0 +1,27 @@
+<form id="callback_form" method="POST" name="landingform">
+<input name="refurl" type="hidden" value="null"/>
+<div class="who-are-you-div">
+<div><input data-label="I'm a Consumer." id="consumer" name="formType" type="radio" value="consumer"/></div>
+<div><input data-label="I'm a Healthcare Provider." id="healthcare" name="formType" type="radio" value="hcp"/></div>
+</div>
+<div id="skipQuestion">
+<div><p>What type of question do you have?</p></div>
+<!--                        <select id="hcpMiTypeOfQuestion" name="hcpMiTypeOfQuestion" class="select-product">
+                                                    <option selected="selected" disabled="disabled" hidden="hidden">Please select an option</option>
+                                                    <option value="GRC1" class="select-options">Request prescription product samples</option>
+                                                    <option value="GRC2" class="select-options">Identify a GSK Sales Professional in my area</option>
+                                                    <option value="GRC3" class="select-options">Other non-medical request</option>
+                                                    <option value="MI" class="select-options">Ask a Medical Information question</option>
+                                                </select>                         -->
+<input class="uldropdown1" id="txtddlval" readonly="readonly" style="position:absolute;" type="text" value="Please select an option"/>
+<ul class="uldropdown" id="ddlmitypequestion">
+<li>Please select an option</li>
+<li class="request">Request Over-The-Counter Product samples</li>
+<li>Request prescription product samples and savings offers</li>
+<li>Request a GSK Sales Professional contact</li>
+<li>Other non-medical request</li>
+<li>Ask a Medical Information question</li>
+</ul>
+</div>
+<div align="right" class="" id="submitButton"><input name="Submit" type="submit" value="Next"/></div>
+</form>

@@ -1,0 +1,78 @@
+<form id="report-filters-form">
+<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="d-inline text-uppercase"><strong>Phase 1</strong> Funding</h4>
+<div class="h4 pull-right">$1.9B</div>
+</div>
+<div class="panel-body text-center">
+<p>Emergency Supplemental Appropriation Funding Act:</p>
+<p><a href="https://www.congress.gov/bill/116th-congress/house-bill/6074" rel="noreferrer" target="_blank">Coronavirus Preparedness and Response Supplemental Appropriations Act, 2020</a></p>
+<div class="taggs-custom-checkbox">
+<label class="checkbox-label" for="appropCV">
+<span class="label-intro">Appropriation Code:<br/></span>
+<span class="h4 get-approp" id="get-appropCV"><strong>CV</strong></span>
+</label>
+<script>DevExpress.config({"serverDecimalSeparator":"."});DevExpress.aspnet.setTemplateEngine();</script><div id="appropCV"></div><script>DevExpress.utils.readyCallbacks.add((function($){$("#appropCV").dxCheckBox({"value":true,"name":"appropCV","hint":"Check to include Appropriation Code CV, uncheck to exclude","onValueChanged":chkAppropCodeChanged,"inputAttr":{"id":"appropCV"}});}).bind(this, jQuery));</script>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="d-inline text-uppercase"><strong>Phase 2</strong> Funding</h4>
+<div class="h4 pull-right">$306.8M</div>
+</div>
+<div class="panel-body text-center">
+<p>Emergency Supplemental Appropriation Funding Act:</p>
+<p><a href="https://www.congress.gov/bill/116th-congress/house-bill/6201" rel="noreferrer" target="_blank">Families First Coronavirus <br/>Response Act</a></p>
+<div class="taggs-custom-checkbox">
+<label class="checkbox-label" for="appropC2">
+<span class="label-intro">Appropriation Code:<br/></span>
+<span class="h4 get-approp" id="get-appropC2"><strong>C2</strong></span>
+</label>
+<div id="appropC2"></div><script>DevExpress.utils.readyCallbacks.add((function($){$("#appropC2").dxCheckBox({"value":true,"name":"appropC2","hint":"Check to include Appropriation Code C2, uncheck to exclude","onValueChanged":chkAppropCodeChanged,"inputAttr":{"id":"appropC2"}});}).bind(this, jQuery));</script>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="d-inline text-uppercase"><strong>Phase 3</strong> Funding</h4>
+<div class="h4 pull-right">$12.6B</div>
+</div>
+<div class="panel-body text-center">
+<p>Emergency Supplemental Appropriation Funding Act:</p>
+<p><a href="https://www.congress.gov/bill/116th-congress/house-bill/748" rel="noreferrer" target="_blank">CARES Act (Coronavirus Aid, Relief, and<br/>Economic Security Act)</a></p>
+<div class="taggs-custom-checkbox">
+<label class="checkbox-label" for="appropC3">
+<span class="label-intro">Appropriation Code:<br/></span>
+<span class="h4 get-approp" id="get-appropC3"><strong>C3</strong></span>
+</label>
+<div id="appropC3"></div><script>DevExpress.utils.readyCallbacks.add((function($){$("#appropC3").dxCheckBox({"value":true,"name":"appropC3","hint":"Check to include Appropriation Code C3, uncheck to exclude","onValueChanged":chkAppropCodeChanged,"inputAttr":{"id":"appropC3"}});}).bind(this, jQuery));</script>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="d-inline text-uppercase"><strong>Phase 3.5</strong> Funding</h4>
+<div class="h4 pull-right">$11.7B</div>
+</div>
+<div class="panel-body text-center">
+<p>Emergency Supplemental Appropriation Funding Act:</p>
+<p><a href="https://www.congress.gov/bill/116th-congress/house-bill/266" rel="noreferrer" target="_blank">Paycheck Protection Program and<br/>Health Care Enhancement Act</a></p>
+<div class="taggs-custom-checkbox">
+<label class="checkbox-label" for="appropC4">
+<span class="label-intro">Appropriation Code:<br/></span>
+<span class="h4 get-approp" id="get-appropC4"><strong>C4</strong></span>
+</label>
+<div id="appropC4"></div><script>DevExpress.utils.readyCallbacks.add((function($){$("#appropC4").dxCheckBox({"value":true,"name":"appropC4","hint":"Check to include Appropriation Code C4, uncheck to exclude","onValueChanged":chkAppropCodeChanged,"inputAttr":{"id":"appropC4"}});}).bind(this, jQuery));</script>
+</div>
+</div>
+</div>
+</div>
+</form>

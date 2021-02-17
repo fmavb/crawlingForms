@@ -1,0 +1,28 @@
+<form action="/umbraco/Surface/CategorySearch/SubmitSearchForm?searchResultView=_CategoryPageResult&amp;searchResults=EducationScotland.Models.DataModels.SearchResultsModel&amp;customClass=category-page--NationalImprovementHub" autocomplete="off" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#search-results" id="category-search-form" method="post"><input id="DocTypeAliases" name="DocTypeAliases" type="hidden" value="contentPage,nihContentPage,categoryPage,nihCategoryPage,nihFeatureCategoryPage"/><input id="FieldPropertyAliases" name="FieldPropertyAliases" type="hidden" value=""/><input id="PageSize" name="PageSize" type="hidden" value="12"/><input id="PagingGroupSize" name="PagingGroupSize" type="hidden" value="3"/><input id="SearchPageId" name="SearchPageId" type="hidden" value="22969"/><input id="SortByName" name="SortByName" type="hidden" value="False"/><input id="SortByDate" name="SortByDate" type="hidden" value="False"/> <div class="category-boxes">
+<div class="container">
+<div class="row category-boxes__inner-container" id="search-results">
+<div class="col-xs-12 col-sm-6 col-md-4">
+<a class="box box--NationalImprovementHub" href="/improvement/supporting-remote-learning/supporting-remote-learning/" title="Supporting remote learning">
+<img class="tileImage" src="/media/op3nlxhz/holding1200.jpg"/>
+<h2 class="box__heading">Supporting remote learning</h2>
+<p>A range of resources to support remote learning.</p>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+<a class="box box--NationalImprovementHub" href="/improvement/supporting-remote-learning/national-overviews/" title="National overviews">
+<img class="tileImage" src="/media/nl4l3mt5/img_1815.jpg"/>
+<h2 class="box__heading">National overviews</h2>
+<p>Education Scotland will be publishing a national overview of practice.</p>
+</a>
+</div> <div class="search-paging search-paging--category-page--NationalImprovementHub">
+<div class="search-results__footer">
+</div>
+<button class="search-result__back-to-top-button search-result__back-to-top-button--category-page--NationalImprovementHub">Back to top<a class="search-result__back-to-top-button-arrow"></a></button>
+</div>
+<div class="search-loading-animation search-loading-animation--category-page--NationalImprovementHub search-loading-animation--hidden">
+<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+</div>
+</div>
+</div>
+</div>
+</form>

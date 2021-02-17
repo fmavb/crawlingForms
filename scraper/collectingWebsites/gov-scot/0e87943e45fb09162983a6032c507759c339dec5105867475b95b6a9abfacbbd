@@ -1,0 +1,12 @@
+<form action="/search/" class="search-overlay-form" method="GET">
+<div class="search-overlay-input-group">
+<label class="show-for-sr" for="search-overlay-field">Search</label>
+<input class="search-overlay-input" id="search-overlay-field" name="q" placeholder="Search site..." type="text"/>
+<div class="search-overlay-button-group">
+<button class="search-overlay-button button" id="search-overlay-submit" type="submit">
+<span class="show-for-sr">Search</span>
+<span aria-hidden="true" class="snsaicon snsaicon-search"></span>
+</button>
+</div>
+</div>
+</form>

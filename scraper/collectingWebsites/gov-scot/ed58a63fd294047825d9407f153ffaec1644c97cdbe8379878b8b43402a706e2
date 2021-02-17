@@ -1,0 +1,22 @@
+<form autocomplete="off" class="user-feedback__submission" data-endpoint="/api/feedback" data-js-feedback="user-feedback-form" data-token="" id="user-feedback-form">
+<input name="__RequestVerificationToken" type="hidden" value="4diVi7xhEgOrdjuky39ZSq8tgz-J1CgyJRtwekrYv7nB3P9wIlacuBoWuuiUGQRiSl_sTspCUzhQzsfwclVQHl40QsCCxZCSYcvAw1oX1Jg1"/>
+<div class="user-feedback__submission-header">
+<h2 class="user-feedback__submission-title" data-js-feedback="user-feedback-title" tabindex="-1">Help us improve findbusinesssupport.gov.scot</h2>
+<button class="user-feedback__submission-close" data-js-feedback="user-feedback-close">Close<span class="sr-only"> panel</span></button>
+</div>
+<p class="user-feedback__submission-subtitle"><label for="user-feedback-message">Tell us what's wrong with this page</label></p>
+<p>For example, something is incorrect, confusing or not working properly. Try to be as specific as possible. Don't include personal or financial information like your national insurance number or credit card details.</p>
+<fieldset>
+<input data-js-feedback="user-feedback-productId" id="cmsProductId" name="cmsProductId" type="hidden" value="616581d7-a423-478d-aa01-6eb42529ec34"/>
+<textarea aria-describedby="user-feedback-message-validation" class="input-box__textarea user-feedback__message" data-js-feedback="user-feedback-message" id="user-feedback-message" rows="10"></textarea>
+<p class="user-feedback__validation hidden" data-js-feedback="user-feedback-validation" id="user-feedback-message-validation">Please use the box above to tell us what problem you have had on this page before submitting your feedback.</p>
+<button class="cta cta--primary cta--icon-right user-feedback__submit" data-js-feedback="user-feedback-submit">
+<span class="cta__text">Send your feedback</span>
+<div class="cta__icon">
+<svg aria-hidden="true" class="icon icon--cta-chevron-right">
+<use xlink:href="/assets/images/symbols.svg#chevron"></use>
+</svg>
+</div>
+</button>
+</fieldset>
+</form>

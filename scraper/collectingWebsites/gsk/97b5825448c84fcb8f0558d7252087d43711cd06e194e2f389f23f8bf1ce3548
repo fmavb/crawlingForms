@@ -1,0 +1,10 @@
+<form action="/jp/responsibility/news/">
+<input name="page" type="hidden" value="1"/>
+<label class="visually-hidden" for="select-filter">Year selection filter for news years</label>
+<select id="select-filter" name="year">
+<option selected="" value="all">Show all years</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+</select>
+<input class="button" type="submit" value="Filter list"/>
+</form>

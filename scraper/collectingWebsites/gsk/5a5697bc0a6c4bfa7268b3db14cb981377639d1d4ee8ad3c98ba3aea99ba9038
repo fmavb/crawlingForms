@@ -1,0 +1,8 @@
+<form action="https://jobs.gsk.com/pl-pl/jobs" autocomplete="off" class="inlineSearchForm">
+<div class="flex-row flex-row--space-between">
+<input class="textInput searchField" name="keywords" placeholder="Wpisz tutaj tytuł pracy" type="text"/>
+<input class="textInput searchField" name="location" placeholder="Wprowadź lokalizację tutaj" type="text"/>
+<input name="lang" type="hidden" value="pl-pl"/>
+<button class="icon-gsk-search-2" type="submit">Szukaj</button>
+</div>
+</form>

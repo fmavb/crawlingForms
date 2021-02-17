@@ -1,0 +1,71 @@
+<form action="/ReportsAwardSummary/Export_AwardSummary" id="ReportsAwardSummaryExport_AwardSummary" method="post" name="ReportsAwardSummaryExport_AwardSummary">
+<input id="hiddenOutputFormat" name="OutputFormat" type="hidden" value="XLSX"/>
+<input id="hiddenisExportControl" name="isExportControl" type="hidden" value="true"/>
+<input id="hiddenModelHash" name="ModelHash" type="hidden" value="ReportsAwardSummaryExport_AwardSummary"/>
+<div style="float: right; align-content:center">
+<label class="dxeBase_newTAGGSTheme dx-acc-r" id="ExportLabelReportsAwardSummaryExport_AwardSummary" style="margin-right:5px;">Export Options:   </label><script id="dxss_1769493927">
+<!--
+ASPx.createControl(MVCxClientLabel,'ExportLabelReportsAwardSummaryExport_AwardSummary','',{'accessibilityCompliant':true,'associatedControlName':'btnExportToXLSX'});
+
+//-->
+</script>
+<div style="float: right; clear: both;">
+<div class="dxbButton_newTAGGSTheme buttonExportXLSX dx-acc-r dxbButtonSys dxbTSys" id="btnExportToXLSXReportsAwardSummaryExport_AwardSummary" outputformatattribute="XLSX" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Excel (XLS) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToXLSXReportsAwardSummaryExport_AwardSummary_I" name="btnExportToXLSXReportsAwardSummaryExport_AwardSummary" title="Save this data to a Microsoft Excel (XLS) file." type="button" value="XLSX"/><span class="dx-vam" id="btnExportToXLSXReportsAwardSummaryExport_AwardSummary_BTC">XLSX</span>
+</div>
+</div><script id="dxss_504103287">
+<!--
+ASPx.AddHoverItems('btnExportToXLSXReportsAwardSummaryExport_AwardSummary',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToXLSXReportsAwardSummaryExport_AwardSummary',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToXLSXReportsAwardSummaryExport_AwardSummary',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToXLSXReportsAwardSummaryExport_AwardSummary',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToXLSXReportsAwardSummaryExport_AwardSummary','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsAwardSummaryExport_AwardSummary');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportPDF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToPDFReportsAwardSummaryExport_AwardSummary" outputformatattribute="PDF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to an Adobe Acrobat (PDF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToPDFReportsAwardSummaryExport_AwardSummary_I" name="btnExportToPDFReportsAwardSummaryExport_AwardSummary" title="Save this data to an Adobe Acrobat (PDF) file." type="button" value="PDF"/><span class="dx-vam" id="btnExportToPDFReportsAwardSummaryExport_AwardSummary_BTC">PDF</span>
+</div>
+</div><script id="dxss_1563897970">
+<!--
+ASPx.AddHoverItems('btnExportToPDFReportsAwardSummaryExport_AwardSummary',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToPDFReportsAwardSummaryExport_AwardSummary',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToPDFReportsAwardSummaryExport_AwardSummary',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToPDFReportsAwardSummaryExport_AwardSummary',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToPDFReportsAwardSummaryExport_AwardSummary','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsAwardSummaryExport_AwardSummary');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportRTF dx-acc-r dxbButtonSys dxbTSys" id="btnExportToRTFReportsAwardSummaryExport_AwardSummary" outputformatattribute="RTF" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Microsoft Word (RTF) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToRTFReportsAwardSummaryExport_AwardSummary_I" name="btnExportToRTFReportsAwardSummaryExport_AwardSummary" title="Save this data to a Microsoft Word (RTF) file." type="button" value="RTF"/><span class="dx-vam" id="btnExportToRTFReportsAwardSummaryExport_AwardSummary_BTC">RTF</span>
+</div>
+</div><script id="dxss_1003561784">
+<!--
+ASPx.AddHoverItems('btnExportToRTFReportsAwardSummaryExport_AwardSummary',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToRTFReportsAwardSummaryExport_AwardSummary',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToRTFReportsAwardSummaryExport_AwardSummary',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToRTFReportsAwardSummaryExport_AwardSummary',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToRTFReportsAwardSummaryExport_AwardSummary','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsAwardSummaryExport_AwardSummary');}});
+
+//-->
+</script>
+<div class="dxbButton_newTAGGSTheme buttonExportCSV dx-acc-r dxbButtonSys dxbTSys" id="btnExportToCSVReportsAwardSummaryExport_AwardSummary" outputformatattribute="CSV" style="user-select:none;-khtml-user-select:none;-ms-user-select:none;" title="Save this data to a Comma Separated Values (CSV) file.">
+<div class="dxb">
+<input class="dxAIFE" id="btnExportToCSVReportsAwardSummaryExport_AwardSummary_I" name="btnExportToCSVReportsAwardSummaryExport_AwardSummary" title="Save this data to a Comma Separated Values (CSV) file." type="button" value="CSV"/><span class="dx-vam" id="btnExportToCSVReportsAwardSummaryExport_AwardSummary_BTC">CSV</span>
+</div>
+</div><script id="dxss_628879092">
+<!--
+ASPx.AddHoverItems('btnExportToCSVReportsAwardSummaryExport_AwardSummary',[[['dxbButtonHover_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('btnExportToCSVReportsAwardSummaryExport_AwardSummary',[[['dxbButtonPressed_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('btnExportToCSVReportsAwardSummaryExport_AwardSummary',[[['dxbDisabled_newTAGGSTheme'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('btnExportToCSVReportsAwardSummaryExport_AwardSummary',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(MVCxClientButton,'btnExportToCSVReportsAwardSummaryExport_AwardSummary','',{'accessibilityCompliant':true,'useSubmitBehavior':false},{'Click':function(s, e) { OnExport(s, s.name, 'ReportsAwardSummaryExport_AwardSummary');}});
+
+//-->
+</script>
+</div>
+</div>
+</form>

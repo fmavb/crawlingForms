@@ -1,0 +1,46 @@
+<form action="">
+<div class="search-form">
+<svg class="icon-search">
+<use xlink:href="/assets/img/icon-sprite.svg#icon-search"></use>
+</svg>
+<input class="press-release-search__text-search" name="q" placeholder="Enter a search term..." title="Enter a search term..." type="search" value=""/>
+</div>
+<div class="press-release-search__option-wrapper" data-date="D MMM">
+<h3>Filter by:</h3>
+<div class="simple-listing__filters-select-wrapper">
+<select aria-label="Category" class="simple-listing__filters-select simple-listing__filters-select--category" id="f" name="f"><option value="">All categories</option>
+<option value="investors+and+corporate">Investors and Corporate</option>
+<option value="pharmaceuticals">Pharmaceuticals</option>
+<option value="vaccines">Vaccines</option>
+<option value="consumer+healthcare">Consumer Healthcare</option>
+<option value="research+%26+development">Research &amp; development</option>
+</select>
+</div>
+<div class="simple-listing__filters-select-wrapper">
+<select aria-label="Date" class="simple-listing__filters-select simple-listing__filters-select--date" id="dr" name="dr"><option value="">Date</option>
+<option value="all">All</option>
+<option value="7days">Last 7 days</option>
+<option value="1month">Last 1 Month</option>
+<option value="6months">Last 6 months</option>
+</select>
+</div>
+<div class="simple-listing__filters-select-wrapper">
+<a class="press-release-search__date-range" href=""><span class="date-range">Date range</span><span class="date-range-start"></span><span class="date-range-end"></span></a>
+</div>
+<p class="keyword-hidden"></p>
+<p class="category-hidden"></p>
+<p class="date-range-hidden"></p>
+<p class="start-date-hidden"></p>
+<p class="end-date-hidden"></p>
+<a class="button" href="">Search</a>
+</div>
+<div>
+<div class="select-input">
+<select aria-label="Sort by" class="auto-submit-press-release" data-key="ord" id="s" name="s"><option value="">Sort by</option>
+<option selected="selected" value="date">Most recent</option>
+<option value="rel">Most relevant</option>
+</select>
+<svg><use xlink:href="/assets/img/icon-sprite.svg#icon-chevron-down" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+</div>
+</div>
+</form>

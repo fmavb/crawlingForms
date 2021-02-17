@@ -1,0 +1,55 @@
+<form action="#" autocomplete="off" id="frmUnrestrictedManageTokens">
+<div class="ui-form ui-body ui-body-a ui-corner ui-corner-all ui-form-shadow">
+<p></p>
+<div class="ui-bar ui-bar-b ui-corner ui-corner-all">
+<h4 class="lblManageTokens">
+</h4>
+</div>
+<p></p>
+<ul data-inset="true" data-role="listview" data-theme="c">
+<li data-role="list-divider" data-theme="d">
+<span id="lblPreReq">
+</span>
+</li>
+<li data-role="list-divider" data-theme="a"><span id="msgOpenOnDevice"></span></li>
+<li><a href="/password/Pages/Unrestricted/InstallApp.aspx" rel="external">
+<img alt="lblInstallTokenAuthApp" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/one.png" title="lblInstallTokenAuthApp" width="16"/>
+<span id="lblInstallTokenAuthApp"></span></a></li>
+<li><a href="/password/Pages/Unrestricted/SetupAccountRecovery.aspx" rel="external">
+<img alt="lblSetupAccountRecovery" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/two.png" title="lblSetupAccountRecovery" width="16"/>
+<span id="lblSetupAccountRecovery"></span></a></li>
+</ul>
+<ul data-inset="true" data-role="listview" data-theme="c">
+<li data-role="list-divider" data-theme="a"><span id="msgIfHaveSoftToken"></span></li>
+<li><a href="/password/Pages/Unrestricted/DownloadToken.aspx" rel="external">
+<img alt="lblDownloadToken" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/three.png" title="lblDownloadToken" width="16"/>
+<span id="lblDownloadToken"></span></a></li>
+</ul>
+<ul data-inset="true" data-role="listview" data-theme="c">
+<li data-role="list-divider" data-theme="a"><span id="msgIfNoToken"></span></li>
+<li><a href="/password/Pages/Unrestricted/RequestToken.aspx" rel="external">
+<img alt="lblRequestToken" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/four.png" title="lblRequestToken" width="16"/>
+<span id="lblRequestToken"></span></a></li>
+</ul>
+<ul data-inset="true" data-role="listview" data-theme="c">
+<li data-role="list-divider" data-theme="d">
+<span id="lblAdditionalTasks">
+</span>
+</li>
+<li data-role="list-divider" data-theme="a"><span id="msgAcctRecPrereq"></span></li>
+<li><a href="/password/Pages/Unrestricted/ForgottenTokenPin.aspx" rel="external">
+<img alt="lblForgottenTokenPin" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/first-aid.png" title="lblForgottenTokenPin" width="16"/>
+<span id="lblForgottenTokenPin"></span></a></li>
+<li><a href="/password/Pages/Unrestricted/TestRemoteAccess.aspx" rel="external">
+<img alt="lblTestRemoteAccess" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/todo.png" title="lblTestRemoteAccess" width="16"/>
+<span id="lblTestRemoteAccess"></span></a></li>
+<li><a href="/password/Pages/Unrestricted/ReplaceToken.aspx" rel="external">
+<img alt="lblReplaceExpiredToken" class="ui-li-icon" height="16" src="/password/resources/images/icons/png/clock.png" title="lblReplaceExpiredToken" width="16"/>
+<span id="lblReplaceExpiredToken"></span></a></li>
+</ul>
+<div class="buttongroup" data-role="controlgroup" data-type="horizontal">
+<a data-direction="reverse" data-icon="back" data-role="button" data-theme="d" href="/password/"><span class="btnBack"></span></a>
+</div>
+<p></p>
+</div>
+</form>

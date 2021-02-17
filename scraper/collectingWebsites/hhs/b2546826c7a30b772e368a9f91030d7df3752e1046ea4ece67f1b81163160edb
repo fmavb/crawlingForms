@@ -1,0 +1,22 @@
+<form action="https://search.hhs.gov/searchblox/hhs/index.html" method="get" name="HHS">
+<label class="sr-only" for="global-search">Search</label>
+<div class="auto-suggest">
+<input autocomplete="off" class="global-search" id="global-search" maxlength="256" name="query" placeholder="I'm looking for..." title="Search Text" type="search" value=""/>
+<input alt="Search" class="global-search-btn" id="HHS" name="HHS" tabindex="0" type="submit" value="Search"/>
+</div>
+<input name="page" type="hidden" value="1"/>
+<input name="pagesize" type="hidden" value="10"/>
+<input name="sortdir" type="hidden" value="desc"/>
+<input name="sort" type="hidden" value="relevance"/>
+<input name="adsCname" type="hidden" value="HHS"/>
+<input name="adsDisplay" type="hidden" value="true"/>
+<input name="cname" type="hidden" value="hhsgov_only"/>
+<input name="default" type="hidden" value="AND"/>
+<input name="tune" type="hidden" value="true"/>
+<input name="tune.0" type="hidden" value="10"/>
+<input name="tune.1" type="hidden" value="8"/>
+<input name="tune.2" type="hidden" value="2"/>
+<input name="tune.3" type="hidden" value="5"/>
+<input name="tune.4" type="hidden" value="365"/>
+<input name="tune.5" type="hidden" value="30"/>
+</form>

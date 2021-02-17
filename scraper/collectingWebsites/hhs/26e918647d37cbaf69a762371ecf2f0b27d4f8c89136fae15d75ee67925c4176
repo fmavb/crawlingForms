@@ -1,0 +1,5 @@
+<form accept-charset="UTF-8" action="/documents/search" class="search-form formtastic conditions" method="get" novalidate="novalidate"><input name="utf8" type="hidden" value="✓"/>
+<label for="term">Search the Federal Register</label>
+<input aria-label="Search Documents" class="search-term" id="conditions_term" name="conditions[term]" placeholder="Search Documents" type="text"/>
+<button aria-label="Search" class="search-submit" id="conditions_submit" name="button" type="submit"><span class="icon-fr2 icon-fr2-Search"></span></button>
+</form>

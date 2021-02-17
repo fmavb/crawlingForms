@@ -1,0 +1,12 @@
+<form class="form-search" id="pipeline-search">
+<div class="pipeline-search">
+<input class="pipeline-search__input" data-pipeline="search-input" placeholder="Enter compound number or name" type="text"/>
+<button class="button" data-pipeline="search-button" type="submit">
+<div>
+<svg>
+<use xlink:href="/assets/img/icon-sprite.svg#icon-search"></use>
+</svg>
+</div>
+</button>
+</div>
+</form>
