@@ -12,8 +12,7 @@ for filename in pwd:
     html = BeautifulSoup(openedText)
     allInput = html.find_all("input")
     if len(allInput) <= 1:
-      if allInput[0]["type"] == "hidden":
-        os.remove(allInput[0])
+      input += 1
     opened.close()
   except:
     if opened is not None:
