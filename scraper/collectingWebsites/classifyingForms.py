@@ -8,7 +8,7 @@ import spacy
 import xx_ent_wiki_sm
 from sklearn.svm import SVC
 from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 
@@ -51,8 +51,8 @@ def fileParser(fileName, dir, modelSVM, modelTree, modelLogis, cursor, fileCount
     try:
         text = openFile.read()
 
-        fileNameSQL = 'INSERT INTO forms (id, fileName, website) VALUES (%s, %s, %s)'
-        tokenSQL = 'INSERT INTO form_fields (token, fieldType, predictedSensitivity, formID, model) VALUES (%s, %s, %s, %s, %s)'
+        fileNameSQL = 'INSERT INTO forms2 (id, fileName, website) VALUES (%s, %s, %s)'
+        tokenSQL = 'INSERT INTO form_fields2 (token, fieldType, predictedSensitivity, formID, model) VALUES (%s, %s, %s, %s, %s)'
 
         cursor.execute(fileNameSQL,(fileCounter, fileName, dir))
         html = BeautifulSoup(text, features="lxml")
@@ -161,7 +161,7 @@ nlp = xx_ent_wiki_sm.load(disable=['ner'])
 
 
 pipeSVM = Pipeline([("word", Pipeline([('selector', ItemSelector(key='words')), 
-                                         ('tfidf', CountVectorizer(tokenizer=tokenize_normalize,binary=True))])), 
+                                         ('tfidf', TfidfVectorizer(tokenizer=tokenize_normalize))])),
                       ("SVM", SVC(kernel="linear", break_ties=True, max_iter=-1, C=100, tol=0.1))])
 
 pipeSVM.fit(training_data, train_labels)
@@ -174,7 +174,7 @@ pipeTree.fit(training_data, train_labels)
 
 pipeLogis = Pipeline([("word", Pipeline([('selector', ItemSelector(key='words')), 
                                          ('tfidf', CountVectorizer(tokenizer=tokenize_normalize,binary=True))])), 
-                      ("lr", LogisticRegression())])
+                      ("lr", LogisticRegression(C=10, max_iter=200, penalty='l2',solver='newton-cg'))])
 
 pipeLogis.fit(training_data, train_labels)
 

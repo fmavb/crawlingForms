@@ -45,7 +45,7 @@ def tokenize_normalize(string):
 
 
 def predictSensitivity(fields, vectorizer, model, cursor):
-    sqlNB = "UPDATE WordNetEval6 SET Bayes=%s WHERE id=%s"
+    sqlNB = "UPDATE WordNetEval7 SET Bayes=%s WHERE id=%s"
     
     vectors = vectorizer.transform(fields["words"])
 
@@ -101,7 +101,7 @@ trainD = vectorizer.fit_transform(training_data["words"])
 gModel = GaussianNB(var_smoothing=0.000000000000000001)
 gModel.fit(trainD.toarray(), train_labels)
 
-fetchSQL = 'SELECT word, id FROM WordNetEval6'
+fetchSQL = 'SELECT word, id FROM WordNetEval7'
 cursor.execute(fetchSQL)
 
 data = cursor.fetchall()

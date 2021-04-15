@@ -45,9 +45,9 @@ def tokenize_normalize(string):
 
 
 def predictSensitivity(fields, modelSVM, modelTree, modelLogis, cursor):
-    sqlSVM = "UPDATE WordNetEval6 SET SVM=%s WHERE id=%s"
-    sqlTree = "UPDATE WordNetEval6 SET Tree=%s WHERE id=%s"
-    sqlLogis = "UPDATE WordNetEval6 SET Logistic=%s WHERE id=%s"
+    sqlSVM = "UPDATE WordNetEval7 SET SVM=%s WHERE id=%s"
+    sqlTree = "UPDATE WordNetEval7 SET Tree=%s WHERE id=%s"
+    sqlLogis = "UPDATE WordNetEval7 SET Logistic=%s WHERE id=%s"
     
     resultsSVM = modelSVM.predict(fields)
     resultsTree = modelTree.predict(fields)
@@ -118,11 +118,11 @@ pipeTree.fit(training_data, train_labels)
 
 pipeLogis = Pipeline([("word", Pipeline([('selector', ItemSelector(key='words')), 
                                          ('tfidf', CountVectorizer(tokenizer=tokenize_normalize,binary=True))])), 
-                      ("lr", LogisticRegression())])
+                      ("lr", LogisticRegression(C=10, max_iter=200, penalty='l2',solver='newton-cg'))])
 
 pipeLogis.fit(training_data, train_labels)
 
-fetchSQL = 'SELECT word, id FROM WordNetEval6'
+fetchSQL = 'SELECT word, id FROM WordNetEval7'
 cursor.execute(fetchSQL)
 
 data = cursor.fetchall()

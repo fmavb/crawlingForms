@@ -4,14 +4,13 @@ import pandas as pd
 import numpy as np
 from nltk.corpus import wordnet as wn
 from nltk.corpus import stopwords
-import concurrent
 
 def hypernyms(field, cursor):
     wordArray = field.split(" ")
     stopWordsRemoved = [word for word in wordArray if word not in stopwords.words('english')]
 
     toDB = []
-    sql = "INSERT INTO WordNetEval6 (token, exactWord, word, type) VALUES (%s, %s, %s, %s)"
+    sql = "INSERT INTO WordNetEval7 (token, exactWord, word, type) VALUES (%s, %s, %s, %s)"
     
     synsets = wn.synsets(field.replace(" ", "_"))
     if len(synsets) > 0:
@@ -19,12 +18,12 @@ def hypernyms(field, cursor):
             for hypernym in synset.hypernyms():
                 for lemma in hypernym.lemmas():
                     toDB.append((field, field, str(lemma.name()), "hypernym"))
-    else:
+    """else:
         for word in stopWordsRemoved:
             for synset in wn.synsets(word):
                 for hypernym in synset.hypernyms():
                     for lemma in hypernym.lemmas():
-                        toDB.append((field, word, str(lemma.name()), "hypernym"))
+                        toDB.append((field, word, str(lemma.name()), "hypernym"))"""
     
     cursor.executemany(sql, toDB)
     return
@@ -35,7 +34,7 @@ def hyponyms(field, cursor):
     stopWordsRemoved = [word for word in wordArray if word not in stopwords.words('english')]
     
     toDB = []
-    sql = "INSERT INTO WordNetEval6 (token,exactWord, word, type) VALUES (%s,%s, %s, %s)"
+    sql = "INSERT INTO WordNetEval7 (token,exactWord, word, type) VALUES (%s,%s, %s, %s)"
     #for word in stopWordsRemoved:
     synsets = wn.synsets(field.replace(" ", "_"))
     if len(synsets) > 0:
@@ -43,12 +42,12 @@ def hyponyms(field, cursor):
             for hyponym in synset.hyponyms():
                 for lemma in hyponym.lemmas():
                     toDB.append((field, field, str(lemma.name()), "hyponym"))
-    else:
+    """else:
         for word in stopWordsRemoved:
             for synset in wn.synsets(word):
                 for hyponym in synset.hyponyms():
                     for lemma in hyponym.lemmas():
-                        toDB.append((field, word, str(lemma.name()), "hyponym"))
+                        toDB.append((field, word, str(lemma.name()), "hyponym"))"""
     cursor.executemany(sql, toDB)
     return
     
@@ -61,7 +60,7 @@ cursor = db.cursor()
 cursor.execute("set @@sql_mode='NO_ENGINE_SUBSTITUTION';")
 db.commit()
 
-fetchSQL = "SELECT DISTINCT token FROM form_fields"
+fetchSQL = "SELECT DISTINCT token FROM form_fields2"
 
 cursor.execute(fetchSQL)
 

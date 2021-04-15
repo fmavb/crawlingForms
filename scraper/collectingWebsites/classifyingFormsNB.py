@@ -47,8 +47,8 @@ def fileParser(fileName, dir, vectorizer, model, cursor, fileCounter, db):
     try:
         text = openFile.read()
 
-        fileNameSQL = 'INSERT INTO forms (id, fileName, website) VALUES (%s, %s, %s)'
-        tokenSQL = 'INSERT INTO form_fields (token, fieldType, predictedSensitivity, formID, model) VALUES (%s, %s, %s, %s, %s)'
+        fileNameSQL = 'INSERT INTO forms2 (id, fileName, website) VALUES (%s, %s, %s)'
+        tokenSQL = 'INSERT INTO form_fields2 (token, fieldType, predictedSensitivity, formID, model) VALUES (%s, %s, %s, %s, %s)'
 
         #cursor.execute(fileNameSQL,(fileCounter, fileName, dir))
         html = BeautifulSoup(text, features="lxml")
