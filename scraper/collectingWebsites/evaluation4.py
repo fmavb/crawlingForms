@@ -1,3 +1,4 @@
+from os import stat
 import mysql.connector
 
 def stats(model, fieldName1, fieldName2):
@@ -95,3 +96,4 @@ stats("Support Vector Machine", "SVM", "Support Vector Machine")
 stats("Decision Trees", "Tree", "Decision Trees")
 stats("Logistic Regression", "Logistic", "Logistic Regression")
 stats("Naive Bayes", "Bayes", "Naive Bayes")
+stats("KNN", "KNN", "KNN")
